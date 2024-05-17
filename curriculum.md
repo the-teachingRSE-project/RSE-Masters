@@ -55,3 +55,14 @@ The thesis should answer a relevant research question (strengthening (\gls{NEW})
 Software development is required, and the code is part of the gradable deliverables.
 The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
+
+## Semester 1
+- harmonization semester. We assume physicists and bioinformatics
+
+## Semester 2
+
+## Semester 3
+- Introduction to thesis topic
+
+## Semester 4
+- Thesis
