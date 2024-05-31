@@ -57,12 +57,51 @@ The RSE supervisor ensures and grades the software craftsmanship aspects of the 
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
 
 ## Semester 1
-- harmonization semester. We assume physicists and bioinformatics
+This is the harmonization semester. We assume physicists and bioinformatics and computer scientists
+
+### Technical Skills (12 ECTS, 14 SWS):
+- Lecture: Data-centric language: e.g. R/Python 2SWS -> 1 ECTS
+- Exercise: Data-science with a Data-centric language 4 SWS -> 4 ECTS
+- Lecture: Computing Environment Module - 1 (unix shell, Versionskontrolle, documentation, tests, IDE?) (2SWS) -> 1 ECTS
+- Exercise: Computing Environment Module applied with an interpreted language 2 SWS -> 2 ECTS
+- Software Engineering lecture (Requirements Engineering, Software Architecture) 4 SWS -> 4 ECTS
+
+### Research Skills(4 ECTS):
+- Lecture: Data Ethics (2SWS) -> 1 ECTS
+- Lecture: Data science/analysis/statistics (2SWS) -> 1ECTS
+
+
+### Communication Skills (4 ECTS):
+- Lecture + Exercise + Praktikum: collaborative Software Development with a platform(issues, MRs, project management, branches) (2SWS), 2 ECTS -> this can be offered as a service course to other domains
+
+
+### Domain?
+approximately 10 ECTS per Semester
 
 ## Semester 2
 
+### Technical Skills:
+- Lecture: Hardware Module: (FP Arithmetik, Neumann-Architektur, Computer-Netzwerke(4 Wochen: from LAN upto WAN), Speicherlayout(Caches, NUMA), Heterogene Compute Architectures) 2SWS - 1 ECTS
+- Lecture: Computing Environment Module - 2 ()
+
+### Research Skills:
+
+### Communication Skills
+
+### Domain?
+
+
 ## Semester 3
 - Introduction to thesis topic
+
+### Technical Skills:
+- 
+
+### Research Skills:
+
+### Communication Skills
+
+### Domain?
 
 ## Semester 4
 - Thesis
