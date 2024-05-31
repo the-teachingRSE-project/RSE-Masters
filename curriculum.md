@@ -83,7 +83,9 @@ approximately 9 ECTS per Semester
 ## Semester 2
 
 ### Technical Skills:
+- Lecture: Machine-oriented language: E.g. Fortran/C++ 2SWS -> 1ECTS
 - Lecture: Hardware Module: (FP Arithmetik, Neumann-Architektur, Computer-Netzwerke(4 Wochen: from LAN upto WAN), Speicherlayout(Caches, NUMA), Heterogene Compute Architectures) 2SWS - 1 ECTS
+- Exercise: Machine-oriented languages on actual hardware 2 SWS -> 1ECTS 
 - Lecture: Computing Environment Module - 2 ()
 
 ### Research Skills:
