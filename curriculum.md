@@ -66,17 +66,19 @@ This is the harmonization semester. We assume physicists and bioinformatics and 
 - Exercise: Computing Environment Module applied with an interpreted language 2 SWS -> 2 ECTS
 - Software Engineering lecture (Requirements Engineering, Software Architecture) 4 SWS -> 4 ECTS
 
-### Research Skills(4 ECTS):
-- Lecture: Data Ethics (2SWS) -> 1 ECTS
+### Research Skills(5 ECTS, 8SWS):
+- Lecture: Research + Data Ethics (4SWS) -> 2 ECTS
 - Lecture: Data science/analysis/statistics (2SWS) -> 1ECTS
+- Lecture: Interaction with Data repositories in NFDI (2 SWS) -> 1 ECTS
 
-
-### Communication Skills (4 ECTS):
+### Communication Skills (4 ECTS, 4 SWS):
 - Lecture + Exercise + Praktikum: collaborative Software Development with a platform(issues, MRs, project management, branches) (2SWS), 2 ECTS -> this can be offered as a service course to other domains
+- Seminar: Science Slam! Present your Bachelor thesis to a an audience of non-experts! (2SWS) 2ECTS Preparation: (Elements of Carpentry Instructor Training?)
 
 
 ### Domain?
-approximately 10 ECTS per Semester
+- Exercise: Interaction with Data repositories in NFDI (2 SWS) -> 1 ECTS
+approximately 9 ECTS per Semester
 
 ## Semester 2
 
