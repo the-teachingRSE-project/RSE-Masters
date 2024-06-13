@@ -107,5 +107,9 @@ approximately 9 ECTS per Semester
 
 ### Domain?
 
+
+# Ideas:
+Electronic Lab course. heard of this in Erlangen for physics. talks about ELN among other things.
+
 ## Semester 4
 - Thesis
