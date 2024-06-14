@@ -102,9 +102,10 @@ approximately 9 ECTS per Semester
 - Introduction to thesis topic
 
 ### Technical Skills:
-- 
+- optional SE lectures
 
 ### Research Skills:
+- optional: more domain lectures.
 - Lecture: Meta-Research(2 SWS) -> 1 ECTS
 - Block-Praktikum: ReproHack, fremde Domäne (4 SWS, 4 ECTS), gerne auch als Service Veranstaltung
 
