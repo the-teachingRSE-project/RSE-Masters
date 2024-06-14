@@ -61,7 +61,7 @@ This is the harmonization semester. We assume physicists and bioinformatics and 
 
 ### Technical Skills (12 ECTS, 14 SWS):
 - Lecture: Data-centric language: e.g. R/Python 2SWS -> 1 ECTS
-- Exercise: Data-science with a Data-centric language 4 SWS -> 4 ECTS
+- Exercise: Data-science with a Data-centric language(Also with NFDI repo) 4 SWS -> 4 ECTS
 - Lecture: Computing Environment Module - 1 (unix shell, Versionskontrolle, documentation, tests, IDE?) (2SWS) -> 1 ECTS
 - Exercise: Computing Environment Module applied with an interpreted language 2 SWS -> 2 ECTS
 - Software Engineering lecture (Requirements Engineering, Software Architecture) 4 SWS -> 4 ECTS
@@ -72,9 +72,8 @@ This is the harmonization semester. We assume physicists and bioinformatics and 
 - Lecture: Interaction with Data repositories in NFDI (2 SWS) -> 1 ECTS
 
 ### Communication Skills (4 ECTS, 4 SWS):
-- Lecture + Exercise + Praktikum: collaborative Software Development with a platform(issues, MRs, project management, branches) (2SWS), 2 ECTS -> this can be offered as a service course to other domains
+- (*) Lecture + Exercise + Praktikum: collaborative Software Development with a platform(issues, MRs, project management, branches) (2SWS), 2 ECTS -> this can be offered as a service course to other domains
 - Seminar: Science Slam! Present your Bachelor thesis to a an audience of non-experts! (2SWS) 2ECTS Preparation: (Elements of Carpentry Instructor Training?)
-
 
 ### Domain?
 - Exercise: Interaction with Data repositories in NFDI (2 SWS) -> 1 ECTS
@@ -82,18 +81,22 @@ approximately 9 ECTS per Semester
 
 ## Semester 2
 
-### Technical Skills:
+### Technical Skills (8 SWS, 4 ECTS):
 - Lecture: Machine-oriented language: E.g. Fortran/C++ 2SWS -> 1ECTS
 - Lecture: Hardware Module: (FP Arithmetik, Neumann-Architektur, Computer-Netzwerke(4 Wochen: from LAN upto WAN), Speicherlayout(Caches, NUMA), Heterogene Compute Architectures) 2SWS - 1 ECTS
 - Exercise: Machine-oriented languages on actual hardware 2 SWS -> 1ECTS 
 - Lecture: Computing Environment Module - 2 ()
 
-### Research Skills:
+### Research Skills: (14 SWS, 8ECTS)
+- Lecture: Urheberrecht, Verwertung, Patentierbarkeit (Vorlesung, 2 SWS) -> 1ECTS
+- Lecture: Software Publishing, Scientific Publishing, Technical Documentation (2SWS) -> 1 ECTS
+- Praktikum: Publishing des Projekts aus (*) mit gegenseitigem review (2SWS, aber eher 6x 4SWS, oder als Block) -> 1ECTS
+- Block-Praktikum: ReproHack, eigene Domäne (4 SWS, 4 ECTS), gerne auch als Service Veranstaltung: Nachwuchsgewinnung
+- 4 SWS Domäne 
 
-### Communication Skills
-
-### Domain?
-
+### Communication Skills (6 SWS)
+- Lecture: Software-Management (Project Management focussed) (2SWS)
+- Lecture + Praktischer Teil: Lehre mit Erwachsenen: Carpentry mit Erwachsen (Carpentry Instructor training ist 1/3 Semester mit kleinem Praktikum ) , Erwachsenenbildung aus dem Angebot der Universität. (4 SWS)
 
 ## Semester 3
 - Introduction to thesis topic
@@ -102,14 +105,16 @@ approximately 9 ECTS per Semester
 - 
 
 ### Research Skills:
+- Lecture: Meta-Research(2 SWS) -> 1 ECTS
+- Block-Praktikum: ReproHack, fremde Domäne (4 SWS, 4 ECTS), gerne auch als Service Veranstaltung
+
 
 ### Communication Skills
 
 ### Domain?
 
-
-# Ideas:
-Electronic Lab course. heard of this in Erlangen for physics. talks about ELN among other things.
-
 ## Semester 4
 - Thesis
+
+# Ideas:
+Electronic Lab course. heard of this in Erlangen for physics. Talks about ELN among other things.
