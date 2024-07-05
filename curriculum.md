@@ -3,6 +3,132 @@
 
 ## Possible job roles for an RSE
 
+#### Open science RSE
+Open science and FAIRness of data and software are increasingly important topics in research,
+as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
+Hence, an open science RSE is required to have a deeper knowledge in (\gls{RC}) and how to distribute software publicly (\gls{SRU}, \gls{SP}).
+Open Science RSEs can help researchers navigate the technical questions that come up
+when practising Open Science, such as "How do I make my code presentable?",
+"How do I make my code citable?",
+"What do I need to do to make my software \ac{FAIR}?", or
+"How do I sustainably work with an (international) team on a large code base?".
+Like the Data-focused RSE, they have a deep understanding of \ac{RDM} topics.
+
+#### Project/community manager RSEs
+
+When research software projects become larger, they need someone who manages
+processes and people.
+In practice, this concerns change management for code and documentation
+and community work to safeguard usability and adaptability,
+but also handling project governance and scalable decision-making processes.
+This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
+Building a community around a research project is an
+important building block in building sustainable software [@Segal2009], so these RSEs play
+an important role, even if they do not necessarily touch much of the code themselves.
+
+#### Teaching RSEs
+RSEs interested in developing their (\gls{TEACH}) skill can focus on teaching the next generation of researchers and/or RSEs and will play
+a vital role in improving the quality of research software.
+They need to have a good understanding of all RSE competencies relevant to their domain and
+additionally should have experience or training in the educational field.
+
+
+#### User interface/user experience designers for research software
+Scientific software is a complex product that often needs to be refined in order to be usable even by other scientists.
+To facilitate this, there are people required that specialise in the (\gls{DOCBB}) and probably the (\gls{DIST}) competency
+with a focus on making end-user facing software really reusable and hence \ac{FAIR}.
+This task is supported by strong (\gls{MOD}) skills to reason about the behaviour of potential users of the software.
+
+## Specialisations outside the core RSE competencies
+
+
+<!--
+Research focused specialisations
+-->
+
+#### \${DOMAIN}-RSE
+While software is the lingua franca of all RSEs, there will be RSEs that have specialised in the intricacies of one particular research domain,
+such as medical RSEs, digital humanities RSEs, or physics RSEs.
+This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster.
+
+#### Data-focused RSE
+RSEs working at the flourishing intersection between data science and RSE.
+They are skilled in cleaning data and/or running data analyses and can help researchers
+in setting up their analysis pipeline and/or \ac{RDM} solutions.
+When the field requires research on sensitive data or information, e.g., patient information in medicine,
+this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
+As part of \ac{RDM}, this RSE profile is able to support all stages of the research data life cycle [@Nieva2020], with synchronous data management processes.
+Those processes implement established best practices for planning and documenting of data acquisition in a \ac{DMP}, as well as for management,
+storage, and preservation of data, and publication and sharing of data in repositories according to the \ac{FAIR} principles [@FAIR].
+
+
+<!--
+New areas of expertise
+-->
+
+#### Research infrastructure RSE
+This RSE is interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
+Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
+on the other hand knowledge about setup and configuration of particular server software,
+e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for \ac{ML}.
+As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
+
+#### Legacy RSEs
+Research software may be used and evolved over generations of research without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
+This may lead to the emergence of legacy code that is actively used.
+To safeguard continued usability and adoption,
+these RSEs have experience in working with legacy code,
+and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
+Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
+may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
+
+#### HPC-RSE
+
+RSEs with a focus on \ac{HPC} have specialist knowledge
+about programming models that can be used to efficiently undertake large-scale
+computations on parallel computing clusters. They may have knowledge of (automatic)
+code optimisation tools and methods and will understand how to write code that is
+optimised for different types of computing platforms, leveraging various efficiency
+related features of the target hardware. They are familiar with \acrshort{HPC}-specific
+package managers and can build dependencies from sources. They also understand the process of
+interacting with job scheduling systems that are often used on \ac{HPC} clusters to
+manage the queuing and running of computational tasks. \acrshort{HPC}-focused RSEs may be
+involved with managing \ac{HPC} infrastructure at the hardware or software level (or
+both) and understand how to calculate the environmental impact of large-scale
+computations. Their knowledge of how to run \ac{HPC} jobs and write successful \ac{HPC}
+access proposals can be vitally important to researchers wanting to make use of
+\ac{HPC} infrastructure.
+
+#### ML-RSE
+The development of research software based on \ac{ML} requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
+This involves knowledge about data analysis and feature engineering, metrics that are involved in \ac{ML}, \ac{ML} algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
+Here, we use \ac{ML} in a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
+
+ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting \ac{ML} libraries for a given task.
+The increasing usage of \ac{ML} in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible influences and biases.
+At the intersection of data science [@SSIDataScience] and data-focused RSEs,
+the complex way of solving problems utilising \ac{ML} calls for this separate specialisation.
+
+#### Web-development RSE
+This RSE is skilled in web applications, front- and/or backend, and/or building
+and using APIs, for example for research data portals or big research projects.
+Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
+range of researchers or even the public to use the resulting applications.
+Therefore, a deep knowledge of web development skills is a required additional skill for this RSE.
+
+#### Legal-RSE
+All RSEs are a go-to person for questions about licensing, in particular when mixing software components with different licences.
+But with the rising requirements from legislation,
+we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes,
+that cover corner cases and go beyond applying Best Practice guides.
+These requirements may arise in the area of publication of research software,
+as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
+like the \ac{GDPR} within the \ac{EU} [@GDPR].
+Another area are legal aspects of cybersecurity and export control in science and research (see @ExportControl for Germany).
+Legal-RSEs focus on facilitating the achievement of technically feasible solutions, while adhering to regulatory mandates.
+They are able to communicate and collaborate with lawyers.
+
+
 ## A curriculum
 ### Semester 1
 This is the harmonization semester. We assume physicists, bioinformatics and computer scientists
