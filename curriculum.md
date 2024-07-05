@@ -57,12 +57,13 @@ The RSE supervisor ensures and grades the software craftsmanship aspects of the 
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
 
 ## Semester 1
-This is the harmonization semester. We assume physicists and bioinformatics and computer scientists
+This is the harmonization semester. We assume physicists, bioinformatics and computer scientists
 
-### Technical Skills (12 ECTS, 14 SWS):
+### Technical Skills (13 ECTS, 16 SWS):
 - Lecture: Data-centric language: e.g. R/Python 2SWS -> 1 ECTS
 - Exercise: Data-science with a Data-centric language(Also with NFDI repo) 4 SWS -> 4 ECTS
 - Lecture: Computing Environment Module - 1 (unix shell, Versionskontrolle, documentation, tests, IDE?) (2SWS) -> 1 ECTS
+- Lecture: theoretical Foundations of Computer Science 2SWS -> 1 ECTS
 - Exercise: Computing Environment Module applied with an interpreted language 2 SWS -> 2 ECTS
 - Software Engineering lecture (Requirements Engineering, Software Architecture) 4 SWS -> 4 ECTS
 
