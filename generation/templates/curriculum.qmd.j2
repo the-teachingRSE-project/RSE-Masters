@@ -1,0 +1,28 @@
+{%- for semester in semesters %}
+# {{ semester.title }}
+
+{{ semester.description }}
+
+{%- for module in semester.modules %}
+
+## {{ module.category }} ({{ module.ects }} ECTS, {{ module.sws }} SWS)
+
+| Type       | Description                                            | SWS | ECTS |
+|------------|--------------------------------------------------------|-----|------|
+{%- for entry in module.entries %}
+| {{ entry.keys() | list | first }} | {{ entry.values() | list | first }} | {{ entry.sws }} | {{ entry.ects }} |
+{%- endfor %}
+
+{%- endfor %}
+
+---
+
+{%- endfor %}
+
+# Competences
+
+| ID  | Description | Disciplines | Prerequisites | Evidence | Source |
+|-----|-------------|-------------|---------------|----------|--------|
+{%- for c in competences %}
+| {{ c.id }} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.source }} |
+{%- endfor %}

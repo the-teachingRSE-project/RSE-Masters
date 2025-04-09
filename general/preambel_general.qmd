@@ -1,0 +1,25 @@
+# RSE- Master curriculum
+## Preamble
+The term Research Software Engineer, or RSE,
+emerged a little over 10 years ago as a way to represent
+individuals working in the research community but focusing on software development.
+The term has been widely adopted and there are a number of high-level definitions of what an RSE is.
+However, the roles of RSEs vary depending on the institutional context they work in.
+At one end of the spectrum, RSE roles may look similar to a traditional research role.
+At the other extreme, they resemble that of a software engineer in industry.
+Most RSE roles inhabit the space between these two extremes.
+
+For the purpose of creating an RSE-Master Programm we identify the RSE as a person who
+creates or improves research software and/or the structures that the software interacts with
+in the computational environment of a research domain.
+In this spectrum we see skilled team member who may also choose to conduct own research as part of their role.
+But on the other end we also see paths for an RSE to specifically focus on a technical
+role as an alternative to a traditional research role
+because they enjoy and wish to focus on the development of research software.
+
+For this task, to support research with/in the creation of digital tools,
+we structure this sample curriculum along three pillars:
+
+- research skills: these are competencies that enable an RSE to effectively participate in the research domain.
+- technical skills: these are compteencies, that enable an RSE to create effective tools for research
+- communication skills: these are skills that enable an RSE to effectively work and communicate with its peers and stakeholders across multiple domains.

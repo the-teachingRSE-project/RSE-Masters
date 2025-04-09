@@ -1,0 +1,49 @@
+
+# Semester 1
+
+Harmonization semester for physicists, bioinformatics and computer scientists
+
+## Technical Skills (13 ECTS, 16 SWS)
+
+| Type       | Description                                            | SWS | ECTS |
+|------------|--------------------------------------------------------|-----|------|
+| Lecture | Data-centric language: e.g. R/Python | 2 | 1 |
+| Exercise | Data-science with a Data-centric language (NFDI repo) | 4 | 4 |
+| Lecture | Computing Environment Module - 1 | 2 | 1 |
+| Lecture | Theoretical Foundations of Computer Science | 2 | 1 |
+| Exercise | Computing Env. Module applied (interpreted lang) | 2 | 2 |
+| Lecture | Software Engineering (Reqs, Architecture) | 4 | 4 |
+
+## Research Skills (5 ECTS, 8 SWS)
+
+| Type       | Description                                            | SWS | ECTS |
+|------------|--------------------------------------------------------|-----|------|
+| Lecture | Research + Data Ethics | 4 | 2 |
+| Lecture | Data science/analysis/statistics | 2 | 1 |
+| Lecture | Interaction with NFDI repositories | 2 | 1 |
+
+## Communication Skills (4 ECTS, 4 SWS)
+
+| Type       | Description                                            | SWS | ECTS |
+|------------|--------------------------------------------------------|-----|------|
+| Lecture | Collaborative Software Dev (platforms) | 2 | 2 |
+| Seminar | Science Slam - Present your Bachelor thesis! | 2 | 2 |
+
+---
+# Semester 2
+
+
+
+---
+# Semester 3
+
+Thesis preparation
+
+---
+
+# Competences
+
+| ID  | Description | Disciplines | Prerequisites | Evidence | Source |
+|-----|-------------|-------------|---------------|----------|--------|
+| C01 | Use a version control system to track software changes | CS, Bioinformatics |  | Push a merge request with documented code | Florian Goth, https://github.com/the-teachingRSE-project/RSE-Masters |
+| C02 | Conduct a ReproHack on domain-specific data | Physics, CS | C01 | Submit a ReproHack report | Florian Goth, https://github.com/the-teachingRSE-project/RSE-Masters |
