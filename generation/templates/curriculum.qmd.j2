@@ -7,22 +7,27 @@
 
 ## {{ module.category }} ({{ module.ects }} ECTS, {{ module.sws }} SWS)
 
-| Type       | Description                                            | SWS | ECTS |
-|------------|--------------------------------------------------------|-----|------|
+| Type       | Description                                            | SWS | ECTS | Competences |
+|------------|--------------------------------------------------------|-----|------|------|
 {%- for entry in module.entries %}
-| {{ entry.keys() | list | first }} | {{ entry.values() | list | first }} | {{ entry.sws }} | {{ entry.ects }} |
+{%- set type = entry.keys() | list | first -%}
+{%- set description = entry.values() | list | first -%}
+{%- set comps = [] -%}
+{%- for c in entry.competences -%}
+  {%- set _ = comps.append("@" ~ c ~ " " ) -%}
+{%- endfor %}
+| {{ type }} | {{ description }} | {{ entry.sws }} | {{ entry.ects }} | {{ comps | join('<br>') }} |
 {%- endfor %}
 
 {%- endfor %}
 
----
-
 {%- endfor %}
 
-# Competences
+# Competences {{ "{" }}#sec-competences{{ "}" }}
 
-| ID  | Description | Disciplines | Prerequisites | Evidence | Source |
-|-----|-------------|-------------|---------------|----------|--------|
+
+| ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
+|-----|-------------|-------------|---------------|----------|--------| --------|
 {%- for c in competences %}
-| {{ c.id }} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.source }} |
+| {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ {{ c.source }} ]( {{ c.source }} )  |
 {%- endfor %}

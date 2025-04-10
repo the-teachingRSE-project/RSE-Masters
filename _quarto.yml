@@ -3,15 +3,16 @@ project:
   output-dir: _site
   title: Showcase Curriculum for Research Software Engineering
 
+
 website:
   title: "Julian Dehne"
   description: "Julian's Academic Website"
   navbar:
     right:
-      - text: "Home"
-        href: index.qmd
       - text: "Curriculum"
         href: generation/generated/curriculum.qmd
+      - text: "Home"
+        href: index.qmd
       - text: "Job Roles"
         href: general/job_roles.qmd
       - text: "Preambel"

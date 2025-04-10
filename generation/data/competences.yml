@@ -4,11 +4,13 @@ competences:
     disciplines: "CS, Bioinformatics"
     prerequisites: ""
     evidence: "Push a merge request with documented code"
-    source: "Florian Goth, https://github.com/the-teachingRSE-project/RSE-Masters"
+    author: "Florian Goth"
+    source: "https://github.com/the-teachingRSE-project/RSE-Masters"
 
   - id: C02
     description: "Conduct a ReproHack on domain-specific data"
     disciplines: "Physics, CS"
     prerequisites: "C01"
     evidence: "Submit a ReproHack report"
-    source: "Florian Goth, https://github.com/the-teachingRSE-project/RSE-Masters"
+    author: "Florian Goth"
+    source: "https://github.com/the-teachingRSE-project/RSE-Masters"
