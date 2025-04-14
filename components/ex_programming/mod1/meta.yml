@@ -1,0 +1,14 @@
+meta:
+  - profiles:
+      - se
+      - science
+      - rse
+  - level: master
+  - mapping_courses:
+      - university:
+        - name: University of Potsdam
+        - courses:
+            - Grundlagen der Programmierung, link
+            - Praxis der Programmierung, link
+  - name_en: Basic of Programming
+  - name_de: Grundlagen der Programmierung

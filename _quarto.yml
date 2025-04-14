@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: _site
   title: Showcase Curriculum for Research Software Engineering
+  render:
+    - "*.qmd"
 
 
 website:
@@ -21,6 +23,10 @@ website:
 format:
   html:
     theme: lux
+    bibliography: references.bib
+  pdf:
+    bibliography: references.bib
+
 
 author:
   - name: Julian Dehne
@@ -29,10 +35,10 @@ author:
     email: julian.dehne@gesis.org
     twitter: "@DehneJulian"
     affiliations:
-      - name: GESIS,  Leibniz-Institut für Sozialwissenschaften
-        address: B4-5, 68159 Mannheim
-      - name: University of Göttingen
-        address: Goßlerstraße 19, 37073 Göttingen
+      - name: Gesellschaft für Informatik
+        address: Rosa-Luxemburg Platz Berlin
+      - name: deRSE
 
 profile:
   default: website
+

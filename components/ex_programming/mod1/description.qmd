@@ -1,0 +1,12 @@
+# Example Module
+
+This is an example module for building the pipeline for the dynamic curriculum development.
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam
+
+TODO add real information from the UP courses here.
