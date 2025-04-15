@@ -31,3 +31,32 @@
 {%- for c in competences %}
 | {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ {{ c.source }} ]( {{ c.source }} )  |
 {%- endfor %}
+
+TODO: add all the generated modules here
+
+# Module Descriptions
+
+::: {.content-visible when-format="html"}
+
+## Linked Modules (HTML View)
+
+{%- for module in modules %}
+- [{{ module.name | replace("_", " ") | title }}]({{ module.file }})
+{%- endfor %}
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+## Inlined Modules (PDF View)
+
+{%- for module in modules %}
+### {{ module.name | replace("_", " ") | title }}
+
+{{ module.content }}
+
+{%- endfor %}
+
+:::
+
+

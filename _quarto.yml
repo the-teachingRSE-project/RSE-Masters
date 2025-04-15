@@ -7,8 +7,8 @@ project:
 
 
 website:
-  title: "Julian Dehne"
-  description: "Julian's Academic Website"
+  title: "RSE Curriculum"
+  description: ""
   navbar:
     right:
       - text: "Curriculum"
