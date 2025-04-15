@@ -1,26 +1,29 @@
 entries:
   - name: "Basic Programming"
     description: ""
-    type:
+    type: "Lecture"
     sws: 2
     ects: 1
     group: 1
-    dependence: []
-    quarto_filename: ""
+    quarto_filename: "applied_programming.qmd"
   - name: "Basic Programming Exercise"
+    description: ""
+    type: "Exercise"
     sws: 4
     ects: 4
     group: 1
-    dependence: []
     quarto_filename: ""
   - name: "Applied Programming"
+    description: ""
+    type: "Lecture"
     sws: 2
     ects: 1
     group: 2
-    dependence: [1]
-    quarto_filename: ""
+    quarto_filename: "applied_programming.qmd"
   - name: "Applied Programming Exercise"
+    description: ""
+    type: "Exercise"
     sws: 4
     ects: 4
     group: 2
-    dependence: [1]
+    quarto_filename: ""

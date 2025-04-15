@@ -1,0 +1,23 @@
+{{ description }}
+{%- for lecture in lectures %}
+
+{%- if lecture.content %}
+{{ lecture.content }}
+{%- else %}
+{%- endif %}
+
+**{{ lecture.type }}**: {{ lecture.name }}
+{{ lecture.description }}
+**SWS:** {{ lecture.sws }}
+**ECTS:** {{ lecture.ects }}
+
+
+{%- endfor %}
+
+## Module Competences
+
+| ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
+|-----|-------------|-------------|---------------|----------|--------| --------|
+{%- for c in competences %}
+| {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ Link ]( {{ c.source }} )  |
+{%- endfor %}
