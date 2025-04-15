@@ -1,7 +1,7 @@
 
-## Applied Programming
+### Applied Programming
 
-### Procedural Programming Concepts
+#### Procedural Programming Concepts
 
 *Programming with an imperative-procedural language (such as C):*
 
@@ -11,7 +11,7 @@
 - Dynamic memory management
 - Program libraries
 
-### Programming in an Object-Oriented Language (e.g., Java)
+#### Programming in an Object-Oriented Language (e.g., Java)
 
 - Classes, objects, constructors
 - Inheritance, polymorphism, abstract classes/interfaces

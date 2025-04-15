@@ -1,11 +1,13 @@
+# General Study Process
+
 {%- for semester in semesters %}
-# {{ semester.title }}
+## {{ semester.title }}
 
 {{ semester.description }}
 
 {%- for module in semester.modules %}
 
-## {{ module.category }} ({{ module.ects }} ECTS, {{ module.sws }} SWS)
+### {{ module.category }} ({{ module.ects }} ECTS, {{ module.sws }} SWS)
 
 | Type       | Description                                            | SWS | ECTS | Competences |
 |------------|--------------------------------------------------------|-----|------|------|
@@ -23,8 +25,9 @@
 
 {%- endfor %}
 
-# Competences {{ "{" }}#sec-competences{{ "}" }}
+# Complete Competences Table {{ "{" }}#sec-competences{{ "}" }}
 
+TODO: replace this with Excel download in html and possibly remove for pdf
 
 | ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
 |-----|-------------|-------------|---------------|----------|--------| --------|
@@ -32,13 +35,11 @@
 | {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ {{ c.source }} ]( {{ c.source }} )  |
 {%- endfor %}
 
-TODO: add all the generated modules here
 
-# Module Descriptions
 
 ::: {.content-visible when-format="html"}
 
-## Linked Modules (HTML View)
+# Module Descriptions (Linked)
 
 {%- for module in modules %}
 - [{{ module.name | replace("_", " ") | title }}]({{ module.file }})
@@ -48,10 +49,9 @@ TODO: add all the generated modules here
 
 ::: {.content-visible when-format="pdf"}
 
-## Inlined Modules (PDF View)
+# Module Descriptions (Inline)
 
 {%- for module in modules %}
-### {{ module.name | replace("_", " ") | title }}
 
 {{ module.content }}
 

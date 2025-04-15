@@ -1,6 +1,6 @@
-## Basics of Computer Science
+### Basics of Computer Science
 
-### Basic Concepts
+#### Basic Concepts
 
 - Introduction to computer science, basic concepts of operating systems using UNIX/Linux as an example
 - From problem to algorithm: concept of an algorithm, design of algorithms, pseudocode, refinement, brute-force algorithms, models and modeling, graphs and their representation, simple algorithms on graphs, analysis of algorithms (correctness, termination, runtime)

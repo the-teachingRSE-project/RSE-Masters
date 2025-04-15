@@ -1,5 +1,5 @@
-# RSE- Master curriculum
-## Preamble
+# Preamble
+
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent
 individuals working in the research community but focusing on software development.
