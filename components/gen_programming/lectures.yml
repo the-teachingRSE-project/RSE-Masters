@@ -5,7 +5,7 @@ entries:
     sws: 2
     ects: 1
     group: 1
-    quarto_filename: "applied_programming.qmd"
+    quarto_filename: "basics_programming.qmd"
   - name: "Basic Programming Exercise"
     description: ""
     type: "Exercise"
