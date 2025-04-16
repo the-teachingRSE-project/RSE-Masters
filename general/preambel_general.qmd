@@ -1,4 +1,4 @@
-# Preamble
+# Why a RSE Curriculum?
 
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent

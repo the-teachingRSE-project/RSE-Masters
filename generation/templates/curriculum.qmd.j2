@@ -9,21 +9,20 @@
 
 ### {{ module.category }} ({{ module.ects }} ECTS, {{ module.sws }} SWS)
 
-| Type       | Description                                            | SWS | ECTS | Competences |
-|------------|--------------------------------------------------------|-----|------|------|
-{%- for entry in module.entries %}
+| Type       | Description                                            | SWS | ECTS |
+|------------|--------------------------------------------------------|-----|------|
+{% for entry in module.entries %}
 {%- set type = entry.keys() | list | first -%}
 {%- set description = entry.values() | list | first -%}
 {%- set comps = [] -%}
-{%- for c in entry.competences -%}
-  {%- set _ = comps.append("@" ~ c ~ " " ) -%}
-{%- endfor %}
-| {{ type }} | {{ description }} | {{ entry.sws }} | {{ entry.ects }} | {{ comps | join('<br>') }} |
-{%- endfor %}
+| {{ type }} | {{ description }} | {{ entry.sws }} | {{ entry.ects }} |
+{% endfor %}
 
 {%- endfor %}
 
 {%- endfor %}
+
+
 
 # Complete Competences Table {{ "{" }}#sec-competences{{ "}" }}
 

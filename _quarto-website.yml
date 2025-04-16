@@ -13,18 +13,20 @@ website:
     right:
       - text: "Curriculum"
         href: generation/generated/curriculum.qmd
-      - text: "Home"
-        href: index.qmd
+      - text: "ideas"
+        href: general/ideas.qmd
       - text: "Job Roles"
         href: general/job_roles.qmd
-      - text: "Preambel"
-        href: general/preambel_general.qmd
       - text: "PDF-Version"
         href: _doc/RSE-Curriculum.pdf
+      - text: "Glossary"
+        href: general/glossary.qmd
 
 
 format:
   html:
     theme: lux
-    bibliography: references.bib
+    bibliography:
+      - references.bib
+      - external/bibliography/bibliography.bib
 

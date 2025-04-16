@@ -1,1 +1,2 @@
-RSE Curriculum Prototype
+
+{{< include general/preambel_general.qmd >}}

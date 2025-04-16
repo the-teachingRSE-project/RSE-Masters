@@ -11,6 +11,7 @@ format:
     toc-depth: 2
     bibliography:
       - references.bib
+      - external/bibliography/bibliography.bib
     bibliographystyle: APA
 
 book:
@@ -18,9 +19,10 @@ book:
   page-navigation: true
   chapters:
     - index.qmd
-    - general/preambel_general.qmd
+    - general/ideas.qmd
     - general/job_roles.qmd
     - generation/generated/curriculum.qmd
+    - general/glossary.qmd
 
 
 
