@@ -27,6 +27,12 @@ def process_components():
                 with open(lectures_path, "r") as f:
                     lecture_entries = yaml.safe_load(f)["entries"]
 
+                # Load YAML data
+                sources_path = comp_dir / 'sources.yml'
+                with open(sources_path, 'r') as f:
+                    sources = yaml.safe_load(f)
+                    sources = sources["sources"]
+
                 for lecture in lecture_entries:
                     filename = lecture.get("quarto_filename")
                     if filename:
@@ -43,6 +49,7 @@ def process_components():
                 rendered_module = module_template.render(
                     description=description,
                     lectures=lecture_entries,
+                    **sources,
                     **competence_data
                 )
 

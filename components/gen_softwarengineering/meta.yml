@@ -1,0 +1,9 @@
+meta:
+  - id: m2
+  - profiles:
+      - science
+      - rse
+      - up
+  - level: master
+  - name: Software Engineering
+  - depends_on: []
