@@ -1,9 +1,9 @@
 meta:
-  - id: m1
-  - profiles:
-      - science
-      - rse
-      - up
-  - level: master
-  - name: Basics of Programming
-  - depends_on: []
+  id: m1
+  profiles:
+    - science
+    - rse
+    - up
+  level: master
+  name: Basics of Programming
+  depends_on: []

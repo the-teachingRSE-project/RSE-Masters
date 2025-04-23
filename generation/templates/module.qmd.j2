@@ -13,6 +13,8 @@
 
 {% endfor %}
 
+
+{% if competences %}
 ## Module Competences
 
 | ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
@@ -20,11 +22,11 @@
 {%- for c in competences %}
 | {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ Link ]( {{ c.source }} )  |
 {%- endfor %}
+{% endif %}
 
 
-
+{% if curricula or courses or programs %}
 ## Sources & Implementations:
-
 {% if curricula %}
 ### Curricula
 {% for c in curricula %}
@@ -45,3 +47,5 @@
 - [{{ program.name }}]({{ program.link }})
 {% endfor %}
 {% endif %}
+{% endif %}
+

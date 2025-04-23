@@ -5,5 +5,5 @@ meta:
       - rse
       - up
   level: master
-  name: Software Engineering
+  name: Data Science
   depends_on: []

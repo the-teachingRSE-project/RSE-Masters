@@ -6,6 +6,7 @@ entries:
     ects: 1
     group: 1
     quarto_filename: "basics_programming.qmd"
+    optional: True
   - name: "Basic Programming Exercise"
     description: ""
     type: "Exercise"
@@ -13,6 +14,7 @@ entries:
     ects: 4
     group: 1
     quarto_filename: ""
+    optional: True
   - name: "Applied Programming"
     description: ""
     type: "Lecture"
@@ -20,6 +22,7 @@ entries:
     ects: 1
     group: 2
     quarto_filename: "applied_programming.qmd"
+    optional: False
   - name: "Applied Programming Exercise"
     description: ""
     type: "Exercise"
@@ -27,3 +30,4 @@ entries:
     ects: 4
     group: 2
     quarto_filename: ""
+    optional: False

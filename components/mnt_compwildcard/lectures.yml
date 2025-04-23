@@ -1,0 +1,15 @@
+entries:
+  - name: "Computational Wildcard Science"
+    description: ""
+    type: "Lecture"
+    sws: 2
+    ects: 3
+    group: 1
+    quarto_filename: ""
+  - name: "Wildcard Science Lab"
+    description: ""
+    type: "Lab"
+    sws: 4
+    ects: 6
+    group: 3
+    quarto_filename: ""

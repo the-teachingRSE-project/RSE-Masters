@@ -1,0 +1,29 @@
+entries:
+  - name: "Wildcard Science I"
+    description: ""
+    type: "Lecture"
+    sws: 2
+    ects: 3
+    group: 1
+    quarto_filename: ""
+  - name: "Wildcard Science II"
+    description: ""
+    type: "Lecture"
+    sws: 2
+    ects: 3
+    group: 2
+    quarto_filename: ""
+  - name: "Wildcard Science Lab I"
+    description: ""
+    type: "Lab"
+    sws: 4
+    ects: 6
+    group: 3
+    quarto_filename: ""
+  - name: "Wildcard Science Lab II"
+    description: ""
+    type: "Lab"
+    sws: 2
+    ects: 2
+    group: 2
+    quarto_filename: ""

@@ -16,6 +16,7 @@ curriculum_template = env.get_template("curriculum.qmd.j2")
 # 1. Process modules
 module_summaries = []
 
+
 def process_components():
     for comp_dir in base_dir.iterdir():
         if comp_dir.is_dir():
@@ -23,15 +24,24 @@ def process_components():
                 description_path = comp_dir / "description.qmd"
                 description = description_path.read_text() if description_path.exists() else ""
 
+                meta_path = comp_dir / 'meta.yml'
+                with open(meta_path, 'r') as f:
+                    meta = yaml.safe_load(f)
+                    meta = meta["meta"]
+                    wildcard = False
+                    if "wildcard" in meta:
+                        wildcard = meta["wildcard"]
+
                 lectures_path = comp_dir / "lectures.yml"
                 with open(lectures_path, "r") as f:
                     lecture_entries = yaml.safe_load(f)["entries"]
 
-                # Load YAML data
-                sources_path = comp_dir / 'sources.yml'
-                with open(sources_path, 'r') as f:
-                    sources = yaml.safe_load(f)
-                    sources = sources["sources"]
+                if not wildcard:
+                    # Load YAML data
+                    sources_path = comp_dir / 'sources.yml'
+                    with open(sources_path, 'r') as f:
+                        sources = yaml.safe_load(f)
+                        sources = sources["sources"]
 
                 for lecture in lecture_entries:
                     filename = lecture.get("quarto_filename")
@@ -41,17 +51,24 @@ def process_components():
                     else:
                         lecture["content"] = ""
 
-                competences_path = comp_dir / "competences.yml"
-                with open(competences_path, "r") as f:
-                    competence_data = yaml.safe_load(f)
+                if not wildcard:
+                    competences_path = comp_dir / "competences.yml"
+                    with open(competences_path, "r") as f:
+                        competence_data = yaml.safe_load(f)
 
                 # Render module template
-                rendered_module = module_template.render(
-                    description=description,
-                    lectures=lecture_entries,
-                    **sources,
-                    **competence_data
-                )
+                if wildcard:
+                    rendered_module = module_template.render(
+                        description=description,
+                        lectures=lecture_entries,
+                    )
+                else:
+                    rendered_module = module_template.render(
+                        description=description,
+                        lectures=lecture_entries,
+                        **sources,
+                        **competence_data
+                    )
 
                 module_output_path = output_dir / f"{comp_dir.name}.qmd"
                 module_output_path.write_text(rendered_module)
@@ -70,6 +87,7 @@ def process_components():
 
 
 process_components()
+
 
 # 2. Generate curriculum.qmd
 def generate_curriculum():

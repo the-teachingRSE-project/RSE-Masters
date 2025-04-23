@@ -1,0 +1,5 @@
+# Wildcard Computational Science
+
+This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.
+
+The goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course.
