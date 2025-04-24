@@ -1,0 +1,8 @@
+entries:
+  - name: "Science Lab"
+    description: ""
+    type: "Lab"
+    sws: 4
+    ects: 6
+    group: 1
+    quarto_filename: ""

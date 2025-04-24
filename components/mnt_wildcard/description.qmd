@@ -1,4 +1,4 @@
-# Wildcard Science Module
+## Wildcard Science Module
 
 This module offers RSE students the opportunity to deepen their understanding of a scientific discipline outside of their home domain. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its research practices, core questions, and data/software challenges.
 

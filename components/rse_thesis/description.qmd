@@ -1,0 +1,17 @@
+## Master's Thesis Module: Research Software Engineering Thesis
+
+The master's thesis is the culminating component of the RSE programme. In this module, students apply the full spectrum of Research Software Engineering skills in a real-world research setting, demonstrating their ability to independently design, implement, and document a computational research contribution.
+
+The thesis must address a research question in collaboration with a scientific or applied domain, but its core should include a substantial computational component. This may involve software development, data-intensive research, reproducibility infrastructure, or performance engineering — depending on the chosen topic and specialization.
+
+Each thesis must be supervised jointly by:
+- A domain expert (e.g., in physics, life sciences, or humanities)
+- An RSE mentor (who ensures the quality and relevance of the computational contribution)
+
+Students are expected to follow best practices in software engineering, version control, testing, and documentation. The final submission must include:
+- A written thesis describing both the scientific and software contributions
+- A structured, reproducible code repository
+- A presentation and defense in a thesis colloquium
+
+The colloquium serves as both a public communication exercise and a final evaluation, where students present their project and reflect on challenges and insights gained during the thesis.
+

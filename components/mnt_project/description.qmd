@@ -1,0 +1,5 @@
+## Science Lab Module
+
+*Applied Research Software Engineering in MINT Sciences*
+
+This lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or
