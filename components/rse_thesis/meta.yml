@@ -1,7 +1,6 @@
 meta:
   id: rse_7
   name: Master's Thesis
-  recommended-semester: 4
   mandatory: true
   profiles:
     - science
@@ -9,3 +8,4 @@ meta:
   level: master
   depends_on: [mnt3,m1,m2,m3 ]
   wildcard: True
+  semester: 4
