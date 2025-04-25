@@ -38,12 +38,7 @@ class Semester:
         return sum(lec.ects for lec in self.lectures)
 
     def check_ects(self):
-        if self.total_ects() < NUM_SEMESTER_CREDITS:
-            return False
-        if self.total_ects() == NUM_SEMESTER_CREDITS:
-            return True
-        else:
-            return self.total_ects() - NUM_SEMESTER_CREDITS
+        return self.total_ects() <= NUM_SEMESTER_CREDITS
 
     def add_lecture(self, lecture):
         self.lectures.append(lecture)
@@ -59,9 +54,4 @@ class Curriculum:
         return sum(semester.total_ects() for semester in self.semesters)
 
     def check_ects(self):
-        if self.total_ects() < NUM_CREDITS:
-            return False
-        if self.total_ects() == NUM_CREDITS:
-            return True
-        else:
-            return self.total_ects() - NUM_CREDITS
+        return self.total_ects() <= NUM_CREDITS

@@ -1,5 +1,5 @@
 meta:
-  id: m1
+  id: gen_prog
   profiles:
     - science
     - rse

@@ -11,9 +11,7 @@ curriculum_template = env.get_template("curriculum.qmd.j2")
 
 
 def generate_curriculum(module_summaries, dependencies):
-    distribute_courses(dependencies)
     try:
-
         with open("data/curriculum.yml") as f:
             curriculum_data = yaml.safe_load(f)
 
@@ -34,8 +32,3 @@ def generate_curriculum(module_summaries, dependencies):
         print(f"Failed to generate curriculum.qmd: {e}")
 
 
-
-def distribute_courses(dependencies):
-    optimal_solution = create_curriculum_solver(dependencies)
-
-    pass

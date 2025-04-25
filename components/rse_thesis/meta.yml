@@ -6,6 +6,6 @@ meta:
     - science
     - rse
   level: master
-  depends_on: [mnt3,m1,m2,m3 ]
+  depends_on: [mnt3,gen_ds,gen_se,gen_prog]
   wildcard: True
   semester: 4

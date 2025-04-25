@@ -5,5 +5,5 @@ meta:
       - rse
   level: master
   name: Computational Science Wildcard
-  depends_on: [m1, m2]
+  depends_on: [gen_prog, gen_ds]
   wildcard: True
