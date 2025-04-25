@@ -10,16 +10,21 @@ env = Environment(loader=FileSystemLoader(template_dir))
 curriculum_template = env.get_template("curriculum.qmd.j2")
 
 
-def generate_curriculum(module_summaries, dependencies):
+def generate_curriculum(module_summaries, curriculum):
     try:
+        """
+
         with open("data/curriculum.yml") as f:
             curriculum_data = yaml.safe_load(f)
+
+        """
+        # curriculum_data = convert_curriculum_for_template(optimal_solution)
 
         with open("data/competences.yml") as f:
             competence_data = yaml.safe_load(f)
 
         curriculum_render = curriculum_template.render(
-            **curriculum_data,
+            curriculum=curriculum,
             **competence_data,
             modules=module_summaries
         )
@@ -30,5 +35,8 @@ def generate_curriculum(module_summaries, dependencies):
 
     except Exception as e:
         print(f"Failed to generate curriculum.qmd: {e}")
+
+
+
 
 

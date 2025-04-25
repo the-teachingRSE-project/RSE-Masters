@@ -1,26 +1,19 @@
 # General Study Process
 
-{%- for semester in semesters %}
-## {{ semester.title }}
+{% for semester in curriculum.semesters %}
+## Semester {{ semester.number }}
 
-{{ semester.description }}
+| Type | Description | SWS | ECTS |
+|------|-------------|-----|------|
+{%- for lecture in semester.lectures %}
+| {{ lecture.type }} | {{ lecture.name }} | {{ lecture.sws }} | {{ lecture.ects }} |
+{%- endfor %}
+**Total ECTS: {{ semester.total_ects() }}**
 
-{%- for module in semester.modules %}
-
-### {{ module.category }} ({{ module.ects }} ECTS, {{ module.sws }} SWS)
-
-| Type       | Description                                            | SWS | ECTS |
-|------------|--------------------------------------------------------|-----|------|
-{% for entry in module.entries %}
-{%- set type = entry.keys() | list | first -%}
-{%- set description = entry.values() | list | first -%}
-{%- set comps = [] -%}
-| {{ type }} | {{ description }} | {{ entry.sws }} | {{ entry.ects }} |
 {% endfor %}
 
-{%- endfor %}
+**Total Curriculum ECTS: {{ curriculum.total_ects() }}**
 
-{%- endfor %}
 
 
 

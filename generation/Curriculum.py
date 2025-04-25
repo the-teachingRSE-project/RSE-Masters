@@ -14,12 +14,13 @@ class Component:
         self.lectures = []
         lectures = module["lectures"]
         for lec in lectures:
-            new_lecture = Lecture(lec["name"], lec["ects"], lec["sws"], self)
+            new_lecture = Lecture(lec["type"], lec["name"], lec["ects"], lec["sws"], self)
             self.lectures.append(new_lecture)
 
 
 class Lecture:
-    def __init__(self, name, ects, sws, component, lecture_group_title=None):
+    def __init__(self, type, name, ects, sws, component, lecture_group_title=None):
+        self.type = type
         self.name = name
         self.ects = ects
         self.sws = sws

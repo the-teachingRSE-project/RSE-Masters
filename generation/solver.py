@@ -9,7 +9,7 @@ def print_semester_counts(semesters, message):
 
 
 def create_curriculum_solver(modules):
-    cur = Curriculum()
+
 
     fixed_map = {}
     dep_map = {}
@@ -89,5 +89,5 @@ def create_curriculum_solver(modules):
     print_semester_counts(semesters, message="After adding modules without dependencies from sem 4 backwards, ects counts are:")
 
 
-    cur.semesters = semesters
+    cur = Curriculum(semesters.values())
     return cur
