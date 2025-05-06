@@ -13,6 +13,8 @@ website:
     right:
       - text: "Curriculum"
         href: generation/generated/curriculum.qmd
+      - text: "Preambel"
+        href: general/preambel_general.qmd
       - text: "ideas"
         href: general/ideas.qmd
       - text: "Job Roles"

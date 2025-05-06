@@ -1,0 +1,19 @@
+## The Missing Semester
+
+In reference to the [MIT Missing Semester](https://missing.csail.mit.edu/) this module tries to convey the nuts and bolts of code development.
+
+This includes (but is not limited to):
+
+- Shell Tools and Scripting
+- Editors (Vim)
+- Data Wrangling
+- Command-line Environment
+- Version Control (Git)
+- Debugging and Profiling
+- Metaprogramming
+- Security and Cryptography
+
+These general competencies can be extended to RSE-specific techniques such as:
+
+- Software publication and citation (see SP in [@competencies-F1000])
+- Using domain repositories/directories (see DEMREP in [@competencies-F1000])

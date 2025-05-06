@@ -18,8 +18,17 @@ role as an alternative to a traditional research role
 because they enjoy and wish to focus on the development of research software.
 
 For this task, to support research with/in the creation of digital tools,
-we structure this sample curriculum along three pillars:
+we structure this sample curriculum along three pillars [@competencies-F1000]:
 
 - research skills: these are competencies that enable an RSE to effectively participate in the research domain.
-- technical skills: these are compteencies, that enable an RSE to create effective tools for research
+- technical skills: these are competencies, that enable an RSE to create effective tools for research
 - communication skills: these are skills that enable an RSE to effectively work and communicate with its peers and stakeholders across multiple domains.
+
+::: {.content-visible when-format="html"}
+
+# References
+
+::: {#refs}
+:::
+
+:::
