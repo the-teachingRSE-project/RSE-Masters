@@ -49,6 +49,8 @@ jobs:
           wget https://quarto.org/download/latest/quarto-linux-amd64.deb -O quarto.deb
           sudo apt install -y ./quarto.deb
           rm quarto.deb
+      - name: install tinytex extension
+        run: quarto install tinytex
       - name: compile pdf
         run: quarto render --profile doc
       - name: compile website
