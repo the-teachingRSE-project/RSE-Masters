@@ -1,0 +1,10 @@
+### Basics of Computer Science
+
+#### Basic Concepts
+
+- Introduction to computer science, basic concepts of operating systems using UNIX/Linux as an example
+- From problem to algorithm: concept of an algorithm, design of algorithms, pseudocode, refinement, brute-force algorithms, models and modeling, graphs and their representation, simple algorithms on graphs, analysis of algorithms (correctness, termination, runtime)
+- Implementation of algorithms (e.g., using Python)
+- Programming paradigms: procedural, object-oriented, and functional programming; recursion versus iteration
+- From program to process: assembly languages, assembler, compiler, interpreter, syntax and semantics of programming languages
+- Limits of algorithms: computability, decidability, undecidability

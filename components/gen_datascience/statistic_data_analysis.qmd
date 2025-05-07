@@ -1,0 +1,7 @@
+## Statistical Data Analysis
+
+This module focuses on the statistical study and quantitative analysis of the dependence between observed random variables (e.g., yield/production settings; lifespan/treatment type and injury type).
+Essential foundations for the statistical treatment of such relationships are provided by the linear regression model, which is studied in detail in the first part of the lecture.
+Within this framework, topics such as estimation, testing, and uncertainty quantification (analysis of variance) are addressed.
+In the second part, an introduction to advanced methods and approaches for examining relationships is offered, including nonlinear and nonparametric regression models.
+Additionally, questions of classification and dimensionality reduction are covered.

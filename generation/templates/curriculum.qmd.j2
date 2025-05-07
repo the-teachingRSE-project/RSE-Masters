@@ -1,0 +1,54 @@
+# General Study Process
+
+{% for semester in curriculum.semesters %}
+## Semester {{ semester.number }}
+
+| Type | Description | SWS | ECTS |
+|------|-------------|-----|------|
+{%- for lecture in semester.lectures %}
+| {{ lecture.type }} | {{ lecture.name }} | {{ lecture.sws }} | {{ lecture.ects }} |
+{%- endfor %}
+**Total ECTS: {{ semester.total_ects() }}**
+
+{% endfor %}
+
+**Total Curriculum ECTS: {{ curriculum.total_ects() }}**
+
+
+
+
+# Complete Competences Table {{ "{" }}#sec-competences{{ "}" }}
+
+TODO: replace this with Excel download in html and possibly remove for pdf
+
+| ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
+|-----|-------------|-------------|---------------|----------|--------| --------|
+{%- for c in competences %}
+| {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ {{ c.source }} ]( {{ c.source }} )  |
+{%- endfor %}
+
+
+
+::: {.content-visible when-format="html"}
+
+# Module Descriptions (Linked)
+
+{%- for module in modules %}
+- [{{ module.name | replace("_", " ") | title }}]({{ module.file }})
+{%- endfor %}
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+# Module Descriptions (Inline)
+
+{%- for module in modules %}
+
+{{ module.content }}
+
+{%- endfor %}
+
+:::
+
+

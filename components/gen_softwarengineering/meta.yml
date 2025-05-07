@@ -1,0 +1,9 @@
+meta:
+  id: gen_se
+  profiles:
+      - science
+      - rse
+      - up
+  level: master
+  name: Software Engineering
+  depends_on: []

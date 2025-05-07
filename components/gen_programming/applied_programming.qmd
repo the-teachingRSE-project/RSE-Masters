@@ -1,0 +1,21 @@
+
+### Applied Programming
+
+#### Procedural Programming Concepts
+
+*Programming with an imperative-procedural language (such as C):*
+
+- Data types, type casting, control structures, functions and procedures, parameter passing paradigms, call stack
+- Pointers, arrays, strings, structured types
+- Errors and their handling
+- Dynamic memory management
+- Program libraries
+
+#### Programming in an Object-Oriented Language (e.g., Java)
+
+- Classes, objects, constructors
+- Inheritance, polymorphism, abstract classes/interfaces
+- Exceptions and exception handling
+- Namespaces (packages)
+- Generic classes and types
+- Program libraries

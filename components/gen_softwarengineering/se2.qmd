@@ -1,0 +1,3 @@
+## Software Engineering 2
+
+The module covers a selection of advanced topics in the field of software engineering, such as software quality assurance, service engineering, virtualization, programming languages and design, and formal methods in system design.

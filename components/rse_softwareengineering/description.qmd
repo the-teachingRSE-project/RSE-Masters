@@ -1,0 +1,7 @@
+## RSE-Software Engineering
+
+This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to
+
+- Adapting the software life cycle to research (see SWLC in [@competencies-F1000])
+- Software behaviour awareness and analysis (see MOD in [@competencies-F1000])
+- Research specific Engineering Patterns

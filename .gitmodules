@@ -1,0 +1,5 @@
+[submodule "external/RSE-Masters"]
+	url = https://github.com/juliandehne/RSE-Masters
+[submodule "external/bibliography"]
+	path = external/bibliography
+	url = https://github.com/the-teachingRSE-project/bibliography.git

@@ -1,0 +1,59 @@
+# Glossary
+
+**C**
+A general-purpose programming language often used for system-level development.
+
+**Cpp**
+C++ — an extension of C that supports object-oriented programming.
+
+**DIST**
+Software distribution — the practice of packaging and delivering software and its dependencies.
+
+**DOCBB**
+Documentation and best practices — ensuring code is understandable and maintainable.
+
+**DOMREP**
+Domain repositories — platforms that store and share domain-specific research data.
+
+**HPC**
+High-Performance Computing — using supercomputers and parallel processing for complex tasks.
+
+**MOD**
+Modularity — the design principle of separating software into interchangeable, functional components.
+
+**NEW**
+Novel research — work that contributes original insights to a scientific domain.
+
+**PM**
+Project Management — planning, executing, and overseeing projects effectively.
+
+**Python**
+A high-level programming language widely used in data science and scripting.
+
+**R**
+A programming language and environment for statistical computing and graphics.
+
+**RSE**
+Research Software Engineer — someone who applies software engineering skills to scientific research.
+
+**SP**
+Software publication — the process of preparing and disseminating software artifacts.
+
+**SRU**
+Software reuse — the practice of using existing software components in new projects.
+
+**STEM**
+Science, Technology, Engineering, and Mathematics.
+
+**SWREPOS**
+Software repositories — systems for storing and managing software code and versions.
+
+**TEAM**
+Teamwork — the ability to collaborate effectively in a group setting.
+
+**TEACH**
+Teaching — the skill of communicating knowledge and helping others learn.
+
+**USERS**
+End users — the scientists or researchers who rely on software tools.
+

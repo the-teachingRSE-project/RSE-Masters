@@ -1,0 +1,12 @@
+## RSE Programming
+
+The RSE programming module extends the Fundamentals of Computer Science module with a focus on RSE-specific programming patterns,
+necessary technologies and good practices.
+
+This includes, but is not limited to
+
+- software re-use (see SRU in [@competencies-F1000])
+- creating documented code building blocks (see DOCBB in [@competencies-F1000])
+- building distributable software (see DIST in [@competencies-F1000])
+- research specific programming languages
+- research specific code requirements (scalability, functional programming, ...)

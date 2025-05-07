@@ -1,0 +1,8 @@
+## Software Engineering I
+
+Basic concepts of software engineering, software and product life cycle, process models for the design of large software systems,
+semantic aspects of domain description, hierarchy, parallelism, real-time and embedded systems as fundamental paradigms,
+organizational principles of complex software systems, design by contract, patterns in modeling and design
+methods of quality assurance, evolution and re-engineering, selected languages and tools for process- and object-oriented modeling,
+methods and languages for object-oriented design, architectures and architectural patterns of software systems,
+architecture of enterprise applications, design and implementation models in the object-oriented paradigm, e.g., Java 2 SE, design patterns, software testing methods.

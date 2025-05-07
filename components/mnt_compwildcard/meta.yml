@@ -1,0 +1,9 @@
+meta:
+  id: mnt2
+  profiles:
+      - science
+      - rse
+  level: master
+  name: Computational Science Wildcard
+  depends_on: [gen_prog, gen_ds]
+  wildcard: True

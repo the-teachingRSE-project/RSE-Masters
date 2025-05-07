@@ -1,0 +1,40 @@
+competences:
+  - id: gen_programming_1
+    description: "Understand the fundamental concepts of software engineering"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "Demonstrate understanding through theoretical assessments and practical examples"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_programming_2
+    description: "Apply various approaches of software engineering"
+    disciplines: "Computer Science"
+    prerequisites: "gen_programming_1"
+    evidence: "Complete assignments or projects using different software engineering methods"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_programming_3
+    description: "Identify and utilize essential technologies and tools for specification, component-based development, and quality assurance of modern software systems"
+    disciplines: "Computer Science"
+    prerequisites: "gen_programming_1"
+    evidence: "Work with selected tools and technologies in practical exercises and case studies"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_programming_4
+    description: "Demonstrate an in-depth understanding and ability to apply various approaches of software engineering"
+    disciplines: "Computer Science"
+    prerequisites: "gen_programming_1, gen_programming_2"
+    evidence: "Successfully complete advanced projects employing different software engineering methods"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_programming_5
+    description: "Understand the characteristics of a wide range of technologies and tools for specification, component-based development, and quality assurance of modern software systems, and apply them in various contexts"
+    disciplines: "Computer Science"
+    prerequisites: "gen_programming_3"
+    evidence: "Apply appropriate technologies and tools in complex case studies and demonstrate their use in different application scenarios"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"

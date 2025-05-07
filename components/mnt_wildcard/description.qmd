@@ -1,0 +1,9 @@
+## Wildcard Science Module
+
+This module offers RSE students the opportunity to deepen their understanding of a scientific discipline outside of their home domain. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its research practices, core questions, and data/software challenges.
+
+The goal is to help students become better collaborators by gaining first-hand exposure to the terminology, logic, and needs of another scientific domain. This broadens the student’s ability to apply RSE skills in interdisciplinary teams and unfamiliar environments.
+
+The module may consist of lectures, lab sessions, and domain-specific mini-projects. RSEs are encouraged to reflect on how software engineering, data handling, reproducibility, and tooling intersect with the chosen discipline.
+
+This module is deliberately flexible to accommodate institutional offerings and student interests as well as providing the option to stay attached to the identity of the chosen discipline.

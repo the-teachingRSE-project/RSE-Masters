@@ -1,0 +1,77 @@
+title: "Modular Curriculum for RSE"
+description: "A harmonized interdisciplinary curriculum over 3 semesters"
+
+semesters:
+  - number: 1
+    title: "Semester 1"
+    description: "Harmonization semester for physicists, bioinformatics and computer scientists"
+    modules:
+      - category: "Technical Skills"
+        ects: 13
+        sws: 16
+        entries:
+          - Lecture: "Data-centric language: e.g. R/Python"
+            sws: 2
+            ects: 1
+            competences: []
+          - Exercise: "Data-science with a Data-centric language (NFDI repo)"
+            sws: 4
+            ects: 4
+            competences: []
+          - Lecture: "Computing Environment Module - 1"
+            sws: 2
+            ects: 1
+            competences: []
+          - Lecture: "Theoretical Foundations of Computer Science"
+            sws: 2
+            ects: 1
+            competences: []
+          - Exercise: "Computing Env. Module applied (interpreted lang)"
+            sws: 2
+            ects: 2
+            competences: []
+          - Lecture: "Software Engineering (Reqs, Architecture)"
+            sws: 4
+            ects: 4
+            competences: []
+
+      - category: "Research Skills"
+        ects: 5
+        sws: 8
+        entries:
+          - Lecture: "Research + Data Ethics"
+            sws: 4
+            ects: 2
+            competences: []
+          - Lecture: "Statistics"
+            sws: 2
+            ects: 1
+            competences: []
+          - Lecture: "Interaction with NFDI repositories"
+            sws: 2
+            ects: 1
+            competences: [C01, C02]
+
+      - category: "Communication Skills"
+        ects: 4
+        sws: 4
+        entries:
+          - Lecture: "Collaborative Software Dev (platforms)"
+            sws: 2
+            ects: 2
+            competences: []
+          - Seminar: "Science Slam - Present your Bachelor thesis!"
+            sws: 2
+            ects: 2
+            competences: []
+
+  - number: 2
+    title: "Semester 2"
+    description: ""
+    # ...same format as above
+
+  - number: 3
+    title: "Semester 3"
+    description: "Thesis preparation"
+    # ...
+

@@ -1,0 +1,64 @@
+competences:
+  - id: gen_datascience_1
+    description: "Possess comprehensive, detailed, and specialized knowledge of selected fundamentals in the field of Data Science"
+    disciplines: "Data Science"
+    prerequisites: ""
+    evidence: "Demonstrate knowledge through theoretical exams and practical assignments"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_datascience_2
+    description: "Demonstrate an in-depth understanding of selected Data Science methods"
+    disciplines: "Data Science"
+    prerequisites: "gen_datascience_1"
+    evidence: "Apply Data Science methods in practical projects and case studies"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_datascience_3
+    description: "Analyze novel data assimilation and inference problems, develop and implement solutions, and assess solution quality"
+    disciplines: "Data Science"
+    prerequisites: "gen_datascience_2"
+    evidence: "Solve complex inference problems and present implemented solutions with evaluation"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_datascience_4
+    description: "Develop new ideas and methods, weigh alternatives under incomplete information, and evaluate them considering different evaluation criteria"
+    disciplines: "Data Science"
+    prerequisites: "gen_datascience_2"
+    evidence: "Present projects showcasing creative problem-solving and alternative evaluations under uncertainty"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_statistics_1
+    description: "Possess comprehensive, detailed, and specialized understanding of the linear regression model based on the latest research"
+    disciplines: "Data Science, Statistics"
+    prerequisites: ""
+    evidence: "Apply linear regression models to practical problems and interpret results"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_statistics_2
+    description: "Understand fundamental concepts and methods of nonparametric statistics"
+    disciplines: "Data Science, Statistics"
+    prerequisites: "gen_statistics_1"
+    evidence: "Solve problems involving nonparametric methods and explain applied techniques"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_statistics_3
+    description: "Solve complex statistical data analysis problems, evaluate alternative modeling approaches according to various criteria, and use statistical software packages for analysis"
+    disciplines: "Data Science, Statistics"
+    prerequisites: "gen_statistics_2"
+    evidence: "Develop solutions for complex data problems using appropriate statistical methods and software"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: gen_statistics_4
+    description: "Demonstrate academic competences including self-organization, planning skills (identifying work steps), scientific thinking and working techniques (developing solutions for complex questions), discussion of methods, verification of hypotheses, application of mathematical and statistical methods, and use of software packages"
+    disciplines: "Data Science, Statistics"
+    prerequisites: "gen_statistics_2"
+    evidence: "Document project workflows demonstrating planning, analysis, evaluation, and use of statistical software tools"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"

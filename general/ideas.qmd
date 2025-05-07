@@ -1,0 +1,98 @@
+# Ideas
+
+Electronic Lab course. Heard of this in Erlangen for physics. Talks about ELN among other things.
+
+## Original Motivation
+
+The target audience for such a master's programme would be students holding a bachelor's degree from a domain science, which we will call **home domain** in the following.
+
+There is explicitly no restriction on the candidates' home domain: it may be from the STEM disciplines, life sciences, humanities or social sciences. Candidates with a bachelor's degree in computer science are also explicitly included, although we acknowledge that their master's programme should include adaptations to make their interaction effective with other domain scientists.
+
+In order to give the future RSE the necessary breadth, we expect this to be a four semester curriculum.
+
+The curriculum is formed from a combination of modules, some of which are core modules teaching essential skills that must be completed by all students. Other modules introduce more specialised concepts and skills.
+
+During the master's programme, students should pick an RSE specialisation from the list in this paper and attend these additional modules to deepen their knowledge in the field.
+
+Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
+
+### Software / Technical Skills
+
+- **Foundational module**  
+  Introduction to programming: Emphasising use cases over programming paradigms, students learn at least two languages:
+  - A language that facilitates prototyping and data processing e.g., Python or R
+  - A language for designing complex, performance-critical systems e.g., C/Cpp  
+    This exposes them to computers in a hands-on fashion and is the foundation for DOCBB, DIST.
+
+- **Computing environment module**  
+  Programming languages are not enough to work in a landscape of many interconnected software components. Hence, we require something like software craftsmanship:
+  - Tools: Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems  
+    This strengthens skills in DIST, DOCBB, SWREPOS, SRU.
+
+- **Software engineering module**  
+  Develop foundational software engineering competencies:
+  - Requirements engineering
+  - Software architecture and design
+  - Implementation, quality assurance, and software evolution  
+    Emphasising and strengthening DOCBB, DIST on a more abstract level.
+
+### Research Skills
+
+- **Optional domain mastery module**  
+  Additional minor research courses; students with a home-domain already have the research part well-covered.
+
+- **Research tools module**  
+  Teach tools used to distribute and publish software, and introduce domain-specific data repositories, gaining foundational knowledge in SRU, SP, DOMREP.
+
+- **Meta-research module**  
+  Teach how research works: Introduce the research life cycle, the data life cycle, and the software life cycle abstractly.
+
+### Communication Skills
+
+- **Project management methods**  
+  Teach project management methods that are useful in science, such as agile ones PM.
+
+- **Communication skills module**  
+  Courses focusing on:
+  - Interdisciplinary communication
+  - Interacting across cultures
+  - Communication in hierarchies
+  - Supporting end users effectively  
+    All facets of the USERS skill.
+
+- **Teaching module**  
+  Covers topics to effectively design courses and teaching material for various digital tools, strengthening the TEACH skill.
+
+## Hands-On Practice
+
+RSE work also involves craftsmanship skills. Hands-on practice is integral.
+
+- At least two **lab projects** are required within the mandatory curriculum.
+- These should be team-based and involve a question from a domain science.
+- Ideally, projects cover both the candidate's home domain and another domain.
+- Projects should stem from collaborations with scientists within the institution, with RSE students taking on a consultant role.
+
+This setup strengthens TEAM, TEACH, USERS and likely also MOD through interaction.
+
+To emphasise exposure beyond their bachelor's domain, RSEs should support their non-home-domain project with introductory courses from that discipline. This encourages adapting vocabulary and thinking—an aspect of MOD.
+
+## Optional Modules and Specialisations
+
+To align with the specialisations listed in this paper, example optional modules include:
+
+- HPC engineering / parallel programming
+- Numerical mathematics / scientific computing
+- Web technologies
+- Data stewardship
+- AI models / statistics
+- Community management / training
+
+## Master's Thesis
+
+The programme concludes with a master's thesis that should:
+
+- Be dual-supervised by an RSE project supervisor and a domain supervisor
+- Answer a relevant research question strengthening NEW using computational methods
+- Include software development as a required, gradable deliverable
+
+The RSE supervisor ensures and grades the software craftsmanship. This ensures the effective application of RSE skills in an actual research environment.

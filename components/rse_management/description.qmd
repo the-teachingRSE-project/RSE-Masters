@@ -1,0 +1,10 @@
+## RSE Management and Communication
+
+This module encapsulates the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.
+
+This includes but is not limited to:
+
+- working in a team (see TEAM in [@competencies-F1000])
+- teaching RSE-basics (see TEACH in [@competencies-F1000])
+- project management (see PM in [@competencies-F1000])
+- interaction with users and other stakeholders (see USERS in [@competencies-F1000])
