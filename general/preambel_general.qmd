@@ -24,6 +24,7 @@ we structure this sample curriculum along three pillars [@competencies-F1000]:
 - technical skills: these are competencies, that enable an RSE to create effective tools for research
 - communication skills: these are skills that enable an RSE to effectively work and communicate with its peers and stakeholders across multiple domains.
 
+
 ## Research skills
 
 TODO add text here

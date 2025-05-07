@@ -5,7 +5,7 @@ In reference to the [MIT Missing Semester](https://missing.csail.mit.edu/) this 
 This includes (but is not limited to):
 
 - Shell Tools and Scripting
-- Editors (Vim)
+- Editors & IDE (i.e. Vim)
 - Data Wrangling
 - Command-line Environment
 - Version Control (Git)
@@ -16,4 +16,4 @@ This includes (but is not limited to):
 These general competencies can be extended to RSE-specific techniques such as:
 
 - Software publication and citation (see SP in [@competencies-F1000])
-- Using domain repositories/directories (see DEMREP in [@competencies-F1000])
+- Using domain repositories/directories (see DOMREP in [@competencies-F1000])

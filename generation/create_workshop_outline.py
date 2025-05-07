@@ -30,8 +30,12 @@ format:
 
 # Invitation to the RSE Community-Master Development
 
-We invite all members of the **Research Software Engineering (RSE)** community to join us in developing a Master's curriculum tailored to the unique needs, interests, and challenges of RSE.  
+We invite all members of the **Research Software Engineering (RSE)** community and interested scientists and educators to join us in developing a Master's curriculum tailored to the unique needs, interests, and challenges of RSE.  
 Each module represents a specific area of the RSE landscape and will be shaped by community-driven short online workshops (2–3 hours each).
+
+The main idea is to supplement general courses on software engineering, data science and advanced science classes with RSE-specific courses tailored to the growing field of software engineering in research.
+These example modules will be new in structure and content and provide universities a suggestion how to hire and support the growing need for RSE competencies. These courses will be optional in the sense that alternatives or similar
+existing classes will be suggested if a spezialized lecturer is not available.
 
 In these workshops, we collaboratively define:
 
@@ -41,6 +45,8 @@ In these workshops, we collaboratively define:
 
 These efforts will feed directly into the development of a comprehensive and inclusive RSE Master's curriculum.  
 You can explore the broader project here: [RSE Masters Curriculum GitHub Repository](https://github.com/the-teachingRSE-project/RSE-Masters/tree/tschira-funding)
+
+
 
 # RSE Workshops
 
@@ -59,9 +65,6 @@ Ideas and possible contents of these workshops are listed in more detail below:
 {% endfor %}
 
 # Join Us!
-
-If you're passionate about any of these topics, we want your input!  
-Help shape the future of RSE education by taking part in our short workshops, contributing to the repository and sharing your expertise.
 
 To get involved, please reach out via the repository or contact the organizing team directly at julian.dehne@gi.de.
 
