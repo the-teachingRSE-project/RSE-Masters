@@ -23,6 +23,8 @@ website:
         href: _doc/RSE-Curriculum.pdf
       - text: "Glossary"
         href: general/glossary.qmd
+      - text: "Repository"
+        href: "https://github.com/the-teachingRSE-project/RSE-Masters/tree/tschira-funding"
 
 
 format:
