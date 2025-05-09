@@ -1,3 +1,5 @@
+# WORK IN PROGRESS THIS IS NOT THE OFFICIAL STATEMENT OF THE COMMUNTIY BUT THE CURRENT VERSION
+
 # Why a RSE Curriculum?
 
 The term Research Software Engineer, or RSE,
