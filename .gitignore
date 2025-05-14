@@ -1,0 +1,7 @@
+/.quarto/
+/_site/
+/index_files
+index.aux
+index.tex
+index.log
+/_doc/

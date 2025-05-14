@@ -1,0 +1,9 @@
+meta:
+  id: mnt1
+  profiles:
+      - science
+      - rse
+  level: master
+  name: Science Wildcard
+  depends_on: []
+  wildcard: True

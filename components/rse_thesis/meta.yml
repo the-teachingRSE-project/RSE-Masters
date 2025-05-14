@@ -1,0 +1,11 @@
+meta:
+  id: rse_7
+  name: Master's Thesis
+  mandatory: true
+  profiles:
+    - science
+    - rse
+  level: master
+  depends_on: [mnt3,gen_ds,gen_se,gen_prog]
+  wildcard: True
+  semester: 4

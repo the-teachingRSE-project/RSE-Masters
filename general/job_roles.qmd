@@ -1,0 +1,43 @@
+# Possible Job Roles for an RSE
+
+## Open Science RSE
+
+Open science and FAIRness of data and software are increasingly important topics in research,
+as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
+Hence, an Open Science RSE is required to have a deeper knowledge in **Research Culture (RC)** and how to distribute software publicly (**Software Reusability (SRU)**, **Software Publication (SP)**).
+Open Science RSEs can help researchers navigate the technical questions that come up
+when practising Open Science, such as:
+
+- "How do I make my code presentable?"
+- "How do I make my code citable?"
+- "What do I need to do to make my software FAIR?"
+- "How do I sustainably work with an (international) team on a large code base?"
+
+Like the Data-focused RSE, they have a deep understanding of **Research Data Management (RDM)** topics.
+
+## Project/Community Manager RSEs
+
+When research software projects become larger, they need someone who manages
+processes and people.
+In practice, this concerns change management for code and documentation,
+and community work to safeguard usability and adaptability,
+but also handling project governance and scalable decision-making processes.
+This gap can be filled by people who invest in the **Project Management (PM)**, **User Support (USERS)**, and **Team Management (TEAM)** skills.
+
+Building a community around a research project is an
+important building block in building sustainable software [@Segal2009], so these RSEs play
+an important role, even if they do not necessarily touch much of the code themselves.
+
+## Teaching RSEs
+
+RSEs interested in developing their **Teaching (TEACH)** skill can focus on teaching the next generation of researchers and/or RSEs and will play
+a vital role in improving the quality of research software.
+They need to have a good understanding of all RSE competencies relevant to their domain and
+additionally should have experience or training in the educational field.
+
+## User Interface/User Experience Designers for Research Software
+
+Scientific software is a complex product that often needs to be refined in order to be usable even by other scientists.
+To facilitate this, there are people required that specialise in the **Documentation & Best Practices (DOCBB)** and probably the **Distribution (DIST)** competency
+with a focus on making end-user-facing software really reusable and hence FAIR.
+This task is supported by strong **Modelling (MOD)** skills to reason about the behaviour of potential users of the software.

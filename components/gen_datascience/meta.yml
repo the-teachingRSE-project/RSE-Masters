@@ -1,0 +1,9 @@
+meta:
+  id: gen_ds
+  profiles:
+      - science
+      - rse
+      - up
+  level: master
+  name: Data Science
+  depends_on: []

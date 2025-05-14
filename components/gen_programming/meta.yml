@@ -1,0 +1,9 @@
+meta:
+  id: gen_prog
+  profiles:
+    - science
+    - rse
+    - up
+  level: master
+  name: Basics of Programming
+  depends_on: []

@@ -1,0 +1,10 @@
+meta:
+  id: mnt3
+  profiles:
+      - science
+      - rse
+  level: master
+  name: Science Lab
+  depends_on: [mnt1]
+  wildcard: True
+  semester: 3

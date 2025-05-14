@@ -1,0 +1,4 @@
+## Example Module: Fundamentals of Computer Science
+
+This is an example module to showcase the integration pipeline
+

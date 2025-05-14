@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: _doc
+
+format:
+  pdf:
+    documentclass: scrreprt
+    # template: application_template.tex
+    toc: False
+    colorlinks: true
+    toc-depth: 2
+    bibliography:
+      - references.bib
+      - external/bibliography/bibliography.bib
+    bibliographystyle: APA
+
+book:
+  title: "RSE Curriculum"
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - general/ideas.qmd
+    - general/job_roles.qmd
+    - generation/generated/curriculum.qmd
+    - general/glossary.qmd
+
+
+
+# logo: "potsdam_2024/logos/PNB-Logo.png"
+

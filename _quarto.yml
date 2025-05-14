@@ -1,0 +1,15 @@
+author:
+  - name: Julian Dehne
+    orcid: 0000-0001-9265-9619
+    url: https://www.researchgate.net/profile/Julian-Dehne
+    email: julian.dehne@gesis.org
+    affiliations:
+      - name: Gesellschaft für Informatik
+        address: Rosa-Luxemburg Platz Berlin
+      - name: deRSE
+  - name: Jan Philipp Thiele
+  - name: Florian Goth
+
+profile:
+  default: website
+

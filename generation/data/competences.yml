@@ -1,0 +1,16 @@
+competences:
+  - id: C01
+    description: "Use a version control system to track software changes"
+    disciplines: "CS, Bioinformatics"
+    prerequisites: ""
+    evidence: "Push a merge request with documented code"
+    author: "Florian Goth"
+    source: "https://github.com/the-teachingRSE-project/RSE-Masters"
+
+  - id: C02
+    description: "Conduct a ReproHack on domain-specific data"
+    disciplines: "Physics, CS"
+    prerequisites: "C01"
+    evidence: "Submit a ReproHack report"
+    author: "Florian Goth"
+    source: "https://github.com/the-teachingRSE-project/RSE-Masters"

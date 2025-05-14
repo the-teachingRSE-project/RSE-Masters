@@ -1,0 +1,29 @@
+entries:
+  - name: "Software Engineering I"
+    description: ""
+    type: "Lecture"
+    sws: 4
+    ects: 2
+    group: 1
+    quarto_filename: "se1.qmd"
+  - name: "Software Engineering I"
+    description: ""
+    type: "Exercise"
+    sws: 2
+    ects: 2
+    group: 1
+    quarto_filename: ""
+  - name: "Software Engineering II"
+    description: ""
+    type: "Lecture"
+    sws: 2
+    ects: 4
+    group: 2
+    quarto_filename: "se2.qmd"
+  - name: "Software Engineering II"
+    description: ""
+    type: "Exercise"
+    sws: 2
+    ects: 2
+    group: 2
+    quarto_filename: ""

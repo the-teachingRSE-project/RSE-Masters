@@ -171,7 +171,7 @@ This is the harmonization semester. We assume physicists, bioinformatics and com
 
 #### Communication Skills (4 ECTS, 4 SWS):
 - (*) Lecture + Exercise + Praktikum: collaborative Software Development with a platform(issues, MRs, project management, branches) (2SWS), 2 ECTS -> this can be offered as a service course to other domains
-- Seminar: Science Slam! Present your Bachelor thesis to a an audience of non-experts! (2SWS) 2ECTS Preparation: (Elements of Carpentry Instructor Training?)
+- Seminar: Science Slam! Present your Bachelor thesis to an audience of non-experts! (2SWS) 2ECTS Preparation: (Elements of Carpentry Instructor Training?)
 
 #### Domain?
 - Exercise: Interaction with Data repositories in NFDI (2 SWS) -> 1 ECTS

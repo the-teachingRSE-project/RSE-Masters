@@ -1,0 +1,60 @@
+{{ description }}
+{% for lecture in lectures %}
+
+{%- if lecture.content %}
+{{ lecture.content }}
+{%- else %}
+{%- endif %}
+
+**{{ lecture.type }}**: {{ lecture.name }}
+{{ lecture.description }}
+**SWS:** {{ lecture.sws }}
+**ECTS:** {{ lecture.ects }}
+
+{% endfor %}
+
+
+{% if competences %}
+## Module Competences
+
+| ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
+|-----|-------------|-------------|---------------|----------|--------| --------|
+{%- for c in competences %}
+| {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ Link ]( {{ c.source }} )  |
+{%- endfor %}
+{% endif %}
+
+
+{% if curricula or courses or programs %}
+## Sources & Implementations:
+{% if curricula %}
+### Curricula
+{% for c in curricula %}
+- [{{ c.name }}]({{ c.link }})
+{% endfor %}
+{% endif %}
+
+{% if courses %}
+### Courses
+{% for course in courses %}
+- [{{ course.name }}]({{ course.link }})
+{% endfor %}
+{% endif %}
+
+{% if programs %}
+### Programs
+{% for program in programs %}
+- [{{ program.name }}]({{ program.link }})
+{% endfor %}
+{% endif %}
+{% endif %}
+
+
+{% raw %}
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::
+{% endraw %}
