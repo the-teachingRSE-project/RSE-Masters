@@ -1,4 +1,4 @@
-name: Run Curriculum Generation and Compile with Quarto
+name: run kick-off workshop proposal generation
 
 on:
   # Runs on pushes targeting the default branch
@@ -10,22 +10,25 @@ on:
 
 jobs:
   workshop_proposal:
-    # Build job
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: recursive
+
       - name: Install Quarto (silent)
         run: |
           wget https://quarto.org/download/latest/quarto-linux-amd64.deb -O quarto.deb
           sudo apt install -y ./quarto.deb
           rm quarto.deb
+
       - name: install tinytex extension
         run: quarto install tinytex
+
       - name: render quarto file
         working-directory: ./event/kickoff-workshops
         run: quarto render workshops.qmd --to pdf --output-dir ../../_events
+
       - name: Upload pdf as artifact
         uses: actions/upload-artifact@v4
         with:
@@ -33,7 +36,7 @@ jobs:
           path: _events
 
   deploy:
-    needs: [ workshop_proposal ]
+    needs: [workshop_proposal]
     permissions:
       contents: write
     runs-on: ubuntu-24.04
@@ -41,13 +44,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
         with:
+          name: workshop_outline
           path: github_artifacts
+
       - name: deploy on orphan branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _events
+          publish_dir: github_artifacts/_events
           publish_branch: events
           force_orphan: true
