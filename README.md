@@ -1,5 +1,8 @@
 # RSE-Masters
 
+Active work is going on in the tschira-funding branch. 
+
+The current version of the generated curriculum can be found [here](https://the-teachingrse-project.github.io/RSE-Masters/). This is build with Github Actions.
 
 ## How to Contribute a Component/Module
 
@@ -26,4 +29,3 @@
   - quarto render --profile doc; quarto preview --profile website
 - Linux/ Windows CMD:
   - quarto render --profile doc && quarto preview --profile website
-
