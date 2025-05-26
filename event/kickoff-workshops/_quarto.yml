@@ -1,0 +1,7 @@
+title: "Contribute to the RSE Master's Curriculum"
+author: Julian Dehne
+format:
+  pdf:
+    bibliography:
+      - ../../external/bibliography/bibliography.bib
+      - ../../references.bib
