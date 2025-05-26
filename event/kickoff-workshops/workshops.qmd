@@ -1,5 +1,10 @@
 # Invitation to the RSE Community-Master Development
 
+In modern science, software-based research is playing an increasingly central role.
+The professional development and competent use of software are crucial for progress in nearly all scientific disciplines.
+Accordingly, the professional profile of the Research Software Engineer (RSE) has emerged—characterized by a combination of expertise in software development and a deep understanding of scientific research processes.
+With the growing importance of this role, particularly in the context of emerging RSE service centers at and for research institutions, there is an increasing demand for dedicated Master's programs in RSE or for the integration of RSE profiles into existing, thematically related Master's programs.
+
 We invite all members of the **Research Software Engineering (RSE)** community and interested scientists and educators to join us in developing a Master's curriculum tailored to the unique needs, interests, and challenges of RSE.
 Each module represents a specific area of the RSE landscape and will be shaped by community-driven short online workshops (2–3 hours each).
 
@@ -17,32 +22,35 @@ In these workshops, we collaboratively define:
 These efforts will feed directly into the development of a comprehensive and inclusive RSE Master's curriculum.
 You can explore the broader project here: [RSE Masters Curriculum GitHub Repository](https://github.com/the-teachingRSE-project/RSE-Masters/tree/tschira-funding)
 
-Below you can find a snapshot of ideas for the modules as talking points! The focus and depth of the courses is open for discussion! We start with this partitioning of the topics after a short discussion in the deRSE community. Different groupings of the topics are possible at a later stage. Lets' get going!
 
+# Join Us!
+
+To get involved, please reach out via the repository or contact the organizing team directly at julian.dehne@gi.de with your name and the workshop you are interested in.
+
+# Workshops
+
+Below you can find a snapshot of ideas for the modules as talking points! The focus and depth of the courses is open for discussion! We start with this partitioning of the topics after a short discussion in the deRSE community. Different groupings of the topics are possible at a later stage. Lets' get going!
 
 ## 1. RSE Management and Communication
 
 This module encapsulates the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.
 
-This includes but is not limited to:
+This may include but is not limited to:
 
 - working in a team (see TEAM in [@competencies-F1000])
 - teaching RSE-basics (see TEACH in [@competencies-F1000])
 - project management (see PM in [@competencies-F1000])
 - interaction with users and other stakeholders (see USERS in [@competencies-F1000])
-- (suggestion Jael) FAIR for humans and machines
-- (suggestion Jael) Software Management Plans for reserach software
-
-
+- FAIR for humans and machines
+- Software Management Plans for research software
 
 
 ## 2. The Missing Semester / Tooling / Utility
 
-Peer-Learning/Forschendes Lernen/Student Teaching
 
 In reference to the [MIT Missing Semester](https://missing.csail.mit.edu/) this module tries to convey the nuts and bolts of code development.
 
-This includes (but is not limited to):
+This may include (but is not limited to):
 
 - Shell Tools and Scripting
 - Editors & IDE (i.e. Vim)
@@ -59,6 +67,10 @@ These general competencies can be extended to RSE-specific techniques such as:
 - Software publication and citation (see SP in [@competencies-F1000])
 - Using domain repositories/directories (see DOMREP in [@competencies-F1000])
 
+One early idea is to employ inquiry-based learning and peer teaching to convey these issues that may otherwise be too
+applied to a university curriculum. This would serve the idea that communicating and teaching RSE-skills is one of
+the cornerstones of a RSE professional (see TEACH in [@competencies-F1000]).
+
 ## 3. RSE Efficient Computing and Hardware
 
 RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably.
@@ -73,7 +85,7 @@ Depending on the goals of the workshop, it may be useful to focus on participant
 The RSE programming module extends the Fundamentals of Computer Science module with a focus on RSE-specific programming patterns,
 necessary technologies and good practices.
 
-This includes, but is not limited to
+This may include, but is not limited to
 
 - software re-use (see SRU in [@competencies-F1000])
 - creating documented code building blocks (see DOCBB in [@competencies-F1000])
@@ -84,7 +96,7 @@ This includes, but is not limited to
 
 ### RSE-Software Engineering
 
-This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to
+This module extends the Classical Software Engineering Module with research specific learnings. This may include but is not limited to
 
 - Adapting the software life cycle to research (see SWLC in [@competencies-F1000])
 - Software behaviour awareness and analysis (see MOD in [@competencies-F1000])
@@ -112,9 +124,6 @@ This module conveys competences in areas such as but not limited to ...
 - understanding the research cycle (RC)
 - interaction with users and stakeholders (USERS)
 
-
-
-
 ## 6. Master's Thesis Module: Research Software Engineering Thesis
 
 The master's thesis is the culminating component of the RSE programme. In this module, students apply the full spectrum of Research Software Engineering skills in a real-world research setting, demonstrating their ability to independently design, implement, and document a computational research contribution.
@@ -135,9 +144,6 @@ Students are expected to follow best practices in software engineering, version 
 The colloquium serves as both a public communication exercise and a final evaluation, where students present their project and reflect on challenges and insights gained during the thesis.
 
 
-# Join Us!
-
-To get involved, please reach out via the repository or contact the organizing team directly at julian.dehne@gi.de.
 
 
 # References
