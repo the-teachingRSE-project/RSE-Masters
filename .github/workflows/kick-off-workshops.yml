@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  # Build job
-  build:
+  workshop_proposal:
+    # Build job
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,7 +26,28 @@ jobs:
       - name: render quarto file
         working-directory: ./event/kickoff-workshops
         run: quarto render workshops.qmd --to pdf --output-dir ../../_events
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload pdf as artifact
+        uses: actions/upload-artifact@v4
         with:
+          name: workshop_outline
           path: _events
+
+  deploy:
+    needs: [ workshop_proposal ]
+    permissions:
+      contents: write
+    runs-on: ubuntu-24.04
+    if: ${{ github.repository == 'the-teachingRSE-project/RSE-Masters' && github.ref == 'refs/heads/main' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: github_artifacts
+      - name: deploy on orphan branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _events
+          publish_branch: events
+          force_orphan: true
