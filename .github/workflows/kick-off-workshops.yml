@@ -25,8 +25,8 @@ jobs:
         run: quarto install tinytex
       - name: render quarto file
         working-directory: ./event/kickoff-workshops
-        run: quarto render workshops.qmd --to pdf
+        run: quarto render workshops.qmd --to pdf --output-dir ../../_events
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: _events
