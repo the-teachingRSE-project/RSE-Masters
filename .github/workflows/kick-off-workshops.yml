@@ -1,0 +1,32 @@
+name: Run Curriculum Generation and Compile with Quarto
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Install Quarto (silent)
+        run: |
+          wget https://quarto.org/download/latest/quarto-linux-amd64.deb -O quarto.deb
+          sudo apt install -y ./quarto.deb
+          rm quarto.deb
+      - name: install tinytex extension
+        run: quarto install tinytex
+      - name: compile pdf
+        working-directory: ./event/kickoff-workshops
+        run: quarto render --profile doc
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
