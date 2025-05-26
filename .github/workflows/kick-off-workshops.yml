@@ -23,9 +23,9 @@ jobs:
           rm quarto.deb
       - name: install tinytex extension
         run: quarto install tinytex
-      - name: compile workshops.qmd --to pdf
+      - name: render quarto file
         working-directory: ./event/kickoff-workshops
-        run: quarto render index
+        run: compile workshops.qmd --to pdf
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
