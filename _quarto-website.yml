@@ -11,6 +11,8 @@ website:
   description: ""
   navbar:
     right:
+      - text: "Workshops"
+        href: event/kickoff-workshops/schedule.qmd
       - text: "Curriculum"
         href: generation/generated/curriculum.qmd
       - text: "Preambel"

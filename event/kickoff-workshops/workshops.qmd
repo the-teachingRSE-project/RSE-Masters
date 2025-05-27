@@ -25,11 +25,11 @@ You can explore the broader project here: [RSE Masters Curriculum GitHub Reposit
 
 # Join Us!
 
-To get involved, please reach out via the repository or contact the organizing team directly at julian.dehne@gi.de with your name and the workshop you are interested in.
+To get involved, please reach out via the repository or contact the organizing team directly at julian.dehne@gi.de with your name and the workshop (below) you are interested in.
 
 # Workshops
 
-Below you can find a snapshot of ideas for the modules as talking points! The focus and depth of the courses is open for discussion! We start with this partitioning of the topics after a short discussion in the deRSE community. Different groupings of the topics are possible at a later stage. Lets' get going!
+Below you can find a snapshot of ideas for the modules as talking points! The focus and depth of the courses is open for discussion! We start with this partitioning of the topics after a short discussion in the deRSE community. Different groupings of the topics are possible at a later stage.
 
 ## 1. RSE Management and Communication
 
@@ -124,27 +124,23 @@ This module conveys competences in areas such as but not limited to ...
 - understanding the research cycle (RC)
 - interaction with users and stakeholders (USERS)
 
-## 6. Master's Thesis Module: Research Software Engineering Thesis
+## 6. RSE for Natural Sciences
 
-The master's thesis is the culminating component of the RSE programme. In this module, students apply the full spectrum of Research Software Engineering skills in a real-world research setting, demonstrating their ability to independently design, implement, and document a computational research contribution.
+The focus of this workshop are the specific requirements and focal points in the natural sciences. One of the intended profiles for the RSE Master curriculum is the professional development and specialization of researchers in the natural sciences.
 
-The thesis must address a research question in collaboration with a scientific or applied domain, but its core should include a substantial computational component. This may involve software development, data-intensive research, reproducibility infrastructure, or performance engineering — depending on the chosen topic and specialization.
+This workshop will focus on the following points:
 
-Each thesis must be supervised jointly by:
+- RSE competences required for natural sciences
+- Professional development and specific conditions in the natural sciences
+- Institutional players and interested parties in shaping the MINT-RSE profile
 
-- A domain expert (e.g., in physics, life sciences, or humanities)
-- An RSE mentor (who ensures the quality and relevance of the computational contribution)
+## 7. Institutional Constraints of RSE Master
 
-Students are expected to follow best practices in software engineering, version control, testing, and documentation. The final submission must include:
+This workshop aims to clarify the structural framework of a Master's program in Research Software Engineering (RSE). We will discuss the typical duration (2 years in Germany) and whether alternatives like 1- or 3-year formats should be considered. Key topics include which faculties or departments can grant the degree—whether it must be Computer Science or could extend to other disciplines under certain conditions. We'll also define admission requirements and explore how interdisciplinary applicants can be accommodated.
 
-- A written thesis describing both the scientific and software contributions
-- A structured, reproducible code repository
-- A presentation and defense in a thesis colloquium
+Another focus will be on curriculum composition: Is there a way to structure levels of RSE competence similar to the German Informatics Society's model for CS degrees? How should the program balance research (R) and software engineering (SE)? We’ll explore potential profiles or tracks and address how modular and flexible the curriculum should be.
 
-The colloquium serves as both a public communication exercise and a final evaluation, where students present their project and reflect on challenges and insights gained during the thesis.
-
-
-
+{{< include schedule.qmd >}}
 
 # References
 

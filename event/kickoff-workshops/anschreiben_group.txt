@@ -1,41 +1,27 @@
-Dear [group],
+Dear [Group],
 
-In modern science, software-based research is playing an increasingly central role.
-The professional development and competent use of software are crucial for progress in nearly all scientific disciplines.
-Accordingly, the professional profile of the Research Software Engineer (RSE) has emerged—characterized by a combination of expertise in software development and a deep understanding of scientific research processes.
-With the growing importance of this role, particularly in the context of emerging RSE service centers at and for research institutions, there is an increasing demand for dedicated Master's programs in RSE or for the integration of RSE profiles into existing, thematically related Master's programs.
+In modern science, software-based research plays an increasingly central role. The professional development and competent use of software are essential for progress across nearly all scientific disciplines.
 
-We invite all members of the **Research Software Engineering (RSE)** community and interested scientists and educators to join us in developing a Master's curriculum tailored to the unique needs, interests, and challenges of RSE.
-Each module in the curriculum represents a specific area of the RSE landscape and will be shaped by community-driven short online workshops (2–3 hours each).
+In response, the professional profile of the Research Software Engineer (RSE) has emerged—combining expertise in software development with a deep understanding of scientific research processes. As the importance of this role grows, particularly with the rise of RSE service centers at research institutions, so does the demand for dedicated Master's programs in RSE or the integration of RSE-focused tracks into existing graduate programs.
 
-The main idea is to _supplement_ general courses on software engineering, data science and advanced science classes with RSE-specific courses tailored to the growing field of software engineering in research. Mapping necessary required basic courses is part the process.
+We invite all members of the Research Software Engineering (RSE) community—as well as interested scientists and educators—to contribute to the development of a modular Master's curriculum tailored to the unique needs and challenges of RSEs. Each curriculum module will focus on a specific area of the RSE landscape and will be shaped through short, community-driven online workshops (2–3 hours each).
 
-These example modules will be new in structure and content and provide universities a suggestion how to hire and support the growing need for RSE competencies. These courses will be optional in the sense that alternatives or similar
-existing classes will be suggested if a specialized lecturer is not available.
+The core idea is to supplement general courses in software engineering, data science, and domain-specific science with RSE-specific modules. These will address the distinct context of software development in research. As part of the process, we will also map foundational courses that support RSE education.
 
-In these workshops, we collaboratively define:
+The resulting example modules will introduce novel structures and content, offering universities concrete guidance on how to support and expand RSE competencies. These courses will be adaptable—alternative or equivalent existing classes will be suggested if a dedicated lecturer is not available.
+
+During the workshops, we will collaboratively define:
 
 - Relevant competences
 - Suggested course structures
 - RSE-specific perspectives
 
-These efforts will feed directly into the development of a comprehensive and inclusive RSE Master's curriculum.
-You can explore the broader project here: [RSE Masters Curriculum GitHub Repository](https://github.com/the-teachingRSE-project/RSE-Masters/tree/tschira-funding)
+These outcomes will directly contribute to building a comprehensive and inclusive RSE Master’s curriculum.
 
-To get involved as expert, please reach out via the repository or contact the organizing team directly at julian.dehne@gi.de, mentioning the workshop you are interested in (see attachment).
-For the expert meetings we can accommodate the schedule of the participants!
+You can explore the broader project here:  https://github.com/the-teachingRSE-project/RSE-Masters
 
-Also, there is a regular community meeting every Friday at 10 am. See tentative plan below:
-
-- **Friday, June 6, 2025** – 10:00 AM: RSE Management and Communication
-- **Friday, June 13, 2025** – 10:00 AM: The Missing Semester / RSE Tooling
-- **Friday, June 27, 2025** – 10:00 AM: RSE Programming and Software Engineering
-- **Friday, July 4, 2025** – 10:00 AM: RSE Theory
-- **Friday, July 11, 2025** – 10:00 AM: Master's Thesis Module
-- **Friday, July 18, 2025** – 10:00 AM: RSE Management and Communication
-- **Friday, July 25, 2025** – 10:00 AM: The Missing Semester / RSE Tooling
-- ...
-
+To get involved as an expert, please reach out via the repository or contact the organizing team at julian.dehne@gi.de, mentioning the workshop you are interested in (see attachment).
+We’d be honored to have your perspective and input. Also, we would like to invite you to the accompanying publication effort.
 
 Yours sincerely,
 Julian Dehne
