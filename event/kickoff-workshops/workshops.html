@@ -10,7 +10,7 @@
 <meta name="author" content="Jan Philipp Thiele">
 <meta name="author" content="Florian Goth">
 
-<title>description – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>workshops – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -182,22 +202,263 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="masters-thesis-module-research-software-engineering-thesis" class="level2">
-<h2 class="anchored" data-anchor-id="masters-thesis-module-research-software-engineering-thesis">Master’s Thesis Module: Research Software Engineering Thesis</h2>
-<p>The master’s thesis is the culminating component of the RSE programme. In this module, students apply the full spectrum of Research Software Engineering skills in a real-world research setting, demonstrating their ability to independently design, implement, and document a computational research contribution.</p>
-<p>The thesis must address a research question in collaboration with a scientific or applied domain, but its core should include a substantial computational component. This may involve software development, data-intensive research, reproducibility infrastructure, or performance engineering — depending on the chosen topic and specialization.</p>
-<p>Each thesis must be supervised jointly by:</p>
+<section id="invitation-to-the-rse-community-master-development" class="level1">
+<h1>Invitation to the RSE Community-Master Development</h1>
+<p>In modern science, software-based research is playing an increasingly central role. The professional development and competent use of software are crucial for progress in nearly all scientific disciplines. Accordingly, the professional profile of the Research Software Engineer (RSE) has emerged—characterized by a combination of expertise in software development and a deep understanding of scientific research processes. With the growing importance of this role, particularly in the context of emerging RSE service centers at and for research institutions, there is an increasing demand for dedicated Master’s programs in RSE or for the integration of RSE profiles into existing, thematically related Master’s programs.</p>
+<p>We invite all members of the <strong>Research Software Engineering (RSE)</strong> community and interested scientists and educators to join us in developing a Master’s curriculum tailored to the unique needs, interests, and challenges of RSE. Each module represents a specific area of the RSE landscape and will be shaped by community-driven short online workshops (2–3 hours each).</p>
+<p>The main idea is to <em>supplement</em> general courses on software engineering, data science and advanced science classes with RSE-specific courses tailored to the growing field of software engineering in research. Mapping necessary required basic courses is part the process.</p>
+<p>These example modules will be new in structure and content and provide universities a suggestion how to hire and support the growing need for RSE competencies. These courses will be optional in the sense that alternatives or similar existing classes will be suggested if a specialized lecturer is not available.</p>
+<p>In these workshops, we collaboratively define:</p>
 <ul>
-<li>A domain expert (e.g., in physics, life sciences, or humanities)</li>
-<li>An RSE mentor (who ensures the quality and relevance of the computational contribution)</li>
+<li>Relevant competences</li>
+<li>Suggested course structures</li>
+<li>RSE-specific perspectives</li>
 </ul>
-<p>Students are expected to follow best practices in software engineering, version control, testing, and documentation. The final submission must include:</p>
+<p>These efforts will feed directly into the development of a comprehensive and inclusive RSE Master’s curriculum. You can explore the broader project here: <a href="https://github.com/the-teachingRSE-project/RSE-Masters/tree/tschira-funding">RSE Masters Curriculum GitHub Repository</a></p>
+</section>
+<section id="join-us" class="level1">
+<h1>Join Us!</h1>
+<p>To get involved, please reach out via the repository or contact the organizing team directly at julian.dehne@gi.de with your name and the workshop (below) you are interested in.</p>
+</section>
+<section id="workshops" class="level1">
+<h1>Workshops</h1>
+<p>Below you can find a snapshot of ideas for the modules as talking points! The focus and depth of the courses is open for discussion! We start with this partitioning of the topics after a short discussion in the deRSE community. Different groupings of the topics are possible at a later stage.</p>
+<section id="rse-management-and-communication" class="level2">
+<h2 class="anchored" data-anchor-id="rse-management-and-communication">1. RSE Management and Communication</h2>
+<p>This module encapsulates the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.</p>
+<p>This may include but is not limited to:</p>
 <ul>
-<li>A written thesis describing both the scientific and software contributions</li>
-<li>A structured, reproducible code repository</li>
-<li>A presentation and defense in a thesis colloquium</li>
+<li>working in a team (see TEAM in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>teaching RSE-basics (see TEACH in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>project management (see PM in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>interaction with users and other stakeholders (see USERS in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>FAIR for humans and machines</li>
+<li>Software Management Plans for research software</li>
 </ul>
-<p>The colloquium serves as both a public communication exercise and a final evaluation, where students present their project and reflect on challenges and insights gained during the thesis.</p>
+</section>
+<section id="the-missing-semester-tooling-utility" class="level2">
+<h2 class="anchored" data-anchor-id="the-missing-semester-tooling-utility">2. The Missing Semester / Tooling / Utility</h2>
+<p>In reference to the <a href="https://missing.csail.mit.edu/">MIT Missing Semester</a> this module tries to convey the nuts and bolts of code development.</p>
+<p>This may include (but is not limited to):</p>
+<ul>
+<li>Shell Tools and Scripting</li>
+<li>Editors &amp; IDE (i.e.&nbsp;Vim)</li>
+<li>Data Wrangling</li>
+<li>Command-line Environment</li>
+<li>Version Control (Git)</li>
+<li>Debugging and Profiling</li>
+<li>Metaprogramming</li>
+<li>Documentation</li>
+<li>Security and Cryptography (ssh, md5)</li>
+</ul>
+<p>These general competencies can be extended to RSE-specific techniques such as:</p>
+<ul>
+<li>Software publication and citation (see SP in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>Using domain repositories/directories (see DOMREP in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+</ul>
+<p>One early idea is to employ inquiry-based learning and peer teaching to convey these issues that may otherwise be too applied to a university curriculum. This would serve the idea that communicating and teaching RSE-skills is one of the cornerstones of a RSE professional (see TEACH in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>).</p>
+</section>
+<section id="rse-efficient-computing-and-hardware" class="level2">
+<h2 class="anchored" data-anchor-id="rse-efficient-computing-and-hardware">3. RSE Efficient Computing and Hardware</h2>
+<p>RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably.</p>
+<p>Depending on the goals of the workshop, it may be useful to focus on participants with a background in technical computer science or some prior exposure to parallel programming. Familiarity with teaching multithreading, MPI, or GPU programming (e.g., CUDA) could be helpful, especially if we dive into hands-on HPC RSE aspects.</p>
+</section>
+<section id="rse-programming-and-software-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="rse-programming-and-software-engineering">4. RSE Programming and Software Engineering</h2>
+<section id="rse-programming" class="level3">
+<h3 class="anchored" data-anchor-id="rse-programming">RSE Programming</h3>
+<p>The RSE programming module extends the Fundamentals of Computer Science module with a focus on RSE-specific programming patterns, necessary technologies and good practices.</p>
+<p>This may include, but is not limited to</p>
+<ul>
+<li>software re-use (see SRU in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>creating documented code building blocks (see DOCBB in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>building distributable software (see DIST in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>research specific programming languages</li>
+<li>research specific code requirements (scalability, functional programming, …)</li>
+<li>Vector and graph database in generative AI applications //This topic (LLM or AI) has been not yet deeply explored in RSE field. Perhaps someone here is an AI expert who can suggest more specific programmes?</li>
+</ul>
+</section>
+<section id="rse-software-engineering" class="level3">
+<h3 class="anchored" data-anchor-id="rse-software-engineering">RSE-Software Engineering</h3>
+<p>This module extends the Classical Software Engineering Module with research specific learnings. This may include but is not limited to</p>
+<ul>
+<li>Adapting the software life cycle to research (see SWLC in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>Software behaviour awareness and analysis (see MOD in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>Research specific Engineering Patterns</li>
+</ul>
+</section>
+</section>
+<section id="rse-theory" class="level2">
+<h2 class="anchored" data-anchor-id="rse-theory">5. RSE Theory</h2>
+<p>The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved in digitalization projects, institutional development or other non-technical tasks.</p>
+<p>For a university level study program it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. For this they need a solid understanding in some of the more theoretical fields such as …</p>
+<ul>
+<li>philosophy of science</li>
+<li>sociology of technology</li>
+<li>ethics and artificial intelligence</li>
+<li>human computer interaction</li>
+<li>digital humanities</li>
+</ul>
+<p>This module conveys competences in areas such as but not limited to …</p>
+<ul>
+<li>conducting and leading research (NEW)</li>
+<li>understanding the research cycle (RC)</li>
+<li>interaction with users and stakeholders (USERS)</li>
+</ul>
+</section>
+<section id="rse-for-natural-sciences" class="level2">
+<h2 class="anchored" data-anchor-id="rse-for-natural-sciences">6. RSE for Natural Sciences</h2>
+<p>The focus of this workshop are the specific requirements and focal points in the natural sciences. One of the intended profiles for the RSE Master curriculum is the professional development and specialization of researchers in the natural sciences.</p>
+<p>This workshop will focus on the following points:</p>
+<ul>
+<li>RSE competences required for natural sciences</li>
+<li>Professional development and specific conditions in the natural sciences</li>
+<li>Institutional players and interested parties in shaping the MINT-RSE profile</li>
+</ul>
+</section>
+<section id="institutional-constraints-of-rse-master" class="level2">
+<h2 class="anchored" data-anchor-id="institutional-constraints-of-rse-master">7. Institutional Constraints of RSE Master</h2>
+<p>This workshop aims to clarify the structural framework of a Master’s program in Research Software Engineering (RSE). We will discuss the typical duration (2 years in Germany) and whether alternatives like 1- or 3-year formats should be considered. Key topics include which faculties or departments can grant the degree—whether it must be Computer Science or could extend to other disciplines under certain conditions. We’ll also define admission requirements and explore how interdisciplinary applicants can be accommodated.</p>
+<p>Another focus will be on curriculum composition: Is there a way to structure levels of RSE competence similar to the German Informatics Society’s model for CS degrees? How should the program balance research (R) and software engineering (SE)? We’ll explore potential profiles or tracks and address how modular and flexible the curriculum should be.</p>
+</section>
+</section>
+<section id="preliminary-schedule-for-rse-community-workshops" class="level1">
+<h1>Preliminary Schedule for RSE Community Workshops</h1>
+<p><em>All times are in Berlin time (CEST).</em></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 12%">
+<col style="width: 8%">
+<col style="width: 50%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Day</th>
+<th>Time</th>
+<th>Topic</th>
+<th>Option</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>June 6, 2025</td>
+<td>Friday</td>
+<td>10:00</td>
+<td>RSE Management and Communication</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>June 12, 2025</td>
+<td>Thursday</td>
+<td>15:00</td>
+<td>RSE Theory</td>
+<td>A</td>
+</tr>
+<tr class="odd">
+<td>June 13, 2025</td>
+<td>Friday</td>
+<td>10:00</td>
+<td>The Missing Semester / RSE Tooling</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>June 19, 2025</td>
+<td>Thursday</td>
+<td>10:00</td>
+<td>RSE Thesis / Open Topic</td>
+<td>A</td>
+</tr>
+<tr class="odd">
+<td>June 20, 2025</td>
+<td>Thursday</td>
+<td>10:00</td>
+<td>RSE Thesis / Open Topic</td>
+<td>B</td>
+</tr>
+<tr class="even">
+<td>July 10, 2025</td>
+<td>Thursday</td>
+<td>10:00</td>
+<td>RSE Programming and Software Engineering</td>
+<td>A</td>
+</tr>
+<tr class="odd">
+<td>July 11, 2025</td>
+<td>Friday</td>
+<td>10:00</td>
+<td>Institutional Constraints of RSE Master</td>
+<td>A</td>
+</tr>
+<tr class="even">
+<td>July 17, 2025</td>
+<td>Thursday</td>
+<td>15:00</td>
+<td>RSE for Natural Sciences</td>
+<td>A</td>
+</tr>
+<tr class="odd">
+<td>July 18, 2025</td>
+<td>Friday</td>
+<td>10:00</td>
+<td>RSE Management and Communication</td>
+<td>B</td>
+</tr>
+<tr class="even">
+<td>July 24, 2025</td>
+<td>Thursday</td>
+<td>10:00</td>
+<td>Institutional Constraints of RSE Master</td>
+<td>B</td>
+</tr>
+<tr class="odd">
+<td>July 25, 2025</td>
+<td>Friday</td>
+<td>10:00</td>
+<td>The Missing Semester / RSE Tooling</td>
+<td>B</td>
+</tr>
+<tr class="even">
+<td>July 31, 2025</td>
+<td>Thursday</td>
+<td>15:00</td>
+<td>RSE for Natural Sciences</td>
+<td>B</td>
+</tr>
+<tr class="odd">
+<td>August 1, 2025</td>
+<td>Friday</td>
+<td>10:00</td>
+<td>RSE Programming and Software Engineering</td>
+<td>B</td>
+</tr>
+<tr class="even">
+<td>August 7, 2025</td>
+<td>Thursday</td>
+<td>15:00</td>
+<td>Institutional Constraints of RSE Master</td>
+<td>C</td>
+</tr>
+<tr class="odd">
+<td>August 8, 2025</td>
+<td>Friday</td>
+<td>10:00</td>
+<td>RSE Theory</td>
+<td>B</td>
+</tr>
+</tbody>
+</table>
+<p>All the workshops will take place in the regular deRSE zoom. Contact julian.dehne@gi.de for the access details.</p>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-competencies-F1000" class="csl-entry" role="listitem">
+Goth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. <span>“Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].”</span> <em>F1000Research</em> 13 (1429). <a href="https://doi.org/10.12688/f1000research.157778.1">https://doi.org/10.12688/f1000research.157778.1</a>.
+</div>
+</div>
 
 
 </section>
