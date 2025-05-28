@@ -20,8 +20,14 @@ These outcomes will directly contribute to building a comprehensive and inclusiv
 
 You can explore the broader project here:  https://github.com/the-teachingRSE-project/RSE-Masters
 
-To get involved as an expert, please reach out via the repository or contact the organizing team at julian.dehne@gi.de, mentioning the workshop you are interested in (see attachment).
-We’d be honored to have your perspective and input. Also, we would like to invite you to the accompanying publication effort.
+The call for the workshops and long description can be found here:  https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Projekte/rse_workshops.pdf
+
+To get involved as an expert, please register for the workshops you are interested in here within the next two weeks: https://terminplaner6.dfn.de/b/b87d7614820fb9540532386d855885ce-1253209 or contact the organizing team at julian.dehne@gi.de.
+We’d be honored to have your perspective and input.
 
 Yours sincerely,
 Julian Dehne
+
+An initiative of:
+Gesellschaft für Informatik-RSE Team
+deRSE Verein

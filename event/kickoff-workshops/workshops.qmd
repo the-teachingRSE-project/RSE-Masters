@@ -78,9 +78,9 @@ RSEs with expertise in HPC and other performance-critical computing domains spec
 Depending on the goals of the workshop, it may be useful to focus on participants with a background in technical computer science or some prior exposure to parallel programming. Familiarity with teaching multithreading, MPI, or GPU programming (e.g., CUDA) could be helpful, especially if we dive into hands-on HPC RSE aspects.
 
 
-## 4. RSE Programming and Software Engineering
+## 4. Programming and Software Engineering for Research
 
-### RSE Programming
+### Programming for Research
 
 The RSE programming module extends the Fundamentals of Computer Science module with a focus on RSE-specific programming patterns,
 necessary technologies and good practices.
@@ -94,7 +94,7 @@ This may include, but is not limited to
 - research specific code requirements (scalability, functional programming, ...)
 - Vector and graph database in generative AI applications //This topic (LLM or AI) has been not yet deeply explored in RSE field. Perhaps someone here is an AI expert who can suggest more specific programmes?
 
-### RSE-Software Engineering
+### Research Software Engineering
 
 This module extends the Classical Software Engineering Module with research specific learnings. This may include but is not limited to
 

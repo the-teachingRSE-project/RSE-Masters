@@ -1,8 +1,6 @@
-Certainly! Here's the schedule **grouped by topic**, formatted with `-` as bullet points:
 
----
 
-### **Institutional Constraints of RSE Master**
+Institutional Constraints of RSE Master
 
 - Friday, July 11, 2025 – 10:00 (Option A)
 - Thursday, July 24, 2025 – 15:00 (Option B)
@@ -10,42 +8,42 @@ Certainly! Here's the schedule **grouped by topic**, formatted with `-` as bulle
 
 ---
 
-### **RSE for Natural Sciences**
+RSE for Natural Sciences
 
 - Thursday, July 17, 2025 – 15:00 (Option A)
 - Thursday, July 31, 2025 – 15:00 (Option B)
 
 ---
 
-### **RSE Management and Communication**
+RSE Management and Communication
 
 - Friday, June 6, 2025 – 10:00 (Option A)
 - Friday, July 18, 2025 – 10:00 (Option B)
 
 ---
 
-### **RSE Programming and Software Engineering**
+Programming and Software Engineering for Research
 
 - Thursday, July 10, 2025 – 15:00 (Option A)
 - Friday, August 1, 2025 – 10:00 (Option B)
 
 ---
 
-### **RSE Theory**
+RSE Theory
 
 - Thursday, June 12, 2025 – 15:00 (Option A)
 - Friday, August 8, 2025 – 10:00 (Option B)
 
 ---
 
-### **The Missing Semester / RSE Tooling**
+The Missing Semester / RSE Tooling
 
 - Friday, June 13, 2025 – 10:00 (Option A)
 - Friday, July 25, 2025 – 10:00 (Option B)
 
 ---
 
-### **RSE Thesis / Open Topic**
+RSE Thesis / Open Topic
 
 - Thursday, June 19, 2025 – 15:00 (Option A)
 - Friday, June 20, 2025 – 10:00 (Option B)
