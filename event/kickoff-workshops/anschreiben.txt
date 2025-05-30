@@ -2,20 +2,17 @@ Subject: Invitation to Help Shape a Master’s Curriculum for Research Software 
 
 Dear Mr./Ms. [Name],
 
-To support the growing need for RSE skills in academia and beyond, we are developing a modular Master's curriculum that reflects the real-world challenges and responsibilities of RSEs. This initiative is especially relevant as more institutions begin to establish RSE groups and service centers.
+To support the growing need for RSE skills in academia and beyond, we are developing a modular Master's curriculum that reflects the real-world challenges and responsibilities of RSEs.
+This initiative is especially relevant as more institutions begin to establish RSE groups and service centers.
 
-We would like to invite you to contribute to this effort by participating in a focused, community-driven online workshop:  
-**[Workshop Title]**  
+We would like to invite you to contribute to this effort by participating in a focused, community-driven online workshop:
+**[Workshop Title]**
 The session will take approximately 2–3 hours and will center on a curriculum module aligned with your expertise in **[Your Field]**.
 
 Together, we will:
 - Identify key competences for RSEs in this area,
 - Outline a possible course structure,
 - Highlight the unique perspective RSEs bring to this topic.
-
-The goal is to complement existing software engineering, data science, and domain-specific courses with targeted, RSE-focused modules. Where specialized instruction is not yet available, we will also suggest alternatives or integration strategies.
-
-These collaboratively developed modules will serve as examples for universities looking to establish or expand RSE-focused education.
 
 You can learn more about the project here: https://github.com/the-teachingRSE-project/RSE-Masters
 
@@ -25,6 +22,9 @@ In order to start the community process as quickly as possible we suggest one of
 
 [date 1]
 [date 2]
+
+
+
 
 We’d be honored to have your perspective and input. If you are strongly interested, but you are busy during the suggested time slots, let us know, and we will try to find another solution.
 

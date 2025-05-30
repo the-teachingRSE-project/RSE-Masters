@@ -8,7 +8,7 @@ _All times are in Berlin time (CEST)._
 | June 12, 2025  | Thursday | 15:00 | RSE Theory                               | A      |
 | June 13, 2025  | Friday   | 10:00 | The Missing Semester / RSE Tooling       | A      |
 | June 19, 2025  | Thursday | 15:00 | RSE Thesis / Open Topic                  | A      |
-| June 20, 2025  | Friday   | 10:00 | RSE Thesis / Open Topic                  | B      |
+| June 20, 2025  | Friday   | 10:00 | RSE Computing / Scientific Computing     | A      |
 | July 10, 2025  | Thursday | 15:00 | RSE Programming and Software Engineering | A      |
 | July 11, 2025  | Friday   | 10:00 | Institutional Constraints of RSE Master  | A      |
 | July 17, 2025  | Thursday | 15:00 | RSE for Natural Sciences                 | A      |
@@ -17,7 +17,7 @@ _All times are in Berlin time (CEST)._
 | July 25, 2025  | Friday   | 10:00 | The Missing Semester / RSE Tooling       | B      |
 | July 31, 2025  | Thursday | 15:00 | RSE for Natural Sciences                 | B      |
 | August 1, 2025 | Friday   | 10:00 | RSE Programming and Software Engineering | B      |
-| August 7, 2025 | Thursday | 15:00 | Institutional Constraints of RSE Master  | C      |
+| August 7, 2025 | Thursday | 15:00 | RSE Computing / Scientific Computing     | B      |
 | August 8, 2025 | Friday   | 10:00 | RSE Theory                               | B      |
 
 All the workshops will take place in the regular deRSE zoom. Contact julian.dehne@gi.de for the access details.

@@ -41,13 +41,4 @@ The Missing Semester / RSE Tooling
 - Friday, June 13, 2025 – 10:00 (Option A)
 - Friday, July 25, 2025 – 10:00 (Option B)
 
----
 
-RSE Thesis / Open Topic
-
-- Thursday, June 19, 2025 – 15:00 (Option A)
-- Friday, June 20, 2025 – 10:00 (Option B)
-
----
-
-Let me know if you want this integrated into a document or formatted for Quarto or LaTeX output.
