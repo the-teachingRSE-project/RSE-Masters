@@ -1,4 +1,6 @@
-# RSE-Masters
+# RSE-Masters (Technical Prototype and Current State)
+
+We just started the community process. Even though we organized a technical pipeline and some modularization, we have not progressed to the point where you should place to much weight on the current state of the prototype in terms of content. 
 
 Active work is going on in the tschira-funding branch. 
 
