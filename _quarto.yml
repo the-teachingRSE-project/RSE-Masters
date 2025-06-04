@@ -1,4 +1,6 @@
 author:
+  - name: Gesellschaft für Informatik
+  - name: deRSE
   - name: Julian Dehne
     orcid: 0000-0001-9265-9619
     url: https://www.researchgate.net/profile/Julian-Dehne
@@ -8,8 +10,9 @@ author:
       - name: Gesellschaft für Informatik
         address: Rosa-Luxemburg Platz Berlin
       - name: deRSE
-  - name: Jan Philipp Thiele
   - name: Florian Goth
+  - name: Jan Phillip Thiele
+  - name: Anna-Lena Lambrecht
 
 profile:
   default: website
