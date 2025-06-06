@@ -4,7 +4,7 @@ project:
   title: Showcase Curriculum for Research Software Engineering
   render:
     - "*.qmd"
-
+    - "!presentation/"
 
 website:
   title: "RSE Curriculum (WORK IN PROGRESS)"
