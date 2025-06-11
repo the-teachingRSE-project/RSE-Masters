@@ -3,6 +3,7 @@ project:
   output-dir: _doc
   render:
     - "!presentation/"
+    - "!thesis/"
 
 format:
   pdf:

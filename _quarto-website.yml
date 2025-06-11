@@ -5,6 +5,7 @@ project:
   render:
     - "*.qmd"
     - "!presentation/"
+    - "!thesis/"
 
 website:
   title: "RSE Curriculum (WORK IN PROGRESS)"
