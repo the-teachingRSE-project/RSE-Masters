@@ -473,7 +473,7 @@
     "href": "generation/generated/curriculum.html",
     "title": "General Study Process",
     "section": "",
-    "text": "Type\nDescription\nSWS\nECTS\n\n\n\n\nLecture\nMathematical Foundations of Data Science\n4\n6\n\n\nLecture\nStatistical Data Analysis\n4\n4\n\n\nExercise\nData-oriented Programming\n4\n6\n\n\nExercise\nText2Data\n4\n4\n\n\n\nTotal ECTS: 20\n\n\n\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nLecture\nWildcard Science I\n2\n3\n\n\nLecture\nWildcard Science II\n2\n3\n\n\nLab\nWildcard Science Lab I\n4\n6\n\n\nLab\nWildcard Science Lab II\n2\n2\n\n\n\nTotal ECTS: 14\n\n\n\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nLab\nScience Lab\n4\n6\n\n\nLecture\nBasic Programming\n2\n1\n\n\nExercise\nBasic Programming Exercise\n4\n4\n\n\nLecture\nApplied Programming\n2\n1\n\n\nExercise\nApplied Programming Exercise\n4\n4\n\n\nLecture\nComputational Wildcard Science\n2\n3\n\n\nLab\nWildcard Science Lab\n4\n6\n\n\n\nTotal ECTS: 25\n\n\n\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nThesis\nRSE Master Thesis\n10\n30\n\n\n\nTotal ECTS: 30\nTotal Curriculum ECTS: 89"
+    "text": "Type\nDescription\nSWS\nECTS\n\n\n\n\nLecture\nMathematical Foundations of Data Science\n4\n6\n\n\nLecture\nStatistical Data Analysis\n4\n4\n\n\nExercise\nData-oriented Programming\n4\n6\n\n\nExercise\nText2Data\n4\n4\n\n\n\nTotal ECTS: 20\n\n\n\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nLecture\nWildcard Science I\n2\n3\n\n\nLecture\nWildcard Science II\n2\n3\n\n\nLab\nWildcard Science Lab I\n4\n6\n\n\nLab\nWildcard Science Lab II\n2\n2\n\n\nLecture\nSoftware Engineering I\n4\n2\n\n\nExercise\nSoftware Engineering I\n2\n2\n\n\nLecture\nSoftware Engineering II\n2\n4\n\n\nExercise\nSoftware Engineering II\n2\n2\n\n\n\nTotal ECTS: 24\n\n\n\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nLab\nScience Lab\n4\n6\n\n\nLecture\nBasic Programming\n2\n1\n\n\nExercise\nBasic Programming Exercise\n4\n4\n\n\nLecture\nApplied Programming\n2\n1\n\n\nExercise\nApplied Programming Exercise\n4\n4\n\n\nLecture\nComputational Wildcard Science\n2\n3\n\n\nLab\nWildcard Science Lab\n4\n6\n\n\n\nTotal ECTS: 25\n\n\n\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nThesis\nRSE Master Thesis\n10\n30\n\n\n\nTotal ECTS: 30\nTotal Curriculum ECTS: 99"
   },
   {
     "objectID": "generation/generated/curriculum.html#semester-1",
@@ -487,7 +487,7 @@
     "href": "generation/generated/curriculum.html#semester-2",
     "title": "General Study Process",
     "section": "",
-    "text": "Type\nDescription\nSWS\nECTS\n\n\n\n\nLecture\nWildcard Science I\n2\n3\n\n\nLecture\nWildcard Science II\n2\n3\n\n\nLab\nWildcard Science Lab I\n4\n6\n\n\nLab\nWildcard Science Lab II\n2\n2\n\n\n\nTotal ECTS: 14"
+    "text": "Type\nDescription\nSWS\nECTS\n\n\n\n\nLecture\nWildcard Science I\n2\n3\n\n\nLecture\nWildcard Science II\n2\n3\n\n\nLab\nWildcard Science Lab I\n4\n6\n\n\nLab\nWildcard Science Lab II\n2\n2\n\n\nLecture\nSoftware Engineering I\n4\n2\n\n\nExercise\nSoftware Engineering I\n2\n2\n\n\nLecture\nSoftware Engineering II\n2\n4\n\n\nExercise\nSoftware Engineering II\n2\n2\n\n\n\nTotal ECTS: 24"
   },
   {
     "objectID": "generation/generated/curriculum.html#semester-3",
@@ -501,7 +501,7 @@
     "href": "generation/generated/curriculum.html#semester-4",
     "title": "General Study Process",
     "section": "",
-    "text": "Type\nDescription\nSWS\nECTS\n\n\n\n\nThesis\nRSE Master Thesis\n10\n30\n\n\n\nTotal ECTS: 30\nTotal Curriculum ECTS: 89"
+    "text": "Type\nDescription\nSWS\nECTS\n\n\n\n\nThesis\nRSE Master Thesis\n10\n30\n\n\n\nTotal ECTS: 30\nTotal Curriculum ECTS: 99"
   },
   {
     "objectID": "generation/generated/gen_programming.html",
