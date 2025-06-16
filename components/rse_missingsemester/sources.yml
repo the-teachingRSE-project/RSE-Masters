@@ -1,0 +1,12 @@
+sources:
+  courses:
+    - name: MIT Missing Semester
+      link: "https://missing.csail.mit.edu"
+    - name: CodeRefinery
+      link: "https://coderefinery.org/lessons/"
+    - name: INTERSECT Training Materials
+      link: "https://intersect-training.org/training-material/"
+    - name: Digital Research Academy Materials (Git, HPC, Reproducibility, Research Software)
+      link: "https://zenodo.org/communities/digiresacademy/records?q=&f=subject%3AResearch%20Software&f=subject%3AGit&f=subject%3AHPC&f=subject%3AReproducibility&l=list&p=1&s=10&sort=newest"
+    - name: Building Better Research Software (SSI)
+      link: "https://carpentries-incubator.github.io/fair-research-software/"
