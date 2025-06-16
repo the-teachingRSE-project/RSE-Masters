@@ -1,0 +1,32 @@
+competences:
+  - id: rse_practices_8
+    description: "Build and manage sustainable research software communities"
+    disciplines: "Research Software Engineering, Community Engagement"
+    prerequisites: "rse_tooling_13"
+    evidence: "Document strategies used for user engagement, feedback, and community growth in a real project"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_9
+    description: "Work in an agile software development process, including requirement gathering and iteration"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Submit a project that uses agile planning (e.g., user stories, sprints, stand-ups) and reflects on iteration outcomes"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_10
+    description: "Define project scope, gather requirements, and manage stakeholder expectations"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Provide a requirements document and stakeholder communication log for a software project"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_11
+    description: "Plan for software maintenance and long-term sustainability, including archiving strategies"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_practices_6"
+    evidence: "Submit a sustainability or exit plan describing how the software will be maintained or archived"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"

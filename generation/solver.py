@@ -2,6 +2,7 @@ from collections import defaultdict
 from Curriculum import *
 import copy
 
+
 def print_semester_counts(semesters, message):
     print(message)
     for n_sem, sem in semesters.items():
@@ -9,10 +10,8 @@ def print_semester_counts(semesters, message):
 
 
 def create_curriculum_solver(modules):
-
-
-    fixed_map = {}
-    dep_map = {}
+    fixed_map = {1: [], 2: [], 3: [], 4: []} # semester -> lectures/modules fixed for that semester
+    dep_map = {} # module -> module
 
     # initialize seemsters
     semesters = {
@@ -26,16 +25,16 @@ def create_curriculum_solver(modules):
     for module_id, module_data in modules.items():
         fixed_semester = module_data["meta"].get("semester", None)
         if fixed_semester:
-            fixed_map.update({fixed_semester: module_id})
+            fixed_map.update({fixed_semester: fixed_map[fixed_semester] + [module_id]})
 
         dependencies = module_data["meta"].get("depends_on", [])
         if dependencies and len(dependencies) > 0 and module_id not in fixed_map.values():
-           dep_map.update({4: module_id})
+            dep_map.update({4: module_id})
 
-
-    processed_modules = {} # mod_id->semester
+    processed_modules = {}  # mod_id->semester
 
     dep_chain = []
+
     def recursive_deps_helper(sem_map):
         for n_sem in sorted(sem_map):
             mod_id = sem_map[n_sem]
@@ -74,20 +73,20 @@ def create_curriculum_solver(modules):
                     # if semester is too full go one below
                     recursive_deps_helper({n_sem - 1: mod_id})
 
-    print ("################### solving fixed semester")
+    print("################### solving fixed semester")
     recursive_deps_helper(fixed_map)
     print_semester_counts(semesters, message="After adding fixed semester modules, ects counts are:")
-    print ("################### solving dependencies")
+    print("################### solving dependencies")
     recursive_deps_helper(dep_map)
     print_semester_counts(semesters, message="After adding modules with dependencies, ects counts are:")
-    print ("###################")
+    print("###################")
 
     # modules without dependencies
     unique_keys = set(modules) - set(fixed_map) - set(dep_map)
     filtered_dict = {4: k for k in unique_keys}
     recursive_deps_helper(filtered_dict)
-    print_semester_counts(semesters, message="After adding modules without dependencies from sem 4 backwards, ects counts are:")
-
+    print_semester_counts(semesters,
+                          message="After adding modules without dependencies from sem 4 backwards, ects counts are:")
 
     cur = Curriculum(semesters.values())
     return cur

@@ -1,0 +1,80 @@
+competences:
+  - id: rse_practices_1
+    description: "Apply good coding practices including formatting, linting, and modular design"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_2"
+    evidence: "Submit a code project demonstrating modularity, consistent formatting, and use of linters"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_2
+    description: "Write code and documentation that supports reproducibility in research"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_1, rse_tooling_4"
+    evidence: "Submit a project with data, software, and instructions allowing full reproduction of results"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_3
+    description: "Organise files and name code artifacts using clear, consistent conventions"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Submit a software repository with a structured layout and consistent naming scheme"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_4
+    description: "Version control code and collaborate using platforms like GitHub or GitLab"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_12"
+    evidence: "Participate in a collaborative coding project using Git-based workflows and merge requests"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_5
+    description: "Write effective documentation and user-facing error messages"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_8"
+    evidence: "Provide documentation and example error handling demonstrating clarity and user support"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_12
+    description: "Write performant code suitable for use in compute-intensive contexts"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_2"
+    evidence: "Submit benchmark results comparing an optimized version of code with a naive implementation"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_13
+    description: "Publish code and software in trusted repositories and package managers"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_practices_6"
+    evidence: "Publish software to a repository (e.g., GitHub, PyPI, CRAN) and register it with a long-term archive (e.g., Zenodo)"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_6
+    description: "Apply licensing and publishing strategies to make software reusable and citable"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Submit a software project with an appropriate open license and published DOI (e.g., via Zenodo)"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_7
+    description: "Apply principles of Open Source and FAIR (Findable, Accessible, Interoperable, Reusable) software"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_practices_6"
+    evidence: "Review or create a software project and evaluate its compliance with FAIR/Open Source principles"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"
+
+  - id: rse_practices_14
+    description: "Manage data within a software project in accordance with best practices"
+    disciplines: "Research Software Engineering, Data Management"
+    prerequisites: ""
+    evidence: "Submit a data-driven project showing clear data organisation, metadata, and reproducibility"
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"

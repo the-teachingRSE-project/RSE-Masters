@@ -1,4 +1,8 @@
-# RSE-Masters
+# RSE-Masters (Technical Prototype and Current State)
+
+We just started the community process. Even though we organized a technical pipeline and some modularization, we have not progressed to the point where you should place to much weight on the current state of the prototype in terms of content. 
+
+If you want to be part of the community, join our mailinglist [https://www.listserv.dfn.de/sympa/info/rse-master](https://www.listserv.dfn.de/sympa/info/rse-master)
 
 Active work is going on in the tschira-funding branch. 
 

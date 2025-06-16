@@ -1,0 +1,9 @@
+meta:
+  id: rse_missingsemester
+  profiles:
+    - science
+    - rse
+    - up
+  level: master
+  name: RSE Nuts and Bolts
+  depends_on: []

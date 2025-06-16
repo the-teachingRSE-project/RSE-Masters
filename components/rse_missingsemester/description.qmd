@@ -1,19 +1,54 @@
-## The Missing Semester
+## Introduction
 
-In reference to the [MIT Missing Semester](https://missing.csail.mit.edu/) this module tries to convey the nuts and bolts of code development.
+This module, inspired by the [MIT Missing Semester](https://missing.csail.mit.edu/), addresses the "nuts and bolts" often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).
 
-This includes (but is not limited to):
+## General Competencies
 
-- Shell Tools and Scripting
-- Editors & IDE (i.e. Vim)
-- Data Wrangling
-- Command-line Environment
-- Version Control (Git)
-- Debugging and Profiling
+The module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:
+
+- Shell tools and scripting
+- Command-line environments
+- Editors and IDEs (e.g., Vim)
+- Version control (Git)
+- Data wrangling
+- Debugging and profiling
 - Metaprogramming
-- Security and Cryptography
+- Security and cryptography
 
-These general competencies can be extended to RSE-specific techniques such as:
+## RSE-Specific Topics
+
+Building on these foundations, the module introduces RSE-specific concepts and good practices:
+
+- **Version control and collaboration**
+    - Git for code history, collaboration, and issue tracking
+- **Virtualization concepts**
+    - Containerization and environment management
+- **The Data Life Cycle**
+    - Managing research data and understanding data provenance
+- **Good coding practices**
+    - Reproducible and testable code
+    - Meaningful documentation and error messages
+    - Modular software design
+    - Performance-conscious coding
+    - Easily installable and distributable software
+    - Coding standards, formatting, and linting
+
+- **Software management planning**
+    - Writing Data and Software Management Plans
+    - Sustainable development and community involvement
+
+- **Low-level programming**
+    - Introduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management
+
+- **Long-term software maintenance**
+    - Version tracking, bug management, and sustainability strategies
+    - Building and maintaining research software communities
+
+## Beyond the Basics
+
+Finally, the module touches on practices that support the scholarly nature of research software:
 
 - Software publication and citation (see SP in [@competencies-F1000])
-- Using domain repositories/directories (see DOMREP in [@competencies-F1000])
+- Use of domain-specific repositories and registries (see DOMREP in [@competencies-F1000])
+
+By the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.
