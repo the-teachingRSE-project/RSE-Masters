@@ -2,11 +2,11 @@ entries:
   - name: "Software Engineering I"
     description: ""
     type: "Lecture"
-    sws: 4
-    ects: 2
+    sws: 2
+    ects: 4
     group: 1
     quarto_filename: "se1.qmd"
-  - name: "Software Engineering I"
+  - name: "Software Engineering I Exercise"
     description: ""
     type: "Exercise"
     sws: 2
@@ -20,7 +20,7 @@ entries:
     ects: 4
     group: 2
     quarto_filename: "se2.qmd"
-  - name: "Software Engineering II"
+  - name: "Software Engineering II Exercise"
     description: ""
     type: "Exercise"
     sws: 2
