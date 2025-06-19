@@ -620,7 +620,7 @@
     "href": "generation/generated/rse_missingsemester.html#sources-implementations",
     "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "Sources & Implementations:",
-    "text": "Sources & Implementations:\n\nCourses\n\nMIT Missing Semester\nCodeRefinery\nINTERSECT Training Materials\nDigital Research Academy Materials (Git, HPC, Reproducibility, Research Software)\nBuilding Better Research Software (SSI)\n\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
+    "text": "Sources & Implementations:\n\nCourses\n\nMIT Missing Semester\nCodeRefinery\nINTERSECT Training Materials\nDigital Research Academy Materials (Git, HPC, Reproducibility, Research Software)\nBuilding Better Research Software (SSI)\nDocker for neuroscience (jupyter book)\n\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
   },
   {
     "objectID": "index.html#research-skills",
