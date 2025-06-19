@@ -10,7 +10,7 @@ The current version of the generated curriculum can be found [here](https://the-
 
 ## How to Contribute to the Publication
 
-You can edit the texts that are going to be the foundation of the publication. You can contribute text to the markdown files:
+You can edit the texts that are going to be the foundation of the publication. You can contribute text to the [static markdown files](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/general):
 
 - [ideas and principles](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/ideas.qmd)
 - [job roles](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/job_roles.qmd)
@@ -20,7 +20,7 @@ You can edit the texts that are going to be the foundation of the publication. Y
 
 ## How to Contribute a Component/Module
 
-- go to components 
+- go to [components](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/components) 
 - examine files in gen_programming 
 - copy cat the structure
 
