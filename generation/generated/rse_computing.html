@@ -13,7 +13,7 @@
 <meta name="author" content="Jan Phillip Thiele">
 <meta name="author" content="Anna-Lena Lambrecht">
 
-<title>curriculum – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>rse_computing – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,7 +26,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -99,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../generation/generated/curriculum.html" aria-current="page"> 
+    <a class="nav-link" href="../../generation/generated/curriculum.html"> 
 <span class="menu-text">Curriculum</span></a>
   </li>  
   <li class="nav-item">
@@ -200,203 +219,133 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="general-study-process" class="level1">
-<h1>General Study Process</h1>
-<section id="semester-1" class="level2">
-<h2 class="anchored" data-anchor-id="semester-1">Semester 1</h2>
+<section id="rse-computing" class="level2">
+<h2 class="anchored" data-anchor-id="rse-computing">RSE Computing</h2>
+<p>RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably.</p>
+<section id="basic-scientific-computing" class="level3">
+<h3 class="anchored" data-anchor-id="basic-scientific-computing">Basic Scientific Computing</h3>
+<section id="module-overview" class="level4">
+<h4 class="anchored" data-anchor-id="module-overview">Module Overview</h4>
+<p>This module provides an entry‑level yet rigorous foundation in scientific computing for graduate students and researchers who need to <strong>design, implement, and evaluate computational experiments</strong>. Learners gain an awareness of the numerical underpinnings of modern simulation and data‑driven research, with an emphasis on writing <em>reproducible, efficient, and trustworthy</em> code.</p>
+</section>
+<section id="intended-learning-outcomes" class="level4">
+<h4 class="anchored" data-anchor-id="intended-learning-outcomes">Intended Learning Outcomes</h4>
+<p>By the end of the module participants will be able to</p>
+<ol type="1">
+<li>Benchmark small programs and interpret performance metrics in a research context.</li>
+<li>Explain how approximation theory and floating‑point arithmetic affect numerical accuracy and stability.</li>
+<li>Identify when to use established simulation libraries (e.g.&nbsp;BLAS/LAPACK, PETSc, Trilinos) instead of custom code.</li>
+<li>Write simple GPU kernels and describe the core principles of accelerator programming.</li>
+<li>Submit and monitor batch &amp; array jobs on a mid‑size compute cluster.</li>
+<li>Describe common HPC challenges—such as I/O bottlenecks, threading, and NUMA—and propose mitigation strategies.</li>
+<li>Maintain research software through continuous benchmarking.</li>
+</ol>
+</section>
+<section id="syllabus-indicative-content" class="level4">
+<h4 class="anchored" data-anchor-id="syllabus-indicative-content">Syllabus (Indicative Content)</h4>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 25%">
+<col style="width: 69%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
+<th>Week</th>
+<th>Theme</th>
+<th>Topics</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Seminar</td>
-<td>RSE Nuts and Bolts I</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>Wildcard Science I</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Basic Programming</td>
-<td>2</td>
 <td>1</td>
+<td><strong>Benchmarking &amp; Profiling</strong></td>
+<td>Timing strategies · micro vs.&nbsp;macro benchmarks · tooling overview</td>
 </tr>
 <tr class="even">
-<td>Exercise</td>
-<td>Basic Programming Exercise</td>
-<td>4</td>
-<td>4</td>
+<td>2</td>
+<td><strong>Precision &amp; Approximation</strong></td>
+<td>IEEE‑754 recap · conditioning &amp; stability · error propagation</td>
 </tr>
 <tr class="odd">
-<td>Lecture</td>
-<td>Mathematical Foundations of Data Science</td>
+<td>3</td>
+<td><strong>Scientific Libraries</strong></td>
+<td>BLAS/LAPACK anatomy · hierarchical I/O libraries · overview of PETSc/Trilinos/Hypre</td>
+</tr>
+<tr class="even">
 <td>4</td>
+<td><strong>GPU Primer</strong></td>
+<td>Kernel model · memory hierarchy · CUDA/OpenCL/PyTorch lightning intro</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><strong>Working on a Cluster</strong></td>
+<td>Slurm basics · job arrays · job dependencies · simple Bash launchers</td>
+</tr>
+<tr class="even">
 <td>6</td>
+<td><strong>HPC Pitfalls</strong></td>
+<td>I/O throughput · thread oversubscription · NUMA awareness</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td><strong>Software Maintenance</strong></td>
+<td>Regression + performance tests · continuous benchmarking pipelines</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total ECTS: 17</strong></p>
 </section>
-<section id="semester-2" class="level2">
-<h2 class="anchored" data-anchor-id="semester-2">Semester 2</h2>
+<section id="teaching-learning-methods" class="level4">
+<h4 class="anchored" data-anchor-id="teaching-learning-methods">Teaching &amp; Learning Methods</h4>
+<p>Short lectures (30%) are coupled with hands‑on labs (70%). Students complete <strong>weekly notebooks</strong> and a <strong>mini‑project</strong> that reproduces and optimises a published computational result.</p>
+</section>
+<section id="assessment" class="level4">
+<h4 class="anchored" data-anchor-id="assessment">Assessment</h4>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
+<th>Component</th>
+<th>Weight</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lecture</td>
-<td>Applied Programming</td>
-<td>2</td>
-<td>1</td>
+<td>Continuous labs</td>
+<td>40%</td>
+<td>Weekly graded notebooks</td>
 </tr>
 <tr class="even">
-<td>Exercise</td>
-<td>Applied Programming Exercise</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Wildcard Science II</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Lab</td>
-<td>Wildcard Science Lab I</td>
-<td>4</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Statistical Data Analysis</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>Scientific Computing Basics</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Exercise</td>
-<td>Scientific Computing Basics Exercise</td>
-<td>2</td>
-<td>3</td>
+<td>Final mini‑project</td>
+<td>60%</td>
+<td>Report, code, and benchmark suite</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total ECTS: 24</strong></p>
 </section>
-<section id="semester-3" class="level2">
-<h2 class="anchored" data-anchor-id="semester-3">Semester 3</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Seminar</td>
-<td>RSE Nuts and Bolts II</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Lab</td>
-<td>Wildcard Science Lab II</td>
-<td>2</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>Exercise</td>
-<td>Text2Data</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>Computational Wildcard Science</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Software Engineering I</td>
-<td>2</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Software Engineering I Exercise</td>
-<td>2</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>High Performance Computing</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>High Performance Computing Exercise</td>
-<td>2</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 24</strong></p>
+<section id="prerequisites" class="level4">
+<h4 class="anchored" data-anchor-id="prerequisites">Prerequisites</h4>
+<ul>
+<li>Basic programming in Python, C/C++, or Julia</li>
+<li>Undergraduate calculus &amp; linear algebra</li>
+</ul>
 </section>
-<section id="semester-4" class="level2">
-<h2 class="anchored" data-anchor-id="semester-4">Semester 4</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Thesis</td>
-<td>RSE Master Thesis</td>
-<td>10</td>
-<td>30</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 30</strong></p>
-<p><strong>Total Curriculum ECTS: 95</strong></p>
+<section id="key-resources" class="level4">
+<h4 class="anchored" data-anchor-id="key-resources">Key Resources</h4>
+<p>ChatGPT fantasy</p>
+<p><strong>Lecture</strong>: Scientific Computing Basics</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 3</p>
+<p><strong>Exercise</strong>: Scientific Computing Basics Exercise</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 3</p>
+<p><strong>Lecture</strong>: High Performance Computing</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 3</p>
+<p><strong>Exercise</strong>: High Performance Computing Exercise</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 3</p>
 </section>
 </section>
-<section id="sec-competences" class="level1">
-<h1>Complete Competences Table</h1>
-<p>TODO: replace this with Excel download in html and possibly remove for pdf</p>
+</section>
+<section id="module-competences" class="level2">
+<h2 class="anchored" data-anchor-id="module-competences">Module Competences</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -411,41 +360,124 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>C01</td>
-<td>Use a version control system to track software changes</td>
-<td>CS, Bioinformatics</td>
-<td></td>
-<td>Push a merge request with documented code</td>
-<td>Florian Goth</td>
-<td><a href="https://github.com/the-teachingRSE-project/RSE-Masters">https://github.com/the-teachingRSE-project/RSE-Masters</a></td>
+<td>comp_module_1</td>
+<td>Benchmark and profile computational code to evaluate performance and bottlenecks</td>
+<td>Scientific Computing</td>
+<td>rse_tooling_2</td>
+<td>Submit benchmark reports comparing implementations and justifying trade-offs</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
 </tr>
 <tr class="even">
-<td>C02</td>
-<td>Conduct a ReproHack on domain-specific data</td>
-<td>Physics, CS</td>
-<td>C01</td>
-<td>Submit a ReproHack report</td>
-<td>Florian Goth</td>
-<td><a href="https://github.com/the-teachingRSE-project/RSE-Masters">https://github.com/the-teachingRSE-project/RSE-Masters</a></td>
+<td>comp_module_2</td>
+<td>Explain and apply principles of approximation theory and numerical precision in scientific computing</td>
+<td>Scientific Computing</td>
+<td></td>
+<td>Answer conceptual questions and implement small examples highlighting precision trade-offs</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="odd">
+<td>comp_module_3</td>
+<td>Explain floating-point arithmetic and its implications for scientific accuracy and performance</td>
+<td>Scientific Computing</td>
+<td>comp_module_2</td>
+<td>Provide examples showing effects of precision loss and propose mitigations</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="even">
+<td>comp_module_4</td>
+<td>Describe common simulation libraries and numerical frameworks (e.g., BLAS, LAPACK, PETSc, Trilinos)</td>
+<td>Scientific Computing</td>
+<td></td>
+<td>List relevant libraries for a task and justify choice or avoidance of custom implementations</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="odd">
+<td>comp_module_5</td>
+<td>Compare interpreted and compiled languages in terms of performance and suitability for computing tasks</td>
+<td>Scientific Computing</td>
+<td></td>
+<td>Write code samples in both types of language and explain their performance characteristics</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="even">
+<td>hpc_module_1</td>
+<td>Run batch and array jobs on a cluster, including job dependencies</td>
+<td>High-Performance Computing</td>
+<td>rse_tooling_3</td>
+<td>Submit job scripts using SLURM or similar systems demonstrating correct use of job arrays and dependencies</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="odd">
+<td>hpc_module_2</td>
+<td>Identify and manage common challenges in HPC systems (e.g., I/O bottlenecks, threading, NUMA memory)</td>
+<td>High-Performance Computing</td>
+<td>hpc_module_1</td>
+<td>Provide performance logs and interpret bottlenecks in a real or simulated HPC task</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="even">
+<td>hpc_module_3</td>
+<td>Use shell scripting (e.g., Bash) to automate HPC job submission</td>
+<td>High-Performance Computing</td>
+<td>rse_tooling_3</td>
+<td>Submit scripts that automate the execution of HPC jobs and handle job logic</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="odd">
+<td>hpc_module_4</td>
+<td>Understand and use the principles of accelerator programming (e.g., GPU kernels and frameworks)</td>
+<td>High-Performance Computing</td>
+<td></td>
+<td>Submit a small CUDA or OpenCL program with documentation of the principles used</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="even">
+<td>hpc_module_5</td>
+<td>Maintain scientific computing software including use of continuous benchmarking</td>
+<td>High-Performance Computing</td>
+<td>comp_module_1</td>
+<td>Provide benchmark and performance history for evolving versions of software</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="module-descriptions-linked" class="level1">
-<h1>Module Descriptions (Linked)</h1>
+<section id="sources-implementations" class="level2">
+<h2 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h2>
+<section id="curricula" class="level3">
+<h3 class="anchored" data-anchor-id="curricula">Curricula</h3>
 <ul>
-<li><a href="../../generation/generated/mnt_wildcard.html">Science Wildcard</a></li>
-<li><a href="../../generation/generated/mnt_project.html">Science Lab</a></li>
-<li><a href="../../generation/generated/gen_programming.html">Basics Of Programming</a></li>
-<li><a href="../../generation/generated/mnt_compwildcard.html">Computational Science Wildcard</a></li>
-<li><a href="../../generation/generated/rse_missingsemester.html">Rse Nuts And Bolts</a></li>
-<li><a href="../../generation/generated/gen_softwarengineering.html">Software Engineering</a></li>
-<li><a href="../../generation/generated/gen_datascience.html">Data Science</a></li>
-<li><a href="../../generation/generated/rse_computing.html">Scientific (High-Performance) Computing</a></li>
-<li><a href="../../generation/generated/rse_thesis.html">Master’s Thesis</a></li>
+<li><a href="https://eumaster4hpc.eu/studies/curriculum/">EUMaster4HPC</a></li>
 </ul>
+</section>
+<section id="courses" class="level3">
+<h3 class="anchored" data-anchor-id="courses">Courses</h3>
+<ul>
+<li><p><a href="https://viralinstruction.com/posts/hardware/">Viral Instructions Hardware</a></p></li>
+<li><p><a href="https://en.cs.uni-paderborn.de/hpc/teaching/courses/ss-2024/introduction-to-high-performance-computing">HPC Computing</a></p></li>
+</ul>
+</section>
+<section id="programs" class="level3">
+<h3 class="anchored" data-anchor-id="programs">Programs</h3>
+<ul>
+<li><a href="https://www.hpc-carpentry.org/index.html">HPC-carpentry</a></li>
+</ul>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
