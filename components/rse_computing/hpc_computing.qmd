@@ -1,0 +1,51 @@
+
+### High‑Performance Scientific Computing
+
+#### Module Overview
+
+Building on “Basic Scientific Computing”, this module dives deeper into **scalable algorithms, architectures, and software engineering techniques** required to run large‑scale simulations and data analysis on high‑performance computing (HPC) systems.
+
+#### Intended Learning Outcomes
+
+Participants who successfully complete the module will be able to
+
+1. Classify scientific problems by their dominant parallel pattern (memory‑parallel, compute‑parallel, task‑parallel).
+2. Map each class to appropriate numerical libraries and hardware architectures.
+3. Analyse floating‑point and algorithmic approximation errors at scale.
+4. Explain modern HPC hardware features (GPUs, SIMD/AVX, NUMA, high‑speed interconnects) and select relevant optimisation strategies.
+5. Design portable, performance‑portable code employing MPI, OpenMP, and accelerator frameworks.
+6. Use continuous benchmarking to guide sustainable performance evolution of research software.
+7. Plan for long‑term maintenance, archival, and FAIR publication of large‑scale codes and data.
+
+#### Syllabus (Indicative Content)
+
+| Week | Theme                            | Topics                                                                 |
+|------|----------------------------------|------------------------------------------------------------------------|
+| 1    | **Parallel Problem Taxonomy**    | Sparse vs. dense linear algebra · embarrassingly parallel workloads    |
+| 2    | **Distributed Memory (MPI)**     | Domain decomposition · halo exchange · scalability metrics             |
+| 3    | **Shared Memory & SIMD**         | OpenMP · threading pitfalls · AVX intrinsics                           |
+| 4    | **Accelerator Programming**      | Multi‑GPU kernels · unified memory · portability layers (Kokkos, SYCL) |
+| 5    | **Advanced I/O & Checkpointing** | Parallel file systems · burst buffers · HDF5/ADIOS‑based workflows     |
+| 6    | **Performance Engineering**      | Roofline model · continuous & comparative benchmarking · autotuning    |
+| 7    | **Sustainable HPC Software**     | Release engineering · long‑term archiving · community governance       |
+
+#### Teaching & Learning Methods
+
+Blended delivery: interactive lectures (40%), coding workshops on the national cluster (50%), expert seminars (10%).
+
+#### Assessment
+
+| Component         | Weight | Details                                                                    |
+|-------------------|--------|----------------------------------------------------------------------------|
+| Cluster labs      | 30%    | Submission of working MPI/OpenMP/GPU exercises                             |
+| Performance study | 30%    | Roofline + scaling analysis of an existing code                            |
+| Capstone project  | 40%    | Implement & optimise a solver or ML pipeline at scale, plus written report |
+
+#### Prerequisites
+
+- Completion of “Basic Scientific Computing” **or** equivalent experience
+- Familiarity with Linux command line and version control
+
+#### Key Resources
+
+- replace CHatGPT fantasies
