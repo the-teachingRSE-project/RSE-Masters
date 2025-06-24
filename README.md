@@ -8,9 +8,19 @@ Active work is going on in the tschira-funding branch.
 
 The current version of the generated curriculum can be found [here](https://the-teachingrse-project.github.io/RSE-Masters/). This is build with Github Actions.
 
+## How to Contribute to the Publication
+
+You can edit the texts that are going to be the foundation of the publication. You can contribute text to the [static markdown files](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/general):
+
+- [ideas and principles](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/ideas.qmd)
+- [job roles](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/job_roles.qmd)
+- [preambel and general introductions](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/preambel_general.qmd)
+- 
+
+
 ## How to Contribute a Component/Module
 
-- go to components 
+- go to [components](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/components) 
 - examine files in gen_programming 
 - copy cat the structure
 
