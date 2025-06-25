@@ -3,3 +3,7 @@
 [submodule "external/bibliography"]
 	path = external/bibliography
 	url = https://github.com/the-teachingRSE-project/bibliography.git
+[submodule "ds_thesis"]
+	path = ds_thesis
+	url = git@github.com:n-koenig/rse-master.git
+	ignore = all
