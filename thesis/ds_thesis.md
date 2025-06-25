@@ -40,6 +40,30 @@
 - dimensionality reduction/clustering -> can be acquired
 - attention models / LLM -> can be acquired if some knowledge exists
 
+
+## setup session
+
+- github separate repository (->submodule))
+- zotero Gruppenbibliothek
+- Literaturrecherche -> existierende Mapping von Informatik-Studiengängen etc.
+  - google scholar
+  - web of science
+  - pädagogische Literatur -> Kompetenzstufen, Grammatik von Kompetenzformulierungen
+  - ev. dropbox link
+  - ieee/acm digitallibrary
+  - keywords, strategies
+  - where to get licensed literature
+  - ...
+- Review Methodology (PRISMA) (eigentlich für Literaturreview -> anpassen auf Curricula)
+- Datenschema -> compare with RSE Master project, 
+- storage -> db-tool? yaml-storage? CSV? full-DB?
+- NLP
+  - https://third-bit.com/py-rse/
+  - test some models
+  - finetuning?
+  - google collab?
+- 
+
 ## first steps
 
 - data acquisition
@@ -57,3 +81,6 @@
 - use topic modelling or other techniques to analyze the data
   - visualizing core and peripheral RSE themes
 - (optional) curriculum engineering (maybe together with Julian): generate modules for the RSE curriculum 
+
+
+

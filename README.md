@@ -26,10 +26,23 @@ You can edit the texts that are going to be the foundation of the publication. Y
 
 ## Folder Descriptions
 
+### Curriculum Content
+
 - general: contains texts that do not apply to target groups or disciplinary focus
 - generation: scripts for combination and generation of quarto project
 - root_dir: contains the basic quarto structure files, as well as design elements for html/latex rendering
 - components: contains detailed texts and the datastructures for the different templates, here you can add new didactic ideas in a structured format
+
+### Organisational Folders
+
+- event contains the input for the community events etc.
+- presentation contains the presentation of the existing concepts
+- thesis contains ideas for ba/ma thesis situated in the project
+
+
+### Submodules
+
+- ds_thesis submodule is optional. If you don't have access, you can skip initializing it and still work with the main repo.
 - external/bibliography is a submodule for the common literature from deRSE
 
 
