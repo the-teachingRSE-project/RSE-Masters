@@ -27,6 +27,22 @@ we structure this sample curriculum along three pillars [@competencies-F1000]:
 - communication skills: these are skills that enable an RSE to effectively work and communicate with its peers and stakeholders across multiple domains.
 
 
+# Balancing Computer Science Fundamentals with Application Demands
+
+Research Software Engineering is a fast-growing field and the curriculum should engender the development of both experts
+in RSE (Fachexperten), and multidisciplinary researchers that are capable of transferring high-level software-engineering concepts to their respective domains.
+This can be mapped to the typology of the German Computer Science Association (GI). [@gi2016empfehlungen] defines computer science programs with a three-fold typology:
+
+- Type 1: Computer Science Programs: Computer Science is solely responsible.
+- Type 2: Computer Science Programs with a Specific Application Area: Computer Science is responsible in coordination with the participating application discipline.
+- Type 3: Interdisciplinary Programs with a Computer Science Component Equal in Weight to Other Participating Disciplines: Computer Science shares responsibility jointly with the participating disciplines.
+
+Fully qualified computer science experts with a focus on research software fit type 1 of CS programs.
+Interdisciplinary researchers where the computer science background is rivalled by the domain expertise fit the type 3.
+(At this point) the curriculum tries to support both aspects equally with two branches (or [profiles](https://github.com/the-teachingRSE-project/RSE-Masters/wiki/profiles)) of the curriculum focussing on the different weights. However, both profiles share common modules and concepts such as the idea to teach RSE-specific Open Science Tooling, an advanced Software Engineering module with specific patterns and modelling techniques for RSE and dual-lab and dual-thesis ideas, where RSE-students interface with a domain or industry field to apply their cross-cutting research skills.
+
+
+
 ## Research skills
 
 TODO add text here
