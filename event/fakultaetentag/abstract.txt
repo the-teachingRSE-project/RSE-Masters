@@ -1,0 +1,16 @@
+
+Computergestützte Methoden durchdringen einen Großteil der wissenschaftlichen Disziplinen. Dabei wird es immer relevanter
+im Fach situierte und wiederverwendbare Forschungssoftware zu entwickeln. Aus dieser Praxis hat sich das Feld der Forschungssoftwareentwicklung,
+Research Software Engineering (RSE), herausgebildet. Mit der Entwicklung eines Referenz-Masterstudiengangs RSE durch die
+Gesellschaft für Informatik (GI) und den deRSE-Verein wird versucht, dieses Profil zu schärfen und professionalisieren. Dabei lässt sich RSE als notwendiges
+Bindeglied zwischen Data Science, Bindestrichinformatik und Kerninformatik einstufen. Ziel ist es in der Folge den neuen Masterstudiengang an ausgewählten Fakultäten
+zu pilotieren.
+
+Hiermit laden wir Sie zu einer 90-minütigen Informationsveranstaltung ein, um eine offene Diskussion zu bisherigen Ideen, aufkommenden Gestaltungswünschen und notwendiger Kritik
+zu führen. Bitte tragen Sie sich bei dem DFN-Terminplaner ein, damit wir einen möglichst passenden Termin finden können: https://terminplaner6.dfn.de/p/8302916a156980656b46a15ad2d47ba1-1294561
+
+[optional]
+Das Referenzcurriculum wird kollaborativ von Experten der Fachgruppe Software-Engineering, Wissenschaftler benachbarter Disziplinen und der Praxisperspektive des
+deRSE Vereins entwickelt, und baut auf der langjährigen Tradition der GI in der Entwicklung von Informatikstudiengängen auf. Dabei wird
+nach Prinzipien der Open Source und Open Content-Entwicklung gestaltet: https://github.com/the-teachingRSE-project/RSE-Masters.
+Literatur und Positionspapiere finden sich gesammelt auf der Seite des deRSE-Vereins (https://de-rse.org/de/positions.html) und der Fachgruppe GI-RSE (https://fg-rse.gi.de/).
