@@ -1,0 +1,9 @@
+meta:
+  id: rse_management
+  profiles:
+    - science
+    - rse
+    - up
+  level: master
+  name: RSE-Management
+  depends_on: []
