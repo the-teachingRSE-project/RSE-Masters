@@ -1,0 +1,10 @@
+entries:
+  - name: "RSE-Management"
+    description: "This is an introductory class to essential techniques an RSE needs in everyday life."
+    type: "Seminar"
+    sws: 4
+    ects: 6
+    group: 1
+    quarto_filename: ""
+    optional: False
+    semester: 1
