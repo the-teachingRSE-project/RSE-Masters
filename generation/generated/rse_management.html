@@ -13,7 +13,7 @@
 <meta name="author" content="Jan Phillip Thiele">
 <meta name="author" content="Anna-Lena Lambrecht">
 
-<title>curriculum – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>rse_management – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,7 +26,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -99,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../generation/generated/curriculum.html" aria-current="page"> 
+    <a class="nav-link" href="../../generation/generated/curriculum.html"> 
 <span class="menu-text">Curriculum</span></a>
   </li>  
   <li class="nav-item">
@@ -200,209 +220,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="general-study-process" class="level1">
-<h1>General Study Process</h1>
-<section id="semester-1" class="level2">
-<h2 class="anchored" data-anchor-id="semester-1">Semester 1</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Seminar</td>
-<td>RSE Nuts and Bolts I</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>Wildcard Science I</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Basic Programming</td>
-<td>2</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Basic Programming Exercise</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Mathematical Foundations of Data Science</td>
-<td>4</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>Seminar</td>
-<td>RSE-Management</td>
-<td>4</td>
-<td>6</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 23</strong></p>
+<section id="rse-management-and-communication" class="level2">
+<h2 class="anchored" data-anchor-id="rse-management-and-communication">RSE Management and Communication</h2>
+<p>This module encapsulates the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.</p>
+<p>This includes but is not limited to:</p>
+<ul>
+<li>working in a team (see TEAM in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>teaching RSE-basics (see TEACH in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>project management (see PM in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>interaction with users and other stakeholders (see USERS in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+</ul>
+<p><strong>Seminar</strong>: RSE-Management This is an introductory class to essential techniques an RSE needs in everyday life. <strong>SWS:</strong> 4 <strong>ECTS:</strong> 6</p>
 </section>
-<section id="semester-2" class="level2">
-<h2 class="anchored" data-anchor-id="semester-2">Semester 2</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lecture</td>
-<td>Applied Programming</td>
-<td>2</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Applied Programming Exercise</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Wildcard Science II</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Lab</td>
-<td>Wildcard Science Lab I</td>
-<td>4</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Statistical Data Analysis</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>Scientific Computing Basics</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Exercise</td>
-<td>Scientific Computing Basics Exercise</td>
-<td>2</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 24</strong></p>
-</section>
-<section id="semester-3" class="level2">
-<h2 class="anchored" data-anchor-id="semester-3">Semester 3</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Seminar</td>
-<td>RSE Nuts and Bolts II</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Lab</td>
-<td>Wildcard Science Lab II</td>
-<td>2</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>Exercise</td>
-<td>Text2Data</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>Computational Wildcard Science</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Software Engineering I</td>
-<td>2</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Software Engineering I Exercise</td>
-<td>2</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>High Performance Computing</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>High Performance Computing Exercise</td>
-<td>2</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 24</strong></p>
-</section>
-<section id="semester-4" class="level2">
-<h2 class="anchored" data-anchor-id="semester-4">Semester 4</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Thesis</td>
-<td>RSE Master Thesis</td>
-<td>10</td>
-<td>30</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 30</strong></p>
-<p><strong>Total Curriculum ECTS: 101</strong></p>
-</section>
-</section>
-<section id="sec-competences" class="level1">
-<h1>Complete Competences Table</h1>
-<p>TODO: replace this with Excel download in html and possibly remove for pdf</p>
+<section id="module-competences" class="level2">
+<h2 class="anchored" data-anchor-id="module-competences">Module Competences</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -417,42 +248,59 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>C01</td>
-<td>Use a version control system to track software changes</td>
-<td>CS, Bioinformatics</td>
-<td></td>
-<td>Push a merge request with documented code</td>
-<td>Florian Goth</td>
-<td><a href="https://github.com/the-teachingRSE-project/RSE-Masters">https://github.com/the-teachingRSE-project/RSE-Masters</a></td>
+<td>rse_practices_8</td>
+<td>Build and manage sustainable research software communities</td>
+<td>Research Software Engineering, Community Engagement</td>
+<td>rse_tooling_13</td>
+<td>Document strategies used for user engagement, feedback, and community growth in a real project</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Workshop Input">Link</a></td>
 </tr>
 <tr class="even">
-<td>C02</td>
-<td>Conduct a ReproHack on domain-specific data</td>
-<td>Physics, CS</td>
-<td>C01</td>
-<td>Submit a ReproHack report</td>
-<td>Florian Goth</td>
-<td><a href="https://github.com/the-teachingRSE-project/RSE-Masters">https://github.com/the-teachingRSE-project/RSE-Masters</a></td>
+<td>rse_practices_9</td>
+<td>Work in an agile software development process, including requirement gathering and iteration</td>
+<td>Research Software Engineering</td>
+<td></td>
+<td>Submit a project that uses agile planning (e.g., user stories, sprints, stand-ups) and reflects on iteration outcomes</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Workshop Input">Link</a></td>
+</tr>
+<tr class="odd">
+<td>rse_practices_10</td>
+<td>Define project scope, gather requirements, and manage stakeholder expectations</td>
+<td>Research Software Engineering</td>
+<td></td>
+<td>Provide a requirements document and stakeholder communication log for a software project</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Workshop Input">Link</a></td>
+</tr>
+<tr class="even">
+<td>rse_practices_11</td>
+<td>Plan for software maintenance and long-term sustainability, including archiving strategies</td>
+<td>Research Software Engineering</td>
+<td>rse_practices_6</td>
+<td>Submit a sustainability or exit plan describing how the software will be maintained or archived</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Workshop Input">Link</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="module-descriptions-linked" class="level1">
-<h1>Module Descriptions (Linked)</h1>
+<section id="sources-implementations" class="level2">
+<h2 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h2>
+<section id="courses" class="level3">
+<h3 class="anchored" data-anchor-id="courses">Courses</h3>
 <ul>
-<li><a href="../../generation/generated/gen_datascience.html">Data Science</a></li>
-<li><a href="../../generation/generated/rse_computing.html">Scientific (High-Performance) Computing</a></li>
-<li><a href="../../generation/generated/rse_thesis.html">Master’s Thesis</a></li>
-<li><a href="../../generation/generated/gen_programming.html">Basics Of Programming</a></li>
-<li><a href="../../generation/generated/mnt_project.html">Science Lab</a></li>
-<li><a href="../../generation/generated/rse_management.html">Rse-Management</a></li>
-<li><a href="../../generation/generated/gen_softwarengineering.html">Software Engineering</a></li>
-<li><a href="../../generation/generated/mnt_compwildcard.html">Computational Science Wildcard</a></li>
-<li><a href="../../generation/generated/rse_missingsemester.html">Rse Nuts And Bolts</a></li>
-<li><a href="../../generation/generated/mnt_wildcard.html">Science Wildcard</a></li>
+<li><a href=""></a></li>
 </ul>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-competencies-F1000" class="csl-entry" role="listitem">
+Goth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. <span>“Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].”</span> <em>F1000Research</em> 13 (1429). <a href="https://doi.org/10.12688/f1000research.157778.1">https://doi.org/10.12688/f1000research.157778.1</a>.
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
