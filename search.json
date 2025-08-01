@@ -527,7 +527,7 @@
   {
     "objectID": "general/preambel_general.html#research-skills",
     "href": "general/preambel_general.html#research-skills",
-    "title": "WORK IN PROGRESS THIS IS NOT THE OFFICIAL STATEMENT OF THE COMMUNTIY BUT THE CURRENT VERSION",
+    "title": "WORK IN PROGRESS THIS IS NOT THE OFFICIAL STATEMENT OF THE COMMUNITY BUT THE CURRENT VERSION",
     "section": "Research skills",
     "text": "Research skills\nTODO add text here\nResearch skills are implemented in the following components:\n\nmnt_project (TODO work/elaborate on naming, add cross-reference)\nmnt_wildcard\nrse_thesis\n\nTechnical skills are implemented in:\n\ngen_datascience\ngen_programming\ngen_softwareengineering\nrse_softwareengineering\nrse_programming\n\n(TODO check if technical training assumes too big a role)\ncommunication skills are implemented in:\n\nrse_management\nmnt_project\nrse_theory"
   },
@@ -695,7 +695,7 @@
   {
     "objectID": "index.html#research-skills",
     "href": "index.html#research-skills",
-    "title": "WORK IN PROGRESS THIS IS NOT THE OFFICIAL STATEMENT OF THE COMMUNTIY BUT THE CURRENT VERSION",
+    "title": "WORK IN PROGRESS THIS IS NOT THE OFFICIAL STATEMENT OF THE COMMUNITY BUT THE CURRENT VERSION",
     "section": "Research skills",
     "text": "Research skills\nTODO add text here\nResearch skills are implemented in the following components:\n\nmnt_project (TODO work/elaborate on naming, add cross-reference)\nmnt_wildcard\nrse_thesis\n\nTechnical skills are implemented in:\n\ngen_datascience\ngen_programming\ngen_softwareengineering\nrse_softwareengineering\nrse_programming\n\n(TODO check if technical training assumes too big a role)\ncommunication skills are implemented in:\n\nrse_management\nmnt_project\nrse_theory"
   }
