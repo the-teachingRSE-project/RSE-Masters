@@ -45,16 +45,19 @@ You can edit the texts that are going to be the foundation of the publication. Y
 
 - ds_thesis submodule is optional. If you don't have access, you can skip initializing it and still work with the main repo.
 - external/bibliography is a submodule for the common literature from deRSE
+  initialize with `git submodule init external/bibliography`
 
 
 ## How To Run
 
-- install submodules: git submodule update --init --remote --recursive
-- cd generation # go in generation dir
-- install python requirements from requirement.txt
-- python generate_all.py # run the templating logic
-- cd .. # go back in root dir
+- `cd generation` # go in generation dir
+- install python requirements from requirements.txt
+  ```
+  pip install -r requirements.txt
+  ```
+- `python generate_all.py` # run the templating logic
+- `cd ..` # go back in root dir
 - Windows PS:
-  - quarto render --profile doc; quarto preview --profile website
+  - `quarto render --profile doc; quarto preview --profile website`
 - Linux/ Windows CMD:
-  - quarto render --profile doc && quarto preview --profile website
+  - `quarto render --profile doc && quarto preview --profile website`

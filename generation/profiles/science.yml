@@ -7,8 +7,7 @@ profile:
         - "Basic Programming"
         - "Basic Programming Exercise"
         - "Mathematical Foundations of Data Science"
-        - "RSE Management"
-        - "RSE Management Exercise"
+        - "RSE-Management"
       2:
         - "Applied Programming"
         - "Applied Programming Exercise"

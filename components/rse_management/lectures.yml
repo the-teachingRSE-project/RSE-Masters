@@ -1,19 +1,10 @@
 entries:
-  - name: "RSE Management"
-    description: ""
-    type: "Lecture"
-    sws: 2
-    ects: 3
+  - name: "RSE-Management"
+    description: "This is an introductory class to essential techniques an RSE needs in everyday life."
+    type: "Seminar"
+    sws: 4
+    ects: 6
     group: 1
     quarto_filename: ""
     optional: False
-    semester: 2
-  - name: "RSE Management Exercise"
-    description: ""
-    type: "Exercise"
-    sws: 2
-    ects: 3
-    group: 1
-    quarto_filename: ""
-    optional: False
-    semester: 2
+    semester: 1

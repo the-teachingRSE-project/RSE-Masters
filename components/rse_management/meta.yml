@@ -5,6 +5,5 @@ meta:
     - rse
     - up
   level: master
-  name: Management for Research Software Engineers
+  name: RSE-Management
   depends_on: []
-  wildcard: False

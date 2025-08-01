@@ -10,3 +10,6 @@ sources:
   programs:
     - name: HPC-carpentry
       link: https://www.hpc-carpentry.org/index.html
+  articles:
+    - name: What every computer scientist should know about floating-point arithmetic
+      link: https://dl.acm.org/doi/10.1145/103162.103163
