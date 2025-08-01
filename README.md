@@ -49,6 +49,7 @@ You can edit the texts that are going to be the foundation of the publication. Y
 
 ## How To Run
 
+- install submodules: git submodule update --init --remote --recursive
 - cd generation # go in generation dir
 - install python requirements from requirement.txt
 - python generate_all.py # run the templating logic

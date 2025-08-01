@@ -1,0 +1,12 @@
+sources:
+  curricula:
+    - name: EUMaster4HPC
+      link: https://eumaster4hpc.eu/studies/curriculum/
+  courses:
+    - name: Viral Instructions Hardware
+      link: https://viralinstruction.com/posts/hardware/
+    - name: HPC Computing
+      link: https://en.cs.uni-paderborn.de/hpc/teaching/courses/ss-2024/introduction-to-high-performance-computing
+  programs:
+    - name: HPC-carpentry
+      link: https://www.hpc-carpentry.org/index.html

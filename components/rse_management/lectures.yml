@@ -1,0 +1,19 @@
+entries:
+  - name: "RSE Management"
+    description: ""
+    type: "Lecture"
+    sws: 2
+    ects: 3
+    group: 1
+    quarto_filename: ""
+    optional: False
+    semester: 2
+  - name: "RSE Management Exercise"
+    description: ""
+    type: "Exercise"
+    sws: 2
+    ects: 3
+    group: 1
+    quarto_filename: ""
+    optional: False
+    semester: 2
