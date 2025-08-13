@@ -1,4 +1,5 @@
-## RSE Management and Communication
+# RSE Management and Communication
+## Introduction
 
 This module encapsulates the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.
 
@@ -8,3 +9,38 @@ This includes but is not limited to:
 - teaching RSE-basics (see TEACH in [@competencies-F1000])
 - project management (see PM in [@competencies-F1000])
 - interaction with users and other stakeholders (see USERS in [@competencies-F1000])
+
+## Contents
+- **communication frameworks**
+    - typical personality traits
+    - collaboration frameworks for remote work
+    - pair programming, mob/ensemble programming
+    - technical English writing skills: writing in issues and merge requests, code review...
+    - conflict management, e.g. dealing with researchers that do not listen
+- **research management**
+    - open science, FAIR, FAIR4RS
+    - publication workflows: embargos
+    - legal aspects of research data, e.g. GDPR
+    - publication: pseudonymization/anonymization methods
+    - public databases
+- **quality control**
+    - code review
+    - project folder organization
+    - requirements engineering
+    - trying goals with quality: test-driven development
+    - behavior-driven development, Gherkin-Style acceptance testing
+- **team management skills/frameworks**
+    - transient teams (that only exist for 5-15 hours)
+    - varying team sizes
+    - project size/type - management mapping
+    - specialized roles in a software team
+    - agile (not necessarily Scrum)
+    - intercultural and interdisciplinary differences
+    - management methodologies
+    - dual goals: project vs. personal goal
+- **time and project management**
+    - goal setting
+    - Lean & Kanban (Small-Batch Philosophies)
+    - iterative workflows
+    - continuous delivery
+    - communication with a manager/supervisor
