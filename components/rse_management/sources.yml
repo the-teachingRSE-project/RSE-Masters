@@ -1,8 +1,8 @@
 sources:
   courses:
-    - name: ""
+    - name: "TODO"
       link: ""
-  books:
+  course_literature:
     - name: "Remote Mob Programming"
       link: "https://leanpub.com/remotemobprogramming"
     - name: "Code with the Wisdom of the Crowd"

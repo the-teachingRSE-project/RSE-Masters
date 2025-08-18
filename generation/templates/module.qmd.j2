@@ -25,7 +25,7 @@
 {% endif %}
 
 
-{% if curricula or courses or programs %}
+{% if curricula or courses or course_literature or programs %}
 ## Sources & Implementations:
 {% if curricula %}
 ### Curricula
@@ -38,6 +38,13 @@
 ### Courses
 {% for course in courses %}
 - [{{ course.name }}]({{ course.link }})
+{% endfor %}
+{% endif %}
+
+{% if course_literature %}
+### Recommended Course Literature
+{% for cl in course_literature %}
+- [{{ cl.name }}]({{ cl.link }})
 {% endfor %}
 {% endif %}
 
