@@ -1,0 +1,19 @@
+sources:
+  courses:
+    - name: "TODO"
+      link: ""
+  course_literature:
+    - name: "Remote Mob Programming"
+      link: "https://leanpub.com/remotemobprogramming"
+    - name: "Code with the Wisdom of the Crowd"
+      link: "https://pragprog.com/titles/mpmob/code-with-the-wisdom-of-the-crowd/"
+    - name: "Collaboration Explained"
+      link: "https://www.buecher.de/artikel/ebook/collaboration-explained-ebook-pdf/37826058/"
+    - name: "Team Topologies"
+      link: "https://www.thalia.de/shop/home/artikeldetails/A1053461194"
+    - name: "Technical Agile Coaching with the Samman method"
+      link: "https://leanpub.com/techagilecoach"
+    - name: "Lean Product and Process Development"
+      link: "https://www.abebooks.de/9781934109434/Lean-Product-Process-Development-Ward-1934109436/plp"
+    - name: "Extreme Programming Explained"
+      link: "https://www.pearson.de/extreme-programming-explained-embrace-change-9780134051994"

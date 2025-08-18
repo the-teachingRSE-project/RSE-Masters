@@ -10,8 +10,11 @@ def print_semester_counts(semesters, message):
 
 
 def create_curriculum_solver(modules):
-    fixed_map = {1: [], 2: [], 3: [], 4: []} # semester -> lectures/modules fixed for that semester
-    dep_map = {} # module -> module
+    fixed_map = {4: [], 3: [], 2: [], 1: []}  # semester -> list[module], lectures/modules fixed for that semester
+    fixed_modules = []
+
+    dep_map = {4: [], 3: [], 2: [], 1: []}  # semester -> list[module], to process modules with dependencies
+    dep_modules = []
 
     # initialize seemsters
     semesters = {
@@ -26,52 +29,64 @@ def create_curriculum_solver(modules):
         fixed_semester = module_data["meta"].get("semester", None)
         if fixed_semester:
             fixed_map.update({fixed_semester: fixed_map[fixed_semester] + [module_id]})
+            fixed_modules.append(module_id)
 
         dependencies = module_data["meta"].get("depends_on", [])
-        if dependencies and len(dependencies) > 0 and module_id not in fixed_map.values():
-            dep_map.update({4: module_id})
+        if dependencies and len(dependencies) > 0 and module_id not in fixed_modules:
+            dep_map.update({4: dep_map[4] + [module_id]})
+            dep_modules.append(module_id)
 
     processed_modules = {}  # mod_id->semester
 
     dep_chain = []
 
-    def recursive_deps_helper(sem_map):
+    def recursive_deps_helper(sem_map, direction=1):
         for n_sem in sorted(sem_map):
-            mod_id = sem_map[n_sem]
+            mod_id_list = sem_map[n_sem]
             # create current level
+            for mod_id in mod_id_list:
+                # check if mod_id exists
+                if mod_id not in modules:
+                    raise Exception("dependent module {} is not found".format(mod_id))
 
-            # check if mod_id exists
-            if mod_id not in modules:
-                raise Exception("dependent module {} is not found".format(mod_id))
-
-            # check if mod_id has been processed already
-            if mod_id in processed_modules:
-                if processed_modules[mod_id] >= n_sem:
-                    raise Exception("multiple dependencies for module {} could not be resolved".format(mod_id))
-            else:
-                # check if the current semester would overflow
-                comp = Component(modules[mod_id])
-                semesters_try = copy.deepcopy(semesters[n_sem])
-                semesters_try.lectures.extend(comp.lectures)
-
-                if semesters_try.check_ects():
-                    semesters[n_sem].lectures.extend(comp.lectures)
-                    dep_chain.append(mod_id)
-                    processed_modules.update({mod_id: n_sem})
-                    print("added", {n_sem: mod_id})
-                    print({n_sem: semesters[n_sem].total_ects()})
-                    # get the previous modules
-                    dep_mods = modules[mod_id]["meta"].get("depends_on", [])
-                    if len(dep_mods) > 0:
-                        sem_level = n_sem - 1
-                        if sem_level < 1:
-                            dep_chain.append(mod_id)
-                            raise Exception("Could not resolve dependency chain for module", dep_chain)
-                        sem_map_2 = dict(zip([sem_level] * len(dep_mods), dep_mods))
-                        recursive_deps_helper(sem_map_2)
+                # check if mod_id has been processed already
+                if mod_id in processed_modules:
+                    # if processed_modules[mod_id] >= n_sem:
+                    #    raise Exception("multiple dependencies for module {} could not be resolved".format(mod_id))
+                    # print("multiple dependencies for module {} possibly could not be resolved".format(mod_id))
+                    pass
                 else:
-                    # if semester is too full go one below
-                    recursive_deps_helper({n_sem - 1: mod_id})
+                    # check if the current semester would overflow
+                    comp = Component(modules[mod_id])
+                    semesters_try = copy.deepcopy(semesters[n_sem])
+                    semesters_try.lectures.extend(comp.lectures)
+
+                    if semesters_try.check_ects():
+                        semesters[n_sem].lectures.extend(comp.lectures)
+                        dep_chain.append(mod_id)
+                        processed_modules.update({mod_id: n_sem})
+                        print("added", {n_sem: mod_id})
+                        print({n_sem: semesters[n_sem].total_ects()})
+                        # get the previous modules
+                        dep_mods = modules[mod_id]["meta"].get("depends_on", [])
+                        if len(dep_mods) > 0:
+                            sem_level = n_sem - direction
+                            if sem_level < 1 or sem_level > 4:
+                                raise Exception("Could not resolve dependency chain for module", dep_chain)
+                            sem_map_2 = {sem_level: dep_mods}
+                            recursive_deps_helper(sem_map_2, direction)
+                    else:
+                        # if semester is too full go one below
+                        recursive_deps_helper({n_sem - direction: [mod_id]}, direction)
+
+
+    # modules without dependencies
+    unique_keys = set(modules) - set(fixed_modules) - set(dep_modules)
+    filtered_dict = {1: unique_keys}
+    print("###################")
+    recursive_deps_helper(filtered_dict, direction=-1)
+    print_semester_counts(semesters,
+                          message="After adding modules without dependencies from sem 4 forward, ects counts are:")
 
     print("################### solving fixed semester")
     recursive_deps_helper(fixed_map)
@@ -81,12 +96,7 @@ def create_curriculum_solver(modules):
     print_semester_counts(semesters, message="After adding modules with dependencies, ects counts are:")
     print("###################")
 
-    # modules without dependencies
-    unique_keys = set(modules) - set(fixed_map) - set(dep_map)
-    filtered_dict = {4: k for k in unique_keys}
-    recursive_deps_helper(filtered_dict)
-    print_semester_counts(semesters,
-                          message="After adding modules without dependencies from sem 4 backwards, ects counts are:")
+
 
     cur = Curriculum(semesters.values())
     return cur

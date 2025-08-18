@@ -2,12 +2,11 @@ Subject: Invitation to Help Shape a Master’s Curriculum for Research Software 
 
 Dear Mr./Ms. [Name],
 
-Software plays a central role in modern research across nearly all scientific disciplines. As a result, the professional profile of the Research Software Engineer (RSE) has gained increasing relevance—blending software development expertise with deep insight into the research process.
+To support the growing need for RSE skills in academia and beyond, we are developing a modular Master's curriculum that reflects the real-world challenges and responsibilities of RSEs.
+This initiative is especially relevant as more institutions begin to establish RSE groups and service centers.
 
-To support the growing need for RSE skills in academia and beyond, we are developing a modular Master's curriculum that reflects the real-world challenges and responsibilities of RSEs. This initiative is especially relevant as more institutions begin to establish RSE groups and service centers.
-
-We would like to invite you to contribute to this effort by participating in a focused, community-driven online workshop:  
-**[Workshop Title]**  
+We would like to invite you to contribute to this effort by participating in a focused, community-driven online workshop:
+**[Workshop Title]**
 The session will take approximately 2–3 hours and will center on a curriculum module aligned with your expertise in **[Your Field]**.
 
 Together, we will:
@@ -15,21 +14,19 @@ Together, we will:
 - Outline a possible course structure,
 - Highlight the unique perspective RSEs bring to this topic.
 
-The goal is to complement existing software engineering, data science, and domain-specific courses with targeted, RSE-focused modules. Where specialized instruction is not yet available, we will also suggest alternatives or integration strategies.
-
-These collaboratively developed modules will serve as examples for universities looking to establish or expand RSE-focused education—and offer an opportunity to contribute as a co-author to this pioneering curriculum.
-
 You can learn more about the project here: https://github.com/the-teachingRSE-project/RSE-Masters
 
-In order to start the community process as quickly as possible we suggest one of the following two dates:
+Attached you find an overview over the other workshops in this series and a preliminary schedule. Feel free to share these.
+
+In order to start the community process as quickly as possible we suggest one of the following dates:
 
 [date 1]
 [date 2]
 
-We’d be honored to have your perspective and input. Also, we would like to invite you to the accompanying publication effort. If you are interested, please let us know.
-If you are strongly interested, but you are busy during the suggested time slots, let us know, and we will try to find another solution.
 
-Attached you find an overview over the other workshops in this series and a preliminary schedule. Feel free to share these.
+
+
+We’d be honored to have your perspective and input. If you are strongly interested, but you are busy during the suggested time slots, let us know, and we will try to find another solution.
 
 Warm regards,  
 Julian Dehne

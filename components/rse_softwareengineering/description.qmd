@@ -2,6 +2,11 @@
 
 This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to
 
+- software re-use (see SRU in [@competencies-F1000])
+- creating documented code building blocks (see DOCBB in [@competencies-F1000])
+- building distributable software (see DIST in [@competencies-F1000])
+- research specific programming languages
+- research specific code requirements (scalability, functional programming, ...)
 - Adapting the software life cycle to research (see SWLC in [@competencies-F1000])
 - Software behaviour awareness and analysis (see MOD in [@competencies-F1000])
 - Research specific Engineering Patterns
