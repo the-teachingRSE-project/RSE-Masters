@@ -1,0 +1,8 @@
+competences:
+  - id: rse_theory_1
+    description: "TODO"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "..."
+    author: "RSE Curriculum Draft"
+    source: "Workshop Input"

@@ -1,0 +1,11 @@
+entries:
+  - name: "RSE Software Engineering"
+    description: "This is an advanced class to ..."
+    type: "Lecture"
+    sws: 
+    ects: 
+    group: 1
+    quarto_filename: ""
+    optional: False
+    semester: 
+

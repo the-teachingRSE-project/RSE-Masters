@@ -1,0 +1,9 @@
+meta:
+  id: rse_engineering
+  profiles:
+    - science
+    - rse
+    - up
+  level: master
+  name: RSE Software Engineering
+  depends_on: []

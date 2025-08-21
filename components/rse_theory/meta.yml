@@ -1,0 +1,9 @@
+meta:
+  id: rse_philosophy
+  profiles:
+    - science
+    - rse
+    - up
+  level: master
+  name: RSE Philosophy
+  depends_on: []
