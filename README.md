@@ -1,12 +1,13 @@
 # RSE-Masters (Technical Prototype and Current State)
 
-We just started the community process. Even though we organized a technical pipeline and some modularization, we have not progressed to the point where you should place to much weight on the current state of the prototype in terms of content. 
+We started the community process to develop an RSE curriculum in spring 2025. Even though we organized a technical pipeline and some modularization, we have not progressed to the point where you should place too much weight on the current state of the prototype in terms of content. 
 
-If you want to be part of the community, join our mailinglist [https://www.listserv.dfn.de/sympa/info/rse-master](https://www.listserv.dfn.de/sympa/info/rse-master)
+If you want to be part of the community, join our mailinglist [https://www.listserv.dfn.de/sympa/info/rse-master](https://www.listserv.dfn.de/sympa/info/rse-master).
 
-Active work is going on in the tschira-funding branch. 
+Active work is going on in the tschira-funding branch, as the project is funded by the Klaus Tschira Stiftung at present. 
 
-The current version of the generated curriculum can be found [here](https://the-teachingrse-project.github.io/RSE-Masters/). This is build with Github Actions.
+The current version of the generated curriculum can be found [here](https://the-teachingrse-project.github.io/RSE-Masters/). This is built with Github Actions.
+
 
 ## How to Contribute to the Publication
 
@@ -15,15 +16,26 @@ You can edit the texts that are going to be the foundation of the publication. Y
 - [ideas and principles](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/ideas.qmd)
 - [job roles](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/job_roles.qmd)
 - [preambel and general introductions](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/preambel_general.qmd)
-- 
 
 
+## How to Contribute to a Component/Module
+In parallel to the main publication, small teams are working on particular components. These are the people leading the elaboration of the respective modules so far:
+- Scientific (High Performance) Computing: [@jpthiele](https://github.com/jpthiele)
+- Advanced Software Engineering for RSE: [@juliandehne](https://github.com/juliandehne)
+- RSE Nuts and Bolts (Tooling): [@captainsifff](https://github.com/CaptainSifff)
+- RSE Management (and Communication): [@majatoebs](https://github.com/MajaToebs)
+- RSE & Society: hopefully, students of the Digital Changemaker Initiative by the Hochschulforum Digitalisierung
+- RSE Philosophy: ?
+- RSE Thesis: ?
+If you are interested in joining any of the teams, we will be happy to hear from you!
 
-## How to Contribute a Component/Module
+
+## How to Contribute a whole Component/Module
 
 - go to [components](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/components) 
 - examine files in gen_programming 
 - copy cat the structure
+
 
 ## Folder Descriptions
 
@@ -37,8 +49,8 @@ You can edit the texts that are going to be the foundation of the publication. Y
 ### Organisational Folders
 
 - event contains the input for the community events etc.
-- presentation contains the presentation of the existing concepts
-- thesis contains ideas for ba/ma thesis situated in the project
+- presentation contains a presentation of the existing concept
+- thesis contains ideas for ba/ma theses situated in the project
 
 
 ### Submodules
