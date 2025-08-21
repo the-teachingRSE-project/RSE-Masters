@@ -1,7 +1,7 @@
 sources:
   courses:
-    - name: "TODO"
-      link: ""
+    - name: "RSE Leadership Course"
+      link: "https://events.humanitix.com/rse-leadership-course"
   course_literature:
     - name: "Remote Mob Programming"
       link: "https://leanpub.com/remotemobprogramming"
