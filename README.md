@@ -27,6 +27,7 @@ In parallel to the main publication, small teams are working on particular compo
 - RSE & Society: hopefully, students of the Digital Changemaker Initiative by the Hochschulforum Digitalisierung
 - RSE Philosophy: ?
 - RSE Thesis: ?
+
 If you are interested in joining any of the teams, we will be happy to hear from you!
 
 
