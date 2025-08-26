@@ -6,12 +6,18 @@ profile:
         - "Mathematical Foundations of Data Science"
         - "RSE-Management Lecture"
         - "RSE-Management Exercise"
+        - "Security, Information and Complexity"
+        - "Security, Information and Complexity Exercise"
+        - "Programming Languages and Compiler Technologies"
+        - "Programming Languages and Compiler Technologies Project"
       2:
         - "Statistical Data Analysis"
         - "Scientific Computing Basics"
         - "Scientific Computing Basics Exercise"
         - "Distributed Systems"
         - "Distributed Systems Exercise"
+        - "Formal Methods in Software Engineering"
+        - "Formal Methods Exercise"
       3:
         - "RSE Nuts and Bolts II"
         - "Text2Data"
