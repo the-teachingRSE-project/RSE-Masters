@@ -1,0 +1,16 @@
+competences:
+  - id: formal_methods_1
+    description: "apply formal methods in system design and software engineering."
+    disciplines: "Software Engineering"
+    prerequisites: "Basic knowledge of software engineering."
+    evidence: "Submit application of formal methods for a given software system."
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"
+  
+  - id: formal_methods_2
+    description: "Analyse theoretical and practical problems in modelling and implementation using formal methods together with others."
+    disciplines: "Software Engineering"
+    prerequisites: "Basic knowledge of formal methods."
+    evidence: "Participate in self-regulated team exercises and presentations."
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"
