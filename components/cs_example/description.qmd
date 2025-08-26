@@ -13,3 +13,9 @@ This is an example module to showcase the integration pipeline
 ## Competences
 
 - dfsd
+
+
+## Examination Methods
+
+- Either a 90-minute written exam.
+- Or a 20-30 minute oral examination.

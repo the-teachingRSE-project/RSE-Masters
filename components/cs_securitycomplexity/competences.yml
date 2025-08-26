@@ -1,0 +1,16 @@
+competences:
+  - id: sec_complex_1
+    description: "explain the necessity and methods of error-protected transmission and storage of data"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "describe and apply the taught methods to given examples"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"
+
+  - id: sec_complex_2
+    description: "analyse the correctness, security and complexity of algorithms"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "Submit a written analysis for a given algorithm"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"

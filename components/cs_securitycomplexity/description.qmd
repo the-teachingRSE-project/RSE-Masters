@@ -1,0 +1,25 @@
+# Security, Information and Complexity
+
+## Introduction
+
+This module deals with correctness, security and complexity of algorithms.
+
+
+## Contents
+
+- Methods for secure and reliable transmission and processing of information, error-correcting coding methods
+- Fundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications
+- Necessary foundations of mathematics and complexity theory are introduced alongside the topics
+
+
+## Competences
+
+- Understand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.
+- Are familiar with the fundamentals of error-protected transmission and storage of data.
+- Are capable of analysing the correctness, security, and complexity of methods
+
+
+## Examination methods
+
+- Either a written exam (90 minutes).
+- Or an oral examination (30 minutes).
