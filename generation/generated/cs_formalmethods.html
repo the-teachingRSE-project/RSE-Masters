@@ -14,7 +14,7 @@
 <meta name="author" content="Jan Linxweiler">
 <meta name="author" content="Anna-Lena Lambrecht">
 
-<title>curriculum – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>cs_formalmethods – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -27,7 +27,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -100,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../generation/generated/curriculum.html" aria-current="page"> 
+    <a class="nav-link" href="../../generation/generated/curriculum.html"> 
 <span class="menu-text">Curriculum</span></a>
   </li>  
   <li class="nav-item">
@@ -206,215 +225,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="general-study-process" class="level1">
-<h1>General Study Process</h1>
-<section id="semester-1" class="level2">
-<h2 class="anchored" data-anchor-id="semester-1">Semester 1</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Seminar</td>
-<td>RSE Nuts and Bolts I</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>Wildcard Science I</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Basic Programming</td>
-<td>2</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Basic Programming Exercise</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Mathematical Foundations of Data Science</td>
-<td>4</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>RSE-Management Lecture</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Exercise</td>
-<td>RSE-Management Exercise</td>
-<td>2</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 23</strong></p>
+<section id="formal-methods-in-software-engineering" class="level1">
+<h1>Formal Methods in Software Engineering</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.</p>
 </section>
-<section id="semester-2" class="level2">
-<h2 class="anchored" data-anchor-id="semester-2">Semester 2</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lecture</td>
-<td>Applied Programming</td>
-<td>2</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Applied Programming Exercise</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Wildcard Science II</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Lab</td>
-<td>Wildcard Science Lab I</td>
-<td>4</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Statistical Data Analysis</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>Scientific Computing Basics</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Exercise</td>
-<td>Scientific Computing Basics Exercise</td>
-<td>2</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 24</strong></p>
+<section id="contents" class="level2">
+<h2 class="anchored" data-anchor-id="contents">Contents</h2>
+<p>The module includes the following topics:</p>
+<ul>
+<li>Software Quality Assurance: Formal methods for specifying and verifying system properties.</li>
+<li>Service Engineering: The role of formal methods in service-based architectures.</li>
+<li>System Design: Use of formal methods in system design, focusing on specification and verification.</li>
+</ul>
 </section>
-<section id="semester-3" class="level2">
-<h2 class="anchored" data-anchor-id="semester-3">Semester 3</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Seminar</td>
-<td>RSE Nuts and Bolts II</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Lab</td>
-<td>Wildcard Science Lab II</td>
-<td>2</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>Exercise</td>
-<td>Text2Data</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>Lecture</td>
-<td>Computational Wildcard Science</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Software Engineering I</td>
-<td>2</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Software Engineering I Exercise</td>
-<td>2</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>High Performance Computing</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>High Performance Computing Exercise</td>
-<td>2</td>
-<td>3</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 24</strong></p>
+<section id="competences" class="level2">
+<h2 class="anchored" data-anchor-id="competences">Competences</h2>
+<ul>
+<li>Understand and apply formal methods in system design and software engineering.</li>
+<li>Analyse theoretical and practical problems in modeling and implementation using formal methods.</li>
+</ul>
 </section>
-<section id="semester-4" class="level2">
-<h2 class="anchored" data-anchor-id="semester-4">Semester 4</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>ECTS</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Thesis</td>
-<td>RSE Master Thesis</td>
-<td>10</td>
-<td>30</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total ECTS: 30</strong></p>
-<p><strong>Total Curriculum ECTS: 101</strong></p>
+<section id="examination-methods" class="level2">
+<h2 class="anchored" data-anchor-id="examination-methods">Examination Methods</h2>
+<ul>
+<li>Either a 90-minute written exam.</li>
+<li>Or a 20-30 minute oral examination.</li>
+</ul>
+<p><strong>Lecture</strong>: Formal Methods in Software Engineering Lecture covering formal methods in system design, software specification, and verification. <strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
+<p><strong>Exercise</strong>: Formal Methods Exercise Exercise for hands-on application of formal methods in system modeling and analysis. <strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
 </section>
-</section>
-<section id="sec-competences" class="level1">
-<h1>Complete Competences Table</h1>
-<p>TODO: replace this with Excel download in html and possibly remove for pdf</p>
+<section id="module-competences" class="level2">
+<h2 class="anchored" data-anchor-id="module-competences">Module Competences</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -429,49 +272,58 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>C01</td>
-<td>Use a version control system to track software changes</td>
-<td>CS, Bioinformatics</td>
-<td></td>
-<td>Push a merge request with documented code</td>
-<td>Florian Goth</td>
-<td><a href="https://github.com/the-teachingRSE-project/RSE-Masters">https://github.com/the-teachingRSE-project/RSE-Masters</a></td>
+<td>formal_methods_1</td>
+<td>apply formal methods in system design and software engineering.</td>
+<td>Computer Science</td>
+<td>Basic knowledge of software engineering.</td>
+<td>Submit application of formal methods for a given software system.</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de">Link</a></td>
 </tr>
 <tr class="even">
-<td>C02</td>
-<td>Conduct a ReproHack on domain-specific data</td>
-<td>Physics, CS</td>
-<td>C01</td>
-<td>Submit a ReproHack report</td>
-<td>Florian Goth</td>
-<td><a href="https://github.com/the-teachingRSE-project/RSE-Masters">https://github.com/the-teachingRSE-project/RSE-Masters</a></td>
+<td>formal_methods_2</td>
+<td>Analyse theoretical and practical problems in modelling and implementation using formal methods together with others.</td>
+<td>Computer Science</td>
+<td>Basic knowledge of formal methods.</td>
+<td>Participate in self-regulated team exercises and presentations.</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de">Link</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="module-descriptions-linked" class="level1">
-<h1>Module Descriptions (Linked)</h1>
+<section id="sources-implementations" class="level2">
+<h2 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h2>
+<section id="curricula" class="level3">
+<h3 class="anchored" data-anchor-id="curricula">Curricula</h3>
 <ul>
-<li><a href="../../generation/generated/rse_thesis.html">Master’s Thesis</a></li>
-<li><a href="../../generation/generated/mnt_compwildcard.html">Computational Science Wildcard</a></li>
-<li><a href="../../generation/generated/rse_management.html">Rse-Management</a></li>
-<li><a href="../../generation/generated/cs_compilertechnologies.html">Programming Languages And Compiler Technology</a></li>
-<li><a href="../../generation/generated/gen_programming.html">Basics Of Programming</a></li>
-<li><a href="../../generation/generated/cs_formalmethods.html">Formal Methods In Software Engineering</a></li>
-<li><a href="../../generation/generated/rse_missingsemester.html">Rse Nuts And Bolts</a></li>
-<li><a href="../../generation/generated/rse_computing.html">Scientific (High-Performance) Computing</a></li>
-<li><a href="../../generation/generated/gen_softwareengineering.html">Software Engineering</a></li>
-<li><a href="../../generation/generated/cs_securitycomplexity.html">Security, Information And Complexity</a></li>
-<li><a href="../../generation/generated/cs_distributedsystems.html">Distributed Systems</a></li>
-<li><a href="../../generation/generated/rse_softwareengineering.html">Rse Software Engineering</a></li>
-<li><a href="../../generation/generated/rse_theory.html">Rse Philosophy</a></li>
-<li><a href="../../generation/generated/mnt_project.html">Science Lab</a></li>
-<li><a href="../../generation/generated/mnt_wildcard.html">Science Wildcard</a></li>
-<li><a href="../../generation/generated/cs_example.html">Example Cs Module</a></li>
-<li><a href="../../generation/generated/gen_datascience.html">Data Science</a></li>
+<li><a href="None">None</a></li>
 </ul>
+</section>
+<section id="courses" class="level3">
+<h3 class="anchored" data-anchor-id="courses">Courses</h3>
+<ul>
+<li><a href="https://puls.uni-potsdam.de">UP Formal Methods in Software Engineering</a></li>
+</ul>
+</section>
+<section id="recommended-course-literature" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-course-literature">Recommended Course Literature</h3>
+<ul>
+<li><a href="None">None</a></li>
+</ul>
+</section>
+<section id="programs" class="level3">
+<h3 class="anchored" data-anchor-id="programs">Programs</h3>
+<ul>
+<li><a href="https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/informatikcomputational-science">UP Computational Science Master</a></li>
+</ul>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
