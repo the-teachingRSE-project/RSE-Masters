@@ -1,0 +1,15 @@
+# Module title
+
+## Introduction
+
+This is an example module to showcase the integration pipeline
+
+
+## Contents
+
+- dsfd
+
+
+## Competences
+
+- dfsd

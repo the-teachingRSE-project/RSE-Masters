@@ -1,0 +1,8 @@
+competences:
+  - id: dist_systems_1
+    description: "Use "
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "Submit working programs in ..."
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"
