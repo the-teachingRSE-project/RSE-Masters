@@ -1,0 +1,17 @@
+entries:
+  - name: "Distributed Systems"
+    description: ""
+    type: "Lecture"
+    sws: 2
+    ects: 2
+    group: 1
+    quarto_filename: ""
+    optional: False
+  - name: "Distributed Systems Exercise"
+    description: ""
+    type: "Exercise"
+    sws: 2
+    ects: 4
+    group: 1
+    quarto_filename: ""
+    optional: False

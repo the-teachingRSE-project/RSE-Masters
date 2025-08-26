@@ -10,6 +10,8 @@ profile:
         - "Statistical Data Analysis"
         - "Scientific Computing Basics"
         - "Scientific Computing Basics Exercise"
+        - "Distributed Systems"
+        - "Distributed Systems Exercise"
       3:
         - "RSE Nuts and Bolts II"
         - "Text2Data"
