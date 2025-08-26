@@ -12,7 +12,7 @@ The module includes the following topics:
 - Service Engineering: The role of formal methods in service-based architectures.
 - System Design: Use of formal methods in system design, focusing on specification and verification.
 
-## Competences
+## Learning Objectives
 
 - Understand and apply formal methods in system design and software engineering.
 - Analyse theoretical and practical problems in modeling and implementation using formal methods.

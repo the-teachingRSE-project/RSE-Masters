@@ -1,4 +1,4 @@
-# Module title
+# Programming Languages and Compiler Techniques
 
 ## Introduction
 
@@ -12,7 +12,7 @@ This module provides an in-depth understanding of programming languages and comp
 - Software System Security
 
 
-## Competences
+## Learning Objectives
 
 - describe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts
 - use various approaches in programming languages and compiler technology

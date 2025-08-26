@@ -12,7 +12,7 @@ This module deals with correctness, security and complexity of algorithms.
 - Necessary foundations of mathematics and complexity theory are introduced alongside the topics
 
 
-## Competences
+## Learning Objectives
 
 - Understand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.
 - Are familiar with the fundamentals of error-protected transmission and storage of data.
