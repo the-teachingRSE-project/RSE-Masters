@@ -189,8 +189,8 @@
     "text": "The module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification."
   },
   {
-    "objectID": "generation/generated/cs_formalmethods.html#competences",
-    "href": "generation/generated/cs_formalmethods.html#competences",
+    "objectID": "generation/generated/cs_formalmethods.html#learning-objectives",
+    "href": "generation/generated/cs_formalmethods.html#learning-objectives",
     "title": "Formal Methods in Software Engineering",
     "section": "",
     "text": "Understand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods."
@@ -238,8 +238,8 @@
     "text": "The module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks."
   },
   {
-    "objectID": "generation/generated/cs_distributedsystems.html#competences",
-    "href": "generation/generated/cs_distributedsystems.html#competences",
+    "objectID": "generation/generated/cs_distributedsystems.html#learning-objectives",
+    "href": "generation/generated/cs_distributedsystems.html#learning-objectives",
     "title": "Distributed Systems",
     "section": "",
     "text": "can evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process."
@@ -497,8 +497,8 @@
     "text": "Methods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics"
   },
   {
-    "objectID": "components/cs_securitycomplexity/description.html#competences",
-    "href": "components/cs_securitycomplexity/description.html#competences",
+    "objectID": "components/cs_securitycomplexity/description.html#learning-objectives",
+    "href": "components/cs_securitycomplexity/description.html#learning-objectives",
     "title": "Security, Information and Complexity",
     "section": "",
     "text": "Understand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods"
@@ -532,8 +532,8 @@
     "text": "dsfd"
   },
   {
-    "objectID": "components/cs_example/description.html#competences",
-    "href": "components/cs_example/description.html#competences",
+    "objectID": "components/cs_example/description.html#learning-objectives",
+    "href": "components/cs_example/description.html#learning-objectives",
     "title": "Module title",
     "section": "",
     "text": "dfsd"
@@ -548,35 +548,35 @@
   {
     "objectID": "components/cs_compilertechnologies/description.html",
     "href": "components/cs_compilertechnologies/description.html",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)"
   },
   {
     "objectID": "components/cs_compilertechnologies/description.html#introduction",
     "href": "components/cs_compilertechnologies/description.html#introduction",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler."
   },
   {
     "objectID": "components/cs_compilertechnologies/description.html#contents",
     "href": "components/cs_compilertechnologies/description.html#contents",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "Virtualization\nProgramming Languages and Design\nSoftware System Security"
   },
   {
-    "objectID": "components/cs_compilertechnologies/description.html#competences",
-    "href": "components/cs_compilertechnologies/description.html#competences",
-    "title": "Module title",
+    "objectID": "components/cs_compilertechnologies/description.html#learning-objectives",
+    "href": "components/cs_compilertechnologies/description.html#learning-objectives",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "describe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology"
   },
   {
     "objectID": "components/cs_compilertechnologies/description.html#examination-methods",
     "href": "components/cs_compilertechnologies/description.html#examination-methods",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "either a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)"
   },
@@ -602,8 +602,8 @@
     "text": "The module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks."
   },
   {
-    "objectID": "components/cs_distributedsystems/description.html#competences",
-    "href": "components/cs_distributedsystems/description.html#competences",
+    "objectID": "components/cs_distributedsystems/description.html#learning-objectives",
+    "href": "components/cs_distributedsystems/description.html#learning-objectives",
     "title": "Distributed Systems",
     "section": "",
     "text": "can evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process."
@@ -637,8 +637,8 @@
     "text": "The module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification."
   },
   {
-    "objectID": "components/cs_formalmethods/description.html#competences",
-    "href": "components/cs_formalmethods/description.html#competences",
+    "objectID": "components/cs_formalmethods/description.html#learning-objectives",
+    "href": "components/cs_formalmethods/description.html#learning-objectives",
     "title": "Formal Methods in Software Engineering",
     "section": "",
     "text": "Understand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods."
@@ -849,49 +849,49 @@
   {
     "objectID": "generation/generated/cs_compilertechnologies.html",
     "href": "generation/generated/cs_compilertechnologies.html",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)\n\nLecture: Programming Languages and Compiler Technologies\nSWS: 2 ECTS: 2\nProject: Programming Languages and Compiler Technologies Project\nSWS: 2 ECTS: 4\n\n\n\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ncompiler_tech_1\napply modelling techniques\nComputer Science\n\ndevelop solutions through technical methods\nUniversity of Potsdam\nLink\n\n\ncompiler_tech_2\nanalyse problems in given software systems\nComputer Science\n\ndiscuss problems in a team\nUniversity of Potsdam\nLink\n\n\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nUP Programmiersprachen und Compilertechnologien\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
   },
   {
     "objectID": "generation/generated/cs_compilertechnologies.html#introduction",
     "href": "generation/generated/cs_compilertechnologies.html#introduction",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler."
   },
   {
     "objectID": "generation/generated/cs_compilertechnologies.html#contents",
     "href": "generation/generated/cs_compilertechnologies.html#contents",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "Virtualization\nProgramming Languages and Design\nSoftware System Security"
   },
   {
-    "objectID": "generation/generated/cs_compilertechnologies.html#competences",
-    "href": "generation/generated/cs_compilertechnologies.html#competences",
-    "title": "Module title",
+    "objectID": "generation/generated/cs_compilertechnologies.html#learning-objectives",
+    "href": "generation/generated/cs_compilertechnologies.html#learning-objectives",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "describe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology"
   },
   {
     "objectID": "generation/generated/cs_compilertechnologies.html#examination-methods",
     "href": "generation/generated/cs_compilertechnologies.html#examination-methods",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "either a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)\n\nLecture: Programming Languages and Compiler Technologies\nSWS: 2 ECTS: 2\nProject: Programming Languages and Compiler Technologies Project\nSWS: 2 ECTS: 4"
   },
   {
     "objectID": "generation/generated/cs_compilertechnologies.html#module-competences",
     "href": "generation/generated/cs_compilertechnologies.html#module-competences",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "ID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ncompiler_tech_1\napply modelling techniques\nComputer Science\n\ndevelop solutions through technical methods\nUniversity of Potsdam\nLink\n\n\ncompiler_tech_2\nanalyse problems in given software systems\nComputer Science\n\ndiscuss problems in a team\nUniversity of Potsdam\nLink"
   },
   {
     "objectID": "generation/generated/cs_compilertechnologies.html#sources-implementations",
     "href": "generation/generated/cs_compilertechnologies.html#sources-implementations",
-    "title": "Module title",
+    "title": "Programming Languages and Compiler Techniques",
     "section": "",
     "text": "None\n\n\n\n\n\nUP Programmiersprachen und Compilertechnologien\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
   },
@@ -917,8 +917,8 @@
     "text": "dsfd"
   },
   {
-    "objectID": "generation/generated/cs_example.html#competences",
-    "href": "generation/generated/cs_example.html#competences",
+    "objectID": "generation/generated/cs_example.html#learning-objectives",
+    "href": "generation/generated/cs_example.html#learning-objectives",
     "title": "Module title",
     "section": "",
     "text": "dfsd"
@@ -966,8 +966,8 @@
     "text": "Methods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics"
   },
   {
-    "objectID": "generation/generated/cs_securitycomplexity.html#competences",
-    "href": "generation/generated/cs_securitycomplexity.html#competences",
+    "objectID": "generation/generated/cs_securitycomplexity.html#learning-objectives",
+    "href": "generation/generated/cs_securitycomplexity.html#learning-objectives",
     "title": "Security, Information and Complexity",
     "section": "",
     "text": "Understand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods"
