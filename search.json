@@ -51,37 +51,30 @@
   {
     "objectID": "generation/generated/rse_management.html",
     "href": "generation/generated/rse_management.html",
-    "title": "RSE Management and Communication",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))\n\n\n\n\n\nresearch management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor\n\n\nLecture: RSE-Management Lecture This is an introductory lecture covering research, project and team management techniques an RSE needs in everyday life. SWS: 2 ECTS: 3\nExercise: RSE-Management Exercise This is an exercise to apply and practice the taught methods with case-studys, role-plays etc. SWS: 2 ECTS: 3\n\n\n\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nrse_practices_8\nBuild and manage sustainable research software communities\nResearch Software Engineering, Community Engagement\nrse_tooling_13\nDocument strategies used for user engagement, feedback, and community growth in a real project\nRSE Curriculum Draft\nLink\n\n\nrse_practices_9\nWork in an agile software development process, including requirement gathering and iteration\nResearch Software Engineering\n\nSubmit a project that uses agile planning (e.g., user stories, sprints, stand-ups) and reflects on iteration outcomes\nRSE Curriculum Draft\nLink\n\n\nrse_practices_10\nDefine project scope, gather requirements, and manage stakeholder expectations\nResearch Software Engineering\n\nProvide a requirements document and stakeholder communication log for a software project\nRSE Curriculum Draft\nLink\n\n\nrse_practices_11\nPlan for software maintenance and long-term sustainability, including archiving strategies\nResearch Software Engineering\nrse_practices_6\nSubmit a sustainability or exit plan describing how the software will be maintained or archived\nRSE Curriculum Draft\nLink\n\n\nrse_management_01\nExplain particular implementation choices in a convincing manner\nResearch Software Engineering\n\nDeliver a defense of chosen implementation decisions in a discussion with a domain expert who has limited technical knowledge (ideally oral examination or project presentation with potential ‘customer/user’ questions)\nRSE Community\nLink\n\n\nrse_management_02\nExemplify and articulate shared team values and their impact on work\nResearch Software Engineering\n\nIdentify core team values and demonstrate how they influence key implementation decisions (e.g., design, communication, and collaboration)\nRSE Community\nLink\n\n\nrse_management_03\nPlan and manage projects using standard methods effectively and efficiently\nResearch Software Engineering\n\nDevelop a comprehensive project plan for a given project, including scope, milestones, risks, resources, and success criteria\nRSE Community\nLink\n\n\nrse_management_04\nDiscuss methods to set up a Diversity, Equity and Inclusion (DEI) framework in an RSE team\nResearch Software Engineering\n\nAnalyse and evaluate a DEI framework for a given project\nRSE Community\nLink\n\n\n\n\n\n\n\n\n\nRSE Leadership Course\n\n\n\n\n\nRemote Mob Programming\nCode with the Wisdom of the Crowd\nCollaboration Explained\nTeam Topologies\nTechnical Agile Coaching with the Samman method\nLean Product and Process Development\nExtreme Programming Explained\n\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
+    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))\n\n\n\n\n\nresearch management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor\n\n\nLecture: RSE-Management Lecture This is an introductory lecture covering research, project and team management techniques an RSE needs in everyday life. SWS: 2 ECTS: 3\nExercise: RSE-Management Exercise This is an exercise to apply and practice the taught methods with case-studys, role-plays etc. SWS: 2 ECTS: 3"
   },
   {
-    "objectID": "generation/generated/rse_management.html#introduction",
-    "href": "generation/generated/rse_management.html#introduction",
-    "title": "RSE Management and Communication",
+    "objectID": "generation/generated/rse_management.html#rse-management-and-communication",
+    "href": "generation/generated/rse_management.html#rse-management-and-communication",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))"
-  },
-  {
-    "objectID": "generation/generated/rse_management.html#contents",
-    "href": "generation/generated/rse_management.html#contents",
-    "title": "RSE Management and Communication",
-    "section": "",
-    "text": "research management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor\n\n\nLecture: RSE-Management Lecture This is an introductory lecture covering research, project and team management techniques an RSE needs in everyday life. SWS: 2 ECTS: 3\nExercise: RSE-Management Exercise This is an exercise to apply and practice the taught methods with case-studys, role-plays etc. SWS: 2 ECTS: 3"
+    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))\n\n\n\n\n\nresearch management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor\n\n\nLecture: RSE-Management Lecture This is an introductory lecture covering research, project and team management techniques an RSE needs in everyday life. SWS: 2 ECTS: 3\nExercise: RSE-Management Exercise This is an exercise to apply and practice the taught methods with case-studys, role-plays etc. SWS: 2 ECTS: 3"
   },
   {
     "objectID": "generation/generated/rse_management.html#module-competences",
     "href": "generation/generated/rse_management.html#module-competences",
-    "title": "RSE Management and Communication",
-    "section": "",
-    "text": "ID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nrse_practices_8\nBuild and manage sustainable research software communities\nResearch Software Engineering, Community Engagement\nrse_tooling_13\nDocument strategies used for user engagement, feedback, and community growth in a real project\nRSE Curriculum Draft\nLink\n\n\nrse_practices_9\nWork in an agile software development process, including requirement gathering and iteration\nResearch Software Engineering\n\nSubmit a project that uses agile planning (e.g., user stories, sprints, stand-ups) and reflects on iteration outcomes\nRSE Curriculum Draft\nLink\n\n\nrse_practices_10\nDefine project scope, gather requirements, and manage stakeholder expectations\nResearch Software Engineering\n\nProvide a requirements document and stakeholder communication log for a software project\nRSE Curriculum Draft\nLink\n\n\nrse_practices_11\nPlan for software maintenance and long-term sustainability, including archiving strategies\nResearch Software Engineering\nrse_practices_6\nSubmit a sustainability or exit plan describing how the software will be maintained or archived\nRSE Curriculum Draft\nLink\n\n\nrse_management_01\nExplain particular implementation choices in a convincing manner\nResearch Software Engineering\n\nDeliver a defense of chosen implementation decisions in a discussion with a domain expert who has limited technical knowledge (ideally oral examination or project presentation with potential ‘customer/user’ questions)\nRSE Community\nLink\n\n\nrse_management_02\nExemplify and articulate shared team values and their impact on work\nResearch Software Engineering\n\nIdentify core team values and demonstrate how they influence key implementation decisions (e.g., design, communication, and collaboration)\nRSE Community\nLink\n\n\nrse_management_03\nPlan and manage projects using standard methods effectively and efficiently\nResearch Software Engineering\n\nDevelop a comprehensive project plan for a given project, including scope, milestones, risks, resources, and success criteria\nRSE Community\nLink\n\n\nrse_management_04\nDiscuss methods to set up a Diversity, Equity and Inclusion (DEI) framework in an RSE team\nResearch Software Engineering\n\nAnalyse and evaluate a DEI framework for a given project\nRSE Community\nLink"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Module Competences",
+    "text": "Module Competences\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nrse_practices_8\nBuild and manage sustainable research software communities\nResearch Software Engineering, Community Engagement\nrse_tooling_13\nDocument strategies used for user engagement, feedback, and community growth in a real project\nRSE Curriculum Draft\nLink\n\n\nrse_practices_9\nWork in an agile software development process, including requirement gathering and iteration\nResearch Software Engineering\n\nSubmit a project that uses agile planning (e.g., user stories, sprints, stand-ups) and reflects on iteration outcomes\nRSE Curriculum Draft\nLink\n\n\nrse_practices_10\nDefine project scope, gather requirements, and manage stakeholder expectations\nResearch Software Engineering\n\nProvide a requirements document and stakeholder communication log for a software project\nRSE Curriculum Draft\nLink\n\n\nrse_practices_11\nPlan for software maintenance and long-term sustainability, including archiving strategies\nResearch Software Engineering\nrse_practices_6\nSubmit a sustainability or exit plan describing how the software will be maintained or archived\nRSE Curriculum Draft\nLink\n\n\nrse_management_01\nExplain particular implementation choices in a convincing manner\nResearch Software Engineering\n\nDeliver a defense of chosen implementation decisions in a discussion with a domain expert who has limited technical knowledge (ideally oral examination or project presentation with potential ‘customer/user’ questions)\nRSE Community\nLink\n\n\nrse_management_02\nExemplify and articulate shared team values and their impact on work\nResearch Software Engineering\n\nIdentify core team values and demonstrate how they influence key implementation decisions (e.g., design, communication, and collaboration)\nRSE Community\nLink\n\n\nrse_management_03\nPlan and manage projects using standard methods effectively and efficiently\nResearch Software Engineering\n\nDevelop a comprehensive project plan for a given project, including scope, milestones, risks, resources, and success criteria\nRSE Community\nLink\n\n\nrse_management_04\nDiscuss methods to set up a Diversity, Equity and Inclusion (DEI) framework in an RSE team\nResearch Software Engineering\n\nAnalyse and evaluate a DEI framework for a given project\nRSE Community\nLink"
   },
   {
     "objectID": "generation/generated/rse_management.html#sources-implementations",
     "href": "generation/generated/rse_management.html#sources-implementations",
-    "title": "RSE Management and Communication",
-    "section": "",
-    "text": "RSE Leadership Course\n\n\n\n\n\nRemote Mob Programming\nCode with the Wisdom of the Crowd\nCollaboration Explained\nTeam Topologies\nTechnical Agile Coaching with the Samman method\nLean Product and Process Development\nExtreme Programming Explained\n\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Sources & Implementations:",
+    "text": "Sources & Implementations:\n\nCourses\n\nRSE Leadership Course\n\n\n\nRecommended Course Literature\n\nRemote Mob Programming\nCode with the Wisdom of the Crowd\nCollaboration Explained\nTeam Topologies\nTechnical Agile Coaching with the Samman method\nLean Product and Process Development\nExtreme Programming Explained\n\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
   },
   {
     "objectID": "generation/generated/mnt_wildcard.html",
@@ -219,149 +212,86 @@
   {
     "objectID": "generation/generated/cs_formalmethods.html",
     "href": "generation/generated/cs_formalmethods.html",
-    "title": "Formal Methods in Software Engineering",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.\n\n\n\nThe module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification.\n\n\n\n\n\nUnderstand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods.\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination.\n\nLecture: Formal Methods in Software Engineering Lecture covering formal methods in system design, software specification, and verification. SWS: 2 ECTS: 2\nExercise: Formal Methods Exercise Exercise for hands-on application of formal methods in system modeling and analysis. SWS: 2 ECTS: 4\n\n\n\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nformal_methods_1\napply formal methods in system design and software engineering.\nComputer Science\nBasic knowledge of software engineering.\nSubmit application of formal methods for a given software system.\nUniversity of Potsdam\nLink\n\n\nformal_methods_2\nAnalyse theoretical and practical problems in modelling and implementation using formal methods together with others.\nComputer Science\nBasic knowledge of formal methods.\nParticipate in self-regulated team exercises and presentations.\nUniversity of Potsdam\nLink\n\n\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nUP Formal Methods in Software Engineering\n\n\n\n\n\nNone\n\n\n\n\n\nUP Computational Science Master"
+    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.\n\n\n\nThe module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification.\n\n\n\n\n\nUnderstand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods.\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination.\n\nLecture: Formal Methods in Software Engineering Lecture covering formal methods in system design, software specification, and verification. SWS: 2 ECTS: 2\nExercise: Formal Methods Exercise Exercise for hands-on application of formal methods in system modeling and analysis. SWS: 2 ECTS: 4"
   },
   {
-    "objectID": "generation/generated/cs_formalmethods.html#introduction",
-    "href": "generation/generated/cs_formalmethods.html#introduction",
-    "title": "Formal Methods in Software Engineering",
+    "objectID": "generation/generated/cs_formalmethods.html#formal-methods-in-software-engineering",
+    "href": "generation/generated/cs_formalmethods.html#formal-methods-in-software-engineering",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification."
-  },
-  {
-    "objectID": "generation/generated/cs_formalmethods.html#contents",
-    "href": "generation/generated/cs_formalmethods.html#contents",
-    "title": "Formal Methods in Software Engineering",
-    "section": "",
-    "text": "The module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification."
-  },
-  {
-    "objectID": "generation/generated/cs_formalmethods.html#learning-objectives",
-    "href": "generation/generated/cs_formalmethods.html#learning-objectives",
-    "title": "Formal Methods in Software Engineering",
-    "section": "",
-    "text": "Understand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods."
-  },
-  {
-    "objectID": "generation/generated/cs_formalmethods.html#examination-methods",
-    "href": "generation/generated/cs_formalmethods.html#examination-methods",
-    "title": "Formal Methods in Software Engineering",
-    "section": "",
-    "text": "Either a 90-minute written exam.\nOr a 20-30 minute oral examination.\n\nLecture: Formal Methods in Software Engineering Lecture covering formal methods in system design, software specification, and verification. SWS: 2 ECTS: 2\nExercise: Formal Methods Exercise Exercise for hands-on application of formal methods in system modeling and analysis. SWS: 2 ECTS: 4"
+    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.\n\n\n\nThe module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification.\n\n\n\n\n\nUnderstand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods.\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination.\n\nLecture: Formal Methods in Software Engineering Lecture covering formal methods in system design, software specification, and verification. SWS: 2 ECTS: 2\nExercise: Formal Methods Exercise Exercise for hands-on application of formal methods in system modeling and analysis. SWS: 2 ECTS: 4"
   },
   {
     "objectID": "generation/generated/cs_formalmethods.html#module-competences",
     "href": "generation/generated/cs_formalmethods.html#module-competences",
-    "title": "Formal Methods in Software Engineering",
-    "section": "",
-    "text": "ID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nformal_methods_1\napply formal methods in system design and software engineering.\nComputer Science\nBasic knowledge of software engineering.\nSubmit application of formal methods for a given software system.\nUniversity of Potsdam\nLink\n\n\nformal_methods_2\nAnalyse theoretical and practical problems in modelling and implementation using formal methods together with others.\nComputer Science\nBasic knowledge of formal methods.\nParticipate in self-regulated team exercises and presentations.\nUniversity of Potsdam\nLink"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Module Competences",
+    "text": "Module Competences\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nformal_methods_1\napply formal methods in system design and software engineering.\nComputer Science\nBasic knowledge of software engineering.\nSubmit application of formal methods for a given software system.\nUniversity of Potsdam\nLink\n\n\nformal_methods_2\nAnalyse theoretical and practical problems in modelling and implementation using formal methods together with others.\nComputer Science\nBasic knowledge of formal methods.\nParticipate in self-regulated team exercises and presentations.\nUniversity of Potsdam\nLink"
   },
   {
     "objectID": "generation/generated/cs_formalmethods.html#sources-implementations",
     "href": "generation/generated/cs_formalmethods.html#sources-implementations",
-    "title": "Formal Methods in Software Engineering",
-    "section": "",
-    "text": "None\n\n\n\n\n\nUP Formal Methods in Software Engineering\n\n\n\n\n\nNone\n\n\n\n\n\nUP Computational Science Master"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Sources & Implementations:",
+    "text": "Sources & Implementations:\n\nCurricula\n\nNone\n\n\n\nCourses\n\nUP Formal Methods in Software Engineering\n\n\n\nRecommended Course Literature\n\nNone\n\n\n\nPrograms\n\nUP Computational Science Master"
   },
   {
     "objectID": "generation/generated/cs_distributedsystems.html",
     "href": "generation/generated/cs_distributedsystems.html",
-    "title": "Distributed Systems",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module deals with distributed IT systems.\n\n\n\nThe module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.\n\n\n\n\n\ncan evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.\n\n\n\n\n\neither 120 min written exam\nor 20-30 min oral examination\n\nLecture: Distributed Systems\nSWS: 2 ECTS: 2\nExercise: Distributed Systems Exercise\nSWS: 2 ECTS: 4\n\n\n\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ndist_systems_1\nevaluate existing distributed systems in terms of reliability and security and identify vulnerabilities\nComputer Science\n\nSubmit written analysis of existing distributed systems\nUniversity of Potsdam\nLink\n\n\ndist_systems_2\nidentify reliability and security requirements when designing new distributed system and consider them early in the development process\nComputer Science\n\ndiscuss necessary requirements for a design of a distributed system\nUniversity of Potsdam\nLink\n\n\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nUP Verteilte Systeme\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
+    "text": "This module deals with distributed IT systems.\n\n\n\nThe module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.\n\n\n\n\n\ncan evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.\n\n\n\n\n\neither 120 min written exam\nor 20-30 min oral examination\n\nLecture: Distributed Systems\nSWS: 2 ECTS: 2\nExercise: Distributed Systems Exercise\nSWS: 2 ECTS: 4"
   },
   {
-    "objectID": "generation/generated/cs_distributedsystems.html#introduction",
-    "href": "generation/generated/cs_distributedsystems.html#introduction",
-    "title": "Distributed Systems",
+    "objectID": "generation/generated/cs_distributedsystems.html#distributed-systems",
+    "href": "generation/generated/cs_distributedsystems.html#distributed-systems",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module deals with distributed IT systems."
-  },
-  {
-    "objectID": "generation/generated/cs_distributedsystems.html#contents",
-    "href": "generation/generated/cs_distributedsystems.html#contents",
-    "title": "Distributed Systems",
-    "section": "",
-    "text": "The module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks."
-  },
-  {
-    "objectID": "generation/generated/cs_distributedsystems.html#learning-objectives",
-    "href": "generation/generated/cs_distributedsystems.html#learning-objectives",
-    "title": "Distributed Systems",
-    "section": "",
-    "text": "can evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process."
-  },
-  {
-    "objectID": "generation/generated/cs_distributedsystems.html#examination-methods",
-    "href": "generation/generated/cs_distributedsystems.html#examination-methods",
-    "title": "Distributed Systems",
-    "section": "",
-    "text": "either 120 min written exam\nor 20-30 min oral examination\n\nLecture: Distributed Systems\nSWS: 2 ECTS: 2\nExercise: Distributed Systems Exercise\nSWS: 2 ECTS: 4"
+    "text": "This module deals with distributed IT systems.\n\n\n\nThe module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.\n\n\n\n\n\ncan evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.\n\n\n\n\n\neither 120 min written exam\nor 20-30 min oral examination\n\nLecture: Distributed Systems\nSWS: 2 ECTS: 2\nExercise: Distributed Systems Exercise\nSWS: 2 ECTS: 4"
   },
   {
     "objectID": "generation/generated/cs_distributedsystems.html#module-competences",
     "href": "generation/generated/cs_distributedsystems.html#module-competences",
-    "title": "Distributed Systems",
-    "section": "",
-    "text": "ID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ndist_systems_1\nevaluate existing distributed systems in terms of reliability and security and identify vulnerabilities\nComputer Science\n\nSubmit written analysis of existing distributed systems\nUniversity of Potsdam\nLink\n\n\ndist_systems_2\nidentify reliability and security requirements when designing new distributed system and consider them early in the development process\nComputer Science\n\ndiscuss necessary requirements for a design of a distributed system\nUniversity of Potsdam\nLink"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Module Competences",
+    "text": "Module Competences\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ndist_systems_1\nevaluate existing distributed systems in terms of reliability and security and identify vulnerabilities\nComputer Science\n\nSubmit written analysis of existing distributed systems\nUniversity of Potsdam\nLink\n\n\ndist_systems_2\nidentify reliability and security requirements when designing new distributed system and consider them early in the development process\nComputer Science\n\ndiscuss necessary requirements for a design of a distributed system\nUniversity of Potsdam\nLink"
   },
   {
     "objectID": "generation/generated/cs_distributedsystems.html#sources-implementations",
     "href": "generation/generated/cs_distributedsystems.html#sources-implementations",
-    "title": "Distributed Systems",
-    "section": "",
-    "text": "None\n\n\n\n\n\nUP Verteilte Systeme\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Sources & Implementations:",
+    "text": "Sources & Implementations:\n\nCurricula\n\nNone\n\n\n\nCourses\n\nUP Verteilte Systeme\n\n\n\nRecommended Course Literature\n\nTODO\n\n\n\nPrograms\n\nUP Computational Science Master"
   },
   {
     "objectID": "generation/generated/cs_compilertechnologies.html",
     "href": "generation/generated/cs_compilertechnologies.html",
-    "title": "Programming Languages and Compiler Techniques",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)\n\nLecture: Programming Languages and Compiler Technologies\nSWS: 2 ECTS: 2\nProject: Programming Languages and Compiler Technologies Project\nSWS: 2 ECTS: 4\n\n\n\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ncompiler_tech_1\napply modelling techniques\nComputer Science\n\ndevelop solutions through technical methods\nUniversity of Potsdam\nLink\n\n\ncompiler_tech_2\nanalyse problems in given software systems\nComputer Science\n\ndiscuss problems in a team\nUniversity of Potsdam\nLink\n\n\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nUP Programmiersprachen und Compilertechnologien\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
+    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)\n\nLecture: Programming Languages and Compiler Technologies\nSWS: 2 ECTS: 2\nProject: Programming Languages and Compiler Technologies Project\nSWS: 2 ECTS: 4"
   },
   {
-    "objectID": "generation/generated/cs_compilertechnologies.html#introduction",
-    "href": "generation/generated/cs_compilertechnologies.html#introduction",
-    "title": "Programming Languages and Compiler Techniques",
+    "objectID": "generation/generated/cs_compilertechnologies.html#programming-languages-and-compiler-techniques",
+    "href": "generation/generated/cs_compilertechnologies.html#programming-languages-and-compiler-techniques",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler."
-  },
-  {
-    "objectID": "generation/generated/cs_compilertechnologies.html#contents",
-    "href": "generation/generated/cs_compilertechnologies.html#contents",
-    "title": "Programming Languages and Compiler Techniques",
-    "section": "",
-    "text": "Virtualization\nProgramming Languages and Design\nSoftware System Security"
-  },
-  {
-    "objectID": "generation/generated/cs_compilertechnologies.html#learning-objectives",
-    "href": "generation/generated/cs_compilertechnologies.html#learning-objectives",
-    "title": "Programming Languages and Compiler Techniques",
-    "section": "",
-    "text": "describe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology"
-  },
-  {
-    "objectID": "generation/generated/cs_compilertechnologies.html#examination-methods",
-    "href": "generation/generated/cs_compilertechnologies.html#examination-methods",
-    "title": "Programming Languages and Compiler Techniques",
-    "section": "",
-    "text": "either a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)\n\nLecture: Programming Languages and Compiler Technologies\nSWS: 2 ECTS: 2\nProject: Programming Languages and Compiler Technologies Project\nSWS: 2 ECTS: 4"
+    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)\n\nLecture: Programming Languages and Compiler Technologies\nSWS: 2 ECTS: 2\nProject: Programming Languages and Compiler Technologies Project\nSWS: 2 ECTS: 4"
   },
   {
     "objectID": "generation/generated/cs_compilertechnologies.html#module-competences",
     "href": "generation/generated/cs_compilertechnologies.html#module-competences",
-    "title": "Programming Languages and Compiler Techniques",
-    "section": "",
-    "text": "ID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ncompiler_tech_1\napply modelling techniques\nComputer Science\n\ndevelop solutions through technical methods\nUniversity of Potsdam\nLink\n\n\ncompiler_tech_2\nanalyse problems in given software systems\nComputer Science\n\ndiscuss problems in a team\nUniversity of Potsdam\nLink"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Module Competences",
+    "text": "Module Competences\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ncompiler_tech_1\napply modelling techniques\nComputer Science\n\ndevelop solutions through technical methods\nUniversity of Potsdam\nLink\n\n\ncompiler_tech_2\nanalyse problems in given software systems\nComputer Science\n\ndiscuss problems in a team\nUniversity of Potsdam\nLink"
   },
   {
     "objectID": "generation/generated/cs_compilertechnologies.html#sources-implementations",
     "href": "generation/generated/cs_compilertechnologies.html#sources-implementations",
-    "title": "Programming Languages and Compiler Techniques",
-    "section": "",
-    "text": "None\n\n\n\n\n\nUP Programmiersprachen und Compilertechnologien\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Sources & Implementations:",
+    "text": "Sources & Implementations:\n\nCurricula\n\nNone\n\n\n\nCourses\n\nUP Programmiersprachen und Compilertechnologien\n\n\n\nRecommended Course Literature\n\nTODO\n\n\n\nPrograms\n\nUP Computational Science Master"
   },
   {
     "objectID": "general/job_roles.html",
@@ -415,65 +345,30 @@
   {
     "objectID": "components/rse_theory/description.html",
     "href": "components/rse_theory/description.html",
-    "title": "RSE Philosophy",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
     "text": "The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved in digitalization projects, institutional development or other non-technical tasks.\n\n\n\nFor a university level study program it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. For this they need a solid understanding in some of the more theoretical fields such as …\n\nphilosophy of science\nsociology of technology\nethics and artificial intelligence\nhuman computer interaction\ndigital humanities\n\n\n\n\nThis module conveys competences in areas such as but not limited to …\n\nconducting and leading research (NEW)\nunderstanding the research cycle (RC)\ninteraction with users and stakeholders (USERS)"
   },
   {
-    "objectID": "components/rse_theory/description.html#introduction",
-    "href": "components/rse_theory/description.html#introduction",
-    "title": "RSE Philosophy",
+    "objectID": "components/rse_theory/description.html#rse-philosophy",
+    "href": "components/rse_theory/description.html#rse-philosophy",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved in digitalization projects, institutional development or other non-technical tasks."
-  },
-  {
-    "objectID": "components/rse_theory/description.html#contents",
-    "href": "components/rse_theory/description.html#contents",
-    "title": "RSE Philosophy",
-    "section": "",
-    "text": "For a university level study program it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. For this they need a solid understanding in some of the more theoretical fields such as …\n\nphilosophy of science\nsociology of technology\nethics and artificial intelligence\nhuman computer interaction\ndigital humanities"
-  },
-  {
-    "objectID": "components/rse_theory/description.html#general-competences",
-    "href": "components/rse_theory/description.html#general-competences",
-    "title": "RSE Philosophy",
-    "section": "",
-    "text": "This module conveys competences in areas such as but not limited to …\n\nconducting and leading research (NEW)\nunderstanding the research cycle (RC)\ninteraction with users and stakeholders (USERS)"
+    "text": "The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved in digitalization projects, institutional development or other non-technical tasks.\n\n\n\nFor a university level study program it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. For this they need a solid understanding in some of the more theoretical fields such as …\n\nphilosophy of science\nsociology of technology\nethics and artificial intelligence\nhuman computer interaction\ndigital humanities\n\n\n\n\nThis module conveys competences in areas such as but not limited to …\n\nconducting and leading research (NEW)\nunderstanding the research cycle (RC)\ninteraction with users and stakeholders (USERS)"
   },
   {
     "objectID": "components/rse_missingsemester/description.html",
     "href": "components/rse_missingsemester/description.html",
-    "title": "RSE Nuts and Bolts",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
     "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).\n\n\n\nThe module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography\n\n\n\n\nBuilding on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities\n\n\n\n\n\nFinally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024))."
   },
   {
-    "objectID": "components/rse_missingsemester/description.html#introduction",
-    "href": "components/rse_missingsemester/description.html#introduction",
-    "title": "RSE Nuts and Bolts",
+    "objectID": "components/rse_missingsemester/description.html#rse-nuts-and-bolts",
+    "href": "components/rse_missingsemester/description.html#rse-nuts-and-bolts",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE)."
-  },
-  {
-    "objectID": "components/rse_missingsemester/description.html#general-competencies",
-    "href": "components/rse_missingsemester/description.html#general-competencies",
-    "title": "RSE Nuts and Bolts",
-    "section": "",
-    "text": "The module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography"
-  },
-  {
-    "objectID": "components/rse_missingsemester/description.html#rse-specific-topics",
-    "href": "components/rse_missingsemester/description.html#rse-specific-topics",
-    "title": "RSE Nuts and Bolts",
-    "section": "",
-    "text": "Building on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities"
-  },
-  {
-    "objectID": "components/rse_missingsemester/description.html#beyond-the-basics",
-    "href": "components/rse_missingsemester/description.html#beyond-the-basics",
-    "title": "RSE Nuts and Bolts",
-    "section": "",
-    "text": "Finally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024))."
+    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).\n\n\n\nThe module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography\n\n\n\n\nBuilding on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities\n\n\n\n\n\nFinally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024))."
   },
   {
     "objectID": "components/rse_computing/scientific_computing.html",
@@ -562,177 +457,72 @@
   {
     "objectID": "components/cs_formalmethods/description.html",
     "href": "components/cs_formalmethods/description.html",
-    "title": "Formal Methods in Software Engineering",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
     "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.\n\n\n\nThe module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification.\n\n\n\n\n\nUnderstand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods.\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination."
   },
   {
-    "objectID": "components/cs_formalmethods/description.html#introduction",
-    "href": "components/cs_formalmethods/description.html#introduction",
-    "title": "Formal Methods in Software Engineering",
+    "objectID": "components/cs_formalmethods/description.html#formal-methods-in-software-engineering",
+    "href": "components/cs_formalmethods/description.html#formal-methods-in-software-engineering",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification."
-  },
-  {
-    "objectID": "components/cs_formalmethods/description.html#contents",
-    "href": "components/cs_formalmethods/description.html#contents",
-    "title": "Formal Methods in Software Engineering",
-    "section": "",
-    "text": "The module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification."
-  },
-  {
-    "objectID": "components/cs_formalmethods/description.html#learning-objectives",
-    "href": "components/cs_formalmethods/description.html#learning-objectives",
-    "title": "Formal Methods in Software Engineering",
-    "section": "",
-    "text": "Understand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods."
-  },
-  {
-    "objectID": "components/cs_formalmethods/description.html#examination-methods",
-    "href": "components/cs_formalmethods/description.html#examination-methods",
-    "title": "Formal Methods in Software Engineering",
-    "section": "",
-    "text": "Either a 90-minute written exam.\nOr a 20-30 minute oral examination."
+    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.\n\n\n\nThe module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification.\n\n\n\n\n\nUnderstand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods.\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination."
   },
   {
     "objectID": "components/cs_distributedsystems/description.html",
     "href": "components/cs_distributedsystems/description.html",
-    "title": "Distributed Systems",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
     "text": "This module deals with distributed IT systems.\n\n\n\nThe module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.\n\n\n\n\n\ncan evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.\n\n\n\n\n\neither 120 min written exam\nor 20-30 min oral examination"
   },
   {
-    "objectID": "components/cs_distributedsystems/description.html#introduction",
-    "href": "components/cs_distributedsystems/description.html#introduction",
-    "title": "Distributed Systems",
+    "objectID": "components/cs_distributedsystems/description.html#distributed-systems",
+    "href": "components/cs_distributedsystems/description.html#distributed-systems",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module deals with distributed IT systems."
-  },
-  {
-    "objectID": "components/cs_distributedsystems/description.html#contents",
-    "href": "components/cs_distributedsystems/description.html#contents",
-    "title": "Distributed Systems",
-    "section": "",
-    "text": "The module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks."
-  },
-  {
-    "objectID": "components/cs_distributedsystems/description.html#learning-objectives",
-    "href": "components/cs_distributedsystems/description.html#learning-objectives",
-    "title": "Distributed Systems",
-    "section": "",
-    "text": "can evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process."
-  },
-  {
-    "objectID": "components/cs_distributedsystems/description.html#examination-methods",
-    "href": "components/cs_distributedsystems/description.html#examination-methods",
-    "title": "Distributed Systems",
-    "section": "",
-    "text": "either 120 min written exam\nor 20-30 min oral examination"
+    "text": "This module deals with distributed IT systems.\n\n\n\nThe module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.\n\n\n\n\n\ncan evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.\n\n\n\n\n\neither 120 min written exam\nor 20-30 min oral examination"
   },
   {
     "objectID": "components/cs_compilertechnologies/description.html",
     "href": "components/cs_compilertechnologies/description.html",
-    "title": "Programming Languages and Compiler Techniques",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
     "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)"
   },
   {
-    "objectID": "components/cs_compilertechnologies/description.html#introduction",
-    "href": "components/cs_compilertechnologies/description.html#introduction",
-    "title": "Programming Languages and Compiler Techniques",
+    "objectID": "components/cs_compilertechnologies/description.html#programming-languages-and-compiler-techniques",
+    "href": "components/cs_compilertechnologies/description.html#programming-languages-and-compiler-techniques",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler."
-  },
-  {
-    "objectID": "components/cs_compilertechnologies/description.html#contents",
-    "href": "components/cs_compilertechnologies/description.html#contents",
-    "title": "Programming Languages and Compiler Techniques",
-    "section": "",
-    "text": "Virtualization\nProgramming Languages and Design\nSoftware System Security"
-  },
-  {
-    "objectID": "components/cs_compilertechnologies/description.html#learning-objectives",
-    "href": "components/cs_compilertechnologies/description.html#learning-objectives",
-    "title": "Programming Languages and Compiler Techniques",
-    "section": "",
-    "text": "describe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology"
-  },
-  {
-    "objectID": "components/cs_compilertechnologies/description.html#examination-methods",
-    "href": "components/cs_compilertechnologies/description.html#examination-methods",
-    "title": "Programming Languages and Compiler Techniques",
-    "section": "",
-    "text": "either a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)"
+    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)"
   },
   {
     "objectID": "components/cs_example/description.html",
     "href": "components/cs_example/description.html",
-    "title": "Module title",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
     "text": "This is an example module to showcase the integration pipeline\n\n\n\n\ndsfd\n\n\n\n\n\ndfsd\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination."
   },
   {
-    "objectID": "components/cs_example/description.html#introduction",
-    "href": "components/cs_example/description.html#introduction",
-    "title": "Module title",
+    "objectID": "components/cs_example/description.html#module-title",
+    "href": "components/cs_example/description.html#module-title",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This is an example module to showcase the integration pipeline"
-  },
-  {
-    "objectID": "components/cs_example/description.html#contents",
-    "href": "components/cs_example/description.html#contents",
-    "title": "Module title",
-    "section": "",
-    "text": "dsfd"
-  },
-  {
-    "objectID": "components/cs_example/description.html#learning-objectives",
-    "href": "components/cs_example/description.html#learning-objectives",
-    "title": "Module title",
-    "section": "",
-    "text": "dfsd"
-  },
-  {
-    "objectID": "components/cs_example/description.html#examination-methods",
-    "href": "components/cs_example/description.html#examination-methods",
-    "title": "Module title",
-    "section": "",
-    "text": "Either a 90-minute written exam.\nOr a 20-30 minute oral examination."
+    "text": "This is an example module to showcase the integration pipeline\n\n\n\n\ndsfd\n\n\n\n\n\ndfsd\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination."
   },
   {
     "objectID": "components/cs_securitycomplexity/description.html",
     "href": "components/cs_securitycomplexity/description.html",
-    "title": "Security, Information and Complexity",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
     "text": "This module deals with correctness, security and complexity of algorithms.\n\n\n\n\nMethods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics\n\n\n\n\n\nUnderstand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods\n\n\n\n\n\nEither a written exam (90 minutes).\nOr an oral examination (30 minutes)."
   },
   {
-    "objectID": "components/cs_securitycomplexity/description.html#introduction",
-    "href": "components/cs_securitycomplexity/description.html#introduction",
-    "title": "Security, Information and Complexity",
+    "objectID": "components/cs_securitycomplexity/description.html#security-information-and-complexity",
+    "href": "components/cs_securitycomplexity/description.html#security-information-and-complexity",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module deals with correctness, security and complexity of algorithms."
-  },
-  {
-    "objectID": "components/cs_securitycomplexity/description.html#contents",
-    "href": "components/cs_securitycomplexity/description.html#contents",
-    "title": "Security, Information and Complexity",
-    "section": "",
-    "text": "Methods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics"
-  },
-  {
-    "objectID": "components/cs_securitycomplexity/description.html#learning-objectives",
-    "href": "components/cs_securitycomplexity/description.html#learning-objectives",
-    "title": "Security, Information and Complexity",
-    "section": "",
-    "text": "Understand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods"
-  },
-  {
-    "objectID": "components/cs_securitycomplexity/description.html#examination-methods",
-    "href": "components/cs_securitycomplexity/description.html#examination-methods",
-    "title": "Security, Information and Complexity",
-    "section": "",
-    "text": "Either a written exam (90 minutes).\nOr an oral examination (30 minutes)."
+    "text": "This module deals with correctness, security and complexity of algorithms.\n\n\n\n\nMethods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics\n\n\n\n\n\nUnderstand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods\n\n\n\n\n\nEither a written exam (90 minutes).\nOr an oral examination (30 minutes)."
   },
   {
     "objectID": "components/gen_programming/applied_programming.html",
@@ -772,9 +562,16 @@
   {
     "objectID": "components/mnt_compwildcard/description.html",
     "href": "components/mnt_compwildcard/description.html",
-    "title": "Wildcard Computational Science",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "Wildcard Computational Science\nThis module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course."
+    "text": "This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course."
+  },
+  {
+    "objectID": "components/mnt_compwildcard/description.html#wildcard-computational-science",
+    "href": "components/mnt_compwildcard/description.html#wildcard-computational-science",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course."
   },
   {
     "objectID": "components/mnt_wildcard/description.html",
@@ -800,23 +597,16 @@
   {
     "objectID": "components/rse_management/description.html",
     "href": "components/rse_management/description.html",
-    "title": "RSE Management and Communication",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
     "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))\n\n\n\n\n\nresearch management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor"
   },
   {
-    "objectID": "components/rse_management/description.html#introduction",
-    "href": "components/rse_management/description.html#introduction",
-    "title": "RSE Management and Communication",
+    "objectID": "components/rse_management/description.html#rse-management-and-communication",
+    "href": "components/rse_management/description.html#rse-management-and-communication",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))"
-  },
-  {
-    "objectID": "components/rse_management/description.html#contents",
-    "href": "components/rse_management/description.html#contents",
-    "title": "RSE Management and Communication",
-    "section": "",
-    "text": "research management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor"
+    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))\n\n\n\n\n\nresearch management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor"
   },
   {
     "objectID": "components/rse_softwareengineering/description.html",
@@ -996,100 +786,58 @@
   {
     "objectID": "generation/generated/cs_example.html",
     "href": "generation/generated/cs_example.html",
-    "title": "Module title",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This is an example module to showcase the integration pipeline\n\n\n\n\ndsfd\n\n\n\n\n\ndfsd\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination.\n\nLecture: …\nSWS: 2 ECTS: 2\nExercise: … Exercise\nSWS: 2 ECTS: 4\n\n\n\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ndist_systems_1\nUse\nComputer Science\n\nSubmit working programs in …\nUniversity of Potsdam\nLink\n\n\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nUP Verteilte Systeme\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
+    "text": "This is an example module to showcase the integration pipeline\n\n\n\n\ndsfd\n\n\n\n\n\ndfsd\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination.\n\nLecture: …\nSWS: 2 ECTS: 2\nExercise: … Exercise\nSWS: 2 ECTS: 4"
   },
   {
-    "objectID": "generation/generated/cs_example.html#introduction",
-    "href": "generation/generated/cs_example.html#introduction",
-    "title": "Module title",
+    "objectID": "generation/generated/cs_example.html#module-title",
+    "href": "generation/generated/cs_example.html#module-title",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This is an example module to showcase the integration pipeline"
-  },
-  {
-    "objectID": "generation/generated/cs_example.html#contents",
-    "href": "generation/generated/cs_example.html#contents",
-    "title": "Module title",
-    "section": "",
-    "text": "dsfd"
-  },
-  {
-    "objectID": "generation/generated/cs_example.html#learning-objectives",
-    "href": "generation/generated/cs_example.html#learning-objectives",
-    "title": "Module title",
-    "section": "",
-    "text": "dfsd"
-  },
-  {
-    "objectID": "generation/generated/cs_example.html#examination-methods",
-    "href": "generation/generated/cs_example.html#examination-methods",
-    "title": "Module title",
-    "section": "",
-    "text": "Either a 90-minute written exam.\nOr a 20-30 minute oral examination.\n\nLecture: …\nSWS: 2 ECTS: 2\nExercise: … Exercise\nSWS: 2 ECTS: 4"
+    "text": "This is an example module to showcase the integration pipeline\n\n\n\n\ndsfd\n\n\n\n\n\ndfsd\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination.\n\nLecture: …\nSWS: 2 ECTS: 2\nExercise: … Exercise\nSWS: 2 ECTS: 4"
   },
   {
     "objectID": "generation/generated/cs_example.html#module-competences",
     "href": "generation/generated/cs_example.html#module-competences",
-    "title": "Module title",
-    "section": "",
-    "text": "ID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ndist_systems_1\nUse\nComputer Science\n\nSubmit working programs in …\nUniversity of Potsdam\nLink"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Module Competences",
+    "text": "Module Competences\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\ndist_systems_1\nUse\nComputer Science\n\nSubmit working programs in …\nUniversity of Potsdam\nLink"
   },
   {
     "objectID": "generation/generated/cs_example.html#sources-implementations",
     "href": "generation/generated/cs_example.html#sources-implementations",
-    "title": "Module title",
-    "section": "",
-    "text": "None\n\n\n\n\n\nUP Verteilte Systeme\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Sources & Implementations:",
+    "text": "Sources & Implementations:\n\nCurricula\n\nNone\n\n\n\nCourses\n\nUP Verteilte Systeme\n\n\n\nRecommended Course Literature\n\nTODO\n\n\n\nPrograms\n\nUP Computational Science Master"
   },
   {
     "objectID": "generation/generated/cs_securitycomplexity.html",
     "href": "generation/generated/cs_securitycomplexity.html",
-    "title": "Security, Information and Complexity",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module deals with correctness, security and complexity of algorithms.\n\n\n\n\nMethods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics\n\n\n\n\n\nUnderstand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods\n\n\n\n\n\nEither a written exam (90 minutes).\nOr an oral examination (30 minutes).\n\nLecture: Security, Information and Complexity\nSWS: 2 ECTS: 2\nExercise: Security, Information and Complexity Exercise\nSWS: 2 ECTS: 4\n\n\n\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nsec_complex_1\nexplain the necessity and methods of error-protected transmission and storage of data\nComputer Science\n\ndescribe and apply the taught methods to given examples\nUniversity of Potsdam\nLink\n\n\nsec_complex_2\nanalyse the correctness, security and complexity of algorithms\nComputer Science\n\nSubmit a written analysis for a given algorithm\nUniversity of Potsdam\nLink\n\n\n\n\n\n\n\n\n\nNone\n\n\n\n\n\nUP Sicherheit, Information und Komplexität\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
+    "text": "This module deals with correctness, security and complexity of algorithms.\n\n\n\n\nMethods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics\n\n\n\n\n\nUnderstand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods\n\n\n\n\n\nEither a written exam (90 minutes).\nOr an oral examination (30 minutes).\n\nLecture: Security, Information and Complexity\nSWS: 2 ECTS: 2\nExercise: Security, Information and Complexity Exercise\nSWS: 2 ECTS: 4"
   },
   {
-    "objectID": "generation/generated/cs_securitycomplexity.html#introduction",
-    "href": "generation/generated/cs_securitycomplexity.html#introduction",
-    "title": "Security, Information and Complexity",
+    "objectID": "generation/generated/cs_securitycomplexity.html#security-information-and-complexity",
+    "href": "generation/generated/cs_securitycomplexity.html#security-information-and-complexity",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module deals with correctness, security and complexity of algorithms."
-  },
-  {
-    "objectID": "generation/generated/cs_securitycomplexity.html#contents",
-    "href": "generation/generated/cs_securitycomplexity.html#contents",
-    "title": "Security, Information and Complexity",
-    "section": "",
-    "text": "Methods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics"
-  },
-  {
-    "objectID": "generation/generated/cs_securitycomplexity.html#learning-objectives",
-    "href": "generation/generated/cs_securitycomplexity.html#learning-objectives",
-    "title": "Security, Information and Complexity",
-    "section": "",
-    "text": "Understand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods"
-  },
-  {
-    "objectID": "generation/generated/cs_securitycomplexity.html#examination-methods",
-    "href": "generation/generated/cs_securitycomplexity.html#examination-methods",
-    "title": "Security, Information and Complexity",
-    "section": "",
-    "text": "Either a written exam (90 minutes).\nOr an oral examination (30 minutes).\n\nLecture: Security, Information and Complexity\nSWS: 2 ECTS: 2\nExercise: Security, Information and Complexity Exercise\nSWS: 2 ECTS: 4"
+    "text": "This module deals with correctness, security and complexity of algorithms.\n\n\n\n\nMethods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics\n\n\n\n\n\nUnderstand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods\n\n\n\n\n\nEither a written exam (90 minutes).\nOr an oral examination (30 minutes).\n\nLecture: Security, Information and Complexity\nSWS: 2 ECTS: 2\nExercise: Security, Information and Complexity Exercise\nSWS: 2 ECTS: 4"
   },
   {
     "objectID": "generation/generated/cs_securitycomplexity.html#module-competences",
     "href": "generation/generated/cs_securitycomplexity.html#module-competences",
-    "title": "Security, Information and Complexity",
-    "section": "",
-    "text": "ID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nsec_complex_1\nexplain the necessity and methods of error-protected transmission and storage of data\nComputer Science\n\ndescribe and apply the taught methods to given examples\nUniversity of Potsdam\nLink\n\n\nsec_complex_2\nanalyse the correctness, security and complexity of algorithms\nComputer Science\n\nSubmit a written analysis for a given algorithm\nUniversity of Potsdam\nLink"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Module Competences",
+    "text": "Module Competences\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nsec_complex_1\nexplain the necessity and methods of error-protected transmission and storage of data\nComputer Science\n\ndescribe and apply the taught methods to given examples\nUniversity of Potsdam\nLink\n\n\nsec_complex_2\nanalyse the correctness, security and complexity of algorithms\nComputer Science\n\nSubmit a written analysis for a given algorithm\nUniversity of Potsdam\nLink"
   },
   {
     "objectID": "generation/generated/cs_securitycomplexity.html#sources-implementations",
     "href": "generation/generated/cs_securitycomplexity.html#sources-implementations",
-    "title": "Security, Information and Complexity",
-    "section": "",
-    "text": "None\n\n\n\n\n\nUP Sicherheit, Information und Komplexität\n\n\n\n\n\nTODO\n\n\n\n\n\nUP Computational Science Master"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Sources & Implementations:",
+    "text": "Sources & Implementations:\n\nCurricula\n\nNone\n\n\n\nCourses\n\nUP Sicherheit, Information und Komplexität\n\n\n\nRecommended Course Literature\n\nTODO\n\n\n\nPrograms\n\nUP Computational Science Master"
   },
   {
     "objectID": "generation/generated/gen_programming.html",
@@ -1122,9 +870,16 @@
   {
     "objectID": "generation/generated/mnt_compwildcard.html",
     "href": "generation/generated/mnt_compwildcard.html",
-    "title": "Wildcard Computational Science",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "Wildcard Computational Science\nThis module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course.\nLecture: Computational Wildcard Science\nSWS: 2 ECTS: 3\nLab: Wildcard Science Lab\nSWS: 4 ECTS: 6"
+    "text": "This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course.\nLecture: Computational Wildcard Science\nSWS: 2 ECTS: 3\nLab: Wildcard Science Lab\nSWS: 4 ECTS: 6"
+  },
+  {
+    "objectID": "generation/generated/mnt_compwildcard.html#wildcard-computational-science",
+    "href": "generation/generated/mnt_compwildcard.html#wildcard-computational-science",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course.\nLecture: Computational Wildcard Science\nSWS: 2 ECTS: 3\nLab: Wildcard Science Lab\nSWS: 4 ECTS: 6"
   },
   {
     "objectID": "generation/generated/mnt_project.html",
@@ -1171,93 +926,58 @@
   {
     "objectID": "generation/generated/rse_missingsemester.html",
     "href": "generation/generated/rse_missingsemester.html",
-    "title": "RSE Nuts and Bolts",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).\n\n\n\nThe module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography\n\n\n\n\nBuilding on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities\n\n\n\n\n\nFinally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024)).\nSeminar: RSE Nuts and Bolts I This is an introductory class to essential techniques an RSE needs in everyday life. SWS: 2 ECTS: 3\nSeminar: RSE Nuts and Bolts II This is an advanced class of RSE techniques that includes a teaching component as part of the preparation for working as an RSE in interdisciplinary teams. SWS: 2 ECTS: 3\n\n\n\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nrse_tooling_1\nUse literate programming tools (e.g., Quarto, Marimo, Pluto.jl, Jupyter) to combine code, results, and narrative\nResearch Software Engineering\n\nSubmit a literate notebook or document integrating code, visualizations, and explanatory text\nWorkshop Participants\nLink\n\n\nrse_tooling_2\nUse Python for visualization, scripting, templating, and integration tasks\nResearch Software Engineering\n\nSubmit a Python project demonstrating use of libraries for visualisation, web tasks, and templating\nWorkshop Participants\nLink\n\n\nrse_tooling_3\nWrite and use Bash scripts for automation\nResearch Software Engineering\n\nSubmit shell scripts automating file manipulation or computational workflows\nWorkshop Participants\nLink\n\n\nrse_tooling_4\nApply testing, debugging, and logging techniques to ensure software reliability\nResearch Software Engineering\nrse_tooling_2\nSubmit logs, test cases, and debugging documentation for a non-trivial Python or Bash project\nWorkshop Participants\nLink\n\n\nrse_tooling_5\nUse workflow management tools (e.g., CWL, Nextflow) to design scalable, reproducible pipelines\nResearch Software Engineering\nrse_tooling_3, rse_tooling_11\nSubmit a reproducible workflow including metadata and input/output definitions\nWorkshop Participants\nLink\n\n\nrse_tooling_6\nEstimate resource requirements for computational tasks using profiling and benchmarking\nResearch Software Engineering\nrse_tooling_2, rse_tooling_5\nProvide resource usage profiles and discuss optimization implications\nWorkshop Participants\nLink\n\n\nrse_tooling_7\nUse package managers and virtual environments (e.g., conda, nix) to manage software dependencies\nResearch Software Engineering\n\nSubmit environment definitions and reproducible setup instructions for a project\nWorkshop Participants\nLink\n\n\nrse_tooling_8\nDocument and package software for usability and reusability, using generators and modular design\nResearch Software Engineering\nrse_tooling_2\nSubmit user and developer documentation generated with Sphinx or similar, plus a reusable code module\nWorkshop Participants\nLink\n\n\nrse_tooling_9\nCommunicate technical RSE topics effectively with non-technical audiences\nResearch Software Engineering\n\nPrepare and deliver a presentation or write an article explaining RSE concepts to a general audience\nWorkshop Participants\nLink\n\n\nrse_tooling_10\nApply authentication and authorization mechanisms (e.g., LDAP, ACLs, Active Directory)\nResearch Software Engineering\n\nConfigure and demonstrate access control for a multi-user service or application\nWorkshop Participants\nLink\n\n\nrse_tooling_11\nMake informed decisions about tooling and infrastructure (e.g., Jupyter vs scripts, local vs HPC/cloud)\nResearch Software Engineering\nrse_tooling_1, rse_tooling_2, rse_tooling_3\nSubmit a comparative analysis justifying tooling and infrastructure choices for a research project\nWorkshop Participants\nLink\n\n\nrse_tooling_12\nTeach and practice collaborative development, including version control and code review\nResearch Software Engineering\nrse_tooling_2\nSubmit a project with version history and documented code reviews\nWorkshop Participants\nLink\n\n\nrse_tooling_13\nMentor others in research software engineering practices\nResearch Software Engineering\nrse_tooling_12\nDocument a mentoring session, workshop, or support activity\nWorkshop Participants\nLink\n\n\nrse_tooling_14\nDeploy and maintain web servers for research applications\nResearch Software Engineering\nrse_tooling_2\nDeploy a working web application with setup and maintenance documentation\nWorkshop Participants\nLink\n\n\nrse_tooling_15\nUnderstand and manage file systems, including local and network-attached storage\nResearch Software Engineering\n\nDocument storage strategies and access mechanisms in a real-world setup\nWorkshop Participants\nLink\n\n\n\n\n\n\n\n\n\nMIT Missing Semester\nCodeRefinery\nINTERSECT Training Materials\nDigital Research Academy Materials (Git, HPC, Reproducibility, Research Software)\nBuilding Better Research Software (SSI)\nDocker for neuroscience (jupyter book)\n\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
+    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).\n\n\n\nThe module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography\n\n\n\n\nBuilding on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities\n\n\n\n\n\nFinally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024)).\nSeminar: RSE Nuts and Bolts I This is an introductory class to essential techniques an RSE needs in everyday life. SWS: 2 ECTS: 3\nSeminar: RSE Nuts and Bolts II This is an advanced class of RSE techniques that includes a teaching component as part of the preparation for working as an RSE in interdisciplinary teams. SWS: 2 ECTS: 3"
   },
   {
-    "objectID": "generation/generated/rse_missingsemester.html#introduction",
-    "href": "generation/generated/rse_missingsemester.html#introduction",
-    "title": "RSE Nuts and Bolts",
+    "objectID": "generation/generated/rse_missingsemester.html#rse-nuts-and-bolts",
+    "href": "generation/generated/rse_missingsemester.html#rse-nuts-and-bolts",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE)."
-  },
-  {
-    "objectID": "generation/generated/rse_missingsemester.html#general-competencies",
-    "href": "generation/generated/rse_missingsemester.html#general-competencies",
-    "title": "RSE Nuts and Bolts",
-    "section": "",
-    "text": "The module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography"
-  },
-  {
-    "objectID": "generation/generated/rse_missingsemester.html#rse-specific-topics",
-    "href": "generation/generated/rse_missingsemester.html#rse-specific-topics",
-    "title": "RSE Nuts and Bolts",
-    "section": "",
-    "text": "Building on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities"
-  },
-  {
-    "objectID": "generation/generated/rse_missingsemester.html#beyond-the-basics",
-    "href": "generation/generated/rse_missingsemester.html#beyond-the-basics",
-    "title": "RSE Nuts and Bolts",
-    "section": "",
-    "text": "Finally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024)).\nSeminar: RSE Nuts and Bolts I This is an introductory class to essential techniques an RSE needs in everyday life. SWS: 2 ECTS: 3\nSeminar: RSE Nuts and Bolts II This is an advanced class of RSE techniques that includes a teaching component as part of the preparation for working as an RSE in interdisciplinary teams. SWS: 2 ECTS: 3"
+    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).\n\n\n\nThe module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography\n\n\n\n\nBuilding on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities\n\n\n\n\n\nFinally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024)).\nSeminar: RSE Nuts and Bolts I This is an introductory class to essential techniques an RSE needs in everyday life. SWS: 2 ECTS: 3\nSeminar: RSE Nuts and Bolts II This is an advanced class of RSE techniques that includes a teaching component as part of the preparation for working as an RSE in interdisciplinary teams. SWS: 2 ECTS: 3"
   },
   {
     "objectID": "generation/generated/rse_missingsemester.html#module-competences",
     "href": "generation/generated/rse_missingsemester.html#module-competences",
-    "title": "RSE Nuts and Bolts",
-    "section": "",
-    "text": "ID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nrse_tooling_1\nUse literate programming tools (e.g., Quarto, Marimo, Pluto.jl, Jupyter) to combine code, results, and narrative\nResearch Software Engineering\n\nSubmit a literate notebook or document integrating code, visualizations, and explanatory text\nWorkshop Participants\nLink\n\n\nrse_tooling_2\nUse Python for visualization, scripting, templating, and integration tasks\nResearch Software Engineering\n\nSubmit a Python project demonstrating use of libraries for visualisation, web tasks, and templating\nWorkshop Participants\nLink\n\n\nrse_tooling_3\nWrite and use Bash scripts for automation\nResearch Software Engineering\n\nSubmit shell scripts automating file manipulation or computational workflows\nWorkshop Participants\nLink\n\n\nrse_tooling_4\nApply testing, debugging, and logging techniques to ensure software reliability\nResearch Software Engineering\nrse_tooling_2\nSubmit logs, test cases, and debugging documentation for a non-trivial Python or Bash project\nWorkshop Participants\nLink\n\n\nrse_tooling_5\nUse workflow management tools (e.g., CWL, Nextflow) to design scalable, reproducible pipelines\nResearch Software Engineering\nrse_tooling_3, rse_tooling_11\nSubmit a reproducible workflow including metadata and input/output definitions\nWorkshop Participants\nLink\n\n\nrse_tooling_6\nEstimate resource requirements for computational tasks using profiling and benchmarking\nResearch Software Engineering\nrse_tooling_2, rse_tooling_5\nProvide resource usage profiles and discuss optimization implications\nWorkshop Participants\nLink\n\n\nrse_tooling_7\nUse package managers and virtual environments (e.g., conda, nix) to manage software dependencies\nResearch Software Engineering\n\nSubmit environment definitions and reproducible setup instructions for a project\nWorkshop Participants\nLink\n\n\nrse_tooling_8\nDocument and package software for usability and reusability, using generators and modular design\nResearch Software Engineering\nrse_tooling_2\nSubmit user and developer documentation generated with Sphinx or similar, plus a reusable code module\nWorkshop Participants\nLink\n\n\nrse_tooling_9\nCommunicate technical RSE topics effectively with non-technical audiences\nResearch Software Engineering\n\nPrepare and deliver a presentation or write an article explaining RSE concepts to a general audience\nWorkshop Participants\nLink\n\n\nrse_tooling_10\nApply authentication and authorization mechanisms (e.g., LDAP, ACLs, Active Directory)\nResearch Software Engineering\n\nConfigure and demonstrate access control for a multi-user service or application\nWorkshop Participants\nLink\n\n\nrse_tooling_11\nMake informed decisions about tooling and infrastructure (e.g., Jupyter vs scripts, local vs HPC/cloud)\nResearch Software Engineering\nrse_tooling_1, rse_tooling_2, rse_tooling_3\nSubmit a comparative analysis justifying tooling and infrastructure choices for a research project\nWorkshop Participants\nLink\n\n\nrse_tooling_12\nTeach and practice collaborative development, including version control and code review\nResearch Software Engineering\nrse_tooling_2\nSubmit a project with version history and documented code reviews\nWorkshop Participants\nLink\n\n\nrse_tooling_13\nMentor others in research software engineering practices\nResearch Software Engineering\nrse_tooling_12\nDocument a mentoring session, workshop, or support activity\nWorkshop Participants\nLink\n\n\nrse_tooling_14\nDeploy and maintain web servers for research applications\nResearch Software Engineering\nrse_tooling_2\nDeploy a working web application with setup and maintenance documentation\nWorkshop Participants\nLink\n\n\nrse_tooling_15\nUnderstand and manage file systems, including local and network-attached storage\nResearch Software Engineering\n\nDocument storage strategies and access mechanisms in a real-world setup\nWorkshop Participants\nLink"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Module Competences",
+    "text": "Module Competences\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nrse_tooling_1\nUse literate programming tools (e.g., Quarto, Marimo, Pluto.jl, Jupyter) to combine code, results, and narrative\nResearch Software Engineering\n\nSubmit a literate notebook or document integrating code, visualizations, and explanatory text\nWorkshop Participants\nLink\n\n\nrse_tooling_2\nUse Python for visualization, scripting, templating, and integration tasks\nResearch Software Engineering\n\nSubmit a Python project demonstrating use of libraries for visualisation, web tasks, and templating\nWorkshop Participants\nLink\n\n\nrse_tooling_3\nWrite and use Bash scripts for automation\nResearch Software Engineering\n\nSubmit shell scripts automating file manipulation or computational workflows\nWorkshop Participants\nLink\n\n\nrse_tooling_4\nApply testing, debugging, and logging techniques to ensure software reliability\nResearch Software Engineering\nrse_tooling_2\nSubmit logs, test cases, and debugging documentation for a non-trivial Python or Bash project\nWorkshop Participants\nLink\n\n\nrse_tooling_5\nUse workflow management tools (e.g., CWL, Nextflow) to design scalable, reproducible pipelines\nResearch Software Engineering\nrse_tooling_3, rse_tooling_11\nSubmit a reproducible workflow including metadata and input/output definitions\nWorkshop Participants\nLink\n\n\nrse_tooling_6\nEstimate resource requirements for computational tasks using profiling and benchmarking\nResearch Software Engineering\nrse_tooling_2, rse_tooling_5\nProvide resource usage profiles and discuss optimization implications\nWorkshop Participants\nLink\n\n\nrse_tooling_7\nUse package managers and virtual environments (e.g., conda, nix) to manage software dependencies\nResearch Software Engineering\n\nSubmit environment definitions and reproducible setup instructions for a project\nWorkshop Participants\nLink\n\n\nrse_tooling_8\nDocument and package software for usability and reusability, using generators and modular design\nResearch Software Engineering\nrse_tooling_2\nSubmit user and developer documentation generated with Sphinx or similar, plus a reusable code module\nWorkshop Participants\nLink\n\n\nrse_tooling_9\nCommunicate technical RSE topics effectively with non-technical audiences\nResearch Software Engineering\n\nPrepare and deliver a presentation or write an article explaining RSE concepts to a general audience\nWorkshop Participants\nLink\n\n\nrse_tooling_10\nApply authentication and authorization mechanisms (e.g., LDAP, ACLs, Active Directory)\nResearch Software Engineering\n\nConfigure and demonstrate access control for a multi-user service or application\nWorkshop Participants\nLink\n\n\nrse_tooling_11\nMake informed decisions about tooling and infrastructure (e.g., Jupyter vs scripts, local vs HPC/cloud)\nResearch Software Engineering\nrse_tooling_1, rse_tooling_2, rse_tooling_3\nSubmit a comparative analysis justifying tooling and infrastructure choices for a research project\nWorkshop Participants\nLink\n\n\nrse_tooling_12\nTeach and practice collaborative development, including version control and code review\nResearch Software Engineering\nrse_tooling_2\nSubmit a project with version history and documented code reviews\nWorkshop Participants\nLink\n\n\nrse_tooling_13\nMentor others in research software engineering practices\nResearch Software Engineering\nrse_tooling_12\nDocument a mentoring session, workshop, or support activity\nWorkshop Participants\nLink\n\n\nrse_tooling_14\nDeploy and maintain web servers for research applications\nResearch Software Engineering\nrse_tooling_2\nDeploy a working web application with setup and maintenance documentation\nWorkshop Participants\nLink\n\n\nrse_tooling_15\nUnderstand and manage file systems, including local and network-attached storage\nResearch Software Engineering\n\nDocument storage strategies and access mechanisms in a real-world setup\nWorkshop Participants\nLink"
   },
   {
     "objectID": "generation/generated/rse_missingsemester.html#sources-implementations",
     "href": "generation/generated/rse_missingsemester.html#sources-implementations",
-    "title": "RSE Nuts and Bolts",
-    "section": "",
-    "text": "MIT Missing Semester\nCodeRefinery\nINTERSECT Training Materials\nDigital Research Academy Materials (Git, HPC, Reproducibility, Research Software)\nBuilding Better Research Software (SSI)\nDocker for neuroscience (jupyter book)\n\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Sources & Implementations:",
+    "text": "Sources & Implementations:\n\nCourses\n\nMIT Missing Semester\nCodeRefinery\nINTERSECT Training Materials\nDigital Research Academy Materials (Git, HPC, Reproducibility, Research Software)\nBuilding Better Research Software (SSI)\nDocker for neuroscience (jupyter book)\n\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
   },
   {
     "objectID": "generation/generated/rse_theory.html",
     "href": "generation/generated/rse_theory.html",
-    "title": "RSE Philosophy",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved in digitalization projects, institutional development or other non-technical tasks.\n\n\n\nFor a university level study program it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. For this they need a solid understanding in some of the more theoretical fields such as …\n\nphilosophy of science\nsociology of technology\nethics and artificial intelligence\nhuman computer interaction\ndigital humanities\n\n\n\n\nThis module conveys competences in areas such as but not limited to …\n\nconducting and leading research (NEW)\nunderstanding the research cycle (RC)\ninteraction with users and stakeholders (USERS)\n\nSeminar: RSE Philosophy This is an introductory class to … SWS: None ECTS: None\n\n\n\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nrse_theory_1\nTODO\nResearch Software Engineering\n\n…\nRSE Curriculum Draft\nLink\n\n\n\n\n\n\n\n\n\nTODO"
+    "text": "The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved in digitalization projects, institutional development or other non-technical tasks.\n\n\n\nFor a university level study program it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. For this they need a solid understanding in some of the more theoretical fields such as …\n\nphilosophy of science\nsociology of technology\nethics and artificial intelligence\nhuman computer interaction\ndigital humanities\n\n\n\n\nThis module conveys competences in areas such as but not limited to …\n\nconducting and leading research (NEW)\nunderstanding the research cycle (RC)\ninteraction with users and stakeholders (USERS)\n\nSeminar: RSE Philosophy This is an introductory class to … SWS: None ECTS: None"
   },
   {
-    "objectID": "generation/generated/rse_theory.html#introduction",
-    "href": "generation/generated/rse_theory.html#introduction",
-    "title": "RSE Philosophy",
+    "objectID": "generation/generated/rse_theory.html#rse-philosophy",
+    "href": "generation/generated/rse_theory.html#rse-philosophy",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved in digitalization projects, institutional development or other non-technical tasks."
-  },
-  {
-    "objectID": "generation/generated/rse_theory.html#contents",
-    "href": "generation/generated/rse_theory.html#contents",
-    "title": "RSE Philosophy",
-    "section": "",
-    "text": "For a university level study program it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. For this they need a solid understanding in some of the more theoretical fields such as …\n\nphilosophy of science\nsociology of technology\nethics and artificial intelligence\nhuman computer interaction\ndigital humanities"
-  },
-  {
-    "objectID": "generation/generated/rse_theory.html#general-competences",
-    "href": "generation/generated/rse_theory.html#general-competences",
-    "title": "RSE Philosophy",
-    "section": "",
-    "text": "This module conveys competences in areas such as but not limited to …\n\nconducting and leading research (NEW)\nunderstanding the research cycle (RC)\ninteraction with users and stakeholders (USERS)\n\nSeminar: RSE Philosophy This is an introductory class to … SWS: None ECTS: None"
+    "text": "The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved in digitalization projects, institutional development or other non-technical tasks.\n\n\n\nFor a university level study program it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. For this they need a solid understanding in some of the more theoretical fields such as …\n\nphilosophy of science\nsociology of technology\nethics and artificial intelligence\nhuman computer interaction\ndigital humanities\n\n\n\n\nThis module conveys competences in areas such as but not limited to …\n\nconducting and leading research (NEW)\nunderstanding the research cycle (RC)\ninteraction with users and stakeholders (USERS)\n\nSeminar: RSE Philosophy This is an introductory class to … SWS: None ECTS: None"
   },
   {
     "objectID": "generation/generated/rse_theory.html#module-competences",
     "href": "generation/generated/rse_theory.html#module-competences",
-    "title": "RSE Philosophy",
-    "section": "",
-    "text": "ID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nrse_theory_1\nTODO\nResearch Software Engineering\n\n…\nRSE Curriculum Draft\nLink"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Module Competences",
+    "text": "Module Competences\n\n\n\nID\nDescription\nDisciplines\nPrerequisites\nEvidence\nAuthor\nSource\n\n\n\n\nrse_theory_1\nTODO\nResearch Software Engineering\n\n…\nRSE Curriculum Draft\nLink"
   },
   {
     "objectID": "generation/generated/rse_theory.html#sources-implementations",
     "href": "generation/generated/rse_theory.html#sources-implementations",
-    "title": "RSE Philosophy",
-    "section": "",
-    "text": "TODO"
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "Sources & Implementations:",
+    "text": "Sources & Implementations:\n\nCourses\n\nTODO"
   },
   {
     "objectID": "index.html#research-skills",
