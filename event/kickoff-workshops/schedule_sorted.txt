@@ -1,48 +1,44 @@
-Sure! Here's the schedule sorted by **topic**, with each entry converted to normal text:
+
+
+Institutional Constraints of RSE Master
+
+- Friday, July 11, 2025 – 10:00 (Option A)
+- Thursday, July 24, 2025 – 15:00 (Option B)
+- Thursday, August 7, 2025 – 15:00 (Option C)
 
 ---
 
-### **Institutional Constraints of RSE Master**
+RSE for Natural Sciences
 
-* Friday, July 11, 2025 – 10:00 AM (option A)
-* Thursday, July 24, 2025 – 10:00 AM (option B)
-* Thursday, August 7, 2025 – 15:00 PM (option C)
-
----
-
-### **RSE for Natural Sciences**
-
-* Thursday, July 17, 2025 – 15:00 PM (option A)
-* Thursday, July 31, 2025 – 15:00 PM (option B)
+- Thursday, July 17, 2025 – 15:00 (Option A)
+- Thursday, July 31, 2025 – 15:00 (Option B)
 
 ---
 
-### **RSE Management and Communication**
+RSE Management and Communication
 
-* Friday, June 6, 2025 – 10:00 AM (option A)
-* Friday, July 18, 2025 – 10:00 AM (option B)
-
----
-
-### **RSE Programming and Software Engineering**
-
-* Thursday, July 10, 2025 – 10:00 AM (option A)
-* Friday, August 1, 2025 – 10:00 AM (option B)
+- Friday, June 6, 2025 – 10:00 (Option A)
+- Friday, July 18, 2025 – 10:00 (Option B)
 
 ---
 
-### **RSE Theory**
+Programming and Software Engineering for Research
 
-* Thursday, June 12, 2025 – 15:00 PM (option A)
-* Friday, August 8, 2025 – 10:00 AM (option B)
-
----
-
-### **The Missing Semester / RSE Tooling**
-
-* Friday, June 13, 2025 – 10:00 AM (option A)
-* Friday, July 25, 2025 – 10:00 AM (option B)
+- Thursday, July 10, 2025 – 15:00 (Option A)
+- Friday, August 1, 2025 – 10:00 (Option B)
 
 ---
 
-Let me know if you'd like this in table form or another format.
+RSE Theory
+
+- Thursday, June 12, 2025 – 15:00 (Option A)
+- Friday, August 8, 2025 – 10:00 (Option B)
+
+---
+
+The Missing Semester / RSE Tooling
+
+- Friday, June 13, 2025 – 10:00 (Option A)
+- Friday, July 25, 2025 – 10:00 (Option B)
+
+

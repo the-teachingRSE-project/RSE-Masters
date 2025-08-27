@@ -1,3 +1,4 @@
+# RSE Nuts and Bolts
 ## Introduction
 
 This module, inspired by the [MIT Missing Semester](https://missing.csail.mit.edu/), addresses the "nuts and bolts" often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).
@@ -52,3 +53,5 @@ Finally, the module touches on practices that support the scholarly nature of re
 - Use of domain-specific repositories and registries (see DOMREP in [@competencies-F1000])
 
 By the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.
+
+The module is made up of two seminars that the students take at different stages in their master's program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in [@competencies-F1000]).

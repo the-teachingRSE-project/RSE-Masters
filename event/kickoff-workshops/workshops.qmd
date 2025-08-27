@@ -1,11 +1,11 @@
-# Invitation to the RSE Community-Master Development
+# Workshops for the Research Software Engineering Master
 
 In modern science, software-based research is playing an increasingly central role.
 The professional development and competent use of software are crucial for progress in nearly all scientific disciplines.
-Accordingly, the professional profile of the Research Software Engineer (RSE) has emerged—characterized by a combination of expertise in software development and a deep understanding of scientific research processes.
-With the growing importance of this role, particularly in the context of emerging RSE service centers at and for research institutions, there is an increasing demand for dedicated Master's programs in RSE or for the integration of RSE profiles into existing, thematically related Master's programs.
+Accordingly, the professional profile of Research Software Engineers (RSEs) has emerged—characterized by a combination of expertise in software development and a deep understanding of scientific research processes.
+With the growing importance of this role, particularly in the context of emerging Research Software Engineering (RSE) service centers at and for research institutions, there is an increasing demand for dedicated Master's programs in RSE or for the integration of RSE profiles into existing, thematically related Master's programs.
 
-We invite all members of the **Research Software Engineering (RSE)** community and interested scientists and educators to join us in developing a Master's curriculum tailored to the unique needs, interests, and challenges of RSE.
+We invite all members of the RSE community and interested scientists and educators to join us in developing a Master's curriculum tailored to the unique needs, interests, and challenges of RSE.
 Each module represents a specific area of the RSE landscape and will be shaped by community-driven short online workshops (2–3 hours each).
 
 The main idea is to _supplement_ general courses on software engineering, data science and advanced science classes with RSE-specific courses tailored to the growing field of software engineering in research. Mapping necessary required basic courses is part the process.
@@ -78,9 +78,9 @@ RSEs with expertise in HPC and other performance-critical computing domains spec
 Depending on the goals of the workshop, it may be useful to focus on participants with a background in technical computer science or some prior exposure to parallel programming. Familiarity with teaching multithreading, MPI, or GPU programming (e.g., CUDA) could be helpful, especially if we dive into hands-on HPC RSE aspects.
 
 
-## 4. RSE Programming and Software Engineering
+## 4. Programming and Software Engineering for Research
 
-### RSE Programming
+### Programming for Research
 
 The RSE programming module extends the Fundamentals of Computer Science module with a focus on RSE-specific programming patterns,
 necessary technologies and good practices.
@@ -94,7 +94,7 @@ This may include, but is not limited to
 - research specific code requirements (scalability, functional programming, ...)
 - Vector and graph database in generative AI applications //This topic (LLM or AI) has been not yet deeply explored in RSE field. Perhaps someone here is an AI expert who can suggest more specific programmes?
 
-### RSE-Software Engineering
+### Research Software Engineering
 
 This module extends the Classical Software Engineering Module with research specific learnings. This may include but is not limited to
 
@@ -126,19 +126,31 @@ This module conveys competences in areas such as but not limited to ...
 
 ## 6. RSE for Natural Sciences
 
-The focus of this workshop are the specific requirements and focal points in the natural sciences. One of the intended profiles for the RSE Master curriculum is the professional development and specialization of researchers in the natural sciences.
+This workshop focuses on the specific requirements and priorities in the natural sciences. One of the intended profiles for the RSE Master's curriculum is the professional development and specialization of researchers working in natural science disciplines.
 
-This workshop will focus on the following points:
+The workshop will address the following topics:
 
-- RSE competences required for natural sciences
-- Professional development and specific conditions in the natural sciences
-- Institutional players and interested parties in shaping the MINT-RSE profile
+- RSE competencies required in the natural sciences
+- Professional development and specific working conditions in the natural sciences
+- Institutional stakeholders and interested parties involved in shaping the MNT (Mathematics, Natural Sciences, and Technology) profile
 
-## 7. Institutional Constraints of RSE Master
+## 7. Institutional Constraints of the RSE Master
 
-This workshop aims to clarify the structural framework of a Master's program in Research Software Engineering (RSE). We will discuss the typical duration (2 years in Germany) and whether alternatives like 1- or 3-year formats should be considered. Key topics include which faculties or departments can grant the degree—whether it must be Computer Science or could extend to other disciplines under certain conditions. We'll also define admission requirements and explore how interdisciplinary applicants can be accommodated.
+This workshop aims to clarify the structural framework of a Master's program in Research Software Engineering (RSE). We will discuss the typical program duration (two years in Germany) and whether alternatives—such as one- or three-year formats—should be considered.
 
-Another focus will be on curriculum composition: Is there a way to structure levels of RSE competence similar to the German Informatics Society's model for CS degrees? How should the program balance research (R) and software engineering (SE)? We’ll explore potential profiles or tracks and address how modular and flexible the curriculum should be.
+Key questions include:
+
+- Which faculties or departments are authorized to grant the degree?
+  Should it be restricted to Computer Science, or could other disciplines also serve as the awarding body under certain conditions?
+- What should the admission requirements be, particularly for applicants from interdisciplinary backgrounds?
+
+We will also explore the composition of the curriculum:
+
+- Is it possible to structure levels of RSE competence similarly to the German Informatics Society's [model](https://dl.gi.de/server/api/core/bitstreams/e0e0a984-79b7-4054-9df6-80304134944e/content) for Computer Science degrees?
+- How should the program balance the research (R) and software engineering (SE) components?
+- What profiles or tracks might be envisioned, and how modular and flexible should the curriculum be?
+
+\newpage
 
 {{< include schedule.qmd >}}
 

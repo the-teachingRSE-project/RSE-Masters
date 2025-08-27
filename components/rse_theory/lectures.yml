@@ -1,0 +1,11 @@
+entries:
+  - name: "RSE Philosophy"
+    description: "This is an introductory class to ..."
+    type: "Seminar"
+    sws: 
+    ects: 
+    group: 1
+    quarto_filename: ""
+    optional: False
+    semester: 
+

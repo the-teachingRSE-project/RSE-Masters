@@ -7,6 +7,10 @@ sources:
       link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
     - name: UP Praxis der Programmierung
       link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+    - name: Python for Psychologists
+      link: "https://peerherholz.github.io/Python_for_Psychologists_Winter2021/index.html"
+    - name: Grundlagen der Informatik
+      link: https://ekvv.uni-bielefeld.de/sinfo/publ/modul/50702407
   programs:
     - name: UP Computational Science Master
       link: "https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/informatik"

@@ -10,7 +10,7 @@ env = Environment(loader=FileSystemLoader(template_dir))
 curriculum_template = env.get_template("curriculum.qmd.j2")
 
 
-def generate_curriculum(module_summaries, curriculum):
+def generate_curriculum(module_summaries, curriculum, profile):
     try:
         """
 
@@ -23,13 +23,15 @@ def generate_curriculum(module_summaries, curriculum):
         with open("data/competences.yml") as f:
             competence_data = yaml.safe_load(f)
 
+        module_summaries = [m for m in module_summaries if m["file"].startswith((profile, "rse", "gen")) ]
+
         curriculum_render = curriculum_template.render(
             curriculum=curriculum,
             **competence_data,
             modules=module_summaries
         )
 
-        output_path = output_dir / "curriculum.qmd"
+        output_path = output_dir / "{}_curriculum.qmd".format(profile)
         output_path.write_text(curriculum_render)
         print(f"Curriculum generated: {output_path.name}")
 

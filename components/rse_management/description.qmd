@@ -1,6 +1,7 @@
-## RSE Management and Communication
+# RSE Management and Communication
+## Introduction
 
-This module encapsulates the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.
+This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.
 
 This includes but is not limited to:
 
@@ -8,3 +9,46 @@ This includes but is not limited to:
 - teaching RSE-basics (see TEACH in [@competencies-F1000])
 - project management (see PM in [@competencies-F1000])
 - interaction with users and other stakeholders (see USERS in [@competencies-F1000])
+
+## Contents
+
+- **research management**
+    - research cycle
+    - open science, FAIR, FAIR4RS
+    - publication workflow: obstacles and embargoes
+    - legal aspects of research data, e.g. GDPR
+    - pseudonymization/anonymization methods for data privacy 
+    - public databases
+- **quality control**    
+    - requirements engineering
+    - trying goals with quality: test-driven development
+    - behavior-driven development, Gherkin-Style acceptance testing
+    - project folder organization
+    - code review principles
+- **communication and collaboration**
+    - communication frameworks, e.g. AIDA, RACE, 7 C's
+    - personality traits and their impact on cooperation
+    - collaboration frameworks for remote work
+    - realisation and benefits of pair programming and mob/ensemble programming
+    - technical English writing skills: writing in issues and merge requests, code review...
+    - conflict management, e.g. dealing with researchers that do not listen
+    - how to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations
+    - equity, diversity and inclusion principles
+- **team management**
+    - challenges of transient teams (that only exist for 5-15 hours)
+    - effects of varying team sizes
+    - management depending on project size/type
+    - specialised roles in a software team
+    - intercultural and interdisciplinary differences
+    - team management methodologies
+    - importance of shared values in a RSE team
+    - dual goals: project vs. personal goal
+- **time and project management**
+    - goal-setting
+    - project management methods, their strengths and weaknesses
+    - agile (not necessarily Scrum)
+    - Lean & Kanban (Small-Batch Philosophies)
+    - division of tasks into sub-tasks and task-dependencies
+    - iterative workflows
+    - continuous delivery
+    - communication with a manager/supervisor

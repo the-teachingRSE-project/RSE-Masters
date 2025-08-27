@@ -13,6 +13,7 @@ entries:
     ects: 3
     group: 2
     quarto_filename: ""
+    depends_on: ["Wildcard Science I"]
   - name: "Wildcard Science Lab I"
     description: ""
     type: "Lab"
@@ -20,6 +21,7 @@ entries:
     ects: 6
     group: 3
     quarto_filename: ""
+    depends_on: ["Wildcard Science I"]
   - name: "Wildcard Science Lab II"
     description: ""
     type: "Lab"
@@ -27,3 +29,4 @@ entries:
     ects: 2
     group: 2
     quarto_filename: ""
+    optional: true

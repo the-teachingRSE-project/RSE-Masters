@@ -1,0 +1,9 @@
+meta:
+  id: rse_computing
+  profiles:
+    - science
+    - rse
+  level: master
+  name: Scientific (High-Performance) Computing
+  depends_on: [gen_prog]
+  wildcard: False

@@ -1,0 +1,13 @@
+sources:
+  curricula:
+    - name: 
+      link: 
+  courses:
+    - name: UP Programmiersprachen und Compilertechnologien
+      link: "https://puls.uni-potsdam.de"
+  programs:
+    - name: UP Computational Science Master
+      link: "https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/informatikcomputational-science"
+  course_literature:
+    - name: TODO
+      link: "..."

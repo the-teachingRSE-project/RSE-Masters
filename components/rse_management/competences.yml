@@ -1,6 +1,6 @@
 competences:
   - id: rse_practices_8
-    description: "Build and manage sustainable research software communities"
+    description: "Build and manage sustainable research software communities" # TODO (zu viel verlangt und nicht eindeutig genug)
     disciplines: "Research Software Engineering, Community Engagement"
     prerequisites: "rse_tooling_13"
     evidence: "Document strategies used for user engagement, feedback, and community growth in a real project"
@@ -30,3 +30,35 @@ competences:
     evidence: "Submit a sustainability or exit plan describing how the software will be maintained or archived"
     author: "RSE Curriculum Draft"
     source: "Workshop Input"
+
+  - id: rse_management_01
+    description: "Explain particular implementation choices in a convincing manner"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Deliver a defense of chosen implementation decisions in a discussion with a domain expert who has limited technical knowledge (ideally oral examination or project presentation with potential 'customer/user' questions)" 
+    author: "RSE Community"
+    source: "https://de-rse.org/learn-and-teach/competencies/"
+
+  - id: rse_management_02
+    description: "Exemplify and articulate shared team values and their impact on work"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Identify core team values and demonstrate how they influence key implementation decisions (e.g., design, communication, and collaboration)"
+    author: "RSE Community"
+    source: "https://de-rse.org/learn-and-teach/competencies/"
+
+  - id: rse_management_03
+    description: "Plan and manage projects using standard methods effectively and efficiently"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Develop a comprehensive project plan for a given project, including scope, milestones, risks, resources, and success criteria"
+    author: "RSE Community"
+    source: "https://de-rse.org/learn-and-teach/competencies/"
+
+  - id: rse_management_04
+    description: "Discuss methods to set up a Diversity, Equity and Inclusion (DEI) framework in an RSE team"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Analyse and evaluate a DEI framework for a given project"
+    author: "RSE Community"
+    source: "https://de-rse.org/learn-and-teach/competencies/"

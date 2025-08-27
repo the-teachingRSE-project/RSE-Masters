@@ -10,3 +10,5 @@ sources:
       link: "https://zenodo.org/communities/digiresacademy/records?q=&f=subject%3AResearch%20Software&f=subject%3AGit&f=subject%3AHPC&f=subject%3AReproducibility&l=list&p=1&s=10&sort=newest"
     - name: Building Better Research Software (SSI)
       link: "https://carpentries-incubator.github.io/fair-research-software/"
+    - name: Docker for neuroscience (jupyter book)
+      link: "https://m-earnest.github.io/docker_workshop/index.html#"

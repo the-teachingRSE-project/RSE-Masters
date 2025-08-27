@@ -33,12 +33,10 @@ What do RSEs need as an applied background in tools and technical skills that is
 - teach other people version control
 - ...
 
-
 ## How should the lectures be organize? ([see lectures.yml](https://github.com/the-teachingRSE-project/RSE-Masters/blob/tschira-funding/components/gen_programming/lectures.yml))
 
 - how many lectures?
 - ECTS points
-
 
 ## Meta Data ([see meta.yml](https://github.com/the-teachingRSE-project/RSE-Masters/blob/tschira-funding/components/gen_programming/meta.yml))
 
@@ -46,14 +44,10 @@ What do RSEs need as an applied background in tools and technical skills that is
 - dependencies on other modules?
 - relevant [profiles](https://github.com/the-teachingRSE-project/RSE-Masters/wiki/profiles)?
 
-
 ## Existing educational sources and syllabi ([see sources.yml](https://github.com/the-teachingRSE-project/RSE-Masters/blob/tschira-funding/components/gen_programming/sources.yml))
 
 - existing classes?
 - concepts
-
-
-
 
 # Integration into Curriculum
 

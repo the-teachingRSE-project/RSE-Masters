@@ -1,0 +1,16 @@
+competences:
+  - id: compiler_tech_1
+    description: "apply modelling techniques"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "develop solutions through technical methods"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"
+
+  - id: compiler_tech_2
+    description: "analyse problems in given software systems"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "discuss problems in a team"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"

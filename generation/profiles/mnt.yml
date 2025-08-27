@@ -1,0 +1,30 @@
+profile:
+   name: science
+   semesters:
+      1:
+        - "RSE Nuts and Bolts I"
+        - "Wildcard Science I"
+        - "Basic Programming"
+        - "Basic Programming Exercise"
+        - "Mathematical Foundations of Data Science"
+        - "RSE-Management Lecture"
+        - "RSE-Management Exercise"
+      2:
+        - "Applied Programming"
+        - "Applied Programming Exercise"
+        - "Wildcard Science II"
+        - "Wildcard Science Lab I"
+        - "Statistical Data Analysis"
+        - "Scientific Computing Basics"
+        - "Scientific Computing Basics Exercise"
+      3:
+        - "RSE Nuts and Bolts II"
+        - "Wildcard Science Lab II"
+        - "Text2Data"
+        - "Computational Wildcard Science"
+        - "Software Engineering I"
+        - "Software Engineering I Exercise"
+        - "High Performance Computing"
+        - "High Performance Computing Exercise"
+      4:
+        - "RSE Master Thesis"

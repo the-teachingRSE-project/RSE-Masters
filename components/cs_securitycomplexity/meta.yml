@@ -1,0 +1,8 @@
+meta:
+  id: cs_sec_complexity
+  profiles:
+    - rse
+    - up
+  level: master
+  name: Security, Information and Complexity
+  depends_on: []

@@ -1,0 +1,80 @@
+competences:
+  - id: comp_module_1
+    description: "Benchmark and profile computational code to evaluate performance and bottlenecks"
+    disciplines: "Scientific Computing"
+    prerequisites: "rse_tooling_2"
+    evidence: "Submit benchmark reports comparing implementations and justifying trade-offs"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: comp_module_2
+    description: "Explain and apply principles of approximation theory and numerical precision in scientific computing"
+    disciplines: "Scientific Computing"
+    prerequisites: ""
+    evidence: "Answer conceptual questions and implement small examples highlighting precision trade-offs"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: comp_module_3
+    description: "Explain floating-point arithmetic and its implications for scientific accuracy and performance"
+    disciplines: "Scientific Computing"
+    prerequisites: "comp_module_2"
+    evidence: "Provide examples showing effects of precision loss and propose mitigations"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: comp_module_4
+    description: "Describe common simulation libraries and numerical frameworks (e.g., BLAS, LAPACK, PETSc, Trilinos)"
+    disciplines: "Scientific Computing"
+    prerequisites: ""
+    evidence: "List relevant libraries for a task and justify choice or avoidance of custom implementations"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: comp_module_5
+    description: "Compare interpreted and compiled languages in terms of performance and suitability for computing tasks"
+    disciplines: "Scientific Computing"
+    prerequisites: ""
+    evidence: "Write code samples in both types of language and explain their performance characteristics"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: hpc_module_1
+    description: "Run batch and array jobs on a cluster, including job dependencies"
+    disciplines: "High-Performance Computing"
+    prerequisites: "rse_tooling_3"
+    evidence: "Submit job scripts using SLURM or similar systems demonstrating correct use of job arrays and dependencies"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: hpc_module_2
+    description: "Identify and manage common challenges in HPC systems (e.g., I/O bottlenecks, threading, NUMA memory)"
+    disciplines: "High-Performance Computing"
+    prerequisites: "hpc_module_1"
+    evidence: "Provide performance logs and interpret bottlenecks in a real or simulated HPC task"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: hpc_module_3
+    description: "Use shell scripting (e.g., Bash) to automate HPC job submission"
+    disciplines: "High-Performance Computing"
+    prerequisites: "rse_tooling_3"
+    evidence: "Submit scripts that automate the execution of HPC jobs and handle job logic"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: hpc_module_4
+    description: "Understand and use the principles of accelerator programming (e.g., GPU kernels and frameworks)"
+    disciplines: "High-Performance Computing"
+    prerequisites: ""
+    evidence: "Submit a small CUDA or OpenCL program with documentation of the principles used"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: hpc_module_5
+    description: "Maintain scientific computing software including use of continuous benchmarking"
+    disciplines: "High-Performance Computing"
+    prerequisites: "comp_module_1"
+    evidence: "Provide benchmark and performance history for evolving versions of software"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"

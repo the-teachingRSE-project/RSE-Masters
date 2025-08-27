@@ -1,8 +1,10 @@
-## RSE Theory
+# RSE Philosophy
+## Introduction
 
 The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved
 in digitalization projects, institutional development or other non-technical tasks.
 
+## Contents
 For a university level study program it is fitting that students learn an abstract high-level understanding of their
 field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases.
 For this they need a solid understanding in some of the more theoretical fields such as ...
@@ -13,6 +15,7 @@ For this they need a solid understanding in some of the more theoretical fields 
 - human computer interaction
 - digital humanities
 
+## General Competences
 This module conveys competences in areas such as but not limited to ...
 
 - conducting and leading research (NEW)

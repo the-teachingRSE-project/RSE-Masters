@@ -4,17 +4,18 @@ project:
   title: Showcase Curriculum for Research Software Engineering
   render:
     - "*.qmd"
-
+    - "!presentation/"
+    - "!thesis/"
 
 website:
   title: "RSE Curriculum (WORK IN PROGRESS)"
   description: ""
   navbar:
     right:
-      - text: "Workshops"
-        href: event/kickoff-workshops/schedule.qmd
-      - text: "Curriculum"
-        href: generation/generated/curriculum.qmd
+      - text: "Curriculum Track 1"
+        href: generation/generated/cs_curriculum.qmd
+      - text: "Curriculum Track 2"
+        href: generation/generated/mnt_curriculum.qmd
       - text: "Preambel"
         href: general/preambel_general.qmd
       - text: "ideas"

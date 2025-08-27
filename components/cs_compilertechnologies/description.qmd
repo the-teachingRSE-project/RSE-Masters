@@ -1,0 +1,25 @@
+# Programming Languages and Compiler Techniques
+
+## Introduction
+
+This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.
+
+
+## Contents
+
+- Virtualization
+- Programming Languages and Design
+- Software System Security
+
+
+## Learning Objectives
+
+- describe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts
+- use various approaches in programming languages and compiler technology
+
+
+## Examination Methods
+
+- either a written exam (90-100 minutes)
+- or an oral examination (20-30 minutes)
+- or a project report (20-30 pages)

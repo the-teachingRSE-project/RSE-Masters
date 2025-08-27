@@ -24,12 +24,26 @@ jobs:
           submodules: recursive
       - name: install python
         run: python -m pip install -r generation/requirements.txt
-      - name: run template generation
+      - name: run template generation for cs track
         working-directory: ./generation
         run: |
           count=0
           max_retries=10
-          until python generate_all.py; do
+          until python generate_all.py --profile cs; do
+            count=$((count + 1))
+            echo "Attempt $count failed."
+            if [ $count -ge $max_retries ]; then
+              echo "Reached maximum number of retries ($max_retries). Exiting."
+              exit 1
+            fi
+            sleep 5  # Optional: wait a bit before retrying
+          done
+      - name: run template generation for cs track
+        working-directory: ./generation
+        run: |
+          count=0
+          max_retries=10
+          until python generate_all.py --profile mnt; do
             count=$((count + 1))
             echo "Attempt $count failed."
             if [ $count -ge $max_retries ]; then
