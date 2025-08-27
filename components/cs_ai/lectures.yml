@@ -1,0 +1,17 @@
+entries:
+  - name: "Current topics in artificial intelligence"
+    description: ""
+    type: "Lecture or Seminar"
+    sws: 2
+    ects: 2
+    group: 1
+    quarto_filename: ""
+    optional: False
+  - name: "Current topics in artificial intelligence Exercise"
+    description: ""
+    type: "Exercise"
+    sws: 2
+    ects: 4
+    group: 1
+    quarto_filename: ""
+    optional: False

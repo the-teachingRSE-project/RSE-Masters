@@ -1,0 +1,21 @@
+## Design of Efficient Algorithms
+
+### Introduction
+
+This module deals with the design of efficient algorithms.
+
+
+### Contents
+
+Architecture and implementation of formal systems for developing efficient algorithms, correctness-preserving optimisation, programme verification and synthesis.
+
+
+### Learning Objectives
+
+Students will be familiar with and understand basic techniques of formal programme development and its implementation.
+
+
+### Examination Methods
+
+- Either a 90-minute written exam.
+- Or a 30 minute oral examination.
