@@ -1,4 +1,5 @@
 
+# {% if profile == "cs" %} Track 1: Computer Science Generalist Track {% else %} Track 2: Domain Science / Natural Science Track {% endif %}
 
 ::: {.content-visible when-format="html"}
 
@@ -10,11 +11,10 @@
 
 :::
 
-
-## General Study Process TODO add variable for track name
+## Suggested Course Program
 
 {% for semester in curriculum.semesters %}
-## Semester {{ semester.number }}
+### Semester {{ semester.number }}
 
 | Type | Description | SWS | ECTS |
 |------|-------------|-----|------|
@@ -28,23 +28,7 @@
 **Total Curriculum ECTS: {{ curriculum.total_ects() }}**
 
 
-
-# Complete Competences Table {{ "{" }}#sec-competences{{ "}" }}
-
-TODO: replace this with Excel download in html and possibly remove for pdf
-
-| ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
-|-----|-------------|-------------|---------------|----------|--------| --------|
-{%- for c in competences %}
-| {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ {{ c.source }} ]( {{ c.source }} )  |
-{%- endfor %}
-
-
-
-
 ::: {.content-visible when-format="pdf"}
-
-# Module Descriptions (Inline)
 
 {%- for module in modules %}
 

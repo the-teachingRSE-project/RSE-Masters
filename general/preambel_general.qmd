@@ -39,36 +39,43 @@ This can be mapped to the typology of the German Computer Science Association (G
 
 Fully qualified computer science experts with a focus on research software fit type 1 of CS programs.
 Interdisciplinary researchers where the computer science background is rivalled by the domain expertise fit the type 3.
-(At this point) the curriculum tries to support both aspects equally with two branches (or [profiles](https://github.com/the-teachingRSE-project/RSE-Masters/wiki/profiles)) of the curriculum focussing on the different weights. However, both profiles share common modules and concepts such as the idea to teach RSE-specific Open Science Tooling, an advanced Software Engineering module with specific patterns and modelling techniques for RSE and dual-lab and dual-thesis ideas, where RSE-students interface with a domain or industry field to apply their cross-cutting research skills.
+
+(At this point) the curriculum tries to support both aspects equally with two branches (or [tracks](https://github.com/the-teachingRSE-project/RSE-Masters/wiki/profiles)) of the curriculum focussing on the different weights. However, both tracks share common modules and concepts such as the idea to teach RSE-specific Open Science Tooling, an advanced Software Engineering module with specific patterns and modelling techniques for RSE and dual-lab and dual-thesis ideas, where RSE-students interface with a domain or industry field to apply their cross-cutting research skills.
+
+You can find the tracks as follows:
+
+- Computer Science Generalist Track [here](/generation/generated/cs_curriculum.qmd)
+- Natural Science / Domain Science Track [here](/generation/generated/mnt_curriculum.qmd)
 
 
+The RSE community has long used the three pillar structure for RSE specific skills. These are distributed in the
+modules as following:
 
 ## Research skills
 
-TODO add text here
+Implemented in the following components:
 
-_Research skills_ are implemented in the following components:
+- [Domain Science Project](generation/generated/mnt_project.qmd)
+- [Domain Science Wildcard Courses](generation/generated/mnt_wildcard.qmd)
+- [RSE Thesis](rse_thesis)
 
-- mnt_project (TODO work/elaborate on naming, add cross-reference)
-- mnt_wildcard
-- rse_thesis
+## Technical skills
 
-_Technical skills_ are implemented in:
+Implemented in:
 
-- gen_datascience
-- gen_programming
-- gen_softwareengineering
-- rse_softwareengineering
-- rse_programming
+- [Data Science Foundations](generation/generated/gen_datascience.qmd)
+- [Programming Foundations](generation/generated/gen_programming.qmd)
+- [Software Engineering Foundations](generation/generated/gen_softwareengineering.qmd)
+- [RSE Software Engineering](generation/generated/rse_softwareengineering.qmd)
+- [RSE Programming](generation/generated/rse_programming.qmd)
 
-(TODO check if technical training assumes too big a role)
+## Communication skills
 
-_communication skills_ are implemented in:
+Implemented in:
 
-- rse_management
-- mnt_project
-- rse_theory
-
+- [RSE Management](generation/generated/rse_management.qmd)
+- [Domain Science Project](generation/generated/mnt_project.qmd)
+- [RSE Theory](generation/generated/rse_theory.qmd)
 
 
 

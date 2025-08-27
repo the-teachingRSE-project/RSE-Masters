@@ -28,7 +28,8 @@ def generate_curriculum(module_summaries, curriculum, profile):
         curriculum_render = curriculum_template.render(
             curriculum=curriculum,
             **competence_data,
-            modules=module_summaries
+            modules=module_summaries,
+            profile=profile
         )
 
         output_path = output_dir / "{}_curriculum.qmd".format(profile)

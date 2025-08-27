@@ -15,7 +15,7 @@
 
 
 {% if competences %}
-## Module Competences
+### Module Competences
 
 | ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
 |-----|-------------|-------------|---------------|----------|--------| --------|
@@ -26,30 +26,30 @@
 
 
 {% if curricula or courses or course_literature or programs %}
-## Sources & Implementations:
+### Sources & Implementations:
 {% if curricula %}
-### Curricula
+#### Curricula
 {% for c in curricula %}
 - [{{ c.name }}]({{ c.link }})
 {% endfor %}
 {% endif %}
 
 {% if courses %}
-### Courses
+#### Courses
 {% for course in courses %}
 - [{{ course.name }}]({{ course.link }})
 {% endfor %}
 {% endif %}
 
 {% if course_literature %}
-### Recommended Course Literature
+#### Recommended Course Literature
 {% for cl in course_literature %}
 - [{{ cl.name }}]({{ cl.link }})
 {% endfor %}
 {% endif %}
 
 {% if programs %}
-### Programs
+#### Programs
 {% for program in programs %}
 - [{{ program.name }}]({{ program.link }})
 {% endfor %}

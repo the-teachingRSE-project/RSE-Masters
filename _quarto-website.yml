@@ -18,8 +18,6 @@ website:
         href: generation/generated/mnt_curriculum.qmd
       - text: "Preambel"
         href: general/preambel_general.qmd
-      - text: "ideas"
-        href: general/ideas.qmd
       - text: "Job Roles"
         href: general/job_roles.qmd
       - text: "PDF-Version"
