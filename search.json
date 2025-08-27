@@ -100,35 +100,49 @@
   {
     "objectID": "generation/generated/mnt_curriculum.html",
     "href": "generation/generated/mnt_curriculum.html",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "",
     "text": "Master’s Thesis\nComputational Science Wildcard\nRse-Management\nBasics Of Programming\nRse Nuts And Bolts\nScientific (High-Performance) Computing\nSoftware Engineering\nRse Software Engineering\nRse Philosophy\nScience Lab\nScience Wildcard\nData Science"
   },
   {
+    "objectID": "generation/generated/mnt_curriculum.html#module-descriptions-linked",
+    "href": "generation/generated/mnt_curriculum.html#module-descriptions-linked",
+    "title": "Complete Competences Table",
+    "section": "",
+    "text": "Master’s Thesis\nComputational Science Wildcard\nRse-Management\nBasics Of Programming\nRse Nuts And Bolts\nScientific (High-Performance) Computing\nSoftware Engineering\nRse Software Engineering\nRse Philosophy\nScience Lab\nScience Wildcard\nData Science"
+  },
+  {
+    "objectID": "generation/generated/mnt_curriculum.html#general-study-process-todo-add-variable-for-track-name",
+    "href": "generation/generated/mnt_curriculum.html#general-study-process-todo-add-variable-for-track-name",
+    "title": "Complete Competences Table",
+    "section": "General Study Process TODO add variable for track name",
+    "text": "General Study Process TODO add variable for track name"
+  },
+  {
     "objectID": "generation/generated/mnt_curriculum.html#semester-1",
     "href": "generation/generated/mnt_curriculum.html#semester-1",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "Semester 1",
     "text": "Semester 1\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nSeminar\nRSE Nuts and Bolts I\n2\n3\n\n\nLecture\nWildcard Science I\n2\n3\n\n\nLecture\nBasic Programming\n2\n1\n\n\nExercise\nBasic Programming Exercise\n4\n4\n\n\nLecture\nMathematical Foundations of Data Science\n4\n6\n\n\nLecture\nRSE-Management Lecture\n2\n3\n\n\nExercise\nRSE-Management Exercise\n2\n3\n\n\n\nTotal ECTS: 23"
   },
   {
     "objectID": "generation/generated/mnt_curriculum.html#semester-2",
     "href": "generation/generated/mnt_curriculum.html#semester-2",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "Semester 2",
     "text": "Semester 2\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nLecture\nApplied Programming\n2\n1\n\n\nExercise\nApplied Programming Exercise\n4\n4\n\n\nLecture\nWildcard Science II\n2\n3\n\n\nLab\nWildcard Science Lab I\n4\n6\n\n\nLecture\nStatistical Data Analysis\n4\n4\n\n\nLecture\nScientific Computing Basics\n2\n3\n\n\nExercise\nScientific Computing Basics Exercise\n2\n3\n\n\n\nTotal ECTS: 24"
   },
   {
     "objectID": "generation/generated/mnt_curriculum.html#semester-3",
     "href": "generation/generated/mnt_curriculum.html#semester-3",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "Semester 3",
     "text": "Semester 3\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nSeminar\nRSE Nuts and Bolts II\n2\n3\n\n\nLab\nWildcard Science Lab II\n2\n2\n\n\nExercise\nText2Data\n4\n4\n\n\nLecture\nComputational Wildcard Science\n2\n3\n\n\nLecture\nSoftware Engineering I\n2\n4\n\n\nExercise\nSoftware Engineering I Exercise\n2\n2\n\n\nLecture\nHigh Performance Computing\n2\n3\n\n\nExercise\nHigh Performance Computing Exercise\n2\n3\n\n\n\nTotal ECTS: 24"
   },
   {
     "objectID": "generation/generated/mnt_curriculum.html#semester-4",
     "href": "generation/generated/mnt_curriculum.html#semester-4",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "Semester 4",
     "text": "Semester 4\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nThesis\nRSE Master Thesis\n10\n30\n\n\n\nTotal ECTS: 30\nTotal Curriculum ECTS: 101"
   },
@@ -933,35 +947,49 @@
   {
     "objectID": "generation/generated/cs_curriculum.html",
     "href": "generation/generated/cs_curriculum.html",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "",
     "text": "Master’s Thesis\nRse-Management\nProgramming Languages And Compiler Technology\nBasics Of Programming\nFormal Methods In Software Engineering\nRse Nuts And Bolts\nScientific (High-Performance) Computing\nSoftware Engineering\nSecurity, Information And Complexity\nDistributed Systems\nRse Software Engineering\nRse Philosophy\nExample Cs Module\nData Science"
   },
   {
+    "objectID": "generation/generated/cs_curriculum.html#module-descriptions-linked",
+    "href": "generation/generated/cs_curriculum.html#module-descriptions-linked",
+    "title": "Complete Competences Table",
+    "section": "",
+    "text": "Master’s Thesis\nRse-Management\nProgramming Languages And Compiler Technology\nBasics Of Programming\nFormal Methods In Software Engineering\nRse Nuts And Bolts\nScientific (High-Performance) Computing\nSoftware Engineering\nSecurity, Information And Complexity\nDistributed Systems\nRse Software Engineering\nRse Philosophy\nExample Cs Module\nData Science"
+  },
+  {
+    "objectID": "generation/generated/cs_curriculum.html#general-study-process-todo-add-variable-for-track-name",
+    "href": "generation/generated/cs_curriculum.html#general-study-process-todo-add-variable-for-track-name",
+    "title": "Complete Competences Table",
+    "section": "General Study Process TODO add variable for track name",
+    "text": "General Study Process TODO add variable for track name"
+  },
+  {
     "objectID": "generation/generated/cs_curriculum.html#semester-1",
     "href": "generation/generated/cs_curriculum.html#semester-1",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "Semester 1",
     "text": "Semester 1\n\n\n\n\n\n\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nSeminar\nRSE Nuts and Bolts I\n2\n3\n\n\nLecture\nMathematical Foundations of Data Science\n4\n6\n\n\nLecture\nRSE-Management Lecture\n2\n3\n\n\nExercise\nRSE-Management Exercise\n2\n3\n\n\nLecture\nSecurity, Information and Complexity\n2\n2\n\n\nExercise\nSecurity, Information and Complexity Exercise\n2\n4\n\n\nLecture\nProgramming Languages and Compiler Technologies\n2\n2\n\n\nProject\nProgramming Languages and Compiler Technologies Project\n2\n4\n\n\n\nTotal ECTS: 27"
   },
   {
     "objectID": "generation/generated/cs_curriculum.html#semester-2",
     "href": "generation/generated/cs_curriculum.html#semester-2",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "Semester 2",
     "text": "Semester 2\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nLecture\nStatistical Data Analysis\n4\n4\n\n\nLecture\nScientific Computing Basics\n2\n3\n\n\nExercise\nScientific Computing Basics Exercise\n2\n3\n\n\nLecture\nDistributed Systems\n2\n2\n\n\nExercise\nDistributed Systems Exercise\n2\n4\n\n\nLecture\nFormal Methods in Software Engineering\n2\n2\n\n\nExercise\nFormal Methods Exercise\n2\n4\n\n\n\nTotal ECTS: 22"
   },
   {
     "objectID": "generation/generated/cs_curriculum.html#semester-3",
     "href": "generation/generated/cs_curriculum.html#semester-3",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "Semester 3",
     "text": "Semester 3\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nSeminar\nRSE Nuts and Bolts II\n2\n3\n\n\nExercise\nText2Data\n4\n4\n\n\nLecture\nComputational Wildcard Science\n2\n3\n\n\nLecture\nHigh Performance Computing\n2\n3\n\n\nExercise\nHigh Performance Computing Exercise\n2\n3\n\n\n\nTotal ECTS: 16"
   },
   {
     "objectID": "generation/generated/cs_curriculum.html#semester-4",
     "href": "generation/generated/cs_curriculum.html#semester-4",
-    "title": "Module Descriptions (Linked)",
+    "title": "Complete Competences Table",
     "section": "Semester 4",
     "text": "Semester 4\n\n\n\nType\nDescription\nSWS\nECTS\n\n\n\n\nThesis\nRSE Master Thesis\n10\n30\n\n\n\nTotal ECTS: 30\nTotal Curriculum ECTS: 95"
   },
