@@ -10,13 +10,13 @@ profile:
         - "Mathematical Foundations of Data Science"
         - "RSE-Management Lecture"
         - "RSE-Management Exercise"
+        - "Statistical Data Analysis"
       2:
         - "Applied Programming"
         - "Applied Programming Exercise"
         - "Wildcard Science II"
         - "Wildcard Science Lab I"
         - "Science Lab Project"
-        - "Statistical Data Analysis"
         - "Scientific Computing Basics"
         - "Scientific Computing Basics Exercise"
       3:
@@ -24,6 +24,7 @@ profile:
         - "Wildcard Science Lab II"
         - "Text2Data"
         - "Computational Wildcard Science"
+        - "Computational Wildcard Science Lab"
         - "Software Engineering I"
         - "Software Engineering I Exercise"
         - "High Performance Computing"
