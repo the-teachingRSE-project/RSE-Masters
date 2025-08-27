@@ -4,8 +4,6 @@ We started the community process to develop an RSE curriculum in spring 2025. Ev
 
 If you want to be part of the community, join our mailinglist [https://www.listserv.dfn.de/sympa/info/rse-master](https://www.listserv.dfn.de/sympa/info/rse-master).
 
-Active work is going on in the tschira-funding branch, as the project is funded by the Klaus Tschira Stiftung at present. 
-
 The current version of the generated curriculum can be found [here](https://the-teachingrse-project.github.io/RSE-Masters/). This is built with Github Actions.
 
 
@@ -68,7 +66,8 @@ If you are interested in joining any of the teams, we will be happy to hear from
   ```
   pip install -r requirements.txt
   ```
-- `python generate_all.py` # run the templating logic
+- `python generate_all.py --profile cs` # run the templating logic for the cs track
+- `python generate_all.py --profile website` # run the templating logic for the mnt track (natural sciences)
 - `cd ..` # go back in root dir
 - Windows PS:
   - `quarto render --profile doc; quarto preview --profile website`

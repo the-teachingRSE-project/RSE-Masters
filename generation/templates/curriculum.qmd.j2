@@ -2,7 +2,7 @@
 
 ::: {.content-visible when-format="html"}
 
-# Module Descriptions (Linked)
+## Module Descriptions (Linked)
 
 {%- for module in modules %}
 - [{{ module.name | replace("_", " ") | title }}]({{ module.file }})
@@ -11,7 +11,7 @@
 :::
 
 
-# General Study Process
+## General Study Process TODO add variable for track name
 
 {% for semester in curriculum.semesters %}
 ## Semester {{ semester.number }}
