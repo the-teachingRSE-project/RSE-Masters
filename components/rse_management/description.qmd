@@ -1,5 +1,5 @@
-# RSE Management and Communication
-## Introduction
+## RSE Management and Communication
+### Introduction
 
 This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.
 
@@ -10,7 +10,7 @@ This includes but is not limited to:
 - project management (see PM in [@competencies-F1000])
 - interaction with users and other stakeholders (see USERS in [@competencies-F1000])
 
-## Contents
+### Contents
 
 - **research management**
     - research cycle

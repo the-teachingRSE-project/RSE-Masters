@@ -1,10 +1,10 @@
-# Formal Methods in Software Engineering
+## Formal Methods in Software Engineering
 
-## Introduction
+### Introduction
 
 This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.
 
-## Contents
+### Contents
 
 The module includes the following topics:
 
@@ -12,12 +12,12 @@ The module includes the following topics:
 - Service Engineering: The role of formal methods in service-based architectures.
 - System Design: Use of formal methods in system design, focusing on specification and verification.
 
-## Learning Objectives
+### Learning Objectives
 
 - Understand and apply formal methods in system design and software engineering.
 - Analyse theoretical and practical problems in modeling and implementation using formal methods.
 
-## Examination Methods
+### Examination Methods
 
 - Either a 90-minute written exam.
 - Or a 20-30 minute oral examination.
