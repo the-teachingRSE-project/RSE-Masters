@@ -67,7 +67,6 @@ Implemented in:
 - [Programming Foundations](generation/generated/gen_programming.qmd)
 - [Software Engineering Foundations](generation/generated/gen_softwareengineering.qmd)
 - [RSE Software Engineering](generation/generated/rse_softwareengineering.qmd)
-- [RSE Programming](generation/generated/rse_programming.qmd)
 
 ## Communication skills
 
