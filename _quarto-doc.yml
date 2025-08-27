@@ -24,7 +24,8 @@ book:
     - index.qmd
     - general/ideas.qmd
     - general/job_roles.qmd
-    - generation/generated/curriculum.qmd
+    - generation/generated/cs_curriculum.qmd
+    - generation/generated/mnt_curriculum.qmd
     - general/glossary.qmd
 
 

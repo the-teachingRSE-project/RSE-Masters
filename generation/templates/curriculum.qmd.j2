@@ -1,3 +1,16 @@
+
+
+::: {.content-visible when-format="html"}
+
+# Module Descriptions (Linked)
+
+{%- for module in modules %}
+- [{{ module.name | replace("_", " ") | title }}]({{ module.file }})
+{%- endfor %}
+
+:::
+
+
 # General Study Process
 
 {% for semester in curriculum.semesters %}
@@ -16,7 +29,6 @@
 
 
 
-
 # Complete Competences Table {{ "{" }}#sec-competences{{ "}" }}
 
 TODO: replace this with Excel download in html and possibly remove for pdf
@@ -29,15 +41,6 @@ TODO: replace this with Excel download in html and possibly remove for pdf
 
 
 
-::: {.content-visible when-format="html"}
-
-# Module Descriptions (Linked)
-
-{%- for module in modules %}
-- [{{ module.name | replace("_", " ") | title }}]({{ module.file }})
-{%- endfor %}
-
-:::
 
 ::: {.content-visible when-format="pdf"}
 
