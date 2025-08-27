@@ -1,0 +1,23 @@
+## Declarative Modelling
+
+### Introduction
+
+This module deals with delarative problem-solving.
+
+
+### Contents
+
+Declarative problem-solving methods use general problem-solving methods to automatically solve combinatorial (optimisation) problems. In contrast to traditional programming, no programmes are created to solve the problems; instead, the initial problems are simply modelled (formally). Today, general problem-solving systems are capable of solving problems involving several million variables. The resulting systems are now widely used in industry and the natural sciences. The course focuses on the application of declarative problem-solving methods (especially for solving scientific problems) in the context of modelling and implementation projects. 
+
+
+### Learning Objectives
+
+Students
+- are able to define and interpret the special features, limitations, terminology and doctrines in the field of declarative modelling.  The students' knowledge and understanding forms the basis for the development and/or application of independent ideas in the field of declarative modelling in a research-oriented context.
+- have a broad, detailed and critical understanding of the latest knowledge in selected specialist areas in the field of declarative modelling
+- are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of declarative modelling in a broader or multidisciplinary context.
+
+
+### Examination Methods
+
+30 minute oral examination.
