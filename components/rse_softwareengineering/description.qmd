@@ -1,5 +1,4 @@
 ## RSE-Software Engineering
-
 This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to
 
 - software re-use (see SRU in [@competencies-F1000])
@@ -10,3 +9,5 @@ This module extends the Classical Software Engineering Module with research spec
 - Adapting the software life cycle to research (see SWLC in [@competencies-F1000])
 - Software behaviour awareness and analysis (see MOD in [@competencies-F1000])
 - Research specific Engineering Patterns
+
+Also, the seminar provides room for reflection and discussions of SE lab experiences.

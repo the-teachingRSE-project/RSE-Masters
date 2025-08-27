@@ -2,6 +2,7 @@ profile:
    name: science
    semesters:
       1:
+        - "RSE Lecture Series"
         - "RSE Nuts and Bolts I"
         - "Wildcard Science I"
         - "Basic Programming"
@@ -14,6 +15,7 @@ profile:
         - "Applied Programming Exercise"
         - "Wildcard Science II"
         - "Wildcard Science Lab I"
+        - "Science Lab Project"
         - "Statistical Data Analysis"
         - "Scientific Computing Basics"
         - "Scientific Computing Basics Exercise"
@@ -26,5 +28,7 @@ profile:
         - "Software Engineering I Exercise"
         - "High Performance Computing"
         - "High Performance Computing Exercise"
+        - "RSE Software Engineering Seminar"
+        - "RSE Software Engineering Exercise"
       4:
         - "RSE Master Thesis"

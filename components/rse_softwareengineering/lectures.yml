@@ -1,11 +1,16 @@
 entries:
-  - name: "RSE Software Engineering"
-    description: "This is an advanced class to ..."
-    type: "Lecture"
-    sws: 
-    ects: 
+  - name: "RSE Software Engineering Seminar"
+    type: "Seminar"
+    sws: 2
+    ects: 3
     group: 1
     quarto_filename: ""
     optional: False
-    semester: 
+  - name: "RSE Software Engineering Exercise"
+    type: "Exercise"
+    sws: 2
+    ects: 3
+    group: 1
+    quarto_filename: ""
+    optional: False
 

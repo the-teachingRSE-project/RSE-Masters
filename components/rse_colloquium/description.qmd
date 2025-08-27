@@ -1,0 +1,20 @@
+## RSE Lecture Series
+
+### Introduction
+
+This lecture series covers current RSE research and provides room for guest lectures and varying focus topics.
+
+
+### Contents
+
+vary between semesters and weeks, but are all related to RSE
+
+
+### Learning Objectives
+
+- students get a broad image of RSE in the wild
+
+
+### Examination Methods
+
+none?

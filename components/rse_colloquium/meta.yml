@@ -1,8 +1,9 @@
 meta:
-  id: cs_ex
+  id: rse_colloq
   profiles:
     - rse
+    - mnt
     - up
   level: master
-  name: Example CS module
+  name: RSE Lecture Series
   depends_on: []

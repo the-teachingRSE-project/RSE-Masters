@@ -2,6 +2,7 @@ profile:
    name: cs
    semesters:
       1:
+        - "RSE Lecture Series"
         - "RSE Nuts and Bolts I"
         - "Mathematical Foundations of Data Science"
         - "RSE-Management Lecture"
@@ -11,6 +12,7 @@ profile:
         - "Programming Languages and Compiler Technologies"
         - "Programming Languages and Compiler Technologies Project"
       2:
+        - "RSE Lab Project"
         - "Statistical Data Analysis"
         - "Scientific Computing Basics"
         - "Scientific Computing Basics Exercise"
@@ -30,5 +32,7 @@ profile:
         - "Declarative Modelling Lab"
         - "Current topics in artificial intelligence"
         - "Current topics in artificial intelligence Exercise"
+        - "RSE Software Engineering Seminar"
+        - "RSE Software Engineering Exercise"
       4:
         - "RSE Master Thesis"
