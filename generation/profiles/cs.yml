@@ -4,14 +4,15 @@ profile:
       1:
         - "RSE Lecture Series"
         - "RSE Nuts and Bolts I"
-        - "Mathematical Foundations of Data Science"
         - "RSE-Management Lecture"
         - "RSE-Management Exercise"
+        - "Statistical Data Analysis"
+        - "Statistical Data Analysis Exercise"
+        - "Mathematical Foundations of Data Science"
+        - "Mathematical Foundations of Data Science Exercise"
         - "Security, Information and Complexity"
         - "Security, Information and Complexity Exercise"
-        - "Programming Languages and Compiler Technologies"
-        - "Programming Languages and Compiler Technologies Project"
-        - "Statistical Data Analysis"
+        - "RSE Philosophy"
       2:
         - "RSE Lab Project"
         - "Scientific Computing Basics"
@@ -23,6 +24,7 @@ profile:
       3:
         - "RSE Nuts and Bolts II"
         - "Text2Data"
+        - "Text2Data Exercise"
         - "High Performance Computing"
         - "High Performance Computing Exercise"
         - "Declarative Modelling"

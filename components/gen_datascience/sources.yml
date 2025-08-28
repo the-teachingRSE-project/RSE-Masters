@@ -1,9 +1,9 @@
 sources:
   courses:
-    - name: Statistical Data Analysis
-      link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
-    - name: Mathematical Foundations of Data Science
-      link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+    - name: Statistical Data Analysis (MATVMD837)
+      link: "https://puls.uni-potsdam.de"
+    - name: Mathematical Foundations of Data Science (MAT-DSAM8B)
+      link: "https://puls.uni-potsdam.de"
     - name: Programmieren für Data Scientists Python
       link: "https://studip.uni-goettingen.de/dispatch.php/course/details/index/d5e09a9298492991a57d59c7b2f09f98"
   programs:
