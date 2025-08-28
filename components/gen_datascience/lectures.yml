@@ -42,7 +42,7 @@ entries:
     description: ""
     type: "Lecture"
     sws: 2
-    ects: 2
+    ects: 4
     group: 4
     quarto_filename: "text2data.qmd"
     optional: True

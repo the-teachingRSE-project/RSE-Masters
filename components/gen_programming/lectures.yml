@@ -3,7 +3,7 @@ entries:
     description: ""
     type: "Lecture"
     sws: 2
-    ects: 1
+    ects: 2
     group: 1
     quarto_filename: "basics_programming.qmd"
     optional: True
