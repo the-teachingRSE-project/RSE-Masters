@@ -8,12 +8,13 @@ author:
     website: https://juliandehne.github.io/
     affiliations:
       - name: Gesellschaft für Informatik
-        address: Rosa-Luxemburg Platz Berlin
+        address: Weydingerstraße 14-16, 10178 Berlin
       - name: deRSE
   - name: Florian Goth
   - name: Jan Phillip Thiele
   - name: Jan Linxweiler
   - name: Anna-Lena Lambrecht
+  - name: Maja Toebs
 
 profile:
   default: website
