@@ -231,340 +231,18 @@
     "text": "Preliminary Schedule for RSE Community Workshops\nAll times are in Berlin time (CEST).\nSign in here for the workshops.\nAll the workshops will take place in the regular deRSE zoom. Contact julian.dehne@gi.de for the access details."
   },
   {
-    "objectID": "components/rse_softwareengineering/description.html",
-    "href": "components/rse_softwareengineering/description.html",
+    "objectID": "components/rse_thesis/description.html",
+    "href": "components/rse_thesis/description.html",
     "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to\n\nsoftware re-use (see SRU in (Goth et al. 2024))\ncreating documented code building blocks (see DOCBB in (Goth et al. 2024))\nbuilding distributable software (see DIST in (Goth et al. 2024))\nresearch specific programming languages\nresearch specific code requirements (scalability, functional programming, …)\nAdapting the software life cycle to research (see SWLC in (Goth et al. 2024))\nSoftware behaviour awareness and analysis (see MOD in (Goth et al. 2024))\nResearch specific Engineering Patterns\n\nAlso, the seminar provides room for reflection and discussions of SE lab experiences."
+    "text": "The master’s thesis is the culminating component of the RSE programme. In this module, students apply the full spectrum of Research Software Engineering skills in a real-world research setting, demonstrating their ability to independently design, implement, and document a computational research contribution.\nThe thesis must address a research question in collaboration with a scientific or applied domain, but its core should include a substantial computational component. This may involve software development, data-intensive research, reproducibility infrastructure, or performance engineering — depending on the chosen topic and specialization.\nEach thesis must be supervised jointly by:\n\nA domain expert (e.g., in physics, life sciences, or humanities)\nAn RSE mentor (who ensures the quality and relevance of the computational contribution)\n\nStudents are expected to follow best practices in software engineering, version control, testing, and documentation. The final submission must include:\n\nA written thesis describing both the scientific and software contributions\nA structured, reproducible code repository\nA presentation and defense in a thesis colloquium\n\nThe colloquium serves as both a public communication exercise and a final evaluation, where students present their project and reflect on challenges and insights gained during the thesis."
   },
   {
-    "objectID": "components/rse_softwareengineering/description.html#rse-software-engineering",
-    "href": "components/rse_softwareengineering/description.html#rse-software-engineering",
+    "objectID": "components/rse_thesis/description.html#masters-thesis-module-research-software-engineering-thesis",
+    "href": "components/rse_thesis/description.html#masters-thesis-module-research-software-engineering-thesis",
     "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to\n\nsoftware re-use (see SRU in (Goth et al. 2024))\ncreating documented code building blocks (see DOCBB in (Goth et al. 2024))\nbuilding distributable software (see DIST in (Goth et al. 2024))\nresearch specific programming languages\nresearch specific code requirements (scalability, functional programming, …)\nAdapting the software life cycle to research (see SWLC in (Goth et al. 2024))\nSoftware behaviour awareness and analysis (see MOD in (Goth et al. 2024))\nResearch specific Engineering Patterns\n\nAlso, the seminar provides room for reflection and discussions of SE lab experiences."
-  },
-  {
-    "objectID": "components/rse_missingsemester/description.html",
-    "href": "components/rse_missingsemester/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).\n\n\n\nThe module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography\n\n\n\n\nBuilding on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities\n\n\n\n\n\nFinally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024))."
-  },
-  {
-    "objectID": "components/rse_missingsemester/description.html#rse-nuts-and-bolts",
-    "href": "components/rse_missingsemester/description.html#rse-nuts-and-bolts",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).\n\n\n\nThe module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography\n\n\n\n\nBuilding on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities\n\n\n\n\n\nFinally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024))."
-  },
-  {
-    "objectID": "components/rse_computing/scientific_computing.html",
-    "href": "components/rse_computing/scientific_computing.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Basic Scientific Computing\n\nModule Overview\nThis module provides an entry‑level yet rigorous foundation in scientific computing for graduate students and researchers who need to design, implement, and evaluate computational experiments. Learners gain an awareness of the numerical underpinnings of modern simulation and data‑driven research, with an emphasis on writing reproducible, efficient, and trustworthy code.\n\n\nIntended Learning Outcomes\nBy the end of the module participants will be able to\n\nBenchmark small programs and interpret performance metrics in a research context.\nExplain how approximation theory and floating‑point arithmetic affect numerical accuracy and stability.\nIdentify when to use established simulation libraries (e.g. BLAS/LAPACK, PETSc, Trilinos) instead of custom code.\nWrite simple GPU kernels and describe the core principles of accelerator programming.\nSubmit and monitor batch & array jobs on a mid‑size compute cluster.\nDescribe common HPC challenges—such as I/O bottlenecks, threading, and NUMA—and propose mitigation strategies.\nMaintain research software through continuous benchmarking.\n\n\n\nSyllabus (Indicative Content)\n\n\n\n\n\n\n\n\nWeek\nTheme\nTopics\n\n\n\n\n1\nBenchmarking & Profiling\nTiming strategies · micro vs. macro benchmarks · tooling overview\n\n\n2\nPrecision & Approximation\nIEEE‑754 recap · conditioning & stability · error propagation\n\n\n3\nScientific Libraries\nBLAS/LAPACK anatomy · hierarchical I/O libraries · overview of PETSc/Trilinos/Hypre\n\n\n4\nGPU Primer\nKernel model · memory hierarchy · CUDA/OpenCL/PyTorch lightning intro\n\n\n5\nWorking on a Cluster\nSlurm basics · job arrays · job dependencies · simple Bash launchers\n\n\n6\nHPC Pitfalls\nI/O throughput · thread oversubscription · NUMA awareness\n\n\n7\nSoftware Maintenance\nRegression + performance tests · continuous benchmarking pipelines\n\n\n\n\n\nTeaching & Learning Methods\nShort lectures (30%) are coupled with hands‑on labs (70%). Students complete weekly notebooks and a mini‑project that reproduces and optimises a published computational result.\n\n\nAssessment\n\n\n\nComponent\nWeight\nDetails\n\n\n\n\nContinuous labs\n40%\nWeekly graded notebooks\n\n\nFinal mini‑project\n60%\nReport, code, and benchmark suite\n\n\n\n\n\nPrerequisites\n\nBasic programming in Python, C/C++, or Julia\nUndergraduate calculus & linear algebra\n\n\n\nKey Resources\nChatGPT fantasy"
-  },
-  {
-    "objectID": "components/rse_computing/description.html",
-    "href": "components/rse_computing/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably."
-  },
-  {
-    "objectID": "components/rse_computing/description.html#rse-computing",
-    "href": "components/rse_computing/description.html#rse-computing",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably."
-  },
-  {
-    "objectID": "components/mnt_wildcard/description.html",
-    "href": "components/mnt_wildcard/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module offers RSE students the opportunity to deepen their understanding of a scientific discipline outside of their home domain. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its research practices, core questions, and data/software challenges.\nThe goal is to help students become better collaborators by gaining first-hand exposure to the terminology, logic, and needs of another scientific domain. This broadens the student’s ability to apply RSE skills in interdisciplinary teams and unfamiliar environments.\nThe module may consist of lectures, lab sessions, and domain-specific mini-projects. RSEs are encouraged to reflect on how software engineering, data handling, reproducibility, and tooling intersect with the chosen discipline.\nThis module is deliberately flexible to accommodate institutional offerings and student interests as well as providing the option to stay attached to the identity of the chosen discipline."
-  },
-  {
-    "objectID": "components/mnt_wildcard/description.html#wildcard-science-module",
-    "href": "components/mnt_wildcard/description.html#wildcard-science-module",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module offers RSE students the opportunity to deepen their understanding of a scientific discipline outside of their home domain. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its research practices, core questions, and data/software challenges.\nThe goal is to help students become better collaborators by gaining first-hand exposure to the terminology, logic, and needs of another scientific domain. This broadens the student’s ability to apply RSE skills in interdisciplinary teams and unfamiliar environments.\nThe module may consist of lectures, lab sessions, and domain-specific mini-projects. RSEs are encouraged to reflect on how software engineering, data handling, reproducibility, and tooling intersect with the chosen discipline.\nThis module is deliberately flexible to accommodate institutional offerings and student interests as well as providing the option to stay attached to the identity of the chosen discipline."
-  },
-  {
-    "objectID": "components/mnt_compwildcard/description.html",
-    "href": "components/mnt_compwildcard/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course."
-  },
-  {
-    "objectID": "components/mnt_compwildcard/description.html#wildcard-computational-science",
-    "href": "components/mnt_compwildcard/description.html#wildcard-computational-science",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course."
-  },
-  {
-    "objectID": "components/gen_softwareengineering/se1.html",
-    "href": "components/gen_softwareengineering/se1.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Basic concepts of software engineering, software and product life cycle, process models for the design of large software systems, semantic aspects of domain description, hierarchy, parallelism, real-time and embedded systems as fundamental paradigms, organizational principles of complex software systems, design by contract, patterns in modeling and design methods of quality assurance, evolution and re-engineering, selected languages and tools for process- and object-oriented modeling, methods and languages for object-oriented design, architectures and architectural patterns of software systems, architecture of enterprise applications, design and implementation models in the object-oriented paradigm, e.g., Java 2 SE, design patterns, software testing methods."
-  },
-  {
-    "objectID": "components/gen_softwareengineering/se1.html#software-engineering-i",
-    "href": "components/gen_softwareengineering/se1.html#software-engineering-i",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Basic concepts of software engineering, software and product life cycle, process models for the design of large software systems, semantic aspects of domain description, hierarchy, parallelism, real-time and embedded systems as fundamental paradigms, organizational principles of complex software systems, design by contract, patterns in modeling and design methods of quality assurance, evolution and re-engineering, selected languages and tools for process- and object-oriented modeling, methods and languages for object-oriented design, architectures and architectural patterns of software systems, architecture of enterprise applications, design and implementation models in the object-oriented paradigm, e.g., Java 2 SE, design patterns, software testing methods."
-  },
-  {
-    "objectID": "components/gen_programming/description.html",
-    "href": "components/gen_programming/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This is an example module to showcase the integration pipeline"
-  },
-  {
-    "objectID": "components/gen_programming/description.html#example-module-fundamentals-of-computer-science",
-    "href": "components/gen_programming/description.html#example-module-fundamentals-of-computer-science",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This is an example module to showcase the integration pipeline"
-  },
-  {
-    "objectID": "components/gen_programming/applied_programming.html",
-    "href": "components/gen_programming/applied_programming.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Applied Programming\n\nProcedural Programming Concepts\nProgramming with an imperative-procedural language (such as C):\n\nData types, type casting, control structures, functions and procedures, parameter passing paradigms, call stack\nPointers, arrays, strings, structured types\nErrors and their handling\nDynamic memory management\nProgram libraries\n\n\n\nProgramming in an Object-Oriented Language (e.g., Java)\n\nClasses, objects, constructors\nInheritance, polymorphism, abstract classes/interfaces\nExceptions and exception handling\nNamespaces (packages)\nGeneric classes and types\nProgram libraries"
-  },
-  {
-    "objectID": "components/gen_datascience/statistic_data_analysis.html",
-    "href": "components/gen_datascience/statistic_data_analysis.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module focuses on the statistical study and quantitative analysis of the dependence between observed random variables (e.g., yield/production settings; lifespan/treatment type and injury type). Essential foundations for the statistical treatment of such relationships are provided by the linear regression model, which is studied in detail in the first part of the lecture. Within this framework, topics such as estimation, testing, and uncertainty quantification (analysis of variance) are addressed. In the second part, an introduction to advanced methods and approaches for examining relationships is offered, including nonlinear and nonparametric regression models. Additionally, questions of classification and dimensionality reduction are covered."
-  },
-  {
-    "objectID": "components/gen_datascience/statistic_data_analysis.html#statistical-data-analysis",
-    "href": "components/gen_datascience/statistic_data_analysis.html#statistical-data-analysis",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module focuses on the statistical study and quantitative analysis of the dependence between observed random variables (e.g., yield/production settings; lifespan/treatment type and injury type). Essential foundations for the statistical treatment of such relationships are provided by the linear regression model, which is studied in detail in the first part of the lecture. Within this framework, topics such as estimation, testing, and uncertainty quantification (analysis of variance) are addressed. In the second part, an introduction to advanced methods and approaches for examining relationships is offered, including nonlinear and nonparametric regression models. Additionally, questions of classification and dimensionality reduction are covered."
-  },
-  {
-    "objectID": "components/cs_project/description.html",
-    "href": "components/cs_project/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Applied Research Software Engineering in scientific institutions\nThis lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or"
-  },
-  {
-    "objectID": "components/cs_project/description.html#rse-lab-module",
-    "href": "components/cs_project/description.html#rse-lab-module",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Applied Research Software Engineering in scientific institutions\nThis lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or"
-  },
-  {
-    "objectID": "components/cs_efficientalgorithms/description.html",
-    "href": "components/cs_efficientalgorithms/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with the design of efficient algorithms.\n\n\n\nArchitecture and implementation of formal systems for developing efficient algorithms, correctness-preserving optimisation, programme verification and synthesis.\n\n\n\nStudents will be familiar with and understand basic techniques of formal programme development and its implementation.\n\n\n\n\nEither a 90-minute written exam.\nOr a 30 minute oral examination."
-  },
-  {
-    "objectID": "components/cs_efficientalgorithms/description.html#design-of-efficient-algorithms",
-    "href": "components/cs_efficientalgorithms/description.html#design-of-efficient-algorithms",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with the design of efficient algorithms.\n\n\n\nArchitecture and implementation of formal systems for developing efficient algorithms, correctness-preserving optimisation, programme verification and synthesis.\n\n\n\nStudents will be familiar with and understand basic techniques of formal programme development and its implementation.\n\n\n\n\nEither a 90-minute written exam.\nOr a 30 minute oral examination."
-  },
-  {
-    "objectID": "components/cs_declarativemodelling/description.html",
-    "href": "components/cs_declarativemodelling/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with delarative problem-solving.\n\n\n\nDeclarative problem-solving methods use general problem-solving methods to automatically solve combinatorial (optimisation) problems. In contrast to traditional programming, no programmes are created to solve the problems; instead, the initial problems are simply modelled (formally). Today, general problem-solving systems are capable of solving problems involving several million variables. The resulting systems are now widely used in industry and the natural sciences. The course focuses on the application of declarative problem-solving methods (especially for solving scientific problems) in the context of modelling and implementation projects.\n\n\n\nStudents - are able to define and interpret the special features, limitations, terminology and doctrines in the field of declarative modelling. The students’ knowledge and understanding forms the basis for the development and/or application of independent ideas in the field of declarative modelling in a research-oriented context. - have a broad, detailed and critical understanding of the latest knowledge in selected specialist areas in the field of declarative modelling - are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of declarative modelling in a broader or multidisciplinary context.\n\n\n\n30 minute oral examination."
-  },
-  {
-    "objectID": "components/cs_declarativemodelling/description.html#declarative-modelling",
-    "href": "components/cs_declarativemodelling/description.html#declarative-modelling",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with delarative problem-solving.\n\n\n\nDeclarative problem-solving methods use general problem-solving methods to automatically solve combinatorial (optimisation) problems. In contrast to traditional programming, no programmes are created to solve the problems; instead, the initial problems are simply modelled (formally). Today, general problem-solving systems are capable of solving problems involving several million variables. The resulting systems are now widely used in industry and the natural sciences. The course focuses on the application of declarative problem-solving methods (especially for solving scientific problems) in the context of modelling and implementation projects.\n\n\n\nStudents - are able to define and interpret the special features, limitations, terminology and doctrines in the field of declarative modelling. The students’ knowledge and understanding forms the basis for the development and/or application of independent ideas in the field of declarative modelling in a research-oriented context. - have a broad, detailed and critical understanding of the latest knowledge in selected specialist areas in the field of declarative modelling - are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of declarative modelling in a broader or multidisciplinary context.\n\n\n\n30 minute oral examination."
-  },
-  {
-    "objectID": "components/cs_ai/description.html",
-    "href": "components/cs_ai/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with recent research in artificial intelligence.\n\n\n\nThe seminar addresses current research questions in the field of artificial intelligence.\n\n\n\nStudents - are able to define and interpret the special features, limitations, terminology and doctrines in the field of artificial intelligence. The knowledge and understanding gained by students forms the basis for the development and/or application of independent ideas in the field of artificial intelligence in a research-oriented context - have a broad, detailed and critical understanding of the latest state of knowledge in selected specialist areas in the field of artificial intelligence - are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of artificial intelligence in a broader or multidisciplinary context.\n\n\n\n\n30 minute presentation with discussion"
-  },
-  {
-    "objectID": "components/cs_ai/description.html#current-topics-in-artificial-intelligence",
-    "href": "components/cs_ai/description.html#current-topics-in-artificial-intelligence",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with recent research in artificial intelligence.\n\n\n\nThe seminar addresses current research questions in the field of artificial intelligence.\n\n\n\nStudents - are able to define and interpret the special features, limitations, terminology and doctrines in the field of artificial intelligence. The knowledge and understanding gained by students forms the basis for the development and/or application of independent ideas in the field of artificial intelligence in a research-oriented context - have a broad, detailed and critical understanding of the latest state of knowledge in selected specialist areas in the field of artificial intelligence - are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of artificial intelligence in a broader or multidisciplinary context.\n\n\n\n\n30 minute presentation with discussion"
-  },
-  {
-    "objectID": "components/cs_compilertechnologies/description.html",
-    "href": "components/cs_compilertechnologies/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)"
-  },
-  {
-    "objectID": "components/cs_compilertechnologies/description.html#programming-languages-and-compiler-techniques",
-    "href": "components/cs_compilertechnologies/description.html#programming-languages-and-compiler-techniques",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)"
-  },
-  {
-    "objectID": "components/cs_distributedsystems/description.html",
-    "href": "components/cs_distributedsystems/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with distributed IT systems.\n\n\n\nThe module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.\n\n\n\n\n\ncan evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.\n\n\n\n\n\neither 120 min written exam\nor 20-30 min oral examination"
-  },
-  {
-    "objectID": "components/cs_distributedsystems/description.html#distributed-systems",
-    "href": "components/cs_distributedsystems/description.html#distributed-systems",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with distributed IT systems.\n\n\n\nThe module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.\n\n\n\n\n\ncan evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.\n\n\n\n\n\neither 120 min written exam\nor 20-30 min oral examination"
-  },
-  {
-    "objectID": "components/cs_formalmethods/description.html",
-    "href": "components/cs_formalmethods/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.\n\n\n\nThe module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification.\n\n\n\n\n\nUnderstand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods.\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination."
-  },
-  {
-    "objectID": "components/cs_formalmethods/description.html#formal-methods-in-software-engineering",
-    "href": "components/cs_formalmethods/description.html#formal-methods-in-software-engineering",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.\n\n\n\nThe module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification.\n\n\n\n\n\nUnderstand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods.\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination."
-  },
-  {
-    "objectID": "components/cs_securitycomplexity/description.html",
-    "href": "components/cs_securitycomplexity/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with correctness, security and complexity of algorithms.\n\n\n\n\nMethods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics\n\n\n\n\n\nUnderstand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods\n\n\n\n\n\nEither a written exam (90 minutes).\nOr an oral examination (30 minutes)."
-  },
-  {
-    "objectID": "components/cs_securitycomplexity/description.html#security-information-and-complexity",
-    "href": "components/cs_securitycomplexity/description.html#security-information-and-complexity",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module deals with correctness, security and complexity of algorithms.\n\n\n\n\nMethods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics\n\n\n\n\n\nUnderstand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods\n\n\n\n\n\nEither a written exam (90 minutes).\nOr an oral examination (30 minutes)."
-  },
-  {
-    "objectID": "components/gen_datascience/text2data.html",
-    "href": "components/gen_datascience/text2data.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Introduction to textual data and Natural Language Processing (NLP): key concepts and use cases\nText acquisition and preprocessing: tokenisation, stemming/lemmatisation, stopwords, named entity recognition, text cleaning\nText representations: bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), contextualised embeddings (BERT, RoBERTa, GPT variants)\nText mining and information extraction: key terms, topics, sentiment analysis, relation extraction\nData-to-insight pipelines: from raw text to structured data (CSV/SQL), feature engineering for text data\nModelling and evaluation: classification, regression, sequence models, transformers; evaluation metrics (accuracy, F1, MCC, AUC)\nPrototyping and reproducibility: experiment tracking, versioning, reproducible pipelines (Docker/Kubernetes, MLflow, DVC)\nRisk management and ethics: bias, fairness, data protection (GDPR), transparency, interpretability (LIME, SHAP)\nDeployment and practical applications: API-based models, batch vs real-time processing, monitoring\nProject work: from a research question to data collection, modelling, evaluation and documentation\n\n\n\n\n\nUnderstand how text data is collected, preprocessed, and transformed into usable formats\nBe able to select and justify different text representations\nApply NLP methods to extract relevant information from text\nDevelop, train and evaluate text-based models with attention to reproducibility and ethics\nAssess model limitations, interpretability, and risk of errors\nBuild a reproducible, scalable text-data pipeline\nCommunicate results clearly in reports, presentations, and prototype designs"
-  },
-  {
-    "objectID": "components/gen_datascience/text2data.html#text-to-data",
-    "href": "components/gen_datascience/text2data.html#text-to-data",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Introduction to textual data and Natural Language Processing (NLP): key concepts and use cases\nText acquisition and preprocessing: tokenisation, stemming/lemmatisation, stopwords, named entity recognition, text cleaning\nText representations: bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), contextualised embeddings (BERT, RoBERTa, GPT variants)\nText mining and information extraction: key terms, topics, sentiment analysis, relation extraction\nData-to-insight pipelines: from raw text to structured data (CSV/SQL), feature engineering for text data\nModelling and evaluation: classification, regression, sequence models, transformers; evaluation metrics (accuracy, F1, MCC, AUC)\nPrototyping and reproducibility: experiment tracking, versioning, reproducible pipelines (Docker/Kubernetes, MLflow, DVC)\nRisk management and ethics: bias, fairness, data protection (GDPR), transparency, interpretability (LIME, SHAP)\nDeployment and practical applications: API-based models, batch vs real-time processing, monitoring\nProject work: from a research question to data collection, modelling, evaluation and documentation\n\n\n\n\n\nUnderstand how text data is collected, preprocessed, and transformed into usable formats\nBe able to select and justify different text representations\nApply NLP methods to extract relevant information from text\nDevelop, train and evaluate text-based models with attention to reproducibility and ethics\nAssess model limitations, interpretability, and risk of errors\nBuild a reproducible, scalable text-data pipeline\nCommunicate results clearly in reports, presentations, and prototype designs"
-  },
-  {
-    "objectID": "components/gen_programming/basics_programming.html",
-    "href": "components/gen_programming/basics_programming.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Basics of Computer Science\n\nBasic Concepts\n\nIntroduction to computer science, basic concepts of operating systems using UNIX/Linux as an example\nFrom problem to algorithm: concept of an algorithm, design of algorithms, pseudocode, refinement, brute-force algorithms, models and modeling, graphs and their representation, simple algorithms on graphs, analysis of algorithms (correctness, termination, runtime)\nImplementation of algorithms (e.g., using Python)\nProgramming paradigms: procedural, object-oriented, and functional programming; recursion versus iteration\nFrom program to process: assembly languages, assembler, compiler, interpreter, syntax and semantics of programming languages\nLimits of algorithms: computability, decidability, undecidability"
-  },
-  {
-    "objectID": "components/gen_softwareengineering/description.html",
-    "href": "components/gen_softwareengineering/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "To summarise the vast range of the skills a software engineer is typically equipped with, we refer to the Guide to the Software Engineering Body of Knowledge (Bourque, Fairley, and IEEE Computer Society 2014). Because research software engineering is an interface discipline, RSEs are often stronger in topics more commonly encountered in research software contexts (e.g., mathematical and engineering foundations) than in other areas (e.g., software engineering economics). However, they bring a solid level of competence in all software engineering topics. Therefore, RSEs can set and analyse software requirements in the context of open-ended, question-driven research. They can design software so that it can sustainably grow, often in an environment of rapid turnover of contributors. They are competent in implementing solutions themselves in a wide range of technologies fit for different scientific applications. They can formulate and implement various types of tests, they can independently maintain software and automate operations of the integration and release process. They can provide working, scalable, and future-proof solutions in a professional context and with common project and software management techniques, adapted to the needs of the research environment. Finally, as people who have often gained significant research experience in a particular discipline, they combine the necessary foundations from their domain with software engineering skills to develop complex software.(Goth et al. 2024)\nThis module tries to lay the foundations for the advanced RSE software engineering training.\n\n\nBourque, Pierre, Richard E. Fairley, and IEEE Computer Society. 2014. Guide to the Software Engineering Body of Knowledge (SWEBOK(R)): Version 3.0. 3rd ed. Washington, DC, USA: IEEE Computer Society Press.\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
-  },
-  {
-    "objectID": "components/gen_softwareengineering/description.html#classical-software-engineering",
-    "href": "components/gen_softwareengineering/description.html#classical-software-engineering",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "To summarise the vast range of the skills a software engineer is typically equipped with, we refer to the Guide to the Software Engineering Body of Knowledge (Bourque, Fairley, and IEEE Computer Society 2014). Because research software engineering is an interface discipline, RSEs are often stronger in topics more commonly encountered in research software contexts (e.g., mathematical and engineering foundations) than in other areas (e.g., software engineering economics). However, they bring a solid level of competence in all software engineering topics. Therefore, RSEs can set and analyse software requirements in the context of open-ended, question-driven research. They can design software so that it can sustainably grow, often in an environment of rapid turnover of contributors. They are competent in implementing solutions themselves in a wide range of technologies fit for different scientific applications. They can formulate and implement various types of tests, they can independently maintain software and automate operations of the integration and release process. They can provide working, scalable, and future-proof solutions in a professional context and with common project and software management techniques, adapted to the needs of the research environment. Finally, as people who have often gained significant research experience in a particular discipline, they combine the necessary foundations from their domain with software engineering skills to develop complex software.(Goth et al. 2024)\nThis module tries to lay the foundations for the advanced RSE software engineering training.\n\n\nBourque, Pierre, Richard E. Fairley, and IEEE Computer Society. 2014. Guide to the Software Engineering Body of Knowledge (SWEBOK(R)): Version 3.0. 3rd ed. Washington, DC, USA: IEEE Computer Society Press.\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
-  },
-  {
-    "objectID": "components/gen_softwareengineering/se2.html",
-    "href": "components/gen_softwareengineering/se2.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "The module covers a selection of advanced topics in the field of software engineering, such as software quality assurance, service engineering, virtualization, programming languages and design, and formal methods in system design."
-  },
-  {
-    "objectID": "components/gen_softwareengineering/se2.html#software-engineering-2",
-    "href": "components/gen_softwareengineering/se2.html#software-engineering-2",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "The module covers a selection of advanced topics in the field of software engineering, such as software quality assurance, service engineering, virtualization, programming languages and design, and formal methods in system design."
-  },
-  {
-    "objectID": "components/mnt_project/description.html",
-    "href": "components/mnt_project/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Applied Research Software Engineering in STEM sciences\nThis lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or"
-  },
-  {
-    "objectID": "components/mnt_project/description.html#science-lab-module",
-    "href": "components/mnt_project/description.html#science-lab-module",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "Applied Research Software Engineering in STEM sciences\nThis lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or"
-  },
-  {
-    "objectID": "components/rse_colloquium/description.html",
-    "href": "components/rse_colloquium/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This lecture series covers current RSE research and provides room for guest lectures and varying focus topics.\n\n\n\nvary between semesters and weeks, but are all related to RSE\n\n\n\n\nstudents get a broad image of RSE in the wild\n\n\n\n\nnone?"
-  },
-  {
-    "objectID": "components/rse_colloquium/description.html#rse-lecture-series",
-    "href": "components/rse_colloquium/description.html#rse-lecture-series",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This lecture series covers current RSE research and provides room for guest lectures and varying focus topics.\n\n\n\nvary between semesters and weeks, but are all related to RSE\n\n\n\n\nstudents get a broad image of RSE in the wild\n\n\n\n\nnone?"
-  },
-  {
-    "objectID": "components/rse_computing/hpc_computing.html",
-    "href": "components/rse_computing/hpc_computing.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "High‑Performance Scientific Computing\n\nModule Overview\nBuilding on “Basic Scientific Computing”, this module dives deeper into scalable algorithms, architectures, and software engineering techniques required to run large‑scale simulations and data analysis on high‑performance computing (HPC) systems.\n\n\nIntended Learning Outcomes\nParticipants who successfully complete the module will be able to\n\nClassify scientific problems by their dominant parallel pattern (memory‑parallel, compute‑parallel, task‑parallel).\nMap each class to appropriate numerical libraries and hardware architectures.\nAnalyse floating‑point and algorithmic approximation errors at scale.\nExplain modern HPC hardware features (GPUs, SIMD/AVX, NUMA, high‑speed interconnects) and select relevant optimisation strategies.\nDesign portable, performance‑portable code employing MPI, OpenMP, and accelerator frameworks.\nUse continuous benchmarking to guide sustainable performance evolution of research software.\nPlan for long‑term maintenance, archival, and FAIR publication of large‑scale codes and data.\n\n\n\nSyllabus (Indicative Content)\n\n\n\n\n\n\n\n\nWeek\nTheme\nTopics\n\n\n\n\n1\nParallel Problem Taxonomy\nSparse vs. dense linear algebra · embarrassingly parallel workloads\n\n\n2\nDistributed Memory (MPI)\nDomain decomposition · halo exchange · scalability metrics\n\n\n3\nShared Memory & SIMD\nOpenMP · threading pitfalls · AVX intrinsics\n\n\n4\nAccelerator Programming\nMulti‑GPU kernels · unified memory · portability layers (Kokkos, SYCL)\n\n\n5\nAdvanced I/O & Checkpointing\nParallel file systems · burst buffers · HDF5/ADIOS‑based workflows\n\n\n6\nPerformance Engineering\nRoofline model · continuous & comparative benchmarking · autotuning\n\n\n7\nSustainable HPC Software\nRelease engineering · long‑term archiving · community governance\n\n\n\n\n\nTeaching & Learning Methods\nBlended delivery: interactive lectures (40%), coding workshops on the national cluster (50%), expert seminars (10%).\n\n\nAssessment\n\n\n\n\n\n\n\n\nComponent\nWeight\nDetails\n\n\n\n\nCluster labs\n30%\nSubmission of working MPI/OpenMP/GPU exercises\n\n\nPerformance study\n30%\nRoofline + scaling analysis of an existing code\n\n\nCapstone project\n40%\nImplement & optimise a solver or ML pipeline at scale, plus written report\n\n\n\n\n\nPrerequisites\n\nCompletion of “Basic Scientific Computing” or equivalent experience\nFamiliarity with Linux command line and version control\n\n\n\nKey Resources\n\nreplace CHatGPT fantasies"
-  },
-  {
-    "objectID": "components/rse_management/description.html",
-    "href": "components/rse_management/description.html",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))\n\n\n\n\n\nresearch management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor"
-  },
-  {
-    "objectID": "components/rse_management/description.html#rse-management-and-communication",
-    "href": "components/rse_management/description.html#rse-management-and-communication",
-    "title": "RSE Curriculum (WORK IN PROGRESS)",
-    "section": "",
-    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))\n\n\n\n\n\nresearch management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor"
+    "text": "The master’s thesis is the culminating component of the RSE programme. In this module, students apply the full spectrum of Research Software Engineering skills in a real-world research setting, demonstrating their ability to independently design, implement, and document a computational research contribution.\nThe thesis must address a research question in collaboration with a scientific or applied domain, but its core should include a substantial computational component. This may involve software development, data-intensive research, reproducibility infrastructure, or performance engineering — depending on the chosen topic and specialization.\nEach thesis must be supervised jointly by:\n\nA domain expert (e.g., in physics, life sciences, or humanities)\nAn RSE mentor (who ensures the quality and relevance of the computational contribution)\n\nStudents are expected to follow best practices in software engineering, version control, testing, and documentation. The final submission must include:\n\nA written thesis describing both the scientific and software contributions\nA structured, reproducible code repository\nA presentation and defense in a thesis colloquium\n\nThe colloquium serves as both a public communication exercise and a final evaluation, where students present their project and reflect on challenges and insights gained during the thesis."
   },
   {
     "objectID": "components/rse_philosophy/description.html",
@@ -581,18 +259,347 @@
     "text": "The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved in digitalization projects, institutional development or other non-technical tasks.\n\n\n\nFor a university level study program it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. For this they need a solid understanding in some of the more theoretical fields such as …\n\nphilosophy of science\nsociology of technology\nethics and artificial intelligence\nhuman computer interaction\ndigital humanities\n\n\n\n\nThis module conveys competences in areas such as but not limited to …\n\nconducting and leading research (NEW)\nunderstanding the research cycle (RC)\ninteraction with users and stakeholders (USERS)"
   },
   {
-    "objectID": "components/rse_thesis/description.html",
-    "href": "components/rse_thesis/description.html",
+    "objectID": "components/rse_management/description.html",
+    "href": "components/rse_management/description.html",
     "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "The master’s thesis is the culminating component of the RSE programme. In this module, students apply the full spectrum of Research Software Engineering skills in a real-world research setting, demonstrating their ability to independently design, implement, and document a computational research contribution.\nThe thesis must address a research question in collaboration with a scientific or applied domain, but its core should include a substantial computational component. This may involve software development, data-intensive research, reproducibility infrastructure, or performance engineering — depending on the chosen topic and specialization.\nEach thesis must be supervised jointly by:\n\nA domain expert (e.g., in physics, life sciences, or humanities)\nAn RSE mentor (who ensures the quality and relevance of the computational contribution)\n\nStudents are expected to follow best practices in software engineering, version control, testing, and documentation. The final submission must include:\n\nA written thesis describing both the scientific and software contributions\nA structured, reproducible code repository\nA presentation and defense in a thesis colloquium\n\nThe colloquium serves as both a public communication exercise and a final evaluation, where students present their project and reflect on challenges and insights gained during the thesis."
+    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))\n\n\n\n\n\nresearch management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor"
   },
   {
-    "objectID": "components/rse_thesis/description.html#masters-thesis-module-research-software-engineering-thesis",
-    "href": "components/rse_thesis/description.html#masters-thesis-module-research-software-engineering-thesis",
+    "objectID": "components/rse_management/description.html#rse-management-and-communication",
+    "href": "components/rse_management/description.html#rse-management-and-communication",
     "title": "RSE Curriculum (WORK IN PROGRESS)",
     "section": "",
-    "text": "The master’s thesis is the culminating component of the RSE programme. In this module, students apply the full spectrum of Research Software Engineering skills in a real-world research setting, demonstrating their ability to independently design, implement, and document a computational research contribution.\nThe thesis must address a research question in collaboration with a scientific or applied domain, but its core should include a substantial computational component. This may involve software development, data-intensive research, reproducibility infrastructure, or performance engineering — depending on the chosen topic and specialization.\nEach thesis must be supervised jointly by:\n\nA domain expert (e.g., in physics, life sciences, or humanities)\nAn RSE mentor (who ensures the quality and relevance of the computational contribution)\n\nStudents are expected to follow best practices in software engineering, version control, testing, and documentation. The final submission must include:\n\nA written thesis describing both the scientific and software contributions\nA structured, reproducible code repository\nA presentation and defense in a thesis colloquium\n\nThe colloquium serves as both a public communication exercise and a final evaluation, where students present their project and reflect on challenges and insights gained during the thesis."
+    "text": "This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.\nThis includes but is not limited to:\n\nworking in a team (see TEAM in (Goth et al. 2024))\nteaching RSE-basics (see TEACH in (Goth et al. 2024))\nproject management (see PM in (Goth et al. 2024))\ninteraction with users and other stakeholders (see USERS in (Goth et al. 2024))\n\n\n\n\n\nresearch management\n\nresearch cycle\nopen science, FAIR, FAIR4RS\npublication workflow: obstacles and embargoes\nlegal aspects of research data, e.g. GDPR\npseudonymization/anonymization methods for data privacy\npublic databases\n\nquality control\n\nrequirements engineering\ntrying goals with quality: test-driven development\nbehavior-driven development, Gherkin-Style acceptance testing\nproject folder organization\ncode review principles\n\ncommunication and collaboration\n\ncommunication frameworks, e.g. AIDA, RACE, 7 C’s\npersonality traits and their impact on cooperation\ncollaboration frameworks for remote work\nrealisation and benefits of pair programming and mob/ensemble programming\ntechnical English writing skills: writing in issues and merge requests, code review…\nconflict management, e.g. dealing with researchers that do not listen\nhow to address relevant stakeholders (i.e. users and SEs) with different background knowledge, experience and expectations\nequity, diversity and inclusion principles\n\nteam management\n\nchallenges of transient teams (that only exist for 5-15 hours)\neffects of varying team sizes\nmanagement depending on project size/type\nspecialised roles in a software team\nintercultural and interdisciplinary differences\nteam management methodologies\nimportance of shared values in a RSE team\ndual goals: project vs. personal goal\n\ntime and project management\n\ngoal-setting\nproject management methods, their strengths and weaknesses\nagile (not necessarily Scrum)\nLean & Kanban (Small-Batch Philosophies)\ndivision of tasks into sub-tasks and task-dependencies\niterative workflows\ncontinuous delivery\ncommunication with a manager/supervisor"
+  },
+  {
+    "objectID": "components/rse_computing/hpc_computing.html",
+    "href": "components/rse_computing/hpc_computing.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "High‑Performance Scientific Computing\n\nModule Overview\nBuilding on “Basic Scientific Computing”, this module dives deeper into scalable algorithms, architectures, and software engineering techniques required to run large‑scale simulations and data analysis on high‑performance computing (HPC) systems.\n\n\nIntended Learning Outcomes\nParticipants who successfully complete the module will be able to\n\nClassify scientific problems by their dominant parallel pattern (memory‑parallel, compute‑parallel, task‑parallel).\nMap each class to appropriate numerical libraries and hardware architectures.\nAnalyse floating‑point and algorithmic approximation errors at scale.\nExplain modern HPC hardware features (GPUs, SIMD/AVX, NUMA, high‑speed interconnects) and select relevant optimisation strategies.\nDesign portable, performance‑portable code employing MPI, OpenMP, and accelerator frameworks.\nUse continuous benchmarking to guide sustainable performance evolution of research software.\nPlan for long‑term maintenance, archival, and FAIR publication of large‑scale codes and data.\n\n\n\nSyllabus (Indicative Content)\n\n\n\n\n\n\n\n\nWeek\nTheme\nTopics\n\n\n\n\n1\nParallel Problem Taxonomy\nSparse vs. dense linear algebra · embarrassingly parallel workloads\n\n\n2\nDistributed Memory (MPI)\nDomain decomposition · halo exchange · scalability metrics\n\n\n3\nShared Memory & SIMD\nOpenMP · threading pitfalls · AVX intrinsics\n\n\n4\nAccelerator Programming\nMulti‑GPU kernels · unified memory · portability layers (Kokkos, SYCL)\n\n\n5\nAdvanced I/O & Checkpointing\nParallel file systems · burst buffers · HDF5/ADIOS‑based workflows\n\n\n6\nPerformance Engineering\nRoofline model · continuous & comparative benchmarking · autotuning\n\n\n7\nSustainable HPC Software\nRelease engineering · long‑term archiving · community governance\n\n\n\n\n\nTeaching & Learning Methods\nBlended delivery: interactive lectures (40%), coding workshops on the national cluster (50%), expert seminars (10%).\n\n\nAssessment\n\n\n\n\n\n\n\n\nComponent\nWeight\nDetails\n\n\n\n\nCluster labs\n30%\nSubmission of working MPI/OpenMP/GPU exercises\n\n\nPerformance study\n30%\nRoofline + scaling analysis of an existing code\n\n\nCapstone project\n40%\nImplement & optimise a solver or ML pipeline at scale, plus written report\n\n\n\n\n\nPrerequisites\n\nCompletion of “Basic Scientific Computing” or equivalent experience\nFamiliarity with Linux command line and version control\n\n\n\nKey Resources\n\nreplace CHatGPT fantasies"
+  },
+  {
+    "objectID": "components/rse_colloquium/description.html",
+    "href": "components/rse_colloquium/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This lecture series covers current RSE research and provides room for guest lectures and varying focus topics.\n\n\n\nvary between semesters and weeks, but are all related to RSE\n\n\n\n\nstudents get a broad image of RSE in the wild\n\n\n\n\nnone?"
+  },
+  {
+    "objectID": "components/rse_colloquium/description.html#rse-lecture-series",
+    "href": "components/rse_colloquium/description.html#rse-lecture-series",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This lecture series covers current RSE research and provides room for guest lectures and varying focus topics.\n\n\n\nvary between semesters and weeks, but are all related to RSE\n\n\n\n\nstudents get a broad image of RSE in the wild\n\n\n\n\nnone?"
+  },
+  {
+    "objectID": "components/mnt_project/description.html",
+    "href": "components/mnt_project/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Applied Research Software Engineering in STEM sciences\nThis lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or"
+  },
+  {
+    "objectID": "components/mnt_project/description.html#science-lab-module",
+    "href": "components/mnt_project/description.html#science-lab-module",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Applied Research Software Engineering in STEM sciences\nThis lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or"
+  },
+  {
+    "objectID": "components/gen_softwareengineering/se2.html",
+    "href": "components/gen_softwareengineering/se2.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "The module covers a selection of advanced topics in the field of software engineering, such as software quality assurance, service engineering, virtualization, programming languages and design, and formal methods in system design."
+  },
+  {
+    "objectID": "components/gen_softwareengineering/se2.html#software-engineering-2",
+    "href": "components/gen_softwareengineering/se2.html#software-engineering-2",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "The module covers a selection of advanced topics in the field of software engineering, such as software quality assurance, service engineering, virtualization, programming languages and design, and formal methods in system design."
+  },
+  {
+    "objectID": "components/gen_softwareengineering/description.html",
+    "href": "components/gen_softwareengineering/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "To summarise the vast range of the skills a software engineer is typically equipped with, we refer to the Guide to the Software Engineering Body of Knowledge (Bourque, Fairley, and IEEE Computer Society 2014). Because research software engineering is an interface discipline, RSEs are often stronger in topics more commonly encountered in research software contexts (e.g., mathematical and engineering foundations) than in other areas (e.g., software engineering economics). However, they bring a solid level of competence in all software engineering topics. Therefore, RSEs can set and analyse software requirements in the context of open-ended, question-driven research. They can design software so that it can sustainably grow, often in an environment of rapid turnover of contributors. They are competent in implementing solutions themselves in a wide range of technologies fit for different scientific applications. They can formulate and implement various types of tests, they can independently maintain software and automate operations of the integration and release process. They can provide working, scalable, and future-proof solutions in a professional context and with common project and software management techniques, adapted to the needs of the research environment. Finally, as people who have often gained significant research experience in a particular discipline, they combine the necessary foundations from their domain with software engineering skills to develop complex software.(Goth et al. 2024)\nThis module tries to lay the foundations for the advanced RSE software engineering training.\n\n\nBourque, Pierre, Richard E. Fairley, and IEEE Computer Society. 2014. Guide to the Software Engineering Body of Knowledge (SWEBOK(R)): Version 3.0. 3rd ed. Washington, DC, USA: IEEE Computer Society Press.\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
+  },
+  {
+    "objectID": "components/gen_softwareengineering/description.html#classical-software-engineering",
+    "href": "components/gen_softwareengineering/description.html#classical-software-engineering",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "To summarise the vast range of the skills a software engineer is typically equipped with, we refer to the Guide to the Software Engineering Body of Knowledge (Bourque, Fairley, and IEEE Computer Society 2014). Because research software engineering is an interface discipline, RSEs are often stronger in topics more commonly encountered in research software contexts (e.g., mathematical and engineering foundations) than in other areas (e.g., software engineering economics). However, they bring a solid level of competence in all software engineering topics. Therefore, RSEs can set and analyse software requirements in the context of open-ended, question-driven research. They can design software so that it can sustainably grow, often in an environment of rapid turnover of contributors. They are competent in implementing solutions themselves in a wide range of technologies fit for different scientific applications. They can formulate and implement various types of tests, they can independently maintain software and automate operations of the integration and release process. They can provide working, scalable, and future-proof solutions in a professional context and with common project and software management techniques, adapted to the needs of the research environment. Finally, as people who have often gained significant research experience in a particular discipline, they combine the necessary foundations from their domain with software engineering skills to develop complex software.(Goth et al. 2024)\nThis module tries to lay the foundations for the advanced RSE software engineering training.\n\n\nBourque, Pierre, Richard E. Fairley, and IEEE Computer Society. 2014. Guide to the Software Engineering Body of Knowledge (SWEBOK(R)): Version 3.0. 3rd ed. Washington, DC, USA: IEEE Computer Society Press.\n\n\nGoth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. “Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].” F1000Research 13 (1429). https://doi.org/10.12688/f1000research.157778.1."
+  },
+  {
+    "objectID": "components/gen_programming/basics_programming.html",
+    "href": "components/gen_programming/basics_programming.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Basics of Computer Science\n\nBasic Concepts\n\nIntroduction to computer science, basic concepts of operating systems using UNIX/Linux as an example\nFrom problem to algorithm: concept of an algorithm, design of algorithms, pseudocode, refinement, brute-force algorithms, models and modeling, graphs and their representation, simple algorithms on graphs, analysis of algorithms (correctness, termination, runtime)\nImplementation of algorithms (e.g., using Python)\nProgramming paradigms: procedural, object-oriented, and functional programming; recursion versus iteration\nFrom program to process: assembly languages, assembler, compiler, interpreter, syntax and semantics of programming languages\nLimits of algorithms: computability, decidability, undecidability"
+  },
+  {
+    "objectID": "components/gen_datascience/text2data.html",
+    "href": "components/gen_datascience/text2data.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Introduction to textual data and Natural Language Processing (NLP): key concepts and use cases\nText acquisition and preprocessing: tokenisation, stemming/lemmatisation, stopwords, named entity recognition, text cleaning\nText representations: bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), contextualised embeddings (BERT, RoBERTa, GPT variants)\nText mining and information extraction: key terms, topics, sentiment analysis, relation extraction\nData-to-insight pipelines: from raw text to structured data (CSV/SQL), feature engineering for text data\nModelling and evaluation: classification, regression, sequence models, transformers; evaluation metrics (accuracy, F1, MCC, AUC)\nPrototyping and reproducibility: experiment tracking, versioning, reproducible pipelines (Docker/Kubernetes, MLflow, DVC)\nRisk management and ethics: bias, fairness, data protection (GDPR), transparency, interpretability (LIME, SHAP)\nDeployment and practical applications: API-based models, batch vs real-time processing, monitoring\nProject work: from a research question to data collection, modelling, evaluation and documentation\n\n\n\n\n\nUnderstand how text data is collected, preprocessed, and transformed into usable formats\nBe able to select and justify different text representations\nApply NLP methods to extract relevant information from text\nDevelop, train and evaluate text-based models with attention to reproducibility and ethics\nAssess model limitations, interpretability, and risk of errors\nBuild a reproducible, scalable text-data pipeline\nCommunicate results clearly in reports, presentations, and prototype designs"
+  },
+  {
+    "objectID": "components/gen_datascience/text2data.html#text-to-data",
+    "href": "components/gen_datascience/text2data.html#text-to-data",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Introduction to textual data and Natural Language Processing (NLP): key concepts and use cases\nText acquisition and preprocessing: tokenisation, stemming/lemmatisation, stopwords, named entity recognition, text cleaning\nText representations: bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), contextualised embeddings (BERT, RoBERTa, GPT variants)\nText mining and information extraction: key terms, topics, sentiment analysis, relation extraction\nData-to-insight pipelines: from raw text to structured data (CSV/SQL), feature engineering for text data\nModelling and evaluation: classification, regression, sequence models, transformers; evaluation metrics (accuracy, F1, MCC, AUC)\nPrototyping and reproducibility: experiment tracking, versioning, reproducible pipelines (Docker/Kubernetes, MLflow, DVC)\nRisk management and ethics: bias, fairness, data protection (GDPR), transparency, interpretability (LIME, SHAP)\nDeployment and practical applications: API-based models, batch vs real-time processing, monitoring\nProject work: from a research question to data collection, modelling, evaluation and documentation\n\n\n\n\n\nUnderstand how text data is collected, preprocessed, and transformed into usable formats\nBe able to select and justify different text representations\nApply NLP methods to extract relevant information from text\nDevelop, train and evaluate text-based models with attention to reproducibility and ethics\nAssess model limitations, interpretability, and risk of errors\nBuild a reproducible, scalable text-data pipeline\nCommunicate results clearly in reports, presentations, and prototype designs"
+  },
+  {
+    "objectID": "components/cs_securitycomplexity/description.html",
+    "href": "components/cs_securitycomplexity/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with correctness, security and complexity of algorithms.\n\n\n\n\nMethods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics\n\n\n\n\n\nUnderstand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods\n\n\n\n\n\nEither a written exam (90 minutes).\nOr an oral examination (30 minutes)."
+  },
+  {
+    "objectID": "components/cs_securitycomplexity/description.html#security-information-and-complexity",
+    "href": "components/cs_securitycomplexity/description.html#security-information-and-complexity",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with correctness, security and complexity of algorithms.\n\n\n\n\nMethods for secure and reliable transmission and processing of information, error-correcting coding methods\nFundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications\nNecessary foundations of mathematics and complexity theory are introduced alongside the topics\n\n\n\n\n\nUnderstand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.\nAre familiar with the fundamentals of error-protected transmission and storage of data.\nAre capable of analysing the correctness, security, and complexity of methods\n\n\n\n\n\nEither a written exam (90 minutes).\nOr an oral examination (30 minutes)."
+  },
+  {
+    "objectID": "components/cs_formalmethods/description.html",
+    "href": "components/cs_formalmethods/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.\n\n\n\nThe module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification.\n\n\n\n\n\nUnderstand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods.\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination."
+  },
+  {
+    "objectID": "components/cs_formalmethods/description.html#formal-methods-in-software-engineering",
+    "href": "components/cs_formalmethods/description.html#formal-methods-in-software-engineering",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.\n\n\n\nThe module includes the following topics:\n\nSoftware Quality Assurance: Formal methods for specifying and verifying system properties.\nService Engineering: The role of formal methods in service-based architectures.\nSystem Design: Use of formal methods in system design, focusing on specification and verification.\n\n\n\n\n\nUnderstand and apply formal methods in system design and software engineering.\nAnalyse theoretical and practical problems in modeling and implementation using formal methods.\n\n\n\n\n\nEither a 90-minute written exam.\nOr a 20-30 minute oral examination."
+  },
+  {
+    "objectID": "components/cs_distributedsystems/description.html",
+    "href": "components/cs_distributedsystems/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with distributed IT systems.\n\n\n\nThe module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.\n\n\n\n\n\ncan evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.\n\n\n\n\n\neither 120 min written exam\nor 20-30 min oral examination"
+  },
+  {
+    "objectID": "components/cs_distributedsystems/description.html#distributed-systems",
+    "href": "components/cs_distributedsystems/description.html#distributed-systems",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with distributed IT systems.\n\n\n\nThe module covers a selection of the following topics:\n\nReliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,\nExample: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,\nSecure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.\n\n\n\n\n\ncan evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.\ncan correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.\n\n\n\n\n\neither 120 min written exam\nor 20-30 min oral examination"
+  },
+  {
+    "objectID": "components/cs_compilertechnologies/description.html",
+    "href": "components/cs_compilertechnologies/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)"
+  },
+  {
+    "objectID": "components/cs_compilertechnologies/description.html#programming-languages-and-compiler-techniques",
+    "href": "components/cs_compilertechnologies/description.html#programming-languages-and-compiler-techniques",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.\n\n\n\n\nVirtualization\nProgramming Languages and Design\nSoftware System Security\n\n\n\n\n\ndescribe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts\nuse various approaches in programming languages and compiler technology\n\n\n\n\n\neither a written exam (90-100 minutes)\nor an oral examination (20-30 minutes)\nor a project report (20-30 pages)"
+  },
+  {
+    "objectID": "components/cs_ai/description.html",
+    "href": "components/cs_ai/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with recent research in artificial intelligence.\n\n\n\nThe seminar addresses current research questions in the field of artificial intelligence.\n\n\n\nStudents - are able to define and interpret the special features, limitations, terminology and doctrines in the field of artificial intelligence. The knowledge and understanding gained by students forms the basis for the development and/or application of independent ideas in the field of artificial intelligence in a research-oriented context - have a broad, detailed and critical understanding of the latest state of knowledge in selected specialist areas in the field of artificial intelligence - are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of artificial intelligence in a broader or multidisciplinary context.\n\n\n\n\n30 minute presentation with discussion"
+  },
+  {
+    "objectID": "components/cs_ai/description.html#current-topics-in-artificial-intelligence",
+    "href": "components/cs_ai/description.html#current-topics-in-artificial-intelligence",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with recent research in artificial intelligence.\n\n\n\nThe seminar addresses current research questions in the field of artificial intelligence.\n\n\n\nStudents - are able to define and interpret the special features, limitations, terminology and doctrines in the field of artificial intelligence. The knowledge and understanding gained by students forms the basis for the development and/or application of independent ideas in the field of artificial intelligence in a research-oriented context - have a broad, detailed and critical understanding of the latest state of knowledge in selected specialist areas in the field of artificial intelligence - are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of artificial intelligence in a broader or multidisciplinary context.\n\n\n\n\n30 minute presentation with discussion"
+  },
+  {
+    "objectID": "components/cs_declarativemodelling/description.html",
+    "href": "components/cs_declarativemodelling/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with delarative problem-solving.\n\n\n\nDeclarative problem-solving methods use general problem-solving methods to automatically solve combinatorial (optimisation) problems. In contrast to traditional programming, no programmes are created to solve the problems; instead, the initial problems are simply modelled (formally). Today, general problem-solving systems are capable of solving problems involving several million variables. The resulting systems are now widely used in industry and the natural sciences. The course focuses on the application of declarative problem-solving methods (especially for solving scientific problems) in the context of modelling and implementation projects.\n\n\n\nStudents - are able to define and interpret the special features, limitations, terminology and doctrines in the field of declarative modelling. The students’ knowledge and understanding forms the basis for the development and/or application of independent ideas in the field of declarative modelling in a research-oriented context. - have a broad, detailed and critical understanding of the latest knowledge in selected specialist areas in the field of declarative modelling - are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of declarative modelling in a broader or multidisciplinary context.\n\n\n\n30 minute oral examination."
+  },
+  {
+    "objectID": "components/cs_declarativemodelling/description.html#declarative-modelling",
+    "href": "components/cs_declarativemodelling/description.html#declarative-modelling",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with delarative problem-solving.\n\n\n\nDeclarative problem-solving methods use general problem-solving methods to automatically solve combinatorial (optimisation) problems. In contrast to traditional programming, no programmes are created to solve the problems; instead, the initial problems are simply modelled (formally). Today, general problem-solving systems are capable of solving problems involving several million variables. The resulting systems are now widely used in industry and the natural sciences. The course focuses on the application of declarative problem-solving methods (especially for solving scientific problems) in the context of modelling and implementation projects.\n\n\n\nStudents - are able to define and interpret the special features, limitations, terminology and doctrines in the field of declarative modelling. The students’ knowledge and understanding forms the basis for the development and/or application of independent ideas in the field of declarative modelling in a research-oriented context. - have a broad, detailed and critical understanding of the latest knowledge in selected specialist areas in the field of declarative modelling - are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of declarative modelling in a broader or multidisciplinary context.\n\n\n\n30 minute oral examination."
+  },
+  {
+    "objectID": "components/cs_efficientalgorithms/description.html",
+    "href": "components/cs_efficientalgorithms/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with the design of efficient algorithms.\n\n\n\nArchitecture and implementation of formal systems for developing efficient algorithms, correctness-preserving optimisation, programme verification and synthesis.\n\n\n\nStudents will be familiar with and understand basic techniques of formal programme development and its implementation.\n\n\n\n\nEither a 90-minute written exam.\nOr a 30 minute oral examination."
+  },
+  {
+    "objectID": "components/cs_efficientalgorithms/description.html#design-of-efficient-algorithms",
+    "href": "components/cs_efficientalgorithms/description.html#design-of-efficient-algorithms",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module deals with the design of efficient algorithms.\n\n\n\nArchitecture and implementation of formal systems for developing efficient algorithms, correctness-preserving optimisation, programme verification and synthesis.\n\n\n\nStudents will be familiar with and understand basic techniques of formal programme development and its implementation.\n\n\n\n\nEither a 90-minute written exam.\nOr a 30 minute oral examination."
+  },
+  {
+    "objectID": "components/cs_project/description.html",
+    "href": "components/cs_project/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Applied Research Software Engineering in scientific institutions\nThis lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or"
+  },
+  {
+    "objectID": "components/cs_project/description.html#rse-lab-module",
+    "href": "components/cs_project/description.html#rse-lab-module",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Applied Research Software Engineering in scientific institutions\nThis lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or"
+  },
+  {
+    "objectID": "components/gen_datascience/statistic_data_analysis.html",
+    "href": "components/gen_datascience/statistic_data_analysis.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module focuses on the statistical study and quantitative analysis of the dependence between observed random variables (e.g., yield/production settings; lifespan/treatment type and injury type). Essential foundations for the statistical treatment of such relationships are provided by the linear regression model, which is studied in detail in the first part of the lecture. Within this framework, topics such as estimation, testing, and uncertainty quantification (analysis of variance) are addressed. In the second part, an introduction to advanced methods and approaches for examining relationships is offered, including nonlinear and nonparametric regression models. Additionally, questions of classification and dimensionality reduction are covered."
+  },
+  {
+    "objectID": "components/gen_datascience/statistic_data_analysis.html#statistical-data-analysis",
+    "href": "components/gen_datascience/statistic_data_analysis.html#statistical-data-analysis",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module focuses on the statistical study and quantitative analysis of the dependence between observed random variables (e.g., yield/production settings; lifespan/treatment type and injury type). Essential foundations for the statistical treatment of such relationships are provided by the linear regression model, which is studied in detail in the first part of the lecture. Within this framework, topics such as estimation, testing, and uncertainty quantification (analysis of variance) are addressed. In the second part, an introduction to advanced methods and approaches for examining relationships is offered, including nonlinear and nonparametric regression models. Additionally, questions of classification and dimensionality reduction are covered."
+  },
+  {
+    "objectID": "components/gen_programming/applied_programming.html",
+    "href": "components/gen_programming/applied_programming.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Applied Programming\n\nProcedural Programming Concepts\nProgramming with an imperative-procedural language (such as C):\n\nData types, type casting, control structures, functions and procedures, parameter passing paradigms, call stack\nPointers, arrays, strings, structured types\nErrors and their handling\nDynamic memory management\nProgram libraries\n\n\n\nProgramming in an Object-Oriented Language (e.g., Java)\n\nClasses, objects, constructors\nInheritance, polymorphism, abstract classes/interfaces\nExceptions and exception handling\nNamespaces (packages)\nGeneric classes and types\nProgram libraries"
+  },
+  {
+    "objectID": "components/gen_programming/description.html",
+    "href": "components/gen_programming/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This is an example module to showcase the integration pipeline"
+  },
+  {
+    "objectID": "components/gen_programming/description.html#example-module-fundamentals-of-computer-science",
+    "href": "components/gen_programming/description.html#example-module-fundamentals-of-computer-science",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This is an example module to showcase the integration pipeline"
+  },
+  {
+    "objectID": "components/gen_softwareengineering/se1.html",
+    "href": "components/gen_softwareengineering/se1.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Basic concepts of software engineering, software and product life cycle, process models for the design of large software systems, semantic aspects of domain description, hierarchy, parallelism, real-time and embedded systems as fundamental paradigms, organizational principles of complex software systems, design by contract, patterns in modeling and design methods of quality assurance, evolution and re-engineering, selected languages and tools for process- and object-oriented modeling, methods and languages for object-oriented design, architectures and architectural patterns of software systems, architecture of enterprise applications, design and implementation models in the object-oriented paradigm, e.g., Java 2 SE, design patterns, software testing methods."
+  },
+  {
+    "objectID": "components/gen_softwareengineering/se1.html#software-engineering-i",
+    "href": "components/gen_softwareengineering/se1.html#software-engineering-i",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Basic concepts of software engineering, software and product life cycle, process models for the design of large software systems, semantic aspects of domain description, hierarchy, parallelism, real-time and embedded systems as fundamental paradigms, organizational principles of complex software systems, design by contract, patterns in modeling and design methods of quality assurance, evolution and re-engineering, selected languages and tools for process- and object-oriented modeling, methods and languages for object-oriented design, architectures and architectural patterns of software systems, architecture of enterprise applications, design and implementation models in the object-oriented paradigm, e.g., Java 2 SE, design patterns, software testing methods."
+  },
+  {
+    "objectID": "components/mnt_compwildcard/description.html",
+    "href": "components/mnt_compwildcard/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course."
+  },
+  {
+    "objectID": "components/mnt_compwildcard/description.html#wildcard-computational-science",
+    "href": "components/mnt_compwildcard/description.html#wildcard-computational-science",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.\nThe goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course."
+  },
+  {
+    "objectID": "components/mnt_wildcard/description.html",
+    "href": "components/mnt_wildcard/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module offers RSE students the opportunity to deepen their understanding of a scientific discipline outside of their home domain. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its research practices, core questions, and data/software challenges.\nThe goal is to help students become better collaborators by gaining first-hand exposure to the terminology, logic, and needs of another scientific domain. This broadens the student’s ability to apply RSE skills in interdisciplinary teams and unfamiliar environments.\nThe module may consist of lectures, lab sessions, and domain-specific mini-projects. RSEs are encouraged to reflect on how software engineering, data handling, reproducibility, and tooling intersect with the chosen discipline.\nThis module is deliberately flexible to accommodate institutional offerings and student interests as well as providing the option to stay attached to the identity of the chosen discipline."
+  },
+  {
+    "objectID": "components/mnt_wildcard/description.html#wildcard-science-module",
+    "href": "components/mnt_wildcard/description.html#wildcard-science-module",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module offers RSE students the opportunity to deepen their understanding of a scientific discipline outside of their home domain. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its research practices, core questions, and data/software challenges.\nThe goal is to help students become better collaborators by gaining first-hand exposure to the terminology, logic, and needs of another scientific domain. This broadens the student’s ability to apply RSE skills in interdisciplinary teams and unfamiliar environments.\nThe module may consist of lectures, lab sessions, and domain-specific mini-projects. RSEs are encouraged to reflect on how software engineering, data handling, reproducibility, and tooling intersect with the chosen discipline.\nThis module is deliberately flexible to accommodate institutional offerings and student interests as well as providing the option to stay attached to the identity of the chosen discipline."
+  },
+  {
+    "objectID": "components/rse_computing/description.html",
+    "href": "components/rse_computing/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably."
+  },
+  {
+    "objectID": "components/rse_computing/description.html#rse-computing",
+    "href": "components/rse_computing/description.html#rse-computing",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably."
+  },
+  {
+    "objectID": "components/rse_computing/scientific_computing.html",
+    "href": "components/rse_computing/scientific_computing.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "Basic Scientific Computing\n\nModule Overview\nThis module provides an entry‑level yet rigorous foundation in scientific computing for graduate students and researchers who need to design, implement, and evaluate computational experiments. Learners gain an awareness of the numerical underpinnings of modern simulation and data‑driven research, with an emphasis on writing reproducible, efficient, and trustworthy code.\n\n\nIntended Learning Outcomes\nBy the end of the module participants will be able to\n\nBenchmark small programs and interpret performance metrics in a research context.\nExplain how approximation theory and floating‑point arithmetic affect numerical accuracy and stability.\nIdentify when to use established simulation libraries (e.g. BLAS/LAPACK, PETSc, Trilinos) instead of custom code.\nWrite simple GPU kernels and describe the core principles of accelerator programming.\nSubmit and monitor batch & array jobs on a mid‑size compute cluster.\nDescribe common HPC challenges—such as I/O bottlenecks, threading, and NUMA—and propose mitigation strategies.\nMaintain research software through continuous benchmarking.\n\n\n\nSyllabus (Indicative Content)\n\n\n\n\n\n\n\n\nWeek\nTheme\nTopics\n\n\n\n\n1\nBenchmarking & Profiling\nTiming strategies · micro vs. macro benchmarks · tooling overview\n\n\n2\nPrecision & Approximation\nIEEE‑754 recap · conditioning & stability · error propagation\n\n\n3\nScientific Libraries\nBLAS/LAPACK anatomy · hierarchical I/O libraries · overview of PETSc/Trilinos/Hypre\n\n\n4\nGPU Primer\nKernel model · memory hierarchy · CUDA/OpenCL/PyTorch lightning intro\n\n\n5\nWorking on a Cluster\nSlurm basics · job arrays · job dependencies · simple Bash launchers\n\n\n6\nHPC Pitfalls\nI/O throughput · thread oversubscription · NUMA awareness\n\n\n7\nSoftware Maintenance\nRegression + performance tests · continuous benchmarking pipelines\n\n\n\n\n\nTeaching & Learning Methods\nShort lectures (30%) are coupled with hands‑on labs (70%). Students complete weekly notebooks and a mini‑project that reproduces and optimises a published computational result.\n\n\nAssessment\n\n\n\nComponent\nWeight\nDetails\n\n\n\n\nContinuous labs\n40%\nWeekly graded notebooks\n\n\nFinal mini‑project\n60%\nReport, code, and benchmark suite\n\n\n\n\n\nPrerequisites\n\nBasic programming in Python, C/C++, or Julia\nUndergraduate calculus & linear algebra\n\n\n\nKey Resources\nChatGPT fantasy"
+  },
+  {
+    "objectID": "components/rse_missingsemester/description.html",
+    "href": "components/rse_missingsemester/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).\n\n\n\nThe module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography\n\n\n\n\nBuilding on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities\n\n\n\n\n\nFinally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024))."
+  },
+  {
+    "objectID": "components/rse_missingsemester/description.html#rse-nuts-and-bolts",
+    "href": "components/rse_missingsemester/description.html#rse-nuts-and-bolts",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module, inspired by the MIT Missing Semester, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSE).\n\n\n\nThe module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:\n\nShell tools and scripting\nCommand-line environments\nEditors and IDEs (e.g., Vim)\nVersion control (Git)\nData wrangling\nDebugging and profiling\nMetaprogramming\nSecurity and cryptography\n\n\n\n\nBuilding on these foundations, the module introduces RSE-specific concepts and good practices:\n\nVersion control and collaboration\n\nGit for code history, collaboration, and issue tracking\n\nVirtualization concepts\n\nContainerization and environment management\n\nThe Data Life Cycle\n\nManaging research data and understanding data provenance\n\nGood coding practices\n\nReproducible and testable code\nMeaningful documentation and error messages\nModular software design\nPerformance-conscious coding\nEasily installable and distributable software\nCoding standards, formatting, and linting\n\nSoftware management planning\n\nWriting Data and Software Management Plans\nSustainable development and community involvement\n\nLow-level programming\n\nIntroduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management\n\nLong-term software maintenance\n\nVersion tracking, bug management, and sustainability strategies\nBuilding and maintaining research software communities\n\n\n\n\n\nFinally, the module touches on practices that support the scholarly nature of research software:\n\nSoftware publication and citation (see SP in (Goth et al. 2024))\nUse of domain-specific repositories and registries (see DOMREP in (Goth et al. 2024))\n\nBy the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.\nThe module is made up of two seminars that the students take at different stages in their master’s program: In the first seminar during their first semester, students mainly learn new concepts and get to know essential tools, whereas the second seminar in the third semester focuses on teaching others about research software and the development process of it (see TEACH in (Goth et al. 2024))."
+  },
+  {
+    "objectID": "components/rse_softwareengineering/description.html",
+    "href": "components/rse_softwareengineering/description.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to\n\nsoftware re-use (see SRU in (Goth et al. 2024))\ncreating documented code building blocks (see DOCBB in (Goth et al. 2024))\nbuilding distributable software (see DIST in (Goth et al. 2024))\nresearch specific programming languages\nresearch specific code requirements (scalability, functional programming, …)\nAdapting the software life cycle to research (see SWLC in (Goth et al. 2024))\nSoftware behaviour awareness and analysis (see MOD in (Goth et al. 2024))\nResearch specific Engineering Patterns\n\nAlso, the seminar provides room for reflection and discussions of SE lab experiences."
+  },
+  {
+    "objectID": "components/rse_softwareengineering/description.html#rse-software-engineering",
+    "href": "components/rse_softwareengineering/description.html#rse-software-engineering",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to\n\nsoftware re-use (see SRU in (Goth et al. 2024))\ncreating documented code building blocks (see DOCBB in (Goth et al. 2024))\nbuilding distributable software (see DIST in (Goth et al. 2024))\nresearch specific programming languages\nresearch specific code requirements (scalability, functional programming, …)\nAdapting the software life cycle to research (see SWLC in (Goth et al. 2024))\nSoftware behaviour awareness and analysis (see MOD in (Goth et al. 2024))\nResearch specific Engineering Patterns\n\nAlso, the seminar provides room for reflection and discussions of SE lab experiences."
+  },
+  {
+    "objectID": "event/fachgruppentreffen/world_cafe.html",
+    "href": "event/fachgruppentreffen/world_cafe.html",
+    "title": "RSE Curriculum (WORK IN PROGRESS)",
+    "section": "",
+    "text": "3-4 Gruppen\n\nWelche Informatikvertiefungen sollten drin sein\nGelingensfaktoren vs. Fail Cases?\nArt der Einführung, beste Vorgehensweise\nKarrierewege für Track 1, und welche Anforderungen werden gestellt"
   },
   {
     "objectID": "event/kickoff-workshops/workshops.html",
