@@ -1,0 +1,12 @@
+sources:
+  curricula:
+    - name: 
+      link: 
+  courses:
+    - name: 
+      link: 
+  programs:
+    - name: Uni Würzburg Master Physik
+      link: "https://www.physik.uni-wuerzburg.de/studium/master/physik/"
+    - name: Uni Würzburg Master Chemie
+      link: "https://www.chemie.uni-wuerzburg.de/studium/studiengaenge/chemie/master/aufbau/"
