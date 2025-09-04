@@ -2,7 +2,7 @@ entries:
   - name: "RSE Master Thesis"
     description: ""
     type: "Thesis"
-    sws: 10
+    sws: 0
     ects: 30
     group: 1
     quarto_filename: ""

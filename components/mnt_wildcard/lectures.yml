@@ -3,22 +3,22 @@ entries:
     description: ""
     type: "Lecture"
     sws: 2
-    ects: 3
+    ects: 2
     group: 1
     quarto_filename: ""
   - name: "Wildcard Science II"
     description: ""
     type: "Lecture"
     sws: 2
-    ects: 3
+    ects: 2
     group: 2
     quarto_filename: ""
     depends_on: ["Wildcard Science I"]
   - name: "Wildcard Science Lab I"
     description: ""
     type: "Lab"
-    sws: 4
-    ects: 6
+    sws: 2
+    ects: 4
     group: 3
     quarto_filename: ""
     depends_on: ["Wildcard Science I"]
@@ -26,7 +26,8 @@ entries:
     description: ""
     type: "Lab"
     sws: 2
-    ects: 2
+    ects: 4
     group: 2
     quarto_filename: ""
+    depends_on: ["Wildcard Science II"]
     optional: true

@@ -7,7 +7,7 @@ This module deals with recent research in artificial intelligence.
 
 ### Contents
 
-The course addresses current research questions in the field of artificial intelligence.
+The seminar addresses current research questions in the field of artificial intelligence.
 
 
 ### Learning Objectives
@@ -20,5 +20,4 @@ Students
 
 ### Examination Methods
 
-- Either a 90-minute written exam.
-- Or a 30 minute oral examination.
+- 30 minute presentation with discussion

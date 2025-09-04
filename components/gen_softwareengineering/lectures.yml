@@ -17,13 +17,13 @@ entries:
     description: ""
     type: "Lecture"
     sws: 2
-    ects: 4
+    ects: 2
     group: 2
     quarto_filename: "se2.qmd"
   - name: "Software Engineering II Exercise"
     description: ""
     type: "Exercise"
     sws: 2
-    ects: 2
+    ects: 4
     group: 2
     quarto_filename: ""

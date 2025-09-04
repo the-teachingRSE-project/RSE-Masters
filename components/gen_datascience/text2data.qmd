@@ -1,0 +1,25 @@
+## Text to Data
+
+### Contents
+
+- Introduction to textual data and Natural Language Processing (NLP): key concepts and use cases
+- Text acquisition and preprocessing: tokenisation, stemming/lemmatisation, stopwords, named entity recognition, text cleaning
+- Text representations: bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), contextualised embeddings (BERT, RoBERTa, GPT variants)
+- Text mining and information extraction: key terms, topics, sentiment analysis, relation extraction
+- Data-to-insight pipelines: from raw text to structured data (CSV/SQL), feature engineering for text data
+- Modelling and evaluation: classification, regression, sequence models, transformers; evaluation metrics (accuracy, F1, MCC, AUC)
+- Prototyping and reproducibility: experiment tracking, versioning, reproducible pipelines (Docker/Kubernetes, MLflow, DVC)
+- Risk management and ethics: bias, fairness, data protection (GDPR), transparency, interpretability (LIME, SHAP)
+- Deployment and practical applications: API-based models, batch vs real-time processing, monitoring
+- Project work: from a research question to data collection, modelling, evaluation and documentation
+
+
+### Learning outcomes
+
+- Understand how text data is collected, preprocessed, and transformed into usable formats
+- Be able to select and justify different text representations
+- Apply NLP methods to extract relevant information from text
+- Develop, train and evaluate text-based models with attention to reproducibility and ethics
+- Assess model limitations, interpretability, and risk of errors
+- Build a reproducible, scalable text-data pipeline
+- Communicate results clearly in reports, presentations, and prototype designs

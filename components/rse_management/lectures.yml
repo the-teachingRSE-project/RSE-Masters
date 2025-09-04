@@ -1,18 +1,18 @@
 entries:
-  - name: "RSE-Management Lecture"
+  - name: "RSE Management Lecture"
     description: "This is an introductory lecture covering research, project and team management techniques an RSE needs in everyday life."
     type: "Lecture"
     sws: 2
-    ects: 3
+    ects: 2
     group: 1
     quarto_filename: ""
     optional: False
     semester: 1
-  - name: "RSE-Management Exercise"
+  - name: "RSE Management Exercise"
     description: "This is an exercise to apply and practice the taught methods with case-studys, role-plays etc."
     type: "Exercise"
     sws: 2
-    ects: 3
+    ects: 2
     group: 1
     quarto_filename: ""
     optional: False
