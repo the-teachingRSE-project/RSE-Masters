@@ -1,10 +1,4 @@
-sources:
-  curricula:
-    - name: 
-      link: 
-  courses:
-    - name: 
-      link: 
+sources: 
   programs:
     - name: Uni Würzburg Master Physik
       link: "https://www.physik.uni-wuerzburg.de/studium/master/physik/"
