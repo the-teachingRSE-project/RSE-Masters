@@ -19,12 +19,13 @@ class Component:
 
 
 class Lecture:
-    def __init__(self, type, name, ects, sws, component, lecture_group_title=None):
+    def __init__(self, type, name, ects, sws, component, sem_in_profile=0, lecture_group_title=None):
         self.type = type
         self.name = name
         self.ects = ects
         self.sws = sws
         self.component = component
+        self.semester = sem_in_profile
         if lecture_group_title is not None:
             self.lecture_group_title = lecture_group_title
 

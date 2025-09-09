@@ -21,10 +21,18 @@ def load_profile(profile, dependencies):
             lname2Component[lecture.name] = component
 
     semester_profiles = profile["profile"]["semesters"]
+    print(semester_profiles)
 
     semesters = []
     for n, sem_lectures in semester_profiles.items():
-        mapped_lectures = [lname2Lecture[k] for k in sem_lectures]
+        #print(n, sem_lectures)
+        mapped_lectures = []
+        for k in sem_lectures:
+            mlec = lname2Lecture[k]
+            mlec.semester = n
+            mapped_lectures.append(mlec)
+        #mapped_lectures = [lname2Lecture[k] for k in sem_lectures]
+        #print(mapped_lectures)
         semester = Semester(n,mapped_lectures)
         semesters.append(semester)
 

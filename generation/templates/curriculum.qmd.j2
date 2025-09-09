@@ -13,15 +13,12 @@
 
 ## Suggested Course Program
 
+| Type | Description | SWS | Sem 1 | Sem 2 | Sem 3 | Sem 4 |
+|------|-------------|-----|------|------|------|------|
 {% for semester in curriculum.semesters %}
-### Semester {{ semester.number }}
-
-| Type | Description | SWS | ECTS |
-|------|-------------|-----|------|
 {%- for lecture in semester.lectures %}
-| {{ lecture.type }} | {{ lecture.name }} | {{ lecture.sws }} | {{ lecture.ects }} |
+| {{ lecture.type }} | {{ lecture.name }} | {{ lecture.sws }} | {% if semester.number == 1 %} {{ lecture.ects }} {% else %} {% endif %} | {% if semester.number == 2 %} {{ lecture.ects }} {% else %} {% endif %} | {% if semester.number == 3 %} {{ lecture.ects }} {% else %} {% endif %} | {% if semester.number == 4 %} {{ lecture.ects }} {% else %} {% endif %} |
 {%- endfor %}
-**Total ECTS: {{ semester.total_ects() }}**
 
 {% endfor %}
 
