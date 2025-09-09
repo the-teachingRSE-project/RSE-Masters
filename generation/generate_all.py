@@ -21,8 +21,10 @@ if __name__ == "__main__":
     module_summaries, dependencies = process_components()
     if args.generate == "true":
         optimal_solution = create_curriculum_solver(dependencies)
+        print("generating curriculum...")
+        generate_curriculum(module_summaries, optimal_solution, args.profile)
     else:
         ## load profiles
-        optimal_solution = load_profile(args.profile, dependencies)
-    print("generating curriculum...")
-    generate_curriculum(module_summaries, optimal_solution, args.profile)
+        curriculum, plan = load_profile(args.profile, dependencies)
+        print("generating curriculum...")
+        generate_curriculum(module_summaries, curriculum, plan, args.profile)

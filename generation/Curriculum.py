@@ -17,15 +17,17 @@ class Component:
             new_lecture = Lecture(lec["type"], lec["name"], lec["ects"], lec["sws"], self)
             self.lectures.append(new_lecture)
 
-
 class Lecture:
-    def __init__(self, type, name, ects, sws, component, sem_in_profile=0, lecture_group_title=None):
+    def __init__(self, type, name, ects, sws, component, ects_in_sem_1=0, ects_in_sem_2=0, ects_in_sem_3=0, ects_in_sem_4=0, lecture_group_title=None):
         self.type = type
         self.name = name
         self.ects = ects
         self.sws = sws
         self.component = component
-        self.semester = sem_in_profile
+        self.ects_in_sem_1 = ects_in_sem_1
+        self.ects_in_sem_2 = ects_in_sem_2
+        self.ects_in_sem_3 = ects_in_sem_3
+        self.ects_in_sem_4 = ects_in_sem_4
         if lecture_group_title is not None:
             self.lecture_group_title = lecture_group_title
 
@@ -45,6 +47,11 @@ class Semester:
     def add_lecture(self, lecture):
         self.lectures.append(lecture)
 
+class Study_plan:
+    def __init__(self, lectures=None):
+        self.lectures: List[Lecture] = []
+        if lectures is not None:
+            self.lectures = lectures
 
 class Curriculum:
     def __init__(self, semesters=None):

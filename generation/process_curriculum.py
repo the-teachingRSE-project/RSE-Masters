@@ -10,7 +10,7 @@ env = Environment(loader=FileSystemLoader(template_dir))
 curriculum_template = env.get_template("curriculum.qmd.j2")
 
 
-def generate_curriculum(module_summaries, curriculum, profile):
+def generate_curriculum(module_summaries, curriculum, plan, profile):
     try:
         """
 
@@ -27,6 +27,7 @@ def generate_curriculum(module_summaries, curriculum, profile):
 
         curriculum_render = curriculum_template.render(
             curriculum=curriculum,
+            plan=plan,
             **competence_data,
             modules=module_summaries,
             profile=profile
