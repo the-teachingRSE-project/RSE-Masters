@@ -11,19 +11,14 @@
 
 :::
 
-## Suggested Course Program
+## Suggested Study Plan
 
-{% for semester in curriculum.semesters %}
-### Semester {{ semester.number }}
-
-| Type | Description | SWS | ECTS |
-|------|-------------|-----|------|
-{%- for lecture in semester.lectures %}
-| {{ lecture.type }} | {{ lecture.name }} | {{ lecture.sws }} | {{ lecture.ects }} |
+| Type | Description | SWS | Sem 1 | Sem 2 | Sem 3 | Sem 4 |
+|------|--------------------|-----|-----|-----|-----|-----|
+{%- for lecture in plan.lectures %}
+| {{ lecture.type }} | {{ lecture.name }} | {{ lecture.sws }} | {{ lecture.ects_in_sem_1 }} | {{ lecture.ects_in_sem_2 }} | {{ lecture.ects_in_sem_3 }} | {{ lecture.ects_in_sem_4 }} |
 {%- endfor %}
-**Total ECTS: {{ semester.total_ects() }}**
-
-{% endfor %}
+| | Total ECTS per semester | | {{curriculum.semesters[0].total_ects() }} | {{curriculum.semesters[1].total_ects() }} | {{curriculum.semesters[2].total_ects() }} | {{curriculum.semesters[3].total_ects() }} | 
 
 **Total Curriculum ECTS: {{ curriculum.total_ects() }}**
 
