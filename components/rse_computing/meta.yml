@@ -3,6 +3,7 @@ meta:
   profiles:
     - mnt
     - cs
+    - rwth
   name: Scientific (High-Performance) Computing
   depends_on: [gen_prog]
   wildcard: False

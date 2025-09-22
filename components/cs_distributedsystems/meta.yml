@@ -3,6 +3,7 @@ meta:
   profiles:
     - cs
     - up
+    - rwth
   level: master
   name: Distributed Systems
   depends_on: []

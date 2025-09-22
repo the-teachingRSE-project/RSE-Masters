@@ -1,9 +1,22 @@
 sources:
+  programs:
+    - name: RWTH Informatik Bachelor
+      link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
+    - name: RWTH Informatik Master
+      link: "https://www.rwth-aachen.de/go/id/bcfg"
   courses:
     - name: "RSE Leadership Course"
       link: "https://events.humanitix.com/rse-leadership-course"
     - name: "Professionelles Projektmanagement in der Praxis"
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-i45-H-2024.pdf"
+    - name: Communication Psychology
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+    - name: Grundlagen des Management
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+    - name: Software-Projektmanagement
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
+    - name: Projektmanagement
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
   course_literature:
     - name: "Remote Mob Programming"
       link: "https://leanpub.com/remotemobprogramming"

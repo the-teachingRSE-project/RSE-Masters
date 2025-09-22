@@ -2,3 +2,12 @@ sources:
   programs:
     - name: Uni Potsdam Master Bioinformatik
       link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/bioinformatics"
+    - name: RWTH Informatik Bachelor
+      link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
+    - name: RWTH Informatik Master
+      link: "https://www.rwth-aachen.de/go/id/bcfg"
+  courses:
+    - name: Computational Chemistry
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+    - name: Computational Physics
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"

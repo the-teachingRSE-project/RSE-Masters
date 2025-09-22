@@ -5,6 +5,7 @@ meta:
     - cs
     - up
     - jmuw
+    - rwth
   level: master
   name: RSE Philosophy
   depends_on: []

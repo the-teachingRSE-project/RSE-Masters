@@ -1,4 +1,11 @@
 sources:
   courses:
-    - name: JMUW Philosophische Grundlagen der Wissenschaften
+    - name: Philosophische Grundlagen der Wissenschaften
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-B1-127-N-2015.pdf"
+    - name: Einführung in die Wissenschaftstheorie
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+    - name: Ethics, technology, and data
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+  programs:
+    - name: RWTH Informatik Bachelor
+      link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"

@@ -3,5 +3,6 @@ meta:
   profiles:
       - cs
       - jmuw
+      - rwth
   name: RSE Lab Project
   wildcard: False

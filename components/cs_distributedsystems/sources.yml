@@ -3,11 +3,15 @@ sources:
     - name: 
       link: 
   courses:
-    - name: UP Verteilte Systeme
+    - name: Verteilte Systeme
       link: "https://puls.uni-potsdam.de"
+    - name: Theory of Distributed Systems
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
   programs:
     - name: UP Computational Science Master
       link: "https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/informatikcomputational-science"
+    - name: RWTH Informatik Master
+      link: "https://www.rwth-aachen.de/go/id/bcfg"
   course_literature:
-    - name: TODO
+    - name: 
       link: "..."

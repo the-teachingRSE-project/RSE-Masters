@@ -7,9 +7,15 @@ sources:
       link: https://viralinstruction.com/posts/hardware/
     - name: HPC Computing
       link: https://en.cs.uni-paderborn.de/hpc/teaching/courses/ss-2024/introduction-to-high-performance-computing
+    - name: High-Performance Computing
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
   programs:
     - name: HPC-carpentry
       link: https://www.hpc-carpentry.org/index.html
+    - name: RWTH Informatik Bachelor
+      link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
+    - name: RWTH Informatik Master
+      link: "https://www.rwth-aachen.de/go/id/bcfg"
   course_literature:
     - name: What every computer scientist should know about floating-point arithmetic
       link: https://dl.acm.org/doi/10.1145/103162.103163

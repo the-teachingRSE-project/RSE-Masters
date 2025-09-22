@@ -6,6 +6,8 @@ sources:
       link: "https://puls.uni-potsdam.de"
     - name: Programmieren für Data Scientists Python
       link: "https://studip.uni-goettingen.de/dispatch.php/course/details/index/d5e09a9298492991a57d59c7b2f09f98"
+    - name: Elements of Machine Learning and Data Science
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
   programs:
     - name: UP Data Science
       link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/data-science"
@@ -13,6 +15,8 @@ sources:
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/"
     - name: JMUW Informatik Master
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
+    - name: RWTH Informatik Bachelor
+      link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
   curricula:
     - name: Emppfehlungen Masterstudiengänge Data Science
       link: "https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf"

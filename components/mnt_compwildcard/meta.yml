@@ -2,5 +2,6 @@ meta:
   id: mnt-comp-science
   profiles:
       - mnt
+      - rwth
   name: Computational Science Wildcard
   depends_on: [gen_prog, gen_ds]
