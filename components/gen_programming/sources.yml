@@ -3,14 +3,16 @@ sources:
     - name: Computing Curricula 2020
       link: "https://dl.acm.org/doi/book/10.1145/3467967"
   courses:
-    - name: UP Grundlagen der Programmierung
+    - name: Grundlagen der Programmierung
       link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
-    - name: UP Praxis der Programmierung
+    - name: Praxis der Programmierung
       link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
     - name: Python for Psychologists
       link: "https://peerherholz.github.io/Python_for_Psychologists_Winter2021/index.html"
     - name: Grundlagen der Informatik
       link: "https://ekvv.uni-bielefeld.de/sinfo/publ/modul/50702407"
+    - name: Grundlagen der Programmierung
+      link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf"
     - name: Programmierung
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
   programs:

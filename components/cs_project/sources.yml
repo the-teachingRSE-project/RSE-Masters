@@ -7,6 +7,10 @@ sources:
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
     - name: Praktikum
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
+    - name: Softwarepraktikum
+      link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf"
+    - name: Praktikum Software Engineering
+      link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf"
   programs:
     - name: JMUW Informatik Bachelor
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/"

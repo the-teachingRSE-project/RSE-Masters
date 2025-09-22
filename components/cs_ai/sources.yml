@@ -5,11 +5,13 @@ sources:
   courses:
     - name: UP Aktuelle Themen der Künstlichen Intelligenz
       link: "https://puls.uni-potsdam.de"
+    - name: Aktuelle Themen der Informatik
+      link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf"
   programs:
     - name: UP Computational Science Master
       link: "https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/informatikcomputational-science"
     - name: JMUW Informatik Master
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
   course_literature:
-    - name: TODO
+    - name: 
       link: "..."

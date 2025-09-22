@@ -5,6 +5,8 @@ sources:
   courses:
     - name: Software Engineering I
       link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+    - name: Software Engineering
+      link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf"
     - name: Softwaretechnik
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
   programs:

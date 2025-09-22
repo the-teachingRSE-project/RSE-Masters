@@ -4,10 +4,12 @@ sources:
       link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
     - name: RWTH Informatik Master
       link: "https://www.rwth-aachen.de/go/id/bcfg"
+    - name: JMUW Informatik Master
+      link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
   courses:
-    - name: "RSE Leadership Course"
+    - name: RSE Leadership Course
       link: "https://events.humanitix.com/rse-leadership-course"
-    - name: "Professionelles Projektmanagement in der Praxis"
+    - name: Professionelles Projektmanagement in der Praxis
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-i45-H-2024.pdf"
     - name: Communication Psychology
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
@@ -18,17 +20,17 @@ sources:
     - name: Projektmanagement
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
   course_literature:
-    - name: "Remote Mob Programming"
+    - name: Remote Mob Programming
       link: "https://leanpub.com/remotemobprogramming"
-    - name: "Code with the Wisdom of the Crowd"
+    - name: Code with the Wisdom of the Crowd
       link: "https://pragprog.com/titles/mpmob/code-with-the-wisdom-of-the-crowd/"
-    - name: "Collaboration Explained"
+    - name: Collaboration Explained
       link: "https://www.buecher.de/artikel/ebook/collaboration-explained-ebook-pdf/37826058/"
-    - name: "Team Topologies"
+    - name: Team Topologies
       link: "https://www.thalia.de/shop/home/artikeldetails/A1053461194"
-    - name: "Technical Agile Coaching with the Samman method"
+    - name: Technical Agile Coaching with the Samman method
       link: "https://leanpub.com/techagilecoach"
-    - name: "Lean Product and Process Development"
+    - name: Lean Product and Process Development
       link: "https://www.abebooks.de/9781934109434/Lean-Product-Process-Development-Ward-1934109436/plp"
-    - name: "Extreme Programming Explained"
+    - name: Extreme Programming Explained
       link: "https://www.pearson.de/extreme-programming-explained-embrace-change-9780134051994"
