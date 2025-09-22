@@ -1,7 +1,7 @@
 meta:
   id: cs_formal_meth
   profiles:
-    - rse
+    - cs
     - up
   level: master
   name: Formal Methods in Software Engineering

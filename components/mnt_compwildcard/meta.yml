@@ -1,7 +1,6 @@
 meta:
   id: mnt-comp-science
   profiles:
-      - science
-      - rse
+      - mnt
   name: Computational Science Wildcard
   depends_on: [gen_prog, gen_ds]

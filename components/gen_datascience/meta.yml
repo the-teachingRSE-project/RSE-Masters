@@ -1,8 +1,8 @@
 meta:
   id: gen_ds
   profiles:
-      - science
-      - rse
+      - mnt
+      - cs
       - up
   level: master
   name: Data Science

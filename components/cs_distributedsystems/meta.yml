@@ -1,7 +1,7 @@
 meta:
   id: cs_dist_syst
   profiles:
-    - rse
+    - cs
     - up
   level: master
   name: Distributed Systems

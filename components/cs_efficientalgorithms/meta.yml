@@ -1,7 +1,7 @@
 meta:
   id: cs_eff_alg
   profiles:
-    - rse
+    - cs
     - up
   level: master
   name: Design of Efficient Algorithms

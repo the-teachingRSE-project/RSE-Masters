@@ -2,8 +2,5 @@ meta:
   id: rse_project
   profiles:
       - cs
-      - rse
-  level: master
   name: RSE Lab Project
   wildcard: False
-  semester: 2

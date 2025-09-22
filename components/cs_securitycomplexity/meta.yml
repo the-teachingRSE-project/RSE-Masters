@@ -1,7 +1,7 @@
 meta:
   id: cs_sec_complexity
   profiles:
-    - rse
+    - cs
     - up
   level: master
   name: Security, Information and Complexity

@@ -1,7 +1,7 @@
 meta:
   id: cs_compiler_tech
   profiles:
-    - rse
+    - cs
     - up
   level: master
   name: Programming Languages and Compiler Technology

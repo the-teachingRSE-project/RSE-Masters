@@ -1,8 +1,8 @@
 meta:
   id: cs_ai
   profiles:
-    - rse
+    - cs
     - up
   level: master
-  name: Current topics in artificial intelligence
+  name: Current Topics in Artificial Intelligence
   depends_on: []

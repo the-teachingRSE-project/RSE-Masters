@@ -1,6 +1,6 @@
 meta:
   id: mnt-science
   profiles:
-      - science
-      - rse
+      - mnt
+      - cs
   name: Science Wildcard

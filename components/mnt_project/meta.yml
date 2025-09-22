@@ -1,7 +1,6 @@
 meta:
   id: mnt-project
   profiles:
-      - science
-      - rse
+      - mnt
   name: Science Lab
   depends_on: [mnt1]

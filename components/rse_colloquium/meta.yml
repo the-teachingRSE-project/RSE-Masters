@@ -1,9 +1,6 @@
 meta:
   id: rse_colloq
   profiles:
-    - rse
+    - cs
     - mnt
-    - up
-  level: master
   name: RSE Lecture Series
-  depends_on: []

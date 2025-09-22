@@ -1,8 +1,8 @@
 meta:
   id: rse_engineering
   profiles:
-    - science
-    - rse
+    - mnt
+    - cs
     - up
   level: master
   name: RSE Software Engineering
