@@ -9,6 +9,10 @@ sources:
   programs:
     - name: UP Data Science
       link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/data-science"
+    - name: JMUW Informatik Bachelor
+      link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/"
+    - name: JMUW Informatik Master
+      link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
   curricula:
     - name: Emppfehlungen Masterstudiengänge Data Science
       link: "https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf"

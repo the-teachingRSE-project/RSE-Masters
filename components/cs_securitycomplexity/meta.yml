@@ -3,6 +3,7 @@ meta:
   profiles:
     - cs
     - up
+    - jmuw
   level: master
   name: Security, Information and Complexity
   depends_on: []

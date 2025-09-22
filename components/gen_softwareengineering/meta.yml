@@ -4,5 +4,6 @@ meta:
       - mnt
       - cs
       - up
+      - jmuw
   name: Software Engineering
   depends_on: []

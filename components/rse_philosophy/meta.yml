@@ -4,6 +4,7 @@ meta:
     - mnt
     - cs
     - up
+    - jmuw
   level: master
   name: RSE Philosophy
   depends_on: []

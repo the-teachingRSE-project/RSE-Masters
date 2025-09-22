@@ -2,6 +2,8 @@ sources:
   courses:
     - name: "RSE Leadership Course"
       link: "https://events.humanitix.com/rse-leadership-course"
+    - name: "Professionelles Projektmanagement in der Praxis"
+      link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-i45-H-2024.pdf"
   course_literature:
     - name: "Remote Mob Programming"
       link: "https://leanpub.com/remotemobprogramming"

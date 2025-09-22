@@ -3,4 +3,5 @@ meta:
   profiles:
     - mnt
     - cs
+    - jmuw
   name: RSE-Management

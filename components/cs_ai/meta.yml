@@ -3,6 +3,7 @@ meta:
   profiles:
     - cs
     - up
+    - jmuw
   level: master
   name: Current Topics in Artificial Intelligence
   depends_on: []

@@ -4,5 +4,6 @@ meta:
     - mnt
     - cs
     - up
+    - jmuw
   name: Basics of Programming
   depends_on: []

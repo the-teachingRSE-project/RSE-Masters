@@ -2,5 +2,6 @@ meta:
   id: rse_project
   profiles:
       - cs
+      - jmuw
   name: RSE Lab Project
   wildcard: False
