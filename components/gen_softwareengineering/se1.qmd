@@ -1,4 +1,4 @@
-## Software Engineering I
+### Software Engineering I
 
 Basic concepts of software engineering, software and product life cycle, process models for the design of large software systems,
 semantic aspects of domain description, hierarchy, parallelism, real-time and embedded systems as fundamental paradigms,

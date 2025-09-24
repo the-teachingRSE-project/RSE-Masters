@@ -3,7 +3,7 @@
 
 #### Module Overview
 
-Building on “Basic Scientific Computing”, this module dives deeper into **scalable algorithms, architectures, and software engineering techniques** required to run large‑scale simulations and data analysis on high‑performance computing (HPC) systems.
+Building on "Basic Scientific Computing", this module dives deeper into **scalable algorithms, architectures, and software engineering techniques** required to run large‑scale simulations and data analysis on high‑performance computing (HPC) systems.
 
 #### Intended Learning Outcomes
 
@@ -43,7 +43,7 @@ Blended delivery: interactive lectures (40%), coding workshops on the national c
 
 #### Prerequisites
 
-- Completion of “Basic Scientific Computing” **or** equivalent experience
+- Completion of "Basic Scientific Computing" **or** equivalent experience
 - Familiarity with Linux command line and version control
 
 #### Key Resources

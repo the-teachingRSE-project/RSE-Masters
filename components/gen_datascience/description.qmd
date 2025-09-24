@@ -1,0 +1,3 @@
+## Data Science
+
+This module covers the mathematical foundations of data science, introduces the students to statistical data analysis and text processing.

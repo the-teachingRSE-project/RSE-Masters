@@ -1,48 +1,37 @@
 entries:
   - name: "Mathematical Foundations of Data Science"
-    description: "The module provides mathematical foundations in the field of Data Science. Topics include a selection from the areas of graph analysis, stochastic models, and signal analysis using wavelets."
     type: "Lecture"
     sws: 2
     ects: 2
-    group: 1
-    quarto_filename: ""
+    quarto_filename: "math_found_data.qmd"
     optional: True
   - name: "Mathematical Foundations of Data Science Exercise"
     type: "Exercise"
     sws: 2
     ects: 4
-    group: 1
     quarto_filename: ""
     optional: True
   - name: "Statistical Data Analysis"
-    description: ""
     type: "Lecture"
     sws: 4
     ects: 6
-    group: 2
     quarto_filename: "statistic_data_analysis.qmd"
     optional: True
   - name: "Statistical Data Analysis Exercise"
-    description: ""
     type: "Exercise"
     sws: 2
     ects: 3
-    group: 2
-    quarto_filename: "statistic_data_analysis.qmd"
+    quarto_filename: ""
     optional: True
   - name: "Text2Data Exercise"
-    description: ""
     type: "Exercise"
     sws: 2
     ects: 2
-    group: 4
     quarto_filename: "text2data.qmd"
     optional: True
   - name: "Text2Data"
-    description: ""
     type: "Lecture"
     sws: 2
     ects: 4
-    group: 4
-    quarto_filename: "text2data.qmd"
+    quarto_filename: ""
     optional: True

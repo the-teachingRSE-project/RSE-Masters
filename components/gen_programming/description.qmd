@@ -1,4 +1,3 @@
-## Example Module: Fundamentals of Computer Science
+## Fundamentals of Computer Science
 
-This is an example module to showcase the integration pipeline
-
+This module covers the basics of computer science and introduces the students from domain sciences to programming.
