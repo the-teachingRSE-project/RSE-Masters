@@ -4,14 +4,14 @@ sources:
       link: https://dl.acm.org/doi/book/10.1145/3467967
   courses:
     - name: Software Engineering I
-      link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+      link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf"
     - name: Software Engineering
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf"
     - name: Softwaretechnik
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
   programs:
-    - name: UP Computational Science Master
-      link: "https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/informatik"
+    - name: UP Informatik/Computational Science Bachelor
+      link: "https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor"
     - name: JMUW Informatik Bachelor
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/"
     - name: RWTH Informatik Bachelor

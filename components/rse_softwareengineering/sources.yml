@@ -1,4 +1,7 @@
 sources:
+  courses:
+    - name: Research Software Engineering
+      link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf"
   programs:
     - name: UP Computational Science Master
-      link: "https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/informatik"
+      link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science"

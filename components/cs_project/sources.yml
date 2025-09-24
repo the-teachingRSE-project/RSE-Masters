@@ -11,6 +11,10 @@ sources:
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf"
     - name: Praktikum Software Engineering
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf"
+    - name: Praktikum
+      link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf"
+    - name: Interdisziplinäre Projektarbeit
+      link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf"
   programs:
     - name: JMUW Informatik Bachelor
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/"
@@ -20,6 +24,10 @@ sources:
       link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
     - name: RWTH Informatik Master
       link: "https://www.rwth-aachen.de/go/id/bcfg"
+    - name: UP Informatik/Computational Science Bachelor
+      link: "https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor"
+    - name: UP Computational Science Master
+      link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science"
   course_literature:
     - name:
       link: 

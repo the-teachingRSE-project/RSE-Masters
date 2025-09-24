@@ -3,5 +3,6 @@ meta:
   profiles:
       - mnt
       - rwth
+      - up
   name: Computational Science Wildcard
   depends_on: [gen_prog, gen_ds]

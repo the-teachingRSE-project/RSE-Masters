@@ -3,9 +3,9 @@ meta:
   profiles:
     - mnt
     - cs
-    - up
     - jmuw
     - rwth
+    - up
   level: master
   name: RSE Philosophy
   depends_on: []

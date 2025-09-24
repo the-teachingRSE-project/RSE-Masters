@@ -3,11 +3,11 @@ sources:
     - name: 
       link: 
   courses:
-    - name: UP Sicherheit, Information und Komplexität
-      link: "https://puls.uni-potsdam.de"
+    - name: Sicherheit, Information und Komplexität
+      link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf"
   programs:
     - name: UP Computational Science Master
-      link: "https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/informatikcomputational-science"
+      link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science"
     - name: JMUW Informatik Bachelor
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/"
     - name: JMUW Informatik Master

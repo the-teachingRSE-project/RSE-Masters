@@ -6,6 +6,11 @@ sources:
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
     - name: Ethics, technology, and data
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+    - name: Basismodul Grundlagen der Theoretischen Philosophie
+      link: "https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/philosophie"
   programs:
     - name: RWTH Informatik Bachelor
       link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
+  course_literature:
+    - name: Values in Science
+      link: "https://www.lehmanns.de/shop/naturwissenschaften/58997490-9781009055635-values-in-science"

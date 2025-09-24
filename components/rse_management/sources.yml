@@ -19,6 +19,8 @@ sources:
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
     - name: Projektmanagement
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
+    - name: Organizational Behavior & Human Resource Management
+      link: "https://www.uni-potsdam.de/de/fop2/studium-und-lehre/bachelorveranstaltungen/organizational-behavior-und-hrm"
   course_literature:
     - name: Remote Mob Programming
       link: "https://leanpub.com/remotemobprogramming"
