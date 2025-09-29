@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>description – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>cs_complexitytheory – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,7 +28,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -211,27 +230,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="formal-methods-in-software-engineering" class="level2">
-<h2 class="anchored" data-anchor-id="formal-methods-in-software-engineering">Formal Methods in Software Engineering</h2>
+<section id="complexity-theory" class="level2">
+<h2 class="anchored" data-anchor-id="complexity-theory">Complexity Theory</h2>
 <section id="introduction" class="level3">
 <h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>This module covers advanced topics in Software Engineering with a focus on formal methods for specification, modeling, and verification.</p>
+<p>This module covers advanced complexity theory.</p>
 </section>
 <section id="contents" class="level3">
 <h3 class="anchored" data-anchor-id="contents">Contents</h3>
 <p>The module includes the following topics:</p>
 <ul>
-<li>Software Quality Assurance: Formal methods for specifying and verifying system properties.</li>
-<li>Service Engineering: The role of formal methods in service-based architectures.</li>
-<li>System Design: Use of formal methods in system design, focusing on specification and verification.</li>
+<li>Deterministic, non-deterministic, probabilistic and parallel computational models</li>
+<li>Complexity classes; reductions</li>
+<li>Complexity of approximation problems</li>
+<li>Selection of advanced topics such as interactive proofs, derandomisation, circuit complexity, communication complexity, parametric complexity</li>
+<li>Properties of NP-complete sets, autoreducibility, polynomial time hierarchy</li>
+<li>complexity of probabilistic algorithms.</li>
 </ul>
 </section>
 <section id="learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
-<ul>
-<li>Understand and apply formal methods in system design and software engineering.</li>
-<li>Analyse theoretical and practical problems in modeling and implementation using formal methods.</li>
-</ul>
+<p>Students are able to analyse the correctness, security and complexity of processes. Students will be able to classify algorithmic problems according to their complexity. Students will be able to analyse the relationship between different complexity classes.</p>
 </section>
 <section id="examination-methods" class="level3">
 <h3 class="anchored" data-anchor-id="examination-methods">Examination Methods</h3>
@@ -239,8 +258,82 @@ ul.task-list li input[type="checkbox"] {
 <li>Either a 90-minute written exam.</li>
 <li>Or a 20-30 minute oral examination.</li>
 </ul>
+<p><strong>Lecture</strong>: Complexity Theory</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
+<p><strong>Exercise</strong>: Complexity Theory Exercise</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
+</section>
+<section id="module-competences" class="level3">
+<h3 class="anchored" data-anchor-id="module-competences">Module Competences</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Description</th>
+<th>Disciplines</th>
+<th>Prerequisites</th>
+<th>Evidence</th>
+<th>Author</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>formal_methods_1</td>
+<td>apply formal methods in system design and software engineering.</td>
+<td>Computer Science</td>
+<td>Basic knowledge of software engineering.</td>
+<td>Submit application of formal methods for a given software system.</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de">Link</a></td>
+</tr>
+<tr class="even">
+<td>formal_methods_2</td>
+<td>Analyse theoretical and practical problems in modelling and implementation using formal methods together with others.</td>
+<td>Computer Science</td>
+<td>Basic knowledge of formal methods.</td>
+<td>Participate in self-regulated team exercises and presentations.</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de">Link</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sources-implementations" class="level3">
+<h3 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h3>
+<section id="curricula" class="level4">
+<h4 class="anchored" data-anchor-id="curricula">Curricula</h4>
+<ul>
+<li><a href="None">None</a></li>
+</ul>
+</section>
+<section id="courses" class="level4">
+<h4 class="anchored" data-anchor-id="courses">Courses</h4>
+<ul>
+<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1975&amp;pDocNr=14085970">Komplexitätstheorie</a></p></li>
+<li><p><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Sicherheit, Information und Komplexität</a></p></li>
+<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf">Komplexitätstheorie II</a></p></li>
+</ul>
+</section>
+<section id="recommended-course-literature" class="level4">
+<h4 class="anchored" data-anchor-id="recommended-course-literature">Recommended Course Literature</h4>
+<ul>
+<li><a href="None">None</a></li>
+</ul>
+</section>
+<section id="programs" class="level4">
+<h4 class="anchored" data-anchor-id="programs">Programs</h4>
+<ul>
+<li><p><a href="https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science">UP Computational Science Master</a></p></li>
+<li><p><a href="https://www.rwth-aachen.de/go/id/bcfg">RWTH Informatik Master</a></p></li>
+<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/">JMUW Informatik Master</a></p></li>
+</ul>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
 </section>
 </section>
 

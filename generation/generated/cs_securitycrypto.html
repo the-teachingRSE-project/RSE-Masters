@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>description – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>cs_securitycrypto – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,7 +28,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -211,27 +230,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="security-information-and-complexity" class="level2">
-<h2 class="anchored" data-anchor-id="security-information-and-complexity">Security, Information and Complexity</h2>
+<section id="it-security-and-cryptography" class="level2">
+<h2 class="anchored" data-anchor-id="it-security-and-cryptography">IT-Security and Cryptography</h2>
 <section id="introduction" class="level3">
 <h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>This module deals with correctness, security and complexity of algorithms.</p>
+<p>This module deals with IT-security and cryptography.</p>
 </section>
 <section id="contents" class="level3">
 <h3 class="anchored" data-anchor-id="contents">Contents</h3>
-<ul>
-<li>Methods for secure and reliable transmission and processing of information, error-correcting coding methods</li>
-<li>Fundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications</li>
-<li>Necessary foundations of mathematics and complexity theory are introduced alongside the topics</li>
-</ul>
+<p>The course offers a broad overview of concepts and technologies relevant to IT security: - Theoretical aspects: security in information theory and computability, introduction to cryptography (historical and modern ciphers, hash functions, pseudo-random number generators, message authentication codes, public-key cryptography) - Network security: security of protocols and TCP/IP, public key infrastructure, user authentication, Kerberos, IPsec, TLS protocol, SSH, DNS Security, Email Security, and Phishing Attacks. - Software security: security vulnerabilities, common programming errors and techniques for exploiting them, reverse engineering and obfuscation, malware and anti-malware - Platform security: access control models, security policies, operating system security, virtualisation, security mechanisms with hardware support - Methods for secure and reliable transmission and processing of information, error-correcting coding methods - Fundamentals of cryptographic systems, methods for information analysis, complexity aspects, applications - Necessary foundations of mathematics and complexity theory are introduced alongside the topics - Private key cryptosystems, Vernam one-time pad, AES, perfect security, public key cryptosystems, RSA, Diffie-Hellman, Elgamal, Goldwasser-Micali, digital signature, challenge-response procedure, secret sharing, millionaire problem, secure circuit evaluation, homomorphic encryption - Symmetric Encryption, Integrity protection, Asymmetric Encryption, Digital Signatures, Certificates and Public Key Infrastructures, and Authentication and Key Agreement</p>
 </section>
 <section id="learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
-<ul>
-<li>Understand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis.</li>
-<li>Are familiar with the fundamentals of error-protected transmission and storage of data.</li>
-<li>Are capable of analysing the correctness, security, and complexity of methods</li>
-</ul>
+<p>Students are able to - understand the mathematical foundations of secure and reliable information processing and their complexity-theoretical basis - are capable of analysing thesecurity of methods - model threats and evaluate the security of systems critically from the attacker’s perspective - understand the purpose and functioning of some security technologies and be aware of their limitations - select and apply appropriate cryptographic primitives in different application scenarios - select suitable security protocols for a given scenario and configure the relevant options for the cryptographic building blocks used within these protocols - identify security requirements and adequate security mechanisms in various application domains - identify potential weaknesses in security protocols not covered in detail during the course and propose appropriate fixes - assess the severity of novel attacks against security protocols and cryptographic primitives</p>
 </section>
 <section id="examination-methods" class="level3">
 <h3 class="anchored" data-anchor-id="examination-methods">Examination methods</h3>
@@ -239,8 +250,86 @@ ul.task-list li input[type="checkbox"] {
 <li>Either a written exam (90 minutes).</li>
 <li>Or an oral examination (30 minutes).</li>
 </ul>
+<p><strong>Lecture</strong>: Security and Cryptography</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
+<p><strong>Exercise</strong>: Security and Cryptography Exercise</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
+</section>
+<section id="module-competences" class="level3">
+<h3 class="anchored" data-anchor-id="module-competences">Module Competences</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Description</th>
+<th>Disciplines</th>
+<th>Prerequisites</th>
+<th>Evidence</th>
+<th>Author</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>sec_complex_1</td>
+<td>explain the necessity and methods of error-protected transmission and storage of data</td>
+<td>Computer Science</td>
+<td></td>
+<td>describe and apply the taught methods to given examples</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de">Link</a></td>
+</tr>
+<tr class="even">
+<td>sec_complex_2</td>
+<td>analyse the correctness, security and complexity of algorithms</td>
+<td>Computer Science</td>
+<td></td>
+<td>Submit a written analysis for a given algorithm</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de">Link</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sources-implementations" class="level3">
+<h3 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h3>
+<section id="curricula" class="level4">
+<h4 class="anchored" data-anchor-id="curricula">Curricula</h4>
+<ul>
+<li><a href="None">None</a></li>
+</ul>
+</section>
+<section id="courses" class="level4">
+<h4 class="anchored" data-anchor-id="courses">Courses</h4>
+<ul>
+<li><p><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Sicherheit, Information und Komplexität</a></p></li>
+<li><p><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Resiliente Systeme</a></p></li>
+<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1975&amp;pDocNr=14085970">IT-Sicherheit I</a></p></li>
+<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1975&amp;pDocNr=14085970">Algorithmische Kryptographie</a></p></li>
+<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf">Einführung in die IT-Sicherheit</a></p></li>
+<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf">Kryptographie und Datensicherheit</a></p></li>
+</ul>
+</section>
+<section id="recommended-course-literature" class="level4">
+<h4 class="anchored" data-anchor-id="recommended-course-literature">Recommended Course Literature</h4>
+<ul>
+<li><a href="None">None</a></li>
+</ul>
+</section>
+<section id="programs" class="level4">
+<h4 class="anchored" data-anchor-id="programs">Programs</h4>
+<ul>
+<li><p><a href="https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science">UP Computational Science Master</a></p></li>
+<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/">JMUW Informatik Bachelor</a></p></li>
+<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/">JMUW Informatik Master</a></p></li>
+<li><p><a href="https://www.rwth-aachen.de/go/id/bcfg">RWTH Informatik Master</a></p></li>
+</ul>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
 </section>
 </section>
 
