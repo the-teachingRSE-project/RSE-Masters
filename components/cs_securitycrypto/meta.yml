@@ -1,9 +1,10 @@
 meta:
-  id: cs_sec_complexity
+  id: cs_sec_crypto
   profiles:
     - cs
     - up
     - jmuw
+    - rwth
   level: master
-  name: Security, Information and Complexity
+  name: Security and Cryptography
   depends_on: []

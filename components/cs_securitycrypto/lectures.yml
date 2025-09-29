@@ -1,0 +1,11 @@
+entries:
+  - name: "Security and Cryptography"
+    description: ""
+    type: "Lecture"
+    sws: 2
+    ects: 2
+  - name: "Security and Cryptography Exercise"
+    description: ""
+    type: "Exercise"
+    sws: 2
+    ects: 4

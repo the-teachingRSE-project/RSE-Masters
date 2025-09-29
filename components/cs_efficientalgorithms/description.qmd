@@ -2,17 +2,21 @@
 
 ### Introduction
 
-This module deals with the design of efficient algorithms.
+This module deals with efficient algorithms, optimisation, and approximation algorithms.
 
 
 ### Contents
 
-Architecture and implementation of formal systems for developing efficient algorithms, correctness-preserving optimisation, programme verification and synthesis.
+Architecture and implementation of formal systems for the design of efficient algorithms, correctness-preserving optimisation, programme verification and synthesis.
+Design and analysis of approximation algorithms.
 
 
 ### Learning Objectives
 
 Students will be familiar with and understand basic techniques of formal programme development and its implementation.
+Students will be able to anticipate efficiency problems when designing algorithms and respond accordingly.
+Students will write better programmes that are highly optimised in their runtime-critical areas.
+Students will be able to analyse simple approximation methods in terms of their quality. They understand basic design techniques such as greedy, local search, scaling and methods based on linear programming and can also apply these to new problems.
 
 
 ### Examination Methods

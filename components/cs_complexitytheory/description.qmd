@@ -1,0 +1,27 @@
+## Complexity Theory
+
+### Introduction
+
+This module covers advanced complexity theory.
+
+### Contents
+
+The module includes the following topics:
+
+- Deterministic, non-deterministic, probabilistic and parallel computational models
+- Complexity classes; reductions
+- Complexity of approximation problems
+- Selection of advanced topics such as interactive proofs, derandomisation, circuit complexity, communication complexity, parametric complexity
+- Properties of NP-complete sets, autoreducibility, polynomial time hierarchy
+- complexity of probabilistic algorithms.
+
+### Learning Objectives
+
+Students are able to analyse the correctness, security and complexity of processes.
+Students will be able to classify algorithmic problems according to their complexity.
+Students will be able to analyse the relationship between different complexity classes.
+
+### Examination Methods
+
+- Either a 90-minute written exam.
+- Or a 20-30 minute oral examination.

@@ -1,17 +1,14 @@
 entries:
-  - name: "Efficient Algorithms"
-    description: ""
+  - name: "Complexity Theory"
     type: "Lecture"
     sws: 2
     ects: 2
-    group: 1
     quarto_filename: ""
     optional: False
-  - name: "Efficient Algorithms Exercise"
-    description: ""
+  
+  - name: "Complexity Theory Exercise"
     type: "Exercise"
     sws: 2
     ects: 4
-    group: 1
     quarto_filename: ""
     optional: False

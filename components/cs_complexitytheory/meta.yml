@@ -1,10 +1,10 @@
 meta:
-  id: cs_eff_alg
+  id: cs_complexity_theory
   profiles:
     - cs
     - up
     - rwth
     - jmuw
   level: master
-  name: Efficient Algorithms
+  name: Complexity Theory
   depends_on: []
