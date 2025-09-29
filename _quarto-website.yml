@@ -25,7 +25,7 @@ website:
       - text: "Glossary"
         href: general/glossary.qmd
       - text: "Repository"
-        href: "https://github.com/the-teachingRSE-project/RSE-Masters/tree/tschira-funding"
+        href: "https://github.com/the-teachingRSE-project/RSE-Masters/tree/main"
 
 
 format:
