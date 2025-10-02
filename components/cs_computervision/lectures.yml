@@ -1,10 +1,12 @@
 entries:
-  - name: "Distributed Systems"
+  - name: "Computer Vision"
+    description: ""
     type: "Lecture"
     sws: 2
     ects: 2
     optional: True
-  - name: "Distributed Systems Exercise"
+  - name: "Computer Vision Exercise"
+    description: ""
     type: "Exercise"
     sws: 2
     ects: 4

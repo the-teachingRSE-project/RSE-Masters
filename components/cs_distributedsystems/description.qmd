@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This module deals with distributed IT systems.
+This module deals with distributed IT systems and their performance.
 
 
 ### Contents
@@ -12,12 +12,23 @@ The module covers a selection of the following topics:
 - Reliability of distributed systems: Concepts of distributed file systems, synchronization techniques for reliable distributed applications, concepts of load balancing in high-availability clusters,
 - Example: Sensor networks: Routing in sensor networks, operating systems for sensor networks, security in sensor networks,
 - Secure internet protocols (IP security (IPsec), Pretty Good Privacy (PGP), Secure Socket Layer (SSL), Transport Layer Security (TLS), Secure Shell (SSH), DNS security (DNSsec)), secure IPv6 networks.
+- example: internet of things
+- Traffic theory models, basic concepts of probability theory, transformation methods, stochastic processes, methodology for performance analysis of technical systems, queueing and traffic theory discrete-time and continuous-time Markov chains, analysis of Markov and non-Markov systems, application examples for performance analysis of current computer systems and networks: service quality and other characteristics
+- Algorithms in message-passing systems
+- Leader election and consensus
+- Routing in networks: centralized and distributed approaches
+- Randomized methods for contention resolution and congestion avoidance
+- Contagion and Distributed Network Dynamics
 
 
 ### Learning Objectives
-
+Students
 - can evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities.
 - can correctly identify reliability and security requirements when designing new distributed systems and consider them early in the development process.
+- have the methodological knowledge and practical skills to model technical systems using probability theory and mathematical statistics.
+- describe foundational problems arising in distributed systems and explain algorithmic solutions for these problems.
+- apply general algorithmic design principles like randomized contention resolution and congestion avoidance and to use techniques like load balancing and randomization to solve problems arising in network contexts.
+- model distributed systems in a formal way and to develop algorithmic solutions enabling the efficient usage of computer networks and other distributed systems
 
 
 ### Examination Methods

@@ -1,0 +1,25 @@
+sources:
+  curricula:
+    - name: 
+      link: 
+  courses:
+    - name: Deklarative Modellierung
+      link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf"
+    - name: Deklarative Problemlösung und Optimierung
+      link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf"
+    - name: Logische Programmierung
+      link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf"
+    - name: Foundations of Functional Programming
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
+    - name: Foundations of Logic Programming
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
+  programs:
+    - name: UP Computational Science Master
+      link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science"
+    - name: JMUW Informatik Master
+      link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
+    - name: RWTH Informatik Master
+      link: "https://www.rwth-aachen.de/go/id/bcfg"
+  course_literature:
+    - name: 
+      link: 

@@ -1,0 +1,41 @@
+## Declarative Programming
+
+### Introduction
+
+This module deals with delarative modelling, problem-solving and programming. It can focus on the functional or logial programming paradigm.
+
+
+### Contents
+
+- Logical-relational programming paradigm, top-down evaluation with SLD(NF) resolution. Introduction to the logical programming language Prolog: recursion, predicate-oriented programming, backtracking and cut, side effects, aggregations. Connection to (deductive) databases. Comparison with Datalog and brief introduction to advanced concepts such as constraint logic programming.
+- Predicate logic fundamentals: Unification, Resolution, Horn clauses and SLD resolution
+- Logic programmes: Operational and denotational semantics, Evaluation strategies
+- The Prolog programming language: Negation as failure, Non-logical components of Prolog, Programming techniques
+- Applications and extensions of logic programming
+OR
+- Introduction to the Haskell programming language: Syntax of the various language constructs, Higher-order functions, Programming with lazy evaluation
+- Denotational semantics of functional programmes: Complete orders and fixed points, Denotational semantics of Haskell
+- Lambda calculus: Syntax and operational semantics of lambda calculus, Reduction of Haskell to lambda calculus
+- Type checking and type inference
+
+### Learning Objectives
+
+Students
+- have a broad, detailed and critical understanding of the latest knowledge in selected specialist areas in the field of declarative modelling
+- can implement compact and declarative programmes in Prolog and distinguish this approach from classical imperative programming
+- formally define the semantics of logical programming languages
+- targeted use of logical programming languages in various areas of application
+OR
+Students
+- explain the concepts underlying functional programming languages 
+- learn and apply programming techniques in functional languages
+- formally define the semantics of functional programming languages
+- implement functional languages
+- design type checking procedures for functional languages
+- use functional languages in a targeted manner in various areas of application
+
+
+
+### Examination Methods
+
+60-120 min written exam or 30 minute oral examination.

@@ -1,8 +1,0 @@
-meta:
-  id: cs_declarative_mod
-  profiles:
-    - cs
-    - up
-  level: master
-  name: Declarative Modelling
-  depends_on: []

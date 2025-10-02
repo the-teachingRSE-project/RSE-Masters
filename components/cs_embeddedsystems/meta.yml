@@ -1,10 +1,9 @@
 meta:
-  id: cs_dist_syst
+  id: cs_embedded_syst
   profiles:
     - cs
-    - up
     - rwth
     - jmuw
   level: master
-  name: Distributed Systems
+  name: Embedded Systems
   depends_on: []

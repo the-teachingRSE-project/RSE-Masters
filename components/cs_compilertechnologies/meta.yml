@@ -1,8 +1,0 @@
-meta:
-  id: cs_compiler_tech
-  profiles:
-    - cs
-    - up
-  level: master
-  name: Programming Languages and Compiler Technology
-  depends_on: []

@@ -1,10 +1,10 @@
 entries:
-  - name: "Distributed Systems"
+  - name: "Declarative Programming"
     type: "Lecture"
     sws: 2
     ects: 2
     optional: True
-  - name: "Distributed Systems Exercise"
+  - name: "Declarative Modelling Exercise"
     type: "Exercise"
     sws: 2
     ects: 4
