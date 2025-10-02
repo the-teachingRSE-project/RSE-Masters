@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>cs_compilertechnologies – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>cs_declarativeprogramming – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,7 +64,7 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c00b42e811b0fd9a18ac62455ba22490.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -230,37 +230,36 @@ div.csl-indent {
 </header>
 
 
-<section id="programming-languages-and-compiler-techniques" class="level2">
-<h2 class="anchored" data-anchor-id="programming-languages-and-compiler-techniques">Programming Languages and Compiler Techniques</h2>
+<section id="declarative-programming" class="level2">
+<h2 class="anchored" data-anchor-id="declarative-programming">Declarative Programming</h2>
 <section id="introduction" class="level3">
 <h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.</p>
+<p>This module deals with delarative modelling, problem-solving and programming. It can focus on the functional or logial programming paradigm.</p>
 </section>
 <section id="contents" class="level3">
 <h3 class="anchored" data-anchor-id="contents">Contents</h3>
 <ul>
-<li>Virtualization</li>
-<li>Programming Languages and Design</li>
-<li>Software System Security</li>
+<li>Logical-relational programming paradigm, top-down evaluation with SLD(NF) resolution. Introduction to the logical programming language Prolog: recursion, predicate-oriented programming, backtracking and cut, side effects, aggregations. Connection to (deductive) databases. Comparison with Datalog and brief introduction to advanced concepts such as constraint logic programming.</li>
+<li>Predicate logic fundamentals: Unification, Resolution, Horn clauses and SLD resolution</li>
+<li>Logic programmes: Operational and denotational semantics, Evaluation strategies</li>
+<li>The Prolog programming language: Negation as failure, Non-logical components of Prolog, Programming techniques</li>
+<li>Applications and extensions of logic programming OR</li>
+<li>Introduction to the Haskell programming language: Syntax of the various language constructs, Higher-order functions, Programming with lazy evaluation</li>
+<li>Denotational semantics of functional programmes: Complete orders and fixed points, Denotational semantics of Haskell</li>
+<li>Lambda calculus: Syntax and operational semantics of lambda calculus, Reduction of Haskell to lambda calculus</li>
+<li>Type checking and type inference</li>
 </ul>
 </section>
 <section id="learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
-<ul>
-<li>describe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts</li>
-<li>use various approaches in programming languages and compiler technology</li>
-</ul>
+<p>Students - have a broad, detailed and critical understanding of the latest knowledge in selected specialist areas in the field of declarative modelling - can implement compact and declarative programmes in Prolog and distinguish this approach from classical imperative programming - formally define the semantics of logical programming languages - targeted use of logical programming languages in various areas of application OR Students - explain the concepts underlying functional programming languages - learn and apply programming techniques in functional languages - formally define the semantics of functional programming languages - implement functional languages - design type checking procedures for functional languages - use functional languages in a targeted manner in various areas of application</p>
 </section>
 <section id="examination-methods" class="level3">
 <h3 class="anchored" data-anchor-id="examination-methods">Examination Methods</h3>
-<ul>
-<li>either a written exam (90-100 minutes)</li>
-<li>or an oral examination (20-30 minutes)</li>
-<li>or a project report (20-30 pages)</li>
-</ul>
-<p><strong>Lecture</strong>: Programming Languages and Compiler Technologies</p>
+<p>60-120 min written exam or 30 minute oral examination.</p>
+<p><strong>Lecture</strong>: Declarative Programming</p>
 <p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
-<p><strong>Project</strong>: Programming Languages and Compiler Technologies Project</p>
+<p><strong>Exercise</strong>: Declarative Modelling Exercise</p>
 <p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
 </section>
 <section id="module-competences" class="level3">
@@ -279,20 +278,11 @@ div.csl-indent {
 </thead>
 <tbody>
 <tr class="odd">
-<td>compiler_tech_1</td>
-<td>apply modelling techniques</td>
+<td>declarative_mod_1</td>
+<td>define and interpret the special features, limitations, terminology and doctrines in the field of declarative modelling</td>
 <td>Computer Science</td>
 <td></td>
-<td>develop solutions through technical methods</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de">Link</a></td>
-</tr>
-<tr class="even">
-<td>compiler_tech_2</td>
-<td>analyse problems in given software systems</td>
-<td>Computer Science</td>
-<td></td>
-<td>discuss problems in a team</td>
+<td>develop declarative models for new problems</td>
 <td>University of Potsdam</td>
 <td><a href="https://puls.uni-potsdam.de">Link</a></td>
 </tr>
@@ -310,7 +300,11 @@ div.csl-indent {
 <section id="courses" class="level4">
 <h4 class="anchored" data-anchor-id="courses">Courses</h4>
 <ul>
-<li><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Programmiersprachen und Compilertechnologien</a></li>
+<li><p><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Deklarative Modellierung</a></p></li>
+<li><p><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Deklarative Problemlösung und Optimierung</a></p></li>
+<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf">Logische Programmierung</a></p></li>
+<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1975&amp;pDocNr=14085970">Foundations of Functional Programming</a></p></li>
+<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1975&amp;pDocNr=14085970">Foundations of Logic Programming</a></p></li>
 </ul>
 </section>
 <section id="recommended-course-literature" class="level4">
@@ -322,7 +316,9 @@ div.csl-indent {
 <section id="programs" class="level4">
 <h4 class="anchored" data-anchor-id="programs">Programs</h4>
 <ul>
-<li><a href="https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science">UP Computational Science Master</a></li>
+<li><p><a href="https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science">UP Computational Science Master</a></p></li>
+<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/">JMUW Informatik Master</a></p></li>
+<li><p><a href="https://www.rwth-aachen.de/go/id/bcfg">RWTH Informatik Master</a></p></li>
 </ul>
 <div id="refs" role="list">
 

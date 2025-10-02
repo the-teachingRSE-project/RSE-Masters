@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>description – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>cs_embeddedsystems – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,7 +28,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -45,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c00b42e811b0fd9a18ac62455ba22490.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -211,36 +230,91 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="programming-languages-and-compiler-techniques" class="level2">
-<h2 class="anchored" data-anchor-id="programming-languages-and-compiler-techniques">Programming Languages and Compiler Techniques</h2>
+<section id="embedded-systems" class="level2">
+<h2 class="anchored" data-anchor-id="embedded-systems">Embedded Systems</h2>
 <section id="introduction" class="level3">
 <h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
-<p>This module provides an in-depth understanding of programming languages and compiler technology. Topics covered include lexical analysis, syntax parsing, code generation, and optimisation techniques for compilers. The course includes both theoretical lectures and practical exercises, culminating in a project where students will build a simple compiler.</p>
+<p>Embedded systems control many things in our daily lives. Energy-efficient refrigerators, lift controls and advanced driver assistance systems are just a few examples. Embedded systems also control processes in industrial environments and are used to detect and prevent system failures. This lecture provides a general introduction to the topic of embedded systems and their performance. It presents basic concepts and highlights important differences to “normal” computer systems.</p>
 </section>
 <section id="contents" class="level3">
 <h3 class="anchored" data-anchor-id="contents">Contents</h3>
-<ul>
-<li>Virtualization</li>
-<li>Programming Languages and Design</li>
-<li>Software System Security</li>
-</ul>
+<p>The module covers a selection of the following topics: - security, reliability, formal methods and dynamic systems. - microcontrollers - programmable logic controllers (PLCs) - PLC programming languages - real-time requirements - real-time operating systems - characteristics of embedded software design - intra-vehicle communication (e.g.&nbsp;CAN bus)</p>
 </section>
 <section id="learning-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
-<ul>
-<li>describe paradigms and tools for the specification, development, and quality assurance of modern software systems, as well as their application in different contexts</li>
-<li>use various approaches in programming languages and compiler technology</li>
-</ul>
+<p>Students - can understand the solution to complex problems in embedded systems and apply those to related issues. - describe modern software techniques for embedded systems - apply a model-based, quality-oriented approach to the design of embedded software - recognise special quality requirements for the design of embedded software and take them into account appropriately</p>
 </section>
 <section id="examination-methods" class="level3">
 <h3 class="anchored" data-anchor-id="examination-methods">Examination Methods</h3>
 <ul>
-<li>either a written exam (90-100 minutes)</li>
-<li>or an oral examination (20-30 minutes)</li>
-<li>or a project report (20-30 pages)</li>
+<li>either 120 min written exam</li>
+<li>or 20-30 min oral examination</li>
 </ul>
+<p><strong>Lecture</strong>: Embedded Systems</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
+<p><strong>Exercise</strong>: Embedded Systems Exercise</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
+</section>
+<section id="module-competences" class="level3">
+<h3 class="anchored" data-anchor-id="module-competences">Module Competences</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Description</th>
+<th>Disciplines</th>
+<th>Prerequisites</th>
+<th>Evidence</th>
+<th>Author</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>emb_systems_1</td>
+<td>evalua</td>
+<td>Computer Science</td>
+<td></td>
+<td>Sub</td>
+<td></td>
+<td><a href="">Link</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sources-implementations" class="level3">
+<h3 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h3>
+<section id="curricula" class="level4">
+<h4 class="anchored" data-anchor-id="curricula">Curricula</h4>
+<ul>
+<li><a href="None">None</a></li>
+</ul>
+</section>
+<section id="courses" class="level4">
+<h4 class="anchored" data-anchor-id="courses">Courses</h4>
+<ul>
+<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1975&amp;pDocNr=14085970">Eingebettete Systeme</a></p></li>
+<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf">Ausgewählte Kapitel der Embedded Systems</a></p></li>
+</ul>
+</section>
+<section id="recommended-course-literature" class="level4">
+<h4 class="anchored" data-anchor-id="recommended-course-literature">Recommended Course Literature</h4>
+<ul>
+<li><a href="...">None</a></li>
+</ul>
+</section>
+<section id="programs" class="level4">
+<h4 class="anchored" data-anchor-id="programs">Programs</h4>
+<ul>
+<li><p><a href="https://www.rwth-aachen.de/go/id/bcfg">RWTH Informatik Master</a></p></li>
+<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/">JMUW Informatik Master</a></p></li>
+</ul>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
 </section>
 </section>
 

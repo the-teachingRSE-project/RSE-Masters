@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>gen_datascience – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>description – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,26 +28,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -230,209 +211,35 @@ div.csl-indent {
 </header>
 
 
-<section id="data-science" class="level2">
-<h2 class="anchored" data-anchor-id="data-science">Data Science</h2>
-<p>This module covers the mathematical foundations of data science, introduces the students to statistical data analysis and text processing.</p>
-<section id="mathematical-foundations-of-data-science" class="level3">
-<h3 class="anchored" data-anchor-id="mathematical-foundations-of-data-science">Mathematical Foundations of Data Science</h3>
-<section id="contents" class="level4">
-<h4 class="anchored" data-anchor-id="contents">Contents</h4>
-<p>The module teaches the mathematical fundamentals of data science. Topics include a selection from the areas of graph analysis, stochastic models and signal analysis with wavelets.</p>
+<section id="declarative-programming" class="level2">
+<h2 class="anchored" data-anchor-id="declarative-programming">Declarative Programming</h2>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>This module deals with delarative modelling, problem-solving and programming. It can focus on the functional or logial programming paradigm.</p>
 </section>
-<section id="learning-outcomes" class="level4">
-<h4 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h4>
-<p>Students will acquire comprehensive, detailed and specialised knowledge of the latest findings in selected fundamentals of data science. Students will have an in-depth understanding of selected data science methods. They will be able to analyse novel data assimilation and inference problems, develop and implement solutions, and determine the quality of the solutions. They will be able to develop new ideas and procedures, weigh up alternatives when information is incomplete, and evaluate them taking into account different assessment criteria.</p>
-</section>
-<section id="examination-method" class="level4">
-<h4 class="anchored" data-anchor-id="examination-method">Examination Method:</h4>
-<p>written exam (120 minutes) or oral exam (30 minutes)</p>
-<p><strong>Lecture</strong>: Mathematical Foundations of Data Science</p>
-<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
-<p><strong>Exercise</strong>: Mathematical Foundations of Data Science Exercise</p>
-<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
-</section>
-</section>
-<section id="statistical-data-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="statistical-data-analysis">Statistical Data Analysis</h3>
-<section id="contents-1" class="level4">
-<h4 class="anchored" data-anchor-id="contents-1">Contents</h4>
-<p>This module focuses on the statistical study and quantitative analysis of the dependence between observed random variables (e.g., yield/production settings; lifespan/treatment type and injury type). Essential foundations for the statistical treatment of such relationships are provided by the linear regression model, which is studied in detail in the first part of the lecture. Within this framework, topics such as estimation, testing, and uncertainty quantification (analysis of variance) are addressed. In the second part, an introduction to advanced methods and approaches for examining relationships is offered, including nonlinear and nonparametric regression models. Additionally, questions of classification and dimensionality reduction are covered.</p>
-</section>
-<section id="learning-outcomes-1" class="level4">
-<h4 class="anchored" data-anchor-id="learning-outcomes-1">Learning outcomes</h4>
-<p>Students will acquire a comprehensive, detailed and specialised understanding of the linear regression model based on the latest findings. They will learn basic concepts and methods of non-parametric statistics. They will also be able to solve complex statistical data analysis problems, weigh up alternative modelling approaches and evaluate them according to different criteria. They will be able to use functions from statistical software packages for this purpose.</p>
-</section>
-<section id="examination-method-1" class="level4">
-<h4 class="anchored" data-anchor-id="examination-method-1">Examination method</h4>
-<p>exam (120-180 minutes) or oral exam (30 minutes)</p>
-<p><strong>Lecture</strong>: Statistical Data Analysis</p>
-<p><strong>SWS:</strong> 4 <strong>ECTS:</strong> 6</p>
-<p><strong>Exercise</strong>: Statistical Data Analysis Exercise</p>
-<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 3</p>
-</section>
-</section>
-<section id="text-to-data" class="level3">
-<h3 class="anchored" data-anchor-id="text-to-data">Text to Data</h3>
-<section id="contents-2" class="level4">
-<h4 class="anchored" data-anchor-id="contents-2">Contents</h4>
+<section id="contents" class="level3">
+<h3 class="anchored" data-anchor-id="contents">Contents</h3>
 <ul>
-<li>Introduction to textual data and Natural Language Processing (NLP): key concepts and use cases</li>
-<li>Text acquisition and preprocessing: tokenisation, stemming/lemmatisation, stopwords, named entity recognition, text cleaning</li>
-<li>Text representations: bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), contextualised embeddings (BERT, RoBERTa, GPT variants)</li>
-<li>Text mining and information extraction: key terms, topics, sentiment analysis, relation extraction</li>
-<li>Information Retrieval and Web Search Engines</li>
-<li>Data-to-insight pipelines: from raw text to structured data (CSV/SQL), feature engineering for text data</li>
-<li>Modelling and evaluation: classification, regression, sequence models, transformers; evaluation metrics (accuracy, F1, MCC, AUC)</li>
-<li>Prototyping and reproducibility: experiment tracking, versioning, reproducible pipelines (Docker/Kubernetes, MLflow, DVC)</li>
-<li>Risk management and ethics: bias, fairness, data protection (GDPR), transparency, interpretability (LIME, SHAP)</li>
-<li>Deployment and practical applications: API-based models, batch vs real-time processing, monitoring</li>
-<li>Project work: from a research question to data collection, modelling, evaluation and documentation</li>
+<li>Logical-relational programming paradigm, top-down evaluation with SLD(NF) resolution. Introduction to the logical programming language Prolog: recursion, predicate-oriented programming, backtracking and cut, side effects, aggregations. Connection to (deductive) databases. Comparison with Datalog and brief introduction to advanced concepts such as constraint logic programming.</li>
+<li>Predicate logic fundamentals: Unification, Resolution, Horn clauses and SLD resolution</li>
+<li>Logic programmes: Operational and denotational semantics, Evaluation strategies</li>
+<li>The Prolog programming language: Negation as failure, Non-logical components of Prolog, Programming techniques</li>
+<li>Applications and extensions of logic programming OR</li>
+<li>Introduction to the Haskell programming language: Syntax of the various language constructs, Higher-order functions, Programming with lazy evaluation</li>
+<li>Denotational semantics of functional programmes: Complete orders and fixed points, Denotational semantics of Haskell</li>
+<li>Lambda calculus: Syntax and operational semantics of lambda calculus, Reduction of Haskell to lambda calculus</li>
+<li>Type checking and type inference</li>
 </ul>
 </section>
-<section id="learning-outcomes-2" class="level4">
-<h4 class="anchored" data-anchor-id="learning-outcomes-2">Learning outcomes</h4>
-<ul>
-<li>Understand how text data is collected, preprocessed, and transformed into usable formats</li>
-<li>Be able to select and justify different text representations</li>
-<li>Apply NLP methods to extract relevant information from text</li>
-<li>Develop, train and evaluate text-based models with attention to reproducibility and ethics</li>
-<li>Assess model limitations, interpretability, and risk of errors</li>
-<li>Build a reproducible, scalable text-data pipeline</li>
-<li>Communicate results clearly in reports, presentations, and prototype designs</li>
-</ul>
+<section id="learning-objectives" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
+<p>Students - have a broad, detailed and critical understanding of the latest knowledge in selected specialist areas in the field of declarative modelling - can implement compact and declarative programmes in Prolog and distinguish this approach from classical imperative programming - formally define the semantics of logical programming languages - targeted use of logical programming languages in various areas of application OR Students - explain the concepts underlying functional programming languages - learn and apply programming techniques in functional languages - formally define the semantics of functional programming languages - implement functional languages - design type checking procedures for functional languages - use functional languages in a targeted manner in various areas of application</p>
 </section>
-<section id="examination-method-2" class="level4">
-<h4 class="anchored" data-anchor-id="examination-method-2">Examination method</h4>
-<p>project report (x pages) and presentation (15 minutes)</p>
-<p><strong>Exercise</strong>: Text2Data Exercise</p>
-<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
-<p><strong>Lecture</strong>: Text2Data</p>
-<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
-</section>
-</section>
-<section id="module-competences" class="level3">
-<h3 class="anchored" data-anchor-id="module-competences">Module Competences</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>ID</th>
-<th>Description</th>
-<th>Disciplines</th>
-<th>Prerequisites</th>
-<th>Evidence</th>
-<th>Author</th>
-<th>Source</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>gen_datascience_1</td>
-<td>Possess comprehensive, detailed, and specialized knowledge of selected fundamentals in the field of Data Science</td>
-<td>Data Science</td>
-<td></td>
-<td>Demonstrate knowledge through theoretical exams and practical assignments</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="even">
-<td>gen_datascience_2</td>
-<td>Demonstrate an in-depth understanding of selected Data Science methods</td>
-<td>Data Science</td>
-<td>gen_datascience_1</td>
-<td>Apply Data Science methods in practical projects and case studies</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="odd">
-<td>gen_datascience_3</td>
-<td>Analyze novel data assimilation and inference problems, develop and implement solutions, and assess solution quality</td>
-<td>Data Science</td>
-<td>gen_datascience_2</td>
-<td>Solve complex inference problems and present implemented solutions with evaluation</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="even">
-<td>gen_datascience_4</td>
-<td>Develop new ideas and methods, weigh alternatives under incomplete information, and evaluate them considering different evaluation criteria</td>
-<td>Data Science</td>
-<td>gen_datascience_2</td>
-<td>Present projects showcasing creative problem-solving and alternative evaluations under uncertainty</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="odd">
-<td>gen_statistics_1</td>
-<td>Possess comprehensive, detailed, and specialized understanding of the linear regression model based on the latest research</td>
-<td>Data Science, Statistics</td>
-<td></td>
-<td>Apply linear regression models to practical problems and interpret results</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="even">
-<td>gen_statistics_2</td>
-<td>Understand fundamental concepts and methods of nonparametric statistics</td>
-<td>Data Science, Statistics</td>
-<td>gen_statistics_1</td>
-<td>Solve problems involving nonparametric methods and explain applied techniques</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="odd">
-<td>gen_statistics_3</td>
-<td>Solve complex statistical data analysis problems, evaluate alternative modeling approaches according to various criteria, and use statistical software packages for analysis</td>
-<td>Data Science, Statistics</td>
-<td>gen_statistics_2</td>
-<td>Develop solutions for complex data problems using appropriate statistical methods and software</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="even">
-<td>gen_statistics_4</td>
-<td>Demonstrate academic competences including self-organization, planning skills (identifying work steps), scientific thinking and working techniques (developing solutions for complex questions), discussion of methods, verification of hypotheses, application of mathematical and statistical methods, and use of software packages</td>
-<td>Data Science, Statistics</td>
-<td>gen_statistics_2</td>
-<td>Document project workflows demonstrating planning, analysis, evaluation, and use of statistical software tools</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="sources-implementations" class="level3">
-<h3 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h3>
-<section id="curricula" class="level4">
-<h4 class="anchored" data-anchor-id="curricula">Curricula</h4>
-<ul>
-<li><a href="https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf">Empfehlungen Masterstudiengänge Data Science</a></li>
-</ul>
-</section>
-<section id="courses" class="level4">
-<h4 class="anchored" data-anchor-id="courses">Courses</h4>
-<ul>
-<li><p><a href="https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf">Statistical Data Analysis (MATVMD837)</a></p></li>
-<li><p><a href="https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf">Mathematical Foundations of Data Science (MAT-DSAM8B)</a></p></li>
-<li><p><a href="https://studip.uni-goettingen.de/dispatch.php/course/details/index/d5e09a9298492991a57d59c7b2f09f98">Programmieren für Data Scientists Python</a></p></li>
-<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1970&amp;pDocNr=14085952">Elements of Machine Learning and Data Science</a></p></li>
-<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf">Mathematical Foundations of Data Science</a></p></li>
-<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf">Data Science</a></p></li>
-</ul>
-</section>
-<section id="programs" class="level4">
-<h4 class="anchored" data-anchor-id="programs">Programs</h4>
-<ul>
-<li><p><a href="https://www.uni-potsdam.de/de/studium/studienangebot/master/data-science">UP Data Science Master</a></p></li>
-<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/">JMUW Informatik Bachelor</a></p></li>
-<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/">JMUW Informatik Master</a></p></li>
-<li><p><a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/">RWTH Informatik Bachelor</a></p></li>
-</ul>
-<div id="refs" role="list">
-
-</div>
+<section id="examination-methods" class="level3">
+<h3 class="anchored" data-anchor-id="examination-methods">Examination Methods</h3>
+<p>60-120 min written exam or 30 minute oral examination.</p>
 
 
-</section>
 </section>
 </section>
 
