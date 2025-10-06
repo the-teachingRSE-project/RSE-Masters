@@ -67,7 +67,7 @@ If you are interested in joining any of the teams, we will be happy to hear from
   pip install -r requirements.txt
   ```
 - `python generate_all.py --profile cs` # run the templating logic for the cs track
-- `python generate_all.py --profile website` # run the templating logic for the mnt track (natural sciences)
+- `python generate_all.py --profile mnt` # run the templating logic for the mnt track (natural sciences)
 - `cd ..` # go back in root dir
 - Windows PS:
   - `quarto render --profile doc; quarto preview --profile website`
