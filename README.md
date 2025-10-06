@@ -35,6 +35,12 @@ If you are interested in joining any of the teams, we will be happy to hear from
 - examine files in gen_programming 
 - copy cat the structure
 
+## How to Contribute a new Profile / University Adaptation
+
+- add components (modules) from your university to the list of components or add them as mappings in the sources.yml of existing components
+- create a new [profil_name].yml in generation/profiles
+- run the generation from the generation folder with python generate_all.py --profile cs 
+- add the profile to _quarto-website.yml as a new tab
 
 ## Folder Descriptions
 
