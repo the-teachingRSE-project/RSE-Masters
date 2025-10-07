@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>basics_programming – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>gen_cs – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,7 +28,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -211,10 +230,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="basics-of-computer-science" class="level3">
-<h3 class="anchored" data-anchor-id="basics-of-computer-science">Basics of Computer Science</h3>
-<section id="basic-concepts" class="level4">
-<h4 class="anchored" data-anchor-id="basic-concepts">Basic Concepts</h4>
+<section id="fundamentals-of-computer-science" class="level2">
+<h2 class="anchored" data-anchor-id="fundamentals-of-computer-science">Fundamentals of Computer Science</h2>
+<p>This module covers the basics of computer science and introduces the students from domain sciences to programming.</p>
+<section id="basic-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="basic-concepts">Basic Concepts</h3>
 <ul>
 <li>Introduction to computer science, basic concepts of operating systems using UNIX/Linux as an example</li>
 <li>From problem to algorithm: concept of an algorithm, design of algorithms, pseudocode, refinement, brute-force algorithms, models and modeling, graphs and their representation, simple algorithms on graphs, analysis of algorithms (correctness, termination, runtime)</li>
@@ -223,8 +243,159 @@ ul.task-list li input[type="checkbox"] {
 <li>From program to process: assembly languages, assembler, compiler, interpreter, syntax and semantics of programming languages</li>
 <li>Limits of algorithms: computability, decidability, undecidability</li>
 </ul>
+<p><strong>Lecture</strong>: Fundamentals of Computer Science</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
+<p><strong>Exercise</strong>: Fundamentals of Computer Science Exercise</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
+</section>
+<section id="module-competences" class="level3">
+<h3 class="anchored" data-anchor-id="module-competences">Module Competences</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Description</th>
+<th>Disciplines</th>
+<th>Prerequisites</th>
+<th>Evidence</th>
+<th>Author</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ex_programming_mod1_1</td>
+<td>Use an imperative-procedural programming language (e.g., C) and an object-oriented language (e.g., Java) with confidence</td>
+<td>Computer Science</td>
+<td></td>
+<td>Submit working programs in both languages demonstrating syntax and language-specific features</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="even">
+<td>ex_programming_mod1_2</td>
+<td>Implement basic data structures and algorithms</td>
+<td>Computer Science</td>
+<td>ex_programming_mod1_1</td>
+<td>Submit a project with implemented algorithms and data structures (e.g., lists, trees, sorting)</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="odd">
+<td>ex_programming_mod1_3</td>
+<td>Distinguish between error types and handle them appropriately in code</td>
+<td>Computer Science</td>
+<td>ex_programming_mod1_1</td>
+<td>Demonstrate error handling techniques in submitted code (e.g., input validation, error codes, exceptions)</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="even">
+<td>ex_programming_mod1_4</td>
+<td>Identify and use appropriate library functions in programming tasks</td>
+<td>Computer Science</td>
+<td>ex_programming_mod1_1</td>
+<td>Integrate external libraries in coding tasks and document their usage</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="odd">
+<td>ex_programming_mod1_5</td>
+<td>Use basic functions and mechanisms of operating systems using UNIX/Linux as an example</td>
+<td>Computer Science</td>
+<td></td>
+<td>Demonstrate file handling, permissions, and process control using UNIX/Linux commands</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="even">
+<td>ex_programming_mod1_6</td>
+<td>Create and refine simple algorithms using semi-formal notation</td>
+<td>Computer Science</td>
+<td></td>
+<td>Submit pseudocode or flowcharts for given algorithmic problems</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="odd">
+<td>ex_programming_mod1_7</td>
+<td>Evaluate and compare algorithms using runtime analysis</td>
+<td>Computer Science</td>
+<td>ex_programming_mod1_6</td>
+<td>Provide time complexity comparisons for multiple algorithmic solutions</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="even">
+<td>ex_programming_mod1_8</td>
+<td>Implement simple algorithms using imperative and functional programming styles (e.g., in Python)</td>
+<td>Computer Science</td>
+<td>ex_programming_mod1_6</td>
+<td>Submit code demonstrating both imperative and functional styles for the same problem</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="odd">
+<td>ex_programming_mod1_9</td>
+<td>Distinguish between programming paradigms and identify their characteristics</td>
+<td>Computer Science</td>
+<td>ex_programming_mod1_1</td>
+<td>Classify given code snippets by paradigm and justify the classification</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="even">
+<td>C10</td>
+<td>Express simple programs in an assembly language</td>
+<td>Computer Science</td>
+<td></td>
+<td>Translate simple high-level logic into assembler code</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+<tr class="odd">
+<td>C11</td>
+<td>Discuss the limits of algorithms, including computability and decidability</td>
+<td>Computer Science</td>
+<td></td>
+<td>Write a short essay or present on concepts such as the Halting Problem or undecidability</td>
+<td>University of Potsdam</td>
+<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sources-implementations" class="level3">
+<h3 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h3>
+<section id="curricula" class="level4">
+<h4 class="anchored" data-anchor-id="curricula">Curricula</h4>
+<ul>
+<li><a href="https://dl.acm.org/doi/book/10.1145/3467967">Computing Curricula 2020</a></li>
+</ul>
+</section>
+<section id="courses" class="level4">
+<h4 class="anchored" data-anchor-id="courses">Courses</h4>
+<ul>
+<li><p><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf">Grundlagen der Programmierung</a></p></li>
+<li><p><a href="https://peerherholz.github.io/Python_for_Psychologists_Winter2021/index.html">Python for Psychologists</a></p></li>
+<li><p><a href="https://ekvv.uni-bielefeld.de/sinfo/publ/modul/50702407">Grundlagen der Informatik</a></p></li>
+<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf">Grundlagen der Programmierung</a></p></li>
+<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1970&amp;pDocNr=14085952">Programmierung</a></p></li>
+</ul>
+</section>
+<section id="programs" class="level4">
+<h4 class="anchored" data-anchor-id="programs">Programs</h4>
+<ul>
+<li><p><a href="https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor">UP Informatik/Computational Science Bachelor</a></p></li>
+<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/">JMUW Informatik Bachelor</a></p></li>
+<li><p><a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/">RWTH Informatik Bachelor</a></p></li>
+</ul>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
 </section>
 </section>
 
