@@ -1,0 +1,9 @@
+entries:
+  - name: "Fundamentals of Computer Science"
+    type: "Lecture"
+    sws: 2
+    ects: 2
+  - name: "Fundamentals of Computer Science Exercise"
+    type: "Exercise"
+    sws: 2
+    ects: 4

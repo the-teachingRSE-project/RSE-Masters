@@ -1,10 +1,9 @@
 meta:
-  id: gen_prog
+  id: gen_programming
   profiles:
     - mnt
-    - cs
     - up
     - jmuw
     - rwth
-  name: Basics of Programming
-  depends_on: []
+  name: Applied Programming
+  depends_on: [gen_cs]

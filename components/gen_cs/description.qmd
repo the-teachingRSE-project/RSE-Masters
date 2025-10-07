@@ -1,6 +1,8 @@
-### Basics of Computer Science
+## Fundamentals of Computer Science
 
-#### Basic Concepts
+This module covers the basics of computer science and introduces the students from domain sciences to programming.
+
+### Basic Concepts
 
 - Introduction to computer science, basic concepts of operating systems using UNIX/Linux as an example
 - From problem to algorithm: concept of an algorithm, design of algorithms, pseudocode, refinement, brute-force algorithms, models and modeling, graphs and their representation, simple algorithms on graphs, analysis of algorithms (correctness, termination, runtime)

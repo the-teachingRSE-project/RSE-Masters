@@ -1,0 +1,9 @@
+meta:
+  id: gen_cs
+  profiles:
+    - mnt
+    - up
+    - jmuw
+    - rwth
+  name: Fundamentals of Computer Science
+  depends_on: []
