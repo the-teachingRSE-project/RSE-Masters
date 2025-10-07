@@ -1,11 +1,12 @@
-### Mathematical Foundations of Data Science
+## Mathematical Foundations of Data Science
+This module covers the mathematical foundations of data science.
 
-#### Contents
+### Contents
 The module teaches the mathematical fundamentals of data science. Topics include a selection from the areas of graph analysis, stochastic models and signal analysis with wavelets.
 
 
-#### Learning outcomes
+### Learning outcomes
 Students will acquire comprehensive, detailed and specialised knowledge of the latest findings in selected fundamentals of data science. Students will have an in-depth understanding of selected data science methods. They will be able to analyse novel data assimilation and inference problems, develop and implement solutions, and determine the quality of the solutions. They will be able to develop new ideas and procedures, weigh up alternatives when information is incomplete, and evaluate them taking into account different assessment criteria.
 
-#### Examination Method:
+### Examination Method:
 written exam (120 minutes) or oral exam (30 minutes)

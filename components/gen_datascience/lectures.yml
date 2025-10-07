@@ -1,37 +1,9 @@
 entries:
-  - name: "Mathematical Foundations of Data Science"
-    type: "Lecture"
-    sws: 2
-    ects: 2
-    quarto_filename: "math_found_data.qmd"
-    optional: True
-  - name: "Mathematical Foundations of Data Science Exercise"
-    type: "Exercise"
-    sws: 2
-    ects: 4
-    quarto_filename: ""
-    optional: True
   - name: "Statistical Data Analysis"
     type: "Lecture"
     sws: 4
     ects: 6
-    quarto_filename: "statistic_data_analysis.qmd"
-    optional: True
   - name: "Statistical Data Analysis Exercise"
     type: "Exercise"
     sws: 2
     ects: 3
-    quarto_filename: ""
-    optional: True
-  - name: "Text2Data Exercise"
-    type: "Exercise"
-    sws: 2
-    ects: 2
-    quarto_filename: "text2data.qmd"
-    optional: True
-  - name: "Text2Data"
-    type: "Lecture"
-    sws: 2
-    ects: 4
-    quarto_filename: ""
-    optional: True

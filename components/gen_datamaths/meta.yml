@@ -1,0 +1,9 @@
+meta:
+  id: gen_datamaths
+  profiles:
+      - cs
+      - up
+      - jmuw
+      - rwth
+  level: master
+  name: Mathematical Foundations of Data Science

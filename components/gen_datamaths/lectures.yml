@@ -1,0 +1,9 @@
+entries:
+  - name: "Mathematical Foundations of Data Science"
+    type: "Lecture"
+    sws: 2
+    ects: 2
+  - name: "Mathematical Foundations of Data Science Exercise"
+    type: "Exercise"
+    sws: 2
+    ects: 4

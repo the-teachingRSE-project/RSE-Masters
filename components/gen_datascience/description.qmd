@@ -1,3 +1,15 @@
-## Data Science
+## Statistical Data Analysis
+This module introduces the students to statistical data analysis.
 
-This module covers the mathematical foundations of data science, introduces the students to statistical data analysis and text processing.
+### Contents
+This module focuses on the statistical study and quantitative analysis of the dependence between observed random variables (e.g., yield/production settings; lifespan/treatment type and injury type).
+Essential foundations for the statistical treatment of such relationships are provided by the linear regression model, which is studied in detail in the first part of the lecture.
+Within this framework, topics such as estimation, testing, and uncertainty quantification (analysis of variance) are addressed.
+In the second part, an introduction to advanced methods and approaches for examining relationships is offered, including nonlinear and nonparametric regression models.
+Additionally, questions of classification and dimensionality reduction are covered.
+
+### Learning outcomes
+Students will acquire a comprehensive, detailed and specialised understanding of the linear regression model based on the latest findings. They will learn basic concepts and methods of non-parametric statistics. They will also be able to solve complex statistical data analysis problems, weigh up alternative modelling approaches and evaluate them according to different criteria. They will be able to use functions from statistical software packages for this purpose.
+
+### Examination method
+exam (120-180 minutes) or oral exam (30 minutes)

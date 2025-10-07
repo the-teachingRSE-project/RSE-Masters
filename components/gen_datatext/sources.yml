@@ -1,26 +1,20 @@
 sources:
   courses:
-    - name: Statistical Data Analysis (MATVMD837)
-      link: "https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf"
-    - name: Programmieren für Data Scientists Python
-      link: "https://studip.uni-goettingen.de/dispatch.php/course/details/index/d5e09a9298492991a57d59c7b2f09f98"
-    - name: Elements of Machine Learning and Data Science
+    - name: Statistische Methoden zur Verarbeitung natürlicher Sprache
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
-    - name: Introduction to Data Science
-      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970"
-    - name: Data Science
+    - name: Advanced Topics in Language and Text Processing
+      link: "https://uni-goettingen.de/en/document/download/97176b0d8b43f6e90ccecc6c2ddf0f72.pdf/ModulVZ_Dig.Humanities_MA_2023.pdf"
+    - name: Machine Learning for Natural Language Processing
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf"
   programs:
-    - name: UP Data Science Master
-      link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/data-science"
     - name: JMUW Informatik Bachelor
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/"
     - name: JMUW Informatik Master
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
     - name: RWTH Informatik Bachelor
       link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
-    - name: RWTH Data Science Master
-      link: "https://sc.informatik.rwth-aachen.de/de/studium/master/master-data-science/program-structure/"
+    - name: RWTH Informatik Master
+      link: "https://www.rwth-aachen.de/go/id/bcfg"
   curricula:
     - name: Empfehlungen Masterstudiengänge Data Science
       link: "https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf"

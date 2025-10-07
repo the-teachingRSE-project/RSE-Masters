@@ -1,0 +1,11 @@
+meta:
+  id: gen_data_nlp
+  profiles:
+      - mnt
+      - cs
+      - up
+      - jmuw
+      - rwth
+  level: master
+  name: Natural Language Processing
+  depends_on: []

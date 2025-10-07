@@ -1,6 +1,7 @@
-### Text to Data
+## Text to Data (Natural Language Processing)
+This module introduces the students to text processing and information retrieval.
 
-#### Contents
+### Contents
 - Introduction to textual data and Natural Language Processing (NLP): key concepts and use cases
 - Text acquisition and preprocessing: tokenisation, stemming/lemmatisation, stopwords, named entity recognition, text cleaning
 - Text representations: bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), contextualised embeddings (BERT, RoBERTa, GPT variants)
@@ -14,7 +15,7 @@
 - Project work: from a research question to data collection, modelling, evaluation and documentation
 
 
-#### Learning outcomes
+### Learning outcomes
 - Understand how text data is collected, preprocessed, and transformed into usable formats
 - Be able to select and justify different text representations
 - Apply NLP methods to extract relevant information from text
@@ -23,5 +24,5 @@
 - Build a reproducible, scalable text-data pipeline
 - Communicate results clearly in reports, presentations, and prototype designs
 
-#### Examination method
-project report (x pages) and presentation (15 minutes)
+### Examination method
+project report (X pages) and presentation (15 minutes)

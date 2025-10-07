@@ -25,8 +25,8 @@ profile:
       3:
         - "Wildcard Science Lab II"
         - "RSE Nuts and Bolts II"
-        - "Text2Data"
-        - "Text2Data Exercise"
+        - "Natural Language Processing"
+        - "Natural Language Processing Exercise"
         - "Software Engineering"
         - "Software Engineering Exercise"
         - "High Performance Computing"

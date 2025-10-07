@@ -19,8 +19,8 @@ profile:
         - "Compulsory Elective 2"
       3:
         - "RSE Nuts and Bolts II"
-        - "Text2Data"
-        - "Text2Data Exercise"
+        - "Natural Language Processing"
+        - "Natural Language Processing Exercise"
         - "High Performance Computing"
         - "High Performance Computing Exercise"
         - "RSE Software Engineering"
