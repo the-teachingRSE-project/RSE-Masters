@@ -23,7 +23,10 @@ def generate_curriculum(module_summaries, curriculum, plan, profile):
         with open("data/competences.yml") as f:
             competence_data = yaml.safe_load(f)
 
-        module_summaries = [m for m in module_summaries if m["file"].startswith((profile, "rse", "gen")) ]
+        if profile == "mnt":
+            module_summaries = [m for m in module_summaries if m["file"].startswith((profile, "rse", "gen")) ]
+        else: # profile == "cs"
+            module_summaries = [m for m in module_summaries if m["file"].startswith((profile, "rse", "gen_data")) ]
 
         curriculum_render = curriculum_template.render(
             curriculum=curriculum,
