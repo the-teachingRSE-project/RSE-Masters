@@ -21,6 +21,8 @@ sources:
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
     - name: RWTH Informatik Bachelor
       link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
+    - name: RWTH Data Science Master
+      link: "https://sc.informatik.rwth-aachen.de/de/studium/master/master-data-science/program-structure/"
   curricula:
     - name: Empfehlungen Masterstudiengänge Data Science
       link: "https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf"
