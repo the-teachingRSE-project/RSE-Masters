@@ -1,9 +1,8 @@
 meta:
-  id: rse_computing
+  id: rse_scientific_computing
   profiles:
     - mnt
     - cs
-    - rwth
-  name: Scientific (High-Performance) Computing
+  name: Scientific Computing
   depends_on: [gen_prog]
   wildcard: False

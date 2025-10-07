@@ -1,0 +1,10 @@
+entries:
+  - name: "Scientific Computing"
+    type: "Lecture"
+    sws: 2
+    ects: 3
+    quarto_filename: "scientific_computing.qmd"
+  - name: "Scientific Computing Exercise"
+    type: "Exercise"
+    sws: 2
+    ects: 3

@@ -1,0 +1,9 @@
+meta:
+  id: rse_hpc
+  profiles:
+    - mnt
+    - cs
+    - rwth
+  name: High-Performance Computing
+  depends_on: [rse_scientific_computing]
+  wildcard: False

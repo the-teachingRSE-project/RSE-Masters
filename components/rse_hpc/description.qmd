@@ -1,11 +1,12 @@
+## High‑Performance Computing for RSE
 
-### High‑Performance Scientific Computing
+RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably.
 
-#### Module Overview
+### Module Overview
 
 Building on "Basic Scientific Computing", this module dives deeper into **scalable algorithms, architectures, and software engineering techniques** required to run large‑scale simulations and data analysis on high‑performance computing (HPC) systems.
 
-#### Intended Learning Outcomes
+### Intended Learning Outcomes
 
 Participants who successfully complete the module will be able to
 
@@ -17,7 +18,7 @@ Participants who successfully complete the module will be able to
 6. Use continuous benchmarking to guide sustainable performance evolution of research software.
 7. Plan for long‑term maintenance, archival, and FAIR publication of large‑scale codes and data.
 
-#### Syllabus (Indicative Content)
+### Syllabus (Indicative Content)
 
 | Week | Theme                            | Topics                                                                 |
 |------|----------------------------------|------------------------------------------------------------------------|
@@ -29,11 +30,11 @@ Participants who successfully complete the module will be able to
 | 6    | **Performance Engineering**      | Roofline model · continuous & comparative benchmarking · autotuning    |
 | 7    | **Sustainable HPC Software**     | Release engineering · long‑term archiving · community governance       |
 
-#### Teaching & Learning Methods
+### Teaching & Learning Methods
 
 Blended delivery: interactive lectures (40%), coding workshops on the national cluster (50%), expert seminars (10%).
 
-#### Assessment
+### Assessment
 
 | Component         | Weight | Details                                                                    |
 |-------------------|--------|----------------------------------------------------------------------------|
@@ -41,11 +42,11 @@ Blended delivery: interactive lectures (40%), coding workshops on the national c
 | Performance study | 30%    | Roofline + scaling analysis of an existing code                            |
 | Capstone project  | 40%    | Implement & optimise a solver or ML pipeline at scale, plus written report |
 
-#### Prerequisites
+### Prerequisites
 
-- Completion of "Basic Scientific Computing" **or** equivalent experience
+- Completion of - [Scientific Computing](rse_scientificcomputing.qmd) **or** equivalent experience
 - Familiarity with Linux command line and version control
 
-#### Key Resources
+### Key Resources
 
 - replace CHatGPT fantasies

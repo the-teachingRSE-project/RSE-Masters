@@ -1,11 +1,14 @@
-### Basic Scientific Computing
+## Scientific Computing for RSE
 
-#### Module Overview
+RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably.
+
+
+### Module Overview
 
 This module provides an entry‑level yet rigorous foundation in scientific computing for graduate students and researchers who need to **design, implement, and evaluate computational experiments**.
 Learners gain an awareness of the numerical underpinnings of modern simulation and data‑driven research, with an emphasis on writing *reproducible, efficient, and trustworthy* code.
 
-#### Intended Learning Outcomes
+### Intended Learning Outcomes
 
 By the end of the module participants will be able to
 
@@ -17,7 +20,9 @@ By the end of the module participants will be able to
 6. Describe common HPC challenges—such as I/O bottlenecks, threading, and NUMA—and propose mitigation strategies.
 7. Maintain research software through continuous benchmarking.
 
-#### Syllabus (Indicative Content)
+The module qualifies for the more advanced module [Scientific (High-Performance) Computing](rse_hpc.qmd).
+
+### Syllabus (Indicative Content)
 
 | Week | Theme                         | Topics                                                                              |
 |------|-------------------------------|-------------------------------------------------------------------------------------|
@@ -29,22 +34,22 @@ By the end of the module participants will be able to
 | 6    | **HPC Pitfalls**              | I/O throughput · thread oversubscription · NUMA awareness                           |
 | 7    | **Software Maintenance**      | Regression + performance tests · continuous benchmarking pipelines                  |
 
-#### Teaching & Learning Methods
+### Teaching & Learning Methods
 
 Short lectures (30%) are coupled with hands‑on labs (70%). Students complete **weekly notebooks** and a **mini‑project** that reproduces and optimises a published computational result.
 
-#### Assessment
+### Assessment
 
 | Component          | Weight | Details                           |
 |--------------------|--------|-----------------------------------|
 | Continuous labs    | 40%    | Weekly graded notebooks           |
 | Final mini‑project | 60%    | Report, code, and benchmark suite |
 
-#### Prerequisites
+### Prerequisites
 
 - Basic programming in Python, C/C++, or Julia
 - Undergraduate calculus & linear algebra
 
-#### Key Resources
+### Key Resources
 
 ChatGPT fantasy

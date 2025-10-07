@@ -20,8 +20,8 @@ profile:
         - "Science Lab Project"
         - "Applied Programming"
         - "Applied Programming Exercise"
-        - "Scientific Computing Basics"
-        - "Scientific Computing Basics Exercise"
+        - "Scientific Computing"
+        - "Scientific Computing Exercise"
       3:
         - "Wildcard Science Lab II"
         - "RSE Nuts and Bolts II"
