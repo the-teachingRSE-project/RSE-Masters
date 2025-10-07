@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>hpc_computing – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>rse_hpc – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,7 +28,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -211,14 +230,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="highperformance-scientific-computing" class="level3">
-<h3 class="anchored" data-anchor-id="highperformance-scientific-computing">High‑Performance Scientific Computing</h3>
-<section id="module-overview" class="level4">
-<h4 class="anchored" data-anchor-id="module-overview">Module Overview</h4>
+<section id="highperformance-computing-for-rse" class="level2">
+<h2 class="anchored" data-anchor-id="highperformance-computing-for-rse">High‑Performance Computing for RSE</h2>
+<p>RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably.</p>
+<section id="module-overview" class="level3">
+<h3 class="anchored" data-anchor-id="module-overview">Module Overview</h3>
 <p>Building on “Basic Scientific Computing”, this module dives deeper into <strong>scalable algorithms, architectures, and software engineering techniques</strong> required to run large‑scale simulations and data analysis on high‑performance computing (HPC) systems.</p>
 </section>
-<section id="intended-learning-outcomes" class="level4">
-<h4 class="anchored" data-anchor-id="intended-learning-outcomes">Intended Learning Outcomes</h4>
+<section id="intended-learning-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="intended-learning-outcomes">Intended Learning Outcomes</h3>
 <p>Participants who successfully complete the module will be able to</p>
 <ol type="1">
 <li>Classify scientific problems by their dominant parallel pattern (memory‑parallel, compute‑parallel, task‑parallel).</li>
@@ -230,8 +250,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Plan for long‑term maintenance, archival, and FAIR publication of large‑scale codes and data.</li>
 </ol>
 </section>
-<section id="syllabus-indicative-content" class="level4">
-<h4 class="anchored" data-anchor-id="syllabus-indicative-content">Syllabus (Indicative Content)</h4>
+<section id="syllabus-indicative-content" class="level3">
+<h3 class="anchored" data-anchor-id="syllabus-indicative-content">Syllabus (Indicative Content)</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 5%">
@@ -284,12 +304,12 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="teaching-learning-methods" class="level4">
-<h4 class="anchored" data-anchor-id="teaching-learning-methods">Teaching &amp; Learning Methods</h4>
+<section id="teaching-learning-methods" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-learning-methods">Teaching &amp; Learning Methods</h3>
 <p>Blended delivery: interactive lectures (40%), coding workshops on the national cluster (50%), expert seminars (10%).</p>
 </section>
-<section id="assessment" class="level4">
-<h4 class="anchored" data-anchor-id="assessment">Assessment</h4>
+<section id="assessment" class="level3">
+<h3 class="anchored" data-anchor-id="assessment">Assessment</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 18%">
@@ -322,20 +342,121 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="prerequisites" class="level4">
-<h4 class="anchored" data-anchor-id="prerequisites">Prerequisites</h4>
+<section id="prerequisites" class="level3">
+<h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
 <ul>
-<li>Completion of “Basic Scientific Computing” <strong>or</strong> equivalent experience</li>
+<li>Completion of - <a href="../../generation/generated/rse_scientificcomputing.html">Scientific Computing</a> <strong>or</strong> equivalent experience</li>
 <li>Familiarity with Linux command line and version control</li>
 </ul>
 </section>
-<section id="key-resources" class="level4">
-<h4 class="anchored" data-anchor-id="key-resources">Key Resources</h4>
+<section id="key-resources" class="level3">
+<h3 class="anchored" data-anchor-id="key-resources">Key Resources</h3>
 <ul>
 <li>replace CHatGPT fantasies</li>
 </ul>
+<p><strong>Lecture</strong>: High Performance Computing</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 3</p>
+<p><strong>Exercise</strong>: High Performance Computing Exercise</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 3</p>
+</section>
+<section id="module-competences" class="level3">
+<h3 class="anchored" data-anchor-id="module-competences">Module Competences</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Description</th>
+<th>Disciplines</th>
+<th>Prerequisites</th>
+<th>Evidence</th>
+<th>Author</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>hpc_module_1</td>
+<td>Run batch and array jobs on a cluster, including job dependencies</td>
+<td>High-Performance Computing</td>
+<td>rse_tooling_3</td>
+<td>Submit job scripts using SLURM or similar systems demonstrating correct use of job arrays and dependencies</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="even">
+<td>hpc_module_2</td>
+<td>Identify and manage common challenges in HPC systems (e.g., I/O bottlenecks, threading, NUMA memory)</td>
+<td>High-Performance Computing</td>
+<td>hpc_module_1</td>
+<td>Provide performance logs and interpret bottlenecks in a real or simulated HPC task</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="odd">
+<td>hpc_module_3</td>
+<td>Use shell scripting (e.g., Bash) to automate HPC job submission</td>
+<td>High-Performance Computing</td>
+<td>rse_tooling_3</td>
+<td>Submit scripts that automate the execution of HPC jobs and handle job logic</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="even">
+<td>hpc_module_4</td>
+<td>Understand and use the principles of accelerator programming (e.g., GPU kernels and frameworks)</td>
+<td>High-Performance Computing</td>
+<td></td>
+<td>Submit a small CUDA or OpenCL program with documentation of the principles used</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+<tr class="odd">
+<td>hpc_module_5</td>
+<td>Maintain scientific computing software including use of continuous benchmarking</td>
+<td>High-Performance Computing</td>
+<td>comp_module_1</td>
+<td>Provide benchmark and performance history for evolving versions of software</td>
+<td>RSE Curriculum Draft</td>
+<td><a href="Computing Module Input">Link</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sources-implementations" class="level3">
+<h3 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h3>
+<section id="curricula" class="level4">
+<h4 class="anchored" data-anchor-id="curricula">Curricula</h4>
+<ul>
+<li><a href="https://eumaster4hpc.eu/studies/curriculum/">EUMaster4HPC</a></li>
+</ul>
+</section>
+<section id="courses" class="level4">
+<h4 class="anchored" data-anchor-id="courses">Courses</h4>
+<ul>
+<li><p><a href="https://viralinstruction.com/posts/hardware/">Viral Instructions Hardware</a></p></li>
+<li><p><a href="https://en.cs.uni-paderborn.de/hpc/teaching/courses/ss-2024/introduction-to-high-performance-computing">HPC Computing</a></p></li>
+<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1970&amp;pDocNr=14085952">High-Performance Computing</a></p></li>
+</ul>
+</section>
+<section id="recommended-course-literature" class="level4">
+<h4 class="anchored" data-anchor-id="recommended-course-literature">Recommended Course Literature</h4>
+<ul>
+<li><a href="https://dl.acm.org/doi/10.1145/103162.103163">What every computer scientist should know about floating-point arithmetic</a></li>
+</ul>
+</section>
+<section id="programs" class="level4">
+<h4 class="anchored" data-anchor-id="programs">Programs</h4>
+<ul>
+<li><p><a href="https://www.hpc-carpentry.org/index.html">HPC-carpentry</a></p></li>
+<li><p><a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/">RWTH Informatik Bachelor</a></p></li>
+<li><p><a href="https://www.rwth-aachen.de/go/id/bcfg">RWTH Informatik Master</a></p></li>
+</ul>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
 </section>
 </section>
 

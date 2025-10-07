@@ -211,11 +211,133 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="rse-computing" class="level2">
-<h2 class="anchored" data-anchor-id="rse-computing">RSE Computing</h2>
+<section id="highperformance-computing-for-rse" class="level2">
+<h2 class="anchored" data-anchor-id="highperformance-computing-for-rse">High‑Performance Computing for RSE</h2>
 <p>RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably.</p>
+<section id="module-overview" class="level3">
+<h3 class="anchored" data-anchor-id="module-overview">Module Overview</h3>
+<p>Building on “Basic Scientific Computing”, this module dives deeper into <strong>scalable algorithms, architectures, and software engineering techniques</strong> required to run large‑scale simulations and data analysis on high‑performance computing (HPC) systems.</p>
+</section>
+<section id="intended-learning-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="intended-learning-outcomes">Intended Learning Outcomes</h3>
+<p>Participants who successfully complete the module will be able to</p>
+<ol type="1">
+<li>Classify scientific problems by their dominant parallel pattern (memory‑parallel, compute‑parallel, task‑parallel).</li>
+<li>Map each class to appropriate numerical libraries and hardware architectures.</li>
+<li>Analyse floating‑point and algorithmic approximation errors at scale.</li>
+<li>Explain modern HPC hardware features (GPUs, SIMD/AVX, NUMA, high‑speed interconnects) and select relevant optimisation strategies.</li>
+<li>Design portable, performance‑portable code employing MPI, OpenMP, and accelerator frameworks.</li>
+<li>Use continuous benchmarking to guide sustainable performance evolution of research software.</li>
+<li>Plan for long‑term maintenance, archival, and FAIR publication of large‑scale codes and data.</li>
+</ol>
+</section>
+<section id="syllabus-indicative-content" class="level3">
+<h3 class="anchored" data-anchor-id="syllabus-indicative-content">Syllabus (Indicative Content)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 30%">
+<col style="width: 64%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Week</th>
+<th>Theme</th>
+<th>Topics</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><strong>Parallel Problem Taxonomy</strong></td>
+<td>Sparse vs.&nbsp;dense linear algebra · embarrassingly parallel workloads</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><strong>Distributed Memory (MPI)</strong></td>
+<td>Domain decomposition · halo exchange · scalability metrics</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><strong>Shared Memory &amp; SIMD</strong></td>
+<td>OpenMP · threading pitfalls · AVX intrinsics</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><strong>Accelerator Programming</strong></td>
+<td>Multi‑GPU kernels · unified memory · portability layers (Kokkos, SYCL)</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><strong>Advanced I/O &amp; Checkpointing</strong></td>
+<td>Parallel file systems · burst buffers · HDF5/ADIOS‑based workflows</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><strong>Performance Engineering</strong></td>
+<td>Roofline model · continuous &amp; comparative benchmarking · autotuning</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td><strong>Sustainable HPC Software</strong></td>
+<td>Release engineering · long‑term archiving · community governance</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="teaching-learning-methods" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-learning-methods">Teaching &amp; Learning Methods</h3>
+<p>Blended delivery: interactive lectures (40%), coding workshops on the national cluster (50%), expert seminars (10%).</p>
+</section>
+<section id="assessment" class="level3">
+<h3 class="anchored" data-anchor-id="assessment">Assessment</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 7%">
+<col style="width: 73%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Weight</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cluster labs</td>
+<td>30%</td>
+<td>Submission of working MPI/OpenMP/GPU exercises</td>
+</tr>
+<tr class="even">
+<td>Performance study</td>
+<td>30%</td>
+<td>Roofline + scaling analysis of an existing code</td>
+</tr>
+<tr class="odd">
+<td>Capstone project</td>
+<td>40%</td>
+<td>Implement &amp; optimise a solver or ML pipeline at scale, plus written report</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="prerequisites" class="level3">
+<h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
+<ul>
+<li>Completion of - <a href="rse_scientificcomputing.qmd">Scientific Computing</a> <strong>or</strong> equivalent experience</li>
+<li>Familiarity with Linux command line and version control</li>
+</ul>
+</section>
+<section id="key-resources" class="level3">
+<h3 class="anchored" data-anchor-id="key-resources">Key Resources</h3>
+<ul>
+<li>replace CHatGPT fantasies</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
