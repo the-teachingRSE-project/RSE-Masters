@@ -1,0 +1,16 @@
+## Compulsory Electives
+
+### Introduction
+
+Students in the cs-track have to choose a few advanced computer science modules.
+These can include:
+- [Complexity Theory](cs_complexitytheory.qmd)
+- [Computer Vision](cs_computervision.qmd)
+- [Declarative Programming](cs_declarativeprogramming.qmd)
+- [Distributed Systems](cs_distributedsystems.qmd)
+- [Efficient Algorithms](cs_efficientalgorithms.qmd)
+- [Embedded Systems](cs_embeddedsystems.qmd)
+- [Security and Cryptography](cs_securitycrypto.qmd)
+
+Contents, competences and examination methods depend on the chosen modules.
+Obviously, every module can be completed only once.

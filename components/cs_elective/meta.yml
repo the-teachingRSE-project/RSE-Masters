@@ -1,0 +1,11 @@
+meta:
+  id: cs_compulsory_electives
+  profiles:
+    - cs
+    - up
+    - rwth
+    - jmuw
+  level: master
+  name: Compulsory Elective Area
+  wildcard: True
+  discipline: Computer Science

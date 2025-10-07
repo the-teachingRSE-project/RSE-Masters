@@ -1,0 +1,18 @@
+entries:
+  - name: "Compulsory Elective 1"
+    type: "any"
+    sws: 4
+    ects: 6
+    optional: True
+  
+  - name: "Compulsory Elective 2"
+    type: "any"
+    sws: 4
+    ects: 6
+    optional: True
+
+  - name: "Compulsory Elective 3"
+    type: "any"
+    sws: 4
+    ects: 6
+    optional: True
