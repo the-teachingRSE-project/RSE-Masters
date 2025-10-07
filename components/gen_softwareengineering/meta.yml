@@ -2,7 +2,6 @@ meta:
   id: gen_se
   profiles:
       - mnt
-      - cs
       - up
       - jmuw
       - rwth

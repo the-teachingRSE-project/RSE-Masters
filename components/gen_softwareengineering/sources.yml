@@ -1,7 +1,7 @@
 sources:
   curricula:
     - name: Computing Curricula 2020
-      link: https://dl.acm.org/doi/book/10.1145/3467967
+      link: "https://dl.acm.org/doi/book/10.1145/3467967"
   courses:
     - name: Software Engineering I
       link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf"
