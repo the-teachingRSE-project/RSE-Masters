@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>math_found_data – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>gen_datatext – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,7 +28,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -211,21 +230,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="mathematical-foundations-of-data-science" class="level3">
-<h3 class="anchored" data-anchor-id="mathematical-foundations-of-data-science">Mathematical Foundations of Data Science</h3>
-<section id="contents" class="level4">
-<h4 class="anchored" data-anchor-id="contents">Contents</h4>
-<p>The module teaches the mathematical fundamentals of data science. Topics include a selection from the areas of graph analysis, stochastic models and signal analysis with wavelets.</p>
+<section id="text-to-data-natural-language-processing" class="level2">
+<h2 class="anchored" data-anchor-id="text-to-data-natural-language-processing">Text to Data (Natural Language Processing)</h2>
+<p>This module introduces the students to text processing and information retrieval.</p>
+<section id="contents" class="level3">
+<h3 class="anchored" data-anchor-id="contents">Contents</h3>
+<ul>
+<li>Introduction to textual data and Natural Language Processing (NLP): key concepts and use cases</li>
+<li>Text acquisition and preprocessing: tokenisation, stemming/lemmatisation, stopwords, named entity recognition, text cleaning</li>
+<li>Text representations: bag-of-words, TF-IDF, word embeddings (Word2Vec, GloVe), contextualised embeddings (BERT, RoBERTa, GPT variants)</li>
+<li>Text mining and information extraction: key terms, topics, sentiment analysis, relation extraction</li>
+<li>Information Retrieval and Web Search Engines</li>
+<li>Data-to-insight pipelines: from raw text to structured data (CSV/SQL), feature engineering for text data</li>
+<li>Modelling and evaluation: classification, regression, sequence models, transformers; evaluation metrics (accuracy, F1, MCC, AUC)</li>
+<li>Prototyping and reproducibility: experiment tracking, versioning, reproducible pipelines (Docker/Kubernetes, MLflow, DVC)</li>
+<li>Risk management and ethics: bias, fairness, data protection (GDPR), transparency, interpretability (LIME, SHAP)</li>
+<li>Deployment and practical applications: API-based models, batch vs real-time processing, monitoring</li>
+<li>Project work: from a research question to data collection, modelling, evaluation and documentation</li>
+</ul>
 </section>
-<section id="learning-outcomes" class="level4">
-<h4 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h4>
-<p>Students will acquire comprehensive, detailed and specialised knowledge of the latest findings in selected fundamentals of data science. Students will have an in-depth understanding of selected data science methods. They will be able to analyse novel data assimilation and inference problems, develop and implement solutions, and determine the quality of the solutions. They will be able to develop new ideas and procedures, weigh up alternatives when information is incomplete, and evaluate them taking into account different assessment criteria.</p>
+<section id="learning-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h3>
+<ul>
+<li>Understand how text data is collected, preprocessed, and transformed into usable formats</li>
+<li>Be able to select and justify different text representations</li>
+<li>Apply NLP methods to extract relevant information from text</li>
+<li>Develop, train and evaluate text-based models with attention to reproducibility and ethics</li>
+<li>Assess model limitations, interpretability, and risk of errors</li>
+<li>Build a reproducible, scalable text-data pipeline</li>
+<li>Communicate results clearly in reports, presentations, and prototype designs</li>
+</ul>
 </section>
-<section id="examination-method" class="level4">
-<h4 class="anchored" data-anchor-id="examination-method">Examination Method:</h4>
-<p>written exam (120 minutes) or oral exam (30 minutes)</p>
+<section id="examination-method" class="level3">
+<h3 class="anchored" data-anchor-id="examination-method">Examination method</h3>
+<p>project report (X pages) and presentation (15 minutes)</p>
+<p><strong>Lecture</strong>: Natural Language Processing</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
+<p><strong>Exercise</strong>: Natural Language Processing Exercise</p>
+<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
+</section>
+<section id="sources-implementations" class="level3">
+<h3 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h3>
+<section id="curricula" class="level4">
+<h4 class="anchored" data-anchor-id="curricula">Curricula</h4>
+<ul>
+<li><a href="https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf">Empfehlungen Masterstudiengänge Data Science</a></li>
+</ul>
+</section>
+<section id="courses" class="level4">
+<h4 class="anchored" data-anchor-id="courses">Courses</h4>
+<ul>
+<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1970&amp;pDocNr=14085952">Statistische Methoden zur Verarbeitung natürlicher Sprache</a></p></li>
+<li><p><a href="https://uni-goettingen.de/en/document/download/97176b0d8b43f6e90ccecc6c2ddf0f72.pdf/ModulVZ_Dig.Humanities_MA_2023.pdf">Advanced Topics in Language and Text Processing</a></p></li>
+<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf">Machine Learning for Natural Language Processing</a></p></li>
+</ul>
+</section>
+<section id="programs" class="level4">
+<h4 class="anchored" data-anchor-id="programs">Programs</h4>
+<ul>
+<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/">JMUW Informatik Bachelor</a></p></li>
+<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/">JMUW Informatik Master</a></p></li>
+<li><p><a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/">RWTH Informatik Bachelor</a></p></li>
+<li><p><a href="https://www.rwth-aachen.de/go/id/bcfg">RWTH Informatik Master</a></p></li>
+</ul>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
 </section>
 </section>
 
