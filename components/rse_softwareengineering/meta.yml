@@ -7,3 +7,4 @@ meta:
   level: master
   name: RSE Software Engineering
   depends_on: []
+  area: rse_technical

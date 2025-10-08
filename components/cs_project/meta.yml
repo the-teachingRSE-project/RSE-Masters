@@ -7,3 +7,4 @@ meta:
       - rwth
   name: RSE Lab Project
   wildcard: False
+  area: rse_research

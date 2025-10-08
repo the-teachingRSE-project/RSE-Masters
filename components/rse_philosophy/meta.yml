@@ -9,3 +9,4 @@ meta:
   level: master
   name: RSE Philosophy
   depends_on: []
+  area: rse_social

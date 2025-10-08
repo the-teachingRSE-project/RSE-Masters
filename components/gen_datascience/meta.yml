@@ -9,3 +9,4 @@ meta:
   level: master
   name: Data Science
   depends_on: []
+  area: ds_basic

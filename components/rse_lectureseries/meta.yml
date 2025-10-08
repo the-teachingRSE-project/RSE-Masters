@@ -1,0 +1,7 @@
+meta:
+  id: rse_lecture_series
+  profiles:
+    - cs
+    - mnt
+  name: RSE Lecture Series
+  area: rse_research

@@ -9,3 +9,4 @@ meta:
   level: master
   name: Natural Language Processing
   depends_on: []
+  area: ds_basic

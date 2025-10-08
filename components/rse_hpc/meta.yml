@@ -7,3 +7,4 @@ meta:
   name: High-Performance Computing
   depends_on: [rse_scientific_computing]
   wildcard: False
+  area: rse_technical

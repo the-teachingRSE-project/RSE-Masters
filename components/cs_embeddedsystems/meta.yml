@@ -7,3 +7,4 @@ meta:
   level: master
   name: Embedded Systems
   depends_on: []
+  area: cs_advanced

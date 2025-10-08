@@ -6,3 +6,4 @@ meta:
   name: Scientific Computing
   depends_on: [gen_prog]
   wildcard: False
+  area: rse_technical

@@ -8,3 +8,4 @@ meta:
   level: master
   name: Security and Cryptography
   depends_on: []
+  area: cs_advanced

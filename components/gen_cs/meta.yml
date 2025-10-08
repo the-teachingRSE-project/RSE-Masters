@@ -7,3 +7,4 @@ meta:
     - rwth
   name: Fundamentals of Computer Science
   depends_on: []
+  area: cs_basic

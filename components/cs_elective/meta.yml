@@ -8,4 +8,4 @@ meta:
   level: master
   name: Compulsory Elective Area
   wildcard: True
-  discipline: Computer Science
+  area: cs_advanced

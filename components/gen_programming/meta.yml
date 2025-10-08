@@ -7,3 +7,4 @@ meta:
     - rwth
   name: Applied Programming
   depends_on: [gen_cs]
+  area: cs_basic
