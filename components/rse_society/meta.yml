@@ -1,0 +1,9 @@
+meta:
+  id: rse_society
+  profiles:
+    - mnt
+    - cs
+  level: master
+  name: RSE & Society
+  depends_on: []
+  area: rse_social

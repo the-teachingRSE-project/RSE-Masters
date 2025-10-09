@@ -25,6 +25,7 @@ def generate_curriculum(module_summaries, curriculum, plan, profile):
 
         if profile == "mnt":
             module_summaries = [m for m in module_summaries if m["file"].startswith((profile, "rse", "gen")) ]
+            module_summaries = [m for m in module_summaries if not m["file"].startswith("rse_society")]
         else: # profile == "cs"
             module_summaries = [m for m in module_summaries if m["file"].startswith((profile, "rse", "gen_data")) ]
 

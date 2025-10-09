@@ -1,0 +1,21 @@
+## RSE & Society
+### Introduction
+
+The RSE master's programme introduces students to cutting-edge technologies that may also raise ethical questions. To talk about the impact of RSE on society, is therefore crucial.
+
+### Contents
+Possible topics are:
+
+- responsibility of (research) software engineers
+- RSE and Open Science
+- dual use dilemma
+- ethics and AI
+- sustainability and green technology
+- future of work
+- gender inequalities
+
+### General Competences
+This module conveys competences in areas such as but not limited to ...
+
+- discussion of ethical questions
+- awareness of societal consequences

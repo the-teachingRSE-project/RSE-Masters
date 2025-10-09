@@ -11,6 +11,7 @@ profile:
         - "Mathematical Foundations of Data Science"
         - "Mathematical Foundations of Data Science Exercise"
         - "RSE Philosophy"
+        - "RSE & Society"
       2:
         - "RSE Lab Project"
         - "Scientific Computing"
