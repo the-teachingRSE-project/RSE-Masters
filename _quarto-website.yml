@@ -16,6 +16,8 @@ website:
         href: generation/generated/cs_curriculum.qmd
       - text: "Curriculum Track 2"
         href: generation/generated/mnt_curriculum.qmd
+      - text: "Universität Potsdam Beispiel"
+        href: generation/generated/up_curriculum.qmd
       - text: "Preambel"
         href: general/preambel_general.qmd
       - text: "Job Roles"

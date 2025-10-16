@@ -52,6 +52,20 @@ jobs:
             fi
             sleep 5  # Optional: wait a bit before retrying
           done
+      - name: run template generation for UP Example
+        working-directory: ./generation
+        run: |
+          count=0
+          max_retries=10
+          until python generate_all.py --profile up; do
+            count=$((count + 1))
+            echo "Attempt $count failed."
+            if [ $count -ge $max_retries ]; then
+              echo "Reached maximum number of retries ($max_retries). Exiting."
+              exit 1
+            fi
+            sleep 5  # Optional: wait a bit before retrying
+          done
       - name: Install Quarto (silent)
         run: |
           wget https://quarto.org/download/latest/quarto-linux-amd64.deb -O quarto.deb

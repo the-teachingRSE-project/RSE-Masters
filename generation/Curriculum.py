@@ -18,7 +18,7 @@ class Component:
             self.lectures.append(new_lecture)
 
 class Lecture:
-    def __init__(self, type, name, ects, sws, component, ects_in_sem_1=0, ects_in_sem_2=0, ects_in_sem_3=0, ects_in_sem_4=0, lecture_group_title=None):
+    def __init__(self, type, name, ects, sws, component, ects_in_sem_1=0, ects_in_sem_2=0, ects_in_sem_3=0, ects_in_sem_4=0, new_module = False, mapped_courses = None, lecture_group_titles=None):
         self.type = type
         self.name = name
         self.ects = ects
@@ -28,8 +28,13 @@ class Lecture:
         self.ects_in_sem_2 = ects_in_sem_2
         self.ects_in_sem_3 = ects_in_sem_3
         self.ects_in_sem_4 = ects_in_sem_4
-        if lecture_group_title is not None:
-            self.lecture_group_title = lecture_group_title
+        self.new_module = new_module
+        self.mapped_course = mapped_courses
+        if lecture_group_titles is not None:
+            self.lecture_group_title = lecture_group_titles
+
+        if "rse" in component.id:
+            self.new_module = True
 
 class Semester:
     def __init__(self, number, lectures=None):

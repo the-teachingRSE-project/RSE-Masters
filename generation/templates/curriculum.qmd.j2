@@ -1,5 +1,9 @@
+{% if profile == "cs" %}# Track 1: Computer Science Generalist Track  {% endif %}
 
-# {% if profile == "cs" %} Track 1: Computer Science Generalist Track {% else %} Track 2: Domain Science / Natural Science Track {% endif %}
+{% if profile == "mnt" %}# Track 2: Domain Science / Natural Science Track  {% endif %}
+
+{% if profile == "up" %}# Example for Uni Potsdam  {% endif %}
+
 
 ::: {.content-visible when-format="html"}
 
@@ -13,12 +17,19 @@
 
 ## Suggested Study Plan
 
-| Type | Description | SWS | Sem 1 | Sem 2 | Sem 3 | Sem 4 |
-|------|--------------------|-----|-----|-----|-----|-----|
+| Type | Description | SWS | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Existing Courses | New Concept |
+|------|-------------|-----|-------|-------|-------|-------|------------------|------------|
 {%- for lecture in plan.lectures %}
 | {{ lecture.type }} | {{ lecture.name }} | {{ lecture.sws }} | {{ lecture.ects_in_sem_1 }} | {{ lecture.ects_in_sem_2 }} | {{ lecture.ects_in_sem_3 }} | {{ lecture.ects_in_sem_4 }} |
+{%- if lecture.mapped_courses -%}
+{%- for name, url in lecture.mapped_courses.items() -%}
+[{{ name }}]({{ url }}){%- if not loop.last %}<br>{% endif -%}
+{%- endfor -%}
+{%- endif -%}
+| {{ "yes" if lecture.new_module else "no" }} |
 {%- endfor %}
-| | Total ECTS per semester | | {{curriculum.semesters[0].total_ects() }} | {{curriculum.semesters[1].total_ects() }} | {{curriculum.semesters[2].total_ects() }} | {{curriculum.semesters[3].total_ects() }} | 
+|  | **Total ECTS per semester** |  | **{{ curriculum.semesters[0].total_ects() }}** | **{{ curriculum.semesters[1].total_ects() }}** | **{{ curriculum.semesters[2].total_ects() }}** | **{{ curriculum.semesters[3].total_ects() }}** |  |  |
+
 
 **Total Curriculum ECTS: {{ curriculum.total_ects() }}**
 
