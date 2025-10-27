@@ -10,12 +10,11 @@ profile:
         - "Statistical Data Analysis Exercise"
         - "Mathematical Foundations of Data Science"
         - "Mathematical Foundations of Data Science Exercise"
-        - "RSE Philosophy"
         - "RSE & Society"
       2:
+        - "RSE Philosophy"
+        - "RSE Research Methods"
         - "RSE Lab Project"
-        - "Scientific Computing"
-        - "Scientific Computing Exercise"
         - "Compulsory Elective 1"
         - "Compulsory Elective 2"
       3:

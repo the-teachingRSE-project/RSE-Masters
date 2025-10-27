@@ -11,8 +11,9 @@ profile:
         - "Fundamentals of Computer Science"
         - "Fundamentals of Computer Science Exercise"
         - "Wildcard Science I"
-        - "RSE Philosophy"
       2:
+        - "RSE Philosophy"
+        - "RSE Research Methods"
         - "Wildcard Science Lab I"
         - "Wildcard Science II"
         - "Computational Wildcard Science"
@@ -20,8 +21,6 @@ profile:
         - "Science Lab Project"
         - "Applied Programming"
         - "Applied Programming Exercise"
-        - "Scientific Computing"
-        - "Scientific Computing Exercise"
       3:
         - "Wildcard Science Lab II"
         - "RSE Nuts and Bolts II"
