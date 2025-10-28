@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>gen_softwareengineering – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>description – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,27 +28,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -235,135 +215,21 @@ div.csl-indent {
 </header>
 
 
-<section id="classical-software-engineering" class="level2">
-<h2 class="anchored" data-anchor-id="classical-software-engineering">(Classical) Software Engineering</h2>
-<p><em>To summarise the vast range of the skills a software engineer is typically equipped with, we refer to the Guide to the Software Engineering Body of Knowledge <span class="citation" data-cites="swebok_2014">(<a href="#ref-swebok_2014" role="doc-biblioref">Bourque, Fairley, and IEEE Computer Society 2014</a>)</span>. Because research software engineering is an interface discipline, RSEs are often stronger in topics more commonly encountered in research software contexts (e.g., mathematical and engineering foundations) than in other areas (e.g., software engineering economics). However, they bring a solid level of competence in all software engineering topics. Therefore, RSEs can set and analyse software requirements in the context of open-ended, question-driven research. They can design software so that it can sustainably grow, often in an environment of rapid turnover of contributors. They are competent in implementing solutions themselves in a wide range of technologies fit for different scientific applications. They can formulate and implement various types of tests, they can independently maintain software and automate operations of the integration and release process. They can provide working, scalable, and future-proof solutions in a professional context and with common project and software management techniques, adapted to the needs of the research environment. Finally, as people who have often gained significant research experience in a particular discipline, they combine the necessary foundations from their domain with software engineering skills to develop complex software.</em><span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span></p>
-<p>This module tries to lay the foundations for the advanced RSE software engineering training.</p>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-swebok_2014" class="csl-entry" role="listitem">
-Bourque, Pierre, Richard E. Fairley, and IEEE Computer Society. 2014. <em>Guide to the Software Engineering Body of Knowledge (<span>SWEBOK(R)</span>): Version 3.0</em>. 3rd ed. Washington, <span>DC</span>, <span>USA</span>: <span>IEEE</span> Computer Society Press.
-</div>
-<div id="ref-competencies-F1000" class="csl-entry" role="listitem">
-Goth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. <span>“Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].”</span> <em>F1000Research</em> 13 (1429). <a href="https://doi.org/10.12688/f1000research.157778.1">https://doi.org/10.12688/f1000research.157778.1</a>.
-</div>
-</div>
-<section id="contents" class="level3">
-<h3 class="anchored" data-anchor-id="contents">Contents</h3>
-<ul>
-<li>Basic concepts of software engineering,</li>
-<li>software and product life cycle,</li>
-<li>process models for the design of large software systems,</li>
-<li>semantic aspects of domain description, hierarchy, parallelism, real-time and embedded systems as fundamental paradigms,</li>
-<li>organizational principles of complex software systems, design by contract,</li>
-<li>patterns in modeling and design methods of quality assurance, evolution and re-engineering,</li>
-<li>selected languages and tools for process- and object-oriented modeling,</li>
-<li>methods and languages for object-oriented design, architectures and architectural patterns of software systems,</li>
-<li>architecture of enterprise applications,</li>
-<li>design and implementation models in the object-oriented paradigm, e.g., Java 2 SE, design patterns, software testing methods</li>
-<li>a selection of advanced topics such as software quality assurance, service engineering, virtualization, and formal methods in system design</li>
-</ul>
-<p><strong>Lecture</strong>: Software Engineering</p>
-<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 4</p>
-<p><strong>Exercise</strong>: Software Engineering Exercise</p>
-<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 2</p>
+<section id="classical-software-engineering-ii" class="level2">
+<h2 class="anchored" data-anchor-id="classical-software-engineering-ii">(Classical) Software Engineering II</h2>
+<p>The module covers a selection of advanced topics in the field of software engineering, for example in the areas of software quality assurance, service engineering, virtualisation, programming languages and design, and formal methods in system design. It builds on knowledge and competencies from Software Engineering I.</p>
+<section id="learning-objectives" class="level3">
+<h3 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h3>
+<p>Students - have an in-depth understanding of and the ability to use various approaches to software engineering - are familiar with the characteristics of numerous technologies and tools for specification, component-based development and quality assurance of modern software systems, as well as their application in various contexts.</p>
 </section>
-<section id="module-competences" class="level3">
-<h3 class="anchored" data-anchor-id="module-competences">Module Competences</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>ID</th>
-<th>Description</th>
-<th>Disciplines</th>
-<th>Prerequisites</th>
-<th>Evidence</th>
-<th>Author</th>
-<th>Source</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>gen_programming_1</td>
-<td>Understand the fundamental concepts of software engineering</td>
-<td>Computer Science</td>
-<td></td>
-<td>Demonstrate understanding through theoretical assessments and practical examples</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="even">
-<td>gen_programming_2</td>
-<td>Apply various approaches of software engineering</td>
-<td>Computer Science</td>
-<td>gen_programming_1</td>
-<td>Complete assignments or projects using different software engineering methods</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="odd">
-<td>gen_programming_3</td>
-<td>Identify and utilize essential technologies and tools for specification, component-based development, and quality assurance of modern software systems</td>
-<td>Computer Science</td>
-<td>gen_programming_1</td>
-<td>Work with selected tools and technologies in practical exercises and case studies</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="even">
-<td>gen_programming_4</td>
-<td>Demonstrate an in-depth understanding and ability to apply various approaches of software engineering</td>
-<td>Computer Science</td>
-<td>gen_programming_1, gen_programming_2</td>
-<td>Successfully complete advanced projects employing different software engineering methods</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-<tr class="odd">
-<td>gen_programming_5</td>
-<td>Understand the characteristics of a wide range of technologies and tools for specification, component-based development, and quality assurance of modern software systems, and apply them in various contexts</td>
-<td>Computer Science</td>
-<td>gen_programming_3</td>
-<td>Apply appropriate technologies and tools in complex case studies and demonstrate their use in different application scenarios</td>
-<td>University of Potsdam</td>
-<td><a href="https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&amp;navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&amp;recordRequest=true">Link</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="sources-implementations" class="level3">
-<h3 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h3>
-<section id="curricula" class="level4">
-<h4 class="anchored" data-anchor-id="curricula">Curricula</h4>
+<section id="examination-methods" class="level3">
+<h3 class="anchored" data-anchor-id="examination-methods">Examination Methods</h3>
 <ul>
-<li><a href="https://dl.acm.org/doi/book/10.1145/3467967">Computing Curricula 2020</a></li>
+<li>written exam (100 min)</li>
+<li>exercise sheets or group project</li>
 </ul>
-</section>
-<section id="courses" class="level4">
-<h4 class="anchored" data-anchor-id="courses">Courses</h4>
-<ul>
-<li><p><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf">Software Engineering I</a></p></li>
-<li><p><a href="https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf">Software Engineering</a></p></li>
-<li><p><a href="https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&amp;pStpStpNr=1970&amp;pDocNr=14085952">Softwaretechnik</a></p></li>
-</ul>
-</section>
-<section id="programs" class="level4">
-<h4 class="anchored" data-anchor-id="programs">Programs</h4>
-<ul>
-<li><p><a href="https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor">UP Informatik/Computational Science Bachelor</a></p></li>
-<li><p><a href="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/">JMUW Informatik Bachelor</a></p></li>
-<li><p><a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/">RWTH Informatik Bachelor</a></p></li>
-</ul>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-swebok_2014" class="csl-entry" role="listitem">
-Bourque, Pierre, Richard E. Fairley, and IEEE Computer Society. 2014. <em>Guide to the Software Engineering Body of Knowledge (<span>SWEBOK(R)</span>): Version 3.0</em>. 3rd ed. Washington, <span>DC</span>, <span>USA</span>: <span>IEEE</span> Computer Society Press.
-</div>
-<div id="ref-competencies-F1000" class="csl-entry" role="listitem">
-Goth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. <span>“Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].”</span> <em>F1000Research</em> 13 (1429). <a href="https://doi.org/10.12688/f1000research.157778.1">https://doi.org/10.12688/f1000research.157778.1</a>.
-</div>
-</div>
 
 
-</section>
 </section>
 </section>
 
