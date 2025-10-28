@@ -12,6 +12,7 @@ These can include:
 - [Embedded Systems](cs_embeddedsystems.qmd)
 - [Security and Cryptography](cs_securitycrypto.qmd)
 - [Scientific Computing](rse_scientificcomputing.qmd)
+- [Software Engineering II](gen_softwareeng2.qmd)
 
 Contents, competences and examination methods depend on the chosen modules.
 Obviously, every module can be completed only once.

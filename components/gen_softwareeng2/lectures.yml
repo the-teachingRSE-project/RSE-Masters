@@ -1,0 +1,9 @@
+entries:
+  - name: "Software Engineering II"
+    type: "Lecture"
+    sws: 2
+    ects: 4
+  - name: "Software Engineering II Exercise"
+    type: "Exercise"
+    sws: 2
+    ects: 2
