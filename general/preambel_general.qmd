@@ -76,7 +76,7 @@ Implemented in:
 
 - [RSE Management](generation/generated/rse_management.qmd)
 - [Domain Science Project](generation/generated/mnt_project.qmd) or [RSE Lab Project](generation/generated/cs_project.qmd)
-- [RSE Philosophy](generation/generated/rse_philosophy.qmd)
+- [RSE, Ethics & Society](generation/generated/rse_society_philosophy.qmd)
 - [RSE Lecture Series](generation/generated/rse_colloquium.qmd)
 
 

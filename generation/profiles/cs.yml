@@ -10,9 +10,8 @@ profile:
         - "Statistical Data Analysis Exercise"
         - "Mathematical Foundations of Data Science"
         - "Mathematical Foundations of Data Science Exercise"
-        - "RSE & Society"
       2:
-        - "RSE Philosophy"
+        - "RSE, Ethics & Society"
         - "RSE Research Methods"
         - "RSE Software Engineering"
         - "RSE Software Engineering Exercise"
