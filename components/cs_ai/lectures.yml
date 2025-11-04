@@ -1,6 +1,6 @@
 entries:
   - name: "Current topics in artificial intelligence"
-    type: "Seminar"
-    sws: 2
-    ects: 3
+    type: "Lecture and Exercise"
+    sws: 4
+    ects: 6
     optional: False
