@@ -3,12 +3,36 @@ sources:
     - name: EUMaster4HPC
       link: "https://eumaster4hpc.eu/studies/curriculum/"
   courses:
+    - name: HPC Chapel
+      link: "https://carpentries-incubator.github.io/hpc-chapel/"
+    - name: HPC Workflow Management with Snakemake
+      link: "https://carpentries-incubator.github.io/hpc-workflows/"
+    - name: HPC Workflow Management with Maestro
+      link: "https://carpentries-incubator.github.io/HPC-workflow-lesson-maestro/"
+    - name: Parallelisation using Python for HPC
+      link: "https://hpc-carpentry.github.io/hpc-parallel-novice"
+    - name: Introduction to Containers
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/reproducible--scalable-research-computing-with-containers/"
+    - name: An Introduction to High Performance Computing
+      link: "https://carpentries-incubator.github.io/hpc-intro/"
+    - name: HPC Python
+      link: "https://carpentries-incubator.github.io/hpc-python/"
+    - name: Using the Shell for HPC
+      link: "http://www.hpc-carpentry.org/hpc-shell/"
+    - name: Green software use on HPC
+      link: "https://carpentries-incubator.github.io/green-software-hpc/"
+    - name: Introduction to the Linux Command Line
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/linux-command-line-for-scientific-computing/"
+    - name: Introduction to HPC (at Imperial)
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/introduction-to-hpc/"
     - name: Viral Instructions Hardware
       link: "https://viralinstruction.com/posts/hardware/"
     - name: HPC Computing
       link: "https://en.cs.uni-paderborn.de/hpc/teaching/courses/ss-2024/introduction-to-high-performance-computing"
     - name: High-Performance Computing
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+    - name: Introduction to Parallel Programming (Python)
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/parallel-programming/"
   programs:
     - name: HPC-carpentry
       link: "https://www.hpc-carpentry.org/index.html"

@@ -1,5 +1,15 @@
 sources:
   courses:
+    - name: Data Exploration and Visualisation
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/data-exploration-visualisation/"
+    - name: Software and tools
+      link: "https://ukdataservice.ac.uk/learning-hub/software-and-tools/"
+    - name: Data Processing with R
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/data-processing-with-r/"
+    - name: Data Processing with Python (Pandas)
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/data-processing-python-pandas/"
+    - name: Plotting in Python with Matplotlib
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/plotting-in-python-with-matplotlib/"
     - name: Statistical Data Analysis (MATVMD837)
       link: "https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf"
     - name: Programmieren für Data Scientists Python

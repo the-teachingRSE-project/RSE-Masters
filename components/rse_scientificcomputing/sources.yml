@@ -3,6 +3,8 @@ sources:
     - name: EUMaster4HPC
       link: "https://eumaster4hpc.eu/studies/curriculum/"
   courses:
+    - name: Numerical Computing in Python
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/numerical-computing-in-python-with-numpy--scipy/"
   programs:
 
   course_literature:

@@ -12,3 +12,27 @@ sources:
       link: "https://carpentries-incubator.github.io/fair-research-software/"
     - name: Docker for neuroscience (jupyter book)
       link: "https://m-earnest.github.io/docker_workshop/index.html#"
+    - name: Further Git and GitHub
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/further-git-and-github-for-effective-collaboration/"
+    - name: Bash Shell
+      link: "https://swcarpentry.github.io/shell-novice/"
+    - name: Git
+      link: "https://swcarpentry.github.io/git-novice"
+    - name: Python
+      link: "https://swcarpentry.github.io/python-novice-inflammation"
+    - name: R
+      link: "https://swcarpentry.github.io/r-novice-inflammation/"
+    - name: Introduction to version control
+      link: "https://coderefinery.github.io/git-intro/"
+    - name: Collaborative distributed version control
+      link: "https://coderefinery.github.io/git-collaborative/"
+    - name: Jupyter notebooks
+      link: "https://coderefinery.github.io/jupyter/"
+    - name: Python for Researchers
+      link: "https://www.coursera.org/learn/introduction-to-python-for-researchers"
+    - name: Intermediate General Python
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/inter-python/#d.en.1395214"
+    - name: Introduction to R
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/r-programming/"
+    - name: Introduction to Git and GitHub
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/introduction-to-using-git-and-github-for-software-development/"

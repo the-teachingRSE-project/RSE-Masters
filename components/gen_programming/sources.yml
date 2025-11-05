@@ -13,6 +13,8 @@ sources:
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf"
     - name: Algorithmen und Datenstrukturen
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+    - name: Advanced Programming
+      link: "https://www.moodle.tum.de/course/view.php?id=90628"
   programs:
     - name: UP Informatik/Computational Science Bachelor
       link: "https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor"

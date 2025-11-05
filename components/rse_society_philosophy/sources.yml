@@ -1,5 +1,7 @@
 sources:
   courses:
+    - name: Data Ethics Essentials
+      link: "https://learning.theodi.org/courses/data-ethics-essentials"
     - name: Philosophische Grundlagen der Wissenschaften
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-B1-127-N-2015.pdf"
     - name: Einführung in die Wissenschaftstheorie
