@@ -1,9 +1,9 @@
 entries:
-  - name: "RSE Management Lecture"
+  - name: "RSEng Management Lecture"
     type: "Lecture"
     sws: 2
     ects: 3
-  - name: "RSE Management Exercise"
+  - name: "RSEng Management Exercise"
     type: "Exercise"
     sws: 2
     ects: 3

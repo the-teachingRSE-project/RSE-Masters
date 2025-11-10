@@ -1,30 +1,30 @@
 profile:
-  name: up # muss noch angepasst werden
+  name: up
   semesters:
     1:
-      - "RSE Lecture Series"
-      - "RSE Nuts and Bolts I"
-      - "RSE Management Lecture"
-      - "RSE Management Exercise"
+      - "RSEng Lecture Series"
+      - "RSEng Nuts and Bolts"
+      - "RSEng Management Lecture"
+      - "RSEng Management Exercise"
       - "Statistical Data Analysis"
       - "Statistical Data Analysis Exercise"
       - "Mathematical Foundations of Data Science"
       - "Mathematical Foundations of Data Science Exercise"
     2:
-      - "RSE Software Engineering"
-      - "RSE Software Engineering Exercise"
-      - "RSE Research Methods"
-      - "RSE, Ethics & Society"
+      - "Software Engineering for RSEs"
+      - "Software Engineering Exercise for RSEs"
+      - "Research Methods for RSEs"
+      - "RSEng, Ethics & Society"
       - "Compulsory Elective 1"
       - "Compulsory Elective 2"
       - "Compulsory Elective 3"
     3:
-      - "RSE Nuts and Bolts II"
+      - "RSEng Teaching"
       - "Natural Language Processing"
       - "Natural Language Processing Exercise"
       - "High Performance Computing"
       - "High Performance Computing Exercise"
-      - "RSE Lab Project"
-      - "Current topics in artificial intelligence"
+      - "RSEng Lab Project"
+      - "Current topics in Artificial Intelligence"
     4:
-      - "RSE Master Thesis"
+      - "RSEng Master Thesis"

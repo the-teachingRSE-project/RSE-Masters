@@ -1,0 +1,9 @@
+## RSE Teaching
+
+This seminar introduces students to possible teaching methods for RSEng in their third semester.
+As preparation for working as an RSE in interdisciplinary teams, students need some skills in teaching others about research software and the development process of it (see TEACH in [@competencies-F1000])
+
+This includes but is not limited to:
+- ...
+
+

@@ -2,8 +2,8 @@ profile:
    name: science
    semesters:
       1:
-        - "RSE Lecture Series"
-        - "RSE Nuts and Bolts I"
+        - "RSEng Lecture Series"
+        - "RSEng Nuts and Bolts"
         - "Statistical Data Analysis"
         - "Statistical Data Analysis Exercise"
         - "Fundamentals of Computer Science"
@@ -12,21 +12,21 @@ profile:
         - "Software Engineering I Exercise"
         - "Wildcard Science I"
       2:
-        - "RSE, Ethics & Society"
-        - "RSE Research Methods"
+        - "RSEng, Ethics & Society"
+        - "Research Methods for RSEs"
         - "Wildcard Science Lab I"
         - "Wildcard Science II"
         - "Computational Wildcard Science"
         - "Computational Wildcard Science Lab"
-        - "RSE Software Engineering"
-        - "RSE Software Engineering Exercise"
+        - "Software Engineering for RSEs"
+        - "Software Engineering Exercise for RSEs"
         - "Applied Programming"
         - "Applied Programming Exercise"
       3:
         - "Wildcard Science Lab II"
-        - "RSE Nuts and Bolts II"
-        - "RSE Management Lecture"
-        - "RSE Management Exercise"
+        - "RSEng Teaching"
+        - "RSEng Management Lecture"
+        - "RSEng Management Exercise"
         - "Natural Language Processing"
         - "Natural Language Processing Exercise"
         - "High Performance Computing"
@@ -34,4 +34,4 @@ profile:
         - "Science Lab Project"
 
       4:
-        - "RSE Master Thesis"
+        - "RSEng Master Thesis"

@@ -1,9 +1,6 @@
 entries:
-  - name: "RSE Lecture Series"
-    description: ""
+  - name: "RSEng Lecture Series"
     type: "Lecture"
     sws: 2
     ects: 3
-    group: 1
-    quarto_filename: ""
     optional: False
