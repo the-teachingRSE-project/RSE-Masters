@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>up_curriculum – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>description – RSE Curriculum (WORK IN PROGRESS)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -28,7 +28,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -108,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Curriculum Track 2</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../generation/generated/up_curriculum.html" aria-current="page"> 
+    <a class="nav-link" href="../../generation/generated/up_curriculum.html"> 
 <span class="menu-text">Universität Potsdam Beispiel</span></a>
   </li>  
   <li class="nav-item">
@@ -215,316 +235,86 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="example-for-uni-potsdam" class="level1">
-<h1>Example for Uni Potsdam</h1>
-<section id="module-descriptions-linked" class="level2">
-<h2 class="anchored" data-anchor-id="module-descriptions-linked">Module Descriptions (Linked)</h2>
+<section id="rse-nuts-and-bolts" class="level2">
+<h2 class="anchored" data-anchor-id="rse-nuts-and-bolts">RSE Nuts and Bolts</h2>
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>This module, inspired by the <a href="https://missing.csail.mit.edu/">MIT Missing Semester</a>, addresses the “nuts and bolts” often missing from traditional academic training in computing. It aims to provide students with practical skills and conceptual understanding for building robust, maintainable, and reproducible research software—key competencies in Research Software Engineering (RSEng).</p>
+</section>
+<section id="general-competencies" class="level3">
+<h3 class="anchored" data-anchor-id="general-competencies">General Competencies</h3>
+<p>The module begins with general-purpose computing tools and techniques that are foundational for any research software engineer:</p>
 <ul>
-<li><a href="../../generation/generated/rse_researchmethods.html">RSE Research Methods</a></li>
-<li><a href="../../generation/generated/rse_scientificcomputing.html">Scientific Computing</a></li>
-<li><a href="../../generation/generated/gen_datamaths.html">Mathematical Foundations of Data Science</a></li>
-<li><a href="../../generation/generated/rse_society_philosophy.html">RSE, Ethics &amp; Society</a></li>
-<li><a href="../../generation/generated/gen_datatext.html">Natural Language Processing</a></li>
-<li><a href="../../generation/generated/rse_teaching.html">RSE Teaching</a></li>
-<li><a href="../../generation/generated/rse_softwareengineering.html">RSE Software Engineering</a></li>
-<li><a href="../../generation/generated/rse_hpc.html">High-Performance Computing</a></li>
-<li><a href="../../generation/generated/gen_datascience.html">Data Science</a></li>
-<li><a href="../../generation/generated/rse_nuts_bolts.html">RSE Nuts and Bolts</a></li>
-<li><a href="../../generation/generated/rse_lectureseries.html">RSE Lecture Series</a></li>
-<li><a href="../../generation/generated/rse_thesis.html">Master’s Thesis</a></li>
-<li><a href="../../generation/generated/rse_management.html">RSE Management</a></li>
+<li>Shell tools and scripting</li>
+<li>Command-line environments</li>
+<li>Editors and IDEs (e.g., Vim)</li>
+<li>Version control (Git)</li>
+<li>Data wrangling</li>
+<li>Debugging and profiling</li>
+<li>Metaprogramming</li>
+<li>Security and cryptography</li>
 </ul>
 </section>
-<section id="suggested-study-plan" class="level2">
-<h2 class="anchored" data-anchor-id="suggested-study-plan">Suggested Study Plan</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-<th>SWS</th>
-<th>Sem 1</th>
-<th>Sem 2</th>
-<th>Sem 3</th>
-<th>Sem 4</th>
-<th>Existing Courses</th>
-<th>New Concept</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lecture</td>
-<td>RSEng Lecture Series</td>
-<td>2</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-<td>yes</td>
-</tr>
-<tr class="even">
-<td>Seminar</td>
-<td>RSEng Nuts and Bolts</td>
-<td>2</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-<td>yes</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>RSEng Management Lecture</td>
-<td>2</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/de/fop2/studium-und-lehre/bachelorveranstaltungen/organizational-behavior-und-hrm">Organizational Behavior &amp; Human Resource Management</a></td>
-<td>yes</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>RSEng Management Exercise</td>
-<td>2</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/de/fop2/studium-und-lehre/bachelorveranstaltungen/organizational-behavior-und-hrm">Organizational Behavior &amp; Human Resource Management</a></td>
-<td>yes</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Statistical Data Analysis</td>
-<td>4</td>
-<td>6</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf">Statistical Data Analysis (MATVMD837)</a></td>
-<td>no</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Statistical Data Analysis Exercise</td>
-<td>2</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf">Statistical Data Analysis (MATVMD837)</a></td>
-<td>no</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Mathematical Foundations of Data Science</td>
-<td>2</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf">Mathematical Foundations of Data Science (MAT-DSAM8B)</a></td>
-<td>no</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Mathematical Foundations of Data Science Exercise</td>
-<td>2</td>
-<td>4</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf">Mathematical Foundations of Data Science (MAT-DSAM8B)</a></td>
-<td>no</td>
-</tr>
-<tr class="odd">
-<td>Seminar</td>
-<td>Software Engineering for RSEs</td>
-<td>2</td>
-<td>0</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Research Software Engineering</a></td>
-<td>yes</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Software Engineering Exercise for RSEs</td>
-<td>2</td>
-<td>0</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Research Software Engineering</a></td>
-<td>yes</td>
-</tr>
-<tr class="odd">
-<td>Seminar</td>
-<td>Research Methods for RSEs</td>
-<td>2</td>
-<td>0</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-<td>yes</td>
-</tr>
-<tr class="even">
-<td>Seminar</td>
-<td>RSEng, Ethics &amp; Society</td>
-<td>2</td>
-<td>0</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/philosophie">Basismodul Grundlagen der Theoretischen Philosophie</a></td>
-<td>yes</td>
-</tr>
-<tr class="odd">
-<td>any</td>
-<td>Compulsory Elective 1</td>
-<td>4</td>
-<td>0</td>
-<td>6</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-<td>no</td>
-</tr>
-<tr class="even">
-<td>any</td>
-<td>Compulsory Elective 2</td>
-<td>4</td>
-<td>0</td>
-<td>6</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-<td>no</td>
-</tr>
-<tr class="odd">
-<td>any</td>
-<td>Compulsory Elective 3</td>
-<td>4</td>
-<td>0</td>
-<td>6</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-<td>no</td>
-</tr>
-<tr class="even">
-<td>Seminar</td>
-<td>RSEng Teaching</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>3</td>
-<td>0</td>
-<td></td>
-<td>yes</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>Natural Language Processing</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>4</td>
-<td>0</td>
-<td></td>
-<td>no</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>Natural Language Processing Exercise</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>2</td>
-<td>0</td>
-<td></td>
-<td>no</td>
-</tr>
-<tr class="odd">
-<td>Lecture</td>
-<td>High Performance Computing</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>3</td>
-<td>0</td>
-<td></td>
-<td>yes</td>
-</tr>
-<tr class="even">
-<td>Exercise</td>
-<td>High Performance Computing Exercise</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>3</td>
-<td>0</td>
-<td></td>
-<td>yes</td>
-</tr>
-<tr class="odd">
-<td>Lab</td>
-<td>RSEng Lab Project</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>12</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf">Praktikum</a><br><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Interdisziplinäre Projektarbeit</a></td>
-<td>yes</td>
-</tr>
-<tr class="even">
-<td>Lecture and Exercise</td>
-<td>Current topics in Artificial Intelligence</td>
-<td>4</td>
-<td>0</td>
-<td>0</td>
-<td>6</td>
-<td>0</td>
-<td><a href="https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf">Aktuelle Themen der Künstlichen Intelligenz</a></td>
-<td>no</td>
-</tr>
-<tr class="odd">
-<td>Thesis</td>
-<td>RSEng Master Thesis</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>30</td>
-<td></td>
-<td>yes</td>
-</tr>
-<tr class="even">
-<td></td>
-<td><strong>Total ECTS per semester</strong></td>
-<td></td>
-<td><strong>27</strong></td>
-<td><strong>30</strong></td>
-<td><strong>33</strong></td>
-<td><strong>30</strong></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p><strong>Total Curriculum ECTS: 120</strong></p>
+<section id="rseng-specific-topics" class="level3">
+<h3 class="anchored" data-anchor-id="rseng-specific-topics">RSEng-specific Topics</h3>
+<p>Building on these foundations, the module introduces RSE-specific concepts and good practices:</p>
+<ul>
+<li><strong>Version control and collaboration</strong>
+<ul>
+<li>Git for code history, collaboration, and issue tracking</li>
+</ul></li>
+<li><strong>Virtualization concepts</strong>
+<ul>
+<li>Containerization and environment management</li>
+</ul></li>
+<li><strong>The Data Life Cycle</strong>
+<ul>
+<li>Managing research data and understanding data provenance</li>
+</ul></li>
+<li><strong>Good coding practices</strong>
+<ul>
+<li>Reproducible and testable code</li>
+<li>Meaningful documentation and error messages</li>
+<li>Modular software design</li>
+<li>Performance-conscious coding</li>
+<li>Easily installable and distributable software</li>
+<li>Coding standards, formatting, and linting</li>
+</ul></li>
+<li><strong>Software management planning</strong>
+<ul>
+<li>Writing Data and Software Management Plans</li>
+<li>Sustainable development and community involvement</li>
+</ul></li>
+<li><strong>Low-level programming</strong>
+<ul>
+<li>Introduction to a compiled language (e.g., C) to expose hardware-level concerns and efficient memory management</li>
+</ul></li>
+<li><strong>Long-term software maintenance</strong>
+<ul>
+<li>Version tracking, bug management, and sustainability strategies</li>
+<li>Building and maintaining research software communities</li>
+</ul></li>
+</ul>
+</section>
+<section id="beyond-the-basics" class="level3">
+<h3 class="anchored" data-anchor-id="beyond-the-basics">Beyond the Basics</h3>
+<p>Finally, the module touches on practices that support the scholarly nature of research software:</p>
+<ul>
+<li>Software publication and citation (see SP in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+<li>Use of domain-specific repositories and registries (see DOMREP in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
+</ul>
+<p>By the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.</p>
+
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-competencies-F1000" class="csl-entry" role="listitem">
+Goth, F, R Alves, M Braun, LJ Castro, G Chourdakis, S Christ, J Cohen, et al. 2024. <span>“Foundational Competencies and Responsibilities of a Research Software Engineer [Version 1; Peer Review: Awaiting Peer Review].”</span> <em>F1000Research</em> 13 (1429). <a href="https://doi.org/10.12688/f1000research.157778.1">https://doi.org/10.12688/f1000research.157778.1</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
