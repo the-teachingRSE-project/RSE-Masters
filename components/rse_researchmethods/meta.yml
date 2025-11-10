@@ -3,5 +3,5 @@ meta:
   profiles:
     - mnt
     - cs
-  name: RSE Research Methods
+  name: Research Methods for RSEs
   area: rse_research

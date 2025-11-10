@@ -1,18 +1,18 @@
-## RSE Lecture Series
+## RSEng Lecture Series
 
 ### Introduction
 
-This lecture series covers current RSE research and provides room for guest lectures and varying focus topics.
+This lecture series covers current RSEng research and provides room for guest lectures and varying focus topics.
 
 
 ### Contents
 
-vary between semesters and weeks, but are all related to RSE
+vary between semesters and weeks, but are all related to RSEng
 
 
 ### Learning Objectives
 
-- students get a broad image of RSE in the wild
+- students get a broad image of RSEng in the wild
 
 
 ### Examination Methods

@@ -1,4 +1,4 @@
-## RSE, Ethics & Society
+## RSEng, Ethics & Society
 ### Introduction
 
 The RSE master's program is more than a computer science specialisation for researchers. People working as RSEs are often involved in digitalization projects, institutional development or other non-technical tasks. Also, introducing students to cutting-edge technologies, raises ethical questions. To talk about the impact of RSE on society, is therefore crucial. This module addresses the social context of RSEng. Students examine issues relating to sustainability, ethics, responsibility and the impact of new technologies. 
