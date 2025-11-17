@@ -5,8 +5,11 @@ sources:
   courses:
     - name: Numerical Computing in Python
       link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/numerical-computing-in-python-with-numpy--scipy/"
+    - name: Scientific Computing
+      link: "https://www.static.tu.berlin/fileadmin/www/40000079/Documents_Scientific_Computing_Master/ScientificComputing_M.Sc._2021_Modullisten_230626.pdf"
   programs:
-
+    - name: Scientific Computing
+      link: "https://www.tu.berlin/math/studienberatung/studiengaenge/masterstudiengaenge/scientific-computing-msc"
   course_literature:
     - name: What every computer scientist should know about floating-point arithmetic
       link: "https://dl.acm.org/doi/10.1145/103162.103163"
