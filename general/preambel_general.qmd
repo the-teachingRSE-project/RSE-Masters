@@ -55,6 +55,9 @@ modules as following:
 
 Implemented in the following components:
 
+- [RSEng Lecture Series](generation/generated/rse_lectureseries.qmd)
+- [Research methods for RSEs](generation/generated/rse_researchmethods.qmd)
+- [RSEng Project](generation/generated/cs_project.qmd)
 - [Domain Science Project](generation/generated/mnt_project.qmd)
 - [Domain Science Wildcard Courses](generation/generated/mnt_wildcard.qmd)
 - [RSE Thesis](rse_thesis)
@@ -63,21 +66,25 @@ Implemented in the following components:
 
 Implemented in:
 
-- [RSE Nuts and Bolts](generation/generated/rse_missingsemester.qmd)
-- [Data Science Foundations](generation/generated/gen_datascience.qmd)
-- [Programming Foundations](generation/generated/gen_programming.qmd)
-- [Software Engineering Foundations](generation/generated/gen_softwareengineering.qmd)
-- [RSE Software Engineering](generation/generated/rse_softwareengineering.qmd)
-- [Scientific Computing Basics and High Performance Computing](generation/generated/rse_computing.qmd)
+- [RSE Nuts and Bolts](generation/generated/rse_nuts_bolts.qmd)
+- [Foundations of Computer Science](generation/generated/gen_cs.qmd)
+- [Algorithms and Datastructures](generation/generated/gen_programming.qmd)
+- [Foundations of Software Engineering](generation/generated/gen_softwareeng1.qmd)
+- [Advanced Software Engineering](generation/generated/gen_softwareeng2.qmd)
+- [Software Engineering for RSEs](generation/generated/rse_softwareengineering.qmd)
+- [Foundations of Data Science](generation/generated/gen_datascience.qmd)
+- [Natural Language Processing](generation/generated/gen_datatext.qmd)
+- [Scientific Computing Basics](generation/generated/rse_scientificcomputing.qmd)
+- [Advanced Computer Science modules](generation/generated/cs_elective.qmd)
 
 ## Communication skills
 
 Implemented in:
 
-- [RSE Management](generation/generated/rse_management.qmd)
-- [Domain Science Project](generation/generated/mnt_project.qmd) or [RSE Lab Project](generation/generated/cs_project.qmd)
-- [RSE, Ethics & Society](generation/generated/rse_society_philosophy.qmd)
-- [RSE Lecture Series](generation/generated/rse_colloquium.qmd)
+- [RSEng Management](generation/generated/rse_management.qmd)
+- [RSEng, Ethics & Society](generation/generated/rse_society_philosophy.qmd)
+- [RSEng Teaching](generation/generated/rse_teaching.qmd)
+
 
 
 
