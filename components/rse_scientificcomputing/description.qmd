@@ -49,7 +49,3 @@ Short lectures (30%) are coupled with hands‑on labs (70%). Students complete *
 
 - Basic programming in Python, C/C++, or Julia
 - Undergraduate calculus & linear algebra
-
-### Key Resources
-
-ChatGPT fantasy

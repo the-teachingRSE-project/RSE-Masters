@@ -25,9 +25,11 @@ def generate_curriculum(module_summaries, curriculum, plan, profile):
 
         if profile == "mnt":
             module_summaries = [m for m in module_summaries if m["file"].startswith((profile, "rse", "gen")) ]
-            module_summaries = [m for m in module_summaries if not m["file"].startswith("rse_society")]
-        else: # profile == "cs"
-            module_summaries = [m for m in module_summaries if m["file"].startswith((profile, "rse", "gen_data")) ]
+            module_summaries = [m for m in module_summaries if not m["file"].startswith(("gen_datamaths", "gen_softwareeng2", "rse_hpc"))]
+        elif profile == "cs":
+            module_summaries = [m for m in module_summaries if m["file"].startswith((profile, "rse", "gen_data", "gen_softwareeng2")) ]
+        else: # profile == "up"
+            module_summaries = [m for m in module_summaries if m["file"].startswith(("cs", "mnt", "rse", "gen"))] # includes all components
 
         curriculum_render = curriculum_template.render(
             curriculum=curriculum,

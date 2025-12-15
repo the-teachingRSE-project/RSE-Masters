@@ -1,7 +1,4 @@
 sources:
-  curricula:
-    - name: 
-      link: 
   courses:
     - name: Deklarative Modellierung
       link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf"
@@ -20,6 +17,3 @@ sources:
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
     - name: RWTH Informatik Master
       link: "https://www.rwth-aachen.de/go/id/bcfg"
-  course_literature:
-    - name: 
-      link: 

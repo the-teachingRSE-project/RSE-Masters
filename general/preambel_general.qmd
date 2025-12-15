@@ -44,12 +44,12 @@ Interdisciplinary researchers where the computer science background is rivalled 
 
 You can find the tracks as follows:
 
-- Computer Science Generalist Track [here](/generation/generated/cs_curriculum.qmd)
-- Natural Science / Domain Science Track [here](/generation/generated/mnt_curriculum.qmd)
+- Computer Science Generalist Track [here](https://the-teachingrse-project.github.io/RSE-Masters/generation/generated/cs_curriculum.html)
+- Natural Science / Domain Science Track [here](https://the-teachingrse-project.github.io/RSE-Masters/generation/generated/mnt_curriculum.html)
 
 
 The RSE community has long used the three pillar structure for RSE specific skills. These are distributed in the
-modules as following:
+modules as follows:
 
 ## Research skills
 
