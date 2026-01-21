@@ -8,22 +8,22 @@ project:
     - "!thesis/"
 
 website:
-  title: "RSE Curriculum (WORK IN PROGRESS)"
+  title: "TEACHING RSE AT THE UNIVERSITY LEVEL"
   description: ""
   navbar:
     right:
-      - text: "Curriculum Track 1"
-        href: generation/generated/cs_curriculum.qmd
-      - text: "Curriculum Track 2"
-        href: generation/generated/mnt_curriculum.qmd
-      - text: "Universität Potsdam Beispiel"
-        href: generation/generated/up_curriculum.qmd
+      #- text: "Curriculum Track 1"
+      #  href: generation/generated/cs_curriculum.qmd
+      #- text: "Curriculum Track 2"
+      #  href: generation/generated/mnt_curriculum.qmd
+      #- text: "Universität Potsdam Beispiel"
+      #  href: generation/generated/up_curriculum.qmd
       - text: "Preambel"
         href: general/preambel_general.qmd
       - text: "Job Roles"
         href: general/job_roles.qmd
-      - text: "PDF-Version"
-        href: _doc/RSE-Curriculum.pdf
+      #- text: "PDF-Version"
+      #  href: _doc/RSE-Curriculum.pdf
       - text: "Glossary"
         href: general/glossary.qmd
       - text: "Repository"

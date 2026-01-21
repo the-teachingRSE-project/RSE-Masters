@@ -6,13 +6,17 @@
 {%- else %}
 {%- endif %}
 
+<!--
 **{{ lecture.type }}**: {{ lecture.name }}
 {{ lecture.description }}
 **SWS:** {{ lecture.sws }}
 **ECTS:** {{ lecture.ects }}
+-->
+
 
 {% endfor %}
 
+<!--
 
 {% if competences %}
 ### Module Competences
@@ -23,6 +27,8 @@
 | {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ Link ]( {{ c.source }} )  |
 {%- endfor %}
 {% endif %}
+-->
+
 
 
 {% if curricula or courses or course_literature or programs %}

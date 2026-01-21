@@ -1,6 +1,6 @@
-# WORK IN PROGRESS THIS IS NOT THE OFFICIAL STATEMENT OF THE COMMUNITY BUT THE CURRENT VERSION
+# WORK IN PROGRESS THIS IS NOT THE OFFICIAL STATEMENT OF THE COMMUNITY BUT AN OLDER VERSION
 
-# Why a RSE Curriculum?
+# Why specific RSE Education?
 
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent
@@ -42,11 +42,14 @@ Interdisciplinary researchers where the computer science background is rivalled 
 
 (At this point) the curriculum tries to support both aspects equally with two branches (or [tracks](https://github.com/the-teachingRSE-project/RSE-Masters/wiki/profiles)) of the curriculum focussing on the different weights. However, both tracks share common modules and concepts such as the idea to teach RSE-specific Open Science Tooling, an advanced Software Engineering module with specific patterns and modelling techniques for RSE and dual-lab and dual-thesis ideas, where RSE-students interface with a domain or industry field to apply their cross-cutting research skills.
 
+<!--
+
 You can find the tracks as follows:
 
 - Computer Science Generalist Track [here](/generation/generated/cs_curriculum.qmd)
 - Natural Science / Domain Science Track [here](/generation/generated/mnt_curriculum.qmd)
 
+-->
 
 The RSE community has long used the three pillar structure for RSE specific skills. These are distributed in the
 modules as following:
