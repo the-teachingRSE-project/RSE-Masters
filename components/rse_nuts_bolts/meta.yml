@@ -1,7 +1,7 @@
 meta:
-  id: rse_missingsemester
+  id: rse_nuts_bolts
   profiles:
     - mnt
     - cs
-  name: RSE Nuts and Bolts
+  name: RSEng Nuts and Bolts
   area: rse_technical

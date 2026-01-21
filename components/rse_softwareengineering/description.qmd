@@ -1,4 +1,4 @@
-## RSE-Software Engineering
+## Software Engineering for RSEs
 This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to
 
 - software re-use (see SRU in [@competencies-F1000])

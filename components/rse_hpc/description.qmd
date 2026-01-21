@@ -46,7 +46,3 @@ Blended delivery: interactive lectures (40%), coding workshops on the national c
 
 - Completion of - [Scientific Computing](rse_scientificcomputing.qmd) **or** equivalent experience
 - Familiarity with Linux command line and version control
-
-### Key Resources
-
-- replace CHatGPT fantasies

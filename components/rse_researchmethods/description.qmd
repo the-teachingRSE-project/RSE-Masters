@@ -1,0 +1,13 @@
+## Research Paradigms and Methodology for RSEs
+
+The module addresses the complex field of interaction between software as part of the reproducible research process and as a variable and research result in its own right. Similar to statistics, the use of computer technology leads to an expansion of possible research topics, but also to new sources of error, complexity and associated approaches. 
+
+This includes but is not limited to:
+
+- Forms of research and disciplinary culture
+- Empirical research methods (e.g. for software evaluation)
+- Design-based research and design science
+- Qualitative methods for concept evaluation
+- Simulation techniques and mixed methods
+
+

@@ -5,6 +5,5 @@ meta:
     - cs
     - up
   level: master
-  name: RSE Software Engineering
-  depends_on: []
+  name: Software Engineering for RSEs
   area: rse_technical

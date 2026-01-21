@@ -1,0 +1,9 @@
+meta:
+  id: gen_se2
+  profiles:
+      - mnt
+      - cs
+      - up
+  name: Software Engineering II
+  depends_on: [gen_se]
+  area: cs_basic

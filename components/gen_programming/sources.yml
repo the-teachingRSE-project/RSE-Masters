@@ -13,6 +13,10 @@ sources:
       link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf"
     - name: Algorithmen und Datenstrukturen
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+    - name: Advanced Programming
+      link: "https://www.moodle.tum.de/course/view.php?id=90628"
+    - name: Programmierung 2
+      link: "https://www.uni-saarland.de/fileadmin/upload/studium/angebot/mhb_ba/2025/MHB_BA_Inform.pdf"
   programs:
     - name: UP Informatik/Computational Science Bachelor
       link: "https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor"
@@ -22,3 +26,5 @@ sources:
       link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
     - name: RWTH Informatik Bachelor
       link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
+    - name: UdS Informatik Bachelor
+      link: "https://www.uni-saarland.de/studium/angebot/bachelor/informatik.html"

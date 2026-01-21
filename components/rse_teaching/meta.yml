@@ -1,0 +1,7 @@
+meta:
+  id: rse_teaching
+  profiles:
+    - mnt
+    - cs
+  name: RSEng Teaching
+  area: rse_social

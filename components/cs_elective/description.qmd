@@ -11,6 +11,8 @@ These can include:
 - [Efficient Algorithms](cs_efficientalgorithms.qmd)
 - [Embedded Systems](cs_embeddedsystems.qmd)
 - [Security and Cryptography](cs_securitycrypto.qmd)
+- [High Performance Computing](rse_hpc.qmd)
+- [Software Engineering II](gen_softwareeng2.qmd)
 
 Contents, competences and examination methods depend on the chosen modules.
 Obviously, every module can be completed only once.

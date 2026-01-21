@@ -1,10 +1,10 @@
 entries:
-  - name: "Software Engineering"
+  - name: "Software Engineering I"
     description: ""
     type: "Lecture"
     sws: 2
     ects: 4
-  - name: "Software Engineering Exercise"
+  - name: "Software Engineering I Exercise"
     description: ""
     type: "Exercise"
     sws: 2

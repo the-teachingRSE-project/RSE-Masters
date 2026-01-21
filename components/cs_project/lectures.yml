@@ -1,8 +1,5 @@
 entries:
-  - name: "RSE Lab Project"
-    description: ""
+  - name: "RSEng Lab Project"
     type: "Lab"
     sws: 8
     ects: 12
-    group: 1
-    quarto_filename: ""

@@ -1,4 +1,4 @@
-## RSE Management and Communication
+## RSEng Management and Communication
 ### Introduction
 
 This module comprises the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.
@@ -9,6 +9,8 @@ This includes but is not limited to:
 - teaching RSE-basics (see TEACH in [@competencies-F1000])
 - project management (see PM in [@competencies-F1000])
 - interaction with users and other stakeholders (see USERS in [@competencies-F1000])
+
+The lecture covers project and team management techniques an RSE needs in everyday life and the taught methods are applied and practiced with case-studys, role-plays etc. in the exercise.
 
 ### Contents
 

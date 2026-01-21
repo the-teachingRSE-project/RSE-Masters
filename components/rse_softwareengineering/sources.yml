@@ -2,6 +2,14 @@ sources:
   courses:
     - name: Research Software Engineering
       link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf"
+    - name: Automated testing
+      link: "https://coderefinery.github.io/testing/"
+    - name: Documenting your research software
+      link: "https://coderefinery.github.io/documentation/"
+    - name: Introduction to Research Software Engineering
+      link: "https://tu-dresden.de/ing/informatik/smt/cgv/studium/lehrveranstaltungen/ss2025/copy_of_index"
+    - name: Research Software Engineering
+      link: "https://www.hcds.uni-hamburg.de/teaching/courses/research-software-engineering.html"
   programs:
     - name: UP Computational Science Master
       link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science"

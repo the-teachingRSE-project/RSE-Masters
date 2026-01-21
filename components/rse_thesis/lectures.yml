@@ -1,8 +1,5 @@
 entries:
-  - name: "RSE Master Thesis"
-    description: ""
+  - name: "RSEng Master Thesis"
     type: "Thesis"
     sws: 0
     ects: 30
-    group: 1
-    quarto_filename: ""

@@ -1,7 +1,4 @@
 sources:
-  curricula:
-    - name: 
-      link: 
   courses:
     - name: Software-Projektpraktikum
       link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
@@ -28,6 +25,4 @@ sources:
       link: "https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor"
     - name: UP Computational Science Master
       link: "https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science"
-  course_literature:
-    - name:
-      link: 
+

@@ -6,3 +6,10 @@ competences:
     evidence: "..."
     author: ""
     source: ""
+  - id: rse_philosophy_1
+    description: "TODO"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "..."
+    author: ""
+    source: ""

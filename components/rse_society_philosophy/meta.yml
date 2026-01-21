@@ -3,7 +3,9 @@ meta:
   profiles:
     - mnt
     - cs
+    - jmuw
+    - rwth
+    - up
   level: master
-  name: RSE & Society
-  depends_on: []
+  name: RSEng, Ethics & Society
   area: rse_social

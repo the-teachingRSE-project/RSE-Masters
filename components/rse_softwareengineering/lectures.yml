@@ -1,12 +1,12 @@
 entries:
-  - name: "RSE Software Engineering"
+  - name: "Software Engineering for RSEs"
     type: "Seminar"
     sws: 2
     ects: 3
     group: 1
     quarto_filename: ""
     optional: False
-  - name: "RSE Software Engineering Exercise"
+  - name: "Software Engineering Exercise for RSEs"
     type: "Exercise"
     sws: 2
     ects: 3
