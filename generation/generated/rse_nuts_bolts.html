@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -15,7 +15,7 @@
 <meta name="author" content="Anna-Lena Lamprecht">
 <meta name="author" content="Maja Toebs">
 
-<title>rse_nuts_bolts – RSE Curriculum (WORK IN PROGRESS)</title>
+<title>rse_nuts_bolts – TEACHING RSE AT THE UNIVERSITY LEVEL</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c00b42e811b0fd9a18ac62455ba22490.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -108,7 +108,7 @@ div.csl-indent {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">RSE Curriculum (WORK IN PROGRESS)</span>
+    <span class="navbar-title">TEACHING RSE AT THE UNIVERSITY LEVEL</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -118,28 +118,12 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../generation/generated/cs_curriculum.html"> 
-<span class="menu-text">Curriculum Track 1</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../generation/generated/mnt_curriculum.html"> 
-<span class="menu-text">Curriculum Track 2</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../generation/generated/up_curriculum.html"> 
-<span class="menu-text">Universität Potsdam Beispiel</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../general/preambel_general.html"> 
 <span class="menu-text">Preambel</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../general/job_roles.html"> 
 <span class="menu-text">Job Roles</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../_doc/RSE-Curriculum.pdf"> 
-<span class="menu-text">PDF-Version</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../general/glossary.html"> 
@@ -302,161 +286,36 @@ div.csl-indent {
 <li>Use of domain-specific repositories and registries (see DOMREP in <span class="citation" data-cites="competencies-F1000">(<a href="#ref-competencies-F1000" role="doc-biblioref">Goth et al. 2024</a>)</span>)</li>
 </ul>
 <p>By the end of this module, students will be well-equipped to design, develop, document, and maintain research software that meets high standards of quality, sustainability, and reproducibility.</p>
-<p><strong>Seminar</strong>: RSEng Nuts and Bolts</p>
-<p><strong>SWS:</strong> 2 <strong>ECTS:</strong> 3</p>
-</section>
-<section id="module-competences" class="level3">
-<h3 class="anchored" data-anchor-id="module-competences">Module Competences</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>ID</th>
-<th>Description</th>
-<th>Disciplines</th>
-<th>Prerequisites</th>
-<th>Evidence</th>
-<th>Author</th>
-<th>Source</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>rse_tooling_1</td>
-<td>Use literate programming tools (e.g., Quarto, Marimo, Pluto.jl, Jupyter) to combine code, results, and narrative</td>
-<td>Research Software Engineering</td>
-<td></td>
-<td>Submit a literate notebook or document integrating code, visualizations, and explanatory text</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="even">
-<td>rse_tooling_2</td>
-<td>Use Python for visualization, scripting, templating, and integration tasks</td>
-<td>Research Software Engineering</td>
-<td></td>
-<td>Submit a Python project demonstrating use of libraries for visualisation, web tasks, and templating</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="odd">
-<td>rse_tooling_3</td>
-<td>Write and use Bash scripts for automation</td>
-<td>Research Software Engineering</td>
-<td></td>
-<td>Submit shell scripts automating file manipulation or computational workflows</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="even">
-<td>rse_tooling_4</td>
-<td>Apply testing, debugging, and logging techniques to ensure software reliability</td>
-<td>Research Software Engineering</td>
-<td>rse_tooling_2</td>
-<td>Submit logs, test cases, and debugging documentation for a non-trivial Python or Bash project</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="odd">
-<td>rse_tooling_5</td>
-<td>Use workflow management tools (e.g., CWL, Nextflow) to design scalable, reproducible pipelines</td>
-<td>Research Software Engineering</td>
-<td>rse_tooling_3, rse_tooling_11</td>
-<td>Submit a reproducible workflow including metadata and input/output definitions</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="even">
-<td>rse_tooling_6</td>
-<td>Estimate resource requirements for computational tasks using profiling and benchmarking</td>
-<td>Research Software Engineering</td>
-<td>rse_tooling_2, rse_tooling_5</td>
-<td>Provide resource usage profiles and discuss optimization implications</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="odd">
-<td>rse_tooling_7</td>
-<td>Use package managers and virtual environments (e.g., conda, nix) to manage software dependencies</td>
-<td>Research Software Engineering</td>
-<td></td>
-<td>Submit environment definitions and reproducible setup instructions for a project</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="even">
-<td>rse_tooling_8</td>
-<td>Document and package software for usability and reusability, using generators and modular design</td>
-<td>Research Software Engineering</td>
-<td>rse_tooling_2</td>
-<td>Submit user and developer documentation generated with Sphinx or similar, plus a reusable code module</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="odd">
-<td>rse_tooling_9</td>
-<td>Communicate technical RSE topics effectively with non-technical audiences</td>
-<td>Research Software Engineering</td>
-<td></td>
-<td>Prepare and deliver a presentation or write an article explaining RSE concepts to a general audience</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="even">
-<td>rse_tooling_10</td>
-<td>Apply authentication and authorization mechanisms (e.g., LDAP, ACLs, Active Directory)</td>
-<td>Research Software Engineering</td>
-<td></td>
-<td>Configure and demonstrate access control for a multi-user service or application</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="odd">
-<td>rse_tooling_11</td>
-<td>Make informed decisions about tooling and infrastructure (e.g., Jupyter vs scripts, local vs HPC/cloud)</td>
-<td>Research Software Engineering</td>
-<td>rse_tooling_1, rse_tooling_2, rse_tooling_3</td>
-<td>Submit a comparative analysis justifying tooling and infrastructure choices for a research project</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="even">
-<td>rse_tooling_12</td>
-<td>Teach and practice collaborative development, including version control and code review</td>
-<td>Research Software Engineering</td>
-<td>rse_tooling_2</td>
-<td>Submit a project with version history and documented code reviews</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="odd">
-<td>rse_tooling_13</td>
-<td>Mentor others in research software engineering practices</td>
-<td>Research Software Engineering</td>
-<td>rse_tooling_12</td>
-<td>Document a mentoring session, workshop, or support activity</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="even">
-<td>rse_tooling_14</td>
-<td>Deploy and maintain web servers for research applications</td>
-<td>Research Software Engineering</td>
-<td>rse_tooling_2</td>
-<td>Deploy a working web application with setup and maintenance documentation</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-<tr class="odd">
-<td>rse_tooling_15</td>
-<td>Understand and manage file systems, including local and network-attached storage</td>
-<td>Research Software Engineering</td>
-<td></td>
-<td>Document storage strategies and access mechanisms in a real-world setup</td>
-<td>Workshop Participants</td>
-<td><a href="RSE Tooling Workshop">Link</a></td>
-</tr>
-</tbody>
-</table>
+<!--
+**Seminar**: RSEng Nuts and Bolts
+
+**SWS:** 2
+**ECTS:** 3
+-->
+<!--
+
+
+### Module Competences
+
+| ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
+|-----|-------------|-------------|---------------|----------|--------| --------|
+|rse_tooling_1| Use literate programming tools (e.g., Quarto, Marimo, Pluto.jl, Jupyter) to combine code, results, and narrative | Research Software Engineering |  | Submit a literate notebook or document integrating code, visualizations, and explanatory text | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_2| Use Python for visualization, scripting, templating, and integration tasks | Research Software Engineering |  | Submit a Python project demonstrating use of libraries for visualisation, web tasks, and templating | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_3| Write and use Bash scripts for automation | Research Software Engineering |  | Submit shell scripts automating file manipulation or computational workflows | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_4| Apply testing, debugging, and logging techniques to ensure software reliability | Research Software Engineering | rse_tooling_2 | Submit logs, test cases, and debugging documentation for a non-trivial Python or Bash project | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_5| Use workflow management tools (e.g., CWL, Nextflow) to design scalable, reproducible pipelines | Research Software Engineering | rse_tooling_3, rse_tooling_11 | Submit a reproducible workflow including metadata and input/output definitions | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_6| Estimate resource requirements for computational tasks using profiling and benchmarking | Research Software Engineering | rse_tooling_2, rse_tooling_5 | Provide resource usage profiles and discuss optimization implications | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_7| Use package managers and virtual environments (e.g., conda, nix) to manage software dependencies | Research Software Engineering |  | Submit environment definitions and reproducible setup instructions for a project | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_8| Document and package software for usability and reusability, using generators and modular design | Research Software Engineering | rse_tooling_2 | Submit user and developer documentation generated with Sphinx or similar, plus a reusable code module | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_9| Communicate technical RSE topics effectively with non-technical audiences | Research Software Engineering |  | Prepare and deliver a presentation or write an article explaining RSE concepts to a general audience | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_10| Apply authentication and authorization mechanisms (e.g., LDAP, ACLs, Active Directory) | Research Software Engineering |  | Configure and demonstrate access control for a multi-user service or application | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_11| Make informed decisions about tooling and infrastructure (e.g., Jupyter vs scripts, local vs HPC/cloud) | Research Software Engineering | rse_tooling_1, rse_tooling_2, rse_tooling_3 | Submit a comparative analysis justifying tooling and infrastructure choices for a research project | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_12| Teach and practice collaborative development, including version control and code review | Research Software Engineering | rse_tooling_2 | Submit a project with version history and documented code reviews | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_13| Mentor others in research software engineering practices | Research Software Engineering | rse_tooling_12 | Document a mentoring session, workshop, or support activity | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_14| Deploy and maintain web servers for research applications | Research Software Engineering | rse_tooling_2 | Deploy a working web application with setup and maintenance documentation | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+|rse_tooling_15| Understand and manage file systems, including local and network-attached storage | Research Software Engineering |  | Document storage strategies and access mechanisms in a real-world setup | Workshop Participants | [ Link ]( RSE Tooling Workshop )  |
+
+-->
 </section>
 <section id="sources-implementations" class="level3">
 <h3 class="anchored" data-anchor-id="sources-implementations">Sources &amp; Implementations:</h3>
