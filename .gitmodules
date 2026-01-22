@@ -1,0 +1,3 @@
+[submodule "external/bibliography"]
+	path = external/bibliography
+	url = https://github.com/the-teachingRSE-project/bibliography.git
