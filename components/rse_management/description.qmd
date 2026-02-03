@@ -54,3 +54,8 @@ The lecture covers project and team management techniques an RSE needs in everyd
     - iterative workflows
     - continuous delivery
     - communication with a manager/supervisor
+
+
+### Piloting Classes
+
+- [RWTH-Management and Communication in RSE Seminar](../../components/rse_management/oer.qmd)
