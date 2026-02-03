@@ -14,17 +14,13 @@ In order to standardize the submitted case studies we suggest the [critical inci
 
 It would be great if you could follow this schematics:
 
-1. **Focus on a genuinely critical incident**
-   Describe a situation that clearly deviated from everyday routine and had a *significant positive or negative impact* on the project, collaboration, or outcome. Routine difficulties or generic problems are less useful than moments of escalation, conflict, breakdown, or unexpected success.
+1. Focus on a genuinely critical incident: Describe a situation that clearly deviated from everyday routine and had a *significant positive or negative impact* on the project, collaboration, or outcome. Routine difficulties or generic problems are less useful than moments of escalation, conflict, breakdown, or unexpected success.
 
-2. **Clearly state context and goal**
-   Briefly outline the setting and intended goal of the work at the time of the incident (e.g. project phase, expectations, constraints). This allows students to assess *why* the incident mattered and what “success” or “failure” meant in that situation.
+2. Clearly state context and goal: Briefly outline the setting and intended goal of the work at the time of the incident (e.g. project phase, expectations, constraints). This allows students to assess *why* the incident mattered and what “success” or “failure” meant in that situation.
 
-3. **Describe observable behavior and interactions**
-   Focus on *what people did or said*, not on general impressions or hindsight judgments. Describe actions, decisions, communication patterns, and reactions as concretely as possible, especially where management, power relations, or communication played a role.
+3. Describe observable behavior and interactions: Focus on *what people did or said*, not on general impressions or hindsight judgments. Describe actions, decisions, communication patterns, and reactions as concretely as possible, especially where management, power relations, or communication played a role.
 
-4. **Explain consequences and perceived impact**
-   Describe the immediate and longer-term outcomes of the incident: How did it affect the project, the team, or individuals involved? If relevant, include reflections on which behaviors contributed to success or failure — without assigning blame or naming real people or organizations.
+4. Explain consequences and perceived impact: Describe the immediate and longer-term outcomes of the incident: How did it affect the project, the team, or individuals involved? If relevant, include reflections on which behaviors contributed to success or failure — without assigning blame or naming real people or organizations.
 
 
 ## Literature
