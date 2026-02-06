@@ -4,8 +4,14 @@ As part of the pilot for this RSE-in-master-education concept we are testing som
 For [this particular course](../../generation/generated/rse_management.qmd) we found that there is vast literature available
 for management and communication purposes but not so much available tailored to RSE. For this reason, we decided to develop the application specifics together with the students following the inquiry-based learning paradigm [@Brew.2003].
 
+
+
 In order to achieve this in the most realistic fashion we ask the RSE community to provide us with case studies that contain
-human-level conflicts, management issues, communication failures or general political problems (maybe one page). The case study can be old,
+human-level conflicts, management issues, communication failures or general political problems (maybe one page).
+
+*You can send this anonymously here [https://gi.de/aktuelles/projekte/rse-master/praxisbeispiele-rse-management](https://gi.de/aktuelles/projekte/rse-master/praxisbeispiele-rse-management)!*
+
+The case study can be old,
 and no real names, organisations or such should be mentioned. The idea is that the students can learn from real life situations
 making the course more realistic and useful as a pilot for RSE higher education. This way, you can become part in the project,
 and find out, what the students learned from literature that could have helped the situation (or not).
