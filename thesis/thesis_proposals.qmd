@@ -1,0 +1,85 @@
+---
+title: "Thesis Proposals BA/MA for Supporting an RSE Curriculum"
+author: "Julian Dehne & Anna-Lena Lambrecht"
+date: today
+format: pdf
+toc: false
+number-sections: false
+bibliography:
+   - ../references.bib
+   - ../external/bibliography/bibliography.bib
+---
+
+# Overview
+
+In modern science, software-based research plays an increasingly central role. The professional development and competent use of software are essential for progress across nearly all scientific disciplines.
+
+In response, the professional profile of the Research Software Engineer (RSE) has emerged—combining expertise in software development with a deep understanding of scientific research processes. As the importance of this role grows, particularly with the rise of RSE service centers at research institutions, so does the demand for dedicated Master's programs in RSE or the integration of RSE-focused tracks into existing graduate programs.
+
+The German Computer Science Society, the deRSE-community and University of Potsdam are developing the [RSE-Master reference curriculum](https://github.com/the-teachingRSE-project/RSE-Masters). This is based on previous research on RSE competencies [@Goth2024RSE], mapping official bodies of knowledge [@cc2020] and adapting existing [similar programs](https://de-rse.org/learn-and-teach/learn/#curricula-on-scientific-computing).
+
+\newpage
+
+# Proposal 1: Data-Driven RSE Curriculum Development Using Data Mining and Topic Modelling
+
+
+## Objectives
+
+- Collect and preprocess a dataset of existing [RSE syllabi](https://de-rse.org/learn-and-teach/learn/#curricula-on-scientific-computing), computing curriculas [@CC2020;@DSBOK2017;@SWEBOK2014] and related documents.
+- Apply data mining and natural language processing (NLP) methods to extract topics and competencies.
+- Use topic modelling (e.g., LDA, BERTopic) to identify latent themes relevant to RSE education.
+- Map these findings onto an evolving modular curriculum framework.
+
+## Research Questions
+
+- What are the dominant topics in existing RSE-related materials?
+- How can topic modelling inform the structure and sequencing of curriculum components?
+- What gaps exist between current RSE education and industry demands?
+
+## Methodology
+
+- Use data science tools (e.g., `scikit-learn`, `spaCy`, `BERTopic`) for preprocessing and analysis
+- Leverage clustering and dimensionality reduction for curriculum mapping
+- Compare generated topic models to existing competence frameworks (e.g., ACM, EOSC)
+
+## Expected Outcomes
+
+- A corpus of annotated RSE-related materials
+- A topic map visualizing core and peripheral RSE themes
+- A mapping of RSE-modules to respective topics/material
+
+\newpage
+
+# Proposal 2: Adaptive Curriculum Planning via Constraint Solving and Interactive User Interface
+
+## Objectives
+
+- Adapt and implement a constraint solver for modular RSE curriculum planning
+- Create a web-based or desktop UI that allows users to explore and customize curriculum paths interactively
+- Integrate user preferences (e.g., focus areas, scheduling limits) into the solver
+
+## Research Questions
+
+- How can constraint programming help in sequencing modular curriculum elements?
+- What is the most intuitive way to present curriculum options to curriculum developers and university administrators?
+- How can the system support both fixed institutional requirements and individual flexibility?
+
+## Methodology
+
+- Implement the constraint logic using Answer Set Programming [@SCHAUB_2024] or similar
+- Develop/adapt a user interaction concept of explaining the trade-offs between different constraints
+- Perform usability tests with target users (curriculum planners, RSE-community)
+
+## Expected Outcomes
+
+- A functional prototype of an adaptive curriculum planner
+- A constraint model representing curriculum logic and constraints
+- Usability evaluation results with recommendations for future development
+
+\newpage
+
+### References
+
+::: {#refs}
+:::
+

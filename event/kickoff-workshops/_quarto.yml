@@ -1,0 +1,7 @@
+format:
+  pdf:
+    bibliography:
+      - ../../external/bibliography/bibliography.bib
+      - ../../references.bib
+    title-block: false
+    include-in-header: preamble.tex

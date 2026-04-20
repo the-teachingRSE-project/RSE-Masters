@@ -1,0 +1,8 @@
+competences:
+  - id: eff_algorithms_1
+    description: "describe formal systems for the development of efficient algorithms and correctness-preserving optimisation"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "exemplary application of those formal methods"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"

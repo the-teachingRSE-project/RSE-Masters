@@ -1,0 +1,14 @@
+entries:
+  - name: "Complexity Theory"
+    type: "Lecture"
+    sws: 2
+    ects: 2
+    quarto_filename: ""
+    optional: False
+  
+  - name: "Complexity Theory Exercise"
+    type: "Exercise"
+    sws: 2
+    ects: 4
+    quarto_filename: ""
+    optional: False

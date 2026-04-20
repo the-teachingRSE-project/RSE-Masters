@@ -1,0 +1,109 @@
+---
+title: "Research Paradigms and Methodology for RSEs"
+format:
+    beamer:
+        keep-tex: true
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: pdflatex
+        include-in-header:
+            - beamer-header.tex
+        latex-auto-install: true
+        section-titles: true
+        mermaid: true
+---
+
+# Research Paradigms and Methodology for RSEs
+
+The module addresses the complex field of interaction between software as part of the reproducible research process and as a variable and research result in its own right. Similar to statistics, the use of computer technology leads to an expansion of possible research topics, but also to new sources of error, complexity and associated approaches. 
+
+This includes but is not limited to:
+
+- Forms of research and disciplinary culture
+- Empirical research methods (e.g. for software evaluation)
+- Design-based research and design science
+- Qualitative methods for concept evaluation
+- Simulation techniques and mixed methods
+
+# Methoden empirischer Sozialforschung
+![Cover](cover.jpg)
+- Autor*innen: Rainer Schnell, Paul B. Hill, Elke Esser
+- 6. Auflage 1999
+- 12. Auflage 2023
+- DAS Standardwerk der Sozialwissenschaften
+
+# Ziele empirischer Sozialforschung
+
+- Persönliche Erfahrungen können leicht täuschen
+- Empirische Forschungsmethoden systematisieren das Sammeln und Auswerten von Daten um Irrtümer zu vermeiden
+
+# Forschungsprozess
+
+```{mermaid}
+%%| fig-width: 5
+flowchart LR
+	A[Auswahl des Forschungsproblems] --> B[Theoriebildung]
+	B --> C[Konzeptspezifikation, Operationalisierung]
+	B --> D[Bestimmung der Untersuchungsform]
+	C --> E[Auswahl der Untersuchungseinheit]
+	D --> E
+	E --> F[Datenerhebung]
+	F --> G[Datenerfassung]
+	G --> H[Datenanalyse]
+	H --> B
+	H --> I[Publikation]
+```
+
+# Konzeptspezifikation, Operationalisierung
+
+- Personen können verschiedene Dinge unter dem gleichen Begriff verstehen
+- Z.B. Baum = Birke, Tanne, Palme, Ginko
+- Es gibt aber auch besonders mehrdeutige und kontroverse Begriffe, z.B. Würde
+- Um persönliche Irrtümer vorzubeugen soll der Forschungsprozess systematisch und für andere Personen nachvollziehbar ("objektiv") sein.
+- Dazu muss der Forschungsgegestand genau eingegrenzt werden = Operationalisierung
+- Grundmuster: H-O-Erklärung, d.h. unabhängige Variable begründet abhängige Variable
+- z.B. wenn X, dann Y
+
+
+# Auswahl der Forschungsmethode
+Die richtige Forsschungsmethode muss zum Forschungsproblem passen. Sie ergibt sich aus der genauen Spezifikation des Untersuchungsgegenstand & dem bisherigen Stand der Forschung.
+
+# Quantitative vs. Qualitative Methoden
+
+- Grundsätzlich lassen sich zwei Formen von Forschung unterscheiden
+- Quantitativ: Standardisiert, Große Stichproben -> Statistische Auswertung
+- Qualitativ: Explorativ, Kleine Stichproben -> Hermeneutische Auswertung
+- Stark erforschte Gebiete haben oft genauere, standartisierte Methoden
+- Versuchen den Geltungsbereich durch große Stichproben zu erweitern
+- Neuere Forschungsgebiete werden zunächst meist durch kleinere Studien erschlossen
+- Qualitative Forschung bestimmt wichtige Eigenschaften des Forschungsgegenstands
+
+# Datenerhebungstechniken
+
+- 3 wichtigste Quellen für Forschungsdaten:
+- Befragung
+- Beobachtung
+- Auswertung bereits erhobener Daten
+- Jeweils Qualitativ oder Quantitativ möglich z.B. Interview / Umfrage oder (Labor)Experiment / Feldforschung
+
+# Befragung
+- Möglich als qualitatives Interview oder quantitative Umfrage
+- Nachteil: indirekte Beobachtung, Verzerrung durch antwortendes Subjekt und Forschende
+- Vorteil: es können tendenziell mehr Daten über mehr Eigenschaften erhoben werden, als durch Beobachtung
+
+#  Beobachtung
+- Möglich als Laborexperiment oder Feldforschung
+- Vorteil: Flexibeler Forschungsgegenstand, Variablen ggf. besser isolierbar
+- Nachteil: Beobachtereffekt, fehlende Reproduzierbarkeit oder im Labor unrealistische Vorraussetzungen
+
+# Auswertung vorhandener Daten
+- Induktiv oder Deduktiv möglich
+- Induktiv: Von Daten werden theoretische Erkenntnisse abgeleitet
+- Deduktiv: Theorie wird durch neue Daten überprüft und erweitert
+- Vorteil: Teilweise sind bereits große Datensätze vorhanden
+- Nachteil: Bestätigungsfehler durch Auswahl der Daten
+
+# Vermeidung von Fehlern
+- Vorannahmen explizieren um mögliche Fehlschlüsse zu klären
+- Wiederholte Untersuchung mit verschiedene Methoden um Methodenbias auszuschließen
+- Klassische Testtheorie: Mehrmals Messen, Mittelwert bilden, um statistischen Messfehler auszuschließen 

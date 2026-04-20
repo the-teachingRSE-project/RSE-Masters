@@ -1,0 +1,11 @@
+meta:
+  id: cs_computer_vision
+  profiles:
+    - cs
+    - up
+    - rwth
+    - jmuw
+  level: master
+  name: Computer Vision
+  depends_on: []
+  area: cs_advanced

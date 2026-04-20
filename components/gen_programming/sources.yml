@@ -1,12 +1,30 @@
 sources:
   curricula:
     - name: Computing Curricula 2020
-      link: https://dl.acm.org/doi/book/10.1145/3467967
+      link: "https://dl.acm.org/doi/book/10.1145/3467967"
   courses:
-    - name: UP Grundlagen der Programmierung
-      link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
-    - name: UP Praxis der Programmierung
-      link: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+    - name: Praxis der Programmierung
+      link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf"
+    - name: Algorithmen und Datenstrukturen
+      link: "https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf"
+    - name: Python for Psychologists
+      link: "https://peerherholz.github.io/Python_for_Psychologists_Winter2021/index.html"
+    - name: Fortgeschrittenes Programmieren
+      link: "https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf"
+    - name: Algorithmen und Datenstrukturen
+      link: "https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952"
+    - name: Advanced Programming
+      link: "https://www.moodle.tum.de/course/view.php?id=90628"
+    - name: Programmierung 2
+      link: "https://www.uni-saarland.de/fileadmin/upload/studium/angebot/mhb_ba/2025/MHB_BA_Inform.pdf"
   programs:
-    - name: UP Computational Science Master
-      link: "https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/informatik"
+    - name: UP Informatik/Computational Science Bachelor
+      link: "https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor"
+    - name: JMUW Informatik Bachelor
+      link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/"
+    - name: JMUW Informatik Master
+      link: "https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
+    - name: RWTH Informatik Bachelor
+      link: "https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/"
+    - name: UdS Informatik Bachelor
+      link: "https://www.uni-saarland.de/studium/angebot/bachelor/informatik.html"

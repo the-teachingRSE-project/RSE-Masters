@@ -1,0 +1,11 @@
+entries:
+  - name: "Distributed Systems"
+    type: "Lecture"
+    sws: 2
+    ects: 2
+    optional: True
+  - name: "Distributed Systems Exercise"
+    type: "Exercise"
+    sws: 2
+    ects: 4
+    optional: True

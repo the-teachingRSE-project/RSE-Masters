@@ -1,0 +1,31 @@
+## RSEng Teaching
+
+This seminar introduces students to possible teaching methods for RSEng in their third semester.
+As preparation for working as an RSE in interdisciplinary teams, students need some skills in teaching others about research software and the development process of it (see TEACH in [@competencies-F1000])
+
+### Contents
+This includes but is not limited to:
+- General didactic principles for designing learning units (patterns/phases), competence orientation, task design, differentiation, feedback, diagnostics, criteria for good teaching and learning materials and formats (face-to-face, online, integrated or hybrid teaching)
+- Dealing with diverse learning prerequisites in computer science education, e.g. participation, motivation, self-regulation, subject-specific interest, subject-specific self-concept, self-efficacy expectations, fear of failure and misconceptions
+- Common approaches and methods for computer science education 
+  - PRIMM approach (Predict; Run; Investigate; Modify; Make)
+  - Project-based learning, possibly with external partners
+  - Gamification & game-based learning
+  - Mastery learning 
+  - Self-regulated learning
+  - Cooperative learning, team formation and the influence of team composition
+  - Constructionism
+  - (Distributed) pair programming
+  - Live coding
+  - Programming paradigms (especially procedures vs. objects first)
+  - Understanding and improving given code (refactoring)
+  - The twelve principles for practical digital teaching of software engineering
+- Tools for modern computer science education, in particular programming environments, pair programming with AI, debugging and automated testing
+- RSE-SE concepts
+
+The seminar involves Micro-Teachings to let the students apply their new knowledge. These short teaching trials are reflected and evaluated in the seminar group.
+
+The seminar can be combined with another module to make room for peer-tutoring, e.g. RSEng Nuts and Bolts. 
+
+### Examination Methods
+short weekly assignments (not graded), micro-teaching (not graded) and 20 min oral examination (graded)

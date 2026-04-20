@@ -1,0 +1,30 @@
+## Computer Vision and Image Processing
+
+### Introduction
+
+The course imparts knowledge about current methods and algorithms in the field of computer vision.
+Important fundamentals and the latest approaches to image representation, image processing and image analysis are taught.
+Current models and methods of machine learning and their technical background are presented, and their respective applications in image processing are demonstrated.
+
+### Contents
+
+- fundamental methods and techniques that enable a machine to analyse images and videos and understand their content
+- fundamentals of image generation, linear filters, image segmentation, object recognition, object categorisation, 3D reconstructio
+- application of current methods of machine learning for the topics described above
+
+
+### Learning Objectives
+
+- Students describe current research trends and developments in the field of computer vision
+- Students name relevant techniques necessary for image and video analysis tasks
+- Students will be able to derive and explain methods and techniques that enable a machine to analyse images and videos and understand their content
+- Students select basic computer vision techniques that are necessary for these analysis tasks
+- Students independently apply the methods covered to real-world problems
+- Students implement the algorithms presented themselves and translate them into a programming language of their choice
+
+
+### Examination Methods
+
+- either a written exam (90-100 minutes)
+- or an oral examination (20-30 minutes)
+- or a project report (20-30 pages)

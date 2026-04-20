@@ -1,0 +1,60 @@
+name: run kick-off workshop proposal generation
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  workshop_proposal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install Quarto (silent)
+        run: |
+          wget https://quarto.org/download/latest/quarto-linux-amd64.deb -O quarto.deb
+          sudo apt install -y ./quarto.deb
+          rm quarto.deb
+
+      - name: install tinytex extension
+        run: quarto install tinytex
+
+      - name: render quarto file
+        working-directory: ./event/kickoff-workshops
+        run: quarto render workshops.qmd --to pdf --output-dir ../../_events
+
+      - name: Upload pdf as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: workshop_outline
+          path: _events
+
+  deploy:
+    needs: [workshop_proposal]
+    permissions:
+      contents: write
+    runs-on: ubuntu-24.04
+    if: ${{ github.repository == 'the-teachingRSE-project/RSE-Masters' && github.ref == 'refs/heads/main' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: workshop_outline
+          path: github_artifacts
+
+      - name: deploy on orphan branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: github_artifacts/_events
+          publish_branch: events
+          force_orphan: true

@@ -1,0 +1,29 @@
+## RSEng, Ethics & Society
+### Introduction
+
+The RSE master's program is more than a computer science specialisation for researchers. People working as RSEs are often involved in digitalization projects, institutional development or other non-technical tasks. Also, introducing students to cutting-edge technologies, raises ethical questions. To talk about the impact of RSE on society, is therefore crucial. This module addresses the social context of RSEng. Students examine issues relating to sustainability, ethics, responsibility and the impact of new technologies. 
+The module provides space for student-driven projects that address social challenges such as green tech and artificial intelligence, and encourages reflection on the role of RSEng in science and society.
+It offers space for engagement with current challenges that are constantly changing but should be part of a curriculum in the age of digitalisation
+
+### Contents
+For a university level study program, it is fitting that students learn an abstract high-level understanding of their field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases. Therefor, they need a solid understanding in some of the more theoretical fields such as ...
+- RSEng in the context of philosophy of science
+- sociology of technology
+- ethics and artificial intelligence
+- human computer interaction
+- digital humanities
+- fundamentals and values of RSEng
+- ethics and responsibility of (research) software engineers
+- RSEng in the context of Open Science and the common good
+- dual use dilemma
+- sustainability and green technology
+- future of work
+- gender inequalities
+- Technology assessment
+
+### General Competences
+This module conveys competences in areas such as but not limited to:
+- discussion of ethical questions
+- awareness of societal consequences
+- conducting and leading research (NEW)
+- understanding the research cycle (RC)

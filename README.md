@@ -1,30 +1,81 @@
-# DEPRECATED: the project has moved back to the original repository https://github.com/the-teachingRSE-project/RSE-Masters
+# RSE-Masters (Technical Prototype and Current State)
 
-# RSE-Masters
+We started the community process to develop an RSE curriculum in spring 2025. Even though we organized a technical pipeline and some modularization, we have not progressed to the point where you should place too much weight on the current state of the prototype in terms of content. 
+
+If you want to be part of the community, join our mailinglist [https://www.listserv.dfn.de/sympa/info/rse-master](https://www.listserv.dfn.de/sympa/info/rse-master).
+
+The current version of the generated curriculum can be found [here](https://the-teachingrse-project.github.io/RSE-Masters/). This is built with Github Actions.
 
 
-## How to Contribute a Component/Module
+## How to Contribute to the Publication
 
-- go to components 
+You can edit the texts that are going to be the foundation of the publication. You can contribute text to the [static markdown files](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/general):
+
+- [ideas and principles](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/ideas.qmd)
+- [job roles](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/job_roles.qmd)
+- [preambel and general introductions](https://github.com/the-teachingRSE-project/RSE-Masters/blob/main/general/preambel_general.qmd)
+
+
+## How to Contribute to a Component/Module
+In parallel to the main publication, small teams are working on particular components. These are the people leading the elaboration of the respective modules so far:
+- Scientific (High Performance) Computing: [@jpthiele](https://github.com/jpthiele)
+- Advanced Software Engineering for RSE: [@juliandehne](https://github.com/juliandehne)
+- RSE Nuts and Bolts (Tooling): [@captainsifff](https://github.com/CaptainSifff)
+- RSE Management (and Communication): [@majatoebs](https://github.com/MajaToebs)
+- RSE & Society: hopefully, students of the Digital Changemaker Initiative by the Hochschulforum Digitalisierung
+- RSE Philosophy: ?
+- RSE Thesis: ?
+
+If you are interested in joining any of the teams, we will be happy to hear from you!
+
+
+## How to Contribute a whole Component/Module
+
+- go to [components](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/components) 
 - examine files in gen_programming 
 - copy cat the structure
 
+## How to Contribute a new Profile / University Adaptation
+
+- add components (modules) from your university to the list of components or add them as mappings in the sources.yml of existing components
+- create a new [profil_name].yml in generation/profiles
+- run the generation from the generation folder with python generate_all.py --profile cs 
+- add the profile to _quarto-website.yml as a new tab
+
 ## Folder Descriptions
+
+### Curriculum Content
 
 - general: contains texts that do not apply to target groups or disciplinary focus
 - generation: scripts for combination and generation of quarto project
 - root_dir: contains the basic quarto structure files, as well as design elements for html/latex rendering
-- components: contains detailed texts and the datastructure for the different templates, here you can add new didactical ideas in a structurered format
+- components: contains detailed texts and the datastructures for the different templates, here you can add new didactic ideas in a structured format
+
+### Organisational Folders
+
+- event contains the input for the community events etc.
+- presentation contains a presentation of the existing concept
+- thesis contains ideas for ba/ma theses situated in the project
+
+
+### Submodules
+
+- ds_thesis submodule is optional. If you don't have access, you can skip initializing it and still work with the main repo.
 - external/bibliography is a submodule for the common literature from deRSE
+  initialize with `git submodule init external/bibliography`
 
 
 ## How To Run
 
-- cd generation # go in generation dir
-- python generate_all.py # run the templating logic
-- cd .. # go back in root dir
+- `cd generation` # go in generation dir
+- install python requirements from requirements.txt
+  ```
+  pip install -r requirements.txt
+  ```
+- `python generate_all.py --profile cs` # run the templating logic for the cs track
+- `python generate_all.py --profile mnt` # run the templating logic for the mnt track (natural sciences)
+- `cd ..` # go back in root dir
 - Windows PS:
-  - quarto render --profile doc; quarto preview --profile website
+  - `quarto render --profile doc; quarto preview --profile website`
 - Linux/ Windows CMD:
-  - quarto render --profile doc && quarto preview --profile website
-
+  - `quarto render --profile doc && quarto preview --profile website`

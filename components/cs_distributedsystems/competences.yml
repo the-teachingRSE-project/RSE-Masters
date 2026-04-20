@@ -1,0 +1,16 @@
+competences:
+  - id: dist_systems_1
+    description: "evaluate existing distributed systems in terms of reliability and security and identify vulnerabilities"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "Submit written analysis of existing distributed systems"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"
+
+  - id: dist_systems_2
+    description: "identify reliability and security requirements when designing new distributed system and consider them early in the development process"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "discuss necessary requirements for a design of a distributed system"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"

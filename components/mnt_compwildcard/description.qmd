@@ -1,4 +1,4 @@
-# Wildcard Computational Science
+## Wildcard Computational Science
 
 This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.
 

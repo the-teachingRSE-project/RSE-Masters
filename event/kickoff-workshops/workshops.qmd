@@ -1,0 +1,164 @@
+# Workshops for the Research Software Engineering Master
+
+In modern science, software-based research is playing an increasingly central role.
+The professional development and competent use of software are crucial for progress in nearly all scientific disciplines.
+Accordingly, the professional profile of Research Software Engineers (RSEs) has emerged—characterized by a combination of expertise in software development and a deep understanding of scientific research processes.
+With the growing importance of this role, particularly in the context of emerging Research Software Engineering (RSE) service centers at and for research institutions, there is an increasing demand for dedicated Master's programs in RSE or for the integration of RSE profiles into existing, thematically related Master's programs.
+
+We invite all members of the RSE community and interested scientists and educators to join us in developing a Master's curriculum tailored to the unique needs, interests, and challenges of RSE.
+Each module represents a specific area of the RSE landscape and will be shaped by community-driven short online workshops (2–3 hours each).
+
+The main idea is to _supplement_ general courses on software engineering, data science and advanced science classes with RSE-specific courses tailored to the growing field of software engineering in research. Mapping necessary required basic courses is part the process.
+
+These example modules will be new in structure and content and provide universities a suggestion how to hire and support the growing need for RSE competencies. These courses will be optional in the sense that alternatives or similar
+existing classes will be suggested if a specialized lecturer is not available.
+
+In these workshops, we collaboratively define:
+
+- Relevant competences
+- Suggested course structures
+- RSE-specific perspectives
+
+These efforts will feed directly into the development of a comprehensive and inclusive RSE Master's curriculum.
+You can explore the broader project here: [RSE Masters Curriculum GitHub Repository](https://github.com/the-teachingRSE-project/RSE-Masters/tree/tschira-funding)
+
+
+# Join Us!
+
+To get involved, please reach out via the repository or contact the organizing team directly at julian.dehne@gi.de with your name and the workshop (below) you are interested in.
+
+# Workshops
+
+Below you can find a snapshot of ideas for the modules as talking points! The focus and depth of the courses is open for discussion! We start with this partitioning of the topics after a short discussion in the deRSE community. Different groupings of the topics are possible at a later stage.
+
+## 1. RSE Management and Communication
+
+This module encapsulates the communication and management skills that are relevant for working in the interdisciplinary setting of RSE-professionals.
+
+This may include but is not limited to:
+
+- working in a team (see TEAM in [@competencies-F1000])
+- teaching RSE-basics (see TEACH in [@competencies-F1000])
+- project management (see PM in [@competencies-F1000])
+- interaction with users and other stakeholders (see USERS in [@competencies-F1000])
+- FAIR for humans and machines
+- Software Management Plans for research software
+
+
+## 2. The Missing Semester / Tooling / Utility
+
+
+In reference to the [MIT Missing Semester](https://missing.csail.mit.edu/) this module tries to convey the nuts and bolts of code development.
+
+This may include (but is not limited to):
+
+- Shell Tools and Scripting
+- Editors & IDE (i.e. Vim)
+- Data Wrangling
+- Command-line Environment
+- Version Control (Git)
+- Debugging and Profiling
+- Metaprogramming
+- Documentation
+- Security and Cryptography (ssh, md5)
+
+These general competencies can be extended to RSE-specific techniques such as:
+
+- Software publication and citation (see SP in [@competencies-F1000])
+- Using domain repositories/directories (see DOMREP in [@competencies-F1000])
+
+One early idea is to employ inquiry-based learning and peer teaching to convey these issues that may otherwise be too
+applied to a university curriculum. This would serve the idea that communicating and teaching RSE-skills is one of
+the cornerstones of a RSE professional (see TEACH in [@competencies-F1000]).
+
+## 3. RSE Efficient Computing and Hardware
+
+RSEs with expertise in HPC and other performance-critical computing domains specialize in optimizing code for efficient execution across various platforms, including clusters, cloud, edge, and embedded systems. They understand parallel programming models, hardware-specific optimizations, profiling tools, and platform constraints such as memory, energy, and latency. Their skills enable them to adapt software to diverse infrastructures, manage complex dependencies, and support researchers in accessing and using advanced computing resources effectively and sustainably.
+
+Depending on the goals of the workshop, it may be useful to focus on participants with a background in technical computer science or some prior exposure to parallel programming. Familiarity with teaching multithreading, MPI, or GPU programming (e.g., CUDA) could be helpful, especially if we dive into hands-on HPC RSE aspects.
+
+
+## 4. Programming and Software Engineering for Research
+
+### Programming for Research
+
+The RSE programming module extends the Fundamentals of Computer Science module with a focus on RSE-specific programming patterns,
+necessary technologies and good practices.
+
+This may include, but is not limited to
+
+- software re-use (see SRU in [@competencies-F1000])
+- creating documented code building blocks (see DOCBB in [@competencies-F1000])
+- building distributable software (see DIST in [@competencies-F1000])
+- research specific programming languages
+- research specific code requirements (scalability, functional programming, ...)
+- Vector and graph database in generative AI applications //This topic (LLM or AI) has been not yet deeply explored in RSE field. Perhaps someone here is an AI expert who can suggest more specific programmes?
+
+### Research Software Engineering
+
+This module extends the Classical Software Engineering Module with research specific learnings. This may include but is not limited to
+
+- Adapting the software life cycle to research (see SWLC in [@competencies-F1000])
+- Software behaviour awareness and analysis (see MOD in [@competencies-F1000])
+- Research specific Engineering Patterns
+
+
+## 5. RSE Theory
+
+The RSE master program is more than a computer science specialisation for researchers. People working as RSE are often involved
+in digitalization projects, institutional development or other non-technical tasks.
+
+For a university level study program it is fitting that students learn an abstract high-level understanding of their
+field so that they can adapt technical models, communication frameworks and policy recommendations to the complex cases.
+For this they need a solid understanding in some of the more theoretical fields such as ...
+
+- philosophy of science
+- sociology of technology
+- ethics and artificial intelligence
+- human computer interaction
+- digital humanities
+
+This module conveys competences in areas such as but not limited to ...
+
+- conducting and leading research (NEW)
+- understanding the research cycle (RC)
+- interaction with users and stakeholders (USERS)
+
+## 6. RSE for Natural Sciences
+
+This workshop focuses on the specific requirements and priorities in the natural sciences. One of the intended profiles for the RSE Master's curriculum is the professional development and specialization of researchers working in natural science disciplines.
+
+The workshop will address the following topics:
+
+- RSE competencies required in the natural sciences
+- Professional development and specific working conditions in the natural sciences
+- Institutional stakeholders and interested parties involved in shaping the MNT (Mathematics, Natural Sciences, and Technology) profile
+
+## 7. Institutional Constraints of the RSE Master
+
+This workshop aims to clarify the structural framework of a Master's program in Research Software Engineering (RSE). We will discuss the typical program duration (two years in Germany) and whether alternatives—such as one- or three-year formats—should be considered.
+
+Key questions include:
+
+- Which faculties or departments are authorized to grant the degree?
+  Should it be restricted to Computer Science, or could other disciplines also serve as the awarding body under certain conditions?
+- What should the admission requirements be, particularly for applicants from interdisciplinary backgrounds?
+
+We will also explore the composition of the curriculum:
+
+- Is it possible to structure levels of RSE competence similarly to the German Informatics Society's [model](https://dl.gi.de/server/api/core/bitstreams/e0e0a984-79b7-4054-9df6-80304134944e/content) for Computer Science degrees?
+- How should the program balance the research (R) and software engineering (SE) components?
+- What profiles or tracks might be envisioned, and how modular and flexible should the curriculum be?
+
+\newpage
+
+{{< include schedule.qmd >}}
+
+# References
+
+::: {#refs}
+:::
+
+
+
+

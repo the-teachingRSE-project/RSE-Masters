@@ -1,0 +1,1 @@
+quarto render presentation.qmd --to beamer

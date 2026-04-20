@@ -1,0 +1,10 @@
+meta:
+  id: cs_declarative_progr
+  profiles:
+    - cs
+    - up
+    - rwth
+    - jmuw
+  level: master
+  name: Declarative Programming
+  area: cs_advanced

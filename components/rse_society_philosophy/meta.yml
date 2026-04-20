@@ -1,0 +1,11 @@
+meta:
+  id: rse_society
+  profiles:
+    - mnt
+    - cs
+    - jmuw
+    - rwth
+    - up
+  level: master
+  name: RSEng, Ethics & Society
+  area: rse_social

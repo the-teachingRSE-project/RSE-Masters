@@ -1,0 +1,37 @@
+profile:
+   name: science
+   semesters:
+      1:
+        - "RSEng Lecture Series"
+        - "RSEng Nuts and Bolts"
+        - "Statistical Data Analysis"
+        - "Statistical Data Analysis Exercise"
+        - "Fundamentals of Computer Science"
+        - "Fundamentals of Computer Science Exercise"
+        - "Software Engineering I"
+        - "Software Engineering I Exercise"
+        - "Wildcard Science I"
+      2:
+        - "RSEng, Ethics & Society"
+        - "Research Paradigms and Methodology for RSEs"
+        - "Wildcard Science Lab I"
+        - "Wildcard Science II"
+        - "Computational Wildcard Science"
+        - "Computational Wildcard Science Lab"
+        - "Software Engineering for RSEs"
+        - "Software Engineering Exercise for RSEs"
+        - "Applied Programming"
+        - "Applied Programming Exercise"
+      3:
+        - "Wildcard Science Lab II"
+        - "RSEng Teaching"
+        - "RSEng Management Lecture"
+        - "RSEng Management Exercise"
+        - "Natural Language Processing"
+        - "Natural Language Processing Exercise"
+        - "Scientific Computing"
+        - "Scientific Computing Exercise"
+        - "Science Lab Project"
+
+      4:
+        - "RSEng Master Thesis"

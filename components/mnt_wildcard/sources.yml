@@ -1,0 +1,6 @@
+sources: 
+  programs:
+    - name: JMUW Master Physik
+      link: "https://www.physik.uni-wuerzburg.de/studium/master/physik/"
+    - name: JMUW Master Chemie
+      link: "https://www.chemie.uni-wuerzburg.de/studium/studiengaenge/chemie/master/aufbau/"

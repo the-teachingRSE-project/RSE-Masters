@@ -1,0 +1,1 @@
+quarto render folien-forschungsmethoden.qmd --to beamer

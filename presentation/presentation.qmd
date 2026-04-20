@@ -1,0 +1,205 @@
+---
+title: "Research Software Engineering Master Curriculum"
+format:
+    beamer:
+        keep-tex: true
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: pdflatex
+        include-in-header:
+            - beamer-header.tex
+        latex-auto-install: true
+        section-titles: true
+        mermaid: true
+---
+
+# Research Software RSE Master Curriculum Project
+
+-  software-based research plays an increasingly central role
+-  qualified research software engineers (RSEs) are rare (mostly Quereinsteiger)
+-  delineation of the emerging field is challenging
+
+# First Issues and Current Answers
+
+1. Is RSE a CS study program? Yes, but not only
+2. What is the BA requirement (audience)? CS or MNT depending on profile
+3. Is RSE a recomposition of existing lectures? yes, but only partially
+4. What is the intended job profile (if any)? Academia and research institutes primarily
+5. Is the Curriculum one idea or a set of ideas? At least two ideas are dominating
+
+# Why profiles?
+
+- at least CS-specialization idea and domain-RSE (i.e. computational social scientist) are competing
+- universities offer different existing modules: easier adaptability
+- the curriculum can be adapted to other educational systems
+- the curriculum can be adapted to other institutions such as universities of applied sciences
+
+
+# Example Curriculum Composition 1 - CS Profile
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+import matplotlib.pyplot as plt
+
+labels = ['CS Master', 'Domain-specific Computing', 'RSE-specific', 'RSE Thesis']
+sizes = [50, 20, 20, 10]
+colors = ['#66c2a5', '#fc8d62', '#8da0cb', '#e78ac3']
+
+
+
+
+
+fig, ax = plt.subplots()
+ax.pie(sizes, labels=labels, autopct='%1.0f%%', startangle=90, colors=colors)
+ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+# plt.title('Curriculum Composition')
+plt.tight_layout()
+plt.show()
+```
+
+# Example Curriculum Composition 2 - Domain Profile
+
+```{python}
+#| echo: false
+#| warning: false
+#| message: false
+import matplotlib.pyplot as plt
+
+labels = ['CS Basics', 'Domain Studies', 'RSE-specific', 'RSE Thesis']
+sizes = [30, 40, 20, 10]
+colors = ['#66c2a5', '#fc8d62', '#8da0cb', '#e78ac3']
+
+fig, ax = plt.subplots()
+ax.pie(sizes, labels=labels, autopct='%1.0f%%', startangle=90, colors=colors)
+ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+
+
+
+# plt.title('Curriculum Composition')
+plt.tight_layout()
+plt.show()
+```
+
+# Why modularized generation?
+
+- reuse components for more than one profile
+- division of labor on expert topics
+- doing the RSE curriculum RSE-style (open source, collaboratively...)
+- allows for automated input in future
+
+# Reference Example: Programming module
+
+## A general module that teaches programming for RSE
+
+- contains a general description and optional partial description files
+- consist of several planned lectures
+- contains a set of competences that can be acquired
+- contains a set of educational sources
+  - mappings to existing modules
+  - mappings to existing reference standards
+  - mapping to existing programs
+
+Contribute here: [https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/components/gen_programming](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/components/gen_programming)
+
+# Example: meta.yml
+
+```{python}
+#| output: asis
+
+yaml_path = "../components/gen_programming/meta.yml"
+
+with open(yaml_path) as f:
+    lines = f.readlines()[:15]
+
+# Output a Quarto-style fenced code block
+print("```yaml")
+print("".join(lines))
+print("```")
+```
+
+# Example: lectures.yml
+
+```{python}
+#| output: asis
+
+yaml_path = "../components/gen_programming/lectures.yml"
+
+with open(yaml_path) as f:
+    lines = f.readlines()[:15]
+
+# Output a Quarto-style fenced code block
+print("```yaml")
+print("".join(lines))
+print("```")
+```
+# Example: sources.yml
+
+```{python}
+#| output: asis
+
+yaml_path = "../components/gen_programming/sources.yml"
+
+with open(yaml_path) as f:
+    lines = f.readlines()[:15]
+
+# Output a Quarto-style fenced code block
+print("```yaml")
+print("".join(lines))
+print("```")
+```
+
+# Example: competences.yml
+
+```{python}
+#| output: asis
+
+yaml_path = "../components/gen_programming/competences.yml"
+
+with open(yaml_path) as f:
+    lines = f.readlines()[:15]
+
+# Output a Quarto-style fenced code block
+print("```yaml")
+print("".join(lines))
+print("```")
+```
+
+
+# Technical Pipeline: Process
+
+```{mermaid}
+%%| fig-width: 5
+flowchart LR
+    A[Collect Descriptions] --> B{Use Solver} --> C[Render Quarto via Jinja]
+    C --> D[HTML]
+    C --> E[PDF]
+```
+
+
+# Technical Pipeline: Solver
+
+## Current Brute Force Solution
+
+- solve for enough ECTS
+- solve for lecture and component dependencies
+- ....
+
+## Future Tech Work
+
+- explainable AI and constraint programming
+- generate component using NLP and web crawling / APIs from universities
+
+
+# Next Steps: Workshops for component x
+
+x is in ["RSE Management and Communication", "Advanced Software Engineering for Research", ...]
+
+- discuss experiences teaching and learning in the RSE area x
+- discuss what competences are needed for an RSE component x
+- discuss how many lectures might be needed and what kind of lecturer
+- discuss necessity and map to profiles is possible
+- best case: form a focus group for lecture series x

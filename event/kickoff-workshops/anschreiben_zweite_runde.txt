@@ -1,0 +1,11 @@
+To support the growing need for Research Software Engineering (RSE) skills in academia and beyond, we are developing a modular Master's curriculum that reflects the real-world challenges and responsibilities of RSEs. This initiative is especially relevant as more institutions begin to establish RSE groups and service centers.
+
+Together, we will:
+- Identify key competences for RSEs in this area,
+- Outline a possible course structure,
+- Highlight the unique perspective RSEs bring to this topic.
+
+You can learn more about the project here: https://github.com/the-teachingRSE-project/RSE-Masters
+You can register for the events here: https://terminplaner6.dfn.de/de/b/b87d7614820fb9540532386d855885ce-1253209.
+
+We’d be honored to have your perspective and input. If you are strongly interested, but you are busy during the suggested time slots, let us know, and we will try to find another solution.

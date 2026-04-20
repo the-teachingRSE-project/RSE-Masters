@@ -1,0 +1,6 @@
+entries:
+  - name: "Current topics in Artificial Intelligence"
+    type: "Lecture and Exercise"
+    sws: 4
+    ects: 6
+    optional: False

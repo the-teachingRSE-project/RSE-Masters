@@ -1,0 +1,14 @@
+## (Classical) Software Engineering II
+
+The module covers a selection of advanced topics in the field of software engineering, for example in the areas of software quality assurance, service engineering, virtualisation, programming languages and design, and formal methods in system design. It builds on knowledge and competencies from Software Engineering I.
+
+
+
+### Learning Objectives
+Students
+- have an in-depth understanding of and the ability to use various approaches to software engineering
+- are familiar with the characteristics of numerous technologies and tools for specification, component-based development and quality assurance of modern software systems, as well as their application in various contexts.
+
+### Examination Methods
+* written exam (100 min)
+* exercise sheets or group project

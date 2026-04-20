@@ -3,14 +3,14 @@ entries:
     description: ""
     type: "Lecture"
     sws: 2
-    ects: 1
+    ects: 2
     group: 1
     quarto_filename: "basics_programming.qmd"
     optional: True
   - name: "Basic Programming Exercise"
     description: ""
     type: "Exercise"
-    sws: 4
+    sws: 2
     ects: 4
     group: 1
     quarto_filename: ""
@@ -19,14 +19,14 @@ entries:
     description: ""
     type: "Lecture"
     sws: 2
-    ects: 1
+    ects: 2
     group: 2
     quarto_filename: "applied_programming.qmd"
     optional: False
   - name: "Applied Programming Exercise"
     description: ""
     type: "Exercise"
-    sws: 4
+    sws: 2
     ects: 4
     group: 2
     quarto_filename: ""

@@ -1,0 +1,20 @@
+## RSEng Lecture Series
+
+### Introduction
+
+This lecture series covers current RSEng research and provides room for guest lectures and varying focus topics.
+
+
+### Contents
+
+vary between semesters and weeks, but are all related to RSEng
+
+
+### Learning Objectives
+
+- students get a broad image of RSEng in the wild
+
+
+### Examination Methods
+
+none?

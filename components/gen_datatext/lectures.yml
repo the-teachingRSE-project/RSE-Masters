@@ -1,0 +1,9 @@
+entries:
+  - name: "Natural Language Processing"
+    type: "Lecture"
+    sws: 2
+    ects: 4
+  - name: "Natural Language Processing Exercise"
+    type: "Exercise"
+    sws: 2
+    ects: 2

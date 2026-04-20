@@ -1,0 +1,10 @@
+meta:
+  id: rse_project
+  profiles:
+      - cs
+      - up
+      - jmuw
+      - rwth
+  name: RSEng Lab Project
+  wildcard: False
+  area: rse_research
