@@ -106,4 +106,4 @@ Die richtige Forsschungsmethode muss zum Forschungsproblem passen. Sie ergibt si
 # Vermeidung von Fehlern
 - Vorannahmen explizieren um mögliche Fehlschlüsse zu klären
 - Wiederholte Untersuchung mit verschiedene Methoden um Methodenbias auszuschließen
-- Klassische Testtheorie: Mehrmals Messen, Mittelwert bilden, um statistischen Messfehler auszuschließen 
+- Klassische Testtheorie: Mehrmals Messen, Mittelwert bilden, um statistischen Messfehler auszuschließen

@@ -1,0 +1,50 @@
+---
+title: "Forschungsparadigmen und Methoden für RSEs"
+subtitle: "Sitzung 1: Grundlagen von RSE und empirischer Sozialforschung"
+format:
+    beamer:
+        keep-tex: true
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: pdflatex
+        include-in-header:
+            - beamer-header.tex
+        latex-auto-install: true
+        section-titles: true
+        mermaid: true
+---
+
+# Grundfragen empirischer Sozialforschung
+
+# Was ist Forschungssoftware?
+
+# Forschungsparadigmen
+
+# Verhältnis empirische Methoden und Forschungssoftware
+
+# Beispiel 1: RouteMe
+
+# Forschungsfragen zu RouteMe?
+
+# Methoden empirischer Sozialforschung
+
+## Qualitativ
+
+## Quantitativ
+
+## Mixed Methods
+
+## Messungen
+
+## Datengetriebene Forschung
+
+## TextAsData und mehr
+
+# Welche Methoden passen für RouteMe?
+
+# Reflexionsfragen
+
+
+
+
+
