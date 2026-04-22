@@ -60,14 +60,21 @@
     "href": "generation/generated/rse_researchmethods.html",
     "title": "TEACHING RSE AT THE UNIVERSITY LEVEL",
     "section": "",
-    "text": "The module addresses the complex field of interaction between software as part of the reproducible research process and as a variable and research result in its own right. Similar to statistics, the use of computer technology leads to an expansion of possible research topics, but also to new sources of error, complexity and associated approaches.\nThis includes but is not limited to:\n\nForms of research and disciplinary culture\nEmpirical research methods (e.g. for software evaluation)\nDesign-based research and design science\nQualitative methods for concept evaluation\nSimulation techniques and mixed methods\n\n\n\n\n\n\n\n\nResearch methods & ethics"
+    "text": "The module addresses the complex field of interaction between software as part of the reproducible research process and as a variable and research result in its own right. Similar to statistics, the use of computer technology leads to an expansion of possible research topics, but also to new sources of error, complexity and associated approaches.\nThis includes but is not limited to:\n\nForms of research and disciplinary culture\nEmpirical research methods (e.g. for software evaluation)\nDesign-based research and design science\nQualitative methods for concept evaluation\nSimulation techniques and mixed methods"
   },
   {
     "objectID": "generation/generated/rse_researchmethods.html#research-paradigms-and-methodology-for-rses",
     "href": "generation/generated/rse_researchmethods.html#research-paradigms-and-methodology-for-rses",
     "title": "TEACHING RSE AT THE UNIVERSITY LEVEL",
     "section": "",
-    "text": "The module addresses the complex field of interaction between software as part of the reproducible research process and as a variable and research result in its own right. Similar to statistics, the use of computer technology leads to an expansion of possible research topics, but also to new sources of error, complexity and associated approaches.\nThis includes but is not limited to:\n\nForms of research and disciplinary culture\nEmpirical research methods (e.g. for software evaluation)\nDesign-based research and design science\nQualitative methods for concept evaluation\nSimulation techniques and mixed methods\n\n\n\n\n\n\n\n\nResearch methods & ethics"
+    "text": "The module addresses the complex field of interaction between software as part of the reproducible research process and as a variable and research result in its own right. Similar to statistics, the use of computer technology leads to an expansion of possible research topics, but also to new sources of error, complexity and associated approaches.\nThis includes but is not limited to:\n\nForms of research and disciplinary culture\nEmpirical research methods (e.g. for software evaluation)\nDesign-based research and design science\nQualitative methods for concept evaluation\nSimulation techniques and mixed methods"
+  },
+  {
+    "objectID": "generation/generated/rse_researchmethods.html#example-oer-from-piloting",
+    "href": "generation/generated/rse_researchmethods.html#example-oer-from-piloting",
+    "title": "TEACHING RSE AT THE UNIVERSITY LEVEL",
+    "section": "Example OER from Piloting",
+    "text": "Example OER from Piloting\n\nRWTH Seminar: Research Methods and Methodology for RSE 2026\n\nLecture 1: Overview Empirical Methods and RSE\nLecture 2: Qualitative Methods and RSE\n\n\n\n\n\nSources & Implementations:\n\nCourses\n\nResearch methods & ethics"
   },
   {
     "objectID": "generation/generated/rse_management.html",
@@ -705,6 +712,13 @@
     "title": "TEACHING RSE AT THE UNIVERSITY LEVEL",
     "section": "",
     "text": "The module addresses the complex field of interaction between software as part of the reproducible research process and as a variable and research result in its own right. Similar to statistics, the use of computer technology leads to an expansion of possible research topics, but also to new sources of error, complexity and associated approaches.\nThis includes but is not limited to:\n\nForms of research and disciplinary culture\nEmpirical research methods (e.g. for software evaluation)\nDesign-based research and design science\nQualitative methods for concept evaluation\nSimulation techniques and mixed methods"
+  },
+  {
+    "objectID": "components/rse_researchmethods/description.html#example-oer-from-piloting",
+    "href": "components/rse_researchmethods/description.html#example-oer-from-piloting",
+    "title": "TEACHING RSE AT THE UNIVERSITY LEVEL",
+    "section": "Example OER from Piloting",
+    "text": "Example OER from Piloting\n\nRWTH Seminar: Research Methods and Methodology for RSE 2026\n\nLecture 1: Overview Empirical Methods and RSE\nLecture 2: Qualitative Methods and RSE"
   },
   {
     "objectID": "components/rse_society_philosophy/description.html",
