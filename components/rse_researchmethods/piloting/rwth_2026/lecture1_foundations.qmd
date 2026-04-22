@@ -133,6 +133,15 @@ qualitativ gedeutet werden?
     - Jede Forschungsmethode enthält Theorie und Empirie
     - Forschungsmethoden unterscheiden sich primär durch die Annahmen, _was empirisch wie erfassbar ist_ und wie es sich theoretisch _deuten lässt_
 
+---
+
+## Erkenntnisrichtungen des Erkenntnisgewinns
+
+- Induktiv: Von Daten werden theoretische Erkenntnisse abgeleitet
+- Deduktiv: Theorie wird durch neue Daten überprüft und erweitert
+- Abduktiv: Bei der Abduktion schließt man auf allgemeine Prinzipien oder Hintergründe, die beobachtete Daten erklären könnten [@stangl2026abduktion]
+  - kreativer Prozess
+  - Interpretation als Puzzlestück, dass Theorie und Empirie verbindet (Referenzrahmen entdecken)
 
 # Was ist Forschungssoftware?
 
@@ -163,15 +172,52 @@ qualitativ gedeutet werden?
 
 # Verhältnis empirische Methoden und Forschungssoftware
 
+Forschungssoftwareentwicklung und empirische Methoden können in unterschiedlichem Verhältnis zueinander stehen [@dehne2026fairrightmethodologicalresearch]:
+
+1. Forschungssoftware ist Gegenstand der empirischen Untersuchung
+   - Usability Study
+   - Human-Computer Interaction als Fokus
+2. Forschungssoftware ist eine Variable der Forschungsfrage
+3. Forschungssoftware transformiert den Forschungskontext
+4. Forschungssoftware ist nur technisches Hilfsmittel
+5. Forschungssoftwareentwicklung ist Lerngegenstand
+6. Forschungssoftware implementiert die (automatisierbare/quantifizierbare) Methode (z.B. Tracking, Survey-Bots ...)
+
 # Beispiel 1: RouteMe
 
 # Forschungsfragen zu RouteMe?
 
 # Methoden empirischer Sozialforschung
 
-## Qualitativ
+## Qualitativ [@zapf]
 
-## Quantitativ
+- Deuten, Interpretieren der Verarbeitungsstrategien/ Innenperspektive (wie tickt der Mensch?)
+- Zirkulärer Forschungsprozess
+- Handlungsdeterminanten, sind den handelnden Personen selbst nicht als handlungsbeeinflussend bewusst
+- Qualitative Forschung hat Ausgangspunkt
+im Versuch eines vorrangig deutenden und sinnverstehenden
+Zugangs zu der interaktiv hergestellten und in sprachlichen wie nicht sprachlichen Symbolen repräsentiert
+gedachten sozialen Wirklichkeit
+- Will Einzelhandeln dicht beschreiben
+
+---
+
+## Quantitativ [@zapf]
+
+- Grundpfeiler: Zahlen/Arbeit mit
+Zahlen
+- Zahl als Hauptmedium, um soziale
+Wirklichkeit zu ordnen und zu
+beschreiben
+- Quantifizierung= qualitative
+Merkmale in Zahlen und damit in
+messbare Größen umwandeln
+- Prinzip der Deduktion & Prüfung von
+Hypothesen
+- Voraussetzung = Standardisierung
+des Forschungsprozesses
+
+---
 
 ## Mixed Methods
 
