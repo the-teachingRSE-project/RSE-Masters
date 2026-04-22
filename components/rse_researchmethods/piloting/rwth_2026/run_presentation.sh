@@ -1,1 +1,1 @@
-quarto render folien-forschungsmethoden.qmd --to beamer
+quarto render lecture1_foundations.qmd --to beamer
