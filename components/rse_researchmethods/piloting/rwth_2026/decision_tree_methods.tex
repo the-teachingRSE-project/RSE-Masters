@@ -1,0 +1,65 @@
+
+\resizebox{\textwidth}{!}{
+
+
+\begin{tikzpicture}[
+    decision/.style={
+        diamond,
+        draw,
+        aspect=2.2,
+        align=center,
+        inner sep=1.5pt,
+        font=\small
+    },
+    block/.style={
+        rectangle,
+        draw,
+        rounded corners,
+        align=center,
+        minimum width=28mm,
+        minimum height=8mm,
+        font=\small
+    },
+]
+
+% oberste Ebene
+    \node[decision] (messbar) {messbar?};
+
+% messbar / nicht messbar
+    \node[decision, below left=9mm and 28mm of messbar] (messbarja) {Kognitive\\ Variablen?};
+    \node[decision, below right=9mm and 28mm of messbar] (nichtmessbar) {Ist das sozial\\ erwünscht?};
+
+    \draw (messbar) -- node[above left, font=\small] {ja} (messbarja);
+    \draw (messbar) -- node[above right, font=\small] {nein} (nichtmessbar);
+
+% messbarer Ast
+    \node[block, below left=8mm and 9mm of messbarja] (kognitiv) {Semantisches\\ Differenzial,\\ EKG};
+    \node[block, below right=8mm and 9mm of messbarja, xshift=-15mm] (nichtkognitiv) {Analytics / \\ Sensors \ldots };
+
+    \draw (messbarja) -- node[above left, font=\small] {ja} (kognitiv);
+    \draw (messbarja) -- node[above right, font=\small] {nein} (nichtkognitiv);
+
+% nicht-messbarer Ast
+    \node[block, below left=8mm and 9mm of nichtmessbar] (beobachtung) {Beobachtung};
+    \node[block, below right=8mm and 9mm of nichtmessbar] (umfrage) {Umfrage};
+
+    \draw (nichtmessbar) -- node[above left, font=\small] {ja} (beobachtung);
+    \draw (nichtmessbar) -- node[above right, font=\small] {nein} (umfrage);
+
+% Beobachtung weiter
+    \node[block, below left=14mm and 10mm of beobachtung] (teilnehmend) {teilnehmend};
+    \node[block, below right=14mm and 10mm of beobachtung, xshift=15mm] (nichtteilnehmend) {nicht teilnehmend};
+
+    \draw (beobachtung) -- (teilnehmend);
+    \draw (beobachtung) -- (nichtteilnehmend);
+
+% Umfrage weiter
+    \node[block, below left=14mm and 10mm of umfrage, xshift=-15mm] (strukturiert) {strukturiert};
+    \node[block, below right=14mm and 10mm of umfrage] (unstrukturiert) {unstrukturiert};
+
+    \draw (umfrage) -- (strukturiert);
+    \draw (umfrage) -- (unstrukturiert);
+
+\end{tikzpicture}
+
+}

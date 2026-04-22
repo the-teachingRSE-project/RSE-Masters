@@ -186,8 +186,35 @@ Forschungssoftwareentwicklung und empirische Methoden können in unterschiedlich
 # Beispiel 1: RouteMe
 
 
+::: {.columns}
 
-# Forschungsfragen zu RouteMe?
+::: {.column width="30%"}
+
+![](img/routeme3.png)
+
+:::
+
+::: {.column width="30%"}
+
+![](img/routeme2.jpeg)
+
+:::
+
+::: {.column width="30%"}
+
+Ein Lernspiel, um adhoc-Netzwerke aus Sicht eines Knotens kennenzulernen [@Zender2013]
+
+:::
+
+:::
+
+
+# Forschungsfragen zu RouteMe (interaktiv)?
+
+- Welche empirischen Forschungsfragen könnte man stellen?
+- Welche theoretischen Forschungsfragen könnte man stellen?
+- Welche methodischen Probleme gibt es in jedem Fall?
+- In welchem Verhältnis steht die Forschungssoftware (die App) zu der empirischen Forschung?
 
 # Methoden empirischer Sozialforschung
 
@@ -243,13 +270,33 @@ des Forschungsprozesses
 
 ---
 
-## Mixed Methods
 
-## Messungen
 
-## Datengetriebene Forschung
 
-## TextAsData und mehr
+
+
+
+# Computerbasierte Verfahrung und direkte Messung
+
+- Messungen
+  - Hautleitfähigkeit (Indikator für Nervosität)
+  - EKG
+  - Eye Tracking (Fokussierung / Pupillenweitung)
+  - ...
+- Datengetriebene Forschung
+  - Logdaten
+  - Tracking
+  - Geoposition
+  - ...
+- TextAsData (VideoAsData)
+
+
+# Entscheidungsbaum Methoden
+
+```{=latex}
+\input{decision_tree_methods}
+
+```
 
 # Welche Methoden passen für RouteMe?
 
