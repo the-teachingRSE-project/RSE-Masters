@@ -75,6 +75,10 @@ jobs:
         run: quarto install tinytex
       - name: compile pdf
         run: quarto render --profile doc
+      - name: compile rwth slides
+        run: quarto render components/rse_researchmethods/piloting/rwth_2026/lecture1_foundations.qmd
+      - name: compile rwth slides 2
+        run: quarto render components/rse_researchmethods/piloting/rwth_2026/lecture2_qualitative.qmd
       - name: compile website
         run: quarto render --profile website
       - name: Upload artifact

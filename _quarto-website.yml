@@ -6,6 +6,7 @@ project:
     - "*.qmd"
     - "!presentation/"
     - "!thesis/"
+    - "!components/rse_researchmethods/piloting/rwth_2026/"
 
 website:
   title: "TEACHING RSE AT THE UNIVERSITY LEVEL"
