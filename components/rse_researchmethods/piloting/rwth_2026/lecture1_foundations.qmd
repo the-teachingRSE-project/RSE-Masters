@@ -185,6 +185,8 @@ Forschungssoftwareentwicklung und empirische Methoden können in unterschiedlich
 
 # Beispiel 1: RouteMe
 
+
+
 # Forschungsfragen zu RouteMe?
 
 # Methoden empirischer Sozialforschung
@@ -216,6 +218,28 @@ messbare Größen umwandeln
 Hypothesen
 - Voraussetzung = Standardisierung
 des Forschungsprozesses
+
+---
+
+## Zuordnung Forschungsfragen
+
+| Frage                                                                   | Quantitativ | Qualitativ |
+|-------------------------------------------------------------------------|-------------|------------|
+| Wie stark hängen geringer Bildungsstand und Rechtsextremismus zusammen? |             |            |
+| Mit welcher Motivation beginnen Studierende ihr Studium?                |             |            |
+| Was veranlasst Menschen, die CDU zu wählen?                             |             |            |
+| Wie groß ist der Anteil der Studierenden mit BAföG?                     |             |            |
+
+---
+
+## Zuordnung Forschungsfragen
+
+| Frage                                                                   | Quantitativ | Qualitativ |
+|-------------------------------------------------------------------------|-------------|------------|
+| Wie stark hängen geringer Bildungsstand und Rechtsextremismus zusammen? | korrekt     |            |
+| Mit welcher Motivation beginnen Studierende ihr Studium?                |             | korrekt    |
+| Was veranlasst Menschen, die CDU zu wählen?                             |             | korrekt    |
+| Wie groß ist der Anteil der Studierenden mit BAföG?                     | korrekt     |            |
 
 ---
 

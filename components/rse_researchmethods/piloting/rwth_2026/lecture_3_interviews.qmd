@@ -1,0 +1,244 @@
+## Das Interview / die Befragung
+
+- Das Interview ist eine Technik der empirischen Sozialforschung, bei der die Versuchsperson durch eine Reihe gezielter Fragen oder mitgeteilter Stimuli zu verbalen Informationen veranlasst werden soll.
+
+- Das Interview kann als einmalige Befragung zur Ermittlung von zeitlichen Querschnittserkenntnissen über einen Tatbestand oder als Panelbefragung zur Untersuchung von Veränderungen im zeitlichen Längsschnitt dienen.
+
+- Es wird nicht direkt das Realverhalten erfasst, sondern das Verbalverhalten.
+
+- Antworten sind stark an die Subjektivität des Befragten gebunden.
+
+- Vor allem lassen sich Hinweise auf die Bewertung möglichen Sozialverhaltens messen, es werden Einstellungen gemessen.
+
+- Die Ergebnisse sind also bereits durch einen „sozialen Filter" gegangen (siehe „Das Interview als sozialer Prozess").
+
+- Ziel: kontrollierbare Frage- und Antwortsituationen herstellen, um möglichst „reine Daten" zu erhalten, d. h. planmäßiges Vorgehen mit wissenschaftlicher Fundierung.
+
+---
+
+## Kommunikation
+
+- Fähigkeit der Individuen, Gedanken und Gefühle auszutauschen
+- Verhaltensänderungen, mit der sich Individuen gegenseitig beeinflussen
+- Übertragung von Signalen und Symbolen
+
+→ Grundelement sozialer Beziehung
+
+---
+
+## Panelbefragung
+
+- Erforschung von Veränderungen im Verhalten und in der Einstellung
+- Mehrmaliges Befragen der gleichen Personen mit denselben Fragen (gleiche Gruppe in wiederholten zeitlichen Abschnitten)
+- Wandel von Einstellungen, Gruppenzugehörigkeiten, Gewohnheiten, Verhaltenserwartungen
+
+---
+
+## Typen des Interviews
+
+**Weiches Interview:**
+- Befragungsprogramm erklären
+- Befragten spontan antworten lassen
+- Fragen nur, um Weiterreden zu animieren
+- Interviewer spielt eine passive Rolle
+- Befragter fühlt sich völlig frei
+- „gemeinsame Aufgabe“
+
+**Hartes Interview:**
+- Fragen so schnell wie möglich stellen
+- Spontane Antworten erzwingen
+- Sicherer Schutz vor Lügen
+- Eine Art „Verhörtechnik“
+
+→ Weiches und hartes Interview: wenig Glaube an Wahrheit der Aussage
+
+**Neutrales Interview:**
+- Ohne Gefühlskomponente
+- „Forschungswerkzeug“
+
+---
+
+## Formen von Interviews
+
+**Standardisiertes Interview:**
+- Fragebogen mit festgelegten Fragen, Fragefolgen und Antwortmöglichkeiten („Gesprächskorsett“)
+- Interviewer führt
+
+**Vorteile:**
+- Gleiche Bedingungen für alle Befragten
+- Zuverlässigkeit, Anonymität
+- Quantitative Daten
+- Leichte Codierung
+- Statistisch schnell auswertbar
+
+---
+
+**Mischform (halbstandardisiert):**
+- Wichtigste Fragen sind ausformuliert
+- Reihung der Fragen weitgehend offen („Gesprächsleitfaden“)
+- Reihenfolge kann geändert werden
+
+**Vorteile:**
+- Teilweise quantitative und teilweise qualitative Daten
+
+---
+
+**Nicht-standardisiertes Interview:**
+- Freie Entwicklung des Gesprächs („offenes Gespräch“)
+- Elastischer, lebensnah
+- Qualitative Daten
+- Interviewter führt
+
+**Nachteile:**
+- Aufwendige Codierung und Analyse
+- Begrenzter Personenkreis (Kosten)
+- Wenig verallgemeinerbare Daten
+
+---
+
+## Unterschiede in Formen / Tiefe
+
+**Psychoanalytisches Interview:**
+- Freie Assoziation
+- Forscher schränkt nicht ein
+
+**Ungelenktes Interview:**
+- Freie Assoziation
+- Kein Eingriff durch Forscher
+
+**Intensiv-/Tiefeninterview:**
+- Leitfaden vorhanden
+- Reihenfolge und Formulierung offen
+
+**Standardisiertes Interview:**
+- Fragen formuliert
+- Reihenfolge festgelegt
+
+**Gruppeninterview:**
+- Fragen an mehrere Personen gleichzeitig
+
+---
+
+## Unterschiede in der Art der Kontaktaufnahme
+
+**Mündliches Interview:**
+- Begrenzte Personenzahl
+- Verzerrung durch Reaktionen vermeiden
+- Subjektive Spezifika gut erfassbar
+
+**Schriftliches Interview:**
+- Weniger Fehler
+- Ehrlichere, überlegte Antworten
+- Höhere Motivation
+- Höhere Anonymität
+
+**Telefoninterview:**
+- Schnelle Datenerhebung
+- Höhere Teilnahmequote
+- Geringe Kosten
+- Alle Regionen erreichbar
+- Unmittelbare Rückkopplung
+
+**Gruppendiskussion:**
+- Hohe Anforderungen an Gesprächsführung
+- Gegenseitige Beeinflussung berücksichtigen
+
+## Häufigste Fehlerquellen
+
+- Verweigerung einzelner Antworten
+- „Ich-weiß-nicht“-Antworten / Meinungslosigkeit / Passivität / Desinteresse
+- Willkürliche Antworten ohne eigene Meinung
+- Sozial erwünschte Antworten
+- Gefälligkeitsantworten für den Interviewer
+- Verzerrungen durch Frageabfolgen / Positionseffekt (Halo-Effekt)
+- Reaktionen auf äußere Umstände
+- Anpassungstendenz
+
+---
+
+## Grundsätze für Befragung
+
+- Keine Prüfungssituation herstellen
+- Alltagssprache bzw. spezifische Sprache verwenden
+- Fragen so einfach und sachlich wie möglich, positiv formulieren
+- Keine mehrdeutigen oder vagen Wörter
+- Möglichst keine hypothetischen Fragen
+- Keine Examenssituation schaffen
+- Fragen zu unvertrauten Problemen mit Beispiel einleiten
+- Zeit, Ort, Zusammenhang genau bezeichnen
+- An individuelle Erfahrungen anknüpfen
+- Keine Suggestivfragen
+- Alternativen angeben
+- Skalen verwenden
+- Fragen müssen ausgeglichen sein
+- Wörter vermeiden, die versteckt Wertungen enthalten
+- Prestige des Befragten nicht verletzen
+- Nicht schockieren
+
+---
+
+## Regeln für die Fragebogenkonstruktion
+
+### Mikroplanung
+
+- Trichtern (Funneling) – konkret → allgemein
+- Umgekehrtes Trichtern (reversed funneling) – allgemein → konkret
+- Ausstrahlungseffekt (Halo-Effekt) beachten
+- Themen in Fragenkomplexen behandeln
+- Mehrere Fragen pro Themenbereich
+
+---
+
+### Makroplanung
+
+- Platzierungseffekt: wichtigste Fragen im mittleren Drittel
+- Aufbau einer Spannungskurve
+- Reihung von Fragengruppen
+- Filterfragen einbauen
+- Neue Fragenkomplexe mit Überleitungsfragen einleiten
+
+## Lernfragen zur Befragung
+
+### Was wird mit Interviews gemessen?
+
+1. Realverhalten
+2. Verbalverhalten
+
+---
+
+### Wann verwendet man Leitfadeninterviews?
+
+(wenig strukturiert / wenig standardisiert)
+
+1. Wenn man nicht weiß, was der Interviewpartner sagen wird
+2. Wenn man ein Video vom Interview aufnehmen / präzisieren will
+3. Wenn eine Expertenmeinung benötigt wird
+4. Wenn die Kosten für eine große Befragung eingespart werden müssen
+5. Wenn man Interviewkategorien für ein strukturiertes Interview präzisieren will
+
+---
+
+1. Wenn man nicht weiß, was der Interviewpartner sagen wird
+2. Wenn man ein Video vom Interview aufnehmen / präzisieren will
+3. **Wenn eine Expertenmeinung benötigt wird**
+4. Wenn die Kosten für eine große Befragung eingespart werden müssen
+5. **Wenn man Interviewkategorien für ein strukturiertes Interview präzisieren will**
+
+---
+
+
+### Mikroplanung
+
+Nennen Sie drei Regeln für die Mikroplanung von Interviews!
+
+---
+
+### HALO-Effekt
+
+Was versteht man unter einem „HALO-EFFEKT“ bei der Konstruktion von Fragebögen?
+
+1. Einzelne Fragen passen nicht in die Reihe
+2. Die logisch richtige Reihung der Fragen kann den psychologischen Spannungsbogen stören
+3. Einzelne Fragen strahlen auf benachbarte Fragen aus
+4. Die unmittelbare Beantwortung einer Frage
+5. Eine ehrliche Antwort auf die Frage ist nicht zu erwarten

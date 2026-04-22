@@ -1,0 +1,185 @@
+## Das quantitative Experiment
+
+„Wiederholbare Beobachtungen unter kontrollierten Bedingungen, wobei eine (oder mehrere) unabhängige Variable(n) derartig manipuliert werden, dass eine Überprüfungsmöglichkeit der zugrunde liegenden Hypothese (Behauptung eines Kausalzusammenhangs) in unterschiedlichen Situationen gegeben ist.“
+
+- Experiment funktioniert nur, wenn der Reiz zu Realverhalten führt
+- Exakteste Messmethode, aber nicht immer durchführbar
+- Untersuchung der Wirkung wesentlicher Variablen
+- Misst objektive, subjektive, materielle und ideelle Determinanten
+- Analysiert numerische Daten über Beziehungen von Verhaltensvariablen
+- In kontrollierten Situationen
+- Vereinfacht komplexe Zusammenhänge
+- Testet Hypothesen
+- Unabhängige Variable wird manipuliert
+
+→ Verhaltensdifferenzen als Resultat der Manipulation werden gemessen
+
+---
+
+## Vor- und Nachteile
+
+**Vorteil:**
+- Exakteste Messung (bei isolierten, kontrollierten, manipulierten Variablen)
+
+**Nachteil:**
+- Kenntnis wesentlicher Variablen nötig
+- Einfluss von Störvariablen muss vermieden werden
+- Hoher Schulungsaufwand
+
+---
+
+## Arten von Experimenten
+
+**Feldexperiment:**
+- Authentische Situation
+- Untersuchungsobjekt bleibt in natürlicher Umgebung
+- Zwei kontrastierende Gruppen
+- Nicht alle Variablen kontrollierbar
+
+---
+
+**Laborexperiment:**
+- Künstliche, kontrollierte Situation
+- „Reine“, vereinfachte Bedingungen
+- Experimentalgruppe + Kontrollgruppe
+- Alle Variablen kontrollierbar
+- Fokus: Wirkung der unabhängigen Variable
+
+---
+
+**Ex-post-facto Experiment (Quasiexperiment):**
+- Untersuchung vergangener sozialer Vorgänge
+- Rückverfolgung zu kausalen Faktoren
+- Nutzung von Dokumenten
+- Beispiel: Einfluss des Abiturs auf sozialen Erfolg
+
+---
+
+## Unterformen
+
+**Kontrollgruppenexperiment:**
+- Mindestens zwei ähnliche Gruppen (Zufallsverteilung)
+- Eine Gruppe wird manipuliert, eine nicht
+- Vergleich von Vorher-/Nachher-Messungen
+- Verhaltensdifferenz wird gemessen
+- Nachteil: Gruppen nie exakt identisch
+
+---
+
+**Zeitreihenexperiment:**
+- Gleiche Gruppe mehrfach gemessen
+- Sequenz: ohne – mit – ohne Einwirkung
+- Verhaltensdifferenz wird gemessen
+- Nachteil: Gruppenveränderung (z. B. Ausstieg)
+
+---
+
+## Voraussetzungen
+
+1. Variablen und Bedingungen müssen kontrollierbar sein
+2. Hypothesen müssen Zusammenhänge zwischen Variablen formulieren
+3. Verhaltensvariablen müssen isolierbar sein
+4. Unabhängige Variable muss manipulierbar sein
+5. Manipulation muss wiederholbar sein
+
+## Anwendungsgebiete
+
+1. Maximierung und Minimierung
+2. Testen von Grenzen
+3. Adaption (Anpassung)
+
+---
+
+## Einwände
+
+1. Self-fulfilling-prophecy
+   (Verhalten im Experiment anders als in Realität)
+
+2. Self-destroying process
+   (Aufgabe wird so stark internalisiert, dass Verhalten verzerrt wird)
+
+3. Ethische (moralische) Einwände
+   (Grenzen individuell festzulegen, kein dauerhafter Schaden)
+
+4. Selektivität des Experiments
+   (Erklärt nicht das „wahre Leben“)
+
+---
+
+## Arbeitsschritte
+
+- Festlegung der bedeutsamen Faktoren
+- Hypothesen aufstellen
+- Manipulierte Variable festlegen
+- Bestimmung von Experimental- und Vergleichsgruppe
+  (nach soziodemographischen Faktoren oder Zufallsauswahl)
+- Konstruktion der Experimentalsituation
+  (wer, wann, wo, wie, womit)
+- Prätest
+
+
+## Die quantitative Inhaltsanalyse / Dokumentenanalyse
+
+Inhaltsanalyse meint das Interpretieren von Symbolen mit wissenschaftlichen Methoden.
+
+---
+
+## Symbol
+
+- Marker für Begriffe
+- Menschliches Denken ist an Symbolgebrauch gebunden
+- Symbole haben Bedeutung für Menschen
+- Erschließt sich die Bedeutung → löst Handlungen aus
+- Voraussetzung für Interaktionen
+
+---
+
+## Merkmale
+
+- Hat Kommunikation zum Gegenstand
+- Arbeitet mit symbolischem Material (fixierte Kommunikation)
+- Geht systematisch vor
+- Ist regelgeleitet
+- Ist theoriegeleitet
+- Ist eine schlussfolgernde Methode (Rückschlüsse auf Kommunikation)
+- Rekonstruiert die Verteilung von Merkmalen in Populationen
+- Sucht Typen von Kommunikationsmustern und -ergebnissen
+- Hilfsmittel zur Überprüfung qualitativ gewonnener Hypothesen
+
+---
+
+## Methoden
+
+- Vom Analysenmaterial wird auf den Kontext geschlossen
+- Hoher Systematisierungsgrad wird angestrebt
+- Reduktion von Informationen
+- Zuordnung von Textteilen zu Merkmalen
+- Übersetzung der Objektsprache in Metasprache (sozialwissenschaftliche Kategorien)
+- Diktionär = inhaltsanalytisches Wörterbuch
+
+---
+
+## Anwendungsgebiete
+
+- Informationsbeschreibung und Normenprüfung
+- Informationsraffung und Informationsbeschleunigung
+- Informationsgenese (Entwicklung von Inhalten in Abhängigkeit zur sozialen Wirklichkeit)
+- Prognosen
+
+---
+
+## Beispiele
+
+- Erforschung von Kommunikationstrends
+- Vergleich verschiedener Ebenen oder Medien der Kommunikation
+- Internationaler Vergleich von Inhalten und Einstellungen
+- Vergleich von Kommunikation und Gegenstand
+- Feststellung des propagandistischen Gehalts von Aussagen
+- Messung der Lesbarkeit von Texten
+- Feststellung stilistischer Profile
+- Entdeckung verborgener Absichten
+- Beschaffung von politischem und militärischem Nachrichtenmaterial
+- Analyse der Informationspolitik
+- Analyse des Lebens in verschiedenen Epochen
+- Denkstile einer Kultur
+- Unterschiede in Stereotypen
