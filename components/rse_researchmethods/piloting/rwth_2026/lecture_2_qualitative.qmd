@@ -104,6 +104,10 @@ Zum Beispiel:
 
 ![Reaktionsmuster auf konstruktive Moderation auf Twitter (eigene Studie 2022)](img/epsa_diskurs.png)
 
+# Beispiel 3:
+
+![Diskursanalyse zu forschendem Lernen (Dissertation Dehne)](img/diskursanalyse_diss.png)
+
 # Das qualitative Experiment
 
 Das qualitative Experiment ist der nach wissenschaftlichen Regeln vorgenommene Eingriff in eine soziale Gegebenheit zur Erforschung ihrer Struktur. Es ist die explorative, heuristische Form des Experiments.
