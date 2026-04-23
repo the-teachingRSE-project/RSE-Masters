@@ -242,3 +242,13 @@ Was versteht man unter einem „HALO-EFFEKT“ bei der Konstruktion von Fragebö
 3. Einzelne Fragen strahlen auf benachbarte Fragen aus
 4. Die unmittelbare Beantwortung einer Frage
 5. Eine ehrliche Antwort auf die Frage ist nicht zu erwarten
+
+# Methode der kritischen Ereignisse [@Flanagan1954]
+
+Bestimmung der Zielsetzung, um einstufen zu können, ob das beobachtete Arbeitsverhalten zum Erfolg maßgeblich beiträgt oder nicht
+Planung der Datenerhebung (direkte Beobachtung einer kritischen Situation durch geschulte Beobachter nach eindeutigen Kriterien oder Führen von Interviews)
+Datenerhebung der Ereignisse oder Verhaltensweisen, die zu einer guten bzw. schlechten Ausführung des Auftrags führten (Definition von Anforderungen an die geschilderten Situationen, Durchführung der Interviews, Fokus auf die Beschreibung der Situation und der Auswirkung des Handelns)
+Auswertung des erhobenen Datenmaterials
+Interpretation des Datenmaterials (Kategorien festlegen und die kritischen Ereignisse klassifizieren und strukturieren, Mitarbeiterschulung zur Umsetzung der analysierten, vom Erfolg abhängigen Verhaltensweisen)
+
+# Literatur

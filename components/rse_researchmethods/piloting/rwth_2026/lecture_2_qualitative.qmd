@@ -102,11 +102,11 @@ Zum Beispiel:
 
 # Beispiel 2:
 
-![Reaktionsmuster auf konstruktive Moderation auf Twitter (eigene Studie 2022)](img/epsa_diskurs.png)
+![Reaktionsmuster auf konstruktive Moderation auf Twitter (eigene Studie 2022)](img/epsa_diskurs.png){height=80%}
 
 # Beispiel 3:
 
-![Diskursanalyse zu forschendem Lernen (Dissertation Dehne)](img/diskursanalyse_diss.png)
+![Diskursanalyse zu forschendem Lernen (Dissertation Dehne)](img/diskursanalyse_diss.png){height=80%}
 
 # Das qualitative Experiment
 
