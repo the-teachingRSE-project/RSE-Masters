@@ -1,10 +1,32 @@
-## Das Interview / die Befragung
+---
+title: "Forschungsparadigmen und Methoden für RSEs"
+subtitle: "Sitzung 3: Grundlagen der Interviewführung und der Methode der kritischen Ereignisse"
+format:
+    beamer:
+        keep-tex: true
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: pdflatex
+        include-in-header:
+            - beamer-header.tex
+        latex-auto-install: true
+        section-titles: true
+        mermaid: true
+
+bibliography:
+    - references.bib
+    - rse_literature.bib
+---
+
+# Das Interview / die Befragung
 
 - Das Interview ist eine Technik der empirischen Sozialforschung, bei der die Versuchsperson durch eine Reihe gezielter Fragen oder mitgeteilter Stimuli zu verbalen Informationen veranlasst werden soll.
 
 - Das Interview kann als einmalige Befragung zur Ermittlung von zeitlichen Querschnittserkenntnissen über einen Tatbestand oder als Panelbefragung zur Untersuchung von Veränderungen im zeitlichen Längsschnitt dienen.
 
 - Es wird nicht direkt das Realverhalten erfasst, sondern das Verbalverhalten.
+
+---
 
 - Antworten sind stark an die Subjektivität des Befragten gebunden.
 
@@ -14,29 +36,16 @@
 
 - Ziel: kontrollierbare Frage- und Antwortsituationen herstellen, um möglichst „reine Daten" zu erhalten, d. h. planmäßiges Vorgehen mit wissenschaftlicher Fundierung.
 
----
-
-## Kommunikation
-
-- Fähigkeit der Individuen, Gedanken und Gefühle auszutauschen
-- Verhaltensänderungen, mit der sich Individuen gegenseitig beeinflussen
-- Übertragung von Signalen und Symbolen
-
-→ Grundelement sozialer Beziehung
-
----
-
-## Panelbefragung
+# Panelbefragung
 
 - Erforschung von Veränderungen im Verhalten und in der Einstellung
 - Mehrmaliges Befragen der gleichen Personen mit denselben Fragen (gleiche Gruppe in wiederholten zeitlichen Abschnitten)
 - Wandel von Einstellungen, Gruppenzugehörigkeiten, Gewohnheiten, Verhaltenserwartungen
 
----
-
-## Typen des Interviews
+# Typen des Interviews
 
 **Weiches Interview:**
+
 - Befragungsprogramm erklären
 - Befragten spontan antworten lassen
 - Fragen nur, um Weiterreden zu animieren
@@ -45,6 +54,7 @@
 - „gemeinsame Aufgabe“
 
 **Hartes Interview:**
+
 - Fragen so schnell wie möglich stellen
 - Spontane Antworten erzwingen
 - Sicherer Schutz vor Lügen
@@ -56,15 +66,14 @@
 - Ohne Gefühlskomponente
 - „Forschungswerkzeug“
 
----
-
-## Formen von Interviews
+# Formen von Interviews
 
 **Standardisiertes Interview:**
 - Fragebogen mit festgelegten Fragen, Fragefolgen und Antwortmöglichkeiten („Gesprächskorsett“)
 - Interviewer führt
 
 **Vorteile:**
+
 - Gleiche Bedingungen für alle Befragten
 - Zuverlässigkeit, Anonymität
 - Quantitative Daten
@@ -74,6 +83,7 @@
 ---
 
 **Mischform (halbstandardisiert):**
+
 - Wichtigste Fragen sind ausformuliert
 - Reihung der Fragen weitgehend offen („Gesprächsleitfaden“)
 - Reihenfolge kann geändert werden
@@ -84,42 +94,45 @@
 ---
 
 **Nicht-standardisiertes Interview:**
+
 - Freie Entwicklung des Gesprächs („offenes Gespräch“)
 - Elastischer, lebensnah
 - Qualitative Daten
 - Interviewter führt
 
 **Nachteile:**
+
 - Aufwendige Codierung und Analyse
 - Begrenzter Personenkreis (Kosten)
 - Wenig verallgemeinerbare Daten
 
----
-
-## Unterschiede in Formen / Tiefe
+# Unterschiede in Formen / Tiefe
 
 **Psychoanalytisches Interview:**
+
 - Freie Assoziation
 - Forscher schränkt nicht ein
 
 **Ungelenktes Interview:**
+
 - Freie Assoziation
 - Kein Eingriff durch Forscher
 
 **Intensiv-/Tiefeninterview:**
+
 - Leitfaden vorhanden
 - Reihenfolge und Formulierung offen
 
 **Standardisiertes Interview:**
+
 - Fragen formuliert
 - Reihenfolge festgelegt
 
 **Gruppeninterview:**
+
 - Fragen an mehrere Personen gleichzeitig
 
----
-
-## Unterschiede in der Art der Kontaktaufnahme
+# Unterschiede in der Art der Kontaktaufnahme
 
 **Mündliches Interview:**
 - Begrenzte Personenzahl
@@ -143,7 +156,7 @@
 - Hohe Anforderungen an Gesprächsführung
 - Gegenseitige Beeinflussung berücksichtigen
 
-## Häufigste Fehlerquellen
+# Häufigste Fehlerquellen
 
 - Verweigerung einzelner Antworten
 - „Ich-weiß-nicht“-Antworten / Meinungslosigkeit / Passivität / Desinteresse
@@ -154,9 +167,7 @@
 - Reaktionen auf äußere Umstände
 - Anpassungstendenz
 
----
-
-## Grundsätze für Befragung
+# Grundsätze für Befragung
 
 - Keine Prüfungssituation herstellen
 - Alltagssprache bzw. spezifische Sprache verwenden
@@ -197,16 +208,14 @@
 - Filterfragen einbauen
 - Neue Fragenkomplexe mit Überleitungsfragen einleiten
 
-## Lernfragen zur Befragung
+# Lernfragen zur Befragung
 
 ### Was wird mit Interviews gemessen?
 
 1. Realverhalten
 2. Verbalverhalten
 
----
-
-### Wann verwendet man Leitfadeninterviews?
+# Wann verwendet man Leitfadeninterviews?
 
 (wenig strukturiert / wenig standardisiert)
 
@@ -245,10 +254,14 @@ Was versteht man unter einem „HALO-EFFEKT“ bei der Konstruktion von Fragebö
 
 # Methode der kritischen Ereignisse [@Flanagan1954]
 
-Bestimmung der Zielsetzung, um einstufen zu können, ob das beobachtete Arbeitsverhalten zum Erfolg maßgeblich beiträgt oder nicht
-Planung der Datenerhebung (direkte Beobachtung einer kritischen Situation durch geschulte Beobachter nach eindeutigen Kriterien oder Führen von Interviews)
-Datenerhebung der Ereignisse oder Verhaltensweisen, die zu einer guten bzw. schlechten Ausführung des Auftrags führten (Definition von Anforderungen an die geschilderten Situationen, Durchführung der Interviews, Fokus auf die Beschreibung der Situation und der Auswirkung des Handelns)
-Auswertung des erhobenen Datenmaterials
-Interpretation des Datenmaterials (Kategorien festlegen und die kritischen Ereignisse klassifizieren und strukturieren, Mitarbeiterschulung zur Umsetzung der analysierten, vom Erfolg abhängigen Verhaltensweisen)
+1. Bestimmung der Zielsetzung, um einstufen zu können, ob das beobachtete Arbeitsverhalten zum Erfolg maßgeblich beiträgt oder nicht
+2. Planung der Datenerhebung (direkte Beobachtung einer kritischen Situation durch geschulte Beobachter nach eindeutigen Kriterien oder Führen von Interviews)
+3. Datenerhebung der Ereignisse oder Verhaltensweisen, die zu einer guten bzw. schlechten Ausführung des Auftrags führten (Definition von Anforderungen an die geschilderten Situationen, Durchführung der Interviews, Fokus auf die Beschreibung der Situation und der Auswirkung des Handelns)
+   1. Auswertung des erhobenen Datenmaterials
+   1. Interpretation des Datenmaterials
+   1. Kategorien festlegen
+   1. die kritischen Ereignisse klassifizieren und strukturieren (siehe qualitative Methoden zur Generierung von Kategorien)
+
+
 
 # Literatur

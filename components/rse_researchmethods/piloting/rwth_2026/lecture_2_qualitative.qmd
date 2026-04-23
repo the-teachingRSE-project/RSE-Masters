@@ -52,7 +52,7 @@ Zum Beispiel:
 
 &rarr; Ziel ist die Theoriebildung durch Entwicklung geeigneter Kategorien (Modellierung)
 
-# Konkretes Vorgehen
+# Prozess der qualitativen Sozialforschung
 
 1. Aufbereitung von Textmaterial
 2. Paraphrasieren, Exzerpte relevanter Textpassagen (heutzutage eher mit MaxQDA relevante Textpassagen markieren und/oder Notiz anfügen)
@@ -63,6 +63,31 @@ Zum Beispiel:
    - Interpretationsschleifen, komplexe Erörterung, mehrfaches Lesen mit unterschiedlichen Interpretationen (Hermeneutik)
 
 &rarr; Zusammenfassungen werden immer abstrakter, Kategorien werden "entdeckt"
+
+
+# Konkretes Vorgehen (vereinfachte Empfehlungen)
+
+1. Aufbereitung von Textmaterial
+2. Identifikation sinngebender Passagen
+3. 3-5 Grobkategorien in MaxQDA basierend auf der Bezugstheorie (z.B. Gender in RSE)
+4. Erster Interpretationszyklus: Sinngebende Passagen zusammenfassen und Bezug zur Theorie für das Wording nutzen
+5. Mit Interpretationen angereichertes Material mit den Grobkategorien annotieren
+
+---
+
+6. Theorieentwicklung durch Kategorienbildung:
+   - Fall 1: Kategorien bilden Material perfekt ab:
+           1. Identifiziere dichotome Kriterien innerhalb oder zwischen den Kategorien (z.B. Freiheit vs. Gleichheit)
+           1. Skaliere das Material zwischen diesen Kategorien
+           1. Erzeuge eine Kreuztabelle, die Zusammenhänge zwischen den Kategorien darstellt
+   - Fall 2: Kategorien reichen nicht aus, um alle Aspekte darzustellen: Füge weitere Kategorien hinzu oder erweitere die Begriffe, in dem zu jeder Kategorie drei Unterkategorien hinzukommen. Danach wie bei 1.
+   - Fall 3: Die Kategorien sind nicht eindeutig. Füge Kategorien zusammen oder erzeuge neue Kategorien wie bei 2. Danach weiter wie bei 1.
+
+---
+
+7. Weiterentwicklung der Bezugstheorie hinsichtlich der speziellen Fälle und neuen Kategorien
+8. Klare Argumentation, warum die Theorie erweitert oder reduziert werden musste
+9. Vorschlag für eine *quantitative* oder experimentelle Studie um Theorie zu validieren (dies muss **denkbar** sein!)
 
 # Beispiel: Diskursanalyse [@kleemannInterpretativeSozialforschung2013]
 
@@ -108,7 +133,7 @@ Zum Beispiel:
 
 ![Diskursanalyse zu forschendem Lernen (Dissertation Dehne)](img/diskursanalyse_diss.png){height=80%}
 
-# Das qualitative Experiment
+# Das qualitative Experiment [@Kleining1986QualitativesExperiment]
 
 Das qualitative Experiment ist der nach wissenschaftlichen Regeln vorgenommene Eingriff in eine soziale Gegebenheit zur Erforschung ihrer Struktur. Es ist die explorative, heuristische Form des Experiments.
 
