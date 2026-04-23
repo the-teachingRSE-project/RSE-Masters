@@ -300,7 +300,36 @@ des Forschungsprozesses
 
 # Welche Methoden passen für RouteMe?
 
-# Reflexionsfragen
+## Leitfragen
+
+- Ist der Erkenntnisgewinn empirischer Natur oder geht es um Theorieentwicklung?
+- Was ist Gegenstand der Forschungsfrage?
+- Gibt es soziale Erwünschtheit?
+- Sind die Informationen den Teilnehmenden bewusst zugänglich?
+- Was lässt sich messen?
+- Welche Methoden sind geeignet?
+
+---
+
+## Leitfragen (Antworten)
+
+- Ist der Erkenntnisgewinn empirischer Natur oder geht es um Theorieentwicklung?  &rarr;  Eigentlich geht es um die Entwicklung einer Theorie zu pervasive Learning bzw. game-based learning, aber in der Praxis geht es erstmal um Evaluation der App (empirisch)
+- Was ist Gegenstand der Forschungsfrage? &rarr; Motivation, Funktionalität der App
+- Gibt es soziale Erwünschtheit? &rarr; teilweise
+- Sind die Informationen den Teilnehmenden bewusst zugänglich? &rarr; teilweise
+- Was lässt sich messen? &rarr; Wissensfortschritt zu Ad-Hoc Netzwerken
+- Welche Methoden sind geeignet? &rarr; nicht teilnehmende Beobachtung, Semantisches Differenzial
+
+---
+
+## Hausaufgabe (Reflexionsaufgaben)
+
+- Formulieren Sie eine Hypothese, die mit einem Telefoninterview / einer Feld-Beobachtung / einem qualitativen Labor-Experiment überprüfbar ist!
+- Mit welchem Datenerhebungsverfahren würden Sie messen: Das Umweltbewusstsein von Wissenschaftlern / das aktuelle Image einer Professorin / die Beliebtheit von Programmiersprachen?
+- Sie sollen überprüfen, warum die Effizienz einer Forschungsgruppe trotz guter Qualifikation und Motivation ihrer Mitglieder immer mehr nachlässt. Welches Datenerhebungsverfahren benutzen Sie?
+- Sie sollen überprüfen, welchen Einfluss die unterschiedlichen Möglichkeiten der Finanzierung eines Projektes auf die Projektdauer und den Projekterfolg haben. Welches Datenerhebungsverfahren benutzen Sie?
+- Sie wollen ein didaktisches Design für die Vermittlung von RSE und Data Science Kompetenzen in der additiven Fertigung evaluieren. Welche Methodengattung wäre geeignet?
+
 
 # Literatur
 
