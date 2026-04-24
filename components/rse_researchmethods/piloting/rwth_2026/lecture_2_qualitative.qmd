@@ -19,9 +19,18 @@ bibliography:
     - rse_literature.bib
 ---
 
+# Aufwärmübung
+
+Du möchtest untersuchen, wie du deine Lehre als Professor für SE anpassen kannst, angesichts der Tatsache, dass Studierende LLMs zur Unterstützung bei Programmieraufgaben nutzen können.
+
+Was ist die Analyseeinheit?
+Wer ist die Zielgruppe der Studie?
+Welche Theorien sind relevant?
+Wie würdest du die Studie durchführen?
+
 # Definitionsversuch
 
-"Qualitative Forschung hat ihren Ausgangspunkt im Versuch eines vorrangig deutenden und sinnverstehenden Zugangs zu der interaktiv "hergestellt" und in sprachlichen wie nicht-sprachlichen Symbolen repräsentiert gedachten sozialen Wirklichkeit [@bergerSocialConstructionReality2011]
+"Qualitative Forschung hat ihren Ausgangspunkt im Versuch eines vorrangig deutenden und sinnverstehenden Zugangs zu der interaktiv _hergestellt_ und in sprachlichen wie nicht-sprachlichen Symbolen repräsentiert gedachten sozialen Wirklichkeit [@bergerSocialConstructionReality2011]"
 
 # Grundannahmen
 
@@ -89,8 +98,36 @@ Zum Beispiel:
 8. Klare Argumentation, warum die Theorie erweitert oder reduziert werden musste
 9. Vorschlag für eine *quantitative* oder experimentelle Studie um Theorie zu validieren (dies muss **denkbar** sein!)
 
+# Wissenschaft als Kategorisierung der Welt in der Antike
+
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+
+![](img/aristoteles_elements.jpg){height=70%}
+
+:::
+
+::: {.column width="60%"}
+
+![](img/kugelmenschen.png){height=70%}
+
+:::
+
+:::
+
+Welche Kategorien werden durch diese Bilder visualisiert? (von ChatGPT generiert)
+
+
+
 # Beispiel: Diskursanalyse [@kleemannInterpretativeSozialforschung2013]
 
+
+Sprechakte werden als Kategorien gelabelt, die eine Art Prozessmodell für eine Diskussion darstellen. Das Konzept basiert auf der Wissenssoziologie von Karl Mannheim.
+
+---
 
 ## Positive Gegenhorizonte
 
@@ -164,6 +201,8 @@ Das qualitative Experiment ist der nach wissenschaftlichen Regeln vorgenommene E
 - Adjektion / Intensivierung: Funktionsinhaber werden hinzugefügt
 - Substitution: Teile werden ausgetauscht
 - Transformation: gesamte Gruppe wird neu strukturiert
+
+
 
 
 # Literatur

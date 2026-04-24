@@ -18,7 +18,7 @@ bibliography:
     - rse_literature.bib
 ---
 
-# Das Interview / die Befragung
+# Das Interview / die Befragung [@zapf]
 
 - Das Interview ist eine Technik der empirischen Sozialforschung, bei der die Versuchsperson durch eine Reihe gezielter Fragen oder mitgeteilter Stimuli zu verbalen Informationen veranlasst werden soll.
 
@@ -36,13 +36,13 @@ bibliography:
 
 - Ziel: kontrollierbare Frage- und Antwortsituationen herstellen, um möglichst „reine Daten" zu erhalten, d. h. planmäßiges Vorgehen mit wissenschaftlicher Fundierung.
 
-# Panelbefragung
+# Panelbefragung [@zapf]
 
 - Erforschung von Veränderungen im Verhalten und in der Einstellung
 - Mehrmaliges Befragen der gleichen Personen mit denselben Fragen (gleiche Gruppe in wiederholten zeitlichen Abschnitten)
 - Wandel von Einstellungen, Gruppenzugehörigkeiten, Gewohnheiten, Verhaltenserwartungen
 
-# Typen des Interviews
+# Typen des Interviews [@zapf]
 
 **Weiches Interview:**
 
@@ -62,13 +62,17 @@ bibliography:
 
 → Weiches und hartes Interview: wenig Glaube an Wahrheit der Aussage
 
+---
+
 **Neutrales Interview:**
+
 - Ohne Gefühlskomponente
 - „Forschungswerkzeug“
 
-# Formen von Interviews
+# Formen von Interviews [@zapf]
 
 **Standardisiertes Interview:**
+
 - Fragebogen mit festgelegten Fragen, Fragefolgen und Antwortmöglichkeiten („Gesprächskorsett“)
 - Interviewer führt
 
@@ -89,6 +93,7 @@ bibliography:
 - Reihenfolge kann geändert werden
 
 **Vorteile:**
+
 - Teilweise quantitative und teilweise qualitative Daten
 
 ---
@@ -106,7 +111,7 @@ bibliography:
 - Begrenzter Personenkreis (Kosten)
 - Wenig verallgemeinerbare Daten
 
-# Unterschiede in Formen / Tiefe
+# Unterschiede in Formen / Tiefe [@zapf]
 
 **Psychoanalytisches Interview:**
 
@@ -123,6 +128,8 @@ bibliography:
 - Leitfaden vorhanden
 - Reihenfolge und Formulierung offen
 
+---
+
 **Standardisiertes Interview:**
 
 - Fragen formuliert
@@ -132,20 +139,25 @@ bibliography:
 
 - Fragen an mehrere Personen gleichzeitig
 
-# Unterschiede in der Art der Kontaktaufnahme
+# Unterschiede in der Art der Kontaktaufnahme [@zapf]
 
 **Mündliches Interview:**
+
 - Begrenzte Personenzahl
 - Verzerrung durch Reaktionen vermeiden
 - Subjektive Spezifika gut erfassbar
 
 **Schriftliches Interview:**
+
 - Weniger Fehler
 - Ehrlichere, überlegte Antworten
 - Höhere Motivation
 - Höhere Anonymität
 
-**Telefoninterview:**
+---
+
+**Telefon- / Onlineinterview:**
+
 - Schnelle Datenerhebung
 - Höhere Teilnahmequote
 - Geringe Kosten
@@ -153,10 +165,11 @@ bibliography:
 - Unmittelbare Rückkopplung
 
 **Gruppendiskussion:**
+
 - Hohe Anforderungen an Gesprächsführung
 - Gegenseitige Beeinflussung berücksichtigen
 
-# Häufigste Fehlerquellen
+# Häufigste Fehlerquellen [@zapf]
 
 - Verweigerung einzelner Antworten
 - „Ich-weiß-nicht“-Antworten / Meinungslosigkeit / Passivität / Desinteresse
@@ -167,7 +180,7 @@ bibliography:
 - Reaktionen auf äußere Umstände
 - Anpassungstendenz
 
-# Grundsätze für Befragung
+# Grundsätze für Befragung [@zapf]
 
 - Keine Prüfungssituation herstellen
 - Alltagssprache bzw. spezifische Sprache verwenden
@@ -188,7 +201,7 @@ bibliography:
 
 ---
 
-## Regeln für die Fragebogenkonstruktion
+## Regeln für die Fragebogenkonstruktion [@zapf]
 
 ### Mikroplanung
 
@@ -249,6 +262,18 @@ Was versteht man unter einem „HALO-EFFEKT“ bei der Konstruktion von Fragebö
 1. Einzelne Fragen passen nicht in die Reihe
 2. Die logisch richtige Reihung der Fragen kann den psychologischen Spannungsbogen stören
 3. Einzelne Fragen strahlen auf benachbarte Fragen aus
+4. Die unmittelbare Beantwortung einer Frage
+5. Eine ehrliche Antwort auf die Frage ist nicht zu erwarten
+
+---
+
+### HALO-Effekt
+
+Was versteht man unter einem „HALO-EFFEKT“ bei der Konstruktion von Fragebögen?
+
+1. Einzelne Fragen passen nicht in die Reihe
+2. Die logisch richtige Reihung der Fragen kann den psychologischen Spannungsbogen stören
+3. *Einzelne Fragen strahlen auf benachbarte Fragen aus*
 4. Die unmittelbare Beantwortung einer Frage
 5. Eine ehrliche Antwort auf die Frage ist nicht zu erwarten
 
