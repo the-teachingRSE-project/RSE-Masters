@@ -15,4 +15,5 @@ This includes but is not limited to:
 ### RWTH Seminar: Research Methods and Methodology for RSE 2026
 
 - [Lecture 1: Overview Empirical Methods and RSE](../../components/rse_researchmethods/piloting/rwth_2026/lecture1_foundations.pdf)
-- [Lecture 2: Qualitative Methods and RSE](../../components/rse_researchmethods/piloting/rwth_2026/lecture_2_qualitative.qmd)
+- [Lecture 2: Qualitative Methods and RSE](../../components/rse_researchmethods/piloting/rwth_2026/lecture_2_qualitative.pdf)
+- [Lecture 3: Interviews](../../components/rse_researchmethods/piloting/rwth_2026/lecture_3_interviews.pdf)

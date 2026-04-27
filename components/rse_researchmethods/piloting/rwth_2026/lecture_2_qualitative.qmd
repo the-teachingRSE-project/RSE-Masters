@@ -60,6 +60,16 @@ Zum Beispiel:
 
 Nennt drei Beispiele für Fragestellungen, die sich nur qualitativ erforschen lassen im RSE-Bereich?
 
+# Interpretation, Deuten und Sinn
+
+"Grob vereinfacht lassen sich drei forschungsrelevante Sinnebenen unterscheiden, von denen vor allem die zuletzt genannte im Mittelpunkt des Interesses interpretativer Sozialforschung steht"[@kleemannInterpretativeSozialforschung2013]:
+
+1. subjektiv intendierter Sinn
+2. universale‘ gesellschaftliche Sinnmuster
+3. gruppen- und milieuspezifische Deutungsmuster und Wissensbestände
+
+&rarr; Kernidee von qualitativer Sozialforschung ist das Ableiten von gruppenspezifischen Deutungsmustern aus subjektiv intendierten Sprechakten, z.B. wie deuten Wissenschaftler Forschungssoftwareentwicklung im Gegensatz zu klassischer Softwareentwicklung
+
 
 # Kategorisierende Verfahren
 
