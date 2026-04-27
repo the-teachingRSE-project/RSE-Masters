@@ -4,6 +4,9 @@ subtitle: "Sitzung 3: Grundlagen der Interviewführung und der Methode der kriti
 format:
     beamer:
         keep-tex: true
+        #theme: Goettingen
+        colortheme: crane
+        fonttheme: structureitalicserif
         aspectratio: 169
         navigation: horizontal
         pdf-engine: pdflatex

@@ -5,6 +5,9 @@ subtitle: "Sitzung 2: Grundlagen qualitativer Forschung für RSE"
 format:
     beamer:
         keep-tex: true
+        #theme: Goettingen
+        colortheme: crane
+        fonttheme: structureitalicserif
         aspectratio: 169
         navigation: horizontal
         pdf-engine: pdflatex
@@ -19,14 +22,16 @@ bibliography:
     - rse_literature.bib
 ---
 
+
+
 # Aufwärmübung
 
-Du möchtest untersuchen, wie du deine Lehre als Professor für SE anpassen kannst, angesichts der Tatsache, dass Studierende LLMs zur Unterstützung bei Programmieraufgaben nutzen können.
+Nehme an, du bist ein(e) Professor*in für Software Engineering. Da deine Kursteilnehmer vermehrt LLMs zur Unterstützung bei Programmieraufgaben nutzen können, möchtest du untersuchen wie du deine Lehre anpassen kannst.
 
-Was ist die Analyseeinheit?
-Wer ist die Zielgruppe der Studie?
-Welche Theorien sind relevant?
-Wie würdest du die Studie durchführen?
+- Was ist die Analyseeinheit?
+- Wer ist die Zielgruppe der Studie?
+- Welche Theorien sind relevant?
+- Wie würdest du die Studie durchführen?
 
 # Definitionsversuch
 
@@ -35,7 +40,7 @@ Wie würdest du die Studie durchführen?
 # Grundannahmen
 
 - nicht alles ist messbar
-- durch die Interpretation von Symbolen, in denen Wirklichkeit dokumentiert wird, kann man sie rekonstruieren
+- durch die Interpretation von Symbolen, in denen Wirklichkeit dokumentiert wird, kann man diese rekonstruieren
 - es gibt eine Interaktion zwischen forschenden und beforschten
 - die Forscher*innen sind Teil der sozialen Wirklichkeit und können sich dem nicht entziehen
 
@@ -51,6 +56,10 @@ Zum Beispiel:
 - Einflüsse von akademischen Kulturen, Traditionen
 - Figuren, Deutungsmuster, Deutungsroutinen, Rituale
 
+# Qualitative Fragestellungen des RSE
+
+Nennt drei Beispiele für Fragestellungen, die sich nur qualitativ erforschen lassen im RSE-Bereich?
+
 
 # Kategorisierende Verfahren
 
@@ -59,12 +68,12 @@ Zum Beispiel:
 - Dokumentarische Methode: Sucht handlungsleitendes Orientierungswissen, kollektives implizites Wissen
 - Grounded Theory: Sucht die Bedeutung von Erfahrungen und Konstruktion von Bedeutung
 
-&rarr; Ziel ist die Theoriebildung durch Entwicklung geeigneter Kategorien (Modellierung)
+&rarr; Ziel ist die Theoriebildung durch Entwicklung geeigneter Kategorien (Informatikvokabular: Modellierung auf Klassenebene)
 
 # Prozess der qualitativen Sozialforschung
 
 1. Aufbereitung von Textmaterial
-2. Paraphrasieren, Exzerpte relevanter Textpassagen (heutzutage eher mit MaxQDA relevante Textpassagen markieren und/oder Notiz anfügen)
+2. Paraphrasieren, Zusammenfassungen relevanter Textpassagen (heutzutage eher mit MaxQDA relevante Textpassagen markieren und/oder Notiz anfügen)
 3. Methodenabhängige Schritte
    -  Makrooperatoren ableiten (Auslassung, Generalisierung, Integration) bei qualitativer Inhaltsanalyse
    -  Diskursarten zuordnen (Diskursanalyse)
@@ -72,6 +81,10 @@ Zum Beispiel:
    - Interpretationsschleifen, komplexe Erörterung, mehrfaches Lesen mit unterschiedlichen Interpretationen (Hermeneutik)
 
 &rarr; Zusammenfassungen werden immer abstrakter, Kategorien werden "entdeckt"
+
+# MaxQDA Screenshot
+
+![](https://www.maxqda.com/wp/wp-content/uploads/sites/2/1-New-Interface-MAXQDA-2018.png)
 
 
 # Konkretes Vorgehen (vereinfachte Empfehlungen)

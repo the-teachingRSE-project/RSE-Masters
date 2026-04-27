@@ -4,6 +4,9 @@ subtitle: "Sitzung 1: Grundlagen von RSE und empirischer Sozialforschung"
 format:
     beamer:
         keep-tex: true
+        #theme: Goettingen
+        colortheme: crane
+        fonttheme: structureitalicserif
         aspectratio: 169
         navigation: horizontal
         pdf-engine: pdflatex
@@ -148,16 +151,15 @@ qualitativ gedeutet werden?
 ## Forschungssoftware
 
 
-
 ::: {.columns}
 
 ::: {.column width="40%"}
 
-![](img/icon_research.png)
+![](img/research_crane.png)
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="40%"}
 
 „Forschungssoftware umfasst Quellcodedateien, Algorithmen, Skripte, rechnergestützte Workflows und ausführbare Programme, die im Forschungsprozess oder für einen Forschungszweck erstellt wurden.“ [@gruenpeterDefiningResearchSoftware2021]
 
