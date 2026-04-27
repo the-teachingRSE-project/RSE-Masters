@@ -290,6 +290,8 @@ Was versteht man unter einem „HALO-EFFEKT“ bei der Konstruktion von Fragebö
    1. Kategorien festlegen
    1. die kritischen Ereignisse klassifizieren und strukturieren (siehe qualitative Methoden zur Generierung von Kategorien)
 
+# Literatur {.allowframebreaks}
 
+::: {#refs}
+:::
 
-# Literatur

@@ -226,6 +226,8 @@ Das qualitative Experiment ist der nach wissenschaftlichen Regeln vorgenommene E
 - Transformation: gesamte Gruppe wird neu strukturiert
 
 
+# Literatur {.allowframebreaks}
 
+::: {#refs}
+:::
 
-# Literatur

@@ -24,10 +24,81 @@
 \definecolor{lightgray}{gray}{0.9}
 \usepackage{adjustbox}
 
+%\usepackage{tikz}
+%\usetikzlibrary{shapes.geometric, arrows, positioning}
+
 \usepackage{tikz}
-\usetikzlibrary{shapes.geometric, arrows, positioning}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,shapes.misc, calc}
 
 \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
 \tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
 \tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
 \tikzstyle{arrow} = [thick,->,>=stealth]
+
+
+\tikzset {
+    initial/.style={
+        circle,
+        fill=black,
+        minimum size=5mm,
+        inner sep=0pt
+    },
+    action/.style={
+        draw,
+        rounded corners=2pt,
+        minimum width=28mm,
+        minimum height=8mm,
+        align=center
+    },
+    decision/.style={
+        draw,
+        diamond,
+        aspect=2,
+        minimum height=8mm,
+        minimum width=8mm,
+        inner sep=1pt,
+        align=center
+    },
+    fork/.style={
+        draw,
+        fill=black,
+        minimum width=20mm,
+        minimum height=4mm
+    },
+    vfork/.style={
+        draw,
+        fill=black,
+        minimum width=2mm,
+        minimum height=14mm
+    },
+    box/.style={
+        draw,
+        rounded corners=2mm,
+        thick,
+        minimum width=18mm,
+        minimum height=8mm,
+        align=center
+    },
+    rsepic/.style={
+        inner sep=0pt,
+        outer sep=2pt,
+    },
+    dependency/.style={
+        dashed,
+        <->,
+    },
+    node distance=8mm,
+    uml_activity/.style={
+        draw,
+        line width=0.6pt,
+        -{Straight Barb[angle=40:5pt 5]}
+    },
+    >=Latex,
+%every node/.style={outer sep=2pt},
+%every path/.style={uml_activity, shorten >=2pt, shorten <=2pt}
+    every path/.style={uml_activity}
+}
+
+\newcommand{\terminus}{\includegraphics[height=6mm]{uml_endnode.png}}
+
+\newcommand{\rsecycle}{\includegraphics[height=12mm]{rse-cycle.png}}

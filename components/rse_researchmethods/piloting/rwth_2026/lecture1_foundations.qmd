@@ -30,6 +30,8 @@ Das Modul behandelt das komplexe Zusammenspiel von Software als Bestandteil des 
 - Ähnlich wie in der Statistik erweitert der Einsatz von Computertechnologie die möglichen Forschungsthemen
 - Gleichzeitig entstehen neue Fehlerquellen, erhöhte Komplexität und entsprechende methodische Ansätze
 
+---
+
 ## Behandelte Themen
 
 Dies umfasst unter anderem:
@@ -40,6 +42,18 @@ Dies umfasst unter anderem:
 - Qualitative und quantitative Methoden
 - Computerbasierte Methoden und Mixed-Methods-Ansätze
 
+
+# Warum Sozialforschung in der Informatik?
+
+- Anwendungskontext von Software sind häufig soziale Prozesse
+  - Erforschung sozialer Netzwerke
+  - Nutzbarkeitsstudien
+  - Technikakzeptanzstudien
+  - Gewünschter Effekt ist häufig Handlungsänderungen \\
+    (z.B. bei Mental Health Apps)
+- Lernverhalten ist sozial determiniert (relevant für Bildungstechnologien)
+- Anforderungserhebung ist sozial beeinflusst (Organisationssoziologie)
+- Softwareentwicklungsprozesse erfordert hohe soziokognitive Fähigkeiten (Juckeland bei Workshop RSE Dresden, 2025)
 
 # Grundfragen empirischer Sozialforschung
 
@@ -167,10 +181,10 @@ qualitativ gedeutet werden?
 
 :::
 
-
 # Forschungsparadigmen
 
 ![](img/method_paradigms_mapping.png)
+
 
 # Verhältnis empirische Methoden und Forschungssoftware
 
@@ -210,7 +224,6 @@ Ein Lernspiel, um adhoc-Netzwerke aus Sicht eines Knotens kennenzulernen [@Zende
 
 :::
 
-
 # Forschungsfragen zu RouteMe (interaktiv)?
 
 - Welche empirischen Forschungsfragen könnte man stellen?
@@ -230,6 +243,19 @@ im Versuch eines vorrangig deutenden und sinnverstehenden
 Zugangs zu der interaktiv hergestellten und in sprachlichen wie nicht sprachlichen Symbolen repräsentiert
 gedachten sozialen Wirklichkeit
 - Will Einzelhandeln dicht beschreiben
+- Aufdecken von _Mechanismen_ sozialen Handelns (Dehne)
+
+---
+
+## Mechanismen
+
+- Typische, sich wiederholende Handlungsimpulse (eigene Definition)
+- Grundlage agentenbasierter Modellierung
+- "Physikalische Gesetze sozialer Handlungen"
+- Definitionsbereich sind Gruppenhandlungen, die sich auf Basis einer Einzelhandlung erklären lassen
+
+&rarr; Beispiel Segregation in Städten, auf Distanz sitzen im Zug, Teilen von Mitschriften für Klausuren
+&rarr; Mechanismen sind eine Grundannahme für Simulationen (= computerbasierte Verfahren der Sozialforschung)
 
 ---
 
@@ -270,13 +296,6 @@ des Forschungsprozesses
 | Was veranlasst Menschen, die CDU zu wählen?                             |             | korrekt    |
 | Wie groß ist der Anteil der Studierenden mit BAföG?                     | korrekt     |            |
 
----
-
-
-
-
-
-
 
 # Computerbasierte Verfahrung und direkte Messung
 
@@ -291,7 +310,6 @@ des Forschungsprozesses
   - Geoposition
   - ...
 - TextAsData (VideoAsData)
-
 
 # Entscheidungsbaum Methoden
 
@@ -322,9 +340,22 @@ des Forschungsprozesses
 - Was lässt sich messen? &rarr; Wissensfortschritt zu Ad-Hoc Netzwerken
 - Welche Methoden sind geeignet? &rarr; nicht teilnehmende Beobachtung, Semantisches Differenzial
 
----
+# Simulationen als Sonderfall [@drogoulMultiagentBasedSimulation2003]
 
-## Hausaufgabe (Reflexionsaufgaben)
+```{=latex}
+\input{latex/simulation_uml.tex}
+```
+
+
+
+# The Research Process [@schnell1999methoden]
+
+
+```{=latex}
+\input{latex/research_process.tex}
+```
+
+# Hausaufgabe (Reflexionsaufgaben)
 
 - Formulieren Sie eine Hypothese, die mit einem Telefoninterview / einer Feld-Beobachtung / einem qualitativen Labor-Experiment überprüfbar ist!
 - Mit welchem Datenerhebungsverfahren würden Sie messen: Das Umweltbewusstsein von Wissenschaftlern / das aktuelle Image einer Professorin / die Beliebtheit von Programmiersprachen?
@@ -333,7 +364,8 @@ des Forschungsprozesses
 - Sie wollen ein didaktisches Design für die Vermittlung von RSE und Data Science Kompetenzen in der additiven Fertigung evaluieren. Welche Methodengattung wäre geeignet?
 
 
-# Literatur
+# Literatur {.allowframebreaks}
 
-
+::: {#refs}
+:::
 
