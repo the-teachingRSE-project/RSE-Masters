@@ -49,8 +49,7 @@ Dies umfasst unter anderem:
   - Erforschung sozialer Netzwerke
   - Nutzbarkeitsstudien
   - Technikakzeptanzstudien
-  - Gewünschter Effekt ist häufig Handlungsänderungen \\
-    (z.B. bei Mental Health Apps)
+  - Gewünschter Effekt ist häufig Handlungsänderungen
 - Lernverhalten ist sozial determiniert (relevant für Bildungstechnologien)
 - Anforderungserhebung ist sozial beeinflusst (Organisationssoziologie)
 - Softwareentwicklungsprozesse erfordert hohe soziokognitive Fähigkeiten (Juckeland bei Workshop RSE Dresden, 2025)

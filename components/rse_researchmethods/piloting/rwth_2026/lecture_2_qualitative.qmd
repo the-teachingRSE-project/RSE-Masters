@@ -26,7 +26,7 @@ bibliography:
 
 # Aufwärmübung
 
-Nehme an, du bist ein(e) Professor*in für Software Engineering. Da deine Kursteilnehmer vermehrt LLMs zur Unterstützung bei Programmieraufgaben nutzen können, möchtest du untersuchen wie du deine Lehre anpassen kannst.
+Nehme an, du bist ein(e) Professor*in für Software Engineering. Da deine Kursteilnehmer*innen vermehrt LLMs zur Unterstützung bei Programmieraufgaben nutzen können, möchtest du untersuchen wie du deine Lehre anpassen kannst.
 
 - Was ist die Analyseeinheit?
 - Wer ist die Zielgruppe der Studie?
@@ -70,6 +70,31 @@ Nennt drei Beispiele für Fragestellungen, die sich nur qualitativ erforschen la
 
 &rarr; Kernidee von qualitativer Sozialforschung ist das Ableiten von gruppenspezifischen Deutungsmustern aus subjektiv intendierten Sprechakten, z.B. wie deuten Wissenschaftler Forschungssoftwareentwicklung im Gegensatz zu klassischer Softwareentwicklung
 
+# Interpretationsschritte: Beispiel dokumentarische Methode
+
+"Es gab keine Rücksprache mit den Auftraggebern: Weder die Auftraggeber noch die Ausführenden kamen auf die Idee, regelmäßige Abstimmungsmeetings einzuberufen. Beide Seiten gingen davon aus, dass das Projekt zeitnah ein Ergebnis liefern würde, welches dann präsentiert werden würde. Durch die fehlenden Ziele, Messkriterien und Feedbackschleifen begann die Projektgruppe an einem Produkt zu arbeiten, das weit umfassender war als vom Auftraggeber gewünscht. Dadurch wurde höchstwahrscheinlich ein Vielfaches an Ressourcen (Arbeitszeit = Geld) aufgewendet als ursprünglich vom Management angedacht. Ich schreibe "höchstwahrscheinlich", da die Meetingzeit der Ausführenden nie erfasst und abgerechnet wurde. Das Projekt lief unter dem Kostenpunkt "EH-DA-Kosten" (wir waren ja eh da)." (Textpassage aus Interview mit MB)
+
+---
+
+## 1. formulierende Interpretation
+
+_MB (Kürzel für Quelle) beschreibt eine Projektentwicklung, bei der das Projekt unklar definiert war, und dadurch ein zu umfangreiches Produkt entwickelt wurde. Dadurch sind die Kosten gestiegen. Zudem wurde die Arbeitszeit nicht genau erfasst und das Projekt wurde nicht als solches abgerechnet, sondern Bestandsmitarbeiter haben die Aufgaben übernommen._
+
+## 2. reflektierende (sinngenetische) Interpretation
+
+_MB _kritisiert_ fehlende Abstimmung mit den Auftraggebern, dadurch resultierende unklare Zielstellung, Qualitätskriterien und Feedbackschleifen. Aus seiner Sicht folgte daraus eine Verschwendung an Ressourcen und ein Missbrauch der Arbeitszeit der Bestandsmitarbeiter._
+
+---
+
+## 3. soziogenetische Interpretation / Kategorienbildung
+
+_MB beschreibt einen Missstand in kleinen- bis mittelgroßen Unternehmen, bei denen es keine Kommunikatoren / Manager gibt, die sich um ein agiles Projektmanagement kümmern. Außerdem charakterisiert die Situation typische Probleme bei Softwareprojekten, insofern als dass diese komplex sind, aber die Auftraggeber (insbesondere die öffentlichen Institutionen) ihre Anforderungen nicht klar kommunizieren können, oder auch die Abbildung des Lastenheftes auf die Software nicht evaluieren können. Dies führt bei den Unternehmen zu Überforderung und bei den Auftraggebern zu Frust._
+
+
+ &rarr; gesellschaftliches Domänenwissen trifft Fallbeispiel (enthält abduktiven Schluss)
+ &rarr; beschreibt **testbare** Mechanismen
+ &rarr; Kategorienbildung: Anforderungserhebung (klar definierte Anforderungen <-> schlecht definierte Anforderungen), Ressourcen (perfekte Nutzung <-> Missbrauch)
+
 
 # Kategorisierende Verfahren
 
@@ -97,6 +122,15 @@ Nennt drei Beispiele für Fragestellungen, die sich nur qualitativ erforschen la
 ![](https://www.maxqda.com/wp/wp-content/uploads/sites/2/1-New-Interface-MAXQDA-2018.png)
 
 
+# Kodiertechniken [@strauss1987]
+
+- **Offenes Kodieren:** Erste, explorative Analyse der Daten zur Entwicklung von Ideen, Konzepten und Kategorien; sowohl grobe Sichtung als auch detaillierte (zeilen- oder wortweise) Analyse möglich.
+
+- **Axiales Kodieren:** Vertiefung der Analyse durch Untersuchung von Beziehungen zwischen Kategorien entlang einer „Achse“; selektiver Fokus auf relevante Daten, baut auf offenem Kodieren auf und läuft teilweise parallel weiter.
+
+- **Selektives Kodieren:** Konzentration auf zentrale Kategorien („Schlüsselkategorien“), die den weiteren Forschungsprozess und die Datenauswahl steuern; Fokus liegt nur noch auf Phänomenen mit Bezug zu diesen Kernkategorien.
+
+
 # Konkretes Vorgehen (vereinfachte Empfehlungen)
 
 1. Aufbereitung von Textmaterial
@@ -107,7 +141,7 @@ Nennt drei Beispiele für Fragestellungen, die sich nur qualitativ erforschen la
 
 ---
 
-6. Theorieentwicklung durch Kategorienbildung:
+6. Theorieentwicklung durch relationale Kategorienbildung (angelehnt an [@nohlInterviewUndDokumentarische2017]):
    - Fall 1: Kategorien bilden Material perfekt ab:
            1. Identifiziere dichotome Kriterien innerhalb oder zwischen den Kategorien (z.B. Freiheit vs. Gleichheit)
            1. Skaliere das Material zwischen diesen Kategorien
@@ -152,12 +186,17 @@ Sprechakte werden als Kategorien gelabelt, die eine Art Prozessmodell für eine 
 
 ---
 
+
+# Kategorien (Labels) der Diskursanalyse
+
 ## Positive Gegenhorizonte
 
 - **Ausarbeitung:** Erweiterung eines Punktes durch Details und Beispiele
 - **Differenzierung:** Herausarbeitung von Unterschieden zwischen Konzepten
 - **Validierung:** Belege zur Bestätigung eines Arguments
 - **Ratifizierung:** Offizielle Bestätigung einer Entscheidung
+
+"Die Aussage meines Vorredners lässt sich dadurch bestätigen, dass XY auch diese Eigenschaften aufweist" &rarr;  **Validierung**
 
 ---
 
@@ -167,10 +206,14 @@ Sprechakte werden als Kategorien gelabelt, die eine Art Prozessmodell für eine 
 - **Widerspruch:** Ablehnung eines Standpunkts
 - **Divergenz:** Aufzeigen alternativer Wege
 
+"Wir könnten statt diesem Seminar auch nützliches Wissen erwerben" &rarr; **Divergenz**
+
 ## Thematische Schlussfolgerung
 
 - **Positive Bewertung:** Positives Gesamturteil
 - **Meinungssynthese:** Zusammenführung verschiedener Perspektiven
+
+"Anderes Wissen ist genau so relevant. Es muss kein entweder oder sein!" &rarr; **Meinungssynthese**
 
 ---
 
@@ -179,6 +222,8 @@ Sprechakte werden als Kategorien gelabelt, die eine Art Prozessmodell für eine 
 - **Themenwechsel:** Wechsel zu einem neuen Thema
 - **Formale Synthese:** Strukturierte Zusammenfassung
 - **Ablehnung des Themas:** Zurückweisung der Diskussion
+
+"Was machen wir hier eigentlich!" &rarr; **Ablehnung**
 
 ## Emotionale Reaktion
 
