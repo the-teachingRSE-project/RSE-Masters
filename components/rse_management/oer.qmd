@@ -1,9 +1,120 @@
-# Call for Contribution
+
+# RSE Management Class (RWTH 2026)
+
+## General Course Concept
+
+Modultitel: RSEng-Management & -Kommunikation
+
+Modulniveau: Master
+
+Inhalt:
+
+- Kooperation: Persönlichkeitsmerkmale, Remote-Arbeit, Pair Programming,
+  technisches Englisch, Konfliktmanagement, doppelte Ziele (Projektziele
+  vs. persönliche)
+
+- zielgruppengerechte Kommunikation: Kommunikationsframeworks, Umgang
+  mit diversen Stakeholdern, Grundsätze der Gleichberechtigung, Vielfalt
+  und Inklusion, interkulturelle und interdisziplinäre Unterschiede
+
+- Teammanagement: Herausforderungen transienter Teams, Management
+  abhängig von Projekt- und Teamgröße, Rollen in einem Softwareteam,
+  Bedeutung gemeinsamer Werte in einem RSE-Team
+
+- Zeit- und Projektmanagement: Zielsetzung, (agile)
+  Projektmanagement-Techniken und -Tools, Zeitplanung, Arbeitsteilung
+  und Abhängigkeiten von Aufgaben, Entscheidungstechniken
+
+- (Software-)Qualitätskontrolle: Anforderungsmanagement, testgetriebene
+  Entwicklung, Code Review Prinzipien, Projekt-Monitoring,
+  Risikomanagement
+
+- Forschungsmanagement: Forschungszyklus, Publikationsworkflow,
+  rechtliche Aspekte von Forschungsdaten, öffentliche Datenbanken
+
+Lernziele/Lernergebnisse:
+
+- Kenntnisse: Studis kennen...
+
+    - Kommunikations- und Kooperationstechniken für die Arbeit im
+      interdisziplinären Umfeld von Research Software Engineers (RSEs)
+
+    - Aktuelle Projekt- und Teammanagementtechniken für die
+      Softwareentwicklung
+
+    - Psychische und soziale Gelingensbedingungen für Zusammenarbeit
+
+    - Das Diversity, Equity and Inclusion Framework
+
+- Fertigkeiten: Studis können...
+
+    - Den Forschungszyklus anhand von Beispielen erklären
+
+    - Umsetzungsentscheidungen zielgruppengerecht erklären
+
+    - Ziele SMART formulieren
+
+    - Techniken zur systematischen Entscheidungsfindung anwenden
+
+- Kompetenzen: Studis sind auf Basis der Kenntnisse und Fertigkeiten in
+  der Lage...
+
+    - einen agilen Forschungssoftwareentwicklungsprozess mitzugestalten
+
+    - einen verständlichen Projektplan für ein gegebenes Projekt zu
+      entwickeln, inklusive Grenzen, Meilensteinen, Risiken, Ressourcen
+      und Erfolgskriterien
+
+    - einen Projektumfang zu definieren und die Erwartungen von
+      Stakeholdern zu managen
+
+    - die Wartung und Nachhaltigkeit von Software zu planen
+
+    - entwickelte Lösungen überzeugend zu präsentieren und zu diskutieren
+
+    - Führungsverantwortung in Forschungssoftwareprojekten zu übernehmen
+
+Teilnahmebedingungen: Interesse an Research Software Engineering
+
+(empfohlene) Voraussetzungen: Modul Softwareentwicklung absolviert
+
+Literatur: siehe Zotero
+
+Sprache:
+* Englisch für Masterstudierende und veröffentlichte Dokumente
+* Deutsch für Bachelorstudierende
+
+Prüfungsbedingungen: Mündliche Prüfung. Voraussetzung für die Zulassung
+zur Prüfung ist das Bestehen der Prüfungsnebenleistung (Vortrag)
+
+Sonstiges: Viele Inhalte werden von den Studierenden selbst mittels Grundlagenliteratur und aktuellen Artikeln erarbeitet. Die ersten und letzten Seminare werden von den Dozierenden gestaltet und bieten Raum, um die gelehrten Projekt- und Teammanagementtechniken mit
+Fallstudien, Rollenspielen usw. auszuprobieren und auszuwerten.
+
+Modulverantwortung: Marc Schmidt & Dr. Julian Dehne
+
+ECTS: 3
+
+Kontaktzeit (SWS): 2 (1 Vorlesung + 1 Seminar)
+
+Prüfungsdauer: 20-30 min
+
+Gesamtstunden: 90
+
+Präsenzstunden: 30
+
+Selbststudium: 60
+
+
+
+## Lectures
+
+[Lecture 1: Scientific Writing](../../components/rse_management/scientific-writing.pdf)
+
+## Call for Contribution
 
 As part of the pilot for this RSE-in-master-education concept we are testing some of the courses developed here.
 For [this particular course](../../generation/generated/rse_management.qmd) we found that there is vast literature available
 for management and communication purposes but not so much available tailored to RSE. For this reason, we decided to develop the application specifics together with the students following the inquiry-based learning paradigm [@Brew.2003].
-
 
 
 In order to achieve this in the most realistic fashion we ask the RSE community to provide us with case studies that contain
