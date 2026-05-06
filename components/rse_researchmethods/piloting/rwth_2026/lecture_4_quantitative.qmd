@@ -213,8 +213,7 @@ https://xkcd.com/1860/, CC2.5
 
 ::: {.column width="40%"}
 
-Die Anwendung von Methoden der Textanalyse basiert auf einigen Annahmen:
-
+Annahmen:
 - Texte sind eine wertvolle Ressource für die Analyse
 - Die interessierenden Einheiten können aus Texten extrahiert werden, z. B. durch das Messen von Merkmalen
 - Bag-of-Words-Annahme
@@ -225,9 +224,7 @@ Die Anwendung von Methoden der Textanalyse basiert auf einigen Annahmen:
 
 :::
 
-# Relevanz (Gold 2022)
-
-Quantitative — und zunehmend auch qualitative — computergestützte Inhaltsanalyse (oft als *Text als Daten* bezeichnet) hat in den letzten Jahren deutlich an Bedeutung gewonnen. Diese Entwicklung lässt sich auf mehrere Faktoren zurückführen:
+# Relevanz von Text als Daten (Gold 2022)
 
 - Texte vermitteln von Natur aus Informationen und sind daher wertvolle Quellen für systematische Analysen [@Benoit2020, S. 463].
 - Die fortschreitende Digitalisierung der Welt hat zu einer stetig wachsenden Verfügbarkeit großer Textmengen geführt [@BubenhoferScharloth2015, S. 2].
@@ -293,6 +290,125 @@ Welche der folgenden Transformationen sind (a) bei einer Nominalskala und (b) be
 - Analyse des Lebens in verschiedenen Epochen
 - Denkstile einer Kultur
 - Unterschiede in Stereotypen
+
+# Untersuchungspläne [@maaz]: One-Shot Case Study
+
+**Beispiel: Bewerbungstraining für Arbeitslose**
+
+```{mermaid}
+
+
+flowchart LR
+  T[T] --> M[M]
+```
+
+T: Treatment (Bewerbungstraining)
+
+M: Messung (z.B. Qualität der Bewerbungen,
+Einladungen zum Vorstellungsgespräch)
+
+**Störvariablen:**
+- Unterschiede in M können auch schon vor dem Treatment bestehen
+
+
+# „Ein-Gruppen-Pretest-Posttest-Design“ [@maaz]
+
+```{mermaid}
+
+flowchart LR
+  M1[M1] --> T[T]
+  T --> M2[M2]
+```
+
+T: Treatment (Bewerbungstraining)
+
+M1: Pretestmessung
+
+M2: Posttestmessung
+
+**Störvariablen:**
+
+- zwischenzeitliche Einflüsse unabhängig vom Treatment
+- Untersuchungsteilnehmer entwickeln sich unabhängig vom Treatment weiter
+- allein die Pretestmessung verändert das Verhalten
+- gemessenes Verhalten ohnehin starker Variabilität unterliegt
+
+
+# Ex-post-facto-Plan (ohne Randomisierung) [@maaz]
+
+```{mermaid}
+flowchart TB
+
+  subgraph EG[Experimentalgruppe]
+    direction LR
+    T[T] --> M1[M1]
+  end
+
+  subgraph VG[Vergleichsgruppe]
+    direction LR
+    M2[M2]
+  end
+
+  style EG fill:transparent,stroke:transparent
+  style VG fill:transparent,stroke:transparent
+```
+
+T: Treatment (Bewerbungstraining)
+
+M1: Posttestmessung
+
+M2: Messung Vergleichsgruppe
+
+**Störvariablen:** Unterschiede zwischen Gruppen können schon vorher bestehen
+
+
+# Kontrollgruppenplan mit Pre- und Posttest (ohne Randomisierung) [@maaz]
+
+::: {.columns}
+
+::: {.column width="40%"}
+```{mermaid}
+%%| fig-width: 2.5
+flowchart LR
+
+  M11[M11] --> T[T]
+  T --> M12[M12]
+
+  M21[M21] --> M22[M22]
+```
+
+T: Treatment (Bewerbungstraining)
+
+M11 und M12: Pre- und Posttestmessung Experimentalgruppe
+
+M21 und M22: Pre- und Posttestmessung Kontrollgruppe
+
+:::
+
+::: {.column width="40%"}
+
+**Störvariablen:**
+
+- Experimental- und Kontrollgruppe können sich in nicht-beobachteten Variablen unterscheiden (z.B. Motivation eine Stelle zu finden)
+- unerwünschte Effekte der Pretestmessung
+
+:::
+
+:::
+
+# Solomon-Vier-Gruppen-Plan [@maaz]
+
+
+![](img/solomon.png)
+
+---
+
+- „klassische“ Experimentalgruppe: M11 &rarr; T &rarr; M12
+- „klassische“ Kontrollgruppe: M21 &rarr; M22
+- One-Shot-Case-Design: T &rarr; M32
+- nur Posttest: M42
+
+Der Solomon-Viergruppenplan dient dazu, die mögliche Wirkung von Pretesteffekten zu überprüfen.
 
 # Literatur {.allowframebreaks}
 
