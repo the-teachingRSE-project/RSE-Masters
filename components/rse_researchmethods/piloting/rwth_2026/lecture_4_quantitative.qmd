@@ -1,4 +1,33 @@
-## Das quantitative Experiment
+
+---
+title: "Forschungsparadigmen und Methoden für RSEs"
+subtitle: "Sitzung 4: Grundlagen quantitativer Forschung für RSE"
+format:
+    beamer:
+        keep-tex: true
+        #theme: Goettingen
+        colortheme: crane
+        fonttheme: structureitalicserif
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: pdflatex
+        include-in-header:
+            - beamer-header.tex
+        latex-auto-install: true
+        section-titles: true
+        mermaid: true
+
+bibliography:
+    - references.bib
+    - rse_literature.bib
+---
+
+
+
+
+
+
+## Das quantitative Experiment [@zapf]
 
 „Wiederholbare Beobachtungen unter kontrollierten Bedingungen, wobei eine (oder mehrere) unabhängige Variable(n) derartig manipuliert werden, dass eine Überprüfungsmöglichkeit der zugrunde liegenden Hypothese (Behauptung eines Kausalzusammenhangs) in unterschiedlichen Situationen gegeben ist.“
 
@@ -12,25 +41,28 @@
 - Testet Hypothesen
 - Unabhängige Variable wird manipuliert
 
-→ Verhaltensdifferenzen als Resultat der Manipulation werden gemessen
+&rarr;  Verhaltensdifferenzen als Resultat der Manipulation werden gemessen
 
 ---
 
-## Vor- und Nachteile
+## Vor- und Nachteile [@zapf]
 
 **Vorteil:**
+
 - Exakteste Messung (bei isolierten, kontrollierten, manipulierten Variablen)
 
 **Nachteil:**
+
 - Kenntnis wesentlicher Variablen nötig
 - Einfluss von Störvariablen muss vermieden werden
 - Hoher Schulungsaufwand
 
 ---
 
-## Arten von Experimenten
+# Arten von Experimenten [@zapf]
 
-**Feldexperiment:**
+## Feldexperiment:
+
 - Authentische Situation
 - Untersuchungsobjekt bleibt in natürlicher Umgebung
 - Zwei kontrastierende Gruppen
@@ -38,7 +70,8 @@
 
 ---
 
-**Laborexperiment:**
+## Laborexperiment:
+
 - Künstliche, kontrollierte Situation
 - „Reine“, vereinfachte Bedingungen
 - Experimentalgruppe + Kontrollgruppe
@@ -47,7 +80,8 @@
 
 ---
 
-**Ex-post-facto Experiment (Quasiexperiment):**
+## Ex-post-facto Experiment (Quasiexperiment):
+
 - Untersuchung vergangener sozialer Vorgänge
 - Rückverfolgung zu kausalen Faktoren
 - Nutzung von Dokumenten
@@ -55,18 +89,18 @@
 
 ---
 
-## Unterformen
+# Unterformen [@zapf]
 
-**Kontrollgruppenexperiment:**
+## Kontrollgruppenexperiment:
+
 - Mindestens zwei ähnliche Gruppen (Zufallsverteilung)
 - Eine Gruppe wird manipuliert, eine nicht
 - Vergleich von Vorher-/Nachher-Messungen
 - Verhaltensdifferenz wird gemessen
 - Nachteil: Gruppen nie exakt identisch
 
----
+## Zeitreihenexperiment:
 
-**Zeitreihenexperiment:**
 - Gleiche Gruppe mehrfach gemessen
 - Sequenz: ohne – mit – ohne Einwirkung
 - Verhaltensdifferenz wird gemessen
@@ -74,7 +108,7 @@
 
 ---
 
-## Voraussetzungen
+## Voraussetzungen [@zapf]
 
 1. Variablen und Bedingungen müssen kontrollierbar sein
 2. Hypothesen müssen Zusammenhänge zwischen Variablen formulieren
@@ -82,7 +116,7 @@
 4. Unabhängige Variable muss manipulierbar sein
 5. Manipulation muss wiederholbar sein
 
-## Anwendungsgebiete
+## Anwendungsgebiete [@zapf]
 
 1. Maximierung und Minimierung
 2. Testen von Grenzen
@@ -90,7 +124,7 @@
 
 ---
 
-## Einwände
+## Einwände [@zapf]
 
 1. Self-fulfilling-prophecy
    (Verhalten im Experiment anders als in Realität)
@@ -106,7 +140,7 @@
 
 ---
 
-## Arbeitsschritte
+## Arbeitsschritte [@zapf]
 
 - Festlegung der bedeutsamen Faktoren
 - Hypothesen aufstellen
@@ -118,13 +152,11 @@
 - Prätest
 
 
-## Die quantitative Inhaltsanalyse / Dokumentenanalyse
+# Die quantitative Inhaltsanalyse / Dokumentenanalyse [@zapf]
 
 Inhaltsanalyse meint das Interpretieren von Symbolen mit wissenschaftlichen Methoden.
 
----
-
-## Symbol
+## Symbol [@zapf]
 
 - Marker für Begriffe
 - Menschliches Denken ist an Symbolgebrauch gebunden
@@ -134,7 +166,7 @@ Inhaltsanalyse meint das Interpretieren von Symbolen mit wissenschaftlichen Meth
 
 ---
 
-## Merkmale
+## Merkmale [@zapf]
 
 - Hat Kommunikation zum Gegenstand
 - Arbeitet mit symbolischem Material (fixierte Kommunikation)
@@ -148,7 +180,7 @@ Inhaltsanalyse meint das Interpretieren von Symbolen mit wissenschaftlichen Meth
 
 ---
 
-## Methoden
+## Methoden [@zapf]
 
 - Vom Analysenmaterial wird auf den Kontext geschlossen
 - Hoher Systematisierungsgrad wird angestrebt
@@ -159,16 +191,94 @@ Inhaltsanalyse meint das Interpretieren von Symbolen mit wissenschaftlichen Meth
 
 ---
 
-## Anwendungsgebiete
+## Anwendungsgebiete [@zapf]
 
 - Informationsbeschreibung und Normenprüfung
 - Informationsraffung und Informationsbeschleunigung
 - Informationsgenese (Entwicklung von Inhalten in Abhängigkeit zur sozialen Wirklichkeit)
 - Prognosen
 
----
 
-## Beispiele
+# Text als Daten (Gold 2022)
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/textasdata.png){height="70%"}
+
+https://xkcd.com/1860/, CC2.5
+
+:::
+
+::: {.column width="40%"}
+
+Die Anwendung von Methoden der Textanalyse basiert auf einigen Annahmen:
+
+- Texte sind eine wertvolle Ressource für die Analyse
+- Die interessierenden Einheiten können aus Texten extrahiert werden, z. B. durch das Messen von Merkmalen
+- Bag-of-Words-Annahme
+- Berücksichtigung von Kontext
+- Zuverlässige Schätzungen der manifesten und/oder latenten interessierenden Konstrukte (= Inferenz)
+
+:::
+
+:::
+
+# Relevanz (Gold 2022)
+
+Quantitative — und zunehmend auch qualitative — computergestützte Inhaltsanalyse (oft als *Text als Daten* bezeichnet) hat in den letzten Jahren deutlich an Bedeutung gewonnen. Diese Entwicklung lässt sich auf mehrere Faktoren zurückführen:
+
+- Texte vermitteln von Natur aus Informationen und sind daher wertvolle Quellen für systematische Analysen [@Benoit2020, S. 463].
+- Die fortschreitende Digitalisierung der Welt hat zu einer stetig wachsenden Verfügbarkeit großer Textmengen geführt [@BubenhoferScharloth2015, S. 2].
+- Die Entwicklung und Anwendung neuer computergestützter Methoden zur Textverarbeitung, einschließlich des interdisziplinären Transfers („Migration“) von Algorithmen sowie jüngster Fortschritte bei großen Sprachmodellen wie ChatGPT.
+- Die „Emanzipation der Daten“ [@BubenhoferScharloth2015, S. 2]: Viele Textdaten werden ursprünglich nicht zu Analysezwecken erzeugt, sondern für die Forschung zweckentfremdet.
+
+
+# Prinzipien von Text als Daten [@GrimmerRobertsStewart2022]
+
+1. Sozialwissenschaftliche Theorien und fachliches Wissen sind essenziell für das Forschungsdesign
+2. Textanalyse ersetzt den Menschen nicht — sie ergänzt ihn
+3. Der Aufbau, die Verfeinerung und das Testen sozialwissenschaftlicher Theorien erfordern Iteration und Kumulation
+4. Textanalysemethoden destillieren Verallgemeinerungen aus Sprache
+5. Die beste Methode hängt von der jeweiligen Aufgabe ab
+6. Validierung ist essenziell und hängt von Theorie und Aufgabe ab
+
+# Vorgehen (Gold 2022)
+
+![](img/textasdatamethod.png){height="70%"}
+
+# Skalen [@bortz2006forschungsmethoden]
+
+- nominalskalierte Variablen: Bezeichnungen sind eindeutig, erlaubt Aussagen über verschiedenheit der Merkmalsträger
+- ordinalskalierte Variablen: Aussage über Reihenfolge
+- intervallskallierte Variablen: Differenzen zwischen Werten sind eindeutig
+- verhältnisskalierte Variablen: Wie Intervallskalen aber mit eindeutigem Nullpunkt
+- absolutskalierte Variablen: z.B. Häufigkeit
+
+# Mathematische Eigenschaften [@bortz2006forschungsmethoden]
+
+| Skala      | Alle ein- eindeutigen T. | Alle  <br> streng monotonen T. | Alle <br> positiv linearen  T. | Alle Ähnlichkeitst. | Alle Identitätst. |
+|------------|-------------------------:|-------------------------------:|-------------------------------:|--------------------:|------------------:|
+| Nominal    |                       ja |                             ja |                             ja |                  ja |                ja |
+| Ordinal    |                     nein |                             ja |                             ja |                  ja |                ja |
+| Intervall  |                     nein |                           nein |                             ja |                  ja |                ja |
+| Verhältnis |                     nein |                           nein |                           nein |                  ja |                ja |
+| Absolut    |                     nein |                           nein |                           nein |                nein |                ja |
+
+
+
+# Verständnisfrage
+
+Welche der folgenden Transformationen sind (a) bei einer Nominalskala und (b) bei einer Verhältnisskala zulässig?
+
+1. eineindeutige Transformation
+2. streng monotone Transformation
+3. positiv lineare Transformation
+4. Ähnlichkeitstransformation
+5. Identitätstransformation
+
+# Beispiele [@zapf]
 
 - Erforschung von Kommunikationstrends
 - Vergleich verschiedener Ebenen oder Medien der Kommunikation
@@ -183,3 +293,9 @@ Inhaltsanalyse meint das Interpretieren von Symbolen mit wissenschaftlichen Meth
 - Analyse des Lebens in verschiedenen Epochen
 - Denkstile einer Kultur
 - Unterschiede in Stereotypen
+
+# Literatur {.allowframebreaks}
+
+::: {#refs}
+:::
+

@@ -17,3 +17,5 @@ This includes but is not limited to:
 - [Lecture 1: Overview Empirical Methods and RSE](../../components/rse_researchmethods/piloting/rwth_2026/lecture1_foundations.pdf)
 - [Lecture 2: Qualitative Methods and RSE](../../components/rse_researchmethods/piloting/rwth_2026/lecture_2_qualitative.pdf)
 - [Lecture 3: Interviews](../../components/rse_researchmethods/piloting/rwth_2026/lecture_3_interviews.pdf)
+- [Lecture 4: Quantitative Methods](../../components/rse_researchmethods/piloting/rwth_2026/lecture_4_quantitative.pdf)
+
