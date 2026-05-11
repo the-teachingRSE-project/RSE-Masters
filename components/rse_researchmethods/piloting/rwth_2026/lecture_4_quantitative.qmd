@@ -23,9 +23,21 @@ bibliography:
 ---
 
 
+# Quantitative Methoden
+
+![Zettel von Fabian](img/quanti_zettel.png){height="70%"}
 
 
+# Quantitative Methoden
 
+![ChatGPT Version 1](img/quanti_zettel_3.png){height="70%"}
+
+
+# Quantitative Methoden
+
+![ChatGPT Version 2](img/quanti_zettel_chatgpt.png){height="70%"}
+
+---
 
 ## Das quantitative Experiment [@zapf]
 
@@ -214,6 +226,7 @@ https://xkcd.com/1860/, CC2.5
 ::: {.column width="40%"}
 
 Annahmen:
+
 - Texte sind eine wertvolle Ressource für die Analyse
 - Die interessierenden Einheiten können aus Texten extrahiert werden, z. B. durch das Messen von Merkmalen
 - Bag-of-Words-Annahme
@@ -253,17 +266,6 @@ Annahmen:
 - verhältnisskalierte Variablen: Wie Intervallskalen aber mit eindeutigem Nullpunkt
 - absolutskalierte Variablen: z.B. Häufigkeit
 
-# Mathematische Eigenschaften [@bortz2006forschungsmethoden]
-
-| Skala      | Alle ein- eindeutigen T. | Alle  <br> streng monotonen T. | Alle <br> positiv linearen  T. | Alle Ähnlichkeitst. | Alle Identitätst. |
-|------------|-------------------------:|-------------------------------:|-------------------------------:|--------------------:|------------------:|
-| Nominal    |                       ja |                             ja |                             ja |                  ja |                ja |
-| Ordinal    |                     nein |                             ja |                             ja |                  ja |                ja |
-| Intervall  |                     nein |                           nein |                             ja |                  ja |                ja |
-| Verhältnis |                     nein |                           nein |                           nein |                  ja |                ja |
-| Absolut    |                     nein |                           nein |                           nein |                nein |                ja |
-
-
 
 # Verständnisfrage
 
@@ -275,21 +277,21 @@ Welche der folgenden Transformationen sind (a) bei einer Nominalskala und (b) be
 4. Ähnlichkeitstransformation
 5. Identitätstransformation
 
-# Beispiele [@zapf]
 
-- Erforschung von Kommunikationstrends
-- Vergleich verschiedener Ebenen oder Medien der Kommunikation
-- Internationaler Vergleich von Inhalten und Einstellungen
-- Vergleich von Kommunikation und Gegenstand
-- Feststellung des propagandistischen Gehalts von Aussagen
-- Messung der Lesbarkeit von Texten
-- Feststellung stilistischer Profile
-- Entdeckung verborgener Absichten
-- Beschaffung von politischem und militärischem Nachrichtenmaterial
-- Analyse der Informationspolitik
-- Analyse des Lebens in verschiedenen Epochen
-- Denkstile einer Kultur
-- Unterschiede in Stereotypen
+# Mathematische Eigenschaften [@bortz2006forschungsmethoden]
+
+| Skala      | Alle ein- eindeutigen Trans- formationen | Alle  <br> streng monotonen Trans- formationen | Alle <br> positiv linearen  Trans- formationen | Alle Ähnlichkeits- trans- formationen | Alle Identitäts- trans- formationen. |
+|------------|-----------------------------------------:|-----------------------------------------------:|-----------------------------------------------:|--------------------------------------:|-------------------------------------:|
+| Nominal    |                                       ja |                                             ja |                                             ja |                                    ja |                                   ja |
+| Ordinal    |                                     nein |                                             ja |                                             ja |                                    ja |                                   ja |
+| Intervall  |                                     nein |                                           nein |                                             ja |                                    ja |                                   ja |
+| Verhältnis |                                     nein |                                           nein |                                           nein |                                    ja |                                   ja |
+| Absolut    |                                     nein |                                           nein |                                           nein |                                  nein |                                   ja |
+
+
+
+
+
 
 # Untersuchungspläne [@maaz]: One-Shot Case Study
 
@@ -409,6 +411,28 @@ M21 und M22: Pre- und Posttestmessung Kontrollgruppe
 - nur Posttest: M42
 
 Der Solomon-Viergruppenplan dient dazu, die mögliche Wirkung von Pretesteffekten zu überprüfen.
+
+
+# Kombination der Untersuchungsvarianten [@maaz]
+
+|           | Experimentell                                    | Quasiexperimentell                                 |
+|:----------|:-------------------------------------------------|:---------------------------------------------------|
+| **Feld**  | Interne Validität + \newline Externe Validität + | Interne Validität - \newline  Externe Validität +  |
+| **Labor** | Interne Validität + \newline Externe Validität -         | Interne Validität - \newline Externe Validität -           |
+
+
+# Gruppenarbeit - Breakoutrooms
+
+Welches Studiendesign wählen Sie zur empirische Evaluation folgender Forschungssoftware?
+
+1. Sie haben eine Weboberfläche entwickelt, die Ressourcen für die Wissenschaftskommunikation bündelt (Zielgruppe: Wissenschaftler:innen)
+2. Sie haben eine VR-Plattform entwickelt, mit der Azubis Autos lackieren üben können.
+3. Sie haben eine App entwickelt, damit mehr FLINTA Personen Informatik studieren (https://techstudyfinder.gi.de/)
+4. Sie haben einen Chatbot entwickelt, der auf Social Media versucht zu deeskalieren und produktive Gespräche zu fördern.
+
+
+
+
 
 # Literatur {.allowframebreaks}
 
