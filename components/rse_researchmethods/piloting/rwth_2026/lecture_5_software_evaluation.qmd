@@ -26,8 +26,6 @@ bibliography:
 
 # Traditionelle Formen der Softwareevaluation [@karatSoftwareEvaluationMethodologies1988]
 
----
-
 ## Evaluationstechniken I
 
 +--------------------------+----------------------------------------+--------------------------------------------------+
@@ -48,41 +46,73 @@ bibliography:
 
 ## Evaluationsmethoden II
 
-+------------------------------+----------------------------------------+--------------------------------------------------+
-| Methode                      | Art der Information                    | Geeigneter Einsatz                               |
-+==============================+========================================+==================================================+
-| Design Review                | Plausibilitätsprüfung des Designs      | Früh im Designprozess, um frühe Entscheidungen   |
-|                              | hinsichtlich allgemeiner Akzeptanz.    | zu überprüfen                                    |
-+------------------------------+----------------------------------------+--------------------------------------------------+
-| Formale Analyse (GOMS)       | Vorhersagen über das Verhalten         | Als Ersatz für Nutzertests zur Vorhersage        |
-|                              | erfahrener Nutzer                      | der Gebrauchstauglichkeit                        |
-+------------------------------+----------------------------------------+--------------------------------------------------+
-| Systemanalyse der Produktion     | Vorhersagen über Lernen, Nutzung       | Zur Ergänzung anderer Analysedaten               |
-|                              | und Transferverhalten                  |                                                  |
-+------------------------------+----------------------------------------+--------------------------------------------------+
++-----------------------------+----------------------------------------+--------------------------------------------------+
+| Methode                     | Art der Information                    | Geeigneter Einsatz                               |
++=============================+========================================+==================================================+
+| Design Review               | Plausibilitätsprüfung des Designs      | Früh im Designprozess, um frühe                  |
+|                             | hinsichtlich allgemeiner Akzeptanz.    | Entscheidungen zu überprüfen                     |
++-----------------------------+----------------------------------------+--------------------------------------------------+
+| Formale Analyse (GOMS)      | Vorhersagen über das Verhalten         | Als Ersatz für Nutzertests zur Vorhersage        |
+|                             | erfahrener Nutzer                      | der Gebrauchstauglichkeit                        |
++-----------------------------+----------------------------------------+--------------------------------------------------+
+| Produktions- systemanalyse  | Vorhersagen über Lernen, Nutzung       |   Zur Ergänzung anderer Analysedaten             |
+|                             | und Transferverhalten                  |                                                  |
++-----------------------------+----------------------------------------+--------------------------------------------------+
 
 ---
+
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/routeme3.png){width=90%}
+
+:::
+
+::: {.column width="40%"}
 
 ## Evaluationsmethoden III: Moderne Varianten
 
 - Agentenbasierte GUI-Tests [@chen2026humanliketesting]
 - Verhaltensspuren
-  - Logdaten
-  - Zeitstempel
-  - Mobile Sensoren: Geolokation, Richtungsänderung ...
+    - Logdaten
+    - Zeitstempel
+    - Mobile Sensoren: Geolokation, Richtungsänderung ...
+
+:::
+
+:::
+
 
 ---
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/oculus.png)
+
+![](img/hautleitungsfähigkeit.png)
+
+:::
+
+::: {.column width="40%"}
 
 ## Evaluationsmethoden IV: Kommerzielle Schnittstellen
 
 - Reihe von kommerziellen Sensorsystemen: Oculus, Kinect und Myo armband
 - Messbare Daten [@rechy-ramirezImpactCommercialSensors2018]:
-  - emotionale Veränderungen
-  - Gesichtsausdrücke
-  - Gedanken
-  - Kopfbewegungen
-  - Skeletale Bewegungen
-  - ...
+    - emotionale Veränderungen
+    - Gesichtsausdrücke
+    - Gedanken
+    - Kopfbewegungen
+    - Skeletale Bewegungen
+    - ...
+
+:::
+
+:::
 
 
 # Literatur {.allowframebreaks}
