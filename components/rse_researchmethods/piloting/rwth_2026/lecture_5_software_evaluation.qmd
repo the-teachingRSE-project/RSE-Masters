@@ -117,6 +117,72 @@ bibliography:
 
 # Empirische Verteilung im DeLFI-Korpus
 
+## Ausrichtung von Softwareevaluation und empirischer Studie
+
+Für jeden der 1052 Beiträge wurde aus den LLM-Begründungen per Dependency-Parsing das grammatikalische Objekt der Softwareevaluation (SE) und der empirischen Studie (EMP) extrahiert und als *software-intern* oder *extern* klassifiziert:
+
++------------------------------------------+-------+--------+
+| Muster                                   | n     | %      |
++==========================================+=======+========+
+| Nur externe Empirie (SE=0, EMP=1)        | 289   | 27,5 % |
++------------------------------------------+-------+--------+
+| Unklar                                   | 218   | 20,7 % |
++------------------------------------------+-------+--------+
+| Zwei getrennte Studien                   | 199   | 18,9 % |
++------------------------------------------+-------+--------+
+| Eine Studie, Software-Fokus              | 158   | 15,0 % |
++------------------------------------------+-------+--------+
+| Keine Studie (SE=0, EMP=0)               | 115   | 10,9 % |
++------------------------------------------+-------+--------+
+| Eine Studie, externer Fokus              | 48    | 4,6 %  |
++------------------------------------------+-------+--------+
+| Invertiert (vermutl. Misklass.)          | 19    | 1,8 %  |
++------------------------------------------+-------+--------+
+| Nur Softwareevaluation (EMP=0)           | 6     | 0,6 %  |
++------------------------------------------+-------+--------+
+
+\footnotesize
+\textbf{Zwei getrennte Studien:} SE evaluiert die Software (Objekt = Software/Qualität), EMP untersucht eine externe Forschungsfrage (Objekt = Lerneffekte, Verhalten etc.) mit der Software als Mittel. Quelle: ICSE-2027-Sekundärstudie zum DeLFI-Korpus.
+
+---
+
+## Verteilung der Forschungssoftware-Typen
+
+Häufigste Typen in den 878 Beiträgen mit Forschungssoftware (Mehrfachzuordnung pro Beitrag möglich):
+
++--------------------------------+-------+-------------+
+| Typ                            | n     | % von 878   |
++================================+=======+=============+
+| Tool                           | 251   | 28,6 %      |
++--------------------------------+-------+-------------+
+| System                         | 188   | 21,4 %      |
++--------------------------------+-------+-------------+
+| Algorithmus                    | 124   | 14,1 %      |
++--------------------------------+-------+-------------+
+| Plattform                      | 101   | 11,5 %      |
++--------------------------------+-------+-------------+
+| Berechnungsworkflow            | 62    | 7,1 %       |
++--------------------------------+-------+-------------+
+| Virtual Reality                | 52    | 5,9 %       |
++--------------------------------+-------+-------------+
+| Quellcode                      | 52    | 5,9 %       |
++--------------------------------+-------+-------------+
+| Framework                      | 48    | 5,5 %       |
++--------------------------------+-------+-------------+
+| Learning Management System     | 40    | 4,6 %       |
++--------------------------------+-------+-------------+
+| Web-Applikation                | 39    | 4,4 %       |
++--------------------------------+-------+-------------+
+| Modul                          | 37    | 4,2 %       |
++--------------------------------+-------+-------------+
+| Spiel                          | 34    | 3,9 %       |
++--------------------------------+-------+-------------+
+
+\footnotesize
+Extrahiert per Regex-Vokabular aus den LLM-Annotationen (GPT-4o-mini); pro Beitrag sind Mehrfachzuordnungen möglich.
+
+---
+
 ## Tentative Verteilung in der DeLFI-Community
 
 Anwendung der obigen Taxonomie auf 1052 DeLFI-Beiträge (2003--2025), klassifiziert per Regex-Mustererkennung auf LLM-Annotationen (GPT-4o-mini):
@@ -145,6 +211,35 @@ Anwendung der obigen Taxonomie auf 1052 DeLFI-Beiträge (2003--2025), klassifizi
 
 \footnotesize
 \textbf{Vorläufige Daten.} 847 von 1052 Beiträgen (80,5 %) ließen sich keiner Kategorie zuordnen --- meist wegen abstrakter Methodenbeschreibungen in den LLM-Annotationen. Bezugsgröße der Prozentwerte: $n = 205$ klassifizierte Beiträge (9 davon in mehr als einer Kategorie). Quelle: ICSE-2027-Sekundärstudie zum DeLFI-Korpus.
+
+---
+
+## Forschungssoftware-Typ × Evaluationsmethode
+
+Absolute Häufigkeiten (Top-8 Typen × Karat-Methoden mit $\geq 1$ Fall):
+
++----------------------------+------------+------------+--------+--------+----------+---------+
+| Typ                        | Fragebogen | Kontr.Exp. | Spuren | Review | Sensoren | Bericht |
++============================+============+============+========+========+==========+=========+
+| Tool                       | 37         | 9          | 3      | 2      | 0        | 2       |
++----------------------------+------------+------------+--------+--------+----------+---------+
+| System                     | 26         | 1          | 2      | 1      | 2        | 0       |
++----------------------------+------------+------------+--------+--------+----------+---------+
+| Algorithmus                | 10         | 1          | 1      | 3      | 0        | 1       |
++----------------------------+------------+------------+--------+--------+----------+---------+
+| Plattform                  | 20         | 3          | 2      | 1      | 1        | 0       |
++----------------------------+------------+------------+--------+--------+----------+---------+
+| Berechnungsworkflow        | 9          | 3          | 0      | 2      | 0        | 0       |
++----------------------------+------------+------------+--------+--------+----------+---------+
+| Virtual Reality            | 8          | 5          | 0      | 0      | 1        | 0       |
++----------------------------+------------+------------+--------+--------+----------+---------+
+| Framework                  | 6          | 1          | 2      | 1      | 0        | 0       |
++----------------------------+------------+------------+--------+--------+----------+---------+
+| Learning Management System | 8          | 0          | 3      | 0      | 0        | 0       |
++----------------------------+------------+------------+--------+--------+----------+---------+
+
+\footnotesize
+\textbf{Spaltenkürzel:} Kontr.Exp. = Kontrolliertes Experiment, Spuren = Verhaltensspuren, Review = Design Review, Sensoren = Kommerzielle Sensorsysteme, Bericht = Verbaler Bericht. Mehrfachnennungen pro Beitrag möglich; nur Beiträge mit mindestens einer zugeordneten Methode.
 
 # Literatur {.allowframebreaks}
 
