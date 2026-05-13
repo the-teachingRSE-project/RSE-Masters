@@ -115,6 +115,37 @@ bibliography:
 :::
 
 
+# Empirische Verteilung im DeLFI-Korpus
+
+## Tentative Verteilung in der DeLFI-Community
+
+Anwendung der obigen Taxonomie auf 1052 DeLFI-Beiträge (2003--2025), klassifiziert per Regex-Mustererkennung auf LLM-Annotationen (GPT-4o-mini):
+
++------------------------------+-------+-------------+
+| Methode                      | n     | % von 205   |
++==============================+=======+=============+
+| Fragebogen                   | 154   | 75,1 %      |
++------------------------------+-------+-------------+
+| Kontrolliertes Experiment    | 23    | 11,2 %      |
++------------------------------+-------+-------------+
+| Verhaltensspuren             | 15    | 7,3 %       |
++------------------------------+-------+-------------+
+| Design Review                | 11    | 5,4 %       |
++------------------------------+-------+-------------+
+| Kommerzielle Sensorsysteme   | 6     | 2,9 %       |
++------------------------------+-------+-------------+
+| Verbaler Bericht             | 5     | 2,4 %       |
++------------------------------+-------+-------------+
+| Formale Analyse (GOMS)       | 1     | 0,5 %       |
++------------------------------+-------+-------------+
+| Agentenbasierte GUI-Tests    | 0     | 0 %         |
++------------------------------+-------+-------------+
+| Produktionssystemanalyse     | 0     | 0 %         |
++------------------------------+-------+-------------+
+
+\footnotesize
+\textbf{Vorläufige Daten.} 847 von 1052 Beiträgen (80,5 %) ließen sich keiner Kategorie zuordnen --- meist wegen abstrakter Methodenbeschreibungen in den LLM-Annotationen. Bezugsgröße der Prozentwerte: $n = 205$ klassifizierte Beiträge (9 davon in mehr als einer Kategorie). Quelle: ICSE-2027-Sekundärstudie zum DeLFI-Korpus.
+
 # Literatur {.allowframebreaks}
 
 ::: {#refs}
