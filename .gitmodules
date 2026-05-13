@@ -1,5 +1,5 @@
 [submodule "external/RSE-Masters"]
-	url = https://github.com/the-teachingRSE-project/RSE-Masters
+	url = git@github.com:the-teachingRSE-project/RSE-Masters.git
 [submodule "external/bibliography"]
 	path = external/bibliography
 	url = https://github.com/the-teachingRSE-project/bibliography.git
