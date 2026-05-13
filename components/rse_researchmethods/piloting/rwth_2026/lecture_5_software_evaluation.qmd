@@ -1,0 +1,121 @@
+---
+title: "Forschungsparadigmen und Methoden für RSEs"
+subtitle: "Sitzung 5: Grundlagen empirischer Evaluation von Forschungssoftware"
+format:
+    beamer:
+        keep-tex: true
+        #theme: Goettingen
+        colortheme: crane
+        fonttheme: structureitalicserif
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: pdflatex
+        include-in-header:
+            - beamer-header.tex
+        latex-auto-install: true
+        section-titles: true
+        mermaid: true
+tbl-colwidths: auto
+tables: true
+
+
+bibliography:
+    - references.bib
+    - rse_literature.bib
+---
+
+# Traditionelle Formen der Softwareevaluation [@karatSoftwareEvaluationMethodologies1988]
+
+## Evaluationstechniken I
+
++--------------------------+----------------------------------------+--------------------------------------------------+
+| Methode                  | Art der Information                    | Geeigneter Einsatz                               |
++==========================+========================================+==================================================+
+| Fragebogen               | Subjektive Antworten auf gestellte     | In jeder Phase geeignet, wenn konkrete Fragen    |
+|                          | Fragen. Besonders geeignet für         | formuliert werden können                         |
+|                          | spezifische Fragestellungen.           |                                                  |
++--------------------------+----------------------------------------+--------------------------------------------------+
+| Verbaler Bericht         | Aufzeichnung kognitiver Prozesse       | Früh im Entwicklungsprozess, wenn allgemeine     |
+|                          | bei der Systemnutzung.                 | Informationen benötigt werden                    |
++--------------------------+----------------------------------------+--------------------------------------------------+
+| Kontrollierte Experimente| Spezifische Messwerte in einer         | Für gezielte Tests wichtiger Alternativen        |
+|                          | kontrollierten Umgebung.               | oder Hypothesen                                  |
++--------------------------+----------------------------------------+--------------------------------------------------+
+
+---
+
+## Evaluationsmethoden II
+
++-----------------------------+----------------------------------------+--------------------------------------------------+
+| Methode                     | Art der Information                    | Geeigneter Einsatz                               |
++=============================+========================================+==================================================+
+| Design Review               | Plausibilitätsprüfung des Designs      | Früh im Designprozess, um frühe                  |
+|                             | hinsichtlich allgemeiner Akzeptanz.    | Entscheidungen zu überprüfen                     |
++-----------------------------+----------------------------------------+--------------------------------------------------+
+| Formale Analyse (GOMS)      | Vorhersagen über das Verhalten         | Als Ersatz für Nutzertests zur Vorhersage        |
+|                             | erfahrener Nutzer                      | der Gebrauchstauglichkeit                        |
++-----------------------------+----------------------------------------+--------------------------------------------------+
+| Produktions- systemanalyse  | Vorhersagen über Lernen, Nutzung       |   Zur Ergänzung anderer Analysedaten             |
+|                             | und Transferverhalten                  |                                                  |
++-----------------------------+----------------------------------------+--------------------------------------------------+
+
+---
+
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/routeme3.png){width=90%}
+
+:::
+
+::: {.column width="40%"}
+
+## Evaluationsmethoden III: Moderne Varianten
+
+- Agentenbasierte GUI-Tests [@chen2026humanliketesting]
+- Verhaltensspuren
+    - Logdaten
+    - Zeitstempel
+    - Mobile Sensoren: Geolokation, Richtungsänderung ...
+
+:::
+
+:::
+
+
+---
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+![](img/oculus.png)
+
+![](img/hautleitungsfähigkeit.png)
+
+:::
+
+::: {.column width="40%"}
+
+## Evaluationsmethoden IV: Kommerzielle Schnittstellen
+
+- Reihe von kommerziellen Sensorsystemen: Oculus, Kinect und Myo armband
+- Messbare Daten [@rechy-ramirezImpactCommercialSensors2018]:
+    - emotionale Veränderungen
+    - Gesichtsausdrücke
+    - Gedanken
+    - Kopfbewegungen
+    - Skeletale Bewegungen
+    - ...
+
+:::
+
+:::
+
+
+# Literatur {.allowframebreaks}
+
+::: {#refs}
+:::

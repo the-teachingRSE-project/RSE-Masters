@@ -1,0 +1,8 @@
+competences:
+  - id: rse_0
+    description: "describe RSE activities"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "name x different fields and analyse their differences"
+    author: ""
+    source: ""

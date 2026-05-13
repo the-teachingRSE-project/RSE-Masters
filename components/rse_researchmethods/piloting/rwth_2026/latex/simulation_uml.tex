@@ -1,0 +1,40 @@
+
+\begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}[scale=0.8]
+
+        \node[box](build) {build model};
+        \node[box, below left=of build] (design) {design simulation};
+        \node[box, below right=of build] (results) {execute simulation};
+        \node[box, below=of build] (data) {make observation};
+        \node[box, below=of design] (assumptions) {make assumptions};
+
+        \node[fork, below=of results] (join_similarities) {};
+        \node[fork, below=of assumptions] (join_target) {};
+        \node[box, below=of join_similarities] (similarities) {analyze similarities};
+        \node[box, below=of similarities] (knowledge) {publish};
+        \node[box, below=of join_target] (target) {choose target};
+        \node[initial, left=of target] (start) {};
+        \node[rsepic, right=of knowledge] (final) {\terminus};
+
+        \draw (start) -- (target);
+        \draw (target) -- (join_target);
+        \draw (join_target) -- (assumptions);
+        \draw (join_target.east) -| (data);
+        \draw (assumptions) -- (design);
+        \draw (build) -| (results);
+        \draw (design) |- (build);
+        %\draw[->] (target) -- node[midway, left]{Assumptions} (design);
+        %\draw[->] (target) -- node[midway, right, yshift=-2mm]{Observations} (data);
+        %\draw[->] (results) -- node[midway, above, yshift=1mm, xshift=-1mm]{Similarity} (data);
+        %\draw[->] (results) -- node[midway, left]{Publications} (knowledge);
+        \draw ($(data.south)+(0.4,0)$) |- (join_similarities.west);
+        \draw (results) -- (join_similarities);
+        \draw (join_similarities) -- (similarities);
+        \draw[uml_activity] (similarities) -- (knowledge);
+        \draw (knowledge) -- (final);
+
+    \end{tikzpicture}
+    %\caption{The logic of simulation as a method \autocite{drogoulMultiagentBasedSimulation2003}. Redesigned as UML.}
+    %\label{fig:simulation}
+\end{figure}

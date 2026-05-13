@@ -1,0 +1,8 @@
+competences:
+  - id: ai_1
+    description: "describe and differentiate current research topics in AI"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "answer questions about those research topics"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"

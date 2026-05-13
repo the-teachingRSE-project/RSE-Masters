@@ -1,0 +1,9 @@
+meta:
+  id: rse_scientific_computing
+  profiles:
+    - mnt
+    - cs
+  name: Scientific Computing
+  depends_on: [gen_prog]
+  wildcard: False
+  area: rse_technical

@@ -1,0 +1,11 @@
+meta:
+  id: cs_complexity_theory
+  profiles:
+    - cs
+    - up
+    - rwth
+    - jmuw
+  level: master
+  name: Complexity Theory
+  depends_on: []
+  area: cs_advanced

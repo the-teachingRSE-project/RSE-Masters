@@ -1,0 +1,38 @@
+sources:
+  courses:
+    - name: MIT Missing Semester
+      link: "https://missing.csail.mit.edu"
+    - name: CodeRefinery
+      link: "https://coderefinery.org/lessons/"
+    - name: INTERSECT Training Materials
+      link: "https://intersect-training.org/training-material/"
+    - name: Digital Research Academy Materials (Git, HPC, Reproducibility, Research Software)
+      link: "https://zenodo.org/communities/digiresacademy/records?q=&f=subject%3AResearch%20Software&f=subject%3AGit&f=subject%3AHPC&f=subject%3AReproducibility&l=list&p=1&s=10&sort=newest"
+    - name: Building Better Research Software (SSI)
+      link: "https://carpentries-incubator.github.io/fair-research-software/"
+    - name: Docker for neuroscience (jupyter book)
+      link: "https://m-earnest.github.io/docker_workshop/index.html#"
+    - name: Further Git and GitHub
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/further-git-and-github-for-effective-collaboration/"
+    - name: Bash Shell
+      link: "https://swcarpentry.github.io/shell-novice/"
+    - name: Git
+      link: "https://swcarpentry.github.io/git-novice"
+    - name: Python
+      link: "https://swcarpentry.github.io/python-novice-inflammation"
+    - name: R
+      link: "https://swcarpentry.github.io/r-novice-inflammation/"
+    - name: Introduction to version control
+      link: "https://coderefinery.github.io/git-intro/"
+    - name: Collaborative distributed version control
+      link: "https://coderefinery.github.io/git-collaborative/"
+    - name: Jupyter notebooks
+      link: "https://coderefinery.github.io/jupyter/"
+    - name: Python for Researchers
+      link: "https://www.coursera.org/learn/introduction-to-python-for-researchers"
+    - name: Intermediate General Python
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/inter-python/#d.en.1395214"
+    - name: Introduction to R
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/r-programming/"
+    - name: Introduction to Git and GitHub
+      link: "https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/introduction-to-using-git-and-github-for-software-development/"

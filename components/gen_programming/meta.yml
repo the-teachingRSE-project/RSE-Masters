@@ -1,9 +1,10 @@
 meta:
-  id: gen_prog
+  id: gen_programming
   profiles:
-    - science
-    - rse
+    - mnt
     - up
-  level: master
-  name: Basics of Programming
-  depends_on: []
+    - jmuw
+    - rwth
+  name: Applied Programming
+  depends_on: [gen_cs]
+  area: cs_basic

@@ -1,0 +1,1 @@
+quarto render lecture1_foundations.qmd --to beamer

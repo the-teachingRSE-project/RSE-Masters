@@ -1,0 +1,30 @@
+## Embedded Systems
+
+### Introduction
+
+Embedded systems control many things in our daily lives. Energy-efficient refrigerators, lift controls and advanced driver assistance systems are just a few examples. Embedded systems also control processes in industrial environments and are used to detect and prevent system failures. This lecture provides a general introduction to the topic of embedded systems and their performance. It presents basic concepts and highlights important differences to "normal" computer systems. 
+
+### Contents
+
+The module covers a selection of the following topics:
+- security, reliability, formal methods and dynamic systems.
+- microcontrollers
+- programmable logic controllers (PLCs)
+- PLC programming languages
+- real-time requirements
+- real-time operating systems
+- characteristics of embedded software design
+- intra-vehicle communication (e.g. CAN bus)
+
+### Learning Objectives
+Students
+- can understand the solution to complex problems in embedded systems and apply those to related issues.
+- describe modern software techniques for embedded systems
+- apply a model-based, quality-oriented approach to the design of embedded software
+- recognise special quality requirements for the design of embedded software and take them into account appropriately
+
+
+### Examination Methods
+
+- either 120 min written exam
+- or 20-30 min oral examination

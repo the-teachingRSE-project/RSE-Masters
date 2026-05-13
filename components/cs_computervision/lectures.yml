@@ -1,0 +1,13 @@
+entries:
+  - name: "Computer Vision"
+    description: ""
+    type: "Lecture"
+    sws: 2
+    ects: 2
+    optional: True
+  - name: "Computer Vision Exercise"
+    description: ""
+    type: "Exercise"
+    sws: 2
+    ects: 4
+    optional: True

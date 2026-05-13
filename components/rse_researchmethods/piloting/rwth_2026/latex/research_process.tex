@@ -1,0 +1,69 @@
+
+
+\begin{figure}[h!]
+    \centering
+
+    \begin{tikzpicture}[scale=0.4, transform shape]
+
+
+% --- Main entry
+        \node[initial] (start) {};
+        \node[action, right=of start] (problem) {select \\ research problem};
+        \node[action, right=of problem] (theory) {build theory};
+
+% --- Fork into two branches
+        \node[fork, right=of theory] (fork1) {};
+
+% --- Upper branch
+        \node[action, above right=of fork1] (concept) {specify concept /\\ make operationalization};
+        \node[fork, right=of concept, xshift=4mm] (merge_concept) {};
+        \node[action, right=of merge_concept] (simulation) {create simulation};
+
+% --- Lower branch
+        \node[action, below right=of fork1] (form) {determine\\study design};
+        \node[action, right=of form] (unit) {select\\unit of analysis};
+        \node[action, right=of unit] (collect) {collect data};
+        \node[action, right=of collect] (record) {record data};
+        \node[action, right=of record] (analysis) {analyze data};
+
+% --- Merge / synthesis
+        \node[fork, right=of analysis] (merge1) {};
+        \node[action, right=of merge1] (comparison) {assess similarity /\\Synthesis};
+        %\node[action, right=of comparison] (pub) {publish};
+
+% --- Final node
+        %\node[circle, draw, line width=0.8pt, minimum size=7mm, right=of pub] (finalouter) {};
+        %\node[circle, fill=black, minimum size=3.5mm, inner sep=0pt] at (finalouter.center) {};
+
+
+
+% --- Main flow
+        \draw (start) -- (problem);
+        \draw (problem) -- (theory);
+        \draw (theory) -- (fork1);
+
+% --- Fork to branches
+        \draw (fork1.north) |- (concept.west);
+        \draw (fork1.south) |- (form.west);
+
+% --- Upper branch
+        \draw (concept) -- (merge_concept);
+        \draw (merge_concept) -- (simulation);
+        \draw (merge_concept.south) -- (unit.east);
+        \draw (simulation.east) -- ++(3,0) -| (merge1.north);
+
+% --- Lower branch
+        \draw (form) -- (unit);
+        \draw (unit) -- (collect);
+        \draw (collect) -- (record);
+        \draw (record) -- (analysis);
+        \draw (analysis) -- (merge1);
+
+% --- Merge to completion
+        \draw (merge1) -- (comparison);
+        %\draw (comparison) -- (pub);
+        %\draw (pub) -- (finalouter);
+
+    \end{tikzpicture}
+
+\end{figure}

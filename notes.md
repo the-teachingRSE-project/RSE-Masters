@@ -54,3 +54,30 @@
 |                        |                               |                                               |                                                                          |                            |               |
 |                        |                               |                                               |                                                                          |                            |               |
 |                        |                               |                                               |                                                                          |                            |               |
+
+## Sources for the Curriculum
+
+### CS
+
+####  ACM body of Knowledge
+
+Source [Edison Framework](https://edison-project.eu/sites/edison-project.eu/files/filefield_paths/edison_ds-bok-release2-v04.pdf)
+
+AL - Algorithms and Complexity
+AR - Architecture and Organization
+CN - Computational Science
+DS - Discrete Structures
+GV - Graphics and Visualization
+HCI - Human-Computer Interaction
+IAS - Information Assurance and Security (new)
+IM - Information Management
+IS - Intelligent Systems
+NC - Networking and Communications (new)
+OS - Operating Systems
+PBD - Platform-based Development (new)
+PD - Parallel and Distributed Computing (new)
+PL - Programming Languages
+SDF - Software Development Fundamentals (new)
+SE - Software Engineering
+SF - Systems Fundamentals (new)
+SP - Social Issues and Professional Practice

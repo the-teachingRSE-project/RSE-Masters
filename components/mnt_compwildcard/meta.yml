@@ -1,9 +1,9 @@
 meta:
-  id: mnt2
+  id: mnt-comp-science
   profiles:
-      - science
-      - rse
-  level: master
+      - mnt
+      - rwth
+      - up
   name: Computational Science Wildcard
   depends_on: [gen_prog, gen_ds]
-  wildcard: True
+  area: domain_advanced

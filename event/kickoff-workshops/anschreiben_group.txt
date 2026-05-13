@@ -1,0 +1,33 @@
+Dear [Group],
+
+In modern science, software-based research plays an increasingly central role. The professional development and competent use of software are essential for progress across nearly all scientific disciplines.
+
+In response, the professional profile of the Research Software Engineer (RSE) has emerged—combining expertise in software development with a deep understanding of scientific research processes. As the importance of this role grows, particularly with the rise of RSE service centers at research institutions, so does the demand for dedicated Master's programs in RSE or the integration of RSE-focused tracks into existing graduate programs.
+
+We invite all members of the Research Software Engineering (RSE) community—as well as interested scientists and educators—to contribute to the development of a modular Master's curriculum tailored to the unique needs and challenges of RSEs. Each curriculum module will focus on a specific area of the RSE landscape and will be shaped through short, community-driven online workshops (2–3 hours each).
+
+The core idea is to supplement general courses in software engineering, data science, and domain-specific science with RSE-specific modules. These will address the distinct context of software development in research. As part of the process, we will also map foundational courses that support RSE education.
+
+The resulting example modules will introduce novel structures and content, offering universities concrete guidance on how to support and expand RSE competencies. These courses will be adaptable—alternative or equivalent existing classes will be suggested if a dedicated lecturer is not available.
+
+During the workshops, we will collaboratively define:
+
+- Relevant competences
+- Suggested course structures
+- RSE-specific perspectives
+
+These outcomes will directly contribute to building a comprehensive and inclusive RSE Master’s curriculum.
+
+You can explore the broader project here:  https://github.com/the-teachingRSE-project/RSE-Masters
+
+The call for the workshops and long description can be found here:  https://gi.de/fileadmin/GI/Hauptseite/Aktuelles/Projekte/rse_workshops.pdf
+
+To get involved as an expert, please register for the workshops you are interested in here within the next two weeks: https://terminplaner6.dfn.de/b/b87d7614820fb9540532386d855885ce-1253209 or contact the organizing team at julian.dehne@gi.de.
+We’d be honored to have your perspective and input.
+
+Yours sincerely,
+Julian Dehne
+
+An initiative of:
+Gesellschaft für Informatik-RSE Team
+deRSE Verein

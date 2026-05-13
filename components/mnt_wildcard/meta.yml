@@ -1,9 +1,7 @@
 meta:
-  id: mnt1
+  id: mnt-science
   profiles:
-      - science
-      - rse
-  level: master
+      - mnt
+      - cs
   name: Science Wildcard
-  depends_on: []
-  wildcard: True
+  area: domain_advanced

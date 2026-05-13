@@ -1,0 +1,88 @@
+competences:
+  - id: ex_programming_mod1_1
+    description: "Use an imperative-procedural programming language (e.g., C) and an object-oriented language (e.g., Java) with confidence"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "Submit working programs in both languages demonstrating syntax and language-specific features"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: ex_programming_mod1_2
+    description: "Implement basic data structures and algorithms"
+    disciplines: "Computer Science"
+    prerequisites: "ex_programming_mod1_1"
+    evidence: "Submit a project with implemented algorithms and data structures (e.g., lists, trees, sorting)"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: ex_programming_mod1_3
+    description: "Distinguish between error types and handle them appropriately in code"
+    disciplines: "Computer Science"
+    prerequisites: "ex_programming_mod1_1"
+    evidence: "Demonstrate error handling techniques in submitted code (e.g., input validation, error codes, exceptions)"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: ex_programming_mod1_4
+    description: "Identify and use appropriate library functions in programming tasks"
+    disciplines: "Computer Science"
+    prerequisites: "ex_programming_mod1_1"
+    evidence: "Integrate external libraries in coding tasks and document their usage"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: ex_programming_mod1_5
+    description: "Use basic functions and mechanisms of operating systems using UNIX/Linux as an example"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "Demonstrate file handling, permissions, and process control using UNIX/Linux commands"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: ex_programming_mod1_6
+    description: "Create and refine simple algorithms using semi-formal notation"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "Submit pseudocode or flowcharts for given algorithmic problems"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: ex_programming_mod1_7
+    description: "Evaluate and compare algorithms using runtime analysis"
+    disciplines: "Computer Science"
+    prerequisites: "ex_programming_mod1_6"
+    evidence: "Provide time complexity comparisons for multiple algorithmic solutions"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: ex_programming_mod1_8
+    description: "Implement simple algorithms using imperative and functional programming styles (e.g., in Python)"
+    disciplines: "Computer Science"
+    prerequisites: "ex_programming_mod1_6"
+    evidence: "Submit code demonstrating both imperative and functional styles for the same problem"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: ex_programming_mod1_9
+    description: "Distinguish between programming paradigms and identify their characteristics"
+    disciplines: "Computer Science"
+    prerequisites: "ex_programming_mod1_1"
+    evidence: "Classify given code snippets by paradigm and justify the classification"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: C10
+    description: "Express simple programs in an assembly language"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "Translate simple high-level logic into assembler code"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"
+
+  - id: C11
+    description: "Discuss the limits of algorithms, including computability and decidability"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "Write a short essay or present on concepts such as the Halting Problem or undecidability"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de/qisserver/pages/cs/sys/portal/hisinoneIframePage.faces?id=qis_MKSuchen_0&navigationPosition=up_modulbeschreibung%2Cqis_MKSuchen&recordRequest=true"

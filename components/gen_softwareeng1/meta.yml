@@ -1,0 +1,10 @@
+meta:
+  id: gen_se
+  profiles:
+      - mnt
+      - up
+      - jmuw
+      - rwth
+  name: Software Engineering
+  depends_on: []
+  area: cs_basic

@@ -1,0 +1,10 @@
+meta:
+  id: rse_management
+  profiles:
+    - mnt
+    - cs
+    - jmuw
+    - rwth
+    - up
+  name: RSEng Management
+  area: rse_social

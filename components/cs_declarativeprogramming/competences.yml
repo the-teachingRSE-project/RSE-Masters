@@ -1,0 +1,8 @@
+competences:
+  - id: declarative_mod_1
+    description: "define and interpret the special features, limitations, terminology and doctrines in the field of declarative modelling"
+    disciplines: "Computer Science"
+    prerequisites: ""
+    evidence: "develop declarative models for new problems"
+    author: "University of Potsdam"
+    source: "https://puls.uni-potsdam.de"

@@ -1,0 +1,120 @@
+competences:
+  - id: rse_tooling_1
+    description: "Use literate programming tools (e.g., Quarto, Marimo, Pluto.jl, Jupyter) to combine code, results, and narrative"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Submit a literate notebook or document integrating code, visualizations, and explanatory text"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_2
+    description: "Use Python for visualization, scripting, templating, and integration tasks"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Submit a Python project demonstrating use of libraries for visualisation, web tasks, and templating"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_3
+    description: "Write and use Bash scripts for automation"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Submit shell scripts automating file manipulation or computational workflows"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_4
+    description: "Apply testing, debugging, and logging techniques to ensure software reliability"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_2"
+    evidence: "Submit logs, test cases, and debugging documentation for a non-trivial Python or Bash project"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_5
+    description: "Use workflow management tools (e.g., CWL, Nextflow) to design scalable, reproducible pipelines"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_3, rse_tooling_11"
+    evidence: "Submit a reproducible workflow including metadata and input/output definitions"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_6
+    description: "Estimate resource requirements for computational tasks using profiling and benchmarking"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_2, rse_tooling_5"
+    evidence: "Provide resource usage profiles and discuss optimization implications"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_7
+    description: "Use package managers and virtual environments (e.g., conda, nix) to manage software dependencies"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Submit environment definitions and reproducible setup instructions for a project"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_8
+    description: "Document and package software for usability and reusability, using generators and modular design"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_2"
+    evidence: "Submit user and developer documentation generated with Sphinx or similar, plus a reusable code module"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_9
+    description: "Communicate technical RSE topics effectively with non-technical audiences"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Prepare and deliver a presentation or write an article explaining RSE concepts to a general audience"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_10
+    description: "Apply authentication and authorization mechanisms (e.g., LDAP, ACLs, Active Directory)"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Configure and demonstrate access control for a multi-user service or application"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_11
+    description: "Make informed decisions about tooling and infrastructure (e.g., Jupyter vs scripts, local vs HPC/cloud)"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_1, rse_tooling_2, rse_tooling_3"
+    evidence: "Submit a comparative analysis justifying tooling and infrastructure choices for a research project"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_12
+    description: "Teach and practice collaborative development, including version control and code review"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_2"
+    evidence: "Submit a project with version history and documented code reviews"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_13
+    description: "Mentor others in research software engineering practices"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_12"
+    evidence: "Document a mentoring session, workshop, or support activity"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_14
+    description: "Deploy and maintain web servers for research applications"
+    disciplines: "Research Software Engineering"
+    prerequisites: "rse_tooling_2"
+    evidence: "Deploy a working web application with setup and maintenance documentation"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"
+
+  - id: rse_tooling_15
+    description: "Understand and manage file systems, including local and network-attached storage"
+    disciplines: "Research Software Engineering"
+    prerequisites: ""
+    evidence: "Document storage strategies and access mechanisms in a real-world setup"
+    author: "Workshop Participants"
+    source: "RSE Tooling Workshop"

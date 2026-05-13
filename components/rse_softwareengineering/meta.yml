@@ -1,0 +1,9 @@
+meta:
+  id: rse_engineering
+  profiles:
+    - mnt
+    - cs
+    - up
+  level: master
+  name: Software Engineering for RSEs
+  area: rse_technical

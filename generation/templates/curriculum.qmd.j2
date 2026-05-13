@@ -1,47 +1,40 @@
-# General Study Process
+{% if profile == "cs" %}# Track 1: Computer Science Generalist Track  {% endif %}
 
-{% for semester in curriculum.semesters %}
-## Semester {{ semester.number }}
+{% if profile == "mnt" %}# Track 2: Domain Science / Natural Science Track  {% endif %}
 
-| Type | Description | SWS | ECTS |
-|------|-------------|-----|------|
-{%- for lecture in semester.lectures %}
-| {{ lecture.type }} | {{ lecture.name }} | {{ lecture.sws }} | {{ lecture.ects }} |
-{%- endfor %}
-**Total ECTS: {{ semester.total_ects() }}**
-
-{% endfor %}
-
-**Total Curriculum ECTS: {{ curriculum.total_ects() }}**
-
-
-
-
-# Complete Competences Table {{ "{" }}#sec-competences{{ "}" }}
-
-TODO: replace this with Excel download in html and possibly remove for pdf
-
-| ID  | Description | Disciplines | Prerequisites | Evidence | Author | Source |
-|-----|-------------|-------------|---------------|----------|--------| --------|
-{%- for c in competences %}
-| {{- c.id -}} | {{ c.description }} | {{ c.disciplines }} | {{ c.prerequisites }} | {{ c.evidence }} | {{ c.author }} | [ {{ c.source }} ]( {{ c.source }} )  |
-{%- endfor %}
-
+{% if profile == "up" %}# Example for Uni Potsdam  {% endif %}
 
 
 ::: {.content-visible when-format="html"}
 
-# Module Descriptions (Linked)
+## Module Descriptions (Linked)
 
 {%- for module in modules %}
-- [{{ module.name | replace("_", " ") | title }}]({{ module.file }})
+- [{{ module.name | replace("_", " ") }}]({{ module.file }})
 {%- endfor %}
 
 :::
 
-::: {.content-visible when-format="pdf"}
+## Suggested Study Plan
 
-# Module Descriptions (Inline)
+| Type | Description | SWS | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Existing Courses | New Concept |
+|------|-------------|-----|-------|-------|-------|-------|------------------|------------|
+{%- for lecture in plan.lectures %}
+| {{ lecture.type }} | {{ lecture.name }} | {{ lecture.sws }} | {{ lecture.ects_in_sem_1 }} | {{ lecture.ects_in_sem_2 }} | {{ lecture.ects_in_sem_3 }} | {{ lecture.ects_in_sem_4 }} |
+{%- if lecture.mapped_courses -%}
+{%- for name, url in lecture.mapped_courses.items() -%}
+[{{ name }}]({{ url }}){%- if not loop.last %}<br>{% endif -%}
+{%- endfor -%}
+{%- endif -%}
+| {{ "yes" if lecture.new_module else "no" }} |
+{%- endfor %}
+|  | **Total ECTS per semester** |  | **{{ curriculum.semesters[0].total_ects() }}** | **{{ curriculum.semesters[1].total_ects() }}** | **{{ curriculum.semesters[2].total_ects() }}** | **{{ curriculum.semesters[3].total_ects() }}** |  |  |
+
+
+**Total Curriculum ECTS: {{ curriculum.total_ects() }}**
+
+
+::: {.content-visible when-format="pdf"}
 
 {%- for module in modules %}
 

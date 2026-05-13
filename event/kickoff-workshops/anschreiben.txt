@@ -1,0 +1,32 @@
+Subject: Invitation to Help Shape a Master’s Curriculum for Research Software Engineers
+
+Dear Mr./Ms. [Name],
+
+To support the growing need for RSE skills in academia and beyond, we are developing a modular Master's curriculum that reflects the real-world challenges and responsibilities of RSEs.
+This initiative is especially relevant as more institutions begin to establish RSE groups and service centers.
+
+We would like to invite you to contribute to this effort by participating in a focused, community-driven online workshop:
+**[Workshop Title]**
+The session will take approximately 2–3 hours and will center on a curriculum module aligned with your expertise in **[Your Field]**.
+
+Together, we will:
+- Identify key competences for RSEs in this area,
+- Outline a possible course structure,
+- Highlight the unique perspective RSEs bring to this topic.
+
+You can learn more about the project here: https://github.com/the-teachingRSE-project/RSE-Masters
+
+Attached you find an overview over the other workshops in this series and a preliminary schedule. Feel free to share these.
+
+In order to start the community process as quickly as possible we suggest one of the following dates:
+
+[date 1]
+[date 2]
+
+
+
+
+We’d be honored to have your perspective and input. If you are strongly interested, but you are busy during the suggested time slots, let us know, and we will try to find another solution.
+
+Warm regards,  
+Julian Dehne

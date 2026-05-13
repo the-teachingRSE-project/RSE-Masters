@@ -1,0 +1,293 @@
+
+---
+title: "Forschungsparadigmen und Methoden für RSEs"
+subtitle: "Sitzung 2: Grundlagen qualitativer Forschung für RSE"
+format:
+    beamer:
+        keep-tex: true
+        #theme: Goettingen
+        colortheme: crane
+        fonttheme: structureitalicserif
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: pdflatex
+        include-in-header:
+            - beamer-header.tex
+        latex-auto-install: true
+        section-titles: true
+        mermaid: true
+
+bibliography:
+    - references.bib
+    - rse_literature.bib
+---
+
+
+
+# Aufwärmübung
+
+Nehme an, du bist ein(e) ProfessorIn für Software Engineering. Da deine KursteilnehmerInnen vermehrt LLMs zur Unterstützung bei Programmieraufgaben nutzen können, möchtest du untersuchen wie du deine Lehre anpassen kannst.
+
+- Was ist die Analyseeinheit?
+- Wer ist die Zielgruppe der Studie?
+- Welche Theorien sind relevant?
+- Wie würdest du die Studie durchführen?
+
+# Definitionsversuch
+
+"Qualitative Forschung hat ihren Ausgangspunkt im Versuch eines vorrangig deutenden und sinnverstehenden Zugangs zu der interaktiv _hergestellt_ und in sprachlichen wie nicht-sprachlichen Symbolen repräsentiert gedachten sozialen Wirklichkeit [@bergerSocialConstructionReality2011]"
+
+# Grundannahmen
+
+- nicht alles ist messbar
+- durch die Interpretation von Symbolen, in denen Wirklichkeit dokumentiert wird, kann man diese rekonstruieren
+- es gibt eine Interaktion zwischen forschenden und beforschten
+- die Forscher*innen sind Teil der sozialen Wirklichkeit und können sich dem nicht entziehen
+
+# Nicht alles ist messbar
+
+Zum Beispiel:
+
+- Deutungen, Interpretationen, Anatomie einer (Forschungskultur)
+- Korporierte soziale Beziehungen
+- Habitualisierte Einflüsse
+- Einflüsse von Milieus und Lebenswelten
+- Unbewusste Alltagserfahrungen
+- Einflüsse von akademischen Kulturen, Traditionen
+- Figuren, Deutungsmuster, Deutungsroutinen, Rituale
+
+# Qualitative Fragestellungen des RSE
+
+Nennt drei Beispiele für Fragestellungen, die sich nur qualitativ erforschen lassen im RSE-Bereich?
+
+# Qualitative Fragestellungen im RSE-Kontextgit
+
+1. **Wie erleben Research Software Engineers die Zusammenarbeit mit Fachwissenschaftler:innen in interdisziplinären Projekten, und welche impliziten Erwartungen prägen diese Zusammenarbeit?** \newline
+   &rarr;  Fokus auf subjektive Erfahrungen, Rollenverständnisse und soziale Dynamiken.
+
+2. **Welche informellen Praktiken und Entscheidungsprozesse nutzen RSEs bei der Sicherstellung von Softwarequalität in Forschungsprojekten?** \newline
+   &rarr;  Untersuchung von nicht dokumentierten Abläufen, Routinen und implizitem Wissen („tacit knowledge“).
+
+3. **Wie konstruieren RSEs ihre berufliche Identität im Spannungsfeld zwischen Forschung und Softwareentwicklung?** \newline
+   &rarr;  Analyse von Selbstverständnissen, Narrativen und professioneller Zugehörigkeit.
+
+# Interpretation, Deuten und Sinn
+
+"Grob vereinfacht lassen sich drei forschungsrelevante Sinnebenen unterscheiden, von denen vor allem die zuletzt genannte im Mittelpunkt des Interesses interpretativer Sozialforschung steht"[@kleemannInterpretativeSozialforschung2013]:
+
+1. subjektiv intendierter Sinn
+2. universale‘ gesellschaftliche Sinnmuster
+3. gruppen- und milieuspezifische Deutungsmuster und Wissensbestände
+
+&rarr; Kernidee von qualitativer Sozialforschung ist das Ableiten von gruppenspezifischen Deutungsmustern aus subjektiv intendierten Sprechakten, z.B. wie deuten Wissenschaftler Forschungssoftwareentwicklung im Gegensatz zu klassischer Softwareentwicklung
+
+# Interpretationsschritte: Beispiel dokumentarische Methode
+
+"Es gab keine Rücksprache mit den Auftraggebern: Weder die Auftraggeber noch die Ausführenden kamen auf die Idee, regelmäßige Abstimmungsmeetings einzuberufen. Beide Seiten gingen davon aus, dass das Projekt zeitnah ein Ergebnis liefern würde, welches dann präsentiert werden würde. Durch die fehlenden Ziele, Messkriterien und Feedbackschleifen begann die Projektgruppe an einem Produkt zu arbeiten, das weit umfassender war als vom Auftraggeber gewünscht. Dadurch wurde höchstwahrscheinlich ein Vielfaches an Ressourcen (Arbeitszeit = Geld) aufgewendet als ursprünglich vom Management angedacht. Ich schreibe _höchstwahrscheinlich_, da die Meetingzeit der Ausführenden nie erfasst und abgerechnet wurde. Das Projekt lief unter dem Kostenpunkt EH-DA-Kosten (wir waren ja eh da)." (Textpassage aus Interview mit MB)
+
+---
+
+## 1. formulierende Interpretation
+
+_MB (Kürzel für Quelle) beschreibt eine Projektentwicklung, bei der das Projekt unklar definiert war, und dadurch ein zu umfangreiches Produkt entwickelt wurde. Dadurch sind die Kosten gestiegen. Zudem wurde die Arbeitszeit nicht genau erfasst und das Projekt wurde nicht als solches abgerechnet, sondern Bestandsmitarbeiter haben die Aufgaben übernommen._
+
+## 2. reflektierende (sinngenetische) Interpretation
+
+_MB _kritisiert_ fehlende Abstimmung mit den Auftraggebern, dadurch resultierende unklare Zielstellung, Qualitätskriterien und Feedbackschleifen. Aus seiner Sicht folgte daraus eine Verschwendung an Ressourcen und ein Missbrauch der Arbeitszeit der Bestandsmitarbeiter._
+
+---
+
+## 3. soziogenetische Interpretation
+
+_MB beschreibt einen Missstand in kleinen- bis mittelgroßen Unternehmen, bei denen es keine Kommunikatoren / Manager gibt, die sich um ein agiles Projektmanagement kümmern. Außerdem charakterisiert die Situation typische Probleme bei Softwareprojekten, insofern als dass diese komplex sind, aber die Auftraggeber (insbesondere die öffentlichen Institutionen) ihre Anforderungen nicht klar kommunizieren können, oder auch die Abbildung des Lastenheftes auf die Software nicht evaluieren können. Dies führt bei den Unternehmen zu Überforderung und bei den Auftraggebern zu Frust._
+
+
+ &rarr; gesellschaftliches Domänenwissen trifft Fallbeispiel (enthält abduktiven Schluss)
+ &rarr; beschreibt **testbare** Mechanismen
+
+## 4. Kategorienbildung
+
+ - Anforderungserhebung (klar definierte Anforderungen &larr;&rarr;  schlecht definierte Anforderungen)
+ - Ressourcen (perfekte Nutzung &larr;&rarr; Missbrauch)
+
+
+# Kategorisierende Verfahren
+
+- Diskursanalyse: sucht Wirkung von öffentlich diskutierten kollektiven Bedeutungen
+- Hermeneutische Wissenssoziologie: Untersucht Deutungsroutinen, Sinnfiguren
+- Dokumentarische Methode: Sucht handlungsleitendes Orientierungswissen, kollektives implizites Wissen
+- Grounded Theory: Sucht die Bedeutung von Erfahrungen und Konstruktion von Bedeutung
+
+&rarr; Ziel ist die Theoriebildung durch Entwicklung geeigneter Kategorien (Informatikvokabular: Modellierung auf Klassenebene)
+
+# Prozess der qualitativen Sozialforschung
+
+1. Aufbereitung von Textmaterial
+2. Paraphrasieren, Zusammenfassungen relevanter Textpassagen (heutzutage eher mit MaxQDA relevante Textpassagen markieren und/oder Notiz anfügen)
+3. Methodenabhängige Schritte
+   -  Makrooperatoren ableiten (Auslassung, Generalisierung, Integration) bei qualitativer Inhaltsanalyse
+   -  Diskursarten zuordnen (Diskursanalyse)
+   -  Kreuztabelle sinngenetischer und soziogenetischer Kategorien entwerfen (Dokumentarische Methode)
+   - Interpretationsschleifen, komplexe Erörterung, mehrfaches Lesen mit unterschiedlichen Interpretationen (Hermeneutik)
+
+&rarr; Zusammenfassungen werden immer abstrakter, Kategorien werden "entdeckt"
+
+# MaxQDA Screenshot
+
+![](https://www.maxqda.com/wp/wp-content/uploads/sites/2/1-New-Interface-MAXQDA-2018.png)
+
+
+# Kodiertechniken [@strauss1987]
+
+- **Offenes Kodieren:** Erste, explorative Analyse der Daten zur Entwicklung von Ideen, Konzepten und Kategorien; sowohl grobe Sichtung als auch detaillierte (zeilen- oder wortweise) Analyse möglich.
+
+- **Axiales Kodieren:** Vertiefung der Analyse durch Untersuchung von Beziehungen zwischen Kategorien entlang einer „Achse“; selektiver Fokus auf relevante Daten, baut auf offenem Kodieren auf und läuft teilweise parallel weiter.
+
+- **Selektives Kodieren:** Konzentration auf zentrale Kategorien („Schlüsselkategorien“), die den weiteren Forschungsprozess und die Datenauswahl steuern; Fokus liegt nur noch auf Phänomenen mit Bezug zu diesen Kernkategorien.
+
+
+# Konkretes Vorgehen (vereinfachte Empfehlungen)
+
+1. Aufbereitung von Textmaterial
+2. Identifikation sinngebender Passagen
+3. 3-5 Grobkategorien in MaxQDA basierend auf der Bezugstheorie (z.B. Gender in RSE)
+4. Erster Interpretationszyklus: Sinngebende Passagen zusammenfassen und Bezug zur Theorie für das Wording nutzen
+5. Mit Interpretationen angereichertes Material mit den Grobkategorien annotieren
+
+---
+
+6. Theorieentwicklung durch relationale Kategorienbildung (angelehnt an @nohlInterviewUndDokumentarische2017):
+   - Fall 1: Kategorien bilden Material perfekt ab:
+           1. Identifiziere dichotome Kriterien innerhalb oder zwischen den Kategorien (z.B. Freiheit vs. Gleichheit)
+           1. Skaliere das Material zwischen diesen Kategorien
+           1. Erzeuge eine Kreuztabelle, die Zusammenhänge zwischen den Kategorien darstellt
+   - Fall 2: Kategorien reichen nicht aus, um alle Aspekte darzustellen: Füge weitere Kategorien hinzu oder erweitere die Begriffe, in dem zu jeder Kategorie drei Unterkategorien hinzukommen. Danach wie bei 1.
+   - Fall 3: Die Kategorien sind nicht eindeutig. Füge Kategorien zusammen oder erzeuge neue Kategorien wie bei 2. Danach weiter wie bei 1.
+
+---
+
+7. Weiterentwicklung der Bezugstheorie hinsichtlich der speziellen Fälle und neuen Kategorien
+8. Klare Argumentation, warum die Theorie erweitert oder reduziert werden musste
+9. Vorschlag für eine *quantitative* oder experimentelle Studie um Theorie zu validieren (dies muss **denkbar** sein!)
+
+# Wissenschaft als Kategorisierung der Welt in der Antike
+
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+
+![](img/aristoteles_elements.jpg){height=70%}
+
+:::
+
+::: {.column width="60%"}
+
+![](img/kugelmenschen.png){height=70%}
+
+:::
+
+:::
+
+Welche Kategorien werden durch diese Bilder visualisiert? (von ChatGPT generiert)
+
+
+
+# Beispiel: Diskursanalyse [@kleemannInterpretativeSozialforschung2013]
+
+
+Sprechakte werden als Kategorien gelabelt, die eine Art Prozessmodell für eine Diskussion darstellen. Das Konzept basiert auf der Wissenssoziologie von Karl Mannheim.
+
+---
+
+
+# Kategorien (Labels) der Diskursanalyse
+
+## Positive Gegenhorizonte
+
+- **Ausarbeitung:** Erweiterung eines Punktes durch Details und Beispiele
+- **Differenzierung:** Herausarbeitung von Unterschieden zwischen Konzepten
+- **Validierung:** Belege zur Bestätigung eines Arguments
+- **Ratifizierung:** Offizielle Bestätigung einer Entscheidung
+
+"Die Aussage meines Vorredners lässt sich dadurch bestätigen, dass XY auch diese Eigenschaften aufweist" &rarr;  **Validierung**
+
+---
+
+## Negative Gegenhorizonte
+
+- **Antithese:** Darstellung eines gegensätzlichen Konzepts
+- **Widerspruch:** Ablehnung eines Standpunkts
+- **Divergenz:** Aufzeigen alternativer Wege
+
+"Wir könnten statt diesem Seminar auch nützliches Wissen erwerben" &rarr; **Divergenz**
+
+## Thematische Schlussfolgerung
+
+- **Positive Bewertung:** Positives Gesamturteil
+- **Meinungssynthese:** Zusammenführung verschiedener Perspektiven
+
+"Anderes Wissen ist genau so relevant. Es muss kein entweder oder sein!" &rarr; **Meinungssynthese**
+
+---
+
+## Ritueller Abschluss
+
+- **Themenwechsel:** Wechsel zu einem neuen Thema
+- **Formale Synthese:** Strukturierte Zusammenfassung
+- **Ablehnung des Themas:** Zurückweisung der Diskussion
+
+"Was machen wir hier eigentlich!" &rarr; **Ablehnung**
+
+## Emotionale Reaktion
+
+- **Positiv/Humor:** Witze, lockere Kommentare
+- **Negativ/Sarkasmus:** Ironie, spöttische Bemerkungen
+
+# Beispiel 2:
+
+![Reaktionsmuster auf konstruktive Moderation auf Twitter (eigene Studie 2022)](img/epsa_diskurs.png){height=80%}
+
+# Beispiel 3:
+
+![Diskursanalyse zu forschendem Lernen (Dissertation Dehne)](img/diskursanalyse_diss.png){height=80%}
+
+# Das qualitative Experiment [@Kleining1986QualitativesExperiment]
+
+Das qualitative Experiment ist der nach wissenschaftlichen Regeln vorgenommene Eingriff in eine soziale Gegebenheit zur Erforschung ihrer Struktur. Es ist die explorative, heuristische Form des Experiments.
+
+---
+
+
+## Merkmale
+
+- Beurteilt speziell die Subjekt-Objekt-Verhältnisse
+- Untersucht interpretativ nichtnumerische Daten in offenen Situationen
+- Erkunden komplexer Zusammenhänge
+- Sucht Strukturbildung (gruppendynamische Prozesse)
+- Komplexe Verhaltenssituation wird manipuliert
+- Nur als Gruppenexperimente durchführbar
+- Ergebnisse nur bedingt verallgemeinerbar
+
+→ Strukturveränderungen als Resultat manipulierter komplexer Verhaltensbedingungen werden gemessen (Stabilität der Struktur)
+
+→ Welche Handlungs- / Bewertungsmuster bilden sich in typischen Situationen heraus?
+
+---
+
+## Techniken der Verhaltensmanipulation
+
+- Separation / Segmentierung: Teile von Gruppen werden isoliert
+- Kombination: Gruppen werden zusammengeführt
+- Reduktion / Abschwächung: Funktionsinhaber werden entfernt
+- Adjektion / Intensivierung: Funktionsinhaber werden hinzugefügt
+- Substitution: Teile werden ausgetauscht
+- Transformation: gesamte Gruppe wird neu strukturiert
+
+
+# Literatur {.allowframebreaks}
+
+::: {#refs}
+:::
+

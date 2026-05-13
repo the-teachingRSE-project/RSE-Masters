@@ -1,9 +1,12 @@
 meta:
   id: gen_ds
   profiles:
-      - science
-      - rse
+      - mnt
+      - cs
       - up
+      - jmuw
+      - rwth
   level: master
   name: Data Science
   depends_on: []
+  area: ds_basic

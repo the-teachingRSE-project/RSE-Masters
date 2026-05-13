@@ -1,0 +1,40 @@
+competences:
+  - id: hpc_module_1
+    description: "Run batch and array jobs on a cluster, including job dependencies"
+    disciplines: "High-Performance Computing"
+    prerequisites: "rse_tooling_3"
+    evidence: "Submit job scripts using SLURM or similar systems demonstrating correct use of job arrays and dependencies"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: hpc_module_2
+    description: "Identify and manage common challenges in HPC systems (e.g., I/O bottlenecks, threading, NUMA memory)"
+    disciplines: "High-Performance Computing"
+    prerequisites: "hpc_module_1"
+    evidence: "Provide performance logs and interpret bottlenecks in a real or simulated HPC task"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: hpc_module_3
+    description: "Use shell scripting (e.g., Bash) to automate HPC job submission"
+    disciplines: "High-Performance Computing"
+    prerequisites: "rse_tooling_3"
+    evidence: "Submit scripts that automate the execution of HPC jobs and handle job logic"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: hpc_module_4
+    description: "Understand and use the principles of accelerator programming (e.g., GPU kernels and frameworks)"
+    disciplines: "High-Performance Computing"
+    prerequisites: ""
+    evidence: "Submit a small CUDA or OpenCL program with documentation of the principles used"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"
+
+  - id: hpc_module_5
+    description: "Maintain scientific computing software including use of continuous benchmarking"
+    disciplines: "High-Performance Computing"
+    prerequisites: "comp_module_1"
+    evidence: "Provide benchmark and performance history for evolving versions of software"
+    author: "RSE Curriculum Draft"
+    source: "Computing Module Input"

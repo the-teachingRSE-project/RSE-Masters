@@ -5,3 +5,17 @@ index.aux
 index.tex
 index.log
 /_doc/
+/generation/generated
+/generation/__pycache__
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Microsoft Office Swap files
+~$*
