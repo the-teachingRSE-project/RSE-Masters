@@ -83,6 +83,8 @@ jobs:
         run: quarto render components/rse_researchmethods/piloting/rwth_2026/lecture_3_interviews.qmd
       - name: compile rwth slides 4
         run: quarto render components/rse_researchmethods/piloting/rwth_2026/lecture_4_quantitative.qmd
+      - name: compile rwth slides 5
+        run: quarto render components/rse_researchmethods/piloting/rwth_2026/lecture_5_software_evaluation.qmd
       - name: compile website
         run: quarto render --profile website
       - name: Upload artifact

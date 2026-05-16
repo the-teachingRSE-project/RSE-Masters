@@ -114,6 +114,15 @@ bibliography:
 
 :::
 
+# Praxisübung
+
+- MaxQDA installiert?
+- Breakout-Rooms (sortiert nach MaxQDA-Besitzer:innen)
+- Kodierung von Beispielen für Forschungssoftwareentwicklung und empirische Evaluation von Forschungssoftware
+- 30 min
+- Kreuztabelle: Was fällt auf?
+- Diskussion im Plenum
+
 
 # Empirische Verteilung im DeLFI-Korpus
 
@@ -243,9 +252,35 @@ Absolute Häufigkeiten (Top-8 Typen × Karat-Methoden mit $\geq 1$ Fall):
 +----------------------------+------------+------------+--------+--------+----------+---------+
 
 
-# The RIGHT framework
+# The RIGHT framework [@dehne2026fairrightmethodologicalresearch]
+
+
+::: {.columns}
+
+::: {.column width="70%"}
 
 ![](img/right_framework.png)
+
+:::
+
+::: {.column width="20%"}
+
+
+:::
+
+:::
+
+# The RIGHT framework [@dehne2026fairrightmethodologicalresearch]
+
+- [R]elevance: Is this specific RS really necessary to conduct the research?
+- [I]nteraction: Does the RS interact with variables during the execution phase?
+- [G]eneration: Can the empirical results be synthetically generated to allow
+for the simulation method?
+- [H]uman-In-the-Loop: Are humans both users of the RS and part of the
+research context?
+- [T]ransformation: Does the RS transform the research context and forces
+reinterpretation of the variables?
+
 
 # Literatur {.allowframebreaks}
 
