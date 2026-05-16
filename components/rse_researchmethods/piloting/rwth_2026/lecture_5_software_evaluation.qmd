@@ -117,9 +117,12 @@ bibliography:
 
 # Empirische Verteilung im DeLFI-Korpus
 
-## Ausrichtung von Softwareevaluation und empirischer Studie
+Für jeden der 1052 Beiträge wurde aus den LLM-Begründungen per Dependency-Parsing das grammatikalische Objekt der Softwareevaluation (SE) und der empirischen Studie (EMP) extrahiert und als *software-intern* oder *extern* klassifiziert.
 
-Für jeden der 1052 Beiträge wurde aus den LLM-Begründungen per Dependency-Parsing das grammatikalische Objekt der Softwareevaluation (SE) und der empirischen Studie (EMP) extrahiert und als *software-intern* oder *extern* klassifiziert:
+
+---
+
+## Ausrichtung von Softwareevaluation und empirischer Studie
 
 +------------------------------------------+-------+--------+
 | Muster                                   | n     | %      |
@@ -140,9 +143,6 @@ Für jeden der 1052 Beiträge wurde aus den LLM-Begründungen per Dependency-Par
 +------------------------------------------+-------+--------+
 | Nur Softwareevaluation (EMP=0)           | 6     | 0,6 %  |
 +------------------------------------------+-------+--------+
-
-\footnotesize
-\textbf{Zwei getrennte Studien:} SE evaluiert die Software (Objekt = Software/Qualität), EMP untersucht eine externe Forschungsfrage (Objekt = Lerneffekte, Verhalten etc.) mit der Software als Mittel. Quelle: ICSE-2027-Sekundärstudie zum DeLFI-Korpus.
 
 ---
 
@@ -209,8 +209,12 @@ Anwendung der obigen Taxonomie auf 1052 DeLFI-Beiträge (2003--2025), klassifizi
 | Produktionssystemanalyse     | 0     | 0 %         |
 +------------------------------+-------+-------------+
 
-\footnotesize
-\textbf{Vorläufige Daten.} 847 von 1052 Beiträgen (80,5 %) ließen sich keiner Kategorie zuordnen --- meist wegen abstrakter Methodenbeschreibungen in den LLM-Annotationen. Bezugsgröße der Prozentwerte: $n = 205$ klassifizierte Beiträge (9 davon in mehr als einer Kategorie). Quelle: ICSE-2027-Sekundärstudie zum DeLFI-Korpus.
+
+---
+
+## Vorläufige Daten
+
+ 847 von 1052 Beiträgen (80,5 %) ließen sich keiner Kategorie zuordnen --- meist wegen abstrakter Methodenbeschreibungen in den LLM-Annotationen. Bezugsgröße der Prozentwerte: $n = 205$ klassifizierte Beiträge (9 davon in mehr als einer Kategorie). Quelle: ICSE-2027-Sekundärstudie zum DeLFI-Korpus.
 
 ---
 
@@ -219,7 +223,7 @@ Anwendung der obigen Taxonomie auf 1052 DeLFI-Beiträge (2003--2025), klassifizi
 Absolute Häufigkeiten (Top-8 Typen × Karat-Methoden mit $\geq 1$ Fall):
 
 +----------------------------+------------+------------+--------+--------+----------+---------+
-| Typ                        | Fragebogen | Kontr.Exp. | Spuren | Review | Sensoren | Bericht |
+| Typ                        | Survey     | Kontr.Exp. | Spuren | Review | Sensoren | Bericht |
 +============================+============+============+========+========+==========+=========+
 | Tool                       | 37         | 9          | 3      | 2      | 0        | 2       |
 +----------------------------+------------+------------+--------+--------+----------+---------+
@@ -235,11 +239,8 @@ Absolute Häufigkeiten (Top-8 Typen × Karat-Methoden mit $\geq 1$ Fall):
 +----------------------------+------------+------------+--------+--------+----------+---------+
 | Framework                  | 6          | 1          | 2      | 1      | 0        | 0       |
 +----------------------------+------------+------------+--------+--------+----------+---------+
-| Learning Management System | 8          | 0          | 3      | 0      | 0        | 0       |
+| LMS                        | 8          | 0          | 3      | 0      | 0        | 0       |
 +----------------------------+------------+------------+--------+--------+----------+---------+
-
-\footnotesize
-\textbf{Spaltenkürzel:} Kontr.Exp. = Kontrolliertes Experiment, Spuren = Verhaltensspuren, Review = Design Review, Sensoren = Kommerzielle Sensorsysteme, Bericht = Verbaler Bericht. Mehrfachnennungen pro Beitrag möglich; nur Beiträge mit mindestens einer zugeordneten Methode.
 
 # Literatur {.allowframebreaks}
 
