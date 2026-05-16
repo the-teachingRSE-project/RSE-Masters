@@ -242,6 +242,11 @@ Absolute Häufigkeiten (Top-8 Typen × Karat-Methoden mit $\geq 1$ Fall):
 | LMS                        | 8          | 0          | 3      | 0      | 0        | 0       |
 +----------------------------+------------+------------+--------+--------+----------+---------+
 
+
+# The RIGHT framework
+
+![](img/right_framework.png)
+
 # Literatur {.allowframebreaks}
 
 ::: {#refs}
