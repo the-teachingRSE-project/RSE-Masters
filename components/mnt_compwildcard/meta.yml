@@ -1,9 +1,0 @@
-meta:
-  id: mnt-comp-science
-  profiles:
-      - mnt
-      - rwth
-      - up
-  name: Computational Science Wildcard
-  depends_on: [gen_prog, gen_ds]
-  area: domain_advanced

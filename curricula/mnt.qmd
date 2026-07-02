@@ -1,0 +1,106 @@
+
+
+# Track 2: Domain Science / Natural Science Track  
+
+
+
+
+::: {.content-visible when-format="html"}
+
+## Module Descriptions (Linked)
+- [Fundamentals of Computer Science](../modules/gen_cs.qmd)
+- [Data Science](../modules/gen_datascience.qmd)
+- [Natural Language Processing](../modules/gen_datatext.qmd)
+- [Applied Programming](../modules/gen_programming.qmd)
+- [Software Engineering](../modules/gen_softwareeng1.qmd)
+- [Computational Science Wildcard](../modules/mnt_compwildcard.qmd)
+- [Science Lab](../modules/mnt_project.qmd)
+- [Science Wildcard](../modules/mnt_wildcard.qmd)
+- [RSEng Lecture Series](../modules/rse_lectureseries.qmd)
+- [RSEng Management](../modules/rse_management.qmd)
+- [RSEng Nuts and Bolts](../modules/rse_nuts_bolts.qmd)
+- [Research Paradigms and Methodology for RSEs](../modules/rse_researchmethods.qmd)
+- [Scientific Computing](../modules/rse_scientificcomputing.qmd)
+- [RSEng, Ethics & Society](../modules/rse_society_philosophy.qmd)
+- [Software Engineering for RSEs](../modules/rse_softwareengineering.qmd)
+- [RSEng Teaching](../modules/rse_teaching.qmd)
+- [Master's Thesis](../modules/rse_thesis.qmd)
+
+:::
+
+## Suggested Study Plan
+
+| Type | Description | SWS | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Existing Courses | New Concept |
+|------|-------------|-----|-------|-------|-------|-------|------------------|------------|
+| Lecture | RSEng Lecture Series | 2 | 3 | 0 | 0 | 0 || yes |
+| Seminar | RSEng Nuts and Bolts | 2 | 3 | 0 | 0 | 0 || yes |
+| Lecture | Statistical Data Analysis | 4 | 6 | 0 | 0 | 0 || no |
+| Exercise | Statistical Data Analysis Exercise | 2 | 3 | 0 | 0 | 0 || no |
+| Lecture | Fundamentals of Computer Science | 2 | 2 | 0 | 0 | 0 || no |
+| Exercise | Fundamentals of Computer Science Exercise | 2 | 4 | 0 | 0 | 0 || no |
+| Lecture | Software Engineering I | 2 | 4 | 0 | 0 | 0 || no |
+| Exercise | Software Engineering I Exercise | 2 | 2 | 0 | 0 | 0 || no |
+| Lecture | Wildcard Science I | 2 | 2 | 0 | 0 | 0 || no |
+| Seminar | RSEng, Ethics & Society | 2 | 0 | 3 | 0 | 0 || yes |
+| Seminar | Research Paradigms and Methodology for RSEs | 2 | 0 | 3 | 0 | 0 || yes |
+| Lab | Wildcard Science Lab I | 2 | 0 | 4 | 0 | 0 || no |
+| Lecture | Wildcard Science II | 2 | 0 | 2 | 0 | 0 || no |
+| Lecture | Computational Wildcard Science | 2 | 0 | 3 | 0 | 0 || no |
+| Lab | Computational Wildcard Science Lab | 2 | 0 | 3 | 0 | 0 || no |
+| Seminar | Software Engineering for RSEs | 2 | 0 | 3 | 0 | 0 || yes |
+| Exercise | Software Engineering Exercise for RSEs | 2 | 0 | 3 | 0 | 0 || yes |
+| Lecture | Applied Programming | 2 | 0 | 2 | 0 | 0 || no |
+| Exercise | Applied Programming Exercise | 2 | 0 | 4 | 0 | 0 || no |
+| Lab | Wildcard Science Lab II | 2 | 0 | 0 | 4 | 0 || no |
+| Seminar | RSEng Teaching | 2 | 0 | 0 | 3 | 0 || yes |
+| Lecture | RSEng Management Lecture | 2 | 0 | 0 | 3 | 0 || yes |
+| Exercise | RSEng Management Exercise | 2 | 0 | 0 | 3 | 0 || yes |
+| Lecture | Natural Language Processing | 2 | 0 | 0 | 4 | 0 || no |
+| Exercise | Natural Language Processing Exercise | 2 | 0 | 0 | 2 | 0 || no |
+| Lecture | Scientific Computing | 2 | 0 | 0 | 3 | 0 || yes |
+| Exercise | Scientific Computing Exercise | 2 | 0 | 0 | 3 | 0 || yes |
+| Lab | Science Lab Project | 4 | 0 | 0 | 6 | 0 || no |
+| Thesis | RSEng Master Thesis | 0 | 0 | 0 | 0 | 30 || yes |
+|  | **Total ECTS per semester** |  | **29** | **30** | **31** | **30** |  |  |
+
+
+**Total Curriculum ECTS: 120**
+
+
+::: {.content-visible when-format="pdf"}
+
+{{< include ../modules/gen_cs.qmd >}}
+
+{{< include ../modules/gen_datascience.qmd >}}
+
+{{< include ../modules/gen_datatext.qmd >}}
+
+{{< include ../modules/gen_programming.qmd >}}
+
+{{< include ../modules/gen_softwareeng1.qmd >}}
+
+{{< include ../modules/mnt_compwildcard.qmd >}}
+
+{{< include ../modules/mnt_project.qmd >}}
+
+{{< include ../modules/mnt_wildcard.qmd >}}
+
+{{< include ../modules/rse_lectureseries.qmd >}}
+
+{{< include ../modules/rse_management.qmd >}}
+
+{{< include ../modules/rse_nuts_bolts.qmd >}}
+
+{{< include ../modules/rse_researchmethods.qmd >}}
+
+{{< include ../modules/rse_scientificcomputing.qmd >}}
+
+{{< include ../modules/rse_society_philosophy.qmd >}}
+
+{{< include ../modules/rse_softwareengineering.qmd >}}
+
+{{< include ../modules/rse_teaching.qmd >}}
+
+{{< include ../modules/rse_thesis.qmd >}}
+
+:::

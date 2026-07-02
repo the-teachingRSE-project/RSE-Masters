@@ -1,9 +1,0 @@
-entries:
-  - name: "Statistical Data Analysis"
-    type: "Lecture"
-    sws: 4
-    ects: 6
-  - name: "Statistical Data Analysis Exercise"
-    type: "Exercise"
-    sws: 2
-    ects: 3

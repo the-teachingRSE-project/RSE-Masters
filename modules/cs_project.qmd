@@ -1,0 +1,42 @@
+## RSEng Lab Module
+
+*Applied Research Software Engineering in scientific institutions*
+
+This lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work in teams on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or ...
+
+### Sources & Implementations:
+
+#### Courses
+
+- [Software-Projektpraktikum](https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952)
+
+- [Praktikum](https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970)
+
+- [Softwarepraktikum](https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf)
+
+- [Praktikum Software Engineering](https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf)
+
+- [Praktikum](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf)
+
+- [Interdisziplinäre Projektarbeit](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)
+
+#### Programs
+
+- [JMUW Informatik Bachelor](https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/)
+
+- [JMUW Informatik Master](https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/)
+
+- [RWTH Informatik Bachelor](https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/)
+
+- [RWTH Informatik Master](https://www.rwth-aachen.de/go/id/bcfg)
+
+- [UP Informatik/Computational Science Bachelor](https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor)
+
+- [UP Computational Science Master](https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science)
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::

@@ -31,25 +31,25 @@ If you are interested in joining any of the teams, we will be happy to hear from
 
 ## How to Contribute a whole Component/Module
 
-- go to [components](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/components) 
-- examine files in gen_programming 
-- copy cat the structure
+- go to [modules](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/modules)
+- examine `modules/gen_programming.qmd`
+- copy cat the structure into a new `modules/<component>.qmd` and add it to the relevant curriculum page(s)
 
 ## How to Contribute a new Profile / University Adaptation
 
-- add components (modules) from your university to the list of components or add them as mappings in the sources.yml of existing components
-- create a new [profil_name].yml in generation/profiles
-- run the generation from the generation folder with python generate_all.py --profile cs 
-- add the profile to _quarto-website.yml as a new tab
+- add the modules for your university under [modules](https://github.com/the-teachingRSE-project/RSE-Masters/tree/main/modules)
+- create a new `curricula/<profile_name>.qmd` (copy an existing one, e.g. `curricula/cs.qmd`): a linked module list, the suggested study-plan table, and the PDF-only `{{< include >}}` block
+- add the profile to `_quarto-website.yml` as a new navbar tab
 
 ## Folder Descriptions
 
 ### Curriculum Content
 
 - general: contains texts that do not apply to target groups or disciplinary focus
-- generation: scripts for combination and generation of quarto project
+- modules: one self-contained `.qmd` per module (description, sources & implementations, references) — the module pages of the site
+- curricula: one `.qmd` per profile/track (cs, mnt, up); links its modules, shows the study plan, and includes the module pages for the PDF build
 - root_dir: contains the basic quarto structure files, as well as design elements for html/latex rendering
-- components: contains detailed texts and the datastructures for the different templates, here you can add new didactic ideas in a structured format
+- components: supplementary material referenced by modules (e.g. OER pages, slides, piloting artefacts)
 
 ### Organisational Folders
 
@@ -67,14 +67,8 @@ If you are interested in joining any of the teams, we will be happy to hear from
 
 ## How To Run
 
-- `cd generation` # go in generation dir
-- install python requirements from requirements.txt
-  ```
-  pip install -r requirements.txt
-  ```
-- `python generate_all.py --profile cs` # run the templating logic for the cs track
-- `python generate_all.py --profile mnt` # run the templating logic for the mnt track (natural sciences)
-- `cd ..` # go back in root dir
+This is a plain static Quarto project — no code generation step is needed. Just render/preview:
+
 - Windows PS:
   - `quarto render --profile doc; quarto preview --profile website`
 - Linux/ Windows CMD:

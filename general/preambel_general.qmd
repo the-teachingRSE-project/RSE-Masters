@@ -46,8 +46,8 @@ Interdisciplinary researchers where the computer science background is rivalled 
 
 You can find the tracks as follows:
 
-- Computer Science Generalist Track [here](https://the-teachingrse-project.github.io/RSE-Masters/generation/generated/cs_curriculum.html)
-- Natural Science / Domain Science Track [here](https://the-teachingrse-project.github.io/RSE-Masters/generation/generated/mnt_curriculum.html)
+- Computer Science Generalist Track [here](../curricula/cs.qmd)
+- Natural Science / Domain Science Track [here](../curricula/mnt.qmd)
 
 -->
 
@@ -58,35 +58,35 @@ modules as follows:
 
 Implemented in the following components:
 
-- [RSEng Lecture Series](generation/generated/rse_lectureseries.qmd)
-- [Research methods for RSEs](generation/generated/rse_researchmethods.qmd)
-- [RSEng Project](generation/generated/cs_project.qmd)
-- [Domain Science Project](generation/generated/mnt_project.qmd)
-- [Domain Science Wildcard Courses](generation/generated/mnt_wildcard.qmd)
-- [RSE Thesis](rse_thesis)
+- [RSEng Lecture Series](../modules/rse_lectureseries.qmd)
+- [Research methods for RSEs](../modules/rse_researchmethods.qmd)
+- [RSEng Project](../modules/cs_project.qmd)
+- [Domain Science Project](../modules/mnt_project.qmd)
+- [Domain Science Wildcard Courses](../modules/mnt_wildcard.qmd)
+- [RSE Thesis](../modules/rse_thesis.qmd)
 
 ## Technical skills
 
 Implemented in:
 
-- [RSE Nuts and Bolts](generation/generated/rse_nuts_bolts.qmd)
-- [Foundations of Computer Science](generation/generated/gen_cs.qmd)
-- [Algorithms and Datastructures](generation/generated/gen_programming.qmd)
-- [Foundations of Software Engineering](generation/generated/gen_softwareeng1.qmd)
-- [Advanced Software Engineering](generation/generated/gen_softwareeng2.qmd)
-- [Software Engineering for RSEs](generation/generated/rse_softwareengineering.qmd)
-- [Foundations of Data Science](generation/generated/gen_datascience.qmd)
-- [Natural Language Processing](generation/generated/gen_datatext.qmd)
-- [Scientific Computing Basics](generation/generated/rse_scientificcomputing.qmd)
-- [Advanced Computer Science modules](generation/generated/cs_elective.qmd)
+- [RSE Nuts and Bolts](../modules/rse_nuts_bolts.qmd)
+- [Foundations of Computer Science](../modules/gen_cs.qmd)
+- [Algorithms and Datastructures](../modules/gen_programming.qmd)
+- [Foundations of Software Engineering](../modules/gen_softwareeng1.qmd)
+- [Advanced Software Engineering](../modules/gen_softwareeng2.qmd)
+- [Software Engineering for RSEs](../modules/rse_softwareengineering.qmd)
+- [Foundations of Data Science](../modules/gen_datascience.qmd)
+- [Natural Language Processing](../modules/gen_datatext.qmd)
+- [Scientific Computing Basics](../modules/rse_scientificcomputing.qmd)
+- [Advanced Computer Science modules](../modules/cs_elective.qmd)
 
 ## Communication skills
 
 Implemented in:
 
-- [RSEng Management](generation/generated/rse_management.qmd)
-- [RSEng, Ethics & Society](generation/generated/rse_society_philosophy.qmd)
-- [RSEng Teaching](generation/generated/rse_teaching.qmd)
+- [RSEng Management](../modules/rse_management.qmd)
+- [RSEng, Ethics & Society](../modules/rse_society_philosophy.qmd)
+- [RSEng Teaching](../modules/rse_teaching.qmd)
 
 
 

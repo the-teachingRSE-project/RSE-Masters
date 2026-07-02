@@ -23,8 +23,8 @@ book:
   chapters:
     - index.qmd
     - general/job_roles.qmd
-    - generation/generated/cs_curriculum.qmd
-    - generation/generated/mnt_curriculum.qmd
+    - curricula/cs.qmd
+    - curricula/mnt.qmd
     - general/glossary.qmd
 
 

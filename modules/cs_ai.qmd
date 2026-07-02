@@ -1,0 +1,41 @@
+## Current Topics in Artificial Intelligence
+
+### Introduction
+
+This module deals with recent research in artificial intelligence.
+
+### Contents
+
+The seminar addresses current research questions in the field of artificial intelligence.
+
+### Learning Objectives
+
+Students
+- are able to define and interpret the special features, limitations, terminology and doctrines in the field of artificial intelligence. The knowledge and understanding gained by students forms the basis for the development and/or application of independent ideas in the field of artificial intelligence in a research-oriented context
+- have a broad, detailed and critical understanding of the latest state of knowledge in selected specialist areas in the field of artificial intelligence
+- are able to apply their knowledge, understanding and problem-solving skills in new and unfamiliar situations that are related to the field of artificial intelligence in a broader or multidisciplinary context. 
+
+### Examination Methods
+
+- 30 minute presentation with discussion
+
+### Sources & Implementations:
+
+#### Courses
+
+- [Aktuelle Themen der Künstlichen Intelligenz](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)
+
+- [Aktuelle Themen der Informatik](https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf)
+
+#### Programs
+
+- [UP Computational Science Master](https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science)
+
+- [JMUW Informatik Master](https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/)
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::

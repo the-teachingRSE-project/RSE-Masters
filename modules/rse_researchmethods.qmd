@@ -1,0 +1,34 @@
+## Research Paradigms and Methodology for RSEs
+
+The module addresses the complex field of interaction between software as part of the reproducible research process and as a variable and research result in its own right. Similar to statistics, the use of computer technology leads to an expansion of possible research topics, but also to new sources of error, complexity and associated approaches. 
+
+This includes but is not limited to:
+
+- Forms of research and disciplinary culture
+- Empirical research methods (e.g. for software evaluation)
+- Design-based research and design science
+- Qualitative methods for concept evaluation
+- Simulation techniques and mixed methods
+
+## Example OER from Piloting
+
+### RWTH Seminar: Research Methods and Methodology for RSE 2026
+
+- [Lecture 1: Overview Empirical Methods and RSE](../components/rse_researchmethods/piloting/rwth_2026/lecture1_foundations.pdf)
+- [Lecture 2: Qualitative Methods and RSE](../components/rse_researchmethods/piloting/rwth_2026/lecture_2_qualitative.pdf)
+- [Lecture 3: Interviews](../components/rse_researchmethods/piloting/rwth_2026/lecture_3_interviews.pdf)
+- [Lecture 4: Quantitative Methods](../components/rse_researchmethods/piloting/rwth_2026/lecture_4_quantitative.pdf)
+- [Lecture 5: Empirical Evaluation of Research Software](../components/rse_researchmethods/piloting/rwth_2026/lecture_5_software_evaluation.pdf)
+
+### Sources & Implementations:
+
+#### Courses
+
+- [Research methods & ethics](https://hpi.de/naumann/teaching/current-courses/ws-25-26/research-methods-methoden-der-forschung.html)
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::

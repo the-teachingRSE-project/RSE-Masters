@@ -1,0 +1,139 @@
+
+
+
+
+# Example for Uni Potsdam  
+
+
+::: {.content-visible when-format="html"}
+
+## Module Descriptions (Linked)
+- [Current Topics in Artificial Intelligence](../modules/cs_ai.qmd)
+- [Complexity Theory](../modules/cs_complexitytheory.qmd)
+- [Computer Vision](../modules/cs_computervision.qmd)
+- [Declarative Programming](../modules/cs_declarativeprogramming.qmd)
+- [Distributed Systems](../modules/cs_distributedsystems.qmd)
+- [Efficient Algorithms](../modules/cs_efficientalgorithms.qmd)
+- [Compulsory Elective Area](../modules/cs_elective.qmd)
+- [Embedded Systems](../modules/cs_embeddedsystems.qmd)
+- [RSEng Lab Project](../modules/cs_project.qmd)
+- [Security and Cryptography](../modules/cs_securitycrypto.qmd)
+- [Fundamentals of Computer Science](../modules/gen_cs.qmd)
+- [Mathematical Foundations of Data Science](../modules/gen_datamaths.qmd)
+- [Data Science](../modules/gen_datascience.qmd)
+- [Natural Language Processing](../modules/gen_datatext.qmd)
+- [Applied Programming](../modules/gen_programming.qmd)
+- [Software Engineering](../modules/gen_softwareeng1.qmd)
+- [Software Engineering II](../modules/gen_softwareeng2.qmd)
+- [Computational Science Wildcard](../modules/mnt_compwildcard.qmd)
+- [Science Lab](../modules/mnt_project.qmd)
+- [Science Wildcard](../modules/mnt_wildcard.qmd)
+- [High-Performance Computing](../modules/rse_hpc.qmd)
+- [RSEng Lecture Series](../modules/rse_lectureseries.qmd)
+- [RSEng Management](../modules/rse_management.qmd)
+- [RSEng Nuts and Bolts](../modules/rse_nuts_bolts.qmd)
+- [Research Paradigms and Methodology for RSEs](../modules/rse_researchmethods.qmd)
+- [Scientific Computing](../modules/rse_scientificcomputing.qmd)
+- [RSEng, Ethics & Society](../modules/rse_society_philosophy.qmd)
+- [Software Engineering for RSEs](../modules/rse_softwareengineering.qmd)
+- [RSEng Teaching](../modules/rse_teaching.qmd)
+- [Master's Thesis](../modules/rse_thesis.qmd)
+
+:::
+
+## Suggested Study Plan
+
+| Type | Description | SWS | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Existing Courses | New Concept |
+|------|-------------|-----|-------|-------|-------|-------|------------------|------------|
+| Lecture | RSEng Lecture Series | 2 | 3 | 0 | 0 | 0 || yes |
+| Seminar | RSEng Nuts and Bolts | 2 | 3 | 0 | 0 | 0 || yes |
+| Lecture | RSEng Management Lecture | 2 | 3 | 0 | 0 | 0 |[Organizational Behavior & Human Resource Management](https://www.uni-potsdam.de/de/fop2/studium-und-lehre/bachelorveranstaltungen/organizational-behavior-und-hrm)| yes |
+| Exercise | RSEng Management Exercise | 2 | 3 | 0 | 0 | 0 |[Organizational Behavior & Human Resource Management](https://www.uni-potsdam.de/de/fop2/studium-und-lehre/bachelorveranstaltungen/organizational-behavior-und-hrm)| yes |
+| Lecture | Statistical Data Analysis | 4 | 6 | 0 | 0 | 0 |[Statistical Data Analysis (MATVMD837)](https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf)| no |
+| Exercise | Statistical Data Analysis Exercise | 2 | 3 | 0 | 0 | 0 |[Statistical Data Analysis (MATVMD837)](https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf)| no |
+| Lecture | Mathematical Foundations of Data Science | 2 | 2 | 0 | 0 | 0 |[Mathematical Foundations of Data Science (MAT-DSAM8B)](https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf)| no |
+| Exercise | Mathematical Foundations of Data Science Exercise | 2 | 4 | 0 | 0 | 0 |[Mathematical Foundations of Data Science (MAT-DSAM8B)](https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf)| no |
+| Seminar | Software Engineering for RSEs | 2 | 0 | 3 | 0 | 0 |[Research Software Engineering](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)| yes |
+| Exercise | Software Engineering Exercise for RSEs | 2 | 0 | 3 | 0 | 0 |[Research Software Engineering](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)| yes |
+| Seminar | Research Paradigms and Methodology for RSEs | 2 | 0 | 3 | 0 | 0 || yes |
+| Seminar | RSEng, Ethics & Society | 2 | 0 | 3 | 0 | 0 |[Basismodul Grundlagen der Theoretischen Philosophie](https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/philosophie)| yes |
+| any | Compulsory Elective 1 | 4 | 0 | 6 | 0 | 0 || no |
+| any | Compulsory Elective 2 | 4 | 0 | 6 | 0 | 0 || no |
+| any | Compulsory Elective 3 | 4 | 0 | 6 | 0 | 0 || no |
+| Seminar | RSEng Teaching | 2 | 0 | 0 | 3 | 0 || yes |
+| Lecture | Natural Language Processing | 2 | 0 | 0 | 4 | 0 || no |
+| Exercise | Natural Language Processing Exercise | 2 | 0 | 0 | 2 | 0 || no |
+| Lecture | Scientific Computing | 2 | 0 | 0 | 3 | 0 || yes |
+| Exercise | Scientific Computing Exercise | 2 | 0 | 0 | 3 | 0 || yes |
+| Lab | RSEng Lab Project | 8 | 0 | 0 | 12 | 0 |[Praktikum](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf)<br>[Interdisziplinäre Projektarbeit](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)| yes |
+| Lecture and Exercise | Current topics in Artificial Intelligence | 4 | 0 | 0 | 6 | 0 |[Aktuelle Themen der Künstlichen Intelligenz](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)| no |
+| Thesis | RSEng Master Thesis | 0 | 0 | 0 | 0 | 30 || yes |
+|  | **Total ECTS per semester** |  | **27** | **30** | **33** | **30** |  |  |
+
+
+**Total Curriculum ECTS: 120**
+
+
+::: {.content-visible when-format="pdf"}
+
+{{< include ../modules/cs_ai.qmd >}}
+
+{{< include ../modules/cs_complexitytheory.qmd >}}
+
+{{< include ../modules/cs_computervision.qmd >}}
+
+{{< include ../modules/cs_declarativeprogramming.qmd >}}
+
+{{< include ../modules/cs_distributedsystems.qmd >}}
+
+{{< include ../modules/cs_efficientalgorithms.qmd >}}
+
+{{< include ../modules/cs_elective.qmd >}}
+
+{{< include ../modules/cs_embeddedsystems.qmd >}}
+
+{{< include ../modules/cs_project.qmd >}}
+
+{{< include ../modules/cs_securitycrypto.qmd >}}
+
+{{< include ../modules/gen_cs.qmd >}}
+
+{{< include ../modules/gen_datamaths.qmd >}}
+
+{{< include ../modules/gen_datascience.qmd >}}
+
+{{< include ../modules/gen_datatext.qmd >}}
+
+{{< include ../modules/gen_programming.qmd >}}
+
+{{< include ../modules/gen_softwareeng1.qmd >}}
+
+{{< include ../modules/gen_softwareeng2.qmd >}}
+
+{{< include ../modules/mnt_compwildcard.qmd >}}
+
+{{< include ../modules/mnt_project.qmd >}}
+
+{{< include ../modules/mnt_wildcard.qmd >}}
+
+{{< include ../modules/rse_hpc.qmd >}}
+
+{{< include ../modules/rse_lectureseries.qmd >}}
+
+{{< include ../modules/rse_management.qmd >}}
+
+{{< include ../modules/rse_nuts_bolts.qmd >}}
+
+{{< include ../modules/rse_researchmethods.qmd >}}
+
+{{< include ../modules/rse_scientificcomputing.qmd >}}
+
+{{< include ../modules/rse_society_philosophy.qmd >}}
+
+{{< include ../modules/rse_softwareengineering.qmd >}}
+
+{{< include ../modules/rse_teaching.qmd >}}
+
+{{< include ../modules/rse_thesis.qmd >}}
+
+:::

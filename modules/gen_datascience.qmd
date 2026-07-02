@@ -1,0 +1,62 @@
+## Statistical Data Analysis
+This module introduces the students to statistical data analysis.
+
+### Contents
+This module focuses on the statistical study and quantitative analysis of the dependence between observed random variables (e.g., yield/production settings; lifespan/treatment type and injury type).
+Essential foundations for the statistical treatment of such relationships are provided by the linear regression model, which is studied in detail in the first part of the lecture.
+Within this framework, topics such as estimation, testing, and uncertainty quantification (analysis of variance) are addressed.
+In the second part, an introduction to advanced methods and approaches for examining relationships is offered, including nonlinear and nonparametric regression models.
+Additionally, questions of classification and dimensionality reduction are covered.
+
+### Learning outcomes
+Students will acquire a comprehensive, detailed and specialised understanding of the linear regression model based on the latest findings. They will learn basic concepts and methods of non-parametric statistics. They will also be able to solve complex statistical data analysis problems, weigh up alternative modelling approaches and evaluate them according to different criteria. They will be able to use functions from statistical software packages for this purpose.
+
+### Examination method
+exam (120-180 minutes) or oral exam (30 minutes)
+
+### Sources & Implementations:
+
+#### Curricula
+
+- [Empfehlungen Masterstudiengänge Data Science](https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf)
+
+#### Courses
+
+- [Data Exploration and Visualisation](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/data-exploration-visualisation/)
+
+- [Software and tools](https://ukdataservice.ac.uk/learning-hub/software-and-tools/)
+
+- [Data Processing with R](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/data-processing-with-r/)
+
+- [Data Processing with Python (Pandas)](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/data-processing-python-pandas/)
+
+- [Plotting in Python with Matplotlib](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/plotting-in-python-with-matplotlib/)
+
+- [Statistical Data Analysis (MATVMD837)](https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf)
+
+- [Programmieren für Data Scientists Python](https://studip.uni-goettingen.de/dispatch.php/course/details/index/d5e09a9298492991a57d59c7b2f09f98)
+
+- [Elements of Machine Learning and Data Science](https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952)
+
+- [Introduction to Data Science](https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970)
+
+- [Data Science](https://www2.uni-wuerzburg.de/mhb/MHB1-de-88-079-H-2025.pdf)
+
+#### Programs
+
+- [UP Data Science Master](https://www.uni-potsdam.de/de/studium/studienangebot/master/data-science)
+
+- [JMUW Informatik Bachelor](https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/)
+
+- [JMUW Informatik Master](https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/)
+
+- [RWTH Informatik Bachelor](https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/)
+
+- [RWTH Data Science Master](https://sc.informatik.rwth-aachen.de/de/studium/master/master-data-science/program-structure/)
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::

@@ -1,7 +1,0 @@
-meta:
-  id: mnt-science
-  profiles:
-      - mnt
-      - cs
-  name: Science Wildcard
-  area: domain_advanced

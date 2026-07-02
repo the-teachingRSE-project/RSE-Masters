@@ -1,0 +1,18 @@
+## Science Lab Module
+
+*Applied Research Software Engineering in STEM sciences*
+
+This lab module provides students with a hands-on opportunity to apply research software engineering principles to real-world scientific problems from the MINT disciplines (Mathematics, Informatics, Natural Sciences, and Technology). Students work on projects originating from active research contexts — such as simulations in physics, data analysis in chemistry, modeling in biology, or
+
+### Sources & Implementations:
+
+#### Programs
+
+- [UP Master Bioinformatik](https://www.uni-potsdam.de/de/studium/studienangebot/master/bioinformatics)
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::

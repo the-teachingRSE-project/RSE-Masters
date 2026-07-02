@@ -1,0 +1,32 @@
+## Wildcard Computational Science
+
+This module offers RSE students the opportunity to deepen their understanding of computational methods specific to a science discipline. Students choose a science module — such as physics, chemistry, biology, or earth sciences — and engage with its computational practices, core questions, and data/software challenges.
+
+The goal is to apply the general competences acquired in the general programming and software engineering courses to the practices and special needs of the chosen discipline. Computational Physics might face different algorithmic or conceptual challenges than computational chemistry. This module is intended for the case that the institution offers such a specialized computational course.
+
+### Sources & Implementations:
+
+#### Courses
+
+- [Computational Chemistry](https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952)
+
+- [Computational Physics](https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1975&pDocNr=14085970)
+
+- [Computeranwendungen in der Chemie](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)
+
+#### Programs
+
+- [UP Master Bioinformatik](https://www.uni-potsdam.de/de/studium/studienangebot/master/bioinformatics)
+
+- [UP Computational Science Master](https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science)
+
+- [RWTH Informatik Bachelor](https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/)
+
+- [RWTH Informatik Master](https://www.rwth-aachen.de/go/id/bcfg)
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::

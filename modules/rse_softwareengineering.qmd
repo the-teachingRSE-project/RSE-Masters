@@ -1,0 +1,38 @@
+## Software Engineering for RSEs
+This module extends the Classical Software Engineering Module with research specific learnings. This includes but is not limited to
+
+- software re-use (see SRU in [@competencies-F1000])
+- creating documented code building blocks (see DOCBB in [@competencies-F1000])
+- building distributable software (see DIST in [@competencies-F1000])
+- research specific programming languages
+- research specific code requirements (scalability, functional programming, ...)
+- Adapting the software life cycle to research (see SWLC in [@competencies-F1000])
+- Software behaviour awareness and analysis (see MOD in [@competencies-F1000])
+- Research specific Engineering Patterns
+
+Also, the seminar provides room for reflection and discussions of SE lab experiences.
+
+### Sources & Implementations:
+
+#### Courses
+
+- [Research Software Engineering](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)
+
+- [Automated testing](https://coderefinery.github.io/testing/)
+
+- [Documenting your research software](https://coderefinery.github.io/documentation/)
+
+- [Introduction to Research Software Engineering](https://tu-dresden.de/ing/informatik/smt/cgv/studium/lehrveranstaltungen/ss2025/copy_of_index)
+
+- [Research Software Engineering](https://www.hcds.uni-hamburg.de/teaching/courses/research-software-engineering.html)
+
+#### Programs
+
+- [UP Computational Science Master](https://www.uni-potsdam.de/de/studium/studienangebot/master/computational-science)
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::

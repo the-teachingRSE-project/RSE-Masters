@@ -13,12 +13,12 @@ website:
   description: ""
   navbar:
     right:
-      #- text: "Curriculum Track 1"
-      #  href: generation/generated/cs_curriculum.qmd
-      #- text: "Curriculum Track 2"
-      #  href: generation/generated/mnt_curriculum.qmd
-      #- text: "Universität Potsdam Beispiel"
-      #  href: generation/generated/up_curriculum.qmd
+      - text: "Curriculum Track 1"
+        href: curricula/cs.qmd
+      - text: "Curriculum Track 2"
+        href: curricula/mnt.qmd
+      - text: "Universität Potsdam Beispiel"
+        href: curricula/up.qmd
       - text: "Preambel"
         href: general/preambel_general.qmd
       - text: "Job Roles"

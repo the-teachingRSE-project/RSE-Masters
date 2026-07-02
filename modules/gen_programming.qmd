@@ -1,0 +1,63 @@
+## Applied Programming
+
+This module builds on the basics of computer science and introduces the students to more advanced programming concepts like programming paradigms, algorithms and data structures.
+
+#### Procedural Programming Concepts
+
+*Programming with an imperative-procedural language (such as C):*
+
+- Data types, type casting, control structures, functions and procedures, parameter passing paradigms, call stack
+- Pointers, arrays, strings, structured types
+- Errors and their handling
+- Dynamic memory management
+- Program libraries
+
+#### Programming in an Object-Oriented Language (e.g., Java)
+
+- Classes, objects, constructors
+- Inheritance, polymorphism, abstract classes/interfaces
+- Exceptions and exception handling
+- Namespaces (packages)
+- Generic classes and types
+- Program libraries
+
+### Sources & Implementations:
+
+#### Curricula
+
+- [Computing Curricula 2020](https://dl.acm.org/doi/book/10.1145/3467967)
+
+#### Courses
+
+- [Praxis der Programmierung](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf)
+
+- [Algorithmen und Datenstrukturen](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf)
+
+- [Python for Psychologists](https://peerherholz.github.io/Python_for_Psychologists_Winter2021/index.html)
+
+- [Fortgeschrittenes Programmieren](https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf)
+
+- [Algorithmen und Datenstrukturen](https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952)
+
+- [Advanced Programming](https://www.moodle.tum.de/course/view.php?id=90628)
+
+- [Programmierung 2](https://www.uni-saarland.de/fileadmin/upload/studium/angebot/mhb_ba/2025/MHB_BA_Inform.pdf)
+
+#### Programs
+
+- [UP Informatik/Computational Science Bachelor](https://www.uni-potsdam.de/de/studium/studienangebot/bachelor/ein-fach-bachelor/informatikcomputational-science-ein-fach-bachelor)
+
+- [JMUW Informatik Bachelor](https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/)
+
+- [JMUW Informatik Master](https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/)
+
+- [RWTH Informatik Bachelor](https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/)
+
+- [UdS Informatik Bachelor](https://www.uni-saarland.de/studium/angebot/bachelor/informatik.html)
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::

@@ -108,12 +108,12 @@ Selbststudium: 60
 
 ## Lectures
 
-[Lecture 1: Scientific Writing](../../components/rse_management/scientific-writing.pdf)
+[Lecture 1: Scientific Writing](scientific-writing.pdf)
 
 ## Call for Contribution
 
 As part of the pilot for this RSE-in-master-education concept we are testing some of the courses developed here.
-For [this particular course](../../generation/generated/rse_management.qmd) we found that there is vast literature available
+For [this particular course](../../modules/rse_management.qmd) we found that there is vast literature available
 for management and communication purposes but not so much available tailored to RSE. For this reason, we decided to develop the application specifics together with the students following the inquiry-based learning paradigm [@Brew.2003].
 
 

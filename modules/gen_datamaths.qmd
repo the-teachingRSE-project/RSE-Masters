@@ -1,0 +1,42 @@
+## Mathematical Foundations of Data Science
+This module covers the mathematical foundations of data science.
+
+### Contents
+The module teaches the mathematical fundamentals of data science. Topics include a selection from the areas of graph analysis, stochastic models and signal analysis with wavelets.
+
+### Learning outcomes
+Students will acquire comprehensive, detailed and specialised knowledge of the latest findings in selected fundamentals of data science. Students will have an in-depth understanding of selected data science methods. They will be able to analyse novel data assimilation and inference problems, develop and implement solutions, and determine the quality of the solutions. They will be able to develop new ideas and procedures, weigh up alternatives when information is incomplete, and evaluate them taking into account different assessment criteria.
+
+### Examination Method:
+written exam (120 minutes) or oral exam (30 minutes)
+
+### Sources & Implementations:
+
+#### Curricula
+
+- [Empfehlungen Masterstudiengänge Data Science](https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf)
+
+#### Courses
+
+- [Mathematical Foundations of Data Science (MAT-DSAM8B)](https://www.uni-potsdam.de/fileadmin/projects/studium/docs/03_studium_konkret/07_rechtsgrundlagen/studienordnungen/StO_Data_Science_iLF.pdf)
+
+- [Mathematical Foundations of Data Science](https://www2.uni-wuerzburg.de/mhb/MHB1-de-82-079-H-2025.pdf)
+
+- [Algorithmic Foundations of Datascience](https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952)
+
+#### Programs
+
+- [UP Data Science Master](https://www.uni-potsdam.de/de/studium/studienangebot/master/data-science)
+
+- [JMUW Informatik Bachelor](https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/bachelor-informatik/)
+
+- [RWTH Informatik Bachelor](https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bnzs/informatik-b-sc-/)
+
+- [RWTH Informatik Master](https://www.rwth-aachen.de/go/id/bcfg)
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::
