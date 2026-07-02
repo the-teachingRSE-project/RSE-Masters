@@ -46,8 +46,8 @@ Interdisciplinary researchers where the computer science background is rivalled 
 
 You can find the tracks as follows:
 
-- Computer Science Generalist Track [here](../curricula/cs.qmd)
-- Natural Science / Domain Science Track [here](../curricula/mnt.qmd)
+- Computer Science Generalist Track [here](curricula/cs.qmd)
+- Natural Science / Domain Science Track [here](curricula/mnt.qmd)
 
 -->
 
@@ -58,35 +58,35 @@ modules as follows:
 
 Implemented in the following components:
 
-- [RSEng Lecture Series](../modules/rse_lectureseries.qmd)
-- [Research methods for RSEs](../modules/rse_researchmethods.qmd)
-- [RSEng Project](../modules/cs_project.qmd)
-- [Domain Science Project](../modules/mnt_project.qmd)
-- [Domain Science Wildcard Courses](../modules/mnt_wildcard.qmd)
-- [RSE Thesis](../modules/rse_thesis.qmd)
+- [RSEng Lecture Series](modules/rse_lectureseries.qmd)
+- [Research methods for RSEs](modules/rse_researchmethods.qmd)
+- [RSEng Project](modules/cs_project.qmd)
+- [Domain Science Project](modules/mnt_project.qmd)
+- [Domain Science Wildcard Courses](modules/mnt_wildcard.qmd)
+- [RSE Thesis](modules/rse_thesis.qmd)
 
 ## Technical skills
 
 Implemented in:
 
-- [RSE Nuts and Bolts](../modules/rse_nuts_bolts.qmd)
-- [Foundations of Computer Science](../modules/gen_cs.qmd)
-- [Algorithms and Datastructures](../modules/gen_programming.qmd)
-- [Foundations of Software Engineering](../modules/gen_softwareeng1.qmd)
-- [Advanced Software Engineering](../modules/gen_softwareeng2.qmd)
-- [Software Engineering for RSEs](../modules/rse_softwareengineering.qmd)
-- [Foundations of Data Science](../modules/gen_datascience.qmd)
-- [Natural Language Processing](../modules/gen_datatext.qmd)
-- [Scientific Computing Basics](../modules/rse_scientificcomputing.qmd)
-- [Advanced Computer Science modules](../modules/cs_elective.qmd)
+- [RSE Nuts and Bolts](modules/rse_nuts_bolts.qmd)
+- [Foundations of Computer Science](modules/gen_cs.qmd)
+- [Algorithms and Datastructures](modules/gen_programming.qmd)
+- [Foundations of Software Engineering](modules/gen_softwareeng1.qmd)
+- [Advanced Software Engineering](modules/gen_softwareeng2.qmd)
+- [Software Engineering for RSEs](modules/rse_softwareengineering.qmd)
+- [Foundations of Data Science](modules/gen_datascience.qmd)
+- [Natural Language Processing](modules/gen_datatext.qmd)
+- [Scientific Computing Basics](modules/rse_scientificcomputing.qmd)
+- [Advanced Computer Science modules](modules/cs_elective.qmd)
 
 ## Communication skills
 
 Implemented in:
 
-- [RSEng Management](../modules/rse_management.qmd)
-- [RSEng, Ethics & Society](../modules/rse_society_philosophy.qmd)
-- [RSEng Teaching](../modules/rse_teaching.qmd)
+- [RSEng Management](modules/rse_management.qmd)
+- [RSEng, Ethics & Society](modules/rse_society_philosophy.qmd)
+- [RSEng Teaching](modules/rse_teaching.qmd)
 
 
 
