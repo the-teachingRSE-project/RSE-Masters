@@ -7,43 +7,57 @@ foundations they are missing, then deepen the computational methods of their own
 the RSE-specific competencies.
 
 The curriculum follows the six competency areas (*Bereiche*) of Table 5.1 of the curricular
-recommendations. The table below reproduces that structure with the ECTS that apply to Track 2.
+recommendations. The table below reproduces that structure — including its colour coding — with the
+ECTS that apply to Track 2.
 
 ::: {.content-visible when-format="html"}
 
 ## Curriculum Structure (Track 2)
 
-| Area / Module | ECTS |
-|---|---:|
-| **Computer Science** | **18** |
-| [Foundations of Computer Science](../modules/gen_cs.qmd) | 6 * |
-| [Foundations of Software Development](../modules/gen_softwareeng1.qmd) | 6 * |
-| [Algorithms and Data Structures](../modules/gen_programming.qmd) | 6 * |
-| Computer Science Elective | 0 |
-| **Software Engineering** | **0** |
-| [Requirements Engineering](../modules/standard.qmd) | 0 * |
-| [Software Architecture](../modules/standard.qmd) | 0 * |
-| [Software Testing](../modules/standard.qmd) | 0 * |
-| **Domain Specializations** | **27** |
-| [Domain Specialization Electives (own domain)](../modules/mnt_wildcard.qmd) | 21 |
-| [Computational Research in the Domain](../modules/mnt_compwildcard.qmd) | 6 |
-| **Technical Competencies for RSEs** | **21** |
-| [Applied Software Development Tools and Techniques](../modules/rse_nuts_bolts.qmd) | 3 |
-| [Introduction to Scientific Computing](../modules/rse_scientificcomputing.qmd) | 6 |
-| [Machine Learning](../modules/standard.qmd) | 6 |
-| [Software Development for RSEs](../modules/rse_softwareengineering.qmd) | 6 |
-| **Social Competencies for RSEs** | **12** |
-| [RSEng Management](../modules/rse_management.qmd) | 6 |
-| [RSEng, Ethics & Society](../modules/rse_society_philosophy.qmd) | 3 |
-| [RSEng Teaching](../modules/rse_teaching.qmd) | 3 |
-| **RSEng Research** | **42** |
-| [RSEng Lecture Series](../modules/rse_lectureseries.qmd) | 3 |
-| [Research Paradigms and Methodology for RSEs](../modules/rse_researchmethods.qmd) | 3 |
-| [RSEng Project](../modules/mnt_project.qmd) | 6 |
-| [Master's Thesis](../modules/rse_thesis.qmd) | 30 |
-| **Total** | **120** |
-
-: Modules and ECTS for Track 2 {tbl-colwidths="[80,20]"}
+```{=html}
+<style>
+.curric-table{width:100%;border-collapse:collapse;font-size:.95rem;margin:1rem 0;}
+.curric-table th{text-align:left;padding:.55rem .8rem;border-bottom:2px solid #333;}
+.curric-table th.ects,.curric-table td.ects{text-align:right;white-space:nowrap;width:8rem;}
+.curric-table td{padding:.4rem .8rem;border-top:3px solid #fff;}
+.curric-table tr.area td{font-weight:700;text-transform:uppercase;letter-spacing:.02em;}
+.curric-table tr.mod td:first-child{padding-left:1.8rem;}
+.curric-table tr.total td{font-weight:700;background:#fff;border-top:2px solid #333;}
+.curric-table a{text-decoration:none;color:inherit;border-bottom:1px dotted rgba(0,0,0,.45);}
+</style>
+<table class="curric-table">
+<thead><tr><th>Area / Module</th><th class="ects">ECTS (Track 2)</th></tr></thead>
+<tbody>
+<tr class="area" style="background:#B8BCD3"><td>Computer Science</td><td class="ects">18</td></tr>
+<tr class="mod" style="background:#B8BCD3"><td><a href="../modules/gen_cs.html">Foundations of Computer Science</a></td><td class="ects">6&nbsp;*</td></tr>
+<tr class="mod" style="background:#B8BCD3"><td><a href="../modules/gen_softwareeng1.html">Foundations of Software Development</a></td><td class="ects">6&nbsp;*</td></tr>
+<tr class="mod" style="background:#B8BCD3"><td><a href="../modules/gen_programming.html">Algorithms and Data Structures</a></td><td class="ects">6&nbsp;*</td></tr>
+<tr class="mod" style="background:#B8BCD3"><td>Computer Science Elective</td><td class="ects">0</td></tr>
+<tr class="area" style="background:#D9E6ED"><td>Software Engineering</td><td class="ects">0</td></tr>
+<tr class="mod" style="background:#D9E6ED"><td><a href="../modules/standard.html">Requirements Engineering</a></td><td class="ects">0&nbsp;*</td></tr>
+<tr class="mod" style="background:#D9E6ED"><td><a href="../modules/standard.html">Software Architecture</a></td><td class="ects">0&nbsp;*</td></tr>
+<tr class="mod" style="background:#D9E6ED"><td><a href="../modules/standard.html">Software Testing</a></td><td class="ects">0&nbsp;*</td></tr>
+<tr class="area" style="background:#DFA3C9"><td>Domain Specializations</td><td class="ects">27</td></tr>
+<tr class="mod" style="background:#DFA3C9"><td><a href="../modules/mnt_wildcard.html">Domain Specialization Electives (own domain)</a></td><td class="ects">21</td></tr>
+<tr class="mod" style="background:#DFA3C9"><td><a href="../modules/mnt_compwildcard.html">Computational Research in the Domain</a></td><td class="ects">6</td></tr>
+<tr class="area" style="background:#EAC6DE"><td>Technical Competencies for RSEs</td><td class="ects">21</td></tr>
+<tr class="mod" style="background:#EAC6DE"><td><a href="../modules/rse_nuts_bolts.html">Applied Software Development Tools and Techniques</a></td><td class="ects">3</td></tr>
+<tr class="mod" style="background:#EAC6DE"><td><a href="../modules/rse_scientificcomputing.html">Introduction to Scientific Computing</a></td><td class="ects">6</td></tr>
+<tr class="mod" style="background:#EAC6DE"><td><a href="../modules/standard.html">Machine Learning</a></td><td class="ects">6</td></tr>
+<tr class="mod" style="background:#EAC6DE"><td><a href="../modules/rse_softwareengineering.html">Software Development for RSEs</a></td><td class="ects">6</td></tr>
+<tr class="area" style="background:#FFF7C0"><td>Social Competencies for RSEs</td><td class="ects">12</td></tr>
+<tr class="mod" style="background:#FFF7C0"><td><a href="../modules/rse_management.html">RSEng Management</a></td><td class="ects">6</td></tr>
+<tr class="mod" style="background:#FFF7C0"><td><a href="../modules/rse_society_philosophy.html">RSEng, Ethics &amp; Society</a></td><td class="ects">3</td></tr>
+<tr class="mod" style="background:#FFF7C0"><td><a href="../modules/rse_teaching.html">RSEng Teaching</a></td><td class="ects">3</td></tr>
+<tr class="area" style="background:#FFFAD8"><td>RSEng Research</td><td class="ects">42</td></tr>
+<tr class="mod" style="background:#FFFAD8"><td><a href="../modules/rse_lectureseries.html">RSEng Lecture Series</a></td><td class="ects">3</td></tr>
+<tr class="mod" style="background:#FFFAD8"><td><a href="../modules/rse_researchmethods.html">Research Paradigms and Methodology for RSEs</a></td><td class="ects">3</td></tr>
+<tr class="mod" style="background:#FFFAD8"><td><a href="../modules/mnt_project.html">RSEng Project</a></td><td class="ects">6</td></tr>
+<tr class="mod" style="background:#FFFAD8"><td><a href="../modules/rse_thesis.html">Master's Thesis</a></td><td class="ects">30</td></tr>
+<tr class="total"><td>Total</td><td class="ects">120</td></tr>
+</tbody>
+</table>
+```
 
 **\*** If students already acquired programming skills in their domain Bachelor, they may replace
 the Computer Science foundations (up to 18 ECTS) with elective Software Engineering courses
