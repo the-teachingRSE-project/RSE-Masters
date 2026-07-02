@@ -94,6 +94,10 @@ By the end of this module, students will be well-equipped to design, develop, do
 
 - [Introduction to Git and GitHub](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/introduction-to-using-git-and-github-for-software-development/)
 
+#### Recommended Course Literature
+
+- [Research Software Engineering with Python (e-book: shell, Git, Make, testing, packaging)](https://third-bit.com/py-rse/)
+
 ::: {.content-visible when-format="html"}
 
 ::: {#refs}

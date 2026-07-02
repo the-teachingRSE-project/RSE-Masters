@@ -42,6 +42,12 @@ This module conveys competences in areas such as but not limited to:
 
 - [Basismodul Grundlagen der Theoretischen Philosophie](https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/philosophie)
 
+#### Teaching Resources
+
+- [Responsible Computing (ethics teaching resources, assignments & publications)](https://www.internetruleslab.com/responsible-computing)
+
+- [Green Algorithms (carbon-footprint calculators & sustainability training)](https://www.green-algorithms.org/)
+
 #### Recommended Course Literature
 
 - [Values in Science](https://www.lehmanns.de/shop/naturwissenschaften/58997490-9781009055635-values-in-science)

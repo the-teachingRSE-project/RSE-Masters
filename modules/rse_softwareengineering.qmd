@@ -14,6 +14,12 @@ Also, the seminar provides room for reflection and discussions of SE lab experie
 
 ### Sources & Implementations:
 
+#### Curricula
+
+- [INTERSECT Research Software Engineering Curriculum](https://intersect-training.org/curriculum/)
+
+- [INTERSECT Curated Training Links](https://intersect-training.org/training-links/)
+
 #### Courses
 
 - [Research Software Engineering](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)

@@ -25,10 +25,18 @@ This includes but is not limited to:
 
 The seminar involves Micro-Teachings to let the students apply their new knowledge. These short teaching trials are reflected and evaluated in the seminar group.
 
-The seminar can be combined with another module to make room for peer-tutoring, e.g. RSEng Nuts and Bolts. 
+The seminar can be combined with another module to make room for peer-tutoring, e.g. RSEng Nuts and Bolts.
 
 ### Examination Methods
 short weekly assignments (not graded), micro-teaching (not graded) and 20 min oral examination (graded)
+
+### Sources & Implementations:
+
+#### Instructor Training
+
+- [CodeRefinery Instructor Training](https://coderefinery.github.io/instructor-training/)
+
+- [ENCCS Best Practices in HPC Training (for instructors)](https://enccs.github.io/instructor-training/)
 
 ::: {.content-visible when-format="html"}
 
