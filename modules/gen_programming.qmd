@@ -1,4 +1,4 @@
-## Applied Programming
+## Algorithms and Data Structures
 
 This module builds on the basics of computer science and introduces the students to more advanced programming concepts like programming paradigms, algorithms and data structures.
 

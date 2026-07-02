@@ -1,105 +1,90 @@
+# Track 2: Domain Science Bachelor Track
 
+This track is intended for students who enter the RSE Master with a **Bachelor in a domain
+subject** — natural sciences and technology (MNT), social sciences (SoWi), the humanities (HuWi),
+and related fields. These students first acquire the computer-science and software-engineering
+foundations they are missing, then deepen the computational methods of their own domain alongside
+the RSE-specific competencies.
 
-# Track 2: Domain Science / Natural Science Track  
-
-
-
+The curriculum follows the six competency areas (*Bereiche*) of Table 5.1 of the curricular
+recommendations. The table below reproduces that structure with the ECTS that apply to Track 2.
 
 ::: {.content-visible when-format="html"}
 
-## Module Descriptions (Linked)
-- [Fundamentals of Computer Science](../modules/gen_cs.qmd)
-- [Data Science](../modules/gen_datascience.qmd)
-- [Natural Language Processing](../modules/gen_datatext.qmd)
-- [Applied Programming](../modules/gen_programming.qmd)
-- [Software Engineering](../modules/gen_softwareeng1.qmd)
-- [Computational Science Wildcard](../modules/mnt_compwildcard.qmd)
-- [Science Lab](../modules/mnt_project.qmd)
-- [Science Wildcard](../modules/mnt_wildcard.qmd)
-- [RSEng Lecture Series](../modules/rse_lectureseries.qmd)
-- [RSEng Management](../modules/rse_management.qmd)
-- [RSEng Nuts and Bolts](../modules/rse_nuts_bolts.qmd)
-- [Research Paradigms and Methodology for RSEs](../modules/rse_researchmethods.qmd)
-- [Scientific Computing](../modules/rse_scientificcomputing.qmd)
-- [RSEng, Ethics & Society](../modules/rse_society_philosophy.qmd)
-- [Software Engineering for RSEs](../modules/rse_softwareengineering.qmd)
-- [RSEng Teaching](../modules/rse_teaching.qmd)
-- [Master's Thesis](../modules/rse_thesis.qmd)
+## Curriculum Structure (Track 2)
+
+| Area / Module | ECTS |
+|---|---:|
+| **Computer Science** | **18** |
+| [Foundations of Computer Science](../modules/gen_cs.qmd) | 6 * |
+| [Foundations of Software Development](../modules/gen_softwareeng1.qmd) | 6 * |
+| [Algorithms and Data Structures](../modules/gen_programming.qmd) | 6 * |
+| Computer Science Elective | 0 |
+| **Software Engineering** | **0** |
+| [Requirements Engineering](../modules/standard.qmd) | 0 * |
+| [Software Architecture](../modules/standard.qmd) | 0 * |
+| [Software Testing](../modules/standard.qmd) | 0 * |
+| **Domain Specializations** | **27** |
+| [Domain Specialization Electives (own domain)](../modules/mnt_wildcard.qmd) | 21 |
+| [Computational Research in the Domain](../modules/mnt_compwildcard.qmd) | 6 |
+| **Technical Competencies for RSEs** | **21** |
+| [Applied Software Development Tools and Techniques](../modules/rse_nuts_bolts.qmd) | 3 |
+| [Introduction to Scientific Computing](../modules/rse_scientificcomputing.qmd) | 6 |
+| [Machine Learning](../modules/standard.qmd) | 6 |
+| [Software Development for RSEs](../modules/rse_softwareengineering.qmd) | 6 |
+| **Social Competencies for RSEs** | **12** |
+| [RSEng Management](../modules/rse_management.qmd) | 6 |
+| [RSEng, Ethics & Society](../modules/rse_society_philosophy.qmd) | 3 |
+| [RSEng Teaching](../modules/rse_teaching.qmd) | 3 |
+| **RSEng Research** | **42** |
+| [RSEng Lecture Series](../modules/rse_lectureseries.qmd) | 3 |
+| [Research Paradigms and Methodology for RSEs](../modules/rse_researchmethods.qmd) | 3 |
+| [RSEng Project](../modules/mnt_project.qmd) | 6 |
+| [Master's Thesis](../modules/rse_thesis.qmd) | 30 |
+| **Total** | **120** |
+
+: Modules and ECTS for Track 2 {tbl-colwidths="[80,20]"}
+
+**\*** If students already acquired programming skills in their domain Bachelor, they may replace
+the Computer Science foundations (up to 18 ECTS) with elective Software Engineering courses
+(Requirements Engineering, Software Architecture, Software Testing; up to 12 ECTS) or other
+advanced courses. Universities may also make some of these courses mandatory prerequisites
+(*Auflagen*). The Computer Science / Software Engineering block sums to 18 ECTS in total for this
+track.
 
 :::
-
-## Suggested Study Plan
-
-| Type | Description | SWS | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Existing Courses | New Concept |
-|------|-------------|-----|-------|-------|-------|-------|------------------|------------|
-| Lecture | RSEng Lecture Series | 2 | 3 | 0 | 0 | 0 || yes |
-| Seminar | RSEng Nuts and Bolts | 2 | 3 | 0 | 0 | 0 || yes |
-| Lecture | Statistical Data Analysis | 4 | 6 | 0 | 0 | 0 || no |
-| Exercise | Statistical Data Analysis Exercise | 2 | 3 | 0 | 0 | 0 || no |
-| Lecture | Fundamentals of Computer Science | 2 | 2 | 0 | 0 | 0 || no |
-| Exercise | Fundamentals of Computer Science Exercise | 2 | 4 | 0 | 0 | 0 || no |
-| Lecture | Software Engineering I | 2 | 4 | 0 | 0 | 0 || no |
-| Exercise | Software Engineering I Exercise | 2 | 2 | 0 | 0 | 0 || no |
-| Lecture | Wildcard Science I | 2 | 2 | 0 | 0 | 0 || no |
-| Seminar | RSEng, Ethics & Society | 2 | 0 | 3 | 0 | 0 || yes |
-| Seminar | Research Paradigms and Methodology for RSEs | 2 | 0 | 3 | 0 | 0 || yes |
-| Lab | Wildcard Science Lab I | 2 | 0 | 4 | 0 | 0 || no |
-| Lecture | Wildcard Science II | 2 | 0 | 2 | 0 | 0 || no |
-| Lecture | Computational Wildcard Science | 2 | 0 | 3 | 0 | 0 || no |
-| Lab | Computational Wildcard Science Lab | 2 | 0 | 3 | 0 | 0 || no |
-| Seminar | Software Engineering for RSEs | 2 | 0 | 3 | 0 | 0 || yes |
-| Exercise | Software Engineering Exercise for RSEs | 2 | 0 | 3 | 0 | 0 || yes |
-| Lecture | Applied Programming | 2 | 0 | 2 | 0 | 0 || no |
-| Exercise | Applied Programming Exercise | 2 | 0 | 4 | 0 | 0 || no |
-| Lab | Wildcard Science Lab II | 2 | 0 | 0 | 4 | 0 || no |
-| Seminar | RSEng Teaching | 2 | 0 | 0 | 3 | 0 || yes |
-| Lecture | RSEng Management Lecture | 2 | 0 | 0 | 3 | 0 || yes |
-| Exercise | RSEng Management Exercise | 2 | 0 | 0 | 3 | 0 || yes |
-| Lecture | Natural Language Processing | 2 | 0 | 0 | 4 | 0 || no |
-| Exercise | Natural Language Processing Exercise | 2 | 0 | 0 | 2 | 0 || no |
-| Lecture | Scientific Computing | 2 | 0 | 0 | 3 | 0 || yes |
-| Exercise | Scientific Computing Exercise | 2 | 0 | 0 | 3 | 0 || yes |
-| Lab | Science Lab Project | 4 | 0 | 0 | 6 | 0 || no |
-| Thesis | RSEng Master Thesis | 0 | 0 | 0 | 0 | 30 || yes |
-|  | **Total ECTS per semester** |  | **29** | **30** | **31** | **30** |  |  |
-
-
-**Total Curriculum ECTS: 120**
-
 
 ::: {.content-visible when-format="pdf"}
 
 {{< include ../modules/gen_cs.qmd >}}
 
-{{< include ../modules/gen_datascience.qmd >}}
-
-{{< include ../modules/gen_datatext.qmd >}}
+{{< include ../modules/gen_softwareeng1.qmd >}}
 
 {{< include ../modules/gen_programming.qmd >}}
 
-{{< include ../modules/gen_softwareeng1.qmd >}}
-
-{{< include ../modules/mnt_compwildcard.qmd >}}
-
-{{< include ../modules/mnt_project.qmd >}}
+{{< include ../modules/standard.qmd >}}
 
 {{< include ../modules/mnt_wildcard.qmd >}}
 
-{{< include ../modules/rse_lectureseries.qmd >}}
-
-{{< include ../modules/rse_management.qmd >}}
+{{< include ../modules/mnt_compwildcard.qmd >}}
 
 {{< include ../modules/rse_nuts_bolts.qmd >}}
 
-{{< include ../modules/rse_researchmethods.qmd >}}
-
 {{< include ../modules/rse_scientificcomputing.qmd >}}
-
-{{< include ../modules/rse_society_philosophy.qmd >}}
 
 {{< include ../modules/rse_softwareengineering.qmd >}}
 
+{{< include ../modules/rse_management.qmd >}}
+
+{{< include ../modules/rse_society_philosophy.qmd >}}
+
 {{< include ../modules/rse_teaching.qmd >}}
+
+{{< include ../modules/rse_lectureseries.qmd >}}
+
+{{< include ../modules/rse_researchmethods.qmd >}}
+
+{{< include ../modules/mnt_project.qmd >}}
 
 {{< include ../modules/rse_thesis.qmd >}}
 

@@ -1,4 +1,4 @@
-## Science Lab Module
+## RSEng Project (Domain Science)
 
 *Applied Research Software Engineering in STEM sciences*
 

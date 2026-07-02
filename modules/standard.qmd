@@ -1,0 +1,21 @@
+## Standard University Course
+
+Several modules in the RSE curriculum correspond to **well-established courses that are already
+offered at most universities** — for example *Requirements Engineering*, *Software Architecture*,
+*Software Testing*, and *Machine Learning*. For these, the curriculum deliberately does **not**
+prescribe a bespoke, RSE-specific module description.
+
+Instead, departments are expected to slot in their existing course of the same name (or a close
+equivalent) to cover the required ECTS. This keeps the curriculum lightweight, avoids duplicating
+mature teaching material, and reserves the detailed, RSE-specific module descriptions for the
+genuinely new competencies of the programme.
+
+When selecting a concrete course, make sure it covers the standard body of knowledge for the topic
+and matches the ECTS listed in the curriculum table.
+
+::: {.content-visible when-format="html"}
+
+::: {#refs}
+:::
+
+:::

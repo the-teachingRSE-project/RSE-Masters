@@ -1,4 +1,4 @@
-## RSEng Lab Module
+## RSEng Project
 
 *Applied Research Software Engineering in scientific institutions*
 

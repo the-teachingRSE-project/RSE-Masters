@@ -1,4 +1,4 @@
-## Fundamentals of Computer Science
+## Foundations of Computer Science
 
 This module covers the basics of computer science and introduces the students from domain sciences to programming.
 
