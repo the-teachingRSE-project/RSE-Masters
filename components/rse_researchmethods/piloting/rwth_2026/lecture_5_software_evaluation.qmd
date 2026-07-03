@@ -124,6 +124,17 @@ bibliography:
 - Diskussion im Plenum
 
 
+# Kodiertechniken und LLMs
+
+- einfache Kodierung mit MaxQDA und Auswertung dort
+- Kodierung mit MaxQDA und Segmentanalyse mit Statistiksoftware (R)
+- Kodierung mit MaxQDA als Goldstandard für LLM-Labeling
+- LLM-Tournament:
+  - Automatische Kodierung mittels LLMs
+  - Deselektion derjenigen LLMs die systematisch daneben liegen
+  - Kodierung der Stellen, wo sich drei LLMs unterscheiden
+
+
 # Empirische Verteilung im DeLFI-Korpus
 
 Für jeden der 1052 Beiträge wurde aus den LLM-Begründungen per Dependency-Parsing das grammatikalische Objekt der Softwareevaluation (SE) und der empirischen Studie (EMP) extrahiert und als *software-intern* oder *extern* klassifiziert.
