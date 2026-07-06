@@ -110,7 +110,7 @@ Contribute here: [https://github.com/the-teachingRSE-project/RSE-Masters/tree/ma
 ```{python}
 #| output: asis
 
-yaml_path = "../components/gen_programming/meta.yml"
+yaml_path = "../modules/gen_programming/meta.yml"
 
 with open(yaml_path) as f:
     lines = f.readlines()[:15]
@@ -126,7 +126,7 @@ print("```")
 ```{python}
 #| output: asis
 
-yaml_path = "../components/gen_programming/lectures.yml"
+yaml_path = "../modules/gen_programming/lectures.yml"
 
 with open(yaml_path) as f:
     lines = f.readlines()[:15]
@@ -141,7 +141,7 @@ print("```")
 ```{python}
 #| output: asis
 
-yaml_path = "../components/gen_programming/sources.yml"
+yaml_path = "../modules/gen_programming/sources.yml"
 
 with open(yaml_path) as f:
     lines = f.readlines()[:15]
@@ -157,7 +157,7 @@ print("```")
 ```{python}
 #| output: asis
 
-yaml_path = "../components/gen_programming/competences.yml"
+yaml_path = "../modules/gen_programming/competences.yml"
 
 with open(yaml_path) as f:
     lines = f.readlines()[:15]

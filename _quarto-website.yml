@@ -6,7 +6,8 @@ project:
     - "*.qmd"
     - "!presentation/"
     - "!thesis/"
-    - "!components/rse_researchmethods/piloting/rwth_2026/"
+    - "!modules/rse_researchmethods/piloting/rwth_2026/"
+    - "!modules/rse_management/piloting/rwth_2026/rollenspiel/"
     - "!event/fachgruppentreffen/world_cafe.qmd"
     # include-only: rendered into index.qmd via {{< include >}}, not as its own page
     - "!general/preambel_general.qmd"

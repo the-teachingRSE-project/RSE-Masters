@@ -1,0 +1,51 @@
+---
+title: "Rollenspiel: Laterale Führung im RSE-Kontext"
+subtitle: "Ein Planspiel für Studierende – Szenario »LernSpur«"
+---
+
+Ein **Planspiel**, in dem Studierende **laterale Führung** üben: das Führen einer
+Research-Software-Initiative *ohne* disziplinarische Weisungsbefugnis – nur mit
+**Verständigung, Expertenmacht und Vertrauen**. Das Szenario spielt in der
+**empirischen Bildungsforschung**, einer bewusst zugänglichen Domäne, damit die
+Aufmerksamkeit auf der Führung liegt, nicht auf dem Fachjargon.
+
+## Die vier Bausteine
+
+| Baustein | Für wen | Inhalt |
+|----------|---------|--------|
+| [**Szenario**](szenario.qmd) | alle | gemeinsames Briefing: die Plattform »LernSpur« & das Kickoff-Meeting |
+| [**Die Rollen (Handout)**](rollen-oeffentlich.qmd) | alle | eine gemeinsame Übersicht aller Rollen – nur *öffentliches* Wissen, ein PDF für alle |
+| [**Verteilung & Karten**](rollenkarten.qmd) | Spielleitung | Verteilhinweise + Links zu den **vertraulichen** Einzelkarten (je 1 pro Person) |
+| [**Ereignisse & Timeline**](ereigniskarten.qmd) | Spielleitung | 7 triggerbare Ereignisse mit empfohlener Timeline |
+| [**Spielleitung**](spielleitung.qmd) | Lehrende | Geheimnis-Übersicht & Konfliktmatrix, Kompetenzziele, Beobachtung, Debrief |
+
+: {.striped}
+
+## In einem Satz
+
+> Eine frisch eingestellte RSE soll die verstreuten Daten einer bildungswissenschaftlichen
+> Längsschnittstudie in eine nachhaltige, FAIR-konforme Plattform überführen – und muss im
+> Kickoff-Meeting eine ungeduldige Professorin, eine termingetriebene Promovierende, eine
+> überforderte Hilfskraft und eine skeptische Partnerschule **führen, ohne Chef:in zu sein.**
+
+## Lernziel in aller Kürze
+
+Laterale Führung heißt *Führung auf Augenhöhe, ohne sich auf Hierarchie zu verlassen –
+sondern auf die Macht der eigenen Wirksamkeit*. Die Studierenden erleben, wie sich
+Zielkonflikte zwischen Nachhaltigkeit und Tempo, zwischen Einzelinteresse und
+Gemeinschaftsnutzen **nicht durch Anweisung, sondern durch Verständigung, Argument und
+Vertrauen** bearbeiten lassen. Das vollständige Kompetenz-Mapping steht in der
+[Spielleitung](spielleitung.qmd).
+
+## Schnellstart für Lehrende
+
+1. **Szenario** + gemeinsame **[Rollen-Übersicht](rollen-oeffentlich.qmd)** an alle austeilen (gemeinsam lesen, ~5 Min) – beides geheimnisfrei.
+2. Jeder Person **genau eine** vertrauliche [Rollenkarte](rollenkarten.qmd) geben (eigenes PDF/Ausdruck) – die verdeckten Ziele der anderen bleiben geheim (**Verhandlungstraining**).
+3. Optional **RSE-Rollen die Gruppe tauschen** lassen (mehr Unvorhersehbarkeit).
+4. Meeting starten; die **Ereignisse** entlang der [Timeline](ereigniskarten.qmd#empfohlene-timeline-20-minuten-runde) einstreuen.
+5. Mit **Beobachtungsbogen** zuschauen, danach entlang des [Debrief-Leitfadens](spielleitung.qmd#debrief-reflexion) reflektieren.
+
+::: {.hint}
+**Zeitbedarf:** ca. 80 Minuten (10 Erklärung · 20 Vorbereitung · 2 × 20 Spiel · 10–15 Debrief),
+skalierbar. Details unter [Ablauf & Timing](spielleitung.qmd#ablauf-timing).
+:::

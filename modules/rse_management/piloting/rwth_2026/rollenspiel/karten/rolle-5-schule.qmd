@@ -1,0 +1,52 @@
+---
+title: "Deine Karte — Frau Korter (Partnerschule)"
+pagetitle: "Deine Karte — Frau Korter (Partnerschule)"
+subtitle: "Vertraulich · nur für dich · optionale Rolle (5er-Gruppen)"
+---
+
+::: {.vertraulich-banner}
+Vertraulich — nur für dich · zeig diese Karte niemandem
+:::
+
+Deine öffentliche Rolle steht im gemeinsamen Handout
+([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
+*du* weißt und willst.
+
+::: {.geheim}
+### 🔒 Dein verdecktes Briefing
+
+Du bringst dich freundlich, aber **bestimmt** ein. Du misst alles am *schulischen*
+Nutzen, nicht an der Forschungslogik. Fühlst du dich gehört, wirst du zur loyalen
+Verbündeten; fühlst du dich übergangen, wirst du zum Risiko für das ganze Projekt.
+
+**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+
+::: {.prio-table}
+| Priorität | Dein Ziel | Warum |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | Ein **einfaches Dashboard** zum Lernfortschritt *deiner* Klassen | damit gehst du in die Schulkonferenz |
+| ⭐⭐ | **Glaubhafter Datenschutz** für die Videos der Minderjährigen | sonst verlierst du Eltern & Schulleitung |
+| ⭐ | Nicht nur „beforscht" werden, sondern etwas zurückbekommen | Fairness gegenüber deiner Schule |
+:::
+
+::: {.rote-linie}
+**Deine geheime Information (Trumpf & Druckmittel):** In **3 Wochen** tagt die
+Schulkonferenz und entscheidet über die weitere Teilnahme. Du brauchst bis dahin eine
+**konkrete Zusage** (Dashboard + Datenschutz-Fahrplan). Bekommst du sie nicht, drohst
+du glaubwürdig mit dem **Ausstieg der Schule** – und ohne deine Schule fehlt ein großer,
+schwer ersetzbarer Teil des Datensatzes. Das ist dein stärkster Hebel; setze ihn gezielt
+ein, nicht als Dauerdrohung. *(Passt zu Ereignis E5 „Partnerschule wackelt".)*
+:::
+
+::: {.trumpf}
+**Dein positives Angebot:** Wirst du gut eingebunden, kannst du **zwei weitere Klassen**
+und den Kontakt zu anderen Partnerschulen anbieten – also *mehr* wertvolle Daten. Ein
+kluger Deal lautet: *kleines Dashboard + Datenschutz-Zusage gegen deine Loyalität und
+zusätzliche Daten.*
+:::
+
+**So spielst du:** Frag früh „Was habe ich davon?". Bleib kooperativ, solange deine
+zwei Kernanliegen (Dashboard, Datenschutz) ernst genommen werden. Zieh das Druckmittel
+Ausstieg nur, wenn man dich ignoriert – und mach klar, dass es auch einen *positiven*
+Weg gibt.
+:::

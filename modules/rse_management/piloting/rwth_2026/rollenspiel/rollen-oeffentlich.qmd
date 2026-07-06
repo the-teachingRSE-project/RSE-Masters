@@ -1,0 +1,84 @@
+---
+title: "Die Rollen im Kickoff-Meeting"
+subtitle: "Gemeinsames Handout für alle Teilnehmenden"
+pagetitle: "Die Rollen im Kickoff-Meeting"
+---
+
+::: {.hint}
+**Das bekommt jede:r.** Hier stehen alle Personen, die im Kickoff-Meeting zur Plattform
+»LernSpur« am Tisch sitzen – mit dem, was **öffentlich** über sie bekannt ist.
+Zusätzlich erhält jede:r eine **persönliche, vertrauliche Karte** mit den *eigenen*
+Zielen und Interessen. **Diese Karte zeigt ihr den anderen nicht** – was die anderen
+wirklich wollen, findet ihr im Gespräch heraus.
+:::
+
+::: {.cards}
+
+::: {.card .rse}
+<span class="badge">RSE · Software-Koordination</span>
+### RSE / Software-Koordination
+<p class="tagline">„Ich soll das koordinieren – befehlen kann ich hier niemandem."</p>
+
+* seit 3 Monaten am Lehrstuhl angestellt, Master in Research Software Engineering
+* soll aus den verstreuten Dateien der Studie »LernSpur« eine **nachhaltige,
+  FAIR-konforme Plattform** machen
+* hat **keine** Weisungsbefugnis über die anderen
+* **leitet das Kickoff-Meeting**
+* Kern-Interesse: eine tragfähige, wartbare Plattform
+:::
+
+::: {.card .pi}
+<span class="badge">Prof. Dr. Barn · PI / Lehrstuhl</span>
+### Prof. Dr. Barn — PI / Lehrstuhlinhaber:in
+<p class="tagline">„Bis zur Konferenz brauchen wir vorzeigbare Ergebnisse."</p>
+
+* leitet den Lehrstuhl und das Projekt »LernSpur«
+* will Forschungsergebnisse publizieren; die Plattform ist ein Aushängeschild
+* wenig Zeit, wenig Geduld für technische Details
+* die **Konferenz in 8 Wochen** ist wichtig
+* Kern-Interesse: Sichtbarkeit und Ergebnisse
+:::
+
+::: {.card .domain}
+<span class="badge">Dr. Melis · Bildungsforschung</span>
+### Dr. Melis — Bildungsforscher:in / PostDoc
+<p class="tagline">„Das erkennt man doch – zeig mir einfach die auffälligen Klassen."</p>
+
+* PostDoc in der empirischen Bildungsforschung, kennt die Daten inhaltlich am besten
+* will die eigene Forschung voranbringen und Auswertungen aus den Daten ziehen
+* wenig Software-Engineering-Wissen, formuliert Wünsche eher grob
+* ist auf die Plattform angewiesen
+* Kern-Interesse: schnell auswertbare Daten
+:::
+
+::: {.card .hiwi}
+<span class="badge">Tobi · studentische Hilfskraft</span>
+### Tobi — studentische Hilfskraft (HiWi)
+<p class="tagline">„Klar mach ich das … was genau war nochmal gemeint?"</p>
+
+* 4. Semester, 10 h/Woche angestellt, Programmieren v. a. über YouTube gelernt
+* soll der RSE zuarbeiten und dabei dazulernen
+* motiviert, aber unerfahren; die Verfügbarkeit schwankt
+* Kern-Interesse: etwas beitragen und dazulernen
+:::
+
+::: {.card .partner}
+<span class="badge">Frau Korter · Partnerschule (optional)</span>
+### Frau Korter — Lehrkraft & Ansprechpartnerin einer Partnerschule
+<p class="tagline">„Was habe eigentlich *ich* davon, dass wir da mitmachen?"</p>
+
+* Lehrkraft an einer der 14 Partnerschulen, Ansprechpartnerin für die Studie
+* ihre Klassen liefern Daten (App-Nutzung, Fragebögen, Videos)
+* achtet auf den Nutzen für ihre Schüler:innen und auf Datenschutz
+* kennt den Forschungs- und Softwarealltag kaum
+* Kern-Interesse: Nutzen für die Schule, Datenschutz
+:::
+
+:::
+
+::: {.hint}
+**Ablauf:** Die RSE eröffnet das Meeting. Ziel der Runde ist ein gemeinsamer,
+**realistischer** Plan für die ersten Wochen. Jede:r bringt die eigenen Interessen ein –
+aber die Zeit bis zur Konferenz ist knapp, es passt nicht alles hinein. Verhandelt, bis
+ein Paket steht, das alle mittragen können.
+:::

@@ -1,0 +1,280 @@
+---
+title: "Für Lehrende: Spielleitung & Metaperspektive"
+subtitle: "Kompetenzziele, erwartete Konflikte, Beobachtung, Debrief, Bewertung"
+---
+
+Diese Seite ist **nur für die Lehrenden / die Spielleitung** gedacht. Sie gibt die
+Meta­perspektive auf das Planspiel: *Was sollen die Studierenden lernen? Welche
+Konflikte sind eingebaut? Worauf achte ich beim Zuschauen? Wie werte ich aus?*
+
+## 1. Worum es didaktisch geht
+
+Das Rollenspiel trainiert **laterale Führung** – Führung *auf Augenhöhe, ohne sich auf
+hierarchische Macht zu verlassen, sondern auf die eigene Wirksamkeit* (Toennes,
+*Moderne Mitarbeiterführung – Laterales Führen*). Für Research Software Engineers ist
+das der Normalfall: Sie koordinieren Software, ohne Vorgesetzte der Forschenden zu sein.
+
+Laterale Führung ruht auf einem **Dreiklang** und vier **Kompetenzfeldern**:
+
+| Dreiklang | im Spiel sichtbar als |
+|-----------|-----------------------|
+| **Verständigung** | Interessen erfragen, zuhören, Perspektive wechseln, Ziele/Regeln klären |
+| **Macht** | Informations- und Expertenmacht, Zugang zu Kontakten – *nicht* Weisung |
+| **Vertrauen** | berechenbar handeln, nur zusagen, was gehalten wird |
+
+| Kompetenzfeld (Toennes) | Leitfrage für die Beobachtung |
+|-------------------------|-------------------------------|
+| Macht der **Persönlichkeit** | Wirkt die RSE glaubwürdig, stimmig, begeisternd? |
+| Macht der **Sprache** | Überzeugt sie – oder überredet/rechtfertigt sie sich? |
+| Macht der **Konfliktlösung** | Werden Konflikte früh erkannt, offen angesprochen, konstruktiv? |
+| Macht der **Selbst- & Fremdführung** | Priorisiert sie sich selbst *und* führt die anderen achtsam? |
+
+: {.striped}
+
+## 2. Kompetenzziele & Mapping ins RSE-Curriculum
+
+::: {.hint}
+Die Kompetenzen docken direkt an das Seminar-Curriculum an: **Vermitteln von
+SE-Wissen an entwickelnde Forschende**, **Führung von / durch Nicht-Informatiker:innen**,
+**Planung von Forschungssoftware** sowie die orthogonalen Soft Skills
+**Konfliktlösung, Arbeitsstrukturierung, Problemlösung, laterale Führung**.
+:::
+
+| Kompetenz (Lernziel) | Wodurch im Spiel aufgebaut | Zugehöriges Ereignis |
+|----------------------|----------------------------|----------------------|
+| Anforderungen erheben & präzisieren | vage Wünsche in entscheidbare Kriterien überführen | E7, Kickoff |
+| SE-Wissen laienverständlich vermitteln | „Warum erst Datenmodell?" erklären, ohne zu belehren | E2, E6 |
+| Nach oben führen (Erwartungsmanagement) | dem/der PI einen realistischen Plan „verkaufen" | E2, E6 |
+| Achtsame Fremdführung | HiWi passend anleiten, Promovierende ernst nehmen | E3, E4 |
+| Priorisieren unter Knappheit | Scope gegen Zeit/Ressourcen abwägen | E1, E3, E4 |
+| Konflikte konstruktiv führen | Zielkonflikte offen benennen statt zu vermeiden | E1, E5 |
+| Selbstführung | ruhig bleiben, nicht in Über-Zusagen flüchten | alle |
+| Stakeholder einbinden | externe Interessen integrieren statt abwehren | E5 |
+
+: {.striped}
+
+## 3. Erwartete Konflikte (die „Sollbruchstellen")
+
+Diese Konflikte sind **absichtlich** in Rollen und Ereignisse eingebaut. Sie sind der
+Lernstoff – nicht Störungen, die es zu verhindern gilt.
+
+1. **Nachhaltigkeit vs. Tempo** — RSE will erst ein Datenmodell, PI und Domäne wollen
+   sofort Ergebnisse. *(Kernkonflikt, E2/E3)*
+2. **Vage Domänen-Sprache vs. entscheidbare Spezifikation** — „ähnliche Klassen",
+   „interessante Muster". *(Kickoff, E7)*
+3. **Einzelinteresse vs. Gemeinschaftsplattform** — die dringende Diss-Auswertung
+   frisst die Roadmap. *(E3)*
+4. **Plan vs. Realität** — Zusagen aus der ersten Viertelstunde kollidieren mit
+   Ressourcen-Ausfall und ungeplantem Datenschutz-Scope. *(E1/E4)*
+5. **Interne vs. externe Legitimität** — Forschungslogik vs. Nutzen für die
+   Partnerschule. *(E5)*
+6. **Build vs. Buy** — die Existenzberechtigung des Projekts wird in Frage gestellt;
+   die RSE muss Selbstwirksamkeit zeigen, ohne defensiv zu werden. *(E6)*
+
+## 4. Verdeckte Interessen & Verhandlungsmatrix (Master-Übersicht) {#verdeckte-interessen}
+
+::: {.hint}
+**Nur für die Spielleitung – der Generalschlüssel.** Diese Übersicht bündelt *alle*
+geheimen Briefings der Einzelkarten an einer Stelle. Die Studierenden kennen jeweils
+**nur ihre eigene** Karte; die gegenläufigen Interessen sollen sie im Spiel
+*herausverhandeln*. Halte diese Seite bei der Verteilung geschlossen.
+:::
+
+### Das Verhandlungsobjekt: die knappe Zeit bis zur Konferenz
+
+Der eigentliche Konflikt ist ein **Verteilungsproblem**: Bis zur Konferenz (8 Wochen)
+passt realistisch **nur ein bis zwei größere Ergebnisse** in die verfügbare
+Entwicklungszeit – aber **vier** Parteien wollen ihr Anliegen zuerst. Verhandelt werden
+im Kern fünf Themen:
+
+| # | Verhandelbares Thema | Worum es geht |
+|---|----------------------|---------------|
+| V1 | **Fokus der ersten Wochen** | Datenmodell · Konferenz-Demo · Melis-Export · Schul-Dashboard – *nicht alles passt* |
+| V2 | **Konferenz-Zusage** | Was genau wird zugesagt? (nichts / kleines Zwischenergebnis / große Demo) |
+| V3 | **Datenschutz / Video-Anonymisierung** | blockiert die Videodaten – wer macht es, wann? |
+| V4 | **Ressourcen** | HiWi-Stunden · die *stille Budgetreserve* der PI |
+| V5 | **Schul-Dashboard** | bauen ja/nein, in welchem Umfang |
+
+: {.striped}
+
+### Wer will insgeheim was — alle Geheimnisse auf einen Blick
+
+::: {.matrix}
+| Rolle | Geheimes Top-Ziel | Rote Linie / Walk-away (BATNA) | Trumpf / verdeckte Information |
+|-------|-------------------|-------------------------------|-------------------------------|
+| **1 · RSE** | tragfähiges Datenmodell + *ein* ehrlicher Mini-Plan | sagt nichts zu, was zu Wegwerf-Code/Überlastung führt | weiß als Einzige:r: bis zur Konferenz passt **nur EIN** großes Ergebnis |
+| **2 · PI** | *irgendetwas* Vorzeigbares zur Konferenz | „nach der Konferenz" reicht nicht – zieht sonst Autorität | **stille Budgetreserve** (HiWi-Aufstockung / Tool-Lizenz) |
+| **3 · Melis** | eigener Datenexport (Frist in **3 Wochen**) | wird sonst *still unkooperativ* | kennt als Einzige die **Datensemantik** – ohne sie kein Datenmodell |
+| **4 · Tobi** | nicht als überfordert dastehen, Job behalten | kritische Aufgabe auf dem kritischen Pfad → reißt (E4) | schafft real nur **~5 h/Woche** (Klausuren); hat schon ein **fertiges Mini-Skript** für Melis' Export |
+| **5 · Korter** | einfaches Dashboard für die Schulkonferenz (in **3 Wochen**) | droht glaubhaft mit **Schul-Ausstieg** (großer Datenverlust) | kann **2 weitere Klassen** + Kontakte liefern, wenn eingebunden |
+:::
+
+### Konfliktmatrix — wer mit wem aneinandergerät
+
+Zellen zeigen, *worüber* die beiden Rollen in Spannung stehen (Thema in Klammern):
+
+::: {.matrix}
+| gegen ↓ / ↑ | **PI** | **Melis** | **Tobi** | **Korter** |
+|-------------|--------|-----------|----------|------------|
+| **RSE** | Tempo vs. Nachhaltigkeit *(V1/V2)* | erst Modell vs. erst mein Export *(V1)* | Aufgabenschnitt vs. reale Kapazität *(V4)* | Roadmap vs. Dashboard-Wunsch *(V1/V5)* |
+| **PI** | — | beide wollen Zeit „zuerst", aber für **Verschiedenes** *(V1)* | drängt auf Output, den Tobi nicht stemmt *(V4)* | Forschungslogik vs. Schulnutzen *(V5)* |
+| **Melis** | | — | will Export → braucht Tobis Skript/Zeit *(V1/V4)* | konkurriert um dieselbe knappe Dev-Zeit *(V1)* |
+| **Tobi** | | | — | *(kein direkter Konflikt)* |
+:::
+
+**Kernspannung:** Vier Parteien beanspruchen dieselbe knappe Entwicklungszeit (V1) für
+*jeweils etwas anderes*. Distributiv gespielt (jede:r pocht auf das eigene) endet es in
+Ausgang **C** oder **D** (siehe §6). Integrativ gespielt lässt sich fast jedes „Top-Ziel"
+bedienen – weil die Prioritäten *unterschiedlich* liegen und es versteckte Ressourcen gibt.
+
+### Der integrative Lösungsraum (ZOPA) — das „gute" Paket
+
+Es gibt einen Deal, in dem **jede:r sein Wichtigstes** bekommt, ohne dass die RSE
+Unmögliches verspricht. Die RSE muss ihn nicht exakt treffen – aber je näher, desto mehr
+Vertrauen wächst:
+
+* **Woche 1–3:** Melis **dokumentiert die Datensemantik** ⇄ die RSE baut daraus einen
+  sauberen Teil-Datensatz und liefert **Melis' Export bis Woche 3** (rettet deren Frist).
+  *→ löst V1 teilweise, bindet Melis' Trumpf ein, entschärft Konflikt RSE↔Melis.*
+* **Tobis Skript** wird für den Export genutzt; Tobi bekommt eine **kleine, betreute**
+  Aufgabe, die in ~5 h/Woche passt. *→ V4, entschärft E4 im Voraus.*
+* **PI lüftet die Budgetreserve** (weil ein glaubwürdiger Konferenz-Weg gezeigt wird):
+  Mittel für eine Tool-Lizenz/HiWi-Aufstockung ermöglichen bis Woche 8 eine **kleine,
+  echte Auswertung auf dem sauberen Teil-Datensatz** – der Konferenzbeitrag. Abstract in
+  2 Wochen beschreibt Plan + erste Teilergebnisse. *→ V2/V4.*
+* **Minimales read-only Dashboard** für Korters Klassen (teils aus Tobis Skript) +
+  Datenschutz-Fahrplan → Korter bekommt ihre Konferenz-Zusage, **bleibt dabei und bringt
+  2 Klassen mehr**. *→ V3/V5, entschärft E5.*
+
+Ergebnis: Datenmodell-Kern steht, Konferenz ist bedient, Melis' Frist gerettet, Schule
+gehalten, HiWi nicht verheizt – **niemand bekommt alles, jede:r das Wichtigste.** Das ist
+Archetyp **A** (§6).
+
+::: {.hint}
+**Als Spielleitung dosieren:** Die verdeckten Trümpfe (PI-Budget, Melis-Semantik,
+Tobis Skript, Korters Zusatzklassen) sind die **Schlüssel**, die den scheinbaren
+Nullsummen-Konflikt öffnen. Wenn eine Gruppe feststeckt, spiele das passende **Ereignis**
+so an, dass ein Trumpf ins Spiel kommt – z. B. E3 lockt Melis' Frist hervor, E4 zwingt zur
+Kapazitätsehrlichkeit, E2/E6 laden die PI ein, das Budget zu zeigen.
+:::
+
+## 5. Beobachtungsbogen
+
+Ein Bogen pro RSE-Spieler:in (oder pro Gruppe). Skala 1 (kaum) – 4 (souverän).
+Die Spielleitung und die übrigen Teilnehmenden sind **Beobachtende**.
+
+| Beobachtungspunkt | Positiv-Indikator | 1–4 |
+|-------------------|-------------------|-----|
+| **Verständigung** | stellt offene Fragen, fasst zusammen, wechselt Perspektive | ☐ |
+| **Anforderungen** | macht Vages entscheidbar („Was heißt *ähnlich*?") | ☐ |
+| **Macht der Sprache** | überzeugt mit Argumenten, überredet/rechtfertigt sich nicht | ☐ |
+| **Konfliktlösung** | spricht Zielkonflikte offen & früh an | ☐ |
+| **Erwartungsmanagement** | sagt nur zu, was realistisch ist; managt die PI-Deadline | ☐ |
+| **Fremdführung** | gibt HiWi klare, passende Aufgaben; nimmt Sorgen ernst | ☐ |
+| **Selbstführung** | bleibt ruhig, strukturiert, flüchtet nicht in Über-Zusagen | ☐ |
+| **Ergebnis** | am Ende steht ein tragfähiger, priorisierter Mini-Plan | ☐ |
+
+::: {.hint}
+**Kurz-Notizfelder:** Ein Moment gelungener lateraler Führung? · Ein verpasster
+Hebel (Verständigung/Macht/Vertrauen)? · Ein Satz, der die Gruppe gedreht hat?
+:::
+
+## 6. Mögliche Ausgänge {#mögliche-ausgänge}
+
+Die Menge der Ergebnisse ist **bewusst begrenzt** – verschiedene Gruppen sollen zu
+verschiedenen, jeweils vertretbaren Enden kommen. Vier Archetypen:
+
+* **A — Der tragfähige Kompromiss** *(Zielzustand):* RSE priorisiert offen, sagt der PI
+  ein *kleines* vorzeigbares Zwischenergebnis für die Konferenz zu (z. B. ein sauberer
+  Teil-Datensatz + eine Auswertung), verankert parallel das Datenmodell, bindet die
+  Schule mit einem minimalen Dashboard ein. *Vertrauen wächst.*
+* **B — Die Überzusage:** RSE gibt dem Druck nach und verspricht alles bis zur
+  Konferenz. Kurzfristig Applaus, aber der Plan ist unrealistisch – im Debrief gut als
+  Kontrast nutzbar (*Vertrauen wird später verspielt*).
+* **C — Die technische Blockade:** RSE beharrt auf „erst sauber, dann Ergebnisse", ohne
+  die Interessen der anderen abzuholen. Die Gruppe fühlt sich nicht gehört, die PI wird
+  ungeduldig. *(Macht ohne Verständigung.)*
+* **D — Die Zerfaserung:** Kein klarer Fokus, jede:r zieht in eine Richtung, viele
+  offene Punkte. *(Führung findet nicht statt.)*
+
+Alle vier sind **legitime Spielausgänge** und liefern Debrief-Stoff. Es gibt kein „Game Over".
+
+## 7. Ablauf & Timing
+
+Angelehnt an die Vorlage *„Erste Projektleitung"* (≈ 80 Min., skalierbar):
+
+| Phase | Inhalt | Zeit |
+|-------|--------|------|
+| Erklärung & Einteilung | Rollen verteilen, Szenario lesen | 10 min |
+| Vorbereitung in der Gruppe | Rollen aneignen, Sub-Ziele schärfen, geheime Verhaltensweisen abstimmen | 20 min |
+| **Rollenspiel** | Kickoff-Meeting inkl. Ereignissen (ggf. 2 Durchläufe mit Rollentausch) | 2 × 20 min |
+| Reflexion & Debrief | siehe unten | 10–15 min |
+
+**Rollentausch (empfohlen):** Die RSE-Spielenden führen eine *andere* Gruppe als die, mit
+der sie vorbereitet haben. Die Spielleitung ist – wie die übrigen TN – **Beobachter:in**.
+
+**Material:** die **vertraulichen Einzel-Rollenkarten** (je 1 PDF/Ausdruck pro Person –
+niemand sieht die Karte der anderen), Ereigniskarten, Flipchart/Miro für
+die Ergebnissicherung, dieser Beobachtungsbogen (1 × pro TN + 1 × Trainer:in).
+
+## 8. Debrief (Reflexion)
+
+In dieser Reihenfolge moderieren – *erst Erleben, dann Muster, dann Transfer*:
+
+**Erleben**
+
+* An welchem Punkt hast du dich *als Führungskraft* gefühlt – und wann nicht?
+* Wo wurde es unangenehm, und was hast du in dem Moment getan?
+
+**Muster (laterale Führung)**
+
+* Welchen der drei Hebel – **Verständigung, Macht, Vertrauen** – hast du bewusst genutzt?
+  Welchen zu wenig?
+* Wo bist du von *Überzeugen* in *Überreden/Rechtfertigen* gerutscht?
+* Wann hättest du besser eine Frage gestellt statt eine Antwort gegeben?
+
+**Konflikt & Rolle**
+
+* Welcher Zielkonflikt war am schwersten? Wie hättet ihr ihn anders rahmen können?
+* An die „geführten" Rollen: Was hat euch überzeugt? Was hat Widerstand ausgelöst?
+
+**Transfer**
+
+* Wo begegnet euch diese Konstellation im echten RSE-Alltag (Domänen-RSE vs.
+  Infrastruktur-RSE, PI mit anderem Hintergrund)?
+* Inwiefern geht das über allgemeine Kommunikations-/Managementtheorie hinaus – was ist
+  *spezifisch* an der Führung entwickelnder Forschender?
+* Welche *eine* Sache nimmst du dir fürs nächste echte Projektmeeting vor?
+
+## 9. Varianten
+
+### Variante: Domänen-RSE vs. Infrastruktur-RSE
+
+Gebt zwei Gruppen unterschiedliche RSE-Profile, um den Curriculumsbezug sichtbar zu machen:
+
+* **Domänen-RSE** (interne:r RSE): im Lehrstuhl angestellt, kennt die Bildungsforschung
+  ein Stück weit, ist aber tief in Abhängigkeiten der Gruppe verstrickt. *Nähe, aber
+  weniger Distanz-Autorität.*
+* **Infrastruktur-RSE** (externe:r RSE aus einem RSE-Center): nur tageweise gebucht,
+  hohe SE-Qualität, aber kaum Domänenwissen und keine Bindung. *Distanz-Autorität,
+  aber weniger Verständigung.*
+
+Im Debrief vergleichen: *Welches Profil hatte es bei welchem Ereignis leichter/schwerer?*
+
+### Weitere Stellschrauben
+
+* **Domäne wechseln:** Statt Bildungsforschung z. B. eine sozialwissenschaftliche
+  Panel-Studie oder ein Public-Health-Register – Struktur und Ereignisse bleiben gleich.
+* **Härtegrad:** geheime Verhaltensweisen mild/scharf einstellen; E5–E7 zuschalten.
+* **Fokus setzen:** eine Runde nur auf *Erwartungsmanagement nach oben* (E2/E6), eine
+  andere nur auf *Fremdführung im Team* (E3/E4) ausrichten.
+
+---
+
+::: {.hint}
+**Quellen & Bezug:** Rollen-/Personastruktur nach dem bestehenden RSE-Rollenspiel
+(Chemie-Szenario); Format „erste Projektleitung mit getriggerten Ereignissen" nach der
+Vorlage *„Erste Projektleitung"*; Kompetenzmodell nach A. Toennes,
+*Moderne Mitarbeiterführung – Laterales Führen* (Verständigung/Macht/Vertrauen; vier
+Kompetenzfelder). Debrief-Fragen erweitert aus `reflexions-fragen.md` des Workshops.
+:::

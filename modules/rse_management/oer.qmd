@@ -110,10 +110,36 @@ Selbststudium: 60
 
 [Lecture 1: Scientific Writing](scientific-writing.pdf)
 
+[Lecture 2: Conflict Management](piloting/rwth_2026/folien-konfliktmanagement.pdf)
+
+## Seminar: Rollenspiel »LernSpur«
+
+Ein Planspiel zum Anforderungs-Kickoff einer Forschungsdatenplattform. Fünf
+Mitspielende (RSE, Lehrstuhlleitung, Domänenforschung, HiWi, Schulpartnerin)
+verhandeln Scope, Rollen und Erwartungen — die RSE hat dabei *keine*
+Weisungsbefugnis und muss lateral führen. Die Führungstheorie bleibt zunächst
+verdeckt und wird erst im Debrief mit der Spielleitung aufgelöst.
+
+Material zum Ausdrucken und Verteilen:
+
+- [Szenario (gemeinsames Briefing für alle)](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-szenario.pdf)
+- [Rollen-Handout (öffentlich, für alle)](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-rollen-handout.pdf)
+- [Teilnehmer-Paket (zip: Szenario + Rollen-Handout)](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-teilnehmer-paket.zip)
+
+Nur für die Spielleitung (enthält die vertraulichen Verhandlungskarten und die
+Auflösung der lateralen Führung):
+
+- [Spielleitungs-Leitfaden](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-spielleitung.pdf)
+- [Verteilungsanleitung der Karten](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-verteilung.pdf)
+- [Spielleitungs-Paket (zip: alle Karten, Ereignisse & Leitfaden)](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-spielleitung-paket.zip)
+
+Die editierbaren Quellen (Quarto-Website + `render-pdfs.ps1` zum Neuerzeugen der
+PDFs) liegen unter `piloting/rwth_2026/rollenspiel/`.
+
 ## Call for Contribution
 
 As part of the pilot for this RSE-in-master-education concept we are testing some of the courses developed here.
-For [this particular course](../../modules/rse_management.qmd) we found that there is vast literature available
+For [this particular course](../rse_management.qmd) we found that there is vast literature available
 for management and communication purposes but not so much available tailored to RSE. For this reason, we decided to develop the application specifics together with the students following the inquiry-based learning paradigm [@Brew.2003].
 
 

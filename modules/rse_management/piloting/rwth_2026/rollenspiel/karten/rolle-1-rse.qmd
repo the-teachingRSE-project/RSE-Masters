@@ -1,0 +1,52 @@
+---
+title: "Deine Karte — RSE / Software-Koordination"
+pagetitle: "Deine Karte — RSE / Software-Koordination"
+subtitle: "Vertraulich · nur für dich"
+---
+
+::: {.vertraulich-banner}
+Vertraulich — nur für dich · zeig diese Karte niemandem
+:::
+
+Deine öffentliche Rolle steht im gemeinsamen Handout
+([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
+*du* weißt und willst.
+
+::: {.geheim}
+### 🔒 Dein verdecktes Briefing
+
+Du **leitest** dieses Meeting – aber du kannst niemandem etwas befehlen. Du kommst nur
+weiter, indem du **zuhörst**, die Interessen der anderen ernst nimmst, mit **Argumenten
+überzeugst** und **verlässlich** bleibst (nichts zusagen, was du nicht hältst).
+*Überzeuge – ordne nicht an.*
+
+**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+
+::: {.prio-table}
+| Priorität | Dein Ziel | Warum |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | Ein **tragfähiges Datenmodell** verankern, bevor Auswertungen draufgesetzt werden | ohne das baust du auf Sand |
+| ⭐⭐ | Am Ende steht **ein** klar priorisierter, *realistischer* Mini-Plan | lieber eine ehrliche Zusage als drei vage |
+| ⭐ | Als Koordinator:in ernst genommen werden | sonst wirst du zur reinen Zuarbeit |
+:::
+
+::: {.rote-linie}
+**Deine rote Linie (Walk-away):** Du sagst **nichts** zu, das absehbar zu
+unwartbarem Wegwerf-Code oder deiner Überlastung führt. Wird das ignoriert, sagst du
+ruhig: *„Das kann ich in guter Qualität nicht bis dahin liefern – lasst uns priorisieren."*
+Lieber ein kleineres, ehrliches Versprechen als ein großes, das später Vertrauen kostet.
+:::
+
+::: {.trumpf}
+**Deine geheime Information (Trumpf):** Du hast als Einzige:r den Überblick, *wie
+chaotisch* die Daten wirklich sind. Bis zur Konferenz passt realistisch **nur EIN**
+größeres Ergebnis in die verfügbare Zeit – nicht drei. Alle anderen glauben, es ginge
+„mal eben" parallel. Nutze dieses Wissen, um Prioritäten zu erzwingen – aber spiele es
+als Angebot, nicht als Blockade.
+:::
+
+**So spielst du:** Höre zuerst, welche Interessen im Raum sind (jede:r hat ein
+verdecktes Ziel!). Suche das **Paket**, das jedem sein *Wichtigstes* gibt, ohne dass
+du das Unmögliche versprichst. Du gewinnst nicht, indem du dich durchsetzt, sondern
+indem am Ende alle mittragen.
+:::

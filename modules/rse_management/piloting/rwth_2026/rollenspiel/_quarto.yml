@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: _site
+  title: "Laterale Führung im RSE-Kontext – Rollenspiel"
+
+website:
+  title: "Rollenspiel »LernSpur«"
+  description: "Ein Planspiel für Studierende im Research-Software-Engineering"
+  page-navigation: true
+  navbar:
+    background: primary
+    left:
+      - text: "Überblick"
+        href: index.qmd
+      - text: "Szenario"
+        href: szenario.qmd
+      - text: "Die Rollen (Handout)"
+        href: rollen-oeffentlich.qmd
+      - text: "Verteilung (Spielleitung)"
+        href: rollenkarten.qmd
+      - text: "Ereignisse & Timeline"
+        href: ereigniskarten.qmd
+      - text: "Für Lehrende (Spielleitung)"
+        href: spielleitung.qmd
+  sidebar:
+    style: floating
+    contents:
+      - index.qmd
+      - szenario.qmd
+      - text: "Die Rollen (Handout für alle)"
+        href: rollen-oeffentlich.qmd
+      - section: "Verteilung & vertrauliche Karten"
+        href: rollenkarten.qmd
+        contents:
+          - text: "🔒 Karte 1 · RSE"
+            href: karten/rolle-1-rse.qmd
+          - text: "🔒 Karte 2 · PI (Barn)"
+            href: karten/rolle-2-pi.qmd
+          - text: "🔒 Karte 3 · Melis (Domäne)"
+            href: karten/rolle-3-domaene.qmd
+          - text: "🔒 Karte 4 · Tobi (HiWi)"
+            href: karten/rolle-4-hiwi.qmd
+          - text: "🔒 Karte 5 · Korter (Schule)"
+            href: karten/rolle-5-schule.qmd
+      - ereigniskarten.qmd
+      - spielleitung.qmd
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    fig-cap-location: bottom
+    grid:
+      body-width: 950px
+
+execute:
+  enabled: false
+
+lang: de

@@ -57,7 +57,7 @@ The lecture covers project and team management techniques an RSE needs in everyd
 
 ### Piloting Classes
 
-- [RWTH-Management and Communication in RSE Seminar](../components/rse_management/oer.qmd)
+- [RWTH-Management and Communication in RSE Seminar](rse_management/oer.qmd)
 
 ### Sources & Implementations:
 

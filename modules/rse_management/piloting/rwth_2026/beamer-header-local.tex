@@ -1,0 +1,23 @@
+% Local overrides for the conflict-management deck (xelatex).
+% Kept separate so the shared rse_researchmethods beamer-header.tex stays untouched.
+
+% The shared header loads the legacy `times` package, which switches the sans
+% family to URW Helvetica (phv). Under XeLaTeX that Type1 font renders the German
+% eszett "ß" as "SS" (e.g. "größere" -> "gröSSere"). TeX Gyre Heros is the
+% Unicode Helvetica-equivalent and typesets ß correctly while keeping the look.
+\usepackage{fontspec}
+\setsansfont{texgyreheros}[
+  Extension      = .otf,
+  UprightFont    = *-regular,
+  BoldFont       = *-bold,
+  ItalicFont     = *-italic,
+  BoldItalicFont = *-bolditalic,
+]
+
+% Show visible bullet markers on every itemize level (crane/default hid them).
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[triangle]
+\setbeamertemplate{itemize subsubitem}[circle]
+\setbeamercolor{itemize item}{fg=black}
+\setbeamercolor{itemize subitem}{fg=black}
+\setbeamercolor{itemize subsubitem}{fg=black}

@@ -1,0 +1,52 @@
+---
+title: "Deine Karte — Prof. Dr. Barn (PI / Lehrstuhl)"
+pagetitle: "Deine Karte — Prof. Dr. Barn (PI / Lehrstuhl)"
+subtitle: "Vertraulich · nur für dich"
+---
+
+::: {.vertraulich-banner}
+Vertraulich — nur für dich · zeig diese Karte niemandem
+:::
+
+Deine öffentliche Rolle steht im gemeinsamen Handout
+([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
+*du* weißt und willst.
+
+::: {.geheim}
+### 🔒 Dein verdecktes Briefing
+
+Du bist wohlwollend, aber **ungeduldig**. Du unterbrichst gern mit *„Und wann sieht
+man das erste Mal was?"* Technische Details langweilen dich – du willst wissen, *was
+rauskommt und wann*. Wer dir gut zuhört und einen **glaubwürdigen** Plan liefert,
+bekommt deine volle Rückendeckung.
+
+**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+
+::: {.prio-table}
+| Priorität | Dein Ziel | Warum |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | Auf der Konferenz **etwas Vorzeigbares** haben (und sei es klein) | die Weiterfinanzierung hängt an sichtbarem Fortschritt |
+| ⭐⭐ | Einen Plan, an den du **glauben** kannst – keine leeren Versprechen | du wurdest schon oft mit „läuft" vertröstet |
+| ⭐ | Möglichst wenig selbst ins Klein-Klein müssen | deine Zeit ist knapp |
+:::
+
+::: {.rote-linie}
+**Deine rote Linie:** Mit *„nach der Konferenz haben wir dann was"* gibst du dich
+**nicht** zufrieden. Du brauchst zur Tagung ein konkretes Etwas. Wer dir das
+glaubwürdig zusagt, bekommt Rückhalt; wer nur blockt, gegen den setzt du deine
+Autorität ein („Dann machen wir es eben so, wie ich sage").
+:::
+
+::: {.trumpf}
+**Deine geheime Information (Trumpf):** Du hast eine **stille Budgetreserve** – Mittel
+für eine zusätzliche HiWi-Aufstockung oder eine Tool-Lizenz. Du rückst sie **nicht
+freiwillig** heraus (du willst sie für Notfälle behalten). Erst wenn dir jemand
+überzeugend zeigt, dass genau das den Konferenz-Erfolg sichert, gibst du sie frei.
+Das ist dein Ass, um ein festgefahrenes Gespräch aufzulösen.
+:::
+
+**So spielst du:** Mach früh Druck auf Tempo und Sichtbarkeit. Belohne gutes
+Erwartungsmanagement mit Zustimmung, bestrafe schwammige oder rein technische Antworten
+mit Ungeduld. Deine Budgetreserve ist der Hebel, der aus einem Nullsummenspiel ein
+gutes Ergebnis machen kann – aber nur, wenn man dich richtig abholt.
+:::

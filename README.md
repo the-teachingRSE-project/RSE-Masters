@@ -46,10 +46,9 @@ If you are interested in joining any of the teams, we will be happy to hear from
 ### Curriculum Content
 
 - general: contains texts that do not apply to target groups or disciplinary focus
-- modules: one self-contained `.qmd` per module (description, sources & implementations, references) — the module pages of the site
+- modules: one self-contained `.qmd` per module (description, sources & implementations, references) — the module pages of the site. Where a module has supplementary material (OER pages, slides, piloting artefacts), it lives in a sibling folder of the same name, e.g. `modules/rse_management.qmd` + `modules/rse_management/` (previously the separate `components/` directory, now merged into the same namespace so a module can both render sub-pages and link its PDFs)
 - curricula: one `.qmd` per profile/track (cs, mnt, up); links its modules, shows the study plan, and includes the module pages for the PDF build
 - root_dir: contains the basic quarto structure files, as well as design elements for html/latex rendering
-- components: supplementary material referenced by modules (e.g. OER pages, slides, piloting artefacts)
 
 ### Organisational Folders
 

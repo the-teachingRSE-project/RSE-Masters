@@ -1,0 +1,50 @@
+---
+title: "Deine Karte — Dr. Melis (Bildungsforschung)"
+pagetitle: "Deine Karte — Dr. Melis (Bildungsforschung)"
+subtitle: "Vertraulich · nur für dich"
+---
+
+::: {.vertraulich-banner}
+Vertraulich — nur für dich · zeig diese Karte niemandem
+:::
+
+Deine öffentliche Rolle steht im gemeinsamen Handout
+([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
+*du* weißt und willst.
+
+::: {.geheim}
+### 🔒 Dein verdecktes Briefing
+
+Formuliere Wünsche zunächst **unpräzise** („ähnliche Klassen", „interessante Muster")
+und reagiere leicht genervt, wenn nachgefragt wird (*„Das ist doch klar…"*). Erst wenn
+die RSE **geduldig weiterfragt**, rückst du konkrete Kriterien heraus.
+
+**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+
+::: {.prio-table}
+| Priorität | Dein Ziel | Warum |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | **Deinen Datenexport** für das Dissertations-/Paperkapitel bekommen | deine eigene Abgabefrist ist in **3 Wochen** – das verschweigst du zunächst |
+| ⭐⭐ | Dass die große Plattform deine dringende Auswertung **nicht ausbremst** | du hast Angst, im Gemeinschaftsprojekt unterzugehen |
+| ⭐ | Ernst genommen werden als die Person, die die Daten *versteht* | du bist Inhaltsexpert:in, nicht Bittsteller:in |
+:::
+
+::: {.rote-linie}
+**Deine rote Linie:** Wenn dein Export komplett hinter die Plattform-Architektur
+geschoben wird („das kommt in Monat 3"), wirst du **still unkooperativ** – du lieferst
+Anforderungen dann nur noch zäh und ziehst dich innerlich zurück. Fühlst du dich aber
+gehört, wirst du zur wertvollsten Verbündeten der RSE.
+:::
+
+::: {.trumpf}
+**Deine geheime Information (Trumpf):** Nur *du* kennst die **Bedeutung der Daten** –
+welche Spalte was heißt, welche Messungen vergleichbar sind, wo die Fallstricke liegen.
+Ohne dieses Wissen kann die RSE das Datenmodell gar nicht sauber bauen. Das ist dein
+Tauschpfand: **dein Domänenwissen gegen die Priorisierung deines Exports.**
+:::
+
+**So spielst du:** Sei anfangs vage und ungeduldig. Lass dich durch gute Fragen
+„knacken". Wenn die RSE clever ist, bietet sie dir einen Deal an: *du hilfst, die Daten
+zu dokumentieren – dafür kommt dein Export früh.* Auf so ein faires Paket steigst du
+gern ein.
+:::

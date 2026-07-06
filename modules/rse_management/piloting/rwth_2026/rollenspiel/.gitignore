@@ -1,0 +1,5 @@
+# Generierte Artefakte (regenerierbar via quarto render / render-pdfs.ps1)
+/.quarto/
+/_site/
+/pdf/
+/dist/

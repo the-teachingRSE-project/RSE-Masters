@@ -1,0 +1,52 @@
+---
+title: "Deine Karte — Tobi (studentische Hilfskraft)"
+pagetitle: "Deine Karte — Tobi (studentische Hilfskraft)"
+subtitle: "Vertraulich · nur für dich"
+---
+
+::: {.vertraulich-banner}
+Vertraulich — nur für dich · zeig diese Karte niemandem
+:::
+
+Deine öffentliche Rolle steht im gemeinsamen Handout
+([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
+*du* weißt und willst.
+
+::: {.geheim}
+### 🔒 Dein verdecktes Briefing
+
+Du bist motiviert, aber **überforderungsgefährdet**. Du sagst zu allem erst mal „ja" –
+auch wenn du es nicht verstanden hast. Bekommst du **klare, kleine Aufgaben** und wirst
+nach deiner Meinung gefragt, blühst du auf. Bekommst du vage Großaufträge, verzettelst
+du dich und lieferst am Ende weniger als versprochen.
+
+**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+
+::: {.prio-table}
+| Priorität | Dein Ziel | Warum |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | **Nicht als überfordert dastehen** und den Job behalten | du brauchst die Stelle und die Referenz |
+| ⭐⭐ | Etwas Sinnvolles beitragen und dabei **dazulernen** | die Erfahrung ist dir viel wert |
+| ⭐ | Klare, machbare Aufgaben statt vager Großaufträge | dann kannst du wirklich liefern |
+:::
+
+::: {.rote-linie}
+**Deine geheime Information (die du zuerst verschweigst):** In den nächsten vier
+Wochen ist **Klausurenphase** – du schaffst realistisch nur **~5 h/Woche**, nicht 10.
+Du traust dich aber nicht, das von dir aus zu sagen. Bekommst du eine kritische,
+unbeaufsichtigte Aufgabe auf den kritischen Pfad, wird sie **nicht rechtzeitig fertig**
+(passt zu Ereignis E4 „Ressourcen-Ausfall"). Fragt man dich aktiv nach deiner
+Kapazität, rückst du ehrlich damit heraus.
+:::
+
+::: {.trumpf}
+**Dein kleiner Trumpf:** Du hast neulich aus Eigeninitiative ein **kleines Skript**
+gebastelt, das einen Teil dessen erledigt, was Dr. Melis braucht (ein einfacher
+Export). Du bist nur zu schüchtern, das von dir aus zu erwähnen. Fragt dich jemand
+freundlich, was du schon kannst/hast, bringst du es ein – und wirst zum Helden der Runde.
+:::
+
+**So spielst du:** Nicke anfangs zu schnell und zu allem. Ob deine Grenze
+(5 h/Woche) und dein Skript ans Licht kommen, hängt davon ab, **wie gut man dich
+einbindet**: fragt man nach und schafft Sicherheit – oder wirst du überrollt?
+:::

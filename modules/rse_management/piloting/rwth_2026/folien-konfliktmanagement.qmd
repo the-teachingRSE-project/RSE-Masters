@@ -1,0 +1,416 @@
+---
+title: "Konfliktmanagement und wertschätzende Kommunikation"
+subtitle: "Der konstruktive Umgang mit Kritik und Konflikten für RSEs"
+format:
+    beamer:
+        keep-tex: true
+        colortheme: crane
+        fonttheme: structureitalicserif
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: xelatex
+        include-in-header:
+            - ../../../rse_researchmethods/piloting/rwth_2026/beamer-header.tex
+            - beamer-header-local.tex
+        latex-auto-install: false
+        section-titles: true
+
+bibliography:
+    - references.bib
+---
+
+# Einordnung
+
+## Warum Konfliktmanagement für RSEs?
+
+Research Software Engineers arbeiten an der Schnittstelle von Wissenschaft, Technik und Organisation. Konflikte sind dort systemimmanent:
+
+- doppelte Ziele: Projektziele vs. persönliche/wissenschaftliche Ziele
+- interdisziplinäre und interkulturelle Unterschiede im Team
+- Umgang mit Forschenden, die fachlich, aber nicht softwaretechnisch denken
+- transiente Teams mit wenig gemeinsamer Historie
+
+Diese Beispielsitzung übt den *konstruktiven* Umgang mit Kritik und Konflikten sowie gewaltfreie, wertschätzende Kommunikation.
+
+\vfill
+\footnotesize
+*Aufbereitet nach Schulungsunterlagen von Eckhard Sültemeyer (Management- und Gesundheitsberatung, Karlsruhe) [@sueltemeyer-konfliktmanagement].*
+\normalsize
+
+# Einführung: Umgang mit Kritik und Konflikten
+
+## Was zeichnet einen konfliktfähigen Menschen aus?
+
+*(Kritik am Verhalten in bestimmten Situationen, nicht an der ganzen Person)*
+
+- die Fähigkeit, konstruktive Kritik auszuüben
+- die Fähigkeit, Kritik auszuhalten und anzunehmen
+- Toleranz, Offenheit
+- Dialogbereitschaft
+- Einfühlungsvermögen
+- die Bereitschaft, Irrtümer einzugestehen
+- nicht nachtragend sein
+
+---
+
+## Was ist ein Konflikt?
+
+Das Aufeinandertreffen von *verschiedenen, gegensätzlichen, bis nicht zu vereinbarenden* ...
+
+::: {.columns}
+::: {.column width="50%"}
+- Interessen
+- Zielen
+- Werten / Kulturen
+- Meinungen
+:::
+::: {.column width="50%"}
+- Bedürfnissen
+- Gefühlen
+- Vorgehensweisen
+:::
+:::
+
+... in einer Person sowie zwischen Personen und Gruppen.
+
+# Konfliktarten und das Eisberg-Modell
+
+## Konfliktarten
+
+::: {.columns}
+::: {.column width="50%"}
+- Sachkonflikte (Sacharbeit)
+- Interessenkonflikte
+- Verteilungskonflikte
+- Wertekonflikte
+- Beziehungskonflikte
+- Führungskonflikte
+- Rollenkonflikte
+- Rangkonflikte
+:::
+::: {.column width="50%"}
+- Untergruppenkonflikte
+- Territorialkonflikte
+- Zugehörigkeitskonflikte
+- Beurteilungs- und Wahrnehmungskonflikte
+- Strukturkonflikte
+- Zielkonflikte
+- Individualkonflikte
+:::
+:::
+
+## Das Eisberg-Modell
+
+::: {.columns}
+::: {.column width="45%"}
+**Sichtbarer Konflikt**
+
+- der *Sachkonflikt* an der Oberfläche
+:::
+::: {.column width="55%"}
+**Hintergrund (verdeckt)**
+
+- Interessen / Bedürfnisse, Gefühle
+- Beziehungsprobleme, intrapersonale Probleme
+- Werte, Missverständnisse / Kommunikationsprobleme
+- Informationen, Sichtweise, strukturelle Bedingungen
+:::
+:::
+
+Darunter liegen **Persönlichkeitsprobleme** und *prägende Erfahrungen aus der Vergangenheit*.
+
+*(nach Christoph Besemer, Mediation – Vermittlung in Konflikten [@besemer-mediation])*
+
+# Konfliktmanagement als Energiemanagement
+
+## Energieverluste vs. Energiegewinn
+
+*Umgang mit Gefühlen, Lust/Freude, Motivation*
+
+::: {.columns}
+::: {.column width="50%"}
+**Energieverlust durch**
+
+- Gegeneinander
+- Schweigen / Zumachen
+- Blockaden, Grabenkämpfe
+- Erstarrung, Verkrampfung
+- Bedrohung / Beschimpfung
+- Lähmung / Enge, Kälte / Angst
+- Spannung, Reibung, Stillstand
+:::
+::: {.column width="50%"}
+**Energiegewinn durch**
+
+- Wille zur konstruktiven Konfliktbewältigung
+- Miteinander (reden), Beweglichkeit
+- Aufeinander zugehen, Lebendigkeit
+- Entwicklung, Spielräume
+- Wärme, Verständnis, Vertrauen
+- Mut, ehrliche Reflexion
+- Differenzieren
+:::
+:::
+
+---
+
+## Vom Gegeneinander zum Miteinander
+
+Statt sich auf der Ebene von **Sache / Position / Person** *destruktiv* gegenüberzustehen (A ↔ B), gemeinsam eine *konstruktive* Lösung C mit **Nutzen und Zufriedenheit** suchen.
+
+Leitfragen: *Was ist der Konflikt? Was ist der Konfliktstoff?*
+
+**Wichtig zu klären:**
+
+- die Beziehung
+- das Sachproblem
+- die Gefühle
+- der Grad der Abhängigkeit
+- die Qualität der Kommunikation
+
+Ist es ein **heißer** oder ein **kalter** Konflikt?
+
+# Anregungen für den Umgang mit Konflikten
+
+## Fünf Leitfragen
+
+1. **Woran erkenne ich, dass es um einen Konflikt geht?**
+   *(s. Konfliktdefinition / -arten, Symptome)*
+2. **Was sind die Aspekte?** sichtbare / Hintergrund- / energetische / Persönlichkeitsaspekte
+   *(s. Eisbergmodell, Körper/Gefühl)*
+3. **Wo "steht" der Konflikt?** Welche Auswirkungen hat er?
+   *(heiß – kalt? offen – verdeckt?)*
+4. **Wer ist beteiligt?** mit welchem Einfluss, welchen Abhängigkeiten, welchem Kommunikationsstil? Wer tut was (nicht) – aus welchem Beweggrund?
+5. **Was ist meine Sichtweise, "Gefühlslage", meine Handlungsmöglichkeit?** Was kann ich selbst tun? Wer kann mich unterstützen?
+
+# Möglichkeiten der Konfliktbewältigung
+
+## Drei Wege – abhängig von der Situation
+
+\small
+
+\begin{tabularx}{\textwidth}{X X X}
+\toprule
+\textbf{Konflikt unvermeidbar / Einigung unmöglich} & \textbf{Konflikt vermeidbar / Einigung unmöglich} & \textbf{Konflikt unvermeidbar / Einigung möglich} \\
+\midrule
+Machtkampf (dialektisch) & Zurückziehen (Flucht) & \textbf{Problemlösung (gemeinsam)} \\
+Schiedsgericht & Isolation (Abwendung) & Kompromiss (Anforderungen zurückstecken) \\
+Schicksal & Ignorieren (des Problems, der Person) & Friedliche Koexistenz (Abgrenzung) \\
+\midrule
+Es gibt Sieger und Verlierer; "fremde" Autorität entscheidet & Steht wenig – steht viel auf dem Spiel? & aktiv = bejahen / passiv = Gleichgewicht der Kräfte \\
+\bottomrule
+\end{tabularx}
+
+\normalsize
+
+Wünschenswert ist die **gemeinsame Problemlösung**: Gedanken, Gefühle, Ansichten und Bedürfnisse aller Beteiligten anerkennen und gemeinsam eine neue Lösung suchen – ohne Sieger und Verlierer, zu beiderseitigem Nutzen.
+
+# Vom Streit zur Verständigung
+
+## Vorgehensweise für Konfliktlösungen
+
+::: {.columns}
+::: {.column width="50%"}
+1. Genaue **Schilderung der Situation** durch Betroffene – andere hören zu.
+2. Reine **Verständnisfragen** und Ergänzungsfragen (wer, wo, wie, warum, was, wieviel) – keine wertenden Fragen.
+3. **Bedürfnisse** der Betroffenen ermitteln, Absichten klären, visualisieren.
+4. **Ursachen** ermitteln: Was verhindert die Erfüllung der Bedürfnisse? (**Konfliktstoff**)
+:::
+::: {.column width="50%"}
+5. Prüfen, ob das hinter dem **Sachproblem** liegende **emotionale Problem** ermittelt ist.
+6. Ermitteln von **Lösungsalternativen** – in der Regel gibt es mehrere Wege.
+7. **Konsequenzen** überlegen (mögliche Auswirkungen?).
+8. **Sofortmaßnahmen** und längerfristige **Maßnahmen** festlegen und vereinbaren.
+:::
+:::
+
+# Gewaltfreie Kommunikation (GFK) nach Marshall Rosenberg
+
+## Wertschätzende, nicht-verletzende Kommunikation
+
+Zwei Haltungen in der Kommunikation [@rosenberg-gfk]:
+
+::: {.columns}
+::: {.column width="50%"}
+**Eher "wölfisch" ...**
+
+- analysieren, bewerten / abwerten, urteilen
+- argumentieren, kritisieren, angreifen / verteidigen
+- fordern, Zwang ausüben, verletzen, strafen androhen
+- Schuldgefühle erzeugen, Du-Haltung
+- Bedingungen stellen (wenn ... dann), Vorwürfe
+- Warum-Fragen (Rechtfertigung fordern)
+:::
+::: {.column width="50%"}
+**Eher "giraffisch" ... (Sprache des Herzens)**
+
+- wertschätzend, achtsam, aufrichtig, einfühlsam
+- verständnisvoll, vertrauend, offen, klar, respektvoll
+- Interesse an Lösung und gegenseitiger Verständigung
+- mitfühlend, fragend
+- Verantwortung für die eigenen Bedürfnisse und Gefühle übernehmen
+- aktiv zuhörend
+:::
+:::
+
+## GFK: Grundannahmen, Ziele, Haltungen
+
+::: {.columns}
+::: {.column width="50%"}
+**Grundannahmen**
+
+- Alle Menschen streben danach, ihre Bedürfnisse zu befriedigen.
+- Als soziale Wesen sind wir in vielen Bedürfnissen voneinander abhängig.
+- Auch hinter aggressivem Verhalten steckt ein Bedürfnis.
+
+**Grundhaltungen**
+
+- **Offenheit:** sich klar und offen ausdrücken.
+- **Empathie:** sich in andere einfühlen.
+:::
+::: {.column width="50%"}
+**Ziele**
+
+- wirkliche Verständigung
+- größere Handlungsfähigkeit
+- Lösungen zum Nutzen und zur Zufriedenheit der Beteiligten
+- höhere Eigenverantwortung
+- ein schöneres Leben für die Beteiligten
+:::
+:::
+
+## Die 4 Schritte der GFK
+
+*"Giraffensprache" – Wortschatz üben*
+
+1. **Beobachtung** – Fakten, die in einer konkreten Situation wahrgenommen (gesehen, gehört) werden. *Statt* Bewertungen, Interpretationen, Vorwürfe. → Beobachtung und Bewertung trennen.
+2. **Gefühl** – signalisiert, ob unsere Bedürfnisse erfüllt sind. Ich-Formulierung ("Ich bin ... weil mein Bedürfnis ...") *statt* Du-Formulierung. Verantwortung für die eigenen Gefühle übernehmen.
+3. **Bedürfnis** (körperlich, persönlich, sozial) – das *Verbindende* hinter den Positionen erkennen: *Was brauche ich? Was braucht der andere?*
+4. **Bitte / Wunsch** – in positiver Handlungssprache, konkret und beobachtbar, hier und jetzt überprüfbar. Eine **Bitte** (ein Nein wird ertragen) *statt* einer **Forderung**.
+
+## Die 2 Seiten und 4 Schritte der GFK
+
+\small
+
+\begin{tabularx}{\textwidth}{l X X}
+\toprule
+\textbf{Schritt} & \textbf{Offenheit (ICH)} & \textbf{Empathie (DU)} \\
+ & \textit{sich klar ausdrücken} & \textit{sich einfühlen} \\
+\midrule
+1. Wahrnehmung & Wenn ich sehe / höre ... & Wenn du siehst / hörst ... \\
+2. Gefühl & ... fühle ich mich ... & ... fühlst du dich ... \\
+3. Bedürfnis & ... weil mir ... wichtig ist ... & ... weil dir ... wichtig ist ... \\
+4. Bitte & ... deshalb bitte ich dich ... & ... hättest du gerne, dass ich ...? \\
+\bottomrule
+\end{tabularx}
+
+\normalsize
+
+*(Darstellung nach Silvia Richter-Kaupp, Karlsruhe)*
+
+## Besondere Einsatzmöglichkeiten der GFK
+
+*(nach Ingrid Holler, Trainingsbuch Gewaltfreie Kommunikation [@holler-trainingsbuch])*
+
+- Störungen aktiv mit den 4 Schritten ansprechen
+- mit Kritik, Vorwürfen und Schuldzuweisungen produktiv umgehen
+- empathisch auf die Menschen hinter dem Konflikt hören, ohne die andere Meinung zu übernehmen (die Bedürfnisse hinter einem Nein erkunden)
+- Ärger vollständig ausdrücken, statt ihn heimlich wirken zu lassen
+- lähmende innere Konflikte in lebendige Perspektiven umwandeln
+- klare Bitten äußern statt Forderungen stellen
+- Dankbarkeit ausdrücken, ohne sich oder andere zu verpflichten
+
+# Fallbeispiel
+
+## "Momo" von Michael Ende – auf den Grund gehen
+
+Als Lesebeispiel dient der Streit zwischen **Nino** und **Nicola** aus Michael Endes *Momo* [@ende-momo]: Momo kann *wie kein anderer zuhören* – mit ganzer Aufmerksamkeit und Anteilnahme. Dadurch erkennen die Streitenden nach und nach, worum es *eigentlich* geht.
+
+**Diskussionspunkte für die Übung:**
+
+- Wie wirkt echtes, wertschätzendes Zuhören auf den Konfliktverlauf?
+- Wo liegt der Sachkonflikt, wo das *emotionale* Problem (Eisberg-Modell)?
+- Welche der 4 GFK-Schritte lassen sich im Dialog wiederfinden?
+
+> "Gelingt es, die *emotionale Ladung* des Konfliktes zu akzeptieren und zu *entladen*, wird der Blick für den *Grund* des Konfliktes frei ... Offenes und klärendes Streiten verbindet." — E. Sültemeyer
+
+# Feedback geben – konstruktiv und wertschätzend
+
+## Die Feedback-Sandwich-Regel
+
+Ein einfaches Grundmuster für schwierige Rückmeldungen – **positiv beginnen, kritisch in der Mitte, positiv abschließen**:
+
+::: {.columns}
+::: {.column width="33%"}
+**1. Positiver Einstieg**
+
+- ehrliche Anerkennung: Was läuft gut?
+- konkret, nicht floskelhaft
+- schafft eine offene, sichere Gesprächsbasis
+:::
+::: {.column width="34%"}
+**2. Konstruktive Kritik (Mitte)**
+
+- das *änderbare* Verhalten benennen
+- sachlich und als **Ich-Botschaft**
+- mit einer klaren **Bitte** verbinden
+:::
+::: {.column width="33%"}
+**3. Positiver Abschluss**
+
+- Ermutigung und Ausblick
+- Vertrauen in die Weiterentwicklung
+- gemeinsame nächste Schritte
+:::
+:::
+
+*Merke:* Das "Sandwich" ist eine **Hilfe, kein Automatismus** – es wirkt nur, wenn Lob und Kritik *ehrlich* gemeint sind, sonst wird es durchschaut.
+
+## Merkmale guten Feedbacks
+
+::: {.columns}
+::: {.column width="50%"}
+**Gutes Feedback ist ...**
+
+- **konkret & beschreibend** statt pauschal und bewertend
+- **zeitnah** zur beobachteten Situation
+- auf **Verhalten** bezogen, nicht auf die Person
+- auf **Veränderbares** gerichtet
+:::
+::: {.column width="50%"}
+**... und dialogisch**
+
+- in **Ich-Botschaften** formuliert
+- **dosiert** – nicht alles auf einmal
+- als **Bitte**, nicht als Forderung
+- dort erbeten, wo es möglich ist
+:::
+:::
+
+Im RSE-Alltag allgegenwärtig: **Code Reviews, Merge Requests, Pair Programming** – dieselben Regeln gelten für schriftliches wie für mündliches Feedback.
+
+## Feedback = GFK in der Praxis
+
+Die "Mitte des Sandwichs" gelingt am besten mit den **4 Schritten der GFK**:
+
+\small
+
+\begin{tabularx}{\textwidth}{l X}
+\toprule
+\textbf{GFK-Schritt} & \textbf{Im Feedback} \\
+\midrule
+1. Beobachtung & ``Mir ist aufgefallen, dass die neue Funktion keine Tests hat ...'' (Fakt, keine Wertung) \\
+2. Gefühl & ``... das verunsichert mich ...'' (Ich-Botschaft) \\
+3. Bedürfnis & ``... weil mir die Verlässlichkeit des Codes wichtig ist.'' \\
+4. Bitte & ``Könntest du vor dem Merge zwei, drei Tests ergänzen?'' (konkret; ein Nein wird ausgehalten) \\
+\bottomrule
+\end{tabularx}
+
+\normalsize
+
+So wird aus einem Vorwurf (*"Du testest ja nie!"*) eine **wertschätzende, umsetzbare Bitte** – die *giraffische* statt der *wölfischen* Haltung.
+
+## Literatur
+
+::: {#refs}
+:::

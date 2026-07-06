@@ -1,0 +1,88 @@
+---
+title: "Szenario: Die Plattform »LernSpur«"
+subtitle: "Gemeinsames Briefing für alle Mitspielenden"
+pagetitle: "Szenario: Die Plattform »LernSpur«"
+---
+
+::: {.hint}
+**Lest dieses Briefing alle gemeinsam.** Es beschreibt die Ausgangslage, die alle
+kennen. *Wer ihr im Meeting seid*, steht in der gemeinsamen
+[Rollen-Übersicht](rollen-oeffentlich.qmd); *was ihr insgeheim wollt*, steht auf eurer
+persönlichen Karte – die kennt nur ihr selbst.
+:::
+
+## Worum es geht
+
+Ihr arbeitet am **Lehrstuhl für Empirische Bildungsforschung** einer mittelgroßen
+Universität. Der Lehrstuhl untersucht, wie sich der Einsatz einer digitalen
+Mathematik-Lern-App auf die Lernverläufe von Schüler:innen der Sekundarstufe I
+auswirkt. Dazu läuft seit anderthalb Jahren eine **Längsschnittstudie an 14
+Partnerschulen**.
+
+In der Studie fallen sehr unterschiedliche Daten an:
+
+* **Nutzungsdaten** der Lern-App (welche Aufgaben, wie lange, wie viele Fehler)
+* **Fragebögen** von Schüler:innen, Lehrkräften und Eltern (in drei Erhebungswellen)
+* **Videoaufnahmen** einzelner Unterrichtsstunden
+* **standardisierte Kompetenztests** (Vor- und Nachtest)
+
+Die Daten liegen bisher verstreut: teils in Excel-Tabellen auf Uni-Laufwerken,
+teils in einer alten Access-Datenbank, teils als Rohdaten-Exports der App-Firma.
+Mehrere **Promotionsprojekte** hängen an genau diesen Daten.
+
+Der Lehrstuhl hat nun eine **dreijährige Förderung** eingeworben mit dem Ziel,
+eine nachhaltige, **FAIR**-konforme *Forschungsdatenplattform »LernSpur«* aufzubauen:
+Sie soll die Daten verwalten, die Planung neuer Teilstudien unterstützen und
+Auswertungen für die ganze Arbeitsgruppe ermöglichen.
+
+## Eure Ausgangslage
+
+* Das Projekt ist **bereits gestartet**, die groben Ziele sind kommuniziert.
+* Ihr kennt euch aus vorherigen Meetings – man duzt sich, die Stimmung ist grundsätzlich freundlich.
+* Vor drei Monaten wurde eine **Research Software Engineer:in (RSE)** eingestellt, die
+  die Softwareentwicklung **koordinieren** soll.
+* **Wichtig:** Die RSE hat *keine* disziplinarische Weisungsbefugnis. Sie ist niemandes
+  Chef:in. Sie kommt nur weiter, indem sie die Beteiligten **überzeugt, nicht anweist**.
+
+## Das heutige Meeting (eure Aufgabe)
+
+Heute findet das **Anforderungs-Kickoff** statt. In diesem Meeting soll die RSE:
+
+1. das Ziel der Software kurz vorstellen und den Rahmen setzen,
+2. gemeinsam mit allen die **Anforderungen sammeln und priorisieren**,
+3. **Aufgaben verteilen** und **Erwartungen** klären,
+4. einen **realistischen Plan für die ersten Wochen** entwickeln.
+
+Alle anderen bringen ihre eigenen Interessen, ihr Wissen und ihre Sorgen ein –
+und machen es der RSE dabei manchmal nicht ganz leicht.
+
+::: {.hint}
+**Achtung – typische Reibungspunkte.** Die Domänenforschenden sagen Sätze wie:
+
+> „Wir wollen ähnliche Klassen miteinander vergleichen können."
+
+Für die RSE stellt sich sofort die Frage: **Was heißt *ähnlich*?**
+Gleiche Jahrgangsstufe? Gleiche App-Nutzungsdauer? Gleiche Ausgangsleistung?
+Gleiches Schul-Milieu? **Nur die Bildungsforschenden können sagen, was
+wissenschaftlich sinnvoll ist – nur die RSE weiß, was technisch entscheidbar ist.**
+Genau hier müsst ihr euch zusammenraufen: Keine Seite kann das allein entscheiden.
+:::
+
+## Spielregeln
+
+* **Bleibt in eurer Rolle.** Argumentiert aus den Zielen und Sorgen eurer Rollenkarte heraus.
+* **Blockiert nicht komplett.** Ihr dürft es der RSE schwer machen (unterbrechen, abschweifen,
+  auf Deadlines pochen) – aber das Spiel muss weiterlaufen.
+* **Es gibt keine „richtige" Lösung.** Verschiedene Gruppen kommen zu verschiedenen,
+  gleichermaßen vertretbaren Ergebnissen (siehe [mögliche Ausgänge](spielleitung.qmd#mögliche-ausgänge)).
+* Die **Spielleitung** wirft während des Spiels **neue Informationen** ein
+  (siehe [Ereignisse & Timeline](ereigniskarten.qmd)). Reagiert darauf im Meeting.
+
+## Ergebnissicherung
+
+Haltet am Ende des Meetings auf einem Flipchart / Miro-Board fest:
+
+* **Was wird gebaut – und was bewusst (noch) nicht?** (Scope & Priorisierung)
+* **Wer macht was bis wann?** (Aufgaben, Verantwortliche, grober Zeitplan)
+* **Welche Erwartungen und Zusagen** wurden ausgesprochen?
+* **Welche offene Frage** nehmt ihr mit ins nächste Meeting?

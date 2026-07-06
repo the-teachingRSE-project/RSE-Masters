@@ -1,0 +1,165 @@
+---
+title: "Ereignisse & Timeline"
+subtitle: "Trigger, die die Spielleitung ins Meeting wirft"
+---
+
+::: {.hint}
+**Für die Spielleitung.** Diese Karten steuern die Dynamik des Rollenspiels. Ihr werft
+sie **nacheinander** ins laufende Meeting – mündlich, als ausgedruckte Karte an eine
+Rolle, oder per Chat/Notiz. Jedes Ereignis stresst gezielt eine andere
+**Kompetenz lateraler Führung**. Ihr müsst nicht alle Ereignisse spielen: **E1–E4 sind
+der Kern**, E5–E7 sind Reserve für schnelle oder große Gruppen.
+:::
+
+## Empfohlene Timeline (20-Minuten-Runde)
+
+::: {.timeline}
+
+::: {.t-item}
+<span class="t-time">Min 0–5 · Eröffnung</span><br>
+Die RSE eröffnet, stellt Ziel & Rahmen vor, beginnt die Anforderungserhebung.
+*Noch kein Ereignis.*
+:::
+
+::: {.t-item}
+<span class="t-time">Min 5 · Ereignis E1 — Datenschutz</span><br>
+Erster Stresstest, sobald das Meeting läuft.
+:::
+
+::: {.t-item}
+<span class="t-time">Min 9 · Ereignis E2 — Konferenz-Deadline</span><br>
+Druck von oben, während die RSE noch sortiert.
+:::
+
+::: {.t-item}
+<span class="t-time">Min 13 · Ereignis E3 — Promotions-Notlage</span><br>
+Konkurrierende Priorität aus dem Team.
+:::
+
+::: {.t-item}
+<span class="t-time">Min 16 · Ereignis E4 — Ressourcen-Ausfall</span><br>
+Die Planung muss angepasst werden.
+:::
+
+::: {.t-item}
+<span class="t-time">Min 18–20 · Landung</span><br>
+Spielleitung kündigt „noch 2 Minuten" an → Gruppe sichert Ergebnisse.
+*E5–E7 nur einstreuen, wenn Zeit/Energie da ist.*
+:::
+
+:::
+
+## Die Ereigniskarten
+
+::: {.cards}
+
+::: {.card .event}
+<span class="badge">E1 · Kern</span>
+### Datenschutz schlägt Alarm
+Die Datenschutzbeauftragte meldet sich: Die **Videoaufnahmen von Minderjährigen**
+sind so nicht rechtskonform gespeichert. Es braucht **neue Einwilligungen** und eine
+**Anonymisierungs-Pipeline**, bevor mit den Videodaten weitergearbeitet werden darf.
+
+<div class="meta">
+**Wer bringt es ein:** Spielleitung (Anruf) oder Rolle 5 (Partnerschule).<br>
+**Stresst:** Verständigung · Konfliktlösung · Planen unter Randbedingungen<br>
+**Erwarteter Konflikt:** ungeplanter Scope vs. „das war doch geklärt".
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E2 · Kern</span>
+### Die Konferenz-Deadline
+Der/die PI verkündet: Das Projekt soll auf der Fachtagung in **8 Wochen** vorgestellt
+werden. Der **Abstract (4 Seiten) ist in 2 Wochen** fällig – mit *ersten Ergebnissen*.
+„Das kriegen wir doch hin, oder?"
+
+<div class="meta">
+**Wer bringt es ein:** Rolle 2 (PI).<br>
+**Stresst:** Führung nach oben · Macht der Sprache (überzeugen statt überreden) · Selbstführung<br>
+**Erwarteter Konflikt:** „erste Ergebnisse" vs. „erst Datenmodell".
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E3 · Kern</span>
+### Promotion in Not
+Dr. Melis braucht **diese Woche** einen speziellen Datenexport für ein
+Dissertationskapitel – sonst platzt eine eigene Abgabefrist. „Nur schnell die Tabelle,
+das ist doch keine große Sache."
+
+<div class="meta">
+**Wer bringt es ein:** Rolle 3 (Domäne).<br>
+**Stresst:** achtsame Fremdführung · Priorisierung · Erwartungsmanagement<br>
+**Erwarteter Konflikt:** dringender Einzelwunsch vs. nachhaltige Plattform.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E4 · Kern</span>
+### Ressourcen-Ausfall
+Zwei schlechte Nachrichten: Die beantragten **HiWi-Gelder wurden gekürzt**, und Tobi
+fällt in der **Klausurenphase** zwei Wochen weitgehend aus. Eine eingeplante Aufgabe
+verschiebt sich.
+
+<div class="meta">
+**Wer bringt es ein:** Spielleitung + Rolle 4 (HiWi).<br>
+**Stresst:** Arbeitsstrukturierung · Erwartungsmanagement · Konfliktlösung<br>
+**Erwarteter Konflikt:** Zusagen aus Min 0–15 werden plötzlich unrealistisch.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E5 · Reserve</span>
+### Die Partnerschule wackelt
+Frau Korter macht klar: Ohne ein **einfaches Dashboard**, das der Schule den
+Lernfortschritt *ihrer eigenen* Klassen zeigt, überlegt die Schulleitung, **aus der
+Studie auszusteigen**. Ohne diese Schule fehlen wichtige Daten.
+
+<div class="meta">
+**Wer bringt es ein:** Rolle 5 (Partnerschule).<br>
+**Stresst:** Stakeholder-Verständigung · Verhandeln ohne Macht · Scope<br>
+**Erwarteter Konflikt:** externer Nutzen vs. Forschungs-Roadmap.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E6 · Reserve</span>
+### Kaufen statt bauen?
+Ein Gutachter hat angemerkt, man solle prüfen, ob ein **kommerzielles Tool** nicht
+billiger wäre als die Eigenentwicklung. Der/die PI möchte **bis nächste Woche eine
+kurze Marktanalyse**. „Vielleicht brauchen wir das alles gar nicht selbst zu bauen."
+
+<div class="meta">
+**Wer bringt es ein:** Rolle 2 (PI).<br>
+**Stresst:** Macht des Expertenwissens · sachlich argumentieren · Selbstwirksamkeit<br>
+**Erwarteter Konflikt:** die Existenzberechtigung des ganzen Vorhabens steht im Raum.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E7 · Reserve</span>
+### „Findet einfach die interessanten Muster"
+Dr. Melis wünscht sich: „Die Plattform soll uns automatisch die **interessanten
+Muster** in den Lernverläufen zeigen." Auf die Rückfrage nach Kriterien: „Das
+erkennt man doch."
+
+<div class="meta">
+**Wer bringt es ein:** Rolle 3 (Domäne).<br>
+**Stresst:** Anforderungserhebung · Grenzen des technisch Machbaren · Fragetechnik<br>
+**Erwarteter Konflikt:** vage Erwartung vs. entscheidbare Spezifikation.
+</div>
+:::
+
+:::
+
+## Dramaturgie-Hinweise
+
+* **Nicht überladen.** Ein Ereignis erst werfen, wenn das vorige *bearbeitet* (nicht
+  zwingend *gelöst*) wurde. Ziel ist Reibung, nicht Überforderung.
+* **An Rollen andocken.** Am stärksten wirkt ein Ereignis, wenn es die Spielleitung
+  *der passenden Rolle* zuspielt und diese es aus ihrem Interesse heraus vorträgt.
+* **Bei starken Gruppen** E5–E7 kombinieren (z. B. E6 direkt nach einem selbstsicheren
+  Plan – das testet die Selbstwirksamkeit der RSE).
+* **Bei ins Stocken geratenen Gruppen** ein Ereignis auslassen und stattdessen der RSE
+  über eine Rolle eine *offene Frage* stellen („Was genau erwartest du bis wann von mir?").
