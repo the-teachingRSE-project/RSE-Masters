@@ -1,5 +1,13 @@
 /.quarto/
 /_site/
+
+# RWTH 2026 slide build intermediates — the beamer PDFs are committed and linked
+# directly (CI no longer renders them); the tex/_files are generated, so ignore them.
+components/rse_researchmethods/piloting/rwth_2026/*.tex
+components/rse_researchmethods/piloting/rwth_2026/*_files/
+# Unused scratch source image (45 MB); the deck references quanti_zettel.jpg
+components/rse_researchmethods/piloting/rwth_2026/img/img.png
+
 /index_files
 index.aux
 index.tex

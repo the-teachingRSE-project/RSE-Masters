@@ -25,7 +25,7 @@ bibliography:
 
 # Quantitative Methoden
 
-![Zettel von Fabian](img/quanti_zettel.png){height="70%"}
+![Zettel von Fabian](img/quanti_zettel.jpg){height="70%"}
 
 
 # Quantitative Methoden
