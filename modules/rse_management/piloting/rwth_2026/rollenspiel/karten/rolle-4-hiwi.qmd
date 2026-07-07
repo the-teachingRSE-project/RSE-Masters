@@ -8,7 +8,8 @@ subtitle: "Vertraulich · nur für dich"
 Vertraulich — nur für dich · zeig diese Karte niemandem
 :::
 
-Deine öffentliche Rolle steht im gemeinsamen Handout
+Du spielst **Tobi** (Tobias), die studentische Hilfskraft. Deine öffentliche
+Rolle steht im gemeinsamen Handout
 ([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
 *du* weißt und willst.
 
@@ -20,7 +21,19 @@ auch wenn du es nicht verstanden hast. Bekommst du **klare, kleine Aufgaben** un
 nach deiner Meinung gefragt, blühst du auf. Bekommst du vage Großaufträge, verzettelst
 du dich und lieferst am Ende weniger als versprochen.
 
-**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+::: {.ziele}
+::: {.ziel-gross}
+**Dein großes Ziel (das teilen alle):** »LernSpur« wird ein Erfolg – und du warst ein
+nützlicher Teil davon.
+:::
+::: {.ziel-ich}
+**Dein persönliches Ziel (das treibt *dich* an):** Du willst **nicht als überfordert
+dastehen** und den Job behalten. Dass du gerade weniger Zeit hast als gedacht, traust du
+dich zunächst nicht zu sagen.
+:::
+:::
+
+**Was du dafür konkret erreichen willst (in dieser Reihenfolge):**
 
 ::: {.prio-table}
 | Priorität | Dein Ziel | Warum |
@@ -41,12 +54,32 @@ Kapazität, rückst du ehrlich damit heraus.
 
 ::: {.trumpf}
 **Dein kleiner Trumpf:** Du hast neulich aus Eigeninitiative ein **kleines Skript**
-gebastelt, das einen Teil dessen erledigt, was Dr. Melis braucht (ein einfacher
+gebastelt, das einen Teil dessen erledigt, was Mara braucht (ein einfacher
 Export). Du bist nur zu schüchtern, das von dir aus zu erwähnen. Fragt dich jemand
 freundlich, was du schon kannst/hast, bringst du es ein – und wirst zum Helden der Runde.
+:::
+
+::: {.reden}
+::: {.offen}
+**Das darfst du offen sagen:** dass du motiviert bist und mithelfen willst · dass du gern
+dazulernst · deine Begeisterung. (Du sagst schnell „ja, klar!")
+:::
+::: {.verdeckt}
+**Das behältst du zunächst für dich:** dass du wegen der **Klausuren nur ~5 h/Woche**
+schaffst · dein **fertiges Skript**. Beides kommt raus, wenn dich jemand freundlich
+danach fragt und dir Sicherheit gibt.
+:::
 :::
 
 **So spielst du:** Nicke anfangs zu schnell und zu allem. Ob deine Grenze
 (5 h/Woche) und dein Skript ans Licht kommen, hängt davon ab, **wie gut man dich
 einbindet**: fragt man nach und schafft Sicherheit – oder wirst du überrollt?
+:::
+
+::: {.persona}
+[Deine Aufgabe in der Vorbereitung: Tobi zum Leben erwecken]{.persona-title}
+Überleg dir in 2–3 Minuten: Was studierst du, und warum hast du diesen HiWi-Job
+angenommen (Geld? Erfahrung? Fan der Professorin?)? Wie verrätst du Nervosität, ohne es zu
+sagen – lachst du zu viel, redest du dich um Kopf und Kragen, wirst du kleinlaut? Gib Tobi
+eine Angewohnheit, die zeigt „ich will's allen recht machen". Notiere dir das.
 :::

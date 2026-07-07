@@ -1,0 +1,75 @@
+---
+title: "Role-play: Lateral Leadership in an RSE Context"
+subtitle: "A role-play for students – the »LernSpur« scenario"
+---
+
+A **role-play** in which students practise **lateral leadership**: leading a
+research-software initiative *without* any authority to give orders – relying only on
+**mutual understanding, expert power, and trust**. The scenario is set in
+**empirical education research**, a deliberately accessible domain, so that attention
+stays on the leadership rather than on technical jargon.
+
+## Why a role-play at all?
+
+You don't learn lateral leadership from a slide – you learn it by *experiencing* it.
+The role-play creates a **safe space to try things out**:
+
+* You get to **feel it first-hand**: what it's like to lead a team without any authority
+  to give orders – with real pressure, conflicting goals, and vague requests, but no real
+  risk.
+* You can **test behaviours** that take some courage in real life (asking follow-up
+  questions, saying no, setting priorities) – and see straight away how the others react.
+* **The project isn't the point; the dynamic between you is.** There's no "winning" and no
+  perfect solution – the learning lies in *how* you deal with one another. That's exactly
+  what we draw out afterwards in the **debrief**.
+
+## The building blocks
+
+| Building block | For whom | Content |
+|----------|---------|--------|
+| [**Scenario**](szenario.qmd) | everyone | shared briefing: the »LernSpur« platform & the kickoff meeting |
+| [**The roles (handout)**](rollen-oeffentlich.qmd) | everyone | one shared overview of all roles – *public* knowledge only, one PDF for all |
+| [**Distribution & cards**](rollenkarten.qmd) | facilitator | distribution notes + links to the **confidential** individual cards (1 per person) |
+| [**Events & timeline**](ereigniskarten.qmd) | facilitator | 7 triggerable events with a recommended timeline |
+| [**Facilitator's guide**](spielleitung.qmd) | instructors | secrets overview & conflict matrix, competency goals, observation, debrief |
+
+: {.striped}
+
+## In one sentence
+
+> **Robin**, freshly hired as an RSE, is tasked with turning the scattered data of an
+> education-research study into a sustainable, FAIR-compliant platform – and, in the
+> kickoff meeting, must **lead without being anyone's boss**: an enthusiastic professor,
+> a deadline-driven postdoc, an overwhelmed student assistant, and a sceptical
+> partner-school teacher.
+
+## Learning goal in brief
+
+Lateral leadership means *leading as equals, without relying on hierarchy – relying
+instead on the power of your own effectiveness*. Students experience how conflicts of
+goals – between sustainability and speed, between individual interest and the common
+good – **can be worked through not by giving orders, but through understanding, argument,
+and trust**. The full competency mapping is in the
+[facilitator's guide](spielleitung.qmd).
+
+## Quick start for instructors
+
+::: {.hint}
+**Beforehand (strongly recommended):** Hand out the **scenario** and the shared
+**[role overview](rollen-oeffentlich.qmd)** already **a few days before the session** –
+and let the students choose their role by **preference**. That way they arrive prepared
+and have already engaged with "their" character. For the session, bring **name tags** and
+**printed role and event cards**.
+:::
+
+1. Hand out the **scenario** + the shared **[role overview](rollen-oeffentlich.qmd)** to everyone (read together, ~5 min) – both free of secrets.
+2. **Assign roles by preference**; give each person **exactly one** confidential [role card](rollenkarten.qmd) (their own PDF/printout) – the others' hidden goals stay secret (**negotiation practice**).
+3. **Creative preparation phase:** everyone fleshes out their own **persona** (the small task is at the bottom of every card) and sharpens their secret goals.
+4. Start the meeting; sprinkle in the **events** along the [timeline](ereigniskarten.qmd#recommended-timeline) (how many is up to the facilitator).
+5. Watch with the **observation sheet**, then reflect using the [debrief guide](spielleitung.qmd#debrief).
+
+::: {.hint}
+**Time needed:** about **100–110 minutes** (10 explanation · 25 preparation incl.
+persona · 2 × 30 play · 15–20 debrief), easy to scale and to split across two sessions.
+Details under [schedule & timing](spielleitung.qmd#schedule-timing).
+:::

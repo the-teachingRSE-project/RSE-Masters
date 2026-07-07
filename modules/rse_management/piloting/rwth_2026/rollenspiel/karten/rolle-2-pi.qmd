@@ -1,6 +1,6 @@
 ---
-title: "Deine Karte — Prof. Dr. Barn (PI / Lehrstuhl)"
-pagetitle: "Deine Karte — Prof. Dr. Barn (PI / Lehrstuhl)"
+title: "Deine Karte — Petra (Prof. Dr. Barn, PI / Lehrstuhl)"
+pagetitle: "Deine Karte — Petra (Prof. Dr. Barn, PI / Lehrstuhl)"
 subtitle: "Vertraulich · nur für dich"
 ---
 
@@ -8,45 +8,84 @@ subtitle: "Vertraulich · nur für dich"
 Vertraulich — nur für dich · zeig diese Karte niemandem
 :::
 
-Deine öffentliche Rolle steht im gemeinsamen Handout
+Du spielst **Petra** (Prof. Dr. Petra Barn), die Lehrstuhlleiterin. Deine öffentliche
+Rolle steht im gemeinsamen Handout
 ([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
 *du* weißt und willst.
 
 ::: {.geheim}
 ### 🔒 Dein verdecktes Briefing
 
-Du bist wohlwollend, aber **ungeduldig**. Du unterbrichst gern mit *„Und wann sieht
-man das erste Mal was?"* Technische Details langweilen dich – du willst wissen, *was
-rauskommt und wann*. Wer dir gut zuhört und einen **glaubwürdigen** Plan liefert,
-bekommt deine volle Rückendeckung.
+Du bist **warmherzig, begeistert und lösungsorientiert**. Du hast Robin bewusst geholt und
+willst, dass diese Rolle gelingt – du bist auf Robins Seite. Statt Druck zu machen fragst
+du: *„Was brauchst du von mir, damit das klappt?"* Technische Details musst du nicht selbst
+verstehen; du vertraust darauf, dass Robin sie im Griff hat, und **stärkst der RSE den
+Rücken** gegenüber dem Team.
 
-**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+Dein Schwachpunkt ist nicht Ungeduld, sondern **Über-Optimismus**: Du bist so von der Idee
+begeistert, dass du der Fachcommunity gern *zu viel* versprichst („Bis zur Konferenz zeigen
+wir das große Ganze!"). Robins Aufgabe ist es, dich sanft auf dem Boden zu halten – und
+genau das darf sie/er bei dir auch.
+
+::: {.ziele}
+::: {.ziel-gross}
+**Dein großes Ziel (das teilen alle):** »LernSpur« wird ein Erfolg – für die ganze
+Arbeitsgruppe, nicht nur für dich.
+:::
+::: {.ziel-ich}
+**Dein persönliches Ziel (das treibt *dich* an):** Du möchtest der Community bei der
+Konferenz zeigen, dass die Investition sich lohnt – und dein Team dabei *entlasten*, nicht
+antreiben.
+:::
+:::
+
+**Was du dafür konkret erreichen willst (in dieser Reihenfolge):**
 
 ::: {.prio-table}
 | Priorität | Dein Ziel | Warum |
 |-----------|-----------|-------|
-| ⭐⭐⭐ | Auf der Konferenz **etwas Vorzeigbares** haben (und sei es klein) | die Weiterfinanzierung hängt an sichtbarem Fortschritt |
-| ⭐⭐ | Einen Plan, an den du **glauben** kannst – keine leeren Versprechen | du wurdest schon oft mit „läuft" vertröstet |
-| ⭐ | Möglichst wenig selbst ins Klein-Klein müssen | deine Zeit ist knapp |
+| ⭐⭐⭐ | Auf der Konferenz **etwas Ehrliches** zeigen (und sei es klein) | die Weiterfinanzierung hängt an sichtbarem Fortschritt |
+| ⭐⭐ | Dass Robin einen Plan hat, den das **ganze Team mitträgt** | ein zerstrittenes Team liefert nichts |
+| ⭐ | Dein Team **entlasten**, wo du kannst (Budget, Rückendeckung) | zufriedene Leute bleiben und leisten mehr |
 :::
 
 ::: {.rote-linie}
-**Deine rote Linie:** Mit *„nach der Konferenz haben wir dann was"* gibst du dich
-**nicht** zufrieden. Du brauchst zur Tagung ein konkretes Etwas. Wer dir das
-glaubwürdig zusagt, bekommt Rückhalt; wer nur blockt, gegen den setzt du deine
-Autorität ein („Dann machen wir es eben so, wie ich sage").
+**Deine weiche Linie:** Ein ehrliches *kleines* Ergebnis zur Konferenz ist dir tausendmal
+lieber als ein großes Versprechen, das platzt. Wenn Robin dir einen glaubwürdigen Weg zu
+*einem* vorzeigbaren Ergebnis zeigt, bist du **sofort zufrieden** und fragst nur noch:
+*„Wie kann ich helfen?"* Du setzt **nie** deine Autorität ein, um etwas zu erzwingen –
+du überzeugst durch Begeisterung, nicht durch Anweisung.
 :::
 
 ::: {.trumpf}
-**Deine geheime Information (Trumpf):** Du hast eine **stille Budgetreserve** – Mittel
-für eine zusätzliche HiWi-Aufstockung oder eine Tool-Lizenz. Du rückst sie **nicht
-freiwillig** heraus (du willst sie für Notfälle behalten). Erst wenn dir jemand
-überzeugend zeigt, dass genau das den Konferenz-Erfolg sichert, gibst du sie frei.
-Das ist dein Ass, um ein festgefahrenes Gespräch aufzulösen.
+**Deine geheime Information (Trumpf):** Du hast eine **stille Budgetreserve** – Mittel für
+eine HiWi-Aufstockung oder eine Tool-Lizenz. Sobald dir jemand einen glaubwürdigen Plan
+zeigt, **bietest du sie von dir aus an**: *„Wenn dir das hilft – ich habe da noch etwas
+Spielraum."* Du hältst sie nicht zurück; du willst nur wissen, dass sie sinnvoll landet.
+Das ist dein Beitrag, um ein festgefahrenes Gespräch aufzulösen.
 :::
 
-**So spielst du:** Mach früh Druck auf Tempo und Sichtbarkeit. Belohne gutes
-Erwartungsmanagement mit Zustimmung, bestrafe schwammige oder rein technische Antworten
-mit Ungeduld. Deine Budgetreserve ist der Hebel, der aus einem Nullsummenspiel ein
-gutes Ergebnis machen kann – aber nur, wenn man dich richtig abholt.
+::: {.reden}
+::: {.offen}
+**Das darfst du offen sagen:** wie wichtig dir die Konferenz ist · dass du Robin den Rücken
+stärkst · dass du helfen willst · deine Begeisterung für das Projekt.
+:::
+::: {.verdeckt}
+**Das behältst du zunächst für dich:** die genaue **Budgetreserve** – die legst du erst auf
+den Tisch, wenn ein glaubwürdiger Plan steht (dann aber gern und von dir aus).
+:::
+:::
+
+**So spielst du:** Sei herzlich und ermutigend. Zeig echtes Interesse an Robins Weg und
+biete Unterstützung an. Neige dazu, gegenüber der Konferenz *zu groß* zu träumen – und lass
+dich von einem guten, ehrlichen Plan gern einfangen. Deine Budgetreserve ist ein Geschenk,
+mit dem du dem Team hilfst, nicht ein Faustpfand.
+:::
+
+::: {.persona}
+[Deine Aufgabe in der Vorbereitung: Petra zum Leben erwecken]{.persona-title}
+Überleg dir in 2–3 Minuten: Wofür brennt Petra fachlich – was war ihr eigenes
+Aha-Erlebnis in der Bildungsforschung? Wie zeigt sie Begeisterung (schwärmt sie, malt sie
+Zukunftsbilder, lobt sie überschwänglich)? Gib ihr einen typischen Satz, mit dem sie
+Menschen mitreißt. Notiere dir das.
 :::

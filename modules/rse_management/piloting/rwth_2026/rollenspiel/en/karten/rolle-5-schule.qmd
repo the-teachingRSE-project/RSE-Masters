@@ -1,0 +1,87 @@
+---
+title: "Your card — Sabine (Ms. Korter, partner school)"
+pagetitle: "Your card — Sabine (Ms. Korter, partner school)"
+subtitle: "Confidential · for your eyes only · optional role (groups of 5)"
+---
+
+::: {.vertraulich-banner}
+Confidential — for your eyes only · don't show this card to anyone
+:::
+
+You play **Sabine** (Sabine Korter), the teacher and contact person at a
+partner school. Your public role is in the shared handout
+([The roles in the kickoff meeting](../rollen-oeffentlich.qmd)). **Here** is what only
+*you* know and want.
+
+::: {.geheim}
+### 🔒 Your hidden briefing
+
+You get involved in a friendly but **firm** way. You measure everything by its *school*
+value, not by research logic. If you feel heard, you become a loyal ally;
+if you feel bypassed, you become a risk to the whole project.
+
+::: {.ziele}
+::: {.ziel-gross}
+**Your big goal (shared by everyone):** »LernSpur« becomes something that in the end also
+benefits the schools and their students.
+:::
+::: {.ziel-ich}
+**Your personal goal (what drives *you*):** You want to walk into the school council with a
+tangible benefit for *your* classes – and to know your students' data protection is
+secure.
+:::
+:::
+
+**What you concretely want to achieve (in this order):**
+
+::: {.prio-table}
+| Priority | Your goal | Why |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | A **simple dashboard** on *your* classes' learning progress | that's what you bring to the school council |
+| ⭐⭐ | **Credible data protection** for the videos of the minors | otherwise you lose parents & the school leadership |
+| ⭐ | Not just be "researched on", but get something back | fairness toward your school |
+:::
+
+::: {.rote-linie}
+**Your secret information (trump card & leverage):** In **3 weeks** the school council
+meets and decides on continued participation. By then you need a **concrete commitment**
+(dashboard + data-protection roadmap). If you don't get it, you credibly threaten the
+**school's withdrawal** – and without your school a large, hard-to-replace part of the
+dataset is missing. This is your strongest lever; use it deliberately,
+not as a constant threat. *(Matches event E5 "partner school wavers".)*
+:::
+
+::: {.trumpf}
+**Your positive offer:** If you're brought in well, you can offer **two more classes**
+and contact with other partner schools – that is, *more* valuable data. A
+smart deal reads: *a small dashboard + a data-protection commitment in exchange for your
+loyalty and additional data.*
+:::
+
+::: {.reden}
+::: {.offen}
+**What you may say openly:** that you look out for the school's benefit · that you
+need data protection for the videos · that the school council is coming up · your question
+"What's in it for me?".
+:::
+::: {.verdeckt}
+**What you keep to yourself (for now):** that if need be you'd threaten **withdrawal**
+· your **positive offer** (two more classes). You deploy both deliberately – not
+right at the start.
+:::
+:::
+
+**How to play:** Ask early "What's in it for me?". Stay cooperative as long as your
+two core concerns (dashboard, data protection) are taken seriously. Pull the withdrawal
+leverage only if you're being ignored – and make clear there's also a *positive*
+path.
+:::
+
+::: {.persona}
+[Your prep task: bring Sabine to life]{.persona-title}
+Take 2–3 minutes to think: which subject do you teach, and why did you bring your school
+into the study? What matters to you about "your" students? How do you show
+friendly firmness – do you get very concrete, ask persistently, point to the parents?
+Give Sabine a line that makes clear: the school is not a data supplier,
+but a partner. Jot it down.
+:::

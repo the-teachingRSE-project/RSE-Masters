@@ -1,6 +1,6 @@
 ---
-title: "Deine Karte — Dr. Melis (Bildungsforschung)"
-pagetitle: "Deine Karte — Dr. Melis (Bildungsforschung)"
+title: "Deine Karte — Mara (Dr. Melis, Bildungsforschung)"
+pagetitle: "Deine Karte — Mara (Dr. Melis, Bildungsforschung)"
 subtitle: "Vertraulich · nur für dich"
 ---
 
@@ -8,7 +8,8 @@ subtitle: "Vertraulich · nur für dich"
 Vertraulich — nur für dich · zeig diese Karte niemandem
 :::
 
-Deine öffentliche Rolle steht im gemeinsamen Handout
+Du spielst **Mara** (Dr. Mara Melis), die PostDoc-Bildungsforscherin. Deine öffentliche
+Rolle steht im gemeinsamen Handout
 ([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
 *du* weißt und willst.
 
@@ -17,9 +18,21 @@ Deine öffentliche Rolle steht im gemeinsamen Handout
 
 Formuliere Wünsche zunächst **unpräzise** („ähnliche Klassen", „interessante Muster")
 und reagiere leicht genervt, wenn nachgefragt wird (*„Das ist doch klar…"*). Erst wenn
-die RSE **geduldig weiterfragt**, rückst du konkrete Kriterien heraus.
+Robin **geduldig weiterfragt**, rückst du konkrete Kriterien heraus.
 
-**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+::: {.ziele}
+::: {.ziel-gross}
+**Dein großes Ziel (das teilen alle):** »LernSpur« wird eine Plattform, mit der die ganze
+Gruppe endlich vernünftig forschen kann.
+:::
+::: {.ziel-ich}
+**Dein persönliches Ziel (das treibt *dich* an):** Du willst *deinen* Datenexport – und
+zwar bald. Deine eigene Abgabefrist sitzt dir im Nacken, auch wenn du das zunächst nicht
+zugibst.
+:::
+:::
+
+**Was du dafür konkret erreichen willst (in dieser Reihenfolge):**
 
 ::: {.prio-table}
 | Priorität | Dein Ziel | Warum |
@@ -33,18 +46,37 @@ die RSE **geduldig weiterfragt**, rückst du konkrete Kriterien heraus.
 **Deine rote Linie:** Wenn dein Export komplett hinter die Plattform-Architektur
 geschoben wird („das kommt in Monat 3"), wirst du **still unkooperativ** – du lieferst
 Anforderungen dann nur noch zäh und ziehst dich innerlich zurück. Fühlst du dich aber
-gehört, wirst du zur wertvollsten Verbündeten der RSE.
+gehört, wirst du zur wertvollsten Verbündeten von Robin.
 :::
 
 ::: {.trumpf}
 **Deine geheime Information (Trumpf):** Nur *du* kennst die **Bedeutung der Daten** –
 welche Spalte was heißt, welche Messungen vergleichbar sind, wo die Fallstricke liegen.
-Ohne dieses Wissen kann die RSE das Datenmodell gar nicht sauber bauen. Das ist dein
+Ohne dieses Wissen kann Robin das Datenmodell gar nicht sauber bauen. Das ist dein
 Tauschpfand: **dein Domänenwissen gegen die Priorisierung deines Exports.**
 :::
 
+::: {.reden}
+::: {.offen}
+**Das darfst du offen sagen:** dass du dringend Auswertungen brauchst · dass du die Daten am
+besten kennst · deine (zunächst vagen) Wünsche · dass du auf die Plattform angewiesen bist.
+:::
+::: {.verdeckt}
+**Das behältst du zunächst für dich:** deine **Abgabefrist in 3 Wochen** und wie sehr sie
+dich stresst. Rück damit erst raus, wenn Robin dir signalisiert, dass dein Anliegen zählt.
+:::
+:::
+
 **So spielst du:** Sei anfangs vage und ungeduldig. Lass dich durch gute Fragen
-„knacken". Wenn die RSE clever ist, bietet sie dir einen Deal an: *du hilfst, die Daten
+„knacken". Wenn Robin clever ist, bietet sie/er dir einen Deal an: *du hilfst, die Daten
 zu dokumentieren – dafür kommt dein Export früh.* Auf so ein faires Paket steigst du
 gern ein.
+:::
+
+::: {.persona}
+[Deine Aufgabe in der Vorbereitung: Mara zum Leben erwecken]{.persona-title}
+Überleg dir in 2–3 Minuten: Worüber promovierst/forschst du eigentlich – nenn dein Thema
+in einem Satz. Was macht dich unter Fristdruck kribbelig – wirst du kurz angebunden,
+redest du in Fachbegriffen, seufzt du? Gib Mara eine kleine Geste oder Floskel, an der man
+merkt: jetzt wird's ihr zu vage-technisch. Notiere dir das.
 :::

@@ -11,39 +11,45 @@ Rolle, oder per Chat/Notiz. Jedes Ereignis stresst gezielt eine andere
 der Kern**, E5–E7 sind Reserve für schnelle oder große Gruppen.
 :::
 
-## Empfohlene Timeline (20-Minuten-Runde)
+## Empfohlene Timeline (30-Minuten-Runde)
+
+::: {.hint}
+Gebt den Gruppen **ausreichend Zeit** – Verhandeln braucht Luft. Die Zeitmarken unten
+sind für eine 30-Minuten-Runde gedacht und lassen sich problemlos strecken; werft ein
+neues Ereignis erst, wenn das vorige *bearbeitet* ist (siehe Dramaturgie-Hinweise unten).
+:::
 
 ::: {.timeline}
 
 ::: {.t-item}
-<span class="t-time">Min 0–5 · Eröffnung</span><br>
-Die RSE eröffnet, stellt Ziel & Rahmen vor, beginnt die Anforderungserhebung.
+<span class="t-time">Min 0–7 · Eröffnung</span><br>
+Robin (RSE) eröffnet, stellt Ziel & Rahmen vor, beginnt die Anforderungserhebung.
 *Noch kein Ereignis.*
 :::
 
 ::: {.t-item}
-<span class="t-time">Min 5 · Ereignis E1 — Datenschutz</span><br>
+<span class="t-time">Min 7 · Ereignis E1 — Datenschutz</span><br>
 Erster Stresstest, sobald das Meeting läuft.
 :::
 
 ::: {.t-item}
-<span class="t-time">Min 9 · Ereignis E2 — Konferenz-Deadline</span><br>
-Druck von oben, während die RSE noch sortiert.
+<span class="t-time">Min 13 · Ereignis E2 — Konferenz-Deadline</span><br>
+Druck von oben, während Robin noch sortiert.
 :::
 
 ::: {.t-item}
-<span class="t-time">Min 13 · Ereignis E3 — Promotions-Notlage</span><br>
+<span class="t-time">Min 18 · Ereignis E3 — Promotions-Notlage</span><br>
 Konkurrierende Priorität aus dem Team.
 :::
 
 ::: {.t-item}
-<span class="t-time">Min 16 · Ereignis E4 — Ressourcen-Ausfall</span><br>
+<span class="t-time">Min 23 · Ereignis E4 — Ressourcen-Ausfall</span><br>
 Die Planung muss angepasst werden.
 :::
 
 ::: {.t-item}
-<span class="t-time">Min 18–20 · Landung</span><br>
-Spielleitung kündigt „noch 2 Minuten" an → Gruppe sichert Ergebnisse.
+<span class="t-time">Min 27–30 · Landung</span><br>
+Spielleitung kündigt „noch 3 Minuten" an → Gruppe sichert Ergebnisse.
 *E5–E7 nur einstreuen, wenn Zeit/Energie da ist.*
 :::
 
@@ -70,12 +76,12 @@ sind so nicht rechtskonform gespeichert. Es braucht **neue Einwilligungen** und 
 ::: {.card .event}
 <span class="badge">E2 · Kern</span>
 ### Die Konferenz-Deadline
-Der/die PI verkündet: Das Projekt soll auf der Fachtagung in **8 Wochen** vorgestellt
-werden. Der **Abstract (4 Seiten) ist in 2 Wochen** fällig – mit *ersten Ergebnissen*.
-„Das kriegen wir doch hin, oder?"
+Petra (PI) verkündet begeistert: Das Projekt soll auf der Fachtagung in **8 Wochen**
+vorgestellt werden. Der **Abstract (4 Seiten) ist in 2 Wochen** fällig – mit *ersten
+Ergebnissen*. „Das kriegen wir doch bestimmt hin – und sagt mir, was ihr dafür braucht!"
 
 <div class="meta">
-**Wer bringt es ein:** Rolle 2 (PI).<br>
+**Wer bringt es ein:** Rolle 2 (Petra / PI).<br>
 **Stresst:** Führung nach oben · Macht der Sprache (überzeugen statt überreden) · Selbstführung<br>
 **Erwarteter Konflikt:** „erste Ergebnisse" vs. „erst Datenmodell".
 </div>
@@ -84,12 +90,12 @@ werden. Der **Abstract (4 Seiten) ist in 2 Wochen** fällig – mit *ersten Erge
 ::: {.card .event}
 <span class="badge">E3 · Kern</span>
 ### Promotion in Not
-Dr. Melis braucht **diese Woche** einen speziellen Datenexport für ein
+Mara braucht **diese Woche** einen speziellen Datenexport für ein
 Dissertationskapitel – sonst platzt eine eigene Abgabefrist. „Nur schnell die Tabelle,
 das ist doch keine große Sache."
 
 <div class="meta">
-**Wer bringt es ein:** Rolle 3 (Domäne).<br>
+**Wer bringt es ein:** Rolle 3 (Mara / Domäne).<br>
 **Stresst:** achtsame Fremdführung · Priorisierung · Erwartungsmanagement<br>
 **Erwarteter Konflikt:** dringender Einzelwunsch vs. nachhaltige Plattform.
 </div>
@@ -103,7 +109,7 @@ fällt in der **Klausurenphase** zwei Wochen weitgehend aus. Eine eingeplante Au
 verschiebt sich.
 
 <div class="meta">
-**Wer bringt es ein:** Spielleitung + Rolle 4 (HiWi).<br>
+**Wer bringt es ein:** Spielleitung + Rolle 4 (Tobi / HiWi).<br>
 **Stresst:** Arbeitsstrukturierung · Erwartungsmanagement · Konfliktlösung<br>
 **Erwarteter Konflikt:** Zusagen aus Min 0–15 werden plötzlich unrealistisch.
 </div>
@@ -112,12 +118,12 @@ verschiebt sich.
 ::: {.card .event}
 <span class="badge">E5 · Reserve</span>
 ### Die Partnerschule wackelt
-Frau Korter macht klar: Ohne ein **einfaches Dashboard**, das der Schule den
+Sabine macht klar: Ohne ein **einfaches Dashboard**, das der Schule den
 Lernfortschritt *ihrer eigenen* Klassen zeigt, überlegt die Schulleitung, **aus der
 Studie auszusteigen**. Ohne diese Schule fehlen wichtige Daten.
 
 <div class="meta">
-**Wer bringt es ein:** Rolle 5 (Partnerschule).<br>
+**Wer bringt es ein:** Rolle 5 (Sabine / Partnerschule).<br>
 **Stresst:** Stakeholder-Verständigung · Verhandeln ohne Macht · Scope<br>
 **Erwarteter Konflikt:** externer Nutzen vs. Forschungs-Roadmap.
 </div>
@@ -127,11 +133,12 @@ Studie auszusteigen**. Ohne diese Schule fehlen wichtige Daten.
 <span class="badge">E6 · Reserve</span>
 ### Kaufen statt bauen?
 Ein Gutachter hat angemerkt, man solle prüfen, ob ein **kommerzielles Tool** nicht
-billiger wäre als die Eigenentwicklung. Der/die PI möchte **bis nächste Woche eine
-kurze Marktanalyse**. „Vielleicht brauchen wir das alles gar nicht selbst zu bauen."
+billiger wäre als die Eigenentwicklung. Petra möchte **bis nächste Woche eine
+kurze Marktanalyse** – neugierig, nicht drängend: „Vielleicht brauchen wir das alles
+gar nicht selbst zu bauen – was meinst du, Robin?"
 
 <div class="meta">
-**Wer bringt es ein:** Rolle 2 (PI).<br>
+**Wer bringt es ein:** Rolle 2 (Petra / PI).<br>
 **Stresst:** Macht des Expertenwissens · sachlich argumentieren · Selbstwirksamkeit<br>
 **Erwarteter Konflikt:** die Existenzberechtigung des ganzen Vorhabens steht im Raum.
 </div>
@@ -140,12 +147,12 @@ kurze Marktanalyse**. „Vielleicht brauchen wir das alles gar nicht selbst zu b
 ::: {.card .event}
 <span class="badge">E7 · Reserve</span>
 ### „Findet einfach die interessanten Muster"
-Dr. Melis wünscht sich: „Die Plattform soll uns automatisch die **interessanten
+Mara wünscht sich: „Die Plattform soll uns automatisch die **interessanten
 Muster** in den Lernverläufen zeigen." Auf die Rückfrage nach Kriterien: „Das
 erkennt man doch."
 
 <div class="meta">
-**Wer bringt es ein:** Rolle 3 (Domäne).<br>
+**Wer bringt es ein:** Rolle 3 (Mara / Domäne).<br>
 **Stresst:** Anforderungserhebung · Grenzen des technisch Machbaren · Fragetechnik<br>
 **Erwarteter Konflikt:** vage Erwartung vs. entscheidbare Spezifikation.
 </div>

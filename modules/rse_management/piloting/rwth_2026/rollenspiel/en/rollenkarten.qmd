@@ -1,0 +1,74 @@
+---
+title: "Roles & distribution"
+subtitle: "Facilitator's guide"
+---
+
+::: {.hint}
+**This page is for the facilitator.** It explains *who receives which materials*.
+The materials themselves come in two kinds:
+
+* **public, the same for everyone:** the [scenario](szenario.qmd) and the shared
+  role overview [“The roles in the kickoff meeting”](rollen-oeffentlich.qmd).
+* **confidential, one per person:** the personal cards with a **hidden
+  negotiation briefing** (secret goals, red line, trump card) – each person receives
+  **only their own**.
+
+The complete overview of all secrets and conflicts is held **by the
+[facilitator](spielleitung.qmd) alone**.
+:::
+
+## Why separate cards? — Negotiation training
+
+The roles have **deliberately conflicting interests**. Everyone wants a share of the
+scarce development time before the conference – but not everything fits. This very
+conflict of interests is the training material: the RSE has to **mediate and
+negotiate** until a package emerges that everyone can support. That is why no one knows
+the others' hidden goals – you have to *find them out* in conversation.
+
+## The roles at a glance
+
+| # | Role | Public core interest | Confidential card |
+|---|-------|------------------------------|--------------------|
+| 1 | **Robin** — RSE / software coordination | a viable, maintainable platform | [Card 1](karten/rolle-1-rse.qmd) |
+| 2 | **Petra** (Prof. Dr. Barn) — PI / chair | visible success carried by everyone | [Card 2](karten/rolle-2-pi.qmd) |
+| 3 | **Mara** (Dr. Melis) — Education research | quickly analysable data for the paper | [Card 3](karten/rolle-3-domaene.qmd) |
+| 4 | **Tobi** (Tobias) — student assistant | learn more, avoid being overwhelmed | [Card 4](karten/rolle-4-hiwi.qmd) |
+| 5 | **Sabine** (Ms. Korter) — Partner school *(optional)* | benefit for the school, data protection | [Card 5](karten/rolle-5-schule.qmd) |
+
+: {.striped}
+
+::: {.hint}
+The card links lead to the **confidential** individual cards – for the **facilitator**
+to prepare and distribute. During the round itself, **only the facilitator** opens
+these pages and hands each person their card individually.
+:::
+
+## Distribution — how it works
+
+1. Hand out the **scenario** and the shared **role overview**
+   ([The roles in the kickoff meeting](rollen-oeffentlich.qmd)) to **everyone** –
+   ideally **a few days in advance** (shared briefing, ~5 min in the
+   session). Both are free of secrets.
+2. **Distribute roles by preference:** let the students choose *for themselves* as far
+   as possible which person they want to play (Robin, Petra, Mara, Tobi, Sabine) –
+   whoever identifies with “their” role plays more engagedly. In case of a tie, draw
+   lots.
+3. Give each person **exactly one** confidential role card – as its own PDF
+   (`rolle-*.pdf`) or printout. For groups of 4 use cards **1–4**, for groups of 5 add
+   card **5**.
+4. Do **not** show the others' cards. The hidden goals stay secret – that
+   is the heart of the negotiation training.
+4. The [facilitator](spielleitung.qmd) keeps the overall picture (all secrets +
+   conflict matrix) and throws in the events along the
+   [timeline](ereigniskarten.qmd#recommended-timeline).
+5. **Afterwards:** a shared debrief – *there* comes the input on lateral leadership and
+   the reveal of the hidden interests (see [facilitator](spielleitung.qmd#debrief)).
+
+::: {.hint}
+**Role swap (optional, recommended):** As in the template *“First project lead”*,
+the **RSE players can switch groups** – so they do *not* lead the group with which they
+prepared the game. This increases unpredictability.
+**Variants between groups:** where useful, assign slightly different RSE profiles
+(internal *domain* RSE vs. external *infrastructure* RSE from an RSE center). See
+[facilitator](spielleitung.qmd#domain-vs-infrastructure-rse).
+:::

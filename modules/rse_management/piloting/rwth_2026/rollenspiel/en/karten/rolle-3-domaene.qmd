@@ -1,0 +1,80 @@
+---
+title: "Your card — Mara (Dr. Melis, education research)"
+pagetitle: "Your card — Mara (Dr. Melis, education research)"
+subtitle: "Confidential · for your eyes only"
+---
+
+::: {.vertraulich-banner}
+Confidential — for your eyes only · don't show this card to anyone
+:::
+
+You play **Mara** (Dr. Mara Melis), the education-research postdoc. Your public
+role is in the shared handout
+([The roles in the kickoff meeting](../rollen-oeffentlich.qmd)). **Here** is what only
+*you* know and want.
+
+::: {.geheim}
+### 🔒 Your hidden briefing
+
+Phrase your wishes **imprecisely** at first ("similar classes", "interesting patterns")
+and react a little annoyed when someone asks for detail (*"Well, that's obvious…"*). Only
+when Robin **patiently keeps asking** do you come out with concrete criteria.
+
+::: {.ziele}
+::: {.ziel-gross}
+**Your big goal (shared by everyone):** »LernSpur« becomes a platform that finally lets
+the whole group do proper research.
+:::
+::: {.ziel-ich}
+**Your personal goal (what drives *you*):** You want *your* data export – and soon. Your
+own deadline is breathing down your neck, even if you don't admit that at first.
+:::
+:::
+
+**What you concretely want to achieve (in this order):**
+
+::: {.prio-table}
+| Priority | Your goal | Why |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | Get **your data export** for the dissertation/paper chapter | your own deadline is in **3 weeks** – you keep this quiet at first |
+| ⭐⭐ | That the big platform **doesn't slow down** your urgent analysis | you're afraid of getting lost in the group project |
+| ⭐ | Be taken seriously as the person who *understands* the data | you're a subject-matter expert, not a supplicant |
+:::
+
+::: {.rote-linie}
+**Your red line:** If your export gets pushed entirely behind the platform architecture
+("that comes in month 3"), you go **quietly uncooperative** – you then hand over
+requirements only grudgingly and withdraw inwardly. But if you feel heard, you become
+Robin's most valuable ally.
+:::
+
+::: {.trumpf}
+**Your secret information (trump card):** Only *you* know the **meaning of the data** –
+which column means what, which measurements are comparable, where the pitfalls lie.
+Without that knowledge Robin can't build the data model cleanly at all. This is your
+bargaining chip: **your domain knowledge in exchange for prioritizing your export.**
+:::
+
+::: {.reden}
+::: {.offen}
+**What you may say openly:** that you urgently need analyses · that you know the data best
+· your (initially vague) wishes · that you depend on the platform.
+:::
+::: {.verdeckt}
+**What you keep to yourself (for now):** your **deadline in 3 weeks** and how much it
+stresses you. Only reveal it once Robin signals that your concern matters.
+:::
+:::
+
+**How to play:** Be vague and impatient at first. Let yourself be "cracked" by good
+questions. If Robin is clever, she/he offers you a deal: *you help document the data –
+in return your export comes early.* You gladly go for a fair package like that.
+:::
+
+::: {.persona}
+[Your prep task: bring Mara to life]{.persona-title}
+Take 2–3 minutes to think: what are you actually doing your PhD/research on – name your
+topic in one sentence. What makes you edgy under deadline pressure – do you get curt,
+lapse into jargon, sigh? Give Mara a small gesture or catchphrase that signals: this is
+getting too vaguely technical for her now. Jot it down.
+:::

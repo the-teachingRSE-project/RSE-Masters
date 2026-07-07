@@ -20,13 +20,33 @@ sind als Seiten dieses OER direkt lesbar:
 Vertrauliche Einzelkarten (im Spiel bekommt jede:r nur die eigene — hier zu
 Vorbereitung & OER-Zwecken offen einsehbar):
 
-- [🔒 Karte 1 · RSE](piloting/rwth_2026/rollenspiel/karten/rolle-1-rse.qmd)
-- [🔒 Karte 2 · PI (Barn)](piloting/rwth_2026/rollenspiel/karten/rolle-2-pi.qmd)
-- [🔒 Karte 3 · Melis (Domäne)](piloting/rwth_2026/rollenspiel/karten/rolle-3-domaene.qmd)
+- [🔒 Karte 1 · Robin (RSE)](piloting/rwth_2026/rollenspiel/karten/rolle-1-rse.qmd)
+- [🔒 Karte 2 · Petra (PI / Barn)](piloting/rwth_2026/rollenspiel/karten/rolle-2-pi.qmd)
+- [🔒 Karte 3 · Mara (Melis / Domäne)](piloting/rwth_2026/rollenspiel/karten/rolle-3-domaene.qmd)
 - [🔒 Karte 4 · Tobi (HiWi)](piloting/rwth_2026/rollenspiel/karten/rolle-4-hiwi.qmd)
-- [🔒 Karte 5 · Korter (Schule)](piloting/rwth_2026/rollenspiel/karten/rolle-5-schule.qmd)
+- [🔒 Karte 5 · Sabine (Korter / Schule)](piloting/rwth_2026/rollenspiel/karten/rolle-5-schule.qmd)
 - [Ereignisse & Timeline](piloting/rwth_2026/rollenspiel/ereigniskarten.qmd)
 - [Für Lehrende (Spielleitung)](piloting/rwth_2026/rollenspiel/spielleitung.qmd)
+
+## English version
+
+An English translation of the complete role-play is available (web only) —
+same scenario, same characters (Robin, Petra, Mara, Tobi, Sabine):
+
+- [Overview](piloting/rwth_2026/rollenspiel/en/index.qmd)
+- [Scenario (shared briefing)](piloting/rwth_2026/rollenspiel/en/szenario.qmd)
+- [The roles (public handout)](piloting/rwth_2026/rollenspiel/en/rollen-oeffentlich.qmd)
+- [Card distribution (facilitator)](piloting/rwth_2026/rollenspiel/en/rollenkarten.qmd)
+- [Events & timeline](piloting/rwth_2026/rollenspiel/en/ereigniskarten.qmd)
+- [For instructors (game master)](piloting/rwth_2026/rollenspiel/en/spielleitung.qmd)
+
+Confidential individual cards (English):
+
+- [🔒 Card 1 · Robin (RSE)](piloting/rwth_2026/rollenspiel/en/karten/rolle-1-rse.qmd)
+- [🔒 Card 2 · Petra (PI / Barn)](piloting/rwth_2026/rollenspiel/en/karten/rolle-2-pi.qmd)
+- [🔒 Card 3 · Mara (Melis / domain)](piloting/rwth_2026/rollenspiel/en/karten/rolle-3-domaene.qmd)
+- [🔒 Card 4 · Tobi (student assistant)](piloting/rwth_2026/rollenspiel/en/karten/rolle-4-hiwi.qmd)
+- [🔒 Card 5 · Sabine (Korter / school)](piloting/rwth_2026/rollenspiel/en/karten/rolle-5-schule.qmd)
 
 ## Material zum Ausdrucken und Verteilen
 

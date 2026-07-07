@@ -1,6 +1,6 @@
 ---
-title: "Deine Karte — Frau Korter (Partnerschule)"
-pagetitle: "Deine Karte — Frau Korter (Partnerschule)"
+title: "Deine Karte — Sabine (Frau Korter, Partnerschule)"
+pagetitle: "Deine Karte — Sabine (Frau Korter, Partnerschule)"
 subtitle: "Vertraulich · nur für dich · optionale Rolle (5er-Gruppen)"
 ---
 
@@ -8,7 +8,8 @@ subtitle: "Vertraulich · nur für dich · optionale Rolle (5er-Gruppen)"
 Vertraulich — nur für dich · zeig diese Karte niemandem
 :::
 
-Deine öffentliche Rolle steht im gemeinsamen Handout
+Du spielst **Sabine** (Sabine Korter), die Lehrerin und Ansprechpartnerin einer
+Partnerschule. Deine öffentliche Rolle steht im gemeinsamen Handout
 ([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
 *du* weißt und willst.
 
@@ -19,7 +20,19 @@ Du bringst dich freundlich, aber **bestimmt** ein. Du misst alles am *schulische
 Nutzen, nicht an der Forschungslogik. Fühlst du dich gehört, wirst du zur loyalen
 Verbündeten; fühlst du dich übergangen, wirst du zum Risiko für das ganze Projekt.
 
-**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+::: {.ziele}
+::: {.ziel-gross}
+**Dein großes Ziel (das teilen alle):** »LernSpur« wird etwas, von dem am Ende auch die
+Schulen und ihre Schüler:innen profitieren.
+:::
+::: {.ziel-ich}
+**Dein persönliches Ziel (das treibt *dich* an):** Du willst mit einem greifbaren Nutzen
+für *deine* Klassen in die Schulkonferenz gehen – und den Datenschutz deiner Schüler:innen
+sicher wissen.
+:::
+:::
+
+**Was du dafür konkret erreichen willst (in dieser Reihenfolge):**
 
 ::: {.prio-table}
 | Priorität | Dein Ziel | Warum |
@@ -45,8 +58,30 @@ kluger Deal lautet: *kleines Dashboard + Datenschutz-Zusage gegen deine Loyalit�
 zusätzliche Daten.*
 :::
 
+::: {.reden}
+::: {.offen}
+**Das darfst du offen sagen:** dass du auf den Nutzen für die Schule achtest · dass du
+Datenschutz für die Videos brauchst · dass die Schulkonferenz ansteht · deine Frage
+„Was habe ich davon?".
+:::
+::: {.verdeckt}
+**Das behältst du zunächst für dich:** dass du notfalls mit dem **Ausstieg** drohen würdest
+· dein **positives Angebot** (zwei weitere Klassen). Beides setzt du gezielt ein – nicht
+gleich zu Beginn.
+:::
+:::
+
 **So spielst du:** Frag früh „Was habe ich davon?". Bleib kooperativ, solange deine
 zwei Kernanliegen (Dashboard, Datenschutz) ernst genommen werden. Zieh das Druckmittel
 Ausstieg nur, wenn man dich ignoriert – und mach klar, dass es auch einen *positiven*
 Weg gibt.
+:::
+
+::: {.persona}
+[Deine Aufgabe in der Vorbereitung: Sabine zum Leben erwecken]{.persona-title}
+Überleg dir in 2–3 Minuten: Welches Fach unterrichtest du, und warum hast du deine Schule
+in die Studie geholt? Was ist dir an „deinen" Schüler:innen wichtig? Wie zeigst du
+freundliche Bestimmtheit – wirst du sehr konkret, fragst du hartnäckig nach, verweist du
+auf die Eltern? Gib Sabine einen Satz, der klarmacht: die Schule ist kein Datenlieferant,
+sondern ein Partner. Notiere dir das.
 :::

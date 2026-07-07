@@ -9,6 +9,19 @@ Research-Software-Initiative *ohne* disziplinarische Weisungsbefugnis – nur mi
 **empirischen Bildungsforschung**, einer bewusst zugänglichen Domäne, damit die
 Aufmerksamkeit auf der Führung liegt, nicht auf dem Fachjargon.
 
+## Warum überhaupt ein Rollenspiel?
+
+Laterale Führung lernt man nicht aus einer Folie – man lernt sie, indem man sie
+*erlebt*. Das Rollenspiel schafft dafür einen **geschützten Raum zum Ausprobieren**:
+
+* Ihr **spürt am eigenen Leib**, wie es ist, ein Team ohne Weisungsbefugnis zu führen –
+  mit echtem Druck, Zielkonflikten und vagen Wünschen, aber ohne echtes Risiko.
+* Ihr könnt **Verhalten testen**, das euch im Ernstfall Überwindung kostet (nachfragen,
+  Nein sagen, priorisieren) – und seht sofort, wie die anderen reagieren.
+* **Nicht das Projekt ist das Wichtige, sondern die Dynamik** zwischen euch. Es gibt kein
+  „Gewinnen" und keine perfekte Lösung – der Lernstoff steckt darin, *wie* ihr miteinander
+  umgeht. Genau das arbeiten wir danach im **Debrief** heraus.
+
 ## Die vier Bausteine
 
 | Baustein | Für wen | Inhalt |
@@ -23,10 +36,11 @@ Aufmerksamkeit auf der Führung liegt, nicht auf dem Fachjargon.
 
 ## In einem Satz
 
-> Eine frisch eingestellte RSE soll die verstreuten Daten einer bildungswissenschaftlichen
-> Längsschnittstudie in eine nachhaltige, FAIR-konforme Plattform überführen – und muss im
-> Kickoff-Meeting eine ungeduldige Professorin, eine termingetriebene Promovierende, eine
-> überforderte Hilfskraft und eine skeptische Partnerschule **führen, ohne Chef:in zu sein.**
+> **Robin**, frisch als RSE eingestellt, soll die verstreuten Daten einer
+> bildungswissenschaftlichen Studie in eine nachhaltige, FAIR-konforme Plattform
+> überführen – und muss im Kickoff-Meeting eine begeisterte Professorin, eine
+> termingetriebene Postdoktorandin, eine überforderte Hilfskraft und eine skeptische
+> Partnerschul-Lehrerin **führen, ohne Chef:in zu sein.**
 
 ## Lernziel in aller Kürze
 
@@ -39,13 +53,22 @@ Vertrauen** bearbeiten lassen. Das vollständige Kompetenz-Mapping steht in der
 
 ## Schnellstart für Lehrende
 
+::: {.hint}
+**Vorab (dringend empfohlen):** Teilt **Szenario** und die gemeinsame
+**[Rollen-Übersicht](rollen-oeffentlich.qmd)** schon **einige Tage vor der Sitzung** aus –
+und lasst die Studierenden nach **Präferenz** ihre Rolle wählen. So kommen sie vorbereitet
+und haben sich mit „ihrer" Person schon beschäftigt. Bringt für die Sitzung
+**Namensschilder** und **ausgedruckte Rollen-/Ereigniskarten** mit.
+:::
+
 1. **Szenario** + gemeinsame **[Rollen-Übersicht](rollen-oeffentlich.qmd)** an alle austeilen (gemeinsam lesen, ~5 Min) – beides geheimnisfrei.
-2. Jeder Person **genau eine** vertrauliche [Rollenkarte](rollenkarten.qmd) geben (eigenes PDF/Ausdruck) – die verdeckten Ziele der anderen bleiben geheim (**Verhandlungstraining**).
-3. Optional **RSE-Rollen die Gruppe tauschen** lassen (mehr Unvorhersehbarkeit).
-4. Meeting starten; die **Ereignisse** entlang der [Timeline](ereigniskarten.qmd#empfohlene-timeline-20-minuten-runde) einstreuen.
+2. **Rollen nach Präferenz verteilen**; jeder Person **genau eine** vertrauliche [Rollenkarte](rollenkarten.qmd) geben (eigenes PDF/Ausdruck) – die verdeckten Ziele der anderen bleiben geheim (**Verhandlungstraining**).
+3. **Kreative Vorbereitungsphase:** Jede:r gestaltet die eigene **Persona** aus (die kleine Aufgabe steht unten auf jeder Karte) und schärft die geheimen Ziele.
+4. Meeting starten; die **Ereignisse** entlang der [Timeline](ereigniskarten.qmd#empfohlene-timeline-30-minuten-runde) einstreuen (wie viele, entscheidet die Spielleitung).
 5. Mit **Beobachtungsbogen** zuschauen, danach entlang des [Debrief-Leitfadens](spielleitung.qmd#debrief-reflexion) reflektieren.
 
 ::: {.hint}
-**Zeitbedarf:** ca. 80 Minuten (10 Erklärung · 20 Vorbereitung · 2 × 20 Spiel · 10–15 Debrief),
-skalierbar. Details unter [Ablauf & Timing](spielleitung.qmd#ablauf-timing).
+**Zeitbedarf:** ca. **100–110 Minuten** (10 Erklärung · 25 Vorbereitung inkl.
+Persona · 2 × 30 Spiel · 15–20 Debrief), gut skalierbar und auf zwei Sitzungen
+aufteilbar. Details unter [Ablauf & Timing](spielleitung.qmd#ablauf-timing).
 :::

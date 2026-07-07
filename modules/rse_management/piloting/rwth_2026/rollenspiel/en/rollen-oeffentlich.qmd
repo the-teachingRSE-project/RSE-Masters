@@ -1,0 +1,92 @@
+---
+title: "The Roles in the Kickoff Meeting"
+subtitle: "Shared handout for all participants"
+pagetitle: "The Roles in the Kickoff Meeting"
+---
+
+::: {.hint}
+**Everyone gets this.** Here are all the people sitting around the table in the kickoff
+meeting for the »LernSpur« platform – with what is **publicly** known about them. You're
+all on a **first-name basis** (you know each other from earlier meetings).
+In addition, everyone receives a **personal, confidential card** with their *own* goals
+and interests. **You do not show this card to the others** – what the others really want
+is something you find out in conversation.
+:::
+
+::: {.cards}
+
+::: {.card .rse}
+<span class="badge">Robin · RSE / software coordination</span>
+### Robin — RSE / Software Coordination
+<p class="tagline">"I'm supposed to coordinate this – but I can't give orders to anyone here."</p>
+
+* hired at the chair 3 months ago, holds a master's in Research Software Engineering
+* is meant to turn the scattered files of the »LernSpur« study into a **sustainable,
+  FAIR-compliant platform**
+* has **no** authority to give orders to the others
+* **leads the kickoff meeting**
+* core interest: a viable, maintainable platform
+:::
+
+::: {.card .pi}
+<span class="badge">Petra · PI / chair</span>
+### Petra (Prof. Dr. Barn) — PI / Chair Holder
+<p class="tagline">"I'm thrilled about this – just tell me how I can help you make it happen!"</p>
+
+* heads the chair and the »LernSpur« project
+* enthusiastic about the idea; wants to publish and share research results
+* brought Robin on board and **has the RSE's back**
+* cares deeply about the **conference in 8 weeks**
+* core interest: a visible success carried by everyone together
+:::
+
+::: {.card .domain}
+<span class="badge">Mara · education research</span>
+### Mara (Dr. Melis) — Education Researcher / Postdoc
+<p class="tagline">"You can just tell, surely – just show me the classes that stand out."</p>
+
+* postdoc in empirical education research, knows the data best in terms of content
+* wants to advance her own research and pull analyses out of the data
+* little software-engineering knowledge, tends to phrase her wishes loosely
+* depends on the platform
+* core interest: quickly analysable data
+:::
+
+::: {.card .hiwi}
+<span class="badge">Tobi · student assistant</span>
+### Tobi (Tobias) — Student Assistant
+<p class="tagline">"Sure, I'll do that … what exactly did you mean again?"</p>
+
+* 4th semester, employed 10 h/week, learned to program mostly from YouTube
+* is meant to support Robin and learn along the way
+* motivated but inexperienced; availability fluctuates
+* core interest: contributing something and learning
+:::
+
+::: {.card .partner}
+<span class="badge">Sabine · partner school (optional)</span>
+### Sabine (Ms. Korter) — Teacher & Contact at a Partner School
+<p class="tagline">"What's actually in it for *me* that we're taking part in this?"</p>
+
+* teacher at one of the 14 partner schools, contact person for the study
+* her classes supply data (app usage, questionnaires, videos)
+* keeps an eye on the benefit for her pupils and on data protection
+* barely familiar with everyday research and software work
+* core interest: benefit for the school, data protection
+:::
+
+:::
+
+::: {.hint}
+**Two goals at once.** Everyone at the table shares one **big goal**: that »LernSpur«
+succeeds and the meeting ends with a viable plan. Alongside that, everyone has a
+**personal goal** – it's on the confidential card and is sometimes at odds with the
+others'. It's exactly this tension that makes the game.
+:::
+
+::: {.hint}
+**How it runs:** Robin opens the meeting. The aim of the round is a shared, **realistic**
+plan for the first few weeks. Everyone brings their own interests into it – but the time
+until the conference is tight, and not everything will fit. Negotiate until you have a
+package everyone can get behind.
+:::

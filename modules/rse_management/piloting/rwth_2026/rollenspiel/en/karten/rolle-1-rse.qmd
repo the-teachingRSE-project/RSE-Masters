@@ -1,0 +1,86 @@
+---
+title: "Your card — Robin (RSE / software coordination)"
+pagetitle: "Your card — Robin (RSE / software coordination)"
+subtitle: "Confidential · for your eyes only"
+---
+
+::: {.vertraulich-banner}
+Confidential — for your eyes only · don't show this card to anyone
+:::
+
+You play **Robin**, the Research Software Engineer on the team. Your public
+role is in the shared handout
+([The roles in the kickoff meeting](../rollen-oeffentlich.qmd)). **Here** is what only
+*you* know and want.
+
+::: {.geheim}
+### 🔒 Your hidden briefing
+
+You **lead** this meeting – but you can't command anyone to do anything. You only
+make progress by **listening**, taking the others' interests seriously, winning them over
+with **arguments**, and staying **reliable** (never promise what you can't deliver).
+*Persuade – don't dictate.*
+
+::: {.ziele}
+::: {.ziel-gross}
+**Your big goal (shared by everyone):** »LernSpur« turns into something good, and the
+meeting ends with a plan everyone supports.
+:::
+::: {.ziel-ich}
+**Your personal goal (what drives *you*):** You want to deliver *clean engineering* that
+can be built on later – and to be taken seriously as a coordinator, not treated as mere
+support work.
+:::
+:::
+
+**What you concretely want to achieve (in this order):**
+
+::: {.prio-table}
+| Priority | Your goal | Why |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | Anchor a **viable data model** before analyses are piled on top | without it you're building on sand |
+| ⭐⭐ | End with **one** clearly prioritized, *realistic* mini-plan | better one honest commitment than three vague ones |
+| ⭐ | Be taken seriously as a coordinator | otherwise you become mere support work |
+:::
+
+::: {.rote-linie}
+**Your red line (walk-away):** You commit to **nothing** that will foreseeably lead to
+unmaintainable throwaway code or to your own overload. If that gets ignored, you calmly
+say: *"I can't deliver that in good quality by then – let's prioritize."*
+Better a smaller, honest promise than a big one that costs trust later.
+:::
+
+::: {.trumpf}
+**Your secret information (trump card):** You are the only one who has the full picture of
+*how chaotic* the data really is. Realistically, only **ONE** larger result fits into the
+available time before the conference – not three. Everyone else believes it can be done
+"on the side" in parallel. Use this knowledge to force prioritization – but play it
+as an offer, not a blockade.
+:::
+
+::: {.reden}
+::: {.offen}
+**What you may say openly:** your role and task · that you first have to understand the
+data · that time is tight and you should prioritize · which questions you have for
+the others.
+:::
+::: {.verdeckt}
+**What you keep to yourself (for now):** that really *only one* big result fits into the
+time available. Bring it into play as an offer ("If we focus on *one*, I can deliver it
+for sure"), not as an ultimatum.
+:::
+:::
+
+**How to play:** First listen for the interests in the room (everyone has a
+hidden goal!). Look for the **package** that gives each person their *most important*
+thing without promising the impossible. You don't win by getting your way, but by
+getting everyone to support the outcome in the end.
+:::
+
+::: {.persona}
+[Your prep task: bring Robin to life]{.persona-title}
+Take 2–3 minutes to think: **Why** did you become an RSE (a love of clean code?
+frustration over lost research data?)? What's your one quirk under pressure – do you talk
+faster, go quiet, reach for the whiteboard? Give Robin a line to open the meeting with.
+Jot it down – you'll need it in a moment.
+:::

@@ -44,8 +44,8 @@ SE-Wissen an entwickelnde Forschende**, **Führung von / durch Nicht-Informatike
 |----------------------|----------------------------|----------------------|
 | Anforderungen erheben & präzisieren | vage Wünsche in entscheidbare Kriterien überführen | E7, Kickoff |
 | SE-Wissen laienverständlich vermitteln | „Warum erst Datenmodell?" erklären, ohne zu belehren | E2, E6 |
-| Nach oben führen (Erwartungsmanagement) | dem/der PI einen realistischen Plan „verkaufen" | E2, E6 |
-| Achtsame Fremdführung | HiWi passend anleiten, Promovierende ernst nehmen | E3, E4 |
+| Nach oben führen (Erwartungsmanagement) | Petra einen realistischen Plan „verkaufen" (ihren Über-Optimismus einfangen) | E2, E6 |
+| Achtsame Fremdführung | Tobi passend anleiten, Mara ernst nehmen | E3, E4 |
 | Priorisieren unter Knappheit | Scope gegen Zeit/Ressourcen abwägen | E1, E3, E4 |
 | Konflikte konstruktiv führen | Zielkonflikte offen benennen statt zu vermeiden | E1, E5 |
 | Selbstführung | ruhig bleiben, nicht in Über-Zusagen flüchten | alle |
@@ -58,8 +58,8 @@ SE-Wissen an entwickelnde Forschende**, **Führung von / durch Nicht-Informatike
 Diese Konflikte sind **absichtlich** in Rollen und Ereignisse eingebaut. Sie sind der
 Lernstoff – nicht Störungen, die es zu verhindern gilt.
 
-1. **Nachhaltigkeit vs. Tempo** — RSE will erst ein Datenmodell, PI und Domäne wollen
-   sofort Ergebnisse. *(Kernkonflikt, E2/E3)*
+1. **Nachhaltigkeit vs. Tempo** — Robin will erst ein Datenmodell, Petra (aus Begeisterung)
+   und Mara (aus Termindruck) wollen schnell etwas Vorzeigbares. *(Kernkonflikt, E2/E3)*
 2. **Vage Domänen-Sprache vs. entscheidbare Spezifikation** — „ähnliche Klassen",
    „interessante Muster". *(Kickoff, E7)*
 3. **Einzelinteresse vs. Gemeinschaftsplattform** — die dringende Diss-Auswertung
@@ -89,10 +89,10 @@ im Kern fünf Themen:
 
 | # | Verhandelbares Thema | Worum es geht |
 |---|----------------------|---------------|
-| V1 | **Fokus der ersten Wochen** | Datenmodell · Konferenz-Demo · Melis-Export · Schul-Dashboard – *nicht alles passt* |
+| V1 | **Fokus der ersten Wochen** | Datenmodell · Konferenz-Demo · Maras Export · Schul-Dashboard – *nicht alles passt* |
 | V2 | **Konferenz-Zusage** | Was genau wird zugesagt? (nichts / kleines Zwischenergebnis / große Demo) |
 | V3 | **Datenschutz / Video-Anonymisierung** | blockiert die Videodaten – wer macht es, wann? |
-| V4 | **Ressourcen** | HiWi-Stunden · die *stille Budgetreserve* der PI |
+| V4 | **Ressourcen** | HiWi-Stunden (Tobi) · die *stille Budgetreserve*, die Petra von sich aus anbietet |
 | V5 | **Schul-Dashboard** | bauen ja/nein, in welchem Umfang |
 
 : {.striped}
@@ -100,13 +100,13 @@ im Kern fünf Themen:
 ### Wer will insgeheim was — alle Geheimnisse auf einen Blick
 
 ::: {.matrix}
-| Rolle | Geheimes Top-Ziel | Rote Linie / Walk-away (BATNA) | Trumpf / verdeckte Information |
+| Rolle | Geheimes persönliches Ziel (neben dem gemeinsamen Erfolg) | „Linie" / Antriebs­feder | Trumpf / verdeckte Information |
 |-------|-------------------|-------------------------------|-------------------------------|
-| **1 · RSE** | tragfähiges Datenmodell + *ein* ehrlicher Mini-Plan | sagt nichts zu, was zu Wegwerf-Code/Überlastung führt | weiß als Einzige:r: bis zur Konferenz passt **nur EIN** großes Ergebnis |
-| **2 · PI** | *irgendetwas* Vorzeigbares zur Konferenz | „nach der Konferenz" reicht nicht – zieht sonst Autorität | **stille Budgetreserve** (HiWi-Aufstockung / Tool-Lizenz) |
-| **3 · Melis** | eigener Datenexport (Frist in **3 Wochen**) | wird sonst *still unkooperativ* | kennt als Einzige die **Datensemantik** – ohne sie kein Datenmodell |
-| **4 · Tobi** | nicht als überfordert dastehen, Job behalten | kritische Aufgabe auf dem kritischen Pfad → reißt (E4) | schafft real nur **~5 h/Woche** (Klausuren); hat schon ein **fertiges Mini-Skript** für Melis' Export |
-| **5 · Korter** | einfaches Dashboard für die Schulkonferenz (in **3 Wochen**) | droht glaubhaft mit **Schul-Ausstieg** (großer Datenverlust) | kann **2 weitere Klassen** + Kontakte liefern, wenn eingebunden |
+| **1 · Robin (RSE)** | tragfähiges Datenmodell + *ein* ehrlicher Mini-Plan; als Koordinator:in ernst genommen werden | sagt nichts zu, was zu Wegwerf-Code/Überlastung führt | weiß als Einzige:r: bis zur Konferenz passt **nur EIN** großes Ergebnis |
+| **2 · Petra (PI)** | etwas **Ehrliches** zur Konferenz zeigen – lieber klein & echt als groß & luftig | *weiche* Linie: setzt **nie** ihre Autorität ein; ihr Risiko ist **Über-Optimismus** (verspricht zu viel) | **stille Budgetreserve** (HiWi-Aufstockung / Tool-Lizenz) – **bietet sie von sich aus an**, sobald ein glaubwürdiger Plan steht |
+| **3 · Mara (Melis)** | eigener Datenexport (Frist in **3 Wochen**) | wird sonst *still unkooperativ* | kennt als Einzige die **Datensemantik** – ohne sie kein Datenmodell |
+| **4 · Tobi** | nicht als überfordert dastehen, Job behalten | kritische Aufgabe auf dem kritischen Pfad → reißt (E4) | schafft real nur **~5 h/Woche** (Klausuren); hat schon ein **fertiges Mini-Skript** für Maras Export |
+| **5 · Sabine (Korter)** | einfaches Dashboard für die Schulkonferenz (in **3 Wochen**) | droht glaubhaft mit **Schul-Ausstieg** (großer Datenverlust) | kann **2 weitere Klassen** + Kontakte liefern, wenn eingebunden |
 :::
 
 ### Konfliktmatrix — wer mit wem aneinandergerät
@@ -114,11 +114,11 @@ im Kern fünf Themen:
 Zellen zeigen, *worüber* die beiden Rollen in Spannung stehen (Thema in Klammern):
 
 ::: {.matrix}
-| gegen ↓ / ↑ | **PI** | **Melis** | **Tobi** | **Korter** |
+| gegen ↓ / ↑ | **Petra** | **Mara** | **Tobi** | **Sabine** |
 |-------------|--------|-----------|----------|------------|
-| **RSE** | Tempo vs. Nachhaltigkeit *(V1/V2)* | erst Modell vs. erst mein Export *(V1)* | Aufgabenschnitt vs. reale Kapazität *(V4)* | Roadmap vs. Dashboard-Wunsch *(V1/V5)* |
-| **PI** | — | beide wollen Zeit „zuerst", aber für **Verschiedenes** *(V1)* | drängt auf Output, den Tobi nicht stemmt *(V4)* | Forschungslogik vs. Schulnutzen *(V5)* |
-| **Melis** | | — | will Export → braucht Tobis Skript/Zeit *(V1/V4)* | konkurriert um dieselbe knappe Dev-Zeit *(V1)* |
+| **Robin** | Tempo vs. Nachhaltigkeit – aber wohlwollend *(V1/V2)* | erst Modell vs. erst mein Export *(V1)* | Aufgabenschnitt vs. reale Kapazität *(V4)* | Roadmap vs. Dashboard-Wunsch *(V1/V5)* |
+| **Petra** | — | beide wollen Zeit „zuerst", aber für **Verschiedenes** *(V1)* | hofft auf Output, den Tobi nicht stemmt *(V4)* | Forschungslogik vs. Schulnutzen *(V5)* |
+| **Mara** | | — | will Export → braucht Tobis Skript/Zeit *(V1/V4)* | konkurriert um dieselbe knappe Dev-Zeit *(V1)* |
 | **Tobi** | | | — | *(kein direkter Konflikt)* |
 :::
 
@@ -133,29 +133,30 @@ Es gibt einen Deal, in dem **jede:r sein Wichtigstes** bekommt, ohne dass die RS
 Unmögliches verspricht. Die RSE muss ihn nicht exakt treffen – aber je näher, desto mehr
 Vertrauen wächst:
 
-* **Woche 1–3:** Melis **dokumentiert die Datensemantik** ⇄ die RSE baut daraus einen
-  sauberen Teil-Datensatz und liefert **Melis' Export bis Woche 3** (rettet deren Frist).
-  *→ löst V1 teilweise, bindet Melis' Trumpf ein, entschärft Konflikt RSE↔Melis.*
+* **Woche 1–3:** Mara **dokumentiert die Datensemantik** ⇄ Robin baut daraus einen
+  sauberen Teil-Datensatz und liefert **Maras Export bis Woche 3** (rettet deren Frist).
+  *→ löst V1 teilweise, bindet Maras Trumpf ein, entschärft Konflikt Robin↔Mara.*
 * **Tobis Skript** wird für den Export genutzt; Tobi bekommt eine **kleine, betreute**
   Aufgabe, die in ~5 h/Woche passt. *→ V4, entschärft E4 im Voraus.*
-* **PI lüftet die Budgetreserve** (weil ein glaubwürdiger Konferenz-Weg gezeigt wird):
-  Mittel für eine Tool-Lizenz/HiWi-Aufstockung ermöglichen bis Woche 8 eine **kleine,
-  echte Auswertung auf dem sauberen Teil-Datensatz** – der Konferenzbeitrag. Abstract in
-  2 Wochen beschreibt Plan + erste Teilergebnisse. *→ V2/V4.*
-* **Minimales read-only Dashboard** für Korters Klassen (teils aus Tobis Skript) +
-  Datenschutz-Fahrplan → Korter bekommt ihre Konferenz-Zusage, **bleibt dabei und bringt
+* **Petra bietet die Budgetreserve von sich aus an** (sobald ein glaubwürdiger
+  Konferenz-Weg gezeigt wird): Mittel für eine Tool-Lizenz/HiWi-Aufstockung ermöglichen
+  bis Woche 8 eine **kleine, echte Auswertung auf dem sauberen Teil-Datensatz** – der
+  Konferenzbeitrag. Abstract in 2 Wochen beschreibt Plan + erste Teilergebnisse. *→ V2/V4.*
+* **Minimales read-only Dashboard** für Sabines Klassen (teils aus Tobis Skript) +
+  Datenschutz-Fahrplan → Sabine bekommt ihre Konferenz-Zusage, **bleibt dabei und bringt
   2 Klassen mehr**. *→ V3/V5, entschärft E5.*
 
-Ergebnis: Datenmodell-Kern steht, Konferenz ist bedient, Melis' Frist gerettet, Schule
-gehalten, HiWi nicht verheizt – **niemand bekommt alles, jede:r das Wichtigste.** Das ist
+Ergebnis: Datenmodell-Kern steht, Konferenz ist bedient, Maras Frist gerettet, Schule
+gehalten, Tobi nicht verheizt – **niemand bekommt alles, jede:r das Wichtigste.** Das ist
 Archetyp **A** (§6).
 
 ::: {.hint}
-**Als Spielleitung dosieren:** Die verdeckten Trümpfe (PI-Budget, Melis-Semantik,
-Tobis Skript, Korters Zusatzklassen) sind die **Schlüssel**, die den scheinbaren
+**Als Spielleitung dosieren:** Die verdeckten Trümpfe (Petras Budget, Maras Semantik,
+Tobis Skript, Sabines Zusatzklassen) sind die **Schlüssel**, die den scheinbaren
 Nullsummen-Konflikt öffnen. Wenn eine Gruppe feststeckt, spiele das passende **Ereignis**
-so an, dass ein Trumpf ins Spiel kommt – z. B. E3 lockt Melis' Frist hervor, E4 zwingt zur
-Kapazitätsehrlichkeit, E2/E6 laden die PI ein, das Budget zu zeigen.
+so an, dass ein Trumpf ins Spiel kommt – z. B. E3 lockt Maras Frist hervor, E4 zwingt zur
+Kapazitätsehrlichkeit, E2/E6 geben Petra die Gelegenheit, ihre Unterstützung (bis hin zum
+Budget) sichtbar zu machen.
 :::
 
 ## 5. Beobachtungsbogen
@@ -169,8 +170,8 @@ Die Spielleitung und die übrigen Teilnehmenden sind **Beobachtende**.
 | **Anforderungen** | macht Vages entscheidbar („Was heißt *ähnlich*?") | ☐ |
 | **Macht der Sprache** | überzeugt mit Argumenten, überredet/rechtfertigt sich nicht | ☐ |
 | **Konfliktlösung** | spricht Zielkonflikte offen & früh an | ☐ |
-| **Erwartungsmanagement** | sagt nur zu, was realistisch ist; managt die PI-Deadline | ☐ |
-| **Fremdführung** | gibt HiWi klare, passende Aufgaben; nimmt Sorgen ernst | ☐ |
+| **Erwartungsmanagement** | sagt nur zu, was realistisch ist; fängt Petras Über-Optimismus ein | ☐ |
+| **Fremdführung** | gibt Tobi klare, passende Aufgaben; nimmt Maras Sorgen ernst | ☐ |
 | **Selbstführung** | bleibt ruhig, strukturiert, flüchtet nicht in Über-Zusagen | ☐ |
 | **Ergebnis** | am Ende steht ein tragfähiger, priorisierter Mini-Plan | ☐ |
 
@@ -184,38 +185,49 @@ Hebel (Verständigung/Macht/Vertrauen)? · Ein Satz, der die Gruppe gedreht hat?
 Die Menge der Ergebnisse ist **bewusst begrenzt** – verschiedene Gruppen sollen zu
 verschiedenen, jeweils vertretbaren Enden kommen. Vier Archetypen:
 
-* **A — Der tragfähige Kompromiss** *(Zielzustand):* RSE priorisiert offen, sagt der PI
+* **A — Der tragfähige Kompromiss** *(Zielzustand):* Robin priorisiert offen, sagt Petra
   ein *kleines* vorzeigbares Zwischenergebnis für die Konferenz zu (z. B. ein sauberer
   Teil-Datensatz + eine Auswertung), verankert parallel das Datenmodell, bindet die
   Schule mit einem minimalen Dashboard ein. *Vertrauen wächst.*
-* **B — Die Überzusage:** RSE gibt dem Druck nach und verspricht alles bis zur
-  Konferenz. Kurzfristig Applaus, aber der Plan ist unrealistisch – im Debrief gut als
-  Kontrast nutzbar (*Vertrauen wird später verspielt*).
-* **C — Die technische Blockade:** RSE beharrt auf „erst sauber, dann Ergebnisse", ohne
-  die Interessen der anderen abzuholen. Die Gruppe fühlt sich nicht gehört, die PI wird
-  ungeduldig. *(Macht ohne Verständigung.)*
+* **B — Die Überzusage:** Robin lässt sich von Petras Begeisterung anstecken (oder feuert
+  sie selbst an) und verspricht alles bis zur Konferenz. Kurzfristig Applaus, aber der Plan
+  ist unrealistisch – im Debrief gut als Kontrast nutzbar (*Vertrauen wird später
+  verspielt*). Lehrreich: Petras Über-Optimismus wird nicht durch Grenzen von oben gebremst –
+  Robin muss selbst die realistische Linie halten.
+* **C — Die technische Blockade:** Robin beharrt auf „erst sauber, dann Ergebnisse", ohne
+  die Interessen der anderen abzuholen. Die Gruppe fühlt sich nicht gehört; Petra bleibt
+  zwar freundlich und unterstützend, aber ihre Begeisterung läuft ins Leere und es entsteht
+  Stillstand. *(Macht ohne Verständigung.)*
 * **D — Die Zerfaserung:** Kein klarer Fokus, jede:r zieht in eine Richtung, viele
   offene Punkte. *(Führung findet nicht statt.)*
 
 Alle vier sind **legitime Spielausgänge** und liefern Debrief-Stoff. Es gibt kein „Game Over".
 
-## 7. Ablauf & Timing
+## 7. Ablauf & Timing {#ablauf-timing}
 
-Angelehnt an die Vorlage *„Erste Projektleitung"* (≈ 80 Min., skalierbar):
+Angelehnt an die Vorlage *„Erste Projektleitung"* (≈ 100–110 Min., gut skalierbar und auf
+zwei Sitzungen aufteilbar). **Plant großzügig Zeit ein** – Verhandeln und das Ausspielen
+der Rollen brauchen Luft; zu enge Runden ersticken genau die Dynamik, um die es geht.
 
 | Phase | Inhalt | Zeit |
 |-------|--------|------|
-| Erklärung & Einteilung | Rollen verteilen, Szenario lesen | 10 min |
-| Vorbereitung in der Gruppe | Rollen aneignen, Sub-Ziele schärfen, geheime Verhaltensweisen abstimmen | 20 min |
-| **Rollenspiel** | Kickoff-Meeting inkl. Ereignissen (ggf. 2 Durchläufe mit Rollentausch) | 2 × 20 min |
-| Reflexion & Debrief | siehe unten | 10–15 min |
+| Erklärung & Motivation | Warum ein Rollenspiel? Szenario & Rollen-Übersicht (idealerweise vorab verteilt) | 10 min |
+| Rollen nach **Präferenz** verteilen | Studierende wählen ihre Person; vertrauliche Karten austeilen | 5 min |
+| **Kreative Vorbereitung** | Persona ausgestalten (Aufgabe unten auf jeder Karte), geheime Ziele & rote Linie schärfen, Verhaltensweisen abstimmen | 20 min |
+| **Rollenspiel** | Kickoff-Meeting inkl. Ereignissen (ggf. 2 Durchläufe mit Rollentausch) | 2 × 30 min |
+| Reflexion & Debrief | siehe unten | 15–20 min |
 
-**Rollentausch (empfohlen):** Die RSE-Spielenden führen eine *andere* Gruppe als die, mit
+**Vorab verteilen (empfohlen):** Gebt Szenario und Rollen-Übersicht **einige Tage vor der
+Sitzung** heraus, damit die Studierenden vorbereitet kommen und ihre Rolle nach Präferenz
+wählen können (§Verteilung). Das verkürzt die Vorbereitungsphase und erhöht das Engagement.
+
+**Rollentausch (empfohlen):** Die Robin-Spielenden führen eine *andere* Gruppe als die, mit
 der sie vorbereitet haben. Die Spielleitung ist – wie die übrigen TN – **Beobachter:in**.
 
 **Material:** die **vertraulichen Einzel-Rollenkarten** (je 1 PDF/Ausdruck pro Person –
-niemand sieht die Karte der anderen), Ereigniskarten, Flipchart/Miro für
-die Ergebnissicherung, dieser Beobachtungsbogen (1 × pro TN + 1 × Trainer:in).
+niemand sieht die Karte der anderen), **Namensschilder** mit den Vornamen (Robin, Petra,
+Mara, Tobi, Sabine) und **ausgedruckte** Ereigniskarten, Flipchart/Miro für die
+Ergebnissicherung, dieser Beobachtungsbogen (1 × pro TN + 1 × Trainer:in).
 
 ## 8. Debrief (Reflexion)
 

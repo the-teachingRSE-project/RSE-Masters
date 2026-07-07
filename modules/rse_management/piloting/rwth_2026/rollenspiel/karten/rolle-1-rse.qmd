@@ -1,6 +1,6 @@
 ---
-title: "Deine Karte — RSE / Software-Koordination"
-pagetitle: "Deine Karte — RSE / Software-Koordination"
+title: "Deine Karte — Robin (RSE / Software-Koordination)"
+pagetitle: "Deine Karte — Robin (RSE / Software-Koordination)"
 subtitle: "Vertraulich · nur für dich"
 ---
 
@@ -8,7 +8,8 @@ subtitle: "Vertraulich · nur für dich"
 Vertraulich — nur für dich · zeig diese Karte niemandem
 :::
 
-Deine öffentliche Rolle steht im gemeinsamen Handout
+Du spielst **Robin**, die Research Software Engineer:in im Team. Deine öffentliche
+Rolle steht im gemeinsamen Handout
 ([Die Rollen im Kickoff-Meeting](../rollen-oeffentlich.qmd)). **Hier** steht, was nur
 *du* weißt und willst.
 
@@ -20,7 +21,19 @@ weiter, indem du **zuhörst**, die Interessen der anderen ernst nimmst, mit **Ar
 überzeugst** und **verlässlich** bleibst (nichts zusagen, was du nicht hältst).
 *Überzeuge – ordne nicht an.*
 
-**Was du wirklich erreichen willst (in dieser Reihenfolge):**
+::: {.ziele}
+::: {.ziel-gross}
+**Dein großes Ziel (das teilen alle):** Aus »LernSpur« wird etwas Gutes, und das
+Meeting endet mit einem Plan, den alle mittragen.
+:::
+::: {.ziel-ich}
+**Dein persönliches Ziel (das treibt *dich* an):** Du willst *saubere Technik* liefern,
+auf die man später aufbauen kann – und als Koordinator:in ernst genommen werden, nicht
+als reine Zuarbeit.
+:::
+:::
+
+**Was du dafür konkret erreichen willst (in dieser Reihenfolge):**
 
 ::: {.prio-table}
 | Priorität | Dein Ziel | Warum |
@@ -45,8 +58,29 @@ größeres Ergebnis in die verfügbare Zeit – nicht drei. Alle anderen glauben
 als Angebot, nicht als Blockade.
 :::
 
+::: {.reden}
+::: {.offen}
+**Das darfst du offen sagen:** deine Rolle und Aufgabe · dass du erst die Daten verstehen
+musst · dass die Zeit knapp ist und ihr priorisieren solltet · welche Fragen du an die
+anderen hast.
+:::
+::: {.verdeckt}
+**Das behältst du zunächst für dich:** dass wirklich *nur ein* großes Ergebnis in die Zeit
+passt. Bring es als Angebot ins Spiel („Wenn wir uns auf *eins* fokussieren, kann ich das
+sicher liefern"), nicht als Ultimatum.
+:::
+:::
+
 **So spielst du:** Höre zuerst, welche Interessen im Raum sind (jede:r hat ein
 verdecktes Ziel!). Suche das **Paket**, das jedem sein *Wichtigstes* gibt, ohne dass
 du das Unmögliche versprichst. Du gewinnst nicht, indem du dich durchsetzt, sondern
 indem am Ende alle mittragen.
+:::
+
+::: {.persona}
+[Deine Aufgabe in der Vorbereitung: Robin zum Leben erwecken]{.persona-title}
+Überleg dir in 2–3 Minuten: **Warum** bist du RSE geworden (Liebe zum sauberen Code?
+Frust über verlorene Forschungsdaten?)? Was ist deine eine Macke unter Druck – redest du
+schneller, wirst du still, greifst du zum Whiteboard? Gib Robin einen Satz, mit dem sie/er
+das Meeting eröffnet. Notiere dir das – du brauchst es gleich.
 :::

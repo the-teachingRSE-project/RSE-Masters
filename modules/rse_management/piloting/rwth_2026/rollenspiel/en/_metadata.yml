@@ -1,0 +1,24 @@
+# Format defaults for ALL role-play pages (overview + karten/ subfolder).
+#
+# These pages deliberately no longer have their own _quarto.yml: this makes them
+# regular pages of the main site build, published via the regular
+# `quarto render --profile website` — including the confidential individual
+# cards (karten/rolle-*.qmd).
+#
+# The PDF/bundle build uses the same pages via the `print` profile
+# (see _quarto-print.yml in the repo root and render-pdfs.ps1).
+lang: en
+execute:
+  enabled: false
+format:
+  html:
+    # Project-root-relative path ("/...") so styles.css resolves correctly both
+    # from the pages in this folder and from the karten/ subfolder (relative
+    # paths would break depending on page depth).
+    css: /modules/rse_management/piloting/rwth_2026/rollenspiel/styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    fig-cap-location: bottom
+    grid:
+      body-width: 950px

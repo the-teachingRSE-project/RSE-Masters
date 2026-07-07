@@ -1,0 +1,103 @@
+---
+title: "Scenario: The »LernSpur« Platform"
+subtitle: "Shared briefing for everyone taking part"
+pagetitle: "Scenario: The »LernSpur« Platform"
+---
+
+::: {.hint}
+**Read this briefing together, all of you.** It describes the starting situation that
+everyone knows. *Who you are in the meeting* is in the shared
+[role overview](rollen-oeffentlich.qmd); *what you secretly want* is on your personal
+card – which only you get to see.
+:::
+
+::: {.hint}
+**What this is really about.** The »LernSpur« project is only the backdrop. What matters
+is the **dynamic at the table**: How do you lead a team without being the boss? How do you
+deal with pressure, vague requests, and conflicting goals? In the end it doesn't matter
+whether the "perfect" platform comes out of it, but *how you negotiate with one another* –
+and that's what we talk about in the debrief.
+:::
+
+## What this is about (in brief)
+
+You work at the **Chair of Empirical Education Research**. The chair studies how a
+**maths-learning app** affects the way pupils learn. To that end, a **study is running at
+14 partner schools**.
+
+Two kinds of data matter for today:
+
+* **App usage data** – who practises what, for how long, with how many mistakes
+* **Questionnaires** from pupils and teachers
+
+On top of that – legally more delicate – there are some **video recordings** from
+lessons. Today the data is **scattered** (Excel spreadsheets, an old database, export
+files from the app company). Several doctoral theses depend on it.
+
+The chair has received **three years of funding** to turn all of this into a sustainable,
+**FAIR**-compliant *research data platform, »LernSpur«*.
+
+::: {.hint}
+**The conference.** In **8 weeks** the chair will present the project at the **annual
+conference on empirical education research**. And already in **2 weeks** a **short
+contribution (abstract)** is due for it – ideally with *first results* from the data.
+That's the deadline hanging over everything.
+:::
+
+## Your starting situation
+
+* The project has **already started**, and the broad goals have been communicated.
+* You know each other from previous meetings – **you're all on a first-name basis**, and
+  the mood is friendly.
+* Three months ago, **Robin** was hired as a **Research Software Engineer (RSE)** to
+  **coordinate** the software development.
+* **Important:** Robin has *no* authority to give orders. Robin is nobody's boss – and
+  only makes progress by **convincing** the others, **not instructing** them.
+
+## Today's meeting (your task)
+
+Today is the **requirements kickoff**. In it, Robin is to:
+
+1. briefly present the goal of the software and set the frame,
+2. together with everyone, **gather and prioritise the requirements**,
+3. **assign tasks** and clarify **expectations**,
+4. develop a **realistic plan for the first few weeks**.
+
+Everyone else brings their own interests, knowledge, and concerns into the room –
+and sometimes doesn't make it all that easy for Robin.
+
+::: {.hint}
+**Watch out – typical friction points.** The domain researchers say things like:
+
+> "We want to be able to compare similar classes with one another."
+
+For Robin, the question arises immediately: **what does *similar* mean?**
+Same grade level? Same amount of app usage? Same starting performance?
+**Only the education researchers can say what's scientifically meaningful – only Robin
+knows what's technically decidable.** This is exactly where you have to hammer it out
+together: neither side can decide it alone.
+:::
+
+## Rules of play
+
+* **Stay in your role.** Argue from the goals and concerns on your role card.
+* **What you may say – and what you may not.** Your confidential card has a box marked
+  *"You may say this openly"* and *"Keep this to yourself for now."* You may bring your
+  **public** concern into the room at any time; your **hidden** goal, your red line, and
+  your trump card you do **not** reveal on your own – let the others tease those out in
+  conversation. Don't invent anything that contradicts your role.
+* **Don't block completely.** You may make things hard for Robin (probing, going off on
+  tangents, insisting on deadlines) – but the game has to keep moving.
+* **There is no "right" solution.** Different groups reach different, equally defensible
+  results (see [possible outcomes](spielleitung.qmd#possible-outcomes)).
+* The **facilitator** throws in **new information** during play
+  (see [events & timeline](ereigniskarten.qmd)). React to it in the meeting.
+
+## Wrapping up / capturing results
+
+At the end of the meeting, capture the following on a flipchart / Miro board:
+
+* **What will be built – and what deliberately (not yet)?** (scope & prioritisation)
+* **Who does what by when?** (tasks, owners, rough schedule)
+* **What expectations and commitments** were voiced?
+* **What open question** are you taking into the next meeting?

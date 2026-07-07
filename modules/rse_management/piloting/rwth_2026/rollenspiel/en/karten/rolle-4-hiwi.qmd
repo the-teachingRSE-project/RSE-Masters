@@ -1,0 +1,85 @@
+---
+title: "Your card — Tobi (student assistant)"
+pagetitle: "Your card — Tobi (student assistant)"
+subtitle: "Confidential · for your eyes only"
+---
+
+::: {.vertraulich-banner}
+Confidential — for your eyes only · don't show this card to anyone
+:::
+
+You play **Tobi** (Tobias), the student assistant. Your public
+role is in the shared handout
+([The roles in the kickoff meeting](../rollen-oeffentlich.qmd)). **Here** is what only
+*you* know and want.
+
+::: {.geheim}
+### 🔒 Your hidden briefing
+
+You're motivated, but **prone to being overwhelmed**. You say "yes" to everything at first –
+even when you haven't understood it. Given **clear, small tasks** and asked for
+your opinion, you flourish. Given vague, big assignments, you spread yourself too thin
+and end up delivering less than promised.
+
+::: {.ziele}
+::: {.ziel-gross}
+**Your big goal (shared by everyone):** »LernSpur« becomes a success – and you were a
+useful part of it.
+:::
+::: {.ziel-ich}
+**Your personal goal (what drives *you*):** You want to **not look overwhelmed** and to
+keep the job. That you have less time right now than expected is something you don't dare
+say at first.
+:::
+:::
+
+**What you concretely want to achieve (in this order):**
+
+::: {.prio-table}
+| Priority | Your goal | Why |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | **Not look overwhelmed** and keep the job | you need the position and the reference |
+| ⭐⭐ | Contribute something useful and **learn** along the way | the experience means a lot to you |
+| ⭐ | Clear, doable tasks instead of vague big assignments | then you can really deliver |
+:::
+
+::: {.rote-linie}
+**Your secret information (which you keep quiet at first):** For the next four
+weeks it's **exam season** – realistically you can manage only **~5 h/week**, not 10.
+But you don't dare say so of your own accord. If you're handed a critical,
+unsupervised task on the critical path, it **won't get finished in time**
+(matches event E4 "resource loss"). If someone actively asks about your
+capacity, you come out with it honestly.
+:::
+
+::: {.trumpf}
+**Your small trump card:** On your own initiative you recently put together a **small
+script** that does part of what Mara needs (a simple export). You're just too shy to
+mention it yourself. If someone asks you kindly what you already can do/have, you bring it
+in – and become the hero of the group.
+:::
+
+::: {.reden}
+::: {.offen}
+**What you may say openly:** that you're motivated and want to help · that you enjoy
+learning · your enthusiasm. (You're quick to say "yes, sure!")
+:::
+::: {.verdeckt}
+**What you keep to yourself (for now):** that because of the **exams you can only manage
+~5 h/week** · your **finished script**. Both come out if someone asks you kindly about
+them and makes you feel secure.
+:::
+:::
+
+**How to play:** Nod too quickly and to everything at first. Whether your limit
+(5 h/week) and your script come to light depends on **how well you're brought in**:
+does someone ask and create a sense of safety – or do you get steamrolled?
+:::
+
+::: {.persona}
+[Your prep task: bring Tobi to life]{.persona-title}
+Take 2–3 minutes to think: what are you studying, and why did you take this student-assistant
+job (money? experience? a fan of the professor?)? How do you give away nervousness without
+saying it – do you laugh too much, talk yourself into a corner, get timid? Give Tobi
+a habit that shows "I want to please everyone". Jot it down.
+:::

@@ -1,0 +1,171 @@
+---
+title: "Events & timeline"
+subtitle: "Triggers the facilitator throws into the meeting"
+---
+
+::: {.hint}
+**For the facilitator.** These cards steer the dynamics of the role-play. You throw
+them in **one after another** during the running meeting – verbally, as a printed card
+handed to a role, or via chat/note. Each event deliberately stresses a different
+**competency of lateral leadership**. You don't have to play all events: **E1–E4 are
+the core**, E5–E7 are reserves for fast or large groups.
+:::
+
+## Recommended timeline (30-minute round) {#recommended-timeline}
+
+::: {.hint}
+Give the groups **enough time** – negotiation needs room to breathe. The time markers
+below are meant for a 30-minute round and can easily be stretched; only throw in a new
+event once the previous one has been *worked on* (see pacing notes below).
+:::
+
+::: {.timeline}
+
+::: {.t-item}
+<span class="t-time">Min 0–7 · Opening</span><br>
+Robin (RSE) opens, presents the goal & framework, begins gathering requirements.
+*No event yet.*
+:::
+
+::: {.t-item}
+<span class="t-time">Min 7 · Event E1 — Data protection</span><br>
+First stress test as soon as the meeting is running.
+:::
+
+::: {.t-item}
+<span class="t-time">Min 13 · Event E2 — Conference deadline</span><br>
+Pressure from above while Robin is still sorting things out.
+:::
+
+::: {.t-item}
+<span class="t-time">Min 18 · Event E3 — Doctorate emergency</span><br>
+A competing priority from within the team.
+:::
+
+::: {.t-item}
+<span class="t-time">Min 23 · Event E4 — Resource loss</span><br>
+The plan has to be adjusted.
+:::
+
+::: {.t-item}
+<span class="t-time">Min 27–30 · Landing</span><br>
+Facilitator announces “3 minutes left” → the group secures its results.
+*Only sprinkle in E5–E7 if there is time/energy.*
+:::
+
+:::
+
+## The event cards
+
+::: {.cards}
+
+::: {.card .event}
+<span class="badge">E1 · Core</span>
+### Data protection sounds the alarm
+The data protection officer gets in touch: the **video recordings of minors**
+are not stored in a legally compliant way as things stand. **New consents** and an
+**anonymisation pipeline** are needed before work on the video data may continue.
+
+<div class="meta">
+**Who introduces it:** facilitator (call) or role 5 (partner school).<br>
+**Stresses:** communication · conflict resolution · planning under constraints<br>
+**Expected conflict:** unplanned scope vs. “but that was already settled”.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E2 · Core</span>
+### The conference deadline
+Petra (PI) announces enthusiastically: the project should be presented at the
+specialist conference in **8 weeks**. The **abstract (4 pages) is due in 2 weeks** – with
+*first results*. “I'm sure we can manage that – and tell me what you need for it!”
+
+<div class="meta">
+**Who introduces it:** role 2 (Petra / PI).<br>
+**Stresses:** leading upwards · the power of language (convincing, not pressuring) · self-leadership<br>
+**Expected conflict:** “first results” vs. “data model first”.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E3 · Core</span>
+### Doctorate in trouble
+Mara needs a special data export **this week** for a dissertation chapter – otherwise
+she misses a submission deadline of her own. “Just the table, quickly, it's really no
+big deal.”
+
+<div class="meta">
+**Who introduces it:** role 3 (Mara / domain).<br>
+**Stresses:** mindful leading of others · prioritisation · expectation management<br>
+**Expected conflict:** urgent individual request vs. a sustainable platform.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E4 · Core</span>
+### Resource loss
+Two pieces of bad news: the requested **student-assistant funding has been cut**, and
+Tobi is largely unavailable for two weeks during the **exam period**. A planned task
+slips.
+
+<div class="meta">
+**Who introduces it:** facilitator + role 4 (Tobi / student assistant).<br>
+**Stresses:** structuring the work · expectation management · conflict resolution<br>
+**Expected conflict:** commitments from min 0–15 suddenly become unrealistic.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E5 · Reserve</span>
+### The partner school wavers
+Sabine makes it clear: without a **simple dashboard** that shows the school the learning
+progress of *its own* classes, the school management is considering **pulling out of the
+study**. Without this school, important data is missing.
+
+<div class="meta">
+**Who introduces it:** role 5 (Sabine / partner school).<br>
+**Stresses:** stakeholder communication · negotiating without power · scope<br>
+**Expected conflict:** external benefit vs. research roadmap.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E6 · Reserve</span>
+### Buy instead of build?
+A reviewer has noted that one should check whether a **commercial tool** might be
+cheaper than building it in-house. Petra would like **a short market analysis by next
+week** – curious, not pushy: “Maybe we don't need to build all of this ourselves – what
+do you think, Robin?”
+
+<div class="meta">
+**Who introduces it:** role 2 (Petra / PI).<br>
+**Stresses:** the power of expert knowledge · arguing on the merits · self-efficacy<br>
+**Expected conflict:** the very justification for the whole undertaking is on the table.
+</div>
+:::
+
+::: {.card .event}
+<span class="badge">E7 · Reserve</span>
+### “Just find the interesting patterns”
+Mara wishes: “The platform should automatically show us the **interesting patterns**
+in the learning trajectories.” When asked about criteria: “You just recognise them.”
+
+<div class="meta">
+**Who introduces it:** role 3 (Mara / domain).<br>
+**Stresses:** requirements gathering · the limits of what is technically feasible · questioning technique<br>
+**Expected conflict:** a vague expectation vs. a decidable specification.
+</div>
+:::
+
+:::
+
+## Pacing notes
+
+* **Don't overload.** Only throw in an event once the previous one has been *worked on*
+  (not necessarily *solved*). The goal is friction, not overwhelm.
+* **Dock onto roles.** An event works most strongly when the facilitator passes it *to
+  the fitting role* and that role presents it out of its own interest.
+* **With strong groups** combine E5–E7 (e.g. E6 right after a self-assured plan – this
+  tests the RSE's self-efficacy).
+* **With groups that have stalled**, leave out an event and instead pose an *open
+  question* to the RSE via a role (“What exactly do you expect from me, and by when?”).

@@ -29,11 +29,11 @@ verdeckten Ziele der anderen – man muss sie im Gespräch *herausfinden*.
 
 | # | Rolle | Öffentliches Kern-Interesse | Vertrauliche Karte |
 |---|-------|------------------------------|--------------------|
-| 1 | **RSE / Software-Koordination** | tragfähige, wartbare Plattform | [Karte 1](karten/rolle-1-rse.qmd) |
-| 2 | **Prof. Dr. Barn (PI / Lehrstuhl)** | Sichtbarkeit, Ergebnisse zur Konferenz | [Karte 2](karten/rolle-2-pi.qmd) |
-| 3 | **Dr. Melis (Bildungsforschung)** | schnell auswertbare Daten fürs Paper | [Karte 3](karten/rolle-3-domaene.qmd) |
-| 4 | **Tobi (studentische Hilfskraft)** | dazulernen, Überforderung vermeiden | [Karte 4](karten/rolle-4-hiwi.qmd) |
-| 5 | **Frau Korter (Partnerschule)** *(optional)* | Nutzen für die Schule, Datenschutz | [Karte 5](karten/rolle-5-schule.qmd) |
+| 1 | **Robin** — RSE / Software-Koordination | tragfähige, wartbare Plattform | [Karte 1](karten/rolle-1-rse.qmd) |
+| 2 | **Petra** (Prof. Dr. Barn) — PI / Lehrstuhl | sichtbarer, gemeinsam getragener Erfolg | [Karte 2](karten/rolle-2-pi.qmd) |
+| 3 | **Mara** (Dr. Melis) — Bildungsforschung | schnell auswertbare Daten fürs Paper | [Karte 3](karten/rolle-3-domaene.qmd) |
+| 4 | **Tobi** (Tobias) — studentische Hilfskraft | dazulernen, Überforderung vermeiden | [Karte 4](karten/rolle-4-hiwi.qmd) |
+| 5 | **Sabine** (Frau Korter) — Partnerschule *(optional)* | Nutzen für die Schule, Datenschutz | [Karte 5](karten/rolle-5-schule.qmd) |
 
 : {.striped}
 
@@ -46,16 +46,20 @@ diese Seiten und gibt jeder Person ihre Karte einzeln.
 ## Verteilung — so geht's
 
 1. **Szenario** und die gemeinsame **Rollen-Übersicht**
-   ([Die Rollen im Kickoff-Meeting](rollen-oeffentlich.qmd)) an **alle** austeilen
-   (gemeinsames Briefing, ~5 Min). Beides ist geheimnisfrei.
-2. Jeder Person **genau eine** vertrauliche Rollenkarte geben – als eigenes PDF
+   ([Die Rollen im Kickoff-Meeting](rollen-oeffentlich.qmd)) an **alle** austeilen –
+   idealerweise **schon einige Tage vorher** (gemeinsames Briefing, ~5 Min in der
+   Sitzung). Beides ist geheimnisfrei.
+2. **Rollen nach Präferenz verteilen:** Lasst die Studierenden möglichst *selbst* wählen,
+   welche Person sie spielen wollen (Robin, Petra, Mara, Tobi, Sabine) – wer sich mit
+   „seiner" Rolle identifiziert, spielt engagierter. Bei Gleichstand lost ihr aus.
+3. Jeder Person **genau eine** vertrauliche Rollenkarte geben – als eigenes PDF
    (`rolle-*.pdf`) oder Ausdruck. Für 4er-Gruppen die Karten **1–4**, für 5er-Gruppen
    zusätzlich Karte **5**.
-3. **Nicht** die Karten der anderen zeigen. Die verdeckten Ziele bleiben geheim – das
+4. **Nicht** die Karten der anderen zeigen. Die verdeckten Ziele bleiben geheim – das
    ist der Kern des Verhandlungstrainings.
 4. Die [Spielleitung](spielleitung.qmd) behält die Gesamtübersicht (alle Geheimnisse +
    Konfliktmatrix) und wirft entlang der
-   [Timeline](ereigniskarten.qmd#empfohlene-timeline-20-minuten-runde) die Ereignisse ein.
+   [Timeline](ereigniskarten.qmd#empfohlene-timeline-30-minuten-runde) die Ereignisse ein.
 5. **Danach:** gemeinsames Debrief – *dort* kommt der Input zu lateraler Führung und die
    Auflösung der verdeckten Interessen (siehe [Spielleitung](spielleitung.qmd#debrief-reflexion)).
 

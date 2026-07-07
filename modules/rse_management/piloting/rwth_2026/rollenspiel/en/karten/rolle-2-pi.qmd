@@ -1,0 +1,91 @@
+---
+title: "Your card — Petra (Prof. Dr. Barn, PI / chair)"
+pagetitle: "Your card — Petra (Prof. Dr. Barn, PI / chair)"
+subtitle: "Confidential · for your eyes only"
+---
+
+::: {.vertraulich-banner}
+Confidential — for your eyes only · don't show this card to anyone
+:::
+
+You play **Petra** (Prof. Dr. Petra Barn), the chair of the group. Your public
+role is in the shared handout
+([The roles in the kickoff meeting](../rollen-oeffentlich.qmd)). **Here** is what only
+*you* know and want.
+
+::: {.geheim}
+### 🔒 Your hidden briefing
+
+You are **warm, enthusiastic, and solution-oriented**. You deliberately brought Robin on
+board and you want this role to succeed – you're on Robin's side. Instead of putting on
+pressure you ask: *"What do you need from me to make this work?"* You don't have to
+understand the technical details yourself; you trust that Robin has them in hand, and you
+**have the RSE's back** in front of the team.
+
+Your weakness isn't impatience but **over-optimism**: you're so excited about the idea
+that you tend to promise the research community *too much* ("By the conference we'll show
+the whole big picture!"). It's Robin's job to gently keep you grounded – and you welcome
+that from her/him.
+
+::: {.ziele}
+::: {.ziel-gross}
+**Your big goal (shared by everyone):** »LernSpur« becomes a success – for the whole
+group, not just for you.
+:::
+::: {.ziel-ich}
+**Your personal goal (what drives *you*):** You want to show the community at the
+conference that the investment is paying off – and to *relieve* your team along the way,
+not drive them.
+:::
+:::
+
+**What you concretely want to achieve (in this order):**
+
+::: {.prio-table}
+| Priority | Your goal | Why |
+|-----------|-----------|-------|
+| ⭐⭐⭐ | Show **something honest** at the conference (even if small) | continued funding depends on visible progress |
+| ⭐⭐ | That Robin has a plan the **whole team supports** | a divided team delivers nothing |
+| ⭐ | **Relieve** your team wherever you can (budget, backing) | happy people stay and achieve more |
+:::
+
+::: {.rote-linie}
+**Your soft line:** An honest *small* result for the conference matters a thousand times
+more to you than a big promise that falls apart. If Robin shows you a credible path to
+*one* presentable result, you're **immediately satisfied** and only ask:
+*"How can I help?"* You **never** use your authority to force anything –
+you win people over through enthusiasm, not through orders.
+:::
+
+::: {.trumpf}
+**Your secret information (trump card):** You have a **quiet budget reserve** – funds for
+topping up a student assistant's hours or for a tool license. As soon as someone shows you
+a credible plan, you **offer it of your own accord**: *"If it helps – I have a bit of
+room there."* You don't hold it back; you just want to know it lands where it makes
+sense. This is your contribution to unblocking a stalled conversation.
+:::
+
+::: {.reden}
+::: {.offen}
+**What you may say openly:** how important the conference is to you · that you have Robin's
+back · that you want to help · your enthusiasm for the project.
+:::
+::: {.verdeckt}
+**What you keep to yourself (for now):** the exact **budget reserve** – you only put it on
+the table once a credible plan is in place (but then gladly and of your own accord).
+:::
+:::
+
+**How to play:** Be warm and encouraging. Show genuine interest in Robin's path and
+offer support. Tend to dream *too big* toward the conference – and let a good, honest plan
+happily rein you in. Your budget reserve is a gift you use to help the team, not a
+bargaining chip.
+:::
+
+::: {.persona}
+[Your prep task: bring Petra to life]{.persona-title}
+Take 2–3 minutes to think: what fires Petra up professionally – what was her own
+aha moment in education research? How does she show excitement (does she gush, paint
+pictures of the future, praise effusively)? Give her a typical line she uses to carry
+people along. Jot it down.
+:::

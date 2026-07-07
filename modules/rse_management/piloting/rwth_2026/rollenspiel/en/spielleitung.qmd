@@ -1,0 +1,293 @@
+---
+title: "For instructors: game master & meta-perspective"
+subtitle: "Competency goals, expected conflicts, observation, debrief, assessment"
+---
+
+This page is intended **for the instructors / the game master only**. It provides the
+meta-perspective on the role-play: *What should the students learn? Which conflicts are
+built in? What do I watch for while observing? How do I assess it?*
+
+## 1. What this is about didactically
+
+The role-play trains **lateral leadership** – leadership *on equal footing, without
+relying on hierarchical power, but on one's own effectiveness* (Toennes,
+*Moderne Mitarbeiterführung – Laterales Führen* (lateral leadership)). For Research
+Software Engineers this is the normal case: they coordinate software without being the
+researchers' superiors.
+
+Lateral leadership rests on a **triad** and four **competency fields**:
+
+| Triad | visible in the game as |
+|-------|------------------------|
+| **Understanding** | asking about interests, listening, switching perspective, clarifying goals/rules |
+| **Power** | informational and expert power, access to contacts – *not* directives |
+| **Trust** | acting predictably, promising only what can be kept |
+
+| Competency field (Toennes) | Guiding question for observation |
+|----------------------------|----------------------------------|
+| Power of **personality** | Does the RSE come across as credible, coherent, inspiring? |
+| Power of **language** | Does she convince – or does she cajole/justify herself? |
+| Power of **conflict resolution** | Are conflicts recognised early, addressed openly, resolved constructively? |
+| Power of **self-leadership & leading others** | Does she prioritise herself *and* lead the others mindfully? |
+
+: {.striped}
+
+## 2. Competency goals & mapping to the RSE curriculum
+
+::: {.hint}
+The competencies dock directly onto the seminar curriculum: **conveying SE knowledge to
+developing researchers**, **leading / leading through non-computer-scientists**,
+**planning research software**, as well as the orthogonal soft skills
+**conflict resolution, work structuring, problem solving, lateral leadership**.
+:::
+
+| Competency (learning goal) | How it is built in the game | Associated event |
+|----------------------------|-----------------------------|------------------|
+| Eliciting & sharpening requirements | turning vague wishes into decidable criteria | E7, kickoff |
+| Conveying SE knowledge in lay terms | explaining "why a data model first?" without lecturing | E2, E6 |
+| Leading upward (expectation management) | "selling" Petra a realistic plan (reining in her over-optimism) | E2, E6 |
+| Mindful leading of others | guiding Tobi appropriately, taking Mara seriously | E3, E4 |
+| Prioritising under scarcity | weighing scope against time/resources | E1, E3, E4 |
+| Leading conflicts constructively | naming goal conflicts openly instead of avoiding them | E1, E5 |
+| Self-leadership | staying calm, not fleeing into over-promising | all |
+| Involving stakeholders | integrating external interests instead of fending them off | E5 |
+
+: {.striped}
+
+## 3. Expected conflicts (the "designed breaking points")
+
+These conflicts are built into the roles and events **deliberately**. They are the
+learning material – not disruptions to be prevented.
+
+1. **Sustainability vs. speed** — Robin wants a data model first, Petra (out of enthusiasm)
+   and Mara (out of deadline pressure) want something presentable quickly. *(Core conflict, E2/E3)*
+2. **Vague domain language vs. decidable specification** — "similar classes",
+   "interesting patterns". *(Kickoff, E7)*
+3. **Individual interest vs. shared platform** — the urgent dissertation analysis
+   eats up the roadmap. *(E3)*
+4. **Plan vs. reality** — commitments made in the first fifteen minutes collide with
+   a loss of resources and unplanned data-protection scope. *(E1/E4)*
+5. **Internal vs. external legitimacy** — research logic vs. benefit for the
+   partner school. *(E5)*
+6. **Build vs. buy** — the project's very reason for existing is questioned;
+   the RSE must demonstrate self-efficacy without becoming defensive. *(E6)*
+
+## 4. Hidden interests & negotiation matrix (master overview) {#hidden-interests}
+
+::: {.hint}
+**For the game master only – the master key.** This overview bundles *all* the secret
+briefings from the individual cards in one place. The students each know **only their
+own** card; they are meant to *negotiate out* the opposing interests during play. Keep
+this page closed during distribution.
+:::
+
+### The object of negotiation: the scarce time before the conference
+
+The real conflict is a **distribution problem**: before the conference (8 weeks),
+realistically **only one or two larger results** fit into the available development time
+– but **four** parties want their concern addressed first. Five topics are negotiated at
+the core:
+
+| # | Negotiable topic | What it is about |
+|---|------------------|------------------|
+| V1 | **Focus of the first weeks** | data model · conference demo · Mara's export · school dashboard – *not everything fits* |
+| V2 | **Conference commitment** | What exactly is promised? (nothing / small interim result / large demo) |
+| V3 | **Data protection / video anonymisation** | blocks the video data – who does it, when? |
+| V4 | **Resources** | student-assistant hours (Tobi) · the *quiet budget reserve* that Petra offers of her own accord |
+| V5 | **School dashboard** | build it yes/no, at what scope |
+
+: {.striped}
+
+### Who secretly wants what — all the secrets at a glance
+
+::: {.matrix}
+| Role | Secret personal goal (besides the shared success) | "Line" / driving motive | Trump card / hidden information |
+|------|-------------------|-------------------------------|-------------------------------|
+| **1 · Robin (RSE)** | a viable data model + *one* honest mini-plan; being taken seriously as a coordinator | commits to nothing that would lead to throwaway code / overload | is the only one who knows: only **ONE** big result fits before the conference |
+| **2 · Petra (PI)** | show something **honest** at the conference – rather small & real than big & airy | *soft* line: **never** uses her authority; her risk is **over-optimism** (promising too much) | **quiet budget reserve** (student-assistant top-up / tool licence) – **offers it of her own accord** as soon as a credible plan is on the table |
+| **3 · Mara (Melis)** | her own data export (deadline in **3 weeks**) | otherwise turns *quietly uncooperative* | is the only one who knows the **data semantics** – no data model without her |
+| **4 · Tobi** | not to look overwhelmed, keep the job | critical task on the critical path → breaks down (E4) | realistically manages only **~5 h/week** (exams); already has a **finished mini-script** for Mara's export |
+| **5 · Sabine (Korter)** | a simple dashboard for the school conference (in **3 weeks**) | credibly threatens a **school exit** (major data loss) | can deliver **2 more classes** + contacts if involved |
+:::
+
+### Conflict matrix — who clashes with whom
+
+Cells show *what* the two roles are in tension about (topic in parentheses):
+
+::: {.matrix}
+| against ↓ / ↑ | **Petra** | **Mara** | **Tobi** | **Sabine** |
+|---------------|--------|-----------|----------|------------|
+| **Robin** | speed vs. sustainability – but goodwilled *(V1/V2)* | model first vs. my export first *(V1)* | task scoping vs. real capacity *(V4)* | roadmap vs. dashboard wish *(V1/V5)* |
+| **Petra** | — | both want time "first", but for **different things** *(V1)* | hopes for output Tobi cannot manage *(V4)* | research logic vs. school benefit *(V5)* |
+| **Mara** | | — | wants export → needs Tobi's script/time *(V1/V4)* | competes for the same scarce dev time *(V1)* |
+| **Tobi** | | | — | *(no direct conflict)* |
+:::
+
+**Core tension:** four parties claim the same scarce development time (V1) for
+*something different in each case*. Played distributively (everyone insists on their own)
+it ends in outcome **C** or **D** (see §6). Played integratively, almost every "top goal"
+can be served – because the priorities lie *differently* and there are hidden resources.
+
+### The integrative solution space (ZOPA) — the "good" package
+
+There is a deal in which **everyone gets their most important thing** without the RSE
+promising the impossible. The RSE does not have to hit it exactly – but the closer, the
+more trust grows:
+
+* **Weeks 1–3:** Mara **documents the data semantics** ⇄ Robin builds a clean partial
+  dataset from it and delivers **Mara's export by week 3** (saves her deadline).
+  *→ partly solves V1, brings in Mara's trump card, defuses the Robin↔Mara conflict.*
+* **Tobi's script** is used for the export; Tobi gets a **small, supervised** task that
+  fits into ~5 h/week. *→ V4, defuses E4 in advance.*
+* **Petra offers the budget reserve of her own accord** (as soon as a credible conference
+  path is shown): funds for a tool licence / student-assistant top-up make possible, by
+  week 8, a **small, real analysis on the clean partial dataset** – the conference
+  contribution. An abstract in 2 weeks describes the plan + first partial results. *→ V2/V4.*
+* **Minimal read-only dashboard** for Sabine's classes (partly from Tobi's script) +
+  data-protection roadmap → Sabine gets her conference commitment, **stays on board and
+  brings 2 more classes**. *→ V3/V5, defuses E5.*
+
+Result: the core data model stands, the conference is served, Mara's deadline saved, the
+school retained, Tobi not burned out – **nobody gets everything, everyone gets the most
+important thing.** This is archetype **A** (§6).
+
+::: {.hint}
+**As game master, dose it out:** the hidden trump cards (Petra's budget, Mara's semantics,
+Tobi's script, Sabine's additional classes) are the **keys** that open the seemingly
+zero-sum conflict. If a group gets stuck, cue the appropriate **event** so that a trump
+card comes into play – e.g. E3 draws out Mara's deadline, E4 forces honesty about capacity,
+E2/E6 give Petra the opportunity to make her support (up to and including the budget) visible.
+:::
+
+## 5. Observation sheet
+
+One sheet per RSE player (or per group). Scale 1 (barely) – 4 (assured).
+The game master and the remaining participants are **observers**.
+
+| Observation point | Positive indicator | 1–4 |
+|-------------------|--------------------|-----|
+| **Understanding** | asks open questions, summarises, switches perspective | ☐ |
+| **Requirements** | makes the vague decidable ("What does *similar* mean?") | ☐ |
+| **Power of language** | convinces with arguments, does not cajole/justify herself | ☐ |
+| **Conflict resolution** | addresses goal conflicts openly & early | ☐ |
+| **Expectation management** | commits only to what is realistic; reins in Petra's over-optimism | ☐ |
+| **Leading others** | gives Tobi clear, fitting tasks; takes Mara's concerns seriously | ☐ |
+| **Self-leadership** | stays calm, structured, does not flee into over-promising | ☐ |
+| **Result** | at the end there is a viable, prioritised mini-plan | ☐ |
+
+::: {.hint}
+**Short note fields:** A moment of successful lateral leadership? · A missed lever
+(understanding/power/trust)? · A sentence that turned the group around?
+:::
+
+## 6. Possible outcomes {#possible-outcomes}
+
+The set of results is **deliberately limited** – different groups should arrive at
+different, each defensible endings. Four archetypes:
+
+* **A — The viable compromise** *(target state):* Robin prioritises openly, promises Petra
+  a *small* presentable interim result for the conference (e.g. a clean partial dataset +
+  an analysis), anchors the data model in parallel, and involves the school with a minimal
+  dashboard. *Trust grows.*
+* **B — The over-promise:** Robin gets swept up in Petra's enthusiasm (or fuels it himself)
+  and promises everything by the conference. Short-term applause, but the plan is
+  unrealistic – useful in the debrief as a contrast (*trust is squandered later*).
+  Instructive: Petra's over-optimism is not curbed by limits from above – Robin must hold
+  the realistic line himself.
+* **C — The technical blockade:** Robin insists on "clean first, then results", without
+  picking up the others' interests. The group does not feel heard; Petra stays friendly and
+  supportive, but her enthusiasm runs into a void and a standstill sets in.
+  *(Power without understanding.)*
+* **D — The unravelling:** No clear focus, everyone pulls in a different direction, many
+  open points. *(Leadership does not take place.)*
+
+All four are **legitimate game outcomes** and provide debrief material. There is no
+"game over".
+
+## 7. Schedule & timing {#schedule-timing}
+
+Based on the template *"First project lead"* (≈ 100–110 min, scales well and can be split
+across two sessions). **Plan generous time** – negotiating and playing out the roles need
+room; overly tight rounds smother the very dynamic that is the point.
+
+| Phase | Content | Time |
+|-------|---------|------|
+| Explanation & motivation | Why a role-play? Scenario & role overview (ideally distributed in advance) | 10 min |
+| Distribute roles by **preference** | students pick their person; hand out confidential cards | 5 min |
+| **Creative preparation** | flesh out the persona (task at the bottom of each card), sharpen secret goals & red line, coordinate behaviours | 20 min |
+| **Role-play** | kickoff meeting incl. events (possibly 2 runs with role swap) | 2 × 30 min |
+| Reflection & debrief | see below | 15–20 min |
+
+**Distribute in advance (recommended):** hand out the scenario and role overview **a few
+days before the session** so that students come prepared and can choose their role by
+preference (§Distribution). This shortens the preparation phase and raises engagement.
+
+**Role swap (recommended):** the Robin players lead a *different* group than the one they
+prepared with. The game master is – like the other participants – an **observer**.
+
+**Materials:** the **confidential individual role cards** (1 PDF/printout per person –
+nobody sees the others' cards), **name tags** with the first names (Robin, Petra, Mara,
+Tobi, Sabine) and **printed** event cards, flipchart/Miro for capturing results, this
+observation sheet (1 × per participant + 1 × trainer).
+
+## 8. Debrief (reflection) {#debrief}
+
+Facilitate in this order – *first experience, then patterns, then transfer*:
+
+**Experience**
+
+* At what point did you feel *like a leader* – and when not?
+* Where did it get uncomfortable, and what did you do in that moment?
+
+**Patterns (lateral leadership)**
+
+* Which of the three levers – **understanding, power, trust** – did you use consciously?
+  Which too little?
+* Where did you slide from *convincing* into *cajoling/justifying*?
+* When would you have been better off asking a question instead of giving an answer?
+
+**Conflict & role**
+
+* Which goal conflict was the hardest? How could you have framed it differently?
+* To the "led" roles: What convinced you? What triggered resistance?
+
+**Transfer**
+
+* Where do you encounter this constellation in real everyday RSE work (domain RSE vs.
+  infrastructure RSE, PI with a different background)?
+* In what way does this go beyond general communication/management theory – what is
+  *specific* about leading developing researchers?
+* Which *one* thing will you take on for your next real project meeting?
+
+## 9. Variants
+
+### Variant: domain RSE vs. infrastructure RSE {#domain-vs-infrastructure-rse}
+
+Give two groups different RSE profiles to make the curricular relevance visible:
+
+* **Domain RSE** (internal RSE): employed at the chair, knows educational research to some
+  extent, but is deeply entangled in the group's dependencies. *Closeness, but less
+  distance-authority.*
+* **Infrastructure RSE** (external RSE from an RSE centre): booked only by the day, high SE
+  quality, but hardly any domain knowledge and no attachment. *Distance-authority, but less
+  understanding.*
+
+Compare in the debrief: *Which profile had it easier/harder at which event?*
+
+### Further adjustment screws
+
+* **Change the domain:** instead of educational research, e.g. a social-science panel study
+  or a public-health register – structure and events stay the same.
+* **Difficulty level:** set the secret behaviours mild/sharp; add E5–E7.
+* **Set a focus:** aim one round only at *expectation management upward* (E2/E6), another
+  only at *leading others within the team* (E3/E4).
+
+---
+
+::: {.hint}
+**Sources & reference:** role/persona structure based on the existing RSE role-play
+(chemistry scenario); format "first project lead with triggered events" based on the
+template *"First project lead"*; competency model based on A. Toennes,
+*Moderne Mitarbeiterführung – Laterales Führen* (Understanding/Power/Trust; four
+competency fields). Debrief questions expanded from the workshop's `reflexions-fragen.md`.
+:::

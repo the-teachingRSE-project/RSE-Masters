@@ -11,42 +11,51 @@ kennen. *Wer ihr im Meeting seid*, steht in der gemeinsamen
 persönlichen Karte – die kennt nur ihr selbst.
 :::
 
-## Worum es geht
+::: {.hint}
+**Worum es hier eigentlich geht.** Das Projekt »LernSpur« ist nur die Kulisse. Worauf es
+ankommt, ist die **Dynamik am Tisch**: Wie führt man ein Team, ohne Chef:in zu sein? Wie
+geht ihr mit Druck, vagen Wünschen und Zielkonflikten um? Am Ende zählt nicht, ob die
+„perfekte" Plattform herauskommt, sondern *wie ihr miteinander verhandelt* – darüber
+sprechen wir im Debrief.
+:::
 
-Ihr arbeitet am **Lehrstuhl für Empirische Bildungsforschung** einer mittelgroßen
-Universität. Der Lehrstuhl untersucht, wie sich der Einsatz einer digitalen
-Mathematik-Lern-App auf die Lernverläufe von Schüler:innen der Sekundarstufe I
-auswirkt. Dazu läuft seit anderthalb Jahren eine **Längsschnittstudie an 14
-Partnerschulen**.
+## Worum es geht (kurz)
 
-In der Studie fallen sehr unterschiedliche Daten an:
+Ihr arbeitet am **Lehrstuhl für Empirische Bildungsforschung**. Der Lehrstuhl untersucht,
+wie eine **Mathe-Lern-App** das Lernen von Schüler:innen beeinflusst. Dazu läuft eine
+**Studie an 14 Partnerschulen**.
 
-* **Nutzungsdaten** der Lern-App (welche Aufgaben, wie lange, wie viele Fehler)
-* **Fragebögen** von Schüler:innen, Lehrkräften und Eltern (in drei Erhebungswellen)
-* **Videoaufnahmen** einzelner Unterrichtsstunden
-* **standardisierte Kompetenztests** (Vor- und Nachtest)
+Zwei Sorten Daten sind für heute wichtig:
 
-Die Daten liegen bisher verstreut: teils in Excel-Tabellen auf Uni-Laufwerken,
-teils in einer alten Access-Datenbank, teils als Rohdaten-Exports der App-Firma.
-Mehrere **Promotionsprojekte** hängen an genau diesen Daten.
+* **Nutzungsdaten der App** – wer übt was, wie lange, mit wie vielen Fehlern
+* **Fragebögen** von Schüler:innen und Lehrkräften
 
-Der Lehrstuhl hat nun eine **dreijährige Förderung** eingeworben mit dem Ziel,
-eine nachhaltige, **FAIR**-konforme *Forschungsdatenplattform »LernSpur«* aufzubauen:
-Sie soll die Daten verwalten, die Planung neuer Teilstudien unterstützen und
-Auswertungen für die ganze Arbeitsgruppe ermöglichen.
+Dazu kommen – rechtlich heikler – einige **Videoaufnahmen** aus dem Unterricht.
+Die Daten liegen heute **verstreut** (Excel-Tabellen, eine alte Datenbank, Export-Dateien
+der App-Firma). Mehrere Promotionen hängen daran.
+
+Der Lehrstuhl hat eine **dreijährige Förderung** bekommen, um daraus eine nachhaltige,
+**FAIR**-konforme *Forschungsdatenplattform »LernSpur«* zu bauen.
+
+::: {.hint}
+**Die Konferenz.** In **8 Wochen** stellt der Lehrstuhl das Projekt auf der
+**Jahrestagung der empirischen Bildungsforschung** vor. Schon in **2 Wochen** ist dafür
+ein **kurzer Beitrag (Abstract)** fällig – idealerweise mit *ersten Ergebnissen* aus den
+Daten. Das ist der Termin, der über allem schwebt.
+:::
 
 ## Eure Ausgangslage
 
 * Das Projekt ist **bereits gestartet**, die groben Ziele sind kommuniziert.
-* Ihr kennt euch aus vorherigen Meetings – man duzt sich, die Stimmung ist grundsätzlich freundlich.
-* Vor drei Monaten wurde eine **Research Software Engineer:in (RSE)** eingestellt, die
-  die Softwareentwicklung **koordinieren** soll.
-* **Wichtig:** Die RSE hat *keine* disziplinarische Weisungsbefugnis. Sie ist niemandes
-  Chef:in. Sie kommt nur weiter, indem sie die Beteiligten **überzeugt, nicht anweist**.
+* Ihr kennt euch aus vorherigen Meetings – **ihr duzt euch**, die Stimmung ist freundlich.
+* Vor drei Monaten wurde **Robin** als **Research Software Engineer:in (RSE)** eingestellt,
+  um die Softwareentwicklung zu **koordinieren**.
+* **Wichtig:** Robin hat *keine* disziplinarische Weisungsbefugnis. Robin ist niemandes
+  Chef:in – und kommt nur weiter, indem sie/er die Beteiligten **überzeugt, nicht anweist**.
 
 ## Das heutige Meeting (eure Aufgabe)
 
-Heute findet das **Anforderungs-Kickoff** statt. In diesem Meeting soll die RSE:
+Heute findet das **Anforderungs-Kickoff** statt. Robin soll darin:
 
 1. das Ziel der Software kurz vorstellen und den Rahmen setzen,
 2. gemeinsam mit allen die **Anforderungen sammeln und priorisieren**,
@@ -54,24 +63,29 @@ Heute findet das **Anforderungs-Kickoff** statt. In diesem Meeting soll die RSE:
 4. einen **realistischen Plan für die ersten Wochen** entwickeln.
 
 Alle anderen bringen ihre eigenen Interessen, ihr Wissen und ihre Sorgen ein –
-und machen es der RSE dabei manchmal nicht ganz leicht.
+und machen es Robin dabei manchmal nicht ganz leicht.
 
 ::: {.hint}
 **Achtung – typische Reibungspunkte.** Die Domänenforschenden sagen Sätze wie:
 
 > „Wir wollen ähnliche Klassen miteinander vergleichen können."
 
-Für die RSE stellt sich sofort die Frage: **Was heißt *ähnlich*?**
+Für Robin stellt sich sofort die Frage: **Was heißt *ähnlich*?**
 Gleiche Jahrgangsstufe? Gleiche App-Nutzungsdauer? Gleiche Ausgangsleistung?
-Gleiches Schul-Milieu? **Nur die Bildungsforschenden können sagen, was
-wissenschaftlich sinnvoll ist – nur die RSE weiß, was technisch entscheidbar ist.**
-Genau hier müsst ihr euch zusammenraufen: Keine Seite kann das allein entscheiden.
+**Nur die Bildungsforschenden können sagen, was wissenschaftlich sinnvoll ist – nur
+Robin weiß, was technisch entscheidbar ist.** Genau hier müsst ihr euch zusammenraufen:
+Keine Seite kann das allein entscheiden.
 :::
 
 ## Spielregeln
 
 * **Bleibt in eurer Rolle.** Argumentiert aus den Zielen und Sorgen eurer Rollenkarte heraus.
-* **Blockiert nicht komplett.** Ihr dürft es der RSE schwer machen (unterbrechen, abschweifen,
+* **Was ihr sagen dürft – und was nicht.** Auf eurer vertraulichen Karte steht ein Kästchen
+  *„Das darfst du offen sagen"* und *„Das behältst du zunächst für dich"*. Euer
+  **öffentliches** Anliegen dürft ihr jederzeit einbringen; euer **verdecktes** Ziel,
+  eure rote Linie und euren Trumpf gebt ihr **nicht** von selbst preis – die sollen die
+  anderen im Gespräch herauskitzeln. Erfindet nichts dazu, was eurer Rolle widerspricht.
+* **Blockiert nicht komplett.** Ihr dürft es Robin schwer machen (nachhaken, abschweifen,
   auf Deadlines pochen) – aber das Spiel muss weiterlaufen.
 * **Es gibt keine „richtige" Lösung.** Verschiedene Gruppen kommen zu verschiedenen,
   gleichermaßen vertretbaren Ergebnissen (siehe [mögliche Ausgänge](spielleitung.qmd#mögliche-ausgänge)).
