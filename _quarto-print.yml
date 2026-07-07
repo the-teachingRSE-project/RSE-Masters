@@ -1,0 +1,25 @@
+# Print-Profil für den PDF-/Bundle-Export des Rollenspiels »LernSpur«.
+#
+# Rendert NUR die Rollenspiel-Seiten (schnell, ohne den Rest der großen Site)
+# als eigenständige Seiten in _site-print/. render-pdfs.ps1 druckt diese via
+# Headless-Browser nach PDF und bündelt student.zip / teacher.zip.
+#
+# Aufruf:  quarto render --profile print      (macht render-pdfs.ps1 automatisch)
+#
+# Format-Defaults (css, toc, grid, execute) kommen aus dem _metadata.yml im
+# Rollenspiel-Ordner. Die @media-print-Regeln in styles.css blenden Navbar/
+# Sidebar/TOC beim Browser-Druck aus -- deshalb Browser-Druck statt LaTeX.
+project:
+  type: website
+  output-dir: _site-print
+  render:
+    - "modules/rse_management/piloting/rwth_2026/rollenspiel/*.qmd"
+    - "modules/rse_management/piloting/rwth_2026/rollenspiel/karten/*.qmd"
+
+website:
+  title: "Rollenspiel »LernSpur«"
+
+format:
+  html:
+    # lux ohne curric.scss -- entspricht dem ursprünglichen Karten-/PDF-Look.
+    theme: lux

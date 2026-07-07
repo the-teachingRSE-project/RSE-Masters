@@ -9,24 +9,24 @@ verdeckt und wird erst im Debrief mit der Spielleitung aufgelöst.
 
 ## Online ansehen
 
-Die komplette Rollenspiel-Website (mit eigener Navigation) inkl. **aller
-Karten** — auch der vertraulichen Einzelkarten — ist hier direkt lesbar:
+Alle Materialien inkl. **aller Karten** — auch der vertraulichen Einzelkarten —
+sind als Seiten dieses OER direkt lesbar:
 
-- [Überblick / Rollenspiel-Website](piloting/rwth_2026/rollenspiel/index.html)
-- [Szenario (gemeinsames Briefing)](piloting/rwth_2026/rollenspiel/szenario.html)
-- [Die Rollen (öffentliches Handout)](piloting/rwth_2026/rollenspiel/rollen-oeffentlich.html)
-- [Verteilung der Karten (Spielleitung)](piloting/rwth_2026/rollenspiel/rollenkarten.html)
+- [Überblick](piloting/rwth_2026/rollenspiel/index.qmd)
+- [Szenario (gemeinsames Briefing)](piloting/rwth_2026/rollenspiel/szenario.qmd)
+- [Die Rollen (öffentliches Handout)](piloting/rwth_2026/rollenspiel/rollen-oeffentlich.qmd)
+- [Verteilung der Karten (Spielleitung)](piloting/rwth_2026/rollenspiel/rollenkarten.qmd)
 
 Vertrauliche Einzelkarten (im Spiel bekommt jede:r nur die eigene — hier zu
 Vorbereitung & OER-Zwecken offen einsehbar):
 
-- [🔒 Karte 1 · RSE](piloting/rwth_2026/rollenspiel/karten/rolle-1-rse.html)
-- [🔒 Karte 2 · PI (Barn)](piloting/rwth_2026/rollenspiel/karten/rolle-2-pi.html)
-- [🔒 Karte 3 · Melis (Domäne)](piloting/rwth_2026/rollenspiel/karten/rolle-3-domaene.html)
-- [🔒 Karte 4 · Tobi (HiWi)](piloting/rwth_2026/rollenspiel/karten/rolle-4-hiwi.html)
-- [🔒 Karte 5 · Korter (Schule)](piloting/rwth_2026/rollenspiel/karten/rolle-5-schule.html)
-- [Ereignisse & Timeline](piloting/rwth_2026/rollenspiel/ereigniskarten.html)
-- [Für Lehrende (Spielleitung)](piloting/rwth_2026/rollenspiel/spielleitung.html)
+- [🔒 Karte 1 · RSE](piloting/rwth_2026/rollenspiel/karten/rolle-1-rse.qmd)
+- [🔒 Karte 2 · PI (Barn)](piloting/rwth_2026/rollenspiel/karten/rolle-2-pi.qmd)
+- [🔒 Karte 3 · Melis (Domäne)](piloting/rwth_2026/rollenspiel/karten/rolle-3-domaene.qmd)
+- [🔒 Karte 4 · Tobi (HiWi)](piloting/rwth_2026/rollenspiel/karten/rolle-4-hiwi.qmd)
+- [🔒 Karte 5 · Korter (Schule)](piloting/rwth_2026/rollenspiel/karten/rolle-5-schule.qmd)
+- [Ereignisse & Timeline](piloting/rwth_2026/rollenspiel/ereigniskarten.qmd)
+- [Für Lehrende (Spielleitung)](piloting/rwth_2026/rollenspiel/spielleitung.qmd)
 
 ## Material zum Ausdrucken und Verteilen
 

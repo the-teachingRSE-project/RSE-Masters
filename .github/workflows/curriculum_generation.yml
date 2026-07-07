@@ -37,19 +37,6 @@ jobs:
       # LaTeX renders. Rebuild the PDFs locally and commit them when a deck changes.
       - name: compile website
         run: quarto render --profile website
-      # The role-play "»LernSpur«" is a self-contained Quarto sub-site (its own
-      # navbar/theme + the confidential 🔒 role cards). Like the other nested
-      # sub-projects it is excluded from the main website build so it keeps its
-      # own look; we render it separately here and copy it into the published
-      # tree so all cards -- including the private ones -- are viewable online.
-      - name: compile role-play mini-site
-        working-directory: modules/rse_management/piloting/rwth_2026/rollenspiel
-        run: quarto render
-      - name: publish role-play mini-site into site
-        run: |
-          dest=_site/modules/rse_management/piloting/rwth_2026/rollenspiel
-          mkdir -p "$dest"
-          cp -r modules/rse_management/piloting/rwth_2026/rollenspiel/_site/. "$dest"/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

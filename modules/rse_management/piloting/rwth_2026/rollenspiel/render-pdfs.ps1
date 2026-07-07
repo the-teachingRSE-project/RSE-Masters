@@ -3,7 +3,10 @@
     Rendert das Rollenspiel und exportiert jede Seite als eigenständiges PDF.
 
 .DESCRIPTION
-    1. `quarto render`  -> erzeugt _site/*.html (inkl. karten/rolle-*.html)
+    1. `quarto render --profile print` (im Repo-Root) -> erzeugt die
+       Rollenspiel-Seiten nach _site-print/.../rollenspiel/*.html
+       (inkl. karten/rolle-*.html). Nur diese Seiten werden gerendert,
+       nicht die ganze Curriculum-Site.
     2. Druckt jede HTML-Seite via Headless-Browser (Edge oder Chrome) nach pdf/*.pdf.
        Die PDFs nutzen die @media-print-Regeln aus styles.css (Navbar/Sidebar aus,
        Karten sauber umbrochen) -- deshalb Browser-Druck statt LaTeX: die CSS-Karten
@@ -35,7 +38,11 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $root    = $PSScriptRoot
-$siteDir = Join-Path $root '_site'
+# Repo-Wurzel: fünf Ebenen über diesem Ordner
+# (modules/rse_management/piloting/rwth_2026/rollenspiel -> Repo-Root).
+$repoRoot = (Resolve-Path (Join-Path $root '..\..\..\..\..')).Path
+# Ausgabe des Print-Profils; die Seiten liegen dort unter ihrem Projektpfad.
+$siteDir = Join-Path (Join-Path $repoRoot '_site-print') 'modules\rse_management\piloting\rwth_2026\rollenspiel'
 $pdfDir  = Join-Path $root 'pdf'
 $distDir = Join-Path $root 'dist'
 
@@ -64,10 +71,10 @@ $teacherOut = $pages | ForEach-Object { $_.out }
 
 # 1. Rendern -------------------------------------------------------------------
 if (-not $SkipRender) {
-    Write-Host '==> quarto render' -ForegroundColor Cyan
-    Push-Location $root
-    try { quarto render } finally { Pop-Location }
-    if ($LASTEXITCODE -ne 0) { throw "quarto render schlug fehl (Exit $LASTEXITCODE)" }
+    Write-Host '==> quarto render --profile print' -ForegroundColor Cyan
+    Push-Location $repoRoot
+    try { quarto render --profile print } finally { Pop-Location }
+    if ($LASTEXITCODE -ne 0) { throw "quarto render --profile print schlug fehl (Exit $LASTEXITCODE)" }
 } else {
     Write-Host '==> quarto render uebersprungen (-SkipRender)' -ForegroundColor Yellow
 }

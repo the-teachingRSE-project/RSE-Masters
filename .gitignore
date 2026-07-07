@@ -1,5 +1,7 @@
 /.quarto/
 /_site/
+# Print-Profil-Ausgabe des Rollenspiels (render-pdfs.ps1, --profile print)
+/_site-print/
 /site_libs/
 .claude/
 

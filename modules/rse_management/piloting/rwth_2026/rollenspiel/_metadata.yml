@@ -1,0 +1,24 @@
+# Format-Defaults für ALLE Rollenspiel-Seiten (Überblick + Unterordner karten/).
+#
+# Diese Seiten haben bewusst KEIN eigenes _quarto.yml mehr: dadurch sind sie
+# normale Seiten des Haupt-Site-Builds und werden vom regulären
+# `quarto render --profile website` mit veröffentlicht — inklusive der
+# vertraulichen Einzelkarten (karten/rolle-*.qmd).
+#
+# Der PDF-/Bundle-Build nutzt dieselben Seiten über das Profil `print`
+# (siehe _quarto-print.yml im Repo-Root und render-pdfs.ps1).
+lang: de
+execute:
+  enabled: false
+format:
+  html:
+    # Projekt-Wurzel-relativer Pfad ("/..."), damit styles.css sowohl von den
+    # Seiten in diesem Ordner als auch aus dem Unterordner karten/ korrekt
+    # aufgelöst wird (relative Pfade würden je nach Seitentiefe brechen).
+    css: /modules/rse_management/piloting/rwth_2026/rollenspiel/styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    fig-cap-location: bottom
+    grid:
+      body-width: 950px
