@@ -1,0 +1,68 @@
+/*-- scss:defaults --*/
+
+// Six competency-area colours (Bereiche of Table 5.1).
+// Shared by every curriculum track table (cs.qmd, mnt.qmd, ...).
+$curric-cs:   #B8BCD3 !default; // Computer Science
+$curric-se:   #D9E6ED !default; // Software Engineering
+$curric-dom:  #DFA3C9 !default; // Domain Specializations
+$curric-tech: #EAC6DE !default; // Technical Competencies for RSEs
+$curric-soc:  #FFF7C0 !default; // Social Competencies for RSEs
+$curric-res:  #FFFAD8 !default; // RSEng Research
+
+/*-- scss:rules --*/
+
+.curric-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .95rem;
+  margin: 1rem 0;
+
+  th {
+    text-align: left;
+    padding: .55rem .8rem;
+    border-bottom: 2px solid #333;
+  }
+
+  th.ects,
+  td.ects {
+    text-align: right;
+    white-space: nowrap;
+    width: 8rem;
+  }
+
+  td {
+    padding: .4rem .8rem;
+    border-top: 3px solid #fff;
+  }
+
+  tr.area td {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+  }
+
+  tr.mod td:first-child {
+    padding-left: 1.8rem;
+  }
+
+  tr.total td {
+    font-weight: 700;
+    background: #fff;
+    border-top: 2px solid #333;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px dotted rgba(0, 0, 0, .45);
+  }
+
+  // Competency-area row colours. Applied to both the area header row
+  // and its module rows, so one class carries the whole block's colour.
+  tr.a-cs   { background: $curric-cs; }
+  tr.a-se   { background: $curric-se; }
+  tr.a-dom  { background: $curric-dom; }
+  tr.a-tech { background: $curric-tech; }
+  tr.a-soc  { background: $curric-soc; }
+  tr.a-res  { background: $curric-res; }
+}
