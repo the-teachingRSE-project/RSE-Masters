@@ -113,6 +113,36 @@
 }
 .trumpf strong { color: #065f46; }
 
+/* Zwei-Ebenen-Ziel: großes (gemeinsames) vs. persönliches (verdecktes) Ziel */
+.ziele { margin: .7rem 0; }
+.ziele .ziel-gross,
+.ziele .ziel-ich {
+  padding: .45rem .75rem; border-radius: 6px; margin: .35rem 0;
+}
+.ziele .ziel-gross { background: #eef2ff; border-left: 5px solid var(--role-rse); }
+.ziele .ziel-gross strong { color: #1e3a8a; }
+.ziele .ziel-ich   { background: #faf5ff; border-left: 5px solid var(--role-pi); }
+.ziele .ziel-ich strong { color: #5b21b6; }
+
+/* Was darf ich offen sagen – und was bleibt (zunächst) geheim? */
+.reden {
+  display: grid; grid-template-columns: 1fr 1fr; gap: .7rem;
+  margin: .8rem 0;
+}
+.reden > div { border-radius: 8px; padding: .55rem .8rem; font-size: .92rem; }
+.reden .offen         { background: #eff6ff; border-left: 5px solid var(--role-rse); }
+.reden .offen strong  { color: #1e3a8a; }
+.reden .verdeckt        { background: #fef2f2; border-left: 5px solid var(--event); }
+.reden .verdeckt strong { color: #7f1d1d; }
+@media (max-width: 560px) { .reden { grid-template-columns: 1fr; } }
+
+/* Kreative Vorbereitung: die eigene Persona ausgestalten */
+.persona {
+  background: #eff6ff; border: 1px dashed var(--role-rse);
+  border-radius: 10px; padding: .75rem 1rem; margin: 1.1rem 0;
+}
+.persona .persona-title { display: block; font-weight: 700; color: #1e3a8a; margin-bottom: .3rem; }
+
 /* Konflikt-/Interessenmatrix (nur Spielleitung) */
 .matrix table { font-size: .86rem; }
 .matrix th { background: #f8fafc; }
