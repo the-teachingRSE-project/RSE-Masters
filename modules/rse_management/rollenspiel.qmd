@@ -1,0 +1,28 @@
+
+# Seminar: Rollenspiel »LernSpur«
+
+Ein Planspiel zum Anforderungs-Kickoff einer Forschungsdatenplattform. Fünf
+Mitspielende (RSE, Lehrstuhlleitung, Domänenforschung, HiWi, Schulpartnerin)
+verhandeln Scope, Rollen und Erwartungen — die RSE hat dabei *keine*
+Weisungsbefugnis und muss lateral führen. Die Führungstheorie bleibt zunächst
+verdeckt und wird erst im Debrief mit der Spielleitung aufgelöst.
+
+Material zum Ausdrucken und Verteilen:
+
+- [Szenario (gemeinsames Briefing für alle)](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-szenario.pdf)
+- [Rollen-Handout (öffentlich, für alle)](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-rollen-handout.pdf)
+- [Teilnehmer-Paket (zip: Szenario + Rollen-Handout)](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-teilnehmer-paket.zip)
+
+Nur für die Spielleitung (enthält die vertraulichen Verhandlungskarten und die
+Auflösung der lateralen Führung):
+
+- [Spielleitungs-Leitfaden](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-spielleitung.pdf)
+- [Verteilungsanleitung der Karten](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-verteilung.pdf)
+- [Spielleitungs-Paket (zip: alle Karten, Ereignisse & Leitfaden)](piloting/rwth_2026/rollenspiel/handouts/rollenspiel-spielleitung-paket.zip)
+
+Die editierbaren Quellen (Quarto-Website + `render-pdfs.ps1` zum Neuerzeugen der
+PDFs) liegen unter `piloting/rwth_2026/rollenspiel/`.
+
+---
+
+Zurück zur [Kursübersicht](oer.qmd).
