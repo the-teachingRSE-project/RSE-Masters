@@ -1,0 +1,26 @@
+# Print profile for the ENGLISH PDF/bundle export of the »LernSpur« role-play.
+#
+# Mirror of _quarto-print.yml, but renders ONLY the English pages under
+# rollenspiel/en/ into a separate _site-print-en/. render-pdfs.ps1 -Lang en
+# prints these via headless browser to pdf-en/ and bundles
+# student-en.zip / teacher-en.zip.
+#
+# Call:  quarto render --profile print-en   (render-pdfs.ps1 -Lang en does this)
+#
+# Format defaults (css, toc, grid, execute, lang: en) come from
+# rollenspiel/en/_metadata.yml. The @media-print rules in styles.css hide the
+# navbar/sidebar/TOC in the browser print -- hence browser print, not LaTeX.
+project:
+  type: website
+  output-dir: _site-print-en
+  render:
+    - "modules/rse_management/piloting/rwth_2026/rollenspiel/en/*.qmd"
+    - "modules/rse_management/piloting/rwth_2026/rollenspiel/en/karten/*.qmd"
+
+website:
+  title: "Role-play »LernSpur«"
+
+format:
+  html:
+    # lux without curric.scss -- matches the original card/PDF look.
+    theme: lux

@@ -30,8 +30,10 @@ Vorbereitung & OER-Zwecken offen einsehbar):
 
 ## English version
 
-An English translation of the complete role-play is available (web only) —
-same scenario, same characters (Robin, Petra, Mara, Tobi, Sabine):
+An English translation of the complete role-play is available —
+same scenario, same characters (Robin, Petra, Mara, Tobi, Sabine).
+
+### View online (English)
 
 - [Overview](piloting/rwth_2026/rollenspiel/en/index.qmd)
 - [Scenario (shared briefing)](piloting/rwth_2026/rollenspiel/en/szenario.qmd)
@@ -47,6 +49,21 @@ Confidential individual cards (English):
 - [🔒 Card 3 · Mara (Melis / domain)](piloting/rwth_2026/rollenspiel/en/karten/rolle-3-domaene.qmd)
 - [🔒 Card 4 · Tobi (student assistant)](piloting/rwth_2026/rollenspiel/en/karten/rolle-4-hiwi.qmd)
 - [🔒 Card 5 · Sabine (Korter / school)](piloting/rwth_2026/rollenspiel/en/karten/rolle-5-schule.qmd)
+
+### Printable material (English)
+
+- [Scenario (shared briefing for everyone)](piloting/rwth_2026/rollenspiel/handouts/en/rollenspiel-szenario.pdf)
+- [Roles handout (public, for everyone)](piloting/rwth_2026/rollenspiel/handouts/en/rollenspiel-rollen-handout.pdf)
+- [Participant pack (zip: scenario + roles handout)](piloting/rwth_2026/rollenspiel/handouts/en/rollenspiel-teilnehmer-paket.zip)
+
+Facilitators only (contains the confidential negotiation cards and the lateral-leadership debrief):
+
+- [Facilitator's guide](piloting/rwth_2026/rollenspiel/handouts/en/rollenspiel-spielleitung.pdf)
+- [Card distribution guide](piloting/rwth_2026/rollenspiel/handouts/en/rollenspiel-verteilung.pdf)
+- [Facilitator pack (zip: all cards, events & guide)](piloting/rwth_2026/rollenspiel/handouts/en/rollenspiel-spielleitung-paket.zip)
+
+The editable sources build these via `render-pdfs.ps1 -Lang en -Publish`
+(profile `print-en`).
 
 ## Material zum Ausdrucken und Verteilen
 
