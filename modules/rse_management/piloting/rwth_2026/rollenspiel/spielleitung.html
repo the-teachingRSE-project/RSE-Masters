@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Gesellschaft für Informatik">
+<meta name="author" content="deRSE">
+<meta name="author" content="Julian Dehne">
+<meta name="author" content="Florian Goth">
+<meta name="author" content="Jan Phillip Thiele">
+<meta name="author" content="Jan Linxweiler">
+<meta name="author" content="Anna-Lena Lamprecht">
+<meta name="author" content="Maja Toebs">
+
+<title>Für Lehrende: Spielleitung &amp; Metaperspektive – TEACHING RSE AT THE UNIVERSITY LEVEL</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../">
+<script src="../../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../site_libs/bootstrap/bootstrap-36bd2a17262458d4af861250b5715620.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../../../modules/rse_management/piloting/rwth_2026/rollenspiel/styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../../../index.html">
+    <span class="navbar-title">TEACHING RSE AT THE UNIVERSITY LEVEL</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../curricula/cs.html"> 
+<span class="menu-text">Curriculum Track 1</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../curricula/mnt.html"> 
+<span class="menu-text">Curriculum Track 2</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../curricula/up.html"> 
+<span class="menu-text">Universität Potsdam Beispiel</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../index.html"> 
+<span class="menu-text">Preambel</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../general/job_roles.html"> 
+<span class="menu-text">Job Roles</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../general/glossary.html"> 
+<span class="menu-text">Glossary</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/the-teachingRSE-project/RSE-Masters/tree/main"> 
+<span class="menu-text">Repository</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#worum-es-didaktisch-geht" id="toc-worum-es-didaktisch-geht" class="nav-link active" data-scroll-target="#worum-es-didaktisch-geht">1. Worum es didaktisch geht</a></li>
+  <li><a href="#kompetenzziele-mapping-ins-rse-curriculum" id="toc-kompetenzziele-mapping-ins-rse-curriculum" class="nav-link" data-scroll-target="#kompetenzziele-mapping-ins-rse-curriculum">2. Kompetenzziele &amp; Mapping ins RSE-Curriculum</a></li>
+  <li><a href="#erwartete-konflikte-die-sollbruchstellen" id="toc-erwartete-konflikte-die-sollbruchstellen" class="nav-link" data-scroll-target="#erwartete-konflikte-die-sollbruchstellen">3. Erwartete Konflikte (die „Sollbruchstellen”)</a></li>
+  <li><a href="#verdeckte-interessen" id="toc-verdeckte-interessen" class="nav-link" data-scroll-target="#verdeckte-interessen">4. Verdeckte Interessen &amp; Verhandlungsmatrix (Master-Übersicht)</a>
+  <ul class="collapse">
+  <li><a href="#das-verhandlungsobjekt-die-knappe-zeit-bis-zur-konferenz" id="toc-das-verhandlungsobjekt-die-knappe-zeit-bis-zur-konferenz" class="nav-link" data-scroll-target="#das-verhandlungsobjekt-die-knappe-zeit-bis-zur-konferenz">Das Verhandlungsobjekt: die knappe Zeit bis zur Konferenz</a></li>
+  <li><a href="#wer-will-insgeheim-was-alle-geheimnisse-auf-einen-blick" id="toc-wer-will-insgeheim-was-alle-geheimnisse-auf-einen-blick" class="nav-link" data-scroll-target="#wer-will-insgeheim-was-alle-geheimnisse-auf-einen-blick">Wer will insgeheim was — alle Geheimnisse auf einen Blick</a></li>
+  <li><a href="#konfliktmatrix-wer-mit-wem-aneinandergerät" id="toc-konfliktmatrix-wer-mit-wem-aneinandergerät" class="nav-link" data-scroll-target="#konfliktmatrix-wer-mit-wem-aneinandergerät">Konfliktmatrix — wer mit wem aneinandergerät</a></li>
+  <li><a href="#der-integrative-lösungsraum-zopa-das-gute-paket" id="toc-der-integrative-lösungsraum-zopa-das-gute-paket" class="nav-link" data-scroll-target="#der-integrative-lösungsraum-zopa-das-gute-paket">Der integrative Lösungsraum (ZOPA) — das „gute” Paket</a></li>
+  </ul></li>
+  <li><a href="#beobachtungsbogen" id="toc-beobachtungsbogen" class="nav-link" data-scroll-target="#beobachtungsbogen">5. Beobachtungsbogen</a></li>
+  <li><a href="#mögliche-ausgänge" id="toc-mögliche-ausgänge" class="nav-link" data-scroll-target="#mögliche-ausgänge">6. Mögliche Ausgänge</a></li>
+  <li><a href="#ablauf-timing" id="toc-ablauf-timing" class="nav-link" data-scroll-target="#ablauf-timing">7. Ablauf &amp; Timing</a></li>
+  <li><a href="#debrief-reflexion" id="toc-debrief-reflexion" class="nav-link" data-scroll-target="#debrief-reflexion">8. Debrief (Reflexion)</a></li>
+  <li><a href="#varianten" id="toc-varianten" class="nav-link" data-scroll-target="#varianten">9. Varianten</a>
+  <ul class="collapse">
+  <li><a href="#variante-domänen-rse-vs.-infrastruktur-rse" id="toc-variante-domänen-rse-vs.-infrastruktur-rse" class="nav-link" data-scroll-target="#variante-domänen-rse-vs.-infrastruktur-rse">Variante: Domänen-RSE vs.&nbsp;Infrastruktur-RSE</a></li>
+  <li><a href="#weitere-stellschrauben" id="toc-weitere-stellschrauben" class="nav-link" data-scroll-target="#weitere-stellschrauben">Weitere Stellschrauben</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Für Lehrende: Spielleitung &amp; Metaperspektive</h1>
+<p class="subtitle lead">Kompetenzziele, erwartete Konflikte, Beobachtung, Debrief, Bewertung</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor:innen</div>
+  <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Gesellschaft für Informatik </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">deRSE </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://www.researchgate.net/profile/Julian-Dehne">Julian Dehne</a> <a href="mailto:julian.dehne@gi.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-9265-9619" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Gesellschaft für Informatik
+          </p>
+        <p class="affiliation">
+            deRSE
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Florian Goth </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Jan Phillip Thiele </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Jan Linxweiler </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Anna-Lena Lamprecht </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Maja Toebs </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Diese Seite ist <strong>nur für die Lehrenden / die Spielleitung</strong> gedacht. Sie gibt die Meta­perspektive auf das Planspiel: <em>Was sollen die Studierenden lernen? Welche Konflikte sind eingebaut? Worauf achte ich beim Zuschauen? Wie werte ich aus?</em></p>
+<section id="worum-es-didaktisch-geht" class="level2">
+<h2 class="anchored" data-anchor-id="worum-es-didaktisch-geht">1. Worum es didaktisch geht</h2>
+<p>Das Rollenspiel trainiert <strong>laterale Führung</strong> – Führung <em>auf Augenhöhe, ohne sich auf hierarchische Macht zu verlassen, sondern auf die eigene Wirksamkeit</em> (Toennes, <em>Moderne Mitarbeiterführung – Laterales Führen</em>). Für Research Software Engineers ist das der Normalfall: Sie koordinieren Software, ohne Vorgesetzte der Forschenden zu sein.</p>
+<p>Laterale Führung ruht auf einem <strong>Dreiklang</strong> und vier <strong>Kompetenzfeldern</strong>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 67%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dreiklang</th>
+<th>im Spiel sichtbar als</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Verständigung</strong></td>
+<td>Interessen erfragen, zuhören, Perspektive wechseln, Ziele/Regeln klären</td>
+</tr>
+<tr class="even">
+<td><strong>Macht</strong></td>
+<td>Informations- und Expertenmacht, Zugang zu Kontakten – <em>nicht</em> Weisung</td>
+</tr>
+<tr class="odd">
+<td><strong>Vertrauen</strong></td>
+<td>berechenbar handeln, nur zusagen, was gehalten wird</td>
+</tr>
+</tbody>
+</table>
+<table class="table-striped caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kompetenzfeld (Toennes)</th>
+<th>Leitfrage für die Beobachtung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Macht der <strong>Persönlichkeit</strong></td>
+<td>Wirkt die RSE glaubwürdig, stimmig, begeisternd?</td>
+</tr>
+<tr class="even">
+<td>Macht der <strong>Sprache</strong></td>
+<td>Überzeugt sie – oder überredet/rechtfertigt sie sich?</td>
+</tr>
+<tr class="odd">
+<td>Macht der <strong>Konfliktlösung</strong></td>
+<td>Werden Konflikte früh erkannt, offen angesprochen, konstruktiv?</td>
+</tr>
+<tr class="even">
+<td>Macht der <strong>Selbst- &amp; Fremdführung</strong></td>
+<td>Priorisiert sie sich selbst <em>und</em> führt die anderen achtsam?</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="kompetenzziele-mapping-ins-rse-curriculum" class="level2">
+<h2 class="anchored" data-anchor-id="kompetenzziele-mapping-ins-rse-curriculum">2. Kompetenzziele &amp; Mapping ins RSE-Curriculum</h2>
+<div class="hint">
+<p>Die Kompetenzen docken direkt an das Seminar-Curriculum an: <strong>Vermitteln von SE-Wissen an entwickelnde Forschende</strong>, <strong>Führung von / durch Nicht-Informatiker:innen</strong>, <strong>Planung von Forschungssoftware</strong> sowie die orthogonalen Soft Skills <strong>Konfliktlösung, Arbeitsstrukturierung, Problemlösung, laterale Führung</strong>.</p>
+</div>
+<table class="table-striped caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 38%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kompetenz (Lernziel)</th>
+<th>Wodurch im Spiel aufgebaut</th>
+<th>Zugehöriges Ereignis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Anforderungen erheben &amp; präzisieren</td>
+<td>vage Wünsche in entscheidbare Kriterien überführen</td>
+<td>E7, Kickoff</td>
+</tr>
+<tr class="even">
+<td>SE-Wissen laienverständlich vermitteln</td>
+<td>„Warum erst Datenmodell?” erklären, ohne zu belehren</td>
+<td>E2, E6</td>
+</tr>
+<tr class="odd">
+<td>Nach oben führen (Erwartungsmanagement)</td>
+<td>dem/der PI einen realistischen Plan „verkaufen”</td>
+<td>E2, E6</td>
+</tr>
+<tr class="even">
+<td>Achtsame Fremdführung</td>
+<td>HiWi passend anleiten, Promovierende ernst nehmen</td>
+<td>E3, E4</td>
+</tr>
+<tr class="odd">
+<td>Priorisieren unter Knappheit</td>
+<td>Scope gegen Zeit/Ressourcen abwägen</td>
+<td>E1, E3, E4</td>
+</tr>
+<tr class="even">
+<td>Konflikte konstruktiv führen</td>
+<td>Zielkonflikte offen benennen statt zu vermeiden</td>
+<td>E1, E5</td>
+</tr>
+<tr class="odd">
+<td>Selbstführung</td>
+<td>ruhig bleiben, nicht in Über-Zusagen flüchten</td>
+<td>alle</td>
+</tr>
+<tr class="even">
+<td>Stakeholder einbinden</td>
+<td>externe Interessen integrieren statt abwehren</td>
+<td>E5</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="erwartete-konflikte-die-sollbruchstellen" class="level2">
+<h2 class="anchored" data-anchor-id="erwartete-konflikte-die-sollbruchstellen">3. Erwartete Konflikte (die „Sollbruchstellen”)</h2>
+<p>Diese Konflikte sind <strong>absichtlich</strong> in Rollen und Ereignisse eingebaut. Sie sind der Lernstoff – nicht Störungen, die es zu verhindern gilt.</p>
+<ol type="1">
+<li><strong>Nachhaltigkeit vs.&nbsp;Tempo</strong> — RSE will erst ein Datenmodell, PI und Domäne wollen sofort Ergebnisse. <em>(Kernkonflikt, E2/E3)</em></li>
+<li><strong>Vage Domänen-Sprache vs.&nbsp;entscheidbare Spezifikation</strong> — „ähnliche Klassen”, „interessante Muster”. <em>(Kickoff, E7)</em></li>
+<li><strong>Einzelinteresse vs.&nbsp;Gemeinschaftsplattform</strong> — die dringende Diss-Auswertung frisst die Roadmap. <em>(E3)</em></li>
+<li><strong>Plan vs.&nbsp;Realität</strong> — Zusagen aus der ersten Viertelstunde kollidieren mit Ressourcen-Ausfall und ungeplantem Datenschutz-Scope. <em>(E1/E4)</em></li>
+<li><strong>Interne vs.&nbsp;externe Legitimität</strong> — Forschungslogik vs.&nbsp;Nutzen für die Partnerschule. <em>(E5)</em></li>
+<li><strong>Build vs.&nbsp;Buy</strong> — die Existenzberechtigung des Projekts wird in Frage gestellt; die RSE muss Selbstwirksamkeit zeigen, ohne defensiv zu werden. <em>(E6)</em></li>
+</ol>
+</section>
+<section id="verdeckte-interessen" class="level2">
+<h2 class="anchored" data-anchor-id="verdeckte-interessen">4. Verdeckte Interessen &amp; Verhandlungsmatrix (Master-Übersicht)</h2>
+<div class="hint">
+<p><strong>Nur für die Spielleitung – der Generalschlüssel.</strong> Diese Übersicht bündelt <em>alle</em> geheimen Briefings der Einzelkarten an einer Stelle. Die Studierenden kennen jeweils <strong>nur ihre eigene</strong> Karte; die gegenläufigen Interessen sollen sie im Spiel <em>herausverhandeln</em>. Halte diese Seite bei der Verteilung geschlossen.</p>
+</div>
+<section id="das-verhandlungsobjekt-die-knappe-zeit-bis-zur-konferenz" class="level3">
+<h3 class="anchored" data-anchor-id="das-verhandlungsobjekt-die-knappe-zeit-bis-zur-konferenz">Das Verhandlungsobjekt: die knappe Zeit bis zur Konferenz</h3>
+<p>Der eigentliche Konflikt ist ein <strong>Verteilungsproblem</strong>: Bis zur Konferenz (8 Wochen) passt realistisch <strong>nur ein bis zwei größere Ergebnisse</strong> in die verfügbare Entwicklungszeit – aber <strong>vier</strong> Parteien wollen ihr Anliegen zuerst. Verhandelt werden im Kern fünf Themen:</p>
+<table class="table-striped caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 55%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Verhandelbares Thema</th>
+<th>Worum es geht</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>V1</td>
+<td><strong>Fokus der ersten Wochen</strong></td>
+<td>Datenmodell · Konferenz-Demo · Melis-Export · Schul-Dashboard – <em>nicht alles passt</em></td>
+</tr>
+<tr class="even">
+<td>V2</td>
+<td><strong>Konferenz-Zusage</strong></td>
+<td>Was genau wird zugesagt? (nichts / kleines Zwischenergebnis / große Demo)</td>
+</tr>
+<tr class="odd">
+<td>V3</td>
+<td><strong>Datenschutz / Video-Anonymisierung</strong></td>
+<td>blockiert die Videodaten – wer macht es, wann?</td>
+</tr>
+<tr class="even">
+<td>V4</td>
+<td><strong>Ressourcen</strong></td>
+<td>HiWi-Stunden · die <em>stille Budgetreserve</em> der PI</td>
+</tr>
+<tr class="odd">
+<td>V5</td>
+<td><strong>Schul-Dashboard</strong></td>
+<td>bauen ja/nein, in welchem Umfang</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="wer-will-insgeheim-was-alle-geheimnisse-auf-einen-blick" class="level3">
+<h3 class="anchored" data-anchor-id="wer-will-insgeheim-was-alle-geheimnisse-auf-einen-blick">Wer will insgeheim was — alle Geheimnisse auf einen Blick</h3>
+<div class="matrix">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 21%">
+<col style="width: 35%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rolle</th>
+<th>Geheimes Top-Ziel</th>
+<th>Rote Linie / Walk-away (BATNA)</th>
+<th>Trumpf / verdeckte Information</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1 · RSE</strong></td>
+<td>tragfähiges Datenmodell + <em>ein</em> ehrlicher Mini-Plan</td>
+<td>sagt nichts zu, was zu Wegwerf-Code/Überlastung führt</td>
+<td>weiß als Einzige:r: bis zur Konferenz passt <strong>nur EIN</strong> großes Ergebnis</td>
+</tr>
+<tr class="even">
+<td><strong>2 · PI</strong></td>
+<td><em>irgendetwas</em> Vorzeigbares zur Konferenz</td>
+<td>„nach der Konferenz” reicht nicht – zieht sonst Autorität</td>
+<td><strong>stille Budgetreserve</strong> (HiWi-Aufstockung / Tool-Lizenz)</td>
+</tr>
+<tr class="odd">
+<td><strong>3 · Melis</strong></td>
+<td>eigener Datenexport (Frist in <strong>3 Wochen</strong>)</td>
+<td>wird sonst <em>still unkooperativ</em></td>
+<td>kennt als Einzige die <strong>Datensemantik</strong> – ohne sie kein Datenmodell</td>
+</tr>
+<tr class="even">
+<td><strong>4 · Tobi</strong></td>
+<td>nicht als überfordert dastehen, Job behalten</td>
+<td>kritische Aufgabe auf dem kritischen Pfad → reißt (E4)</td>
+<td>schafft real nur <strong>~5 h/Woche</strong> (Klausuren); hat schon ein <strong>fertiges Mini-Skript</strong> für Melis’ Export</td>
+</tr>
+<tr class="odd">
+<td><strong>5 · Korter</strong></td>
+<td>einfaches Dashboard für die Schulkonferenz (in <strong>3 Wochen</strong>)</td>
+<td>droht glaubhaft mit <strong>Schul-Ausstieg</strong> (großer Datenverlust)</td>
+<td>kann <strong>2 weitere Klassen</strong> + Kontakte liefern, wenn eingebunden</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="konfliktmatrix-wer-mit-wem-aneinandergerät" class="level3">
+<h3 class="anchored" data-anchor-id="konfliktmatrix-wer-mit-wem-aneinandergerät">Konfliktmatrix — wer mit wem aneinandergerät</h3>
+<p>Zellen zeigen, <em>worüber</em> die beiden Rollen in Spannung stehen (Thema in Klammern):</p>
+<div class="matrix">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 14%">
+<col style="width: 20%">
+<col style="width: 18%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>gegen ↓ / ↑</th>
+<th><strong>PI</strong></th>
+<th><strong>Melis</strong></th>
+<th><strong>Tobi</strong></th>
+<th><strong>Korter</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>RSE</strong></td>
+<td>Tempo vs.&nbsp;Nachhaltigkeit <em>(V1/V2)</em></td>
+<td>erst Modell vs.&nbsp;erst mein Export <em>(V1)</em></td>
+<td>Aufgabenschnitt vs.&nbsp;reale Kapazität <em>(V4)</em></td>
+<td>Roadmap vs.&nbsp;Dashboard-Wunsch <em>(V1/V5)</em></td>
+</tr>
+<tr class="even">
+<td><strong>PI</strong></td>
+<td>—</td>
+<td>beide wollen Zeit „zuerst”, aber für <strong>Verschiedenes</strong> <em>(V1)</em></td>
+<td>drängt auf Output, den Tobi nicht stemmt <em>(V4)</em></td>
+<td>Forschungslogik vs.&nbsp;Schulnutzen <em>(V5)</em></td>
+</tr>
+<tr class="odd">
+<td><strong>Melis</strong></td>
+<td></td>
+<td>—</td>
+<td>will Export → braucht Tobis Skript/Zeit <em>(V1/V4)</em></td>
+<td>konkurriert um dieselbe knappe Dev-Zeit <em>(V1)</em></td>
+</tr>
+<tr class="even">
+<td><strong>Tobi</strong></td>
+<td></td>
+<td></td>
+<td>—</td>
+<td><em>(kein direkter Konflikt)</em></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Kernspannung:</strong> Vier Parteien beanspruchen dieselbe knappe Entwicklungszeit (V1) für <em>jeweils etwas anderes</em>. Distributiv gespielt (jede:r pocht auf das eigene) endet es in Ausgang <strong>C</strong> oder <strong>D</strong> (siehe §6). Integrativ gespielt lässt sich fast jedes „Top-Ziel” bedienen – weil die Prioritäten <em>unterschiedlich</em> liegen und es versteckte Ressourcen gibt.</p>
+</section>
+<section id="der-integrative-lösungsraum-zopa-das-gute-paket" class="level3">
+<h3 class="anchored" data-anchor-id="der-integrative-lösungsraum-zopa-das-gute-paket">Der integrative Lösungsraum (ZOPA) — das „gute” Paket</h3>
+<p>Es gibt einen Deal, in dem <strong>jede:r sein Wichtigstes</strong> bekommt, ohne dass die RSE Unmögliches verspricht. Die RSE muss ihn nicht exakt treffen – aber je näher, desto mehr Vertrauen wächst:</p>
+<ul>
+<li><strong>Woche 1–3:</strong> Melis <strong>dokumentiert die Datensemantik</strong> ⇄ die RSE baut daraus einen sauberen Teil-Datensatz und liefert <strong>Melis’ Export bis Woche 3</strong> (rettet deren Frist). <em>→ löst V1 teilweise, bindet Melis’ Trumpf ein, entschärft Konflikt RSE↔︎Melis.</em></li>
+<li><strong>Tobis Skript</strong> wird für den Export genutzt; Tobi bekommt eine <strong>kleine, betreute</strong> Aufgabe, die in ~5 h/Woche passt. <em>→ V4, entschärft E4 im Voraus.</em></li>
+<li><strong>PI lüftet die Budgetreserve</strong> (weil ein glaubwürdiger Konferenz-Weg gezeigt wird): Mittel für eine Tool-Lizenz/HiWi-Aufstockung ermöglichen bis Woche 8 eine <strong>kleine, echte Auswertung auf dem sauberen Teil-Datensatz</strong> – der Konferenzbeitrag. Abstract in 2 Wochen beschreibt Plan + erste Teilergebnisse. <em>→ V2/V4.</em></li>
+<li><strong>Minimales read-only Dashboard</strong> für Korters Klassen (teils aus Tobis Skript) + Datenschutz-Fahrplan → Korter bekommt ihre Konferenz-Zusage, <strong>bleibt dabei und bringt 2 Klassen mehr</strong>. <em>→ V3/V5, entschärft E5.</em></li>
+</ul>
+<p>Ergebnis: Datenmodell-Kern steht, Konferenz ist bedient, Melis’ Frist gerettet, Schule gehalten, HiWi nicht verheizt – <strong>niemand bekommt alles, jede:r das Wichtigste.</strong> Das ist Archetyp <strong>A</strong> (§6).</p>
+<div class="hint">
+<p><strong>Als Spielleitung dosieren:</strong> Die verdeckten Trümpfe (PI-Budget, Melis-Semantik, Tobis Skript, Korters Zusatzklassen) sind die <strong>Schlüssel</strong>, die den scheinbaren Nullsummen-Konflikt öffnen. Wenn eine Gruppe feststeckt, spiele das passende <strong>Ereignis</strong> so an, dass ein Trumpf ins Spiel kommt – z. B. E3 lockt Melis’ Frist hervor, E4 zwingt zur Kapazitätsehrlichkeit, E2/E6 laden die PI ein, das Budget zu zeigen.</p>
+</div>
+</section>
+</section>
+<section id="beobachtungsbogen" class="level2">
+<h2 class="anchored" data-anchor-id="beobachtungsbogen">5. Beobachtungsbogen</h2>
+<p>Ein Bogen pro RSE-Spieler:in (oder pro Gruppe). Skala 1 (kaum) – 4 (souverän). Die Spielleitung und die übrigen Teilnehmenden sind <strong>Beobachtende</strong>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 44%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Beobachtungspunkt</th>
+<th>Positiv-Indikator</th>
+<th>1–4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Verständigung</strong></td>
+<td>stellt offene Fragen, fasst zusammen, wechselt Perspektive</td>
+<td>☐</td>
+</tr>
+<tr class="even">
+<td><strong>Anforderungen</strong></td>
+<td>macht Vages entscheidbar („Was heißt <em>ähnlich</em>?“)</td>
+<td>☐</td>
+</tr>
+<tr class="odd">
+<td><strong>Macht der Sprache</strong></td>
+<td>überzeugt mit Argumenten, überredet/rechtfertigt sich nicht</td>
+<td>☐</td>
+</tr>
+<tr class="even">
+<td><strong>Konfliktlösung</strong></td>
+<td>spricht Zielkonflikte offen &amp; früh an</td>
+<td>☐</td>
+</tr>
+<tr class="odd">
+<td><strong>Erwartungsmanagement</strong></td>
+<td>sagt nur zu, was realistisch ist; managt die PI-Deadline</td>
+<td>☐</td>
+</tr>
+<tr class="even">
+<td><strong>Fremdführung</strong></td>
+<td>gibt HiWi klare, passende Aufgaben; nimmt Sorgen ernst</td>
+<td>☐</td>
+</tr>
+<tr class="odd">
+<td><strong>Selbstführung</strong></td>
+<td>bleibt ruhig, strukturiert, flüchtet nicht in Über-Zusagen</td>
+<td>☐</td>
+</tr>
+<tr class="even">
+<td><strong>Ergebnis</strong></td>
+<td>am Ende steht ein tragfähiger, priorisierter Mini-Plan</td>
+<td>☐</td>
+</tr>
+</tbody>
+</table>
+<div class="hint">
+<p><strong>Kurz-Notizfelder:</strong> Ein Moment gelungener lateraler Führung? · Ein verpasster Hebel (Verständigung/Macht/Vertrauen)? · Ein Satz, der die Gruppe gedreht hat?</p>
+</div>
+</section>
+<section id="mögliche-ausgänge" class="level2">
+<h2 class="anchored" data-anchor-id="mögliche-ausgänge">6. Mögliche Ausgänge</h2>
+<p>Die Menge der Ergebnisse ist <strong>bewusst begrenzt</strong> – verschiedene Gruppen sollen zu verschiedenen, jeweils vertretbaren Enden kommen. Vier Archetypen:</p>
+<ul>
+<li><strong>A — Der tragfähige Kompromiss</strong> <em>(Zielzustand):</em> RSE priorisiert offen, sagt der PI ein <em>kleines</em> vorzeigbares Zwischenergebnis für die Konferenz zu (z. B. ein sauberer Teil-Datensatz + eine Auswertung), verankert parallel das Datenmodell, bindet die Schule mit einem minimalen Dashboard ein. <em>Vertrauen wächst.</em></li>
+<li><strong>B — Die Überzusage:</strong> RSE gibt dem Druck nach und verspricht alles bis zur Konferenz. Kurzfristig Applaus, aber der Plan ist unrealistisch – im Debrief gut als Kontrast nutzbar (<em>Vertrauen wird später verspielt</em>).</li>
+<li><strong>C — Die technische Blockade:</strong> RSE beharrt auf „erst sauber, dann Ergebnisse”, ohne die Interessen der anderen abzuholen. Die Gruppe fühlt sich nicht gehört, die PI wird ungeduldig. <em>(Macht ohne Verständigung.)</em></li>
+<li><strong>D — Die Zerfaserung:</strong> Kein klarer Fokus, jede:r zieht in eine Richtung, viele offene Punkte. <em>(Führung findet nicht statt.)</em></li>
+</ul>
+<p>Alle vier sind <strong>legitime Spielausgänge</strong> und liefern Debrief-Stoff. Es gibt kein „Game Over”.</p>
+</section>
+<section id="ablauf-timing" class="level2">
+<h2 class="anchored" data-anchor-id="ablauf-timing">7. Ablauf &amp; Timing</h2>
+<p>Angelehnt an die Vorlage <em>„Erste Projektleitung”</em> (≈ 80 Min., skalierbar):</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 38%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Inhalt</th>
+<th>Zeit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Erklärung &amp; Einteilung</td>
+<td>Rollen verteilen, Szenario lesen</td>
+<td>10 min</td>
+</tr>
+<tr class="even">
+<td>Vorbereitung in der Gruppe</td>
+<td>Rollen aneignen, Sub-Ziele schärfen, geheime Verhaltensweisen abstimmen</td>
+<td>20 min</td>
+</tr>
+<tr class="odd">
+<td><strong>Rollenspiel</strong></td>
+<td>Kickoff-Meeting inkl. Ereignissen (ggf. 2 Durchläufe mit Rollentausch)</td>
+<td>2 × 20 min</td>
+</tr>
+<tr class="even">
+<td>Reflexion &amp; Debrief</td>
+<td>siehe unten</td>
+<td>10–15 min</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rollentausch (empfohlen):</strong> Die RSE-Spielenden führen eine <em>andere</em> Gruppe als die, mit der sie vorbereitet haben. Die Spielleitung ist – wie die übrigen TN – <strong>Beobachter:in</strong>.</p>
+<p><strong>Material:</strong> die <strong>vertraulichen Einzel-Rollenkarten</strong> (je 1 PDF/Ausdruck pro Person – niemand sieht die Karte der anderen), Ereigniskarten, Flipchart/Miro für die Ergebnissicherung, dieser Beobachtungsbogen (1 × pro TN + 1 × Trainer:in).</p>
+</section>
+<section id="debrief-reflexion" class="level2">
+<h2 class="anchored" data-anchor-id="debrief-reflexion">8. Debrief (Reflexion)</h2>
+<p>In dieser Reihenfolge moderieren – <em>erst Erleben, dann Muster, dann Transfer</em>:</p>
+<p><strong>Erleben</strong></p>
+<ul>
+<li>An welchem Punkt hast du dich <em>als Führungskraft</em> gefühlt – und wann nicht?</li>
+<li>Wo wurde es unangenehm, und was hast du in dem Moment getan?</li>
+</ul>
+<p><strong>Muster (laterale Führung)</strong></p>
+<ul>
+<li>Welchen der drei Hebel – <strong>Verständigung, Macht, Vertrauen</strong> – hast du bewusst genutzt? Welchen zu wenig?</li>
+<li>Wo bist du von <em>Überzeugen</em> in <em>Überreden/Rechtfertigen</em> gerutscht?</li>
+<li>Wann hättest du besser eine Frage gestellt statt eine Antwort gegeben?</li>
+</ul>
+<p><strong>Konflikt &amp; Rolle</strong></p>
+<ul>
+<li>Welcher Zielkonflikt war am schwersten? Wie hättet ihr ihn anders rahmen können?</li>
+<li>An die „geführten” Rollen: Was hat euch überzeugt? Was hat Widerstand ausgelöst?</li>
+</ul>
+<p><strong>Transfer</strong></p>
+<ul>
+<li>Wo begegnet euch diese Konstellation im echten RSE-Alltag (Domänen-RSE vs. Infrastruktur-RSE, PI mit anderem Hintergrund)?</li>
+<li>Inwiefern geht das über allgemeine Kommunikations-/Managementtheorie hinaus – was ist <em>spezifisch</em> an der Führung entwickelnder Forschender?</li>
+<li>Welche <em>eine</em> Sache nimmst du dir fürs nächste echte Projektmeeting vor?</li>
+</ul>
+</section>
+<section id="varianten" class="level2">
+<h2 class="anchored" data-anchor-id="varianten">9. Varianten</h2>
+<section id="variante-domänen-rse-vs.-infrastruktur-rse" class="level3">
+<h3 class="anchored" data-anchor-id="variante-domänen-rse-vs.-infrastruktur-rse">Variante: Domänen-RSE vs.&nbsp;Infrastruktur-RSE</h3>
+<p>Gebt zwei Gruppen unterschiedliche RSE-Profile, um den Curriculumsbezug sichtbar zu machen:</p>
+<ul>
+<li><strong>Domänen-RSE</strong> (interne:r RSE): im Lehrstuhl angestellt, kennt die Bildungsforschung ein Stück weit, ist aber tief in Abhängigkeiten der Gruppe verstrickt. <em>Nähe, aber weniger Distanz-Autorität.</em></li>
+<li><strong>Infrastruktur-RSE</strong> (externe:r RSE aus einem RSE-Center): nur tageweise gebucht, hohe SE-Qualität, aber kaum Domänenwissen und keine Bindung. <em>Distanz-Autorität, aber weniger Verständigung.</em></li>
+</ul>
+<p>Im Debrief vergleichen: <em>Welches Profil hatte es bei welchem Ereignis leichter/schwerer?</em></p>
+</section>
+<section id="weitere-stellschrauben" class="level3">
+<h3 class="anchored" data-anchor-id="weitere-stellschrauben">Weitere Stellschrauben</h3>
+<ul>
+<li><strong>Domäne wechseln:</strong> Statt Bildungsforschung z. B. eine sozialwissenschaftliche Panel-Studie oder ein Public-Health-Register – Struktur und Ereignisse bleiben gleich.</li>
+<li><strong>Härtegrad:</strong> geheime Verhaltensweisen mild/scharf einstellen; E5–E7 zuschalten.</li>
+<li><strong>Fokus setzen:</strong> eine Runde nur auf <em>Erwartungsmanagement nach oben</em> (E2/E6), eine andere nur auf <em>Fremdführung im Team</em> (E3/E4) ausrichten.</li>
+</ul>
+<hr>
+<div class="hint">
+<p><strong>Quellen &amp; Bezug:</strong> Rollen-/Personastruktur nach dem bestehenden RSE-Rollenspiel (Chemie-Szenario); Format „erste Projektleitung mit getriggerten Ereignissen” nach der Vorlage <em>„Erste Projektleitung”</em>; Kompetenzmodell nach A. Toennes, <em>Moderne Mitarbeiterführung – Laterales Führen</em> (Verständigung/Macht/Vertrauen; vier Kompetenzfelder). Debrief-Fragen erweitert aus <code>reflexions-fragen.md</code> des Workshops.</p>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
