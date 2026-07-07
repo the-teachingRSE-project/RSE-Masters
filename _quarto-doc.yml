@@ -12,6 +12,13 @@ format:
     toc: False
     colorlinks: true
     toc-depth: 2
+    include-in-header:
+      # The Track 1/2 curriculum tables (curricula/cs.qmd, mnt.qmd) use
+      # \rowcolor, which is provided by colortbl. xcolor is already loaded by
+      # the default template (so \definecolor works), so we just add colortbl
+      # on top -- loading \usepackage[table]{xcolor} here would clash.
+      text: |
+        \usepackage{colortbl}
     bibliography:
       - references.bib
       - external/bibliography/bibliography.bib

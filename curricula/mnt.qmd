@@ -63,7 +63,8 @@ track.
 ## Curriculum Structure (Track 2)
 
 ```{=latex}
-% Requires \usepackage[table]{xcolor} in the PDF preamble (see note below).
+% \rowcolor below needs colortbl; it is loaded in the PDF preamble via
+% include-in-header in _quarto-doc.yml.
 \definecolor{curriccs}{HTML}{B8BCD3}
 \definecolor{curricse}{HTML}{D9E6ED}
 \definecolor{curricdom}{HTML}{DFA3C9}
