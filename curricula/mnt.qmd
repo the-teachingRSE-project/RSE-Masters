@@ -15,45 +15,35 @@ ECTS that apply to Track 2.
 ## Curriculum Structure (Track 2)
 
 ```{=html}
-<style>
-.curric-table{width:100%;border-collapse:collapse;font-size:.95rem;margin:1rem 0;}
-.curric-table th{text-align:left;padding:.55rem .8rem;border-bottom:2px solid #333;}
-.curric-table th.ects,.curric-table td.ects{text-align:right;white-space:nowrap;width:8rem;}
-.curric-table td{padding:.4rem .8rem;border-top:3px solid #fff;}
-.curric-table tr.area td{font-weight:700;text-transform:uppercase;letter-spacing:.02em;}
-.curric-table tr.mod td:first-child{padding-left:1.8rem;}
-.curric-table tr.total td{font-weight:700;background:#fff;border-top:2px solid #333;}
-.curric-table a{text-decoration:none;color:inherit;border-bottom:1px dotted rgba(0,0,0,.45);}
-</style>
 <table class="curric-table">
 <thead><tr><th>Area / Module</th><th class="ects">ECTS (Track 2)</th></tr></thead>
 <tbody>
-<tr class="area" style="background:#B8BCD3"><td>Computer Science</td><td class="ects">18</td></tr>
-<tr class="mod" style="background:#B8BCD3"><td><a href="../modules/gen_cs.html">Foundations of Computer Science</a></td><td class="ects">6&nbsp;*</td></tr>
-<tr class="mod" style="background:#B8BCD3"><td><a href="../modules/gen_softwareeng1.html">Foundations of Software Development</a></td><td class="ects">6&nbsp;*</td></tr>
-<tr class="mod" style="background:#B8BCD3"><td><a href="../modules/gen_programming.html">Algorithms and Data Structures</a></td><td class="ects">6&nbsp;*</td></tr>
-<tr class="mod" style="background:#B8BCD3"><td>Computer Science Elective</td><td class="ects">0</td></tr>
-<tr class="area" style="background:#D9E6ED"><td>Software Engineering</td><td class="ects">0</td></tr>
-<tr class="mod" style="background:#D9E6ED"><td><a href="../modules/standard.html">Requirements Engineering</a></td><td class="ects">0&nbsp;*</td></tr>
-<tr class="mod" style="background:#D9E6ED"><td><a href="../modules/standard.html">Software Architecture</a></td><td class="ects">0&nbsp;*</td></tr>
-<tr class="mod" style="background:#D9E6ED"><td><a href="../modules/standard.html">Software Testing</a></td><td class="ects">0&nbsp;*</td></tr>
-<tr class="area" style="background:#DFA3C9"><td>Domain Specializations</td><td class="ects">27</td></tr>
-<tr class="mod" style="background:#DFA3C9"><td><a href="../modules/mnt_wildcard.html">Domain Specialization Electives (own domain)</a></td><td class="ects">21</td></tr>
-<tr class="mod" style="background:#DFA3C9"><td><a href="../modules/mnt_compwildcard.html">Computational Research in the Domain</a></td><td class="ects">6</td></tr>
-<tr class="area" style="background:#EAC6DE"><td>Technical Competencies for RSEs</td><td class="ects">21</td></tr>
-<tr class="mod" style="background:#EAC6DE"><td><a href="../modules/rse_nuts_bolts.html">Applied Software Development Tools and Techniques</a></td><td class="ects">3</td></tr>
-<tr class="mod" style="background:#EAC6DE"><td><a href="../modules/rse_scientificcomputing.html">Introduction to Scientific Computing</a></td><td class="ects">6</td></tr>
-<tr class="mod" style="background:#EAC6DE"><td><a href="../modules/standard.html">Machine Learning</a></td><td class="ects">6</td></tr>
-<tr class="mod" style="background:#EAC6DE"><td><a href="../modules/rse_softwareengineering.html">Software Development for RSEs</a></td><td class="ects">6</td></tr>
-<tr class="area" style="background:#FFF7C0"><td>Social Competencies for RSEs</td><td class="ects">12</td></tr>
-<tr class="mod" style="background:#FFF7C0"><td><a href="../modules/rse_management.html">RSEng Management</a></td><td class="ects">6</td></tr>
-<tr class="mod" style="background:#FFF7C0"><td><a href="../modules/rse_society_philosophy.html">RSEng, Ethics &amp; Society</a></td><td class="ects">3</td></tr>
-<tr class="mod" style="background:#FFF7C0"><td><a href="../modules/rse_teaching.html">RSEng Teaching</a></td><td class="ects">3</td></tr>
-<tr class="area" style="background:#FFFAD8"><td>RSEng Research</td><td class="ects">42</td></tr>
-<tr class="mod" style="background:#FFFAD8"><td><a href="../modules/rse_lectureseries.html">RSEng Lecture Series</a></td><td class="ects">3</td></tr>
-<tr class="mod" style="background:#FFFAD8"><td><a href="../modules/rse_researchmethods.html">Research Paradigms and Methodology for RSEs</a></td><td class="ects">3</td></tr>
-<tr class="mod" style="background:#FFFAD8"><td><a href="../modules/mnt_project.html">RSEng Project</a></td><td class="ects">6</td></tr>
-<tr class="mod" style="background:#FFFAD8"><td><a href="../modules/rse_thesis.html">Master's Thesis</a></td><td class="ects">30</td></tr>
+<tr class="area a-cs"><td>Computer Science</td><td class="ects">18</td></tr>
+<tr class="mod a-cs"><td><a href="../modules/gen_cs.html">Foundations of Computer Science</a></td><td class="ects">6&nbsp;*</td></tr>
+<tr class="mod a-cs"><td><a href="../modules/gen_softwareeng1.html">Foundations of Software Development</a></td><td class="ects">6&nbsp;*</td></tr>
+<tr class="mod a-cs"><td><a href="../modules/gen_programming.html">Algorithms and Data Structures</a></td><td class="ects">6&nbsp;*</td></tr>
+<tr class="mod a-cs"><td>Computer Science Elective</td><td class="ects">0</td></tr>
+<tr class="area a-se"><td>Software Engineering</td><td class="ects">0</td></tr>
+<tr class="mod a-se"><td><a href="../modules/standard.html">Requirements Engineering</a></td><td class="ects">0&nbsp;*</td></tr>
+<tr class="mod a-se"><td><a href="../modules/standard.html">Software Architecture</a></td><td class="ects">0&nbsp;*</td></tr>
+<tr class="mod a-se"><td><a href="../modules/standard.html">Software Testing</a></td><td class="ects">0&nbsp;*</td></tr>
+<tr class="area a-dom"><td>Domain Specializations</td><td class="ects">27</td></tr>
+<tr class="mod a-dom"><td><a href="../modules/mnt_wildcard.html">Domain Specialization Electives (own domain)</a></td><td class="ects">21</td></tr>
+<tr class="mod a-dom"><td><a href="../modules/mnt_compwildcard.html">Computational Research in the Domain</a></td><td class="ects">6</td></tr>
+<tr class="area a-tech"><td>Technical Competencies for RSEs</td><td class="ects">21</td></tr>
+<tr class="mod a-tech"><td><a href="../modules/rse_nuts_bolts.html">Applied Software Development Tools and Techniques</a></td><td class="ects">3</td></tr>
+<tr class="mod a-tech"><td><a href="../modules/rse_scientificcomputing.html">Introduction to Scientific Computing</a></td><td class="ects">6</td></tr>
+<tr class="mod a-tech"><td><a href="../modules/standard.html">Machine Learning</a></td><td class="ects">6</td></tr>
+<tr class="mod a-tech"><td><a href="../modules/rse_softwareengineering.html">Software Development for RSEs</a></td><td class="ects">6</td></tr>
+<tr class="area a-soc"><td>Social Competencies for RSEs</td><td class="ects">12</td></tr>
+<tr class="mod a-soc"><td><a href="../modules/rse_management.html">RSEng Management</a></td><td class="ects">6</td></tr>
+<tr class="mod a-soc"><td><a href="../modules/rse_society_philosophy.html">RSEng, Ethics &amp; Society</a></td><td class="ects">3</td></tr>
+<tr class="mod a-soc"><td><a href="../modules/rse_teaching.html">RSEng Teaching</a></td><td class="ects">3</td></tr>
+<tr class="area a-res"><td>RSEng Research</td><td class="ects">42</td></tr>
+<tr class="mod a-res"><td><a href="../modules/rse_lectureseries.html">RSEng Lecture Series</a></td><td class="ects">3</td></tr>
+<tr class="mod a-res"><td><a href="../modules/rse_researchmethods.html">Research Paradigms and Methodology for RSEs</a></td><td class="ects">3</td></tr>
+<tr class="mod a-res"><td><a href="../modules/mnt_project.html">RSEng Project</a></td><td class="ects">6</td></tr>
+<tr class="mod a-res"><td><a href="../modules/rse_thesis.html">Master's Thesis</a></td><td class="ects">30</td></tr>
 <tr class="total"><td>Total</td><td class="ects">120</td></tr>
 </tbody>
 </table>
@@ -69,6 +59,54 @@ track.
 :::
 
 ::: {.content-visible when-format="pdf"}
+
+## Curriculum Structure (Track 2)
+
+```{=latex}
+% Requires \usepackage[table]{xcolor} in the PDF preamble (see note below).
+\definecolor{curriccs}{HTML}{B8BCD3}
+\definecolor{curricse}{HTML}{D9E6ED}
+\definecolor{curricdom}{HTML}{DFA3C9}
+\definecolor{currictech}{HTML}{EAC6DE}
+\definecolor{curricsoc}{HTML}{FFF7C0}
+\definecolor{curricres}{HTML}{FFFAD8}
+{\renewcommand{\arraystretch}{1.3}%
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.78\linewidth}@{}r@{}}
+\toprule
+\textbf{Area / Module} & \textbf{ECTS (Track 2)} \\
+\midrule
+\endhead
+\rowcolor{curriccs}\textbf{Computer Science} & \textbf{18} \\
+\rowcolor{curriccs}\quad Foundations of Computer Science & 6\,* \\
+\rowcolor{curriccs}\quad Foundations of Software Development & 6\,* \\
+\rowcolor{curriccs}\quad Algorithms and Data Structures & 6\,* \\
+\rowcolor{curriccs}\quad Computer Science Elective & 0 \\
+\rowcolor{curricse}\textbf{Software Engineering} & \textbf{0} \\
+\rowcolor{curricse}\quad Requirements Engineering & 0\,* \\
+\rowcolor{curricse}\quad Software Architecture & 0\,* \\
+\rowcolor{curricse}\quad Software Testing & 0\,* \\
+\rowcolor{curricdom}\textbf{Domain Specializations} & \textbf{27} \\
+\rowcolor{curricdom}\quad Domain Specialization Electives (own domain) & 21 \\
+\rowcolor{curricdom}\quad Computational Research in the Domain & 6 \\
+\rowcolor{currictech}\textbf{Technical Competencies for RSEs} & \textbf{21} \\
+\rowcolor{currictech}\quad Applied Software Development Tools and Techniques & 3 \\
+\rowcolor{currictech}\quad Introduction to Scientific Computing & 6 \\
+\rowcolor{currictech}\quad Machine Learning & 6 \\
+\rowcolor{currictech}\quad Software Development for RSEs & 6 \\
+\rowcolor{curricsoc}\textbf{Social Competencies for RSEs} & \textbf{12} \\
+\rowcolor{curricsoc}\quad RSEng Management & 6 \\
+\rowcolor{curricsoc}\quad RSEng, Ethics \& Society & 3 \\
+\rowcolor{curricsoc}\quad RSEng Teaching & 3 \\
+\rowcolor{curricres}\textbf{RSEng Research} & \textbf{42} \\
+\rowcolor{curricres}\quad RSEng Lecture Series & 3 \\
+\rowcolor{curricres}\quad Research Paradigms and Methodology for RSEs & 3 \\
+\rowcolor{curricres}\quad RSEng Project & 6 \\
+\rowcolor{curricres}\quad Master's Thesis & 30 \\
+\midrule
+\textbf{Total} & \textbf{120} \\
+\bottomrule
+\end{longtable}}
+```
 
 {{< include ../modules/gen_cs.qmd >}}
 

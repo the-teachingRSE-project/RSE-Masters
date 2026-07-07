@@ -112,11 +112,12 @@ Selbststudium: 60
 
 [Lecture 2: Conflict Management](piloting/rwth_2026/folien-konfliktmanagement.pdf)
 
-## Seminar & Contribution
-
-- [Seminar: Rollenspiel »LernSpur«](rollenspiel.qmd) — Planspiel zum
+[Lecture 3: Rollenspiel »LernSpur«](rollenspiel.qmd) — Planspiel zum
   Anforderungs-Kickoff einer Forschungsdatenplattform, inkl. Handouts und
   Spielleitungsmaterial.
+
+## Call for Contribution of User Stories
+
 - [Call for Contribution](call-for-contribution.qmd) — helfen Sie mit, indem Sie
   reale Fallstudien zu Konflikt-, Management- und Kommunikationsproblemen
   beisteuern.
