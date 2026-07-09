@@ -61,7 +61,9 @@ Facilitator announces “3 minutes left” → the group secures its results.
 
 ::: {.card .event}
 <span class="badge">E1 · Core</span>
+
 ### Data protection sounds the alarm
+
 The data protection officer gets in touch: the **video recordings of minors**
 are not stored in a legally compliant way as things stand. **New consents** and an
 **anonymisation pipeline** are needed before work on the video data may continue.
@@ -75,7 +77,9 @@ are not stored in a legally compliant way as things stand. **New consents** and 
 
 ::: {.card .event}
 <span class="badge">E2 · Core</span>
+
 ### The conference deadline
+
 Petra (PI) announces enthusiastically: the project should be presented at the
 specialist conference in **8 weeks**. The **abstract (4 pages) is due in 2 weeks** – with
 *first results*. “I'm sure we can manage that – and tell me what you need for it!”
@@ -89,7 +93,9 @@ specialist conference in **8 weeks**. The **abstract (4 pages) is due in 2 weeks
 
 ::: {.card .event}
 <span class="badge">E3 · Core</span>
+
 ### Doctorate in trouble
+
 Mara needs a special data export **this week** for a dissertation chapter – otherwise
 she misses a submission deadline of her own. “Just the table, quickly, it's really no
 big deal.”
@@ -103,7 +109,9 @@ big deal.”
 
 ::: {.card .event}
 <span class="badge">E4 · Core</span>
+
 ### Resource loss
+
 Two pieces of bad news: the requested **student-assistant funding has been cut**, and
 Tobi is largely unavailable for two weeks during the **exam period**. A planned task
 slips.
@@ -117,7 +125,9 @@ slips.
 
 ::: {.card .event}
 <span class="badge">E5 · Reserve</span>
+
 ### The partner school wavers
+
 Sabine makes it clear: without a **simple dashboard** that shows the school the learning
 progress of *its own* classes, the school management is considering **pulling out of the
 study**. Without this school, important data is missing.
@@ -131,7 +141,9 @@ study**. Without this school, important data is missing.
 
 ::: {.card .event}
 <span class="badge">E6 · Reserve</span>
+
 ### Buy instead of build?
+
 A reviewer has noted that one should check whether a **commercial tool** might be
 cheaper than building it in-house. Petra would like **a short market analysis by next
 week** – curious, not pushy: “Maybe we don't need to build all of this ourselves – what
@@ -146,7 +158,9 @@ do you think, Robin?”
 
 ::: {.card .event}
 <span class="badge">E7 · Reserve</span>
+
 ### “Just find the interesting patterns”
+
 Mara wishes: “The platform should automatically show us the **interesting patterns**
 in the learning trajectories.” When asked about criteria: “You just recognise them.”
 

@@ -61,7 +61,9 @@ Spielleitung kündigt „noch 3 Minuten" an → Gruppe sichert Ergebnisse.
 
 ::: {.card .event}
 <span class="badge">E1 · Kern</span>
+
 ### Datenschutz schlägt Alarm
+
 Die Datenschutzbeauftragte meldet sich: Die **Videoaufnahmen von Minderjährigen**
 sind so nicht rechtskonform gespeichert. Es braucht **neue Einwilligungen** und eine
 **Anonymisierungs-Pipeline**, bevor mit den Videodaten weitergearbeitet werden darf.
@@ -75,7 +77,9 @@ sind so nicht rechtskonform gespeichert. Es braucht **neue Einwilligungen** und 
 
 ::: {.card .event}
 <span class="badge">E2 · Kern</span>
+
 ### Die Konferenz-Deadline
+
 Petra (PI) verkündet begeistert: Das Projekt soll auf der Fachtagung in **8 Wochen**
 vorgestellt werden. Der **Abstract (4 Seiten) ist in 2 Wochen** fällig – mit *ersten
 Ergebnissen*. „Das kriegen wir doch bestimmt hin – und sagt mir, was ihr dafür braucht!"
@@ -89,7 +93,9 @@ Ergebnissen*. „Das kriegen wir doch bestimmt hin – und sagt mir, was ihr daf
 
 ::: {.card .event}
 <span class="badge">E3 · Kern</span>
+
 ### Promotion in Not
+
 Mara braucht **diese Woche** einen speziellen Datenexport für ein
 Dissertationskapitel – sonst platzt eine eigene Abgabefrist. „Nur schnell die Tabelle,
 das ist doch keine große Sache."
@@ -103,7 +109,9 @@ das ist doch keine große Sache."
 
 ::: {.card .event}
 <span class="badge">E4 · Kern</span>
+
 ### Ressourcen-Ausfall
+
 Zwei schlechte Nachrichten: Die beantragten **HiWi-Gelder wurden gekürzt**, und Tobi
 fällt in der **Klausurenphase** zwei Wochen weitgehend aus. Eine eingeplante Aufgabe
 verschiebt sich.
@@ -117,7 +125,9 @@ verschiebt sich.
 
 ::: {.card .event}
 <span class="badge">E5 · Reserve</span>
+
 ### Die Partnerschule wackelt
+
 Sabine macht klar: Ohne ein **einfaches Dashboard**, das der Schule den
 Lernfortschritt *ihrer eigenen* Klassen zeigt, überlegt die Schulleitung, **aus der
 Studie auszusteigen**. Ohne diese Schule fehlen wichtige Daten.
@@ -131,7 +141,9 @@ Studie auszusteigen**. Ohne diese Schule fehlen wichtige Daten.
 
 ::: {.card .event}
 <span class="badge">E6 · Reserve</span>
+
 ### Kaufen statt bauen?
+
 Ein Gutachter hat angemerkt, man solle prüfen, ob ein **kommerzielles Tool** nicht
 billiger wäre als die Eigenentwicklung. Petra möchte **bis nächste Woche eine
 kurze Marktanalyse** – neugierig, nicht drängend: „Vielleicht brauchen wir das alles
@@ -146,7 +158,9 @@ gar nicht selbst zu bauen – was meinst du, Robin?"
 
 ::: {.card .event}
 <span class="badge">E7 · Reserve</span>
+
 ### „Findet einfach die interessanten Muster"
+
 Mara wünscht sich: „Die Plattform soll uns automatisch die **interessanten
 Muster** in den Lernverläufen zeigen." Auf die Rückfrage nach Kriterien: „Das
 erkennt man doch."
