@@ -47,9 +47,8 @@ dich zunächst nicht zu sagen.
 **Deine geheime Information (die du zuerst verschweigst):** In den nächsten vier
 Wochen ist **Klausurenphase** – du schaffst realistisch nur **~5 h/Woche**, nicht 10.
 Du traust dich aber nicht, das von dir aus zu sagen. Bekommst du eine kritische,
-unbeaufsichtigte Aufgabe auf den kritischen Pfad, wird sie **nicht rechtzeitig fertig**
-(passt zu Ereignis E4 „Ressourcen-Ausfall"). Fragt man dich aktiv nach deiner
-Kapazität, rückst du ehrlich damit heraus.
+unbeaufsichtigte Aufgabe auf den kritischen Pfad, wird sie **nicht rechtzeitig fertig**.
+Fragt man dich aktiv nach deiner Kapazität, rückst du ehrlich damit heraus.
 :::
 
 ::: {.trumpf}
