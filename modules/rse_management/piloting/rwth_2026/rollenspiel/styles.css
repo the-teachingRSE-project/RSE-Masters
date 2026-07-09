@@ -13,6 +13,15 @@
   --event:         #b91c1c;   /* rot    – Ereignis / Trigger */
 }
 
+/* Bold sichtbar erzwingen: Lux ist ein Light-Theme, und Bootstraps
+   `strong { font-weight: bolder }` ist relativ -- unter einem leichten
+   Vorfahren fällt es auf 400 (normal) zurück, sodass **fett** kaum sichtbar
+   ist. Absoluter Wert stellt echtes Fett sicher (Website + Druck-PDFs). */
+b,
+strong {
+  font-weight: 700;
+}
+
 /* ---------- Rollen- & Ereigniskarten ---------- */
 .cards {
   display: grid;

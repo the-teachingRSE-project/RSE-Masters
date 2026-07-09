@@ -11,6 +11,15 @@ $curric-res:  #FFFAD8 !default; // RSEng Research
 
 /*-- scss:rules --*/
 
+// Lux is a light-weight theme; Bootstrap's `strong { font-weight: bolder }`
+// is relative and collapses to normal (400) whenever an ancestor is light,
+// so **bold** markdown looked barely heavier than body text. Pin an absolute
+// weight so bold is always visible on the site.
+b,
+strong {
+  font-weight: 700;
+}
+
 .curric-table {
   width: 100%;
   border-collapse: collapse;
