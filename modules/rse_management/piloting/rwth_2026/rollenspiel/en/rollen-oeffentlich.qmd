@@ -17,7 +17,11 @@ is something you find out in conversation.
 
 ::: {.card .rse}
 <span class="badge">Robin · RSE / software coordination</span>
+
+
 ### Robin — RSE / Software Coordination
+
+
 <p class="tagline">"I'm supposed to coordinate this – but I can't give orders to anyone here."</p>
 
 * hired at the chair 3 months ago, holds a master's in Research Software Engineering
@@ -30,7 +34,9 @@ is something you find out in conversation.
 
 ::: {.card .pi}
 <span class="badge">Petra · PI / chair</span>
+
 ### Petra (Prof. Dr. Barn) — PI / Chair Holder
+
 <p class="tagline">"I'm thrilled about this – just tell me how I can help you make it happen!"</p>
 
 * heads the chair and the »LernSpur« project
@@ -42,7 +48,9 @@ is something you find out in conversation.
 
 ::: {.card .domain}
 <span class="badge">Mara · education research</span>
+
 ### Mara (Dr. Melis) — Education Researcher / Postdoc
+
 <p class="tagline">"You can just tell, surely – just show me the classes that stand out."</p>
 
 * postdoc in empirical education research, knows the data best in terms of content
@@ -54,7 +62,9 @@ is something you find out in conversation.
 
 ::: {.card .hiwi}
 <span class="badge">Tobi · student assistant</span>
+
 ### Tobi (Tobias) — Student Assistant
+
 <p class="tagline">"Sure, I'll do that … what exactly did you mean again?"</p>
 
 * 4th semester, employed 10 h/week, learned to program mostly from YouTube
@@ -65,7 +75,9 @@ is something you find out in conversation.
 
 ::: {.card .partner}
 <span class="badge">Sabine · partner school (optional)</span>
+
 ### Sabine (Ms. Korter) — Teacher & Contact at a Partner School
+
 <p class="tagline">"What's actually in it for *me* that we're taking part in this?"</p>
 
 * teacher at one of the 14 partner schools, contact person for the study
