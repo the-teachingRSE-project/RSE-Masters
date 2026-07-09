@@ -100,10 +100,15 @@ $pages = @(
     @{ src = 'spielleitung';        out = 'spielleitung'      }
 )
 
-# student.zip: NUR geheimnisfreie, gemeinsame Handouts fuer ALLE.
-# (Die Einzelkarten rolle-*.pdf werden 1:1 verteilt, nicht gebuendelt.
-#  Die Verteil-Handreichung 'verteilung' ist Spielleitungs-Material -> nur teacher.zip.)
-$studentOut = @('szenario', 'rollen-oeffentlich')
+# student.zip: gemeinsame Handouts + die 5 vertraulichen Einzel-Rollenkarten.
+# ACHTUNG: Wer dieses Bundle bekommt, sieht ALLE geheimen Karten -- das
+# Verdeckt-Info-Spiel funktioniert also nur, wenn die Spielleitung die Karten
+# weiterhin einzeln (1:1) verteilt und nicht das ganze Bundle austeilt.
+# (Die Verteil-Handreichung 'verteilung' bleibt Spielleitungs-Material -> nur teacher.zip.)
+$studentOut = @(
+    'szenario', 'rollen-oeffentlich',
+    'rolle-1-rse', 'rolle-2-pi', 'rolle-3-domaene', 'rolle-4-hiwi', 'rolle-5-schule'
+)
 
 # teacher.zip: alles.
 $teacherOut = $pages | ForEach-Object { $_.out }
@@ -224,5 +229,5 @@ Write-Host ''
 Write-Host 'Fertig.' -ForegroundColor Green
 Write-Host "  Einzel-PDFs      : $pdfDir"
 Write-Host "  Vertrauliche Karten (1:1 verteilen): rolle-1-rse.pdf ... rolle-5-schule.pdf"
-Write-Host "  Bundles          : $distDir\$studentZip.zip (nur Szenario+Uebersicht) , $distDir\$teacherZip.zip (alles)"
+Write-Host "  Bundles          : $distDir\$studentZip.zip (Szenario+Uebersicht+5 Rollenkarten) , $distDir\$teacherZip.zip (alles)"
 if ($Publish) { Write-Host "  Handouts         : $handoutDir" }
