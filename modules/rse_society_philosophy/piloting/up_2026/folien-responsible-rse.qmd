@@ -47,6 +47,46 @@ Nach dieser Einheit können Sie ...
 - Querschnittsbelange mit Mitteln der aspektorientierten Programmierung vom Fachcode trennen
 - die Grenzen automatischer Prüfungen reflektieren
 
+## Ablauf
+
+\footnotesize
+
+:::: {.columns}
+
+::: {.column width="55%"}
+**Inputs**
+
+1. Organisatorisches
+2. Aspects of Responsible Research Software Engineering and Project Introduction
+3. Generierte Forschungssoftware
+4. Green Coding
+5. Open-Science-Qualitätsmerkmale \
+   *optional:* Legal Aspects and Privacy
+6. Forschungssoftware und Cybersicherheit
+7. Nicht-deterministische Forschungssoftware (und LLMs)
+:::
+
+::: {.column width="45%"}
+**Projektphase**
+
+8. Coding Dojo I
+9. Coding Dojo II
+10. Coding Dojo III
+11. Coding Dojo IV
+
+**Abschluss**
+
+12. Studentische Präsentationen I
+13. Studentische Präsentationen II
+14. Studentische Präsentationen III
+15. Studentische Präsentationen IV
+16. Studentische Präsentationen V
+:::
+
+::::
+
+\normalsize
+
 # Aspekte
 
 ## Querschnittsbelange
