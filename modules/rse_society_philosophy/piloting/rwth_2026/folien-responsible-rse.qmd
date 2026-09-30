@@ -4,7 +4,6 @@
 # (../../../rse_management/piloting/rwth_2026/folien-konfliktmanagement.qmd).
 # Platzhalter sind mit [TODO] markiert.
 title: "Responsible RSE"
-subtitle: "Verantwortungsvolle Forschungssoftware prüfen – mit eigenen Analyse-Plugins"
 format:
     beamer:
         keep-tex: true
@@ -25,9 +24,9 @@ bibliography:
 
 # Einordnung
 
-## Warum *Responsible* RSE?
+## Responsible RSE
 
-Forschungssoftware erzeugt Ergebnisse, auf die sich andere verlassen. Verantwortung heißt dort ganz praktisch:
+Andere verwenden die Ergebnisse von Forschungssoftware weiter. Daraus ergeben sich Anforderungen an:
 
 - **Wiederverwendbarkeit:** Lizenz, Zitierbarkeit, Dokumentation
 - **Integrität:** reproduzierbare Ergebnisse, nachvollziehbare Mathematik
@@ -36,7 +35,7 @@ Forschungssoftware erzeugt Ergebnisse, auf die sich andere verlassen. Verantwort
 
 \vfill
 \footnotesize
-*Qualitätsdimensionen angelehnt an EVERSE RSQKit [@everse-rsqkit] und FAIR4RS [@barker-fair4rs].*
+Qualitätsdimensionen angelehnt an EVERSE RSQKit [@everse-rsqkit] und FAIR4RS [@barker-fair4rs].
 \normalsize
 
 ## Lernziele
@@ -44,89 +43,82 @@ Forschungssoftware erzeugt Ergebnisse, auf die sich andere verlassen. Verantwort
 Nach dieser Einheit können Sie ...
 
 - Qualitätskriterien für Forschungssoftware benennen und begründen
-- ein Kriterium in eine *prüfbare* Regel übersetzen
-- ein Analyse-Plugin für ein bestehendes Werkzeug entwerfen, implementieren und testen
-- die Grenzen automatischer Prüfungen kritisch reflektieren
+- ein Kriterium in eine prüfbare Regel übersetzen
+- Querschnittsbelange mit Mitteln der aspektorientierten Programmierung vom Fachcode trennen
+- die Grenzen automatischer Prüfungen reflektieren
 
-# Das Werkzeug
+# Aspekte
 
-## rse_annotations im Überblick
+## Querschnittsbelange
+
+Manche Anforderungen betreffen viele Stellen im Code, gehören aber zu keiner davon,
+z. B. Logging, Zugriffsrechte, Transaktionen, Zeitmessung, Prüfung.
 
 ::: {.columns}
 ::: {.column width="50%"}
-- **TargetProject:** das untersuchte Projekt (Pfad oder Git-URL)
-- **Analyzer:** eine Prüfung, als Plugin einsteckbar
-- **Audit:** führt die Analyzer aus und sammelt **Findings**
-- **Renderer:** Text, Markdown, JSON (CI-tauglich)
+**Ohne Trennung**
+
+- *Scattering:* derselbe Code an vielen Stellen verstreut
+- *Tangling:* Fachlogik und Querschnittslogik in einer Funktion vermischt
 :::
 ::: {.column width="50%"}
-\footnotesize
-```
-Audit(TargetProject)
-  -> Analyzer.analyze(target)
-     -> AnalysisResult
-        -> [Finding(rule,
-             severity, message)]
-```
-\normalsize
+**Aspektorientierte Programmierung (AOP)**
+
+- **Join Point:** Stelle im Programmablauf, z. B. ein Funktionsaufruf
+- **Pointcut:** Auswahl von Join Points
+- **Advice:** Code, der an diesen Stellen ausgeführt wird
+- **Aspekt:** Pointcut und Advice zusammen
 :::
 :::
 
-## Ein Plugin, ein Skelett: Dokumentationsabdeckung
+# Verantwortung im Code
 
-\footnotesize
-```python
-class DocCoverageAnalyzer(StaticAnalyzer):
-    name = "docs"
-    description = "documentation coverage"
-
-    def analyze_scan(self, report):   # report.eligible: alle relevanten Funktionen
-        findings = []
-        # TODO: Anteil mit Docstring (rec.has_docstring) als "info"-Finding
-        # TODO: ein "warn"-Finding pro undokumentierter Funktion
-        return self.result(findings, data=report)
-```
-
-\normalsize
-
-Registrierung: eine Zeile `[project.entry-points."rse_annotations.analyzers"]` in `pyproject.toml`.
-
-# Projektarbeit
-
-## Die Plugin-Stubs
+## Aspekte von Verantwortung in RSE
 
 \footnotesize
 
-| Frage | Plugin (Aufwand) |
-|---|---|
-| Wiederverwendbar? | `licence` (3), `data_terms` (3), `archival` (3) |
-| Vertrauenswürdig? | `silent_failures` (2), `constants` (2), `llm_disclosure` (2), `leakage` (4), `inference_ledger` (5) |
-| Schadet sie? | `security` (2), `purpose_retention` (3), `dual_use` (2) |
-| Inklusiv & nachhaltig? | `fairness` (3), `figure_accessibility` (3), `footprint` (2), `inclusive_language` (1) |
+::: {.columns}
+::: {.column width="33%"}
+**Im Code prüfbar**
 
-Aufwand: 1 = ca. 1 h/Woche ... 5 = ca. 5 h/Woche über das Semester, inkl. Tests.
+- Lizenzdatei vorhanden (Wiederverwendung)
+- Zufalls-Seeds gesetzt (Vertrauenswürdigkeit)
+- verschluckte Exceptions
+- hart kodierte Konstanten
+- Secrets im Repository (Schaden)
+- Energieverbrauch messen (Nachhaltigkeit)
+:::
+::: {.column width="33%"}
+**Durch Werkzeuge unterstützbar**
+
+- menschliche Inspektion generierten Codes
+- Fairness-Tests auf Modellausgaben
+- Barrierefreiheit von Abbildungen
+- Offenlegung von LLM-Nutzung
+- Protokoll der ausprobierten Modelle
+:::
+::: {.column width="33%"}
+**Nur konzeptionell**
+
+- Dual-Use-Abwägung
+- Zweckbindung von Daten
+- Autorschaft und Anerkennung
+- Wahl der Forschungsfrage
+:::
+:::
 
 \normalsize
 
-## Ablauf
+\vfill
 
-- Woche 1–2: [TODO] Einführung, Werkzeug installieren, Übungs-Plugin *docs*
-- Woche 3: [TODO] Plugin wählen, Spezifikation schärfen
-- Woche 4–11: [TODO] Implementierung, Tests, Review im Team
-- Woche 12: [TODO] Präsentation und Reflexion
-
-## Bewertung
-
-- [TODO] Funktion und Tests des Plugins
-- [TODO] Dokumentation und Begründung der Regeln
-- [TODO] Reflexion: Was kann eine automatische Prüfung *nicht* leisten?
+In dieser Informatik-Veranstaltung werden diese Aspekte nicht nur diskutiert, sondern als Prüfungen implementiert.
 
 # Reflexion
 
 ## Grenzen automatischer Prüfung
 
-- Ein Finding ist ein **Hinweis**, kein Urteil.
-- Metriken laden zum Optimieren ein ("Goodhart").
+- Ein automatischer Befund ist ein Hinweis, kein Urteil.
+- Metriken laden zum Optimieren ein (Goodhart).
 - [TODO] Diskussionsfrage für die Gruppe
 
 ## Literatur
