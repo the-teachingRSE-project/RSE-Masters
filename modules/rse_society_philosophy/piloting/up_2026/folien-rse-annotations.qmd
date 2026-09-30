@@ -67,7 +67,7 @@ def normalize(v, lo, hi):
 
 \vfill
 
-Ein neuer Decorator = eine Funktion + ein Eintrag in `DECORATORS`. Der Hilfetext ist der Docstring.
+Ein neuer Decorator = **eine Funktion**, markiert mit `@_concern`. Der Hilfetext ist der Docstring.
 
 ## Review Concerns
 
@@ -76,6 +76,7 @@ Jeder Decorator markiert eine Stelle, an der das Ergebnis falsch werden kann, un
 - `@functional`: Mathematik
 - `@mapping`: Umformung von Daten
 - `@data_input` / `@data_output`: Datenein- und -ausgang
+- `@hardware_dependency`: braucht bestimmte Hardware (z.B. eine GPU)
 - ... die Menge ist offen und wächst.
 
 \vfill
@@ -151,13 +152,12 @@ Immer mit Konfidenz und Begründung: **eine Arbeitsliste, kein Urteil.**
 - Jetzt: `HazardDecorator.FUNCTIONAL`. Text nur noch an den Rändern: AST, YAML, JSON.
 
 ```python
-class HazardDecorator(str, Enum):
-    FUNCTIONAL = "functional"
-    MAPPING = "mapping"
-    ...
+HazardDecorator = _ConcernEnum("HazardDecorator",
+    [(d.__name__.upper(), d.__name__) for d in DECORATORS])
 ```
 
 - Ein Enum, das zugleich ein String ist: direkt serialisierbar.
+- Die Members werden aus den Decorator-Funktionen **erzeugt**, nicht abgeschrieben.
 
 ## Komposition statt Vererbung
 
@@ -186,7 +186,100 @@ HazardKind(name="statistical",
 
 \vfill
 
-**Ein Test hält die Quellen synchron.** `HazardDecorator` und `DECORATORS` müssen dieselben Namen tragen. Ein Test prüft das, statt es zu hoffen.
+**Eine Quelle, alles abgeleitet.** `DECORATORS`, `HazardDecorator`, Hilfetexte und Exporte entstehen aus den Decorator-Funktionen selbst -- nichts kann auseinanderlaufen.
+
+# Einen Hazard von Hand bauen
+
+## Die Hardware ist Teil der Methode
+
+- Code, der eine GPU voraussetzt, läuft auf dem Laptop der Gutachterin nicht -- oder anders (Fließkomma, nichtdeterministische cuDNN-Kernel).
+- Ein Paper, das die Hardware nicht nennt, ist so nicht reproduzierbar.
+
+```python
+def add_on_gpu():
+    tf.config.set_soft_device_placement(False)  # kein stilles Ausweichen
+    with tf.device("/GPU:0"):
+        return tf.add(tf.constant([1.0, 2.0]), tf.constant([3.0, 4.0]))
+```
+
+Ohne GPU scheitert TensorFlow -- gut so: **lieber laut scheitern als still auf die CPU ausweichen.**
+
+## Nicht jede Gefahr ist erkennbar -- manche muss man erklären
+
+- Ob Code eine GPU braucht, sieht man dem AST nicht zuverlässig an: Gerät aus einer Config, einer Umgebungsvariable, oder die Bibliothek wählt still.
+- Die Verantwortung liegt bei der Person, die den Code schreibt: sie **markiert** die Abhängigkeit.
+
+\vfill
+
+| *erkannte* Hazards | *deklarierte* Hazards |
+|---|---|
+| der Scan findet sie im Code | die Autorin setzt sie selbst |
+| `stochastic`, `model_call` | `hardware_dependency` |
+
+## Der neue Decorator: eine Funktion
+
+\small
+
+```python
+@_concern
+def hardware_dependency(fn=None, *, fields=None):
+    """Marks code that needs specific hardware to run or to
+    give the same result (e.g. a GPU). ..."""
+    return _mark(hardware_dependency, fn, fields)
+```
+
+\normalsize
+
+- In `decorators/markers.py`. Mehr ist nicht zu tun.
+- Daraus ergeben sich: `HazardDecorator.HARDWARE_DEPENDENCY`, der Hilfetext (Docstring), der Export aus `rse_annotations` und die Erkennung durch den Scanner.
+- Im Forschungscode: `@hardware_dependency` über `def add_on_gpu`.
+
+## Vorher / Nachher
+
+`python -m rse_annotations examples --coverage`
+
+\footnotesize
+
+:::: {.columns}
+::: {.column width="48%"}
+**Vorher**
+
+```
+file            decorated  coverage
+gpu_tensors.py  0          0%
+```
+:::
+::: {.column width="48%"}
+**Nachher**
+
+```
+@hardware_dependency  1
+
+file            decorated  coverage
+gpu_tensors.py  1          100%
+```
+:::
+::::
+
+\normalsize
+
+\vfill
+
+Der Scanner importiert nie -- TensorFlow muss für die Prüfung nicht installiert sein.
+
+## Das Decorator-Muster
+
+- `@hardware_dependency` über `def add_on_gpu` ist Kurzschrift für `add_on_gpu = hardware_dependency(add_on_gpu)`.
+- **Markierend** (unser Fall): hängt Metadaten an (`fn.__rse_decorator__`), trägt sie ins Register ein, gibt die Funktion **unverändert** zurück. Kein Overhead, darf im Produktivcode bleiben.
+- **Umhüllend**: gibt eine neue Funktion zurück, die vor/nach dem Aufruf etwas tut (`functools.lru_cache`, Logging, Zeitmessung).
+- **Mit und ohne Argumente:** `@data_input` und `@data_input(fields=...)`. Trick in `_mark`: kommt keine Funktion (`fn is None`), wird ein Decorator zurückgegeben, der auf sie wartet.
+
+## Selbstregistrierung und Bezüge
+
+- `@_concern` ist selbst ein markierender Decorator: er trägt jede Decorator-Funktion in eine Liste ein. Enum, Hilfetexte und Exporte werden daraus abgeleitet -- **eine Stelle** für eine neue Rolle.
+- Dasselbe Idiom wie `@app.route` in Flask oder `@pytest.fixture`.
+- **GoF-Decorator** (Gamma et al. 1994): ein Objekt umhüllt ein anderes mit derselben Schnittstelle, um Verhalten hinzuzufügen. Python-Decorators sind verwandt, aber allgemeiner -- sie dürfen auch nur markieren.
+- **AOP:** der Decorator ist der *Join Point*, den die Autorin selbst setzt; die Prüfungen der Plugins sind der *Advice*.
 
 # Reflexion
 
