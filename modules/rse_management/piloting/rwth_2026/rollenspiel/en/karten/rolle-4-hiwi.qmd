@@ -47,9 +47,8 @@ say at first.
 **Your secret information (which you keep quiet at first):** For the next four
 weeks it's **exam season** – realistically you can manage only **~5 h/week**, not 10.
 But you don't dare say so of your own accord. If you're handed a critical,
-unsupervised task on the critical path, it **won't get finished in time**
-(matches event E4 "resource loss"). If someone actively asks about your
-capacity, you come out with it honestly.
+unsupervised task on the critical path, it **won't get finished in time**.
+If someone actively asks about your capacity, you come out with it honestly.
 :::
 
 ::: {.trumpf}

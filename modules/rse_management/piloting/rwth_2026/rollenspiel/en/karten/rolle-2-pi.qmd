@@ -24,8 +24,7 @@ understand the technical details yourself; you trust that Robin has them in hand
 
 Your weakness isn't impatience but **over-optimism**: you're so excited about the idea
 that you tend to promise the research community *too much* ("By the conference we'll show
-the whole big picture!"). It's Robin's job to gently keep you grounded – and you welcome
-that from her/him.
+the whole big picture!").
 
 ::: {.ziele}
 ::: {.ziel-gross}
