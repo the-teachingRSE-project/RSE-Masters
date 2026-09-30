@@ -1,0 +1,18 @@
+# Autorschaft für den Potsdamer Pilot (up_2026) von "RSEng, Ethics & Society".
+# Quarto hängt author-Listen aus _quarto.yml und diesem Ordner aneinander, statt sie zu
+# ersetzen. Darum steht die Pilot-Autorschaft unter pilot-author; pilot-author.lua setzt sie
+# als einzige author-Liste für alle Folien in diesem Ordner.
+pilot-author:
+  - name: Dr. Julian Dehne
+    orcid: 0000-0001-9265-9619
+    email: julian.dehne@gi.de
+    url: https://juliandehne.github.io/
+    affiliations:
+      - name: Gesellschaft für Informatik e.V. (GI)
+        address: Weydingerstraße 14-16
+        postal-code: "10178"
+        city: Berlin
+      - name: deRSE -- Gesellschaft für Research Software Engineering e.V.
+institute: "Gesellschaft für Informatik e.V. (GI) · deRSE \\newline \\href{mailto:julian.dehne@gi.de}{julian.dehne@gi.de} · ORCID \\href{https://orcid.org/0000-0001-9265-9619}{0000-0001-9265-9619}"
+filters:
+  - pilot-author.lua

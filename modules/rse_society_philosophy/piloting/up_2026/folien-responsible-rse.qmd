@@ -87,6 +87,35 @@ Nach dieser Einheit können Sie ...
 
 \normalsize
 
+## Aufgabe und Bewertung
+
+:::: {.columns}
+
+::: {.column width="55%"}
+**Aufgabe**
+
+- Ein **Plugin** zum Open-Source-Projekt `rse_annotations` beitragen, das eine Verantwortungs-Gefahr (*responsibility hazard*) im Forschungscode erkennt.
+- Das Plugin mit dem **Stand der Literatur** zu diesem Aspekt verknüpfen: Welche Kriterien gibt es, was lässt sich davon automatisch prüfen, was nicht?
+- Seminararbeit und Vortrag dokumentieren beides.
+:::
+
+::: {.column width="45%"}
+**Bewertung**
+
+\footnotesize
+
+| Anteil | Leistung |
+|---:|---|
+| 30 % | Mitarbeit |
+| 10 % | Mitarbeit in der Softwareentwicklung |
+| 40 % | Seminararbeit |
+| 20 % | Vortrag |
+
+\normalsize
+:::
+
+::::
+
 # Aspekte
 
 ## Querschnittsbelange
