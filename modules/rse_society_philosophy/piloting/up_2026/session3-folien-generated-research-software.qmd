@@ -1,0 +1,161 @@
+---
+# Sitzung 3 des Moduls "RSEng, Ethics & Society" (rse_society_philosophy).
+# Beamer-Setup wie session1-folien-responsible-rse.qmd.
+# Erster Entwurf; offene Stellen sind mit [TODO] markiert.
+# Kandidaten für weitere Belege: literature-links.md, Abschnitt 1 (noch nicht geprüft).
+title: "Sitzung 3: Generierte Forschungssoftware"
+format:
+    beamer:
+        keep-tex: true
+        colortheme: crane
+        fonttheme: structureitalicserif
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: xelatex
+        include-in-header:
+            - ../../../rse_researchmethods/piloting/rwth_2026/beamer-header.tex
+            - beamer-header-local.tex
+        latex-auto-install: false
+        section-titles: true
+
+bibliography:
+    - references.bib
+---
+
+# Einordnung
+
+## Lernziele
+
+Nach dieser Einheit können Sie ...
+
+- einordnen, wofür Sprachmodelle im Software Engineering bisher untersucht werden,
+- begründen, warum generierter Code in der Forschung andere Fragen aufwirft als in der Produktentwicklung,
+- Risiken generierter Forschungssoftware benennen und einer Qualitätsdimension zuordnen,
+- einschätzen, welche dieser Risiken sich im Code selbst kenntlich machen und prüfen lassen.
+
+## Ablauf
+
+- RSE und generierter Code: Begriffe und Abgrenzung
+- Stand der Forschung: Sprachmodelle im Software Engineering
+- Was sich für Forschungssoftware ändert
+- Diskussion und Bezug zur Projektaufgabe
+
+# RSE und generierter Code
+
+## Was heißt "generierte Forschungssoftware"?
+
+- **Generierter Code:** Quellcode, den ein Sprachmodell ganz oder teilweise erzeugt hat, von der Zeilenvervollständigung bis zum agentisch erstellten Projekt.
+- **Forschungssoftware:** Software, die im Forschungsprozess oder für einen Forschungszweck entstanden ist [@gruenpeter-2021].
+- **Generierte Forschungssoftware:** Beides zugleich. Der Code trägt ein Forschungsergebnis, und ein Teil davon stammt nicht von der Person, die das Ergebnis verantwortet.
+
+## Stufen der Generierung
+
+- Vervollständigung einzelner Zeilen im Editor
+- Erzeugung ganzer Funktionen oder Skripte aus einer Beschreibung
+- Überarbeitung bestehenden Codes (Refactoring, Übersetzung, Fehlersuche)
+- Agenten, die selbstständig planen, ausführen und testen
+
+Je höher die Stufe, desto weniger vom Code hat ein Mensch gelesen.
+
+# Stand der Forschung
+
+## Sprachmodelle im Software Engineering
+
+Systematische Literaturübersicht von @hou-2024:
+
+- 395 Studien aus den Jahren 2017 bis Anfang 2024
+- Vier Fragen: Welche Modelle werden eingesetzt? Mit welchen Daten? Wie werden sie angepasst und bewertet? Für welche Aufgaben?
+- Guter Einstieg in das Feld, weil die Übersicht die Aufgaben nach den Phasen des Software Engineering ordnet
+
+## Wofür Sprachmodelle untersucht werden
+
+![Verteilung der untersuchten Einsätze nach SE-Aktivität (a) und nach Problemtyp (b) [@hou-2024].](img/hou-2024-llm4se-verteilung.png){width=82%}
+
+## Die häufigsten Aufgaben je SE-Aktivität
+
+\footnotesize
+
+| SE-Aktivität | Studien | Häufigste Aufgaben (Anzahl Studien) |
+|:-----------------|----:|:------------------------------------------------------------|
+| Requirements engineering | 17 | Anaphoric ambiguity treatment (4), Requirements classification (4), Requirement analysis and evaluation (2), Specification generation (2) |
+| Software design | 4 | GUI retrieval, Rapid prototyping, Software specification synthesis, System design (je 1) |
+| Software development | 247 | Code generation (118), Code completion (22), Code summarization (21), Code search und Code translation (je 12) |
+| Software quality assurance | 66 | Vulnerability detection (18), Test generation (17), Bug localization (5), Verification (5) |
+| Software maintenance | 99 | Program repair (35), Code clone detection (8), Code review (7), Debugging (4) |
+| Software management | 3 | Effort estimation (2), Software tool configuration (1) |
+
+Zuordnungen nach @hou-2024; eine Studie kann mehrere Aufgaben behandeln, daher 436 Zuordnungen bei 395 Studien.
+
+## Was die Verteilung zeigt
+
+- Über die Hälfte der Studien betrifft die Softwareentwicklung (56,65 %), danach Wartung (22,71 %) und Qualitätssicherung (15,14 %).
+- Anforderungen (3,90 %), Entwurf (0,92 %) und Management (0,69 %) kommen kaum vor.
+- Rund 71 % der Aufgaben sind Generierungsaufgaben.
+
+Die Forschung konzentriert sich auf das Erzeugen von Code. Die Phasen, in denen entschieden wird, *was* gebaut wird und *warum*, sind wenig untersucht.
+
+## Halluzinationen in generiertem Code
+
+:::: {.columns}
+::: {.column width="50%"}
+![Beispiel aus [@liu-2024].](img/liu-2024-code-halluzination.png){height=70%}
+:::
+::: {.column width="50%"}
+\small
+
+@liu-2024: Was geht über funktionale Korrektheit hinaus schief?
+
+- **Halluzination:** Die Ausgabe weicht von der Absicht ab, widerspricht sich selbst oder dem Weltwissen.
+- Taxonomie aus generiertem Code: 3 Hauptkategorien, 12 Unterkategorien
+- Verteilung über Modelle und Benchmarks, Ursachen und Folgen
+- Gegenmaßnahmen allein über den Prompt
+
+Im Beispiel verletzt der Code die Vorgabe `tri(1) = 3` und läuft trotzdem.
+:::
+::::
+
+## Taxonomie der Code-Halluzinationen
+
+![Kategorien von Code-Halluzinationen [@liu-2024].](img/liu-2024-halluzination-taxonomie.png){width=88%}
+
+<!--
+AUSKOMMENTIERT am 2026-10-06: Entwurf ohne Quellen, vom Dozenten als nicht belegt verworfen.
+Nicht wieder einblenden, ohne die Inhalte zu klären.
+
+# Folgen für Forschungssoftware
+
+## Was in der Forschung anders ist
+
+- **Kein Orakel:** Oft ist das richtige Ergebnis unbekannt; genau deshalb wird gerechnet. Ein plausibler, aber falscher Code fällt nicht auf.
+- **Nachvollziehbarkeit:** Ein Ergebnis soll sich später erneut erzeugen lassen, auch wenn das Modell nicht mehr verfügbar ist.
+- **Verantwortung:** Wer publiziert, verantwortet den Code, auch den nicht selbst geschriebenen.
+- **Fachwissen im Code:** Annahmen, Einheiten und Gültigkeitsbereiche stehen selten in der Aufgabenbeschreibung.
+
+## Risiken nach Qualitätsdimension
+
+- **Korrektheit:** [TODO] Beleg aus literature-links.md, Abschnitt 1.1
+- **Sicherheit:** [TODO] Beleg
+- **Reproduzierbarkeit:** [TODO] Beleg aus Abschnitt 1.2
+- **Lizenz und Herkunft:** [TODO] Beleg
+- **Offenlegung:** [TODO] Vorgaben von Zeitschriften und Förderern
+
+# Reflexion
+
+## Diskussion
+
+- Wo haben Sie selbst schon generierten Code in einer Analyse verwendet? Wie haben Sie ihn geprüft?
+- Welche Angaben müsste eine Publikation enthalten, damit Dritte den Anteil generierten Codes einschätzen können?
+- Die Literatur untersucht vor allem die Generierung. Welche Fragen bleiben dadurch für Forschungssoftware offen?
+
+## Bezug zur Projektaufgabe
+
+- Welche der genannten Risiken lassen sich direkt am Code kenntlich machen?
+- [TODO] Verweis auf das passende Plugin in `rse_annotations`
+-->
+
+## Literatur {.allowframebreaks}
+
+\footnotesize
+
+::: {#refs}
+:::

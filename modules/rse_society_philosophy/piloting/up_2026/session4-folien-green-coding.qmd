@@ -1,0 +1,130 @@
+---
+# Sitzung 4 des Moduls "RSEng, Ethics & Society" (rse_society_philosophy).
+# Beamer-Setup wie session1-folien-responsible-rse.qmd.
+# Aufbau und Inhalt folgen der Keynote von Kirsty Pringle auf der RSECon26
+# (https://doi.org/10.5281/zenodo.22657359, CC BY 4.0). Die Keynote besteht überwiegend
+# aus Bildern; übernommen ist der Text der Folien, keine Abbildungen.
+title: "Sitzung 4: Green Coding"
+subtitle: "Basierend auf der Keynote von Kirsty Pringle auf der RSECon26"
+format:
+    beamer:
+        keep-tex: true
+        colortheme: crane
+        fonttheme: structureitalicserif
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: xelatex
+        include-in-header:
+            - ../../../rse_researchmethods/piloting/rwth_2026/beamer-header.tex
+            - beamer-header-local.tex
+        latex-auto-install: false
+        section-titles: true
+
+bibliography:
+    - references.bib
+---
+
+# Einordnung
+
+## Quelle dieser Folien
+
+Diese Folien basieren auf der Keynote von **Kirsty Pringle** (University of Edinburgh) auf der **RSECon26**:
+
+*We've Built a Great RSE Community. Now Let's Try to Save the Planet.* [@pringle-rsecon26]
+
+\vfill
+\footnotesize
+Lizenz der Keynote: CC BY 4.0. Aufbau und Aussagen sind übernommen und ins Deutsche übertragen, die Abbildungen nicht.
+\normalsize
+
+## Warum darüber sprechen?
+
+- Die globale Mitteltemperatur steigt seit 1750 an (Darstellung nach Ed Hawkins, University of Reading).
+- CO~2~-Konzentration über drei Generationen: Mutter 315 ppm, Kirsty Pringle 338 ppm, Tochter 394 ppm.
+
+\vfill
+
+> "The single best thing we can do about climate change is talk about it." -- Katharine Hayhoe
+
+# Umweltwirkung digitaler Forschung
+
+## Drei Phasen, drei Arten von Emissionen
+
+\footnotesize
+
+| Phase | Emissionen | Scope |
+|------------|------------------|-----|
+| **Herstellung** -- wenn die Technik gebaut wird | graue Emissionen (*embodied*) | 3 |
+| **Nutzung** -- wenn die Technik betrieben und gewartet wird | Emissionen der Nutzungsphase | 1 und 2 |
+| **Entsorgung** -- wenn die Technik ausgemustert wird | Emissionen am Lebensende | 3 |
+
+\normalsize
+
+## Ein Umfeld im Wandel
+
+> "embedding environmental sustainability across all aspects of research and innovation."
+> -- UKRI Environmental Sustainability Strategy 2025 to 2030
+
+\vfill
+
+- **NetDRIVE** (<https://uknetdrive.org/>): bringt die britische Community der digitalen Forschungsinfrastruktur zusammen, um praktische Wege zu nachhaltigerem Forschungsrechnen zu entwickeln.
+- Instrumente: Champions, Förderaufrufe, Arbeitsgruppen.
+
+# Was können RSEs tun?
+
+## Ansatzpunkte je Phase
+
+\footnotesize
+
+| Phase | Was RSEs beitragen können |
+|----------|------------------------|
+| **Herstellung** | Bedarf an neuer Hardware senken; vorhandene Hardware auslasten; nachhaltig beschaffen; Rechenbedarf sauber planen |
+| **Nutzung** | Energieverbrauch senken; Algorithmen und Code optimieren; unnötige Berechnungen (auch Daten) vermeiden; profilen; nach CO~2~-Intensität planen (*carbon scheduling*); passend dimensionierte Ressourcen wählen |
+| **Entsorgung** | Lebensdauer und Wiederverwendung der Geräte berichten -- als Grundlage für die nächste Beschaffung |
+
+\normalsize
+
+## Hürden für Veränderung
+
+- Fokusgruppen mit *digital Research Technical Professionals* (dRTPs).
+- Vorstudie: Was hindert daran, Nachhaltigkeit in der digitalen Forschungsinfrastruktur zu verankern?
+- Erkannte Lücken in der Ausbildung: **Beschaffung**, **Benchmarking**, **Advocacy**.
+
+\vfill
+
+> "We can't just hope for a brighter day, we have to work for a brighter day." -- Dolly Parton
+
+\vfill
+\footnotesize
+*Greening Digital Research*, Weronika Filinger (EPCC). Material zu Advocacy: <https://github.com/KirstyPringle/advocacy-for-sustainable-research>
+\normalsize
+
+# Do one thing
+
+## Klein, mittel, groß
+
+- **Klein:** das Training *Sustainable Digital Research Activities* machen -- <https://sdratraining.sparkhub.eu/>
+- **Mittel:** mitreden -- <https://forum.escs-community.org/>
+- **Groß:** eine Forschungsgruppe durch **Green DiSC** begleiten:
+    - freies, offen zugängliches Zertifizierungsverfahren
+    - gibt einen Fahrplan zur Emissionsminderung vor
+    - legitimiert die Arbeit an diesem Thema
+
+\vfill
+
+Führungsrollen: *Developing a Community of Leaders in Digital Research* -- <https://discourse-network.github.io/>
+
+# Reflexion
+
+## Diskussion
+
+> "No one is too small to make a difference." -- Greta Thunberg
+
+\vfill
+
+- [TODO] Diskussionsfrage für die Gruppe
+
+## Literatur
+
+::: {#refs}
+:::

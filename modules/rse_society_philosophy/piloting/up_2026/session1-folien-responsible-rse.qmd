@@ -3,7 +3,7 @@
 # Aufbau und Beamer-Setup wie das Management-Deck
 # (../../../rse_management/piloting/rwth_2026/folien-konfliktmanagement.qmd).
 # Platzhalter sind mit [TODO] markiert.
-title: "Responsible RSE"
+title: "Sitzung 1: Responsible RSE"
 format:
     beamer:
         keep-tex: true
@@ -116,6 +116,40 @@ Nach dieser Einheit können Sie ...
 
 ::::
 
+# RSE-Grundlagen
+
+## Was ist Forschungssoftware?
+
+- **Forschungssoftware:** Quellcode, Algorithmen, Skripte, Workflows und ausführbare Programme, die im Forschungsprozess oder für einen Forschungszweck entstanden sind [@gruenpeter-2021].
+- **Software in der Forschung:** wird für Forschung benutzt, ist aber nicht dafür entstanden, z. B. Betriebssysteme oder allgemeine Bibliotheken.
+- Die Spannweite reicht vom einmaligen Auswertungsskript bis zur Infrastruktur, die eine ganze Fachgemeinschaft nutzt.
+
+\vfill
+
+Forschungssoftware ist damit selbst ein Forschungsergebnis: Von ihr hängt ab, ob sich Ergebnisse nachvollziehen und wiederverwenden lassen.
+
+## Was ist Research Software Engineering?
+
+- **Research Software Engineers (RSEs)** entwickeln Forschungssoftware und verbinden Softwaretechnik mit dem Verständnis für die Forschung, der sie dient.
+- Der Begriff entstand 2012 auf einem Workshop des britischen Software Sustainability Institute [@hettrick-2016].
+- Kompetenzen in drei Bereichen [@goth-2024]:
+    - Softwaretechnik
+    - Forschung
+    - Kommunikation und Arbeit im Team
+
+## RSE als eigenes Feld
+
+Vier Säulen, auf denen RSE aufbaut [@cohen-2021]:
+
+- **Softwareentwicklung:** Forschungssoftware bauen und pflegen
+- **Community:** Austausch über Fächer und Einrichtungen hinweg
+- **Ausbildung:** Forschende und RSEs qualifizieren
+- **Policy:** Anerkennung, Finanzierung, Karrierewege
+
+\vfill
+
+Für Deutschland beschreibt ein Positionspapier aus der de-RSE-Community Stand, offene Probleme und Forderungen zu nachhaltiger Forschungssoftware [@anzt-2021].
+
 # Aspekte
 
 ## Querschnittsbelange
@@ -187,10 +221,12 @@ In dieser Informatik-Veranstaltung werden diese Aspekte nicht nur diskutiert, so
 ## Grenzen automatischer Prüfung
 
 - Ein automatischer Befund ist ein Hinweis, kein Urteil.
-- Metriken laden zum Optimieren ein (Goodhart).
+- Metriken laden zum Optimieren ein: Wird eine Messgröße zum Ziel, taugt sie nicht mehr als Messgröße [Goodharts Gesetz, @goodhart-1984, KI-recherchiert].
 - [TODO] Diskussionsfrage für die Gruppe
 
-## Literatur
+## Literatur {.allowframebreaks}
+
+\footnotesize
 
 ::: {#refs}
 :::

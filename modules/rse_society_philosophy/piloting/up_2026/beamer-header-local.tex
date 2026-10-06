@@ -21,3 +21,16 @@
 \setbeamercolor{itemize item}{fg=black}
 \setbeamercolor{itemize subitem}{fg=black}
 \setbeamercolor{itemize subsubitem}{fg=black}
+
+% Code blocks and inline code: the legacy `times` package leaves \ttfamily on a
+% proportional face under XeLaTeX, which breaks the column alignment of terminal
+% output. TeX Gyre Cursor is the monospaced member of the same family.
+\setmonofont{texgyrecursor}[
+  Extension      = .otf,
+  UprightFont    = *-regular,
+  BoldFont       = *-bold,
+  ItalicFont     = *-italic,
+  BoldItalicFont = *-bolditalic,
+  Scale          = 0.9,
+  Ligatures      = NoCommon,
+]
