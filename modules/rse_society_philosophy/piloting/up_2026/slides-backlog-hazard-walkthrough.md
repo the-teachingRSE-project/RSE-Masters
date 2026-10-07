@@ -1,7 +1,7 @@
 # Slide backlog — Einen Hazard von Hand bauen (up_2026)
 
 Ideas from the walkthrough "add `hardware_dependency` by hand, step by step".
-Deck: `folien-rse-annotations.qmd` (new section after "Refactoring-Lehrstücke").
+Deck: `session2-folien-rse-annotations.qmd` (new section after "Refactoring-Lehrstücke").
 The hazard is coded manually, not generated — the slides follow the same steps.
 
 ## Motivation

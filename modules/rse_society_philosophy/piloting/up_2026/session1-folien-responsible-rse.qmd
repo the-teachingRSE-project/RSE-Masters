@@ -72,15 +72,14 @@ Nach dieser Einheit können Sie ...
 8. Coding Dojo I
 9. Coding Dojo II
 10. Coding Dojo III
-11. Coding Dojo IV
 
 **Abschluss**
 
-12. Studentische Präsentationen I
-13. Studentische Präsentationen II
-14. Studentische Präsentationen III
-15. Studentische Präsentationen IV
-16. Studentische Präsentationen V
+11. Studentische Präsentationen I
+12. Studentische Präsentationen II
+13. Studentische Präsentationen III
+14. Studentische Präsentationen IV
+15. Studentische Präsentationen V
 :::
 
 ::::
@@ -107,9 +106,10 @@ Nach dieser Einheit können Sie ...
 | Anteil | Leistung |
 |---:|---|
 | 30 % | Mitarbeit |
-| 10 % | Mitarbeit in der Softwareentwicklung |
-| 40 % | Seminararbeit |
+| 50 % | Software + Seminararbeit |
 | 20 % | Vortrag |
+
+**Punktesumme:** Seminararbeit bis 15 Punkte, Software bis 12 Punkte. Die Punkte werden addiert; 15 Punkte sind die beste Note (Notenpunkte wie in der Oberstufe).
 
 \normalsize
 :::

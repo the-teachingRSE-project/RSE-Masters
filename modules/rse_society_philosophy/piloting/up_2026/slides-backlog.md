@@ -1,7 +1,7 @@
 # Slide backlog — Responsible RSE (up_2026, Universität Potsdam)
 
 Ideas collected during the code walkthrough of `publications/rse_code_annotations`.
-Deck: `folien-responsible-rse.qmd`. Build slides from here step by step, together.
+Deck: `session1-folien-responsible-rse.qmd`. Build slides from here step by step, together.
 Never state a fixed number of decorators — the set grows.
 
 ## Decorators (`rse_annotations/decorators/`)

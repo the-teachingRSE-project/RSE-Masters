@@ -118,6 +118,48 @@ Im Beispiel verletzt der Code die Vorgabe `tri(1) = 3` und läuft trotzdem.
 
 ![Kategorien von Code-Halluzinationen [@liu-2024].](img/liu-2024-halluzination-taxonomie.png){width=88%}
 
+## Vibe Coding: Praxis, Erleben und Folgen
+
+![Vibe Coding: Praxis, Erleben und Folgen [@pimenova-2025].](img/pimenova-2025-vibe-coding.png){width=92%}
+
+## Generierter Code und Open-Source-Lizenzen
+
+\small
+
+@xu-2025 (LiCoEval, ICSE 2025): Hält generierter Code die Lizenzen seiner Vorlagen ein?
+
+- **Herkunft:** Die Modelle sind mit lizenziertem Open-Source-Code trainiert und geben Teile davon samt Kommentaren fast wörtlich wieder.
+- **Die Lizenz geht verloren:** Wiederverwendung ist erlaubt, aber an Bedingungen geknüpft, auch bei permissiven Lizenzen (z. B. Namensnennung und Änderungsvermerk bei Apache-2.0). Der generierte Code kommt ohne diese Angaben.
+- **Befund:** 14 Modelle, 4.187 Python-Funktionen. Bei den drei stärksten Modellen sind 0,88 bis 2,01 % der Ausgaben einer Vorlage „auffallend ähnlich“ (*striking similarity*).
+- **Nachfrage hilft kaum:** Die meisten Modelle nennen die Lizenz nicht korrekt. Bei Copyleft-Code liegt die Trefferquote bei allen Modellen bis auf eines bei null.
+- **Nicht prüfbar:** Die Trainingsdaten sind meist nicht offengelegt.
+- **Folge:** Das rechtliche Risiko liegt bei denen, die den Code verwenden.
+
+Grenzen der Studie: nur Python, nur einzelne Funktionen, bewusst strenger Schwellenwert.
+
+## Zehn Regeln für KI-gestütztes Programmieren in der Wissenschaft
+
+\small
+
+@bridgeford-2025: *Ten Simple Rules for AI-Assisted Coding in Science*
+
+:::: {.columns}
+::: {.column width="50%"}
+1. Gather Domain Knowledge Before Implementation
+2. Distinguish Problem Framing from Coding
+3. Choose Appropriate AI Interaction Models
+4. Start by Thinking Through a Potential Solution
+5. Manage Context Strategically
+:::
+::: {.column width="50%"}
+6. Implement Test-Driven Development with AI
+7. Leverage AI for Test Planning and Refinement
+8. Monitor Progress and Know When to Restart
+9. Critically Review Generated Code
+10. Refine Code Incrementally with Focused Objectives
+:::
+::::
+
 <!--
 AUSKOMMENTIERT am 2026-10-06: Entwurf ohne Quellen, vom Dozenten als nicht belegt verworfen.
 Nicht wieder einblenden, ohne die Inhalte zu klären.
