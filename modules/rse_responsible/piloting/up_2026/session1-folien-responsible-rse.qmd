@@ -1,5 +1,5 @@
 ---
-# Folienvorlage für das Modul "Responsible RSE" (rse_society_philosophy).
+# Folienvorlage für das Modul "Responsible RSE" (rse_responsible).
 # Aufbau und Beamer-Setup wie das Management-Deck
 # (../../../rse_management/piloting/rwth_2026/folien-konfliktmanagement.qmd).
 # Platzhalter sind mit [TODO] markiert.

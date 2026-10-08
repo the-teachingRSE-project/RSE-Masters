@@ -34,7 +34,7 @@
 - [RSEng Nuts and Bolts](../modules/rse_nuts_bolts.qmd)
 - [Research Paradigms and Methodology for RSEs](../modules/rse_researchmethods.qmd)
 - [Scientific Computing](../modules/rse_scientificcomputing.qmd)
-- [Responsible RSE](../modules/rse_society_philosophy.qmd)
+- [Responsible RSE](../modules/rse_responsible.qmd)
 - [Software Engineering for RSEs](../modules/rse_softwareengineering.qmd)
 - [RSEng Teaching](../modules/rse_teaching.qmd)
 - [Master's Thesis](../modules/rse_thesis.qmd)
@@ -128,7 +128,7 @@
 
 {{< include ../modules/rse_scientificcomputing.qmd >}}
 
-{{< include ../modules/rse_society_philosophy.qmd >}}
+{{< include ../modules/rse_responsible.qmd >}}
 
 {{< include ../modules/rse_softwareengineering.qmd >}}
 

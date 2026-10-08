@@ -1,5 +1,5 @@
 ---
-# Sitzung 3 des Moduls "Responsible RSE" (rse_society_philosophy).
+# Sitzung 3 des Moduls "Responsible RSE" (rse_responsible).
 # Beamer-Setup wie session1-folien-responsible-rse.qmd.
 # Stub: nur Gerüst, alle Inhalte sind mit [TODO] markiert.
 title: "Sitzung 3: Testing"
