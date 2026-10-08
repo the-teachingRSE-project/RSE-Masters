@@ -34,7 +34,7 @@
 - [RSEng Nuts and Bolts](../modules/rse_nuts_bolts.qmd)
 - [Research Paradigms and Methodology for RSEs](../modules/rse_researchmethods.qmd)
 - [Scientific Computing](../modules/rse_scientificcomputing.qmd)
-- [RSEng, Ethics & Society](../modules/rse_society_philosophy.qmd)
+- [Responsible RSE](../modules/rse_society_philosophy.qmd)
 - [Software Engineering for RSEs](../modules/rse_softwareengineering.qmd)
 - [RSEng Teaching](../modules/rse_teaching.qmd)
 - [Master's Thesis](../modules/rse_thesis.qmd)
@@ -56,7 +56,7 @@
 | Seminar | Software Engineering for RSEs | 2 | 0 | 3 | 0 | 0 |[Research Software Engineering](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)| yes |
 | Exercise | Software Engineering Exercise for RSEs | 2 | 0 | 3 | 0 | 0 |[Research Software Engineering](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)| yes |
 | Seminar | Research Paradigms and Methodology for RSEs | 2 | 0 | 3 | 0 | 0 || yes |
-| Seminar | RSEng, Ethics & Society | 2 | 0 | 3 | 0 | 0 |[Basismodul Grundlagen der Theoretischen Philosophie](https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/philosophie)| yes |
+| Seminar | Responsible RSE | 2 | 0 | 3 | 0 | 0 |[Basismodul Grundlagen der Theoretischen Philosophie](https://www.uni-potsdam.de/de/studium/konkret/rechtsgrundlagen/studienordnungen/philosophie)| yes |
 | any | Compulsory Elective 1 | 4 | 0 | 6 | 0 | 0 || no |
 | any | Compulsory Elective 2 | 4 | 0 | 6 | 0 | 0 || no |
 | any | Compulsory Elective 3 | 4 | 0 | 6 | 0 | 0 || no |

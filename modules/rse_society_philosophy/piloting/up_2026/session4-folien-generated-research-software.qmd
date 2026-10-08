@@ -1,9 +1,9 @@
 ---
-# Sitzung 3 des Moduls "RSEng, Ethics & Society" (rse_society_philosophy).
+# Sitzung 4 des Moduls "Responsible RSE" (rse_society_philosophy).
 # Beamer-Setup wie session1-folien-responsible-rse.qmd.
 # Erster Entwurf; offene Stellen sind mit [TODO] markiert.
 # Kandidaten für weitere Belege: literature-links.md, Abschnitt 1 (noch nicht geprüft).
-title: "Sitzung 3: Generierte Forschungssoftware"
+title: "Sitzung 4: Generierte Forschungssoftware"
 format:
     beamer:
         keep-tex: true

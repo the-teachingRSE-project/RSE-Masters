@@ -85,7 +85,7 @@ Implemented in:
 Implemented in:
 
 - [RSEng Management](modules/rse_management.qmd)
-- [RSEng, Ethics & Society](modules/rse_society_philosophy.qmd)
+- [Responsible RSE](modules/rse_society_philosophy.qmd)
 - [RSEng Teaching](modules/rse_teaching.qmd)
 
 

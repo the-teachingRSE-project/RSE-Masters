@@ -1,4 +1,4 @@
-# Autorschaft für den Potsdamer Pilot (up_2026) von "RSEng, Ethics & Society".
+# Autorschaft für den Potsdamer Pilot (up_2026) von "Responsible RSE".
 # Quarto hängt author-Listen aus _quarto.yml und diesem Ordner aneinander, statt sie zu
 # ersetzen. Darum steht die Pilot-Autorschaft unter pilot-author; pilot-author.lua setzt sie
 # als einzige author-Liste für alle Folien in diesem Ordner.

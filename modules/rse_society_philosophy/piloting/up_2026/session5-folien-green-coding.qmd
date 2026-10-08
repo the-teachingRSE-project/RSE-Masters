@@ -1,10 +1,10 @@
 ---
-# Sitzung 4 des Moduls "RSEng, Ethics & Society" (rse_society_philosophy).
+# Sitzung 5 des Moduls "Responsible RSE" (rse_society_philosophy).
 # Beamer-Setup wie session1-folien-responsible-rse.qmd.
 # Aufbau und Inhalt folgen der Keynote von Kirsty Pringle auf der RSECon26
 # (https://doi.org/10.5281/zenodo.22657359, CC BY 4.0). Die Keynote besteht überwiegend
 # aus Bildern; übernommen ist der Text der Folien, keine Abbildungen.
-title: "Sitzung 4: Green Coding"
+title: "Sitzung 5: Green Coding"
 subtitle: "Basierend auf der Keynote von Kirsty Pringle auf der RSECon26"
 format:
     beamer:

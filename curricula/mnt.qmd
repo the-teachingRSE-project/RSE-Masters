@@ -37,7 +37,7 @@ ECTS that apply to Track 2.
 <tr class="mod a-tech"><td><a href="../modules/rse_softwareengineering.html">Software Development for RSEs</a></td><td class="ects">6</td></tr>
 <tr class="area a-soc"><td>Social Competencies for RSEs</td><td class="ects">12</td></tr>
 <tr class="mod a-soc"><td><a href="../modules/rse_management.html">RSEng Management</a></td><td class="ects">6</td></tr>
-<tr class="mod a-soc"><td><a href="../modules/rse_society_philosophy.html">RSEng, Ethics &amp; Society</a></td><td class="ects">3</td></tr>
+<tr class="mod a-soc"><td><a href="../modules/rse_society_philosophy.html">Responsible RSE</a></td><td class="ects">3</td></tr>
 <tr class="mod a-soc"><td><a href="../modules/rse_teaching.html">RSEng Teaching</a></td><td class="ects">3</td></tr>
 <tr class="area a-res"><td>RSEng Research</td><td class="ects">42</td></tr>
 <tr class="mod a-res"><td><a href="../modules/rse_lectureseries.html">RSEng Lecture Series</a></td><td class="ects">3</td></tr>

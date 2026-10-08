@@ -35,7 +35,7 @@ jobs:
       - name: compile pdf
         continue-on-error: true
         run: quarto render --profile doc
-      # RWTH slide decks are committed as pre-built PDFs and linked directly
+      # RWTH and Potsdam (up_2026) slide decks are committed as pre-built PDFs and linked directly
       # (see modules/rse_researchmethods.qmd), so CI no longer renders them —
       # this keeps the Pages build fast and avoids the slow/hanging beamer
       # LaTeX renders. Rebuild the PDFs locally and commit them when a deck changes.

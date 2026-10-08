@@ -1,0 +1,46 @@
+---
+# Sitzung 3 des Moduls "Responsible RSE" (rse_society_philosophy).
+# Beamer-Setup wie session1-folien-responsible-rse.qmd.
+# Stub: nur Gerüst, alle Inhalte sind mit [TODO] markiert.
+title: "Sitzung 3: Testing"
+format:
+    beamer:
+        keep-tex: true
+        colortheme: crane
+        fonttheme: structureitalicserif
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: xelatex
+        include-in-header:
+            - ../../../rse_researchmethods/piloting/rwth_2026/beamer-header.tex
+            - beamer-header-local.tex
+        latex-auto-install: false
+        section-titles: true
+
+bibliography:
+    - references.bib
+---
+
+# Einordnung
+
+## Lernziele
+
+Nach dieser Einheit können Sie ...
+
+- [TODO]
+
+## Ablauf
+
+- [TODO]
+
+# Testing
+
+## [TODO]
+
+- [TODO]
+
+# Reflexion
+
+## Diskussion
+
+- [TODO]

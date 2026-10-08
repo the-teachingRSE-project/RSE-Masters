@@ -1,5 +1,5 @@
 ---
-# Folienvorlage für das Modul "RSEng, Ethics & Society" (rse_society_philosophy).
+# Folienvorlage für das Modul "Responsible RSE" (rse_society_philosophy).
 # Aufbau und Beamer-Setup wie das Management-Deck
 # (../../../rse_management/piloting/rwth_2026/folien-konfliktmanagement.qmd).
 # Platzhalter sind mit [TODO] markiert.
@@ -58,11 +58,11 @@ Nach dieser Einheit können Sie ...
 
 1. Organisatorisches
 2. Aspects of Responsible Research Software Engineering and Project Introduction
-3. Generierte Forschungssoftware
-4. Green Coding
-5. Open-Science-Qualitätsmerkmale \
+3. Testing
+4. Generierte Forschungssoftware
+5. Green Coding
+6. Open-Science-Qualitätsmerkmale \
    *optional:* Legal Aspects and Privacy
-6. Forschungssoftware und Cybersicherheit
 7. Nicht-deterministische Forschungssoftware (und LLMs)
 :::
 
@@ -216,13 +216,18 @@ z. B. Logging, Zugriffsrechte, Transaktionen, Zeitmessung, Prüfung.
 
 In dieser Informatik-Veranstaltung werden diese Aspekte nicht nur diskutiert, sondern als Prüfungen implementiert.
 
-# Reflexion
+# Themenwahl
 
-## Grenzen automatischer Prüfung
+## Themenwahl: Ihr Hazard-Plugin
 
-- Ein automatischer Befund ist ein Hinweis, kein Urteil.
-- Metriken laden zum Optimieren ein: Wird eine Messgröße zum Ziel, taugt sie nicht mehr als Messgröße [Goodharts Gesetz, @goodhart-1984, KI-recherchiert].
-- [TODO] Diskussionsfrage für die Gruppe
+- Testen von RSE
+- Generierte Forschungssoftware
+- Green Coding
+- Open-Science-Qualitätsmerkmale
+- Legal Aspects and Privacy
+- Nicht-deterministische Forschungssoftware (und LLMs)
+- Cybersicherheit
+- AI-based research
 
 ## Literatur {.allowframebreaks}
 

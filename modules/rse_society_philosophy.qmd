@@ -1,4 +1,4 @@
-## RSEng, Ethics & Society
+## Responsible RSE
 ### Introduction
 
 The RSE master's program is more than a computer science specialisation for researchers. People working as RSEs are often involved in digitalization projects, institutional development or other non-technical tasks. Also, introducing students to cutting-edge technologies, raises ethical questions. To talk about the impact of RSE on society, is therefore crucial. This module addresses the social context of RSEng. Students examine issues relating to sustainability, ethics, responsibility and the impact of new technologies. 
@@ -27,6 +27,18 @@ This module conveys competences in areas such as but not limited to:
 - awareness of societal consequences
 - conducting and leading research (NEW)
 - understanding the research cycle (RC)
+
+## Example OER from Piloting
+
+### University of Potsdam Seminar: Responsible RSE (winter semester 2026/27)
+
+The slides are in German and still under development.
+
+- [Session 1: Responsible RSE](rse_society_philosophy/piloting/up_2026/session1-folien-responsible-rse.pdf)
+- [Session 2: RSE Annotations](rse_society_philosophy/piloting/up_2026/session2-folien-rse-annotations.pdf)
+- [Session 3: Testing (stub)](rse_society_philosophy/piloting/up_2026/session3-folien-testing.pdf)
+- [Session 4: Generated Research Software](rse_society_philosophy/piloting/up_2026/session4-folien-generated-research-software.pdf)
+- [Session 5: Green Coding](rse_society_philosophy/piloting/up_2026/session5-folien-green-coding.pdf)
 
 ### Sources & Implementations:
 

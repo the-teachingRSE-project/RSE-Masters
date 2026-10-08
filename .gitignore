@@ -16,6 +16,12 @@ modules/rse_researchmethods/piloting/rwth_2026/img/img.png
 # (beamer-header-local.tex is a hand-written include and is force-added.)
 modules/rse_management/piloting/rwth_2026/folien-konfliktmanagement.tex
 
+# Responsible RSE pilot (up_2026): same convention - commit the PDFs, ignore generated tex.
+# (beamer-header-local.tex is a hand-written include and is already tracked.)
+modules/rse_society_philosophy/piloting/up_2026/session*.tex
+modules/rse_society_philosophy/piloting/up_2026/*_files/
+.Rhistory
+
 /index_files
 index.aux
 index.tex
