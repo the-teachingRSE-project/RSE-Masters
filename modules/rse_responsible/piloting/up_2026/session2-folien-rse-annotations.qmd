@@ -192,21 +192,21 @@ class Record:
 @dataclass(frozen=True)
 class Concern(ABC):
     name: str
-    help: str
+    assertion: ClassVar[str]                 # setzt jede Unterklasse
 
     @abstractmethod
     def detect(self, v: FunctionView) -> Optional[Evidence]: ...
     def __call__(self, fn=None, **meta):     # die Instanz *ist* der Decorator
         ...
 
-stochastic = Stochastic("stochastic", "Ist der Zufall geseedet?")
+stochastic = Stochastic("stochastic")
 @stochastic
 def sample(papers): ...
 ```
 
 \normalsize
 
-- Zwei Felder: Name und Frage an die Prüferin. `detect` schreibt jede Unterklasse.
+- Ein Feld (`name`). Die **Behauptung** (`assertion`) und `detect` liefert jede Unterklasse.
 - `frozen`: Kein Plugin kann einen Concern zur Laufzeit umbauen.
 
 ## Beispiel: `FunctionView` und eine Fabrikmethode
@@ -265,7 +265,7 @@ class Concern(ABC):
 
 - `ABC` macht die Klasse **abstrakt**; `@abstractmethod` markiert die Methode, die jede Unterklasse schreiben **muss**.
 - Der Rumpf ist leer, nur ein Docstring oder `...`: Er beschreibt den Vertrag, nicht die Umsetzung.
-- Die Basisklasse legt fest, *was* ein Concern ist (Name, Frage, Decorator). *Wie* er erkannt wird, entscheidet die Unterklasse.
+- Die Basisklasse legt fest, *was* ein Concern ist (Name, Behauptung, Decorator). *Wie* er erkannt wird, entscheidet die Unterklasse.
 
 ## Unterklasse implementiert `detect`
 
@@ -273,6 +273,9 @@ class Concern(ABC):
 
 ```python
 class Stochastic(Concern):
+    assertion = ("The seed is an explicit parameter, "
+                 "so the result can be regenerated.")
+
     def detect(self, v):
         hits = sorted(v.called & RNG_CALLS)
         if not hits:
@@ -281,13 +284,14 @@ class Stochastic(Concern):
             return f"nutzt {hits[0]}, Seed als Parameter", "high"
         return f"nutzt {hits[0]} ohne Seed-Parameter", "high"
 
-CONCERN = Stochastic("stochastic", "Ist der Zufall geseedet?")
+CONCERN = Stochastic("stochastic")
 ```
 
 \normalsize
 
 - Jeder Concern-Ordner hat eine `concern.py` mit genau einer solchen Unterklasse und der Instanz `CONCERN`.
 - `registry.py` lädt alle `concern.py` und baut daraus die Tabelle `CONCERNS`.
+- `--inspect` fragt zu jeder markierten Funktion: *Does the assertion "..." hold?*
 
 ## Was passiert, wenn `detect` fehlt?
 
@@ -295,9 +299,9 @@ CONCERN = Stochastic("stochastic", "Ist der Zufall geseedet?")
 
 ```python
 class Vergessen(Concern):
-    pass
+    assertion = "..."
 
-Vergessen("vergessen", "?")
+Vergessen("vergessen")
 # TypeError: Can't instantiate abstract class Vergessen
 #            without an implementation for abstract method 'detect'
 ```
@@ -306,6 +310,7 @@ Vergessen("vergessen", "?")
 
 - Der Fehler kommt beim **Erzeugen**, nicht erst beim ersten Aufruf von `detect`.
 - Mit `raise NotImplementedError` statt `@abstractmethod` würde das Plugin geladen und erst mitten im Scan scheitern.
+- `ABC` erzwingt nur Methoden, keine Attribute: Eine fehlende `assertion` meldet die Registry.
 - Python prüft das zur Laufzeit beim Laden der Registry, Java schon beim Kompilieren.
 
 ## Vergleich: Java
@@ -318,14 +323,14 @@ Vergessen("vergessen", "?")
 
 ```java
 public abstract class Concern {
-    final String name, help;
+    final String name;
 
-    Concern(String name, String help) {
+    Concern(String name) {
         this.name = name;
-        this.help = help;
     }
 
     // kein Rumpf
+    abstract String assertion();
     abstract Optional<Evidence>
         detect(FunctionView v);
 }
@@ -356,15 +361,16 @@ interface Detector {
 @dataclass(frozen=True)
 class Concern(ABC):
     name: str
-    help: str
+    assertion: ClassVar[str]        # Klassenattribut, kein Feld im __init__
 
     @abstractmethod
     def detect(self, v): ...
 
 class Stochastic(Concern):          # kein eigenes @dataclass nötig
+    assertion = "The seed is an explicit parameter, ..."
     def detect(self, v): ...
 
-Stochastic("stochastic", "Ist der Zufall geseedet?")   # geerbtes __init__
+Stochastic("stochastic")            # geerbtes __init__
 ```
 
 \normalsize
