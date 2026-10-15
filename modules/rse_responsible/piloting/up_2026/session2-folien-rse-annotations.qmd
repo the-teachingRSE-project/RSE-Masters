@@ -417,6 +417,29 @@ decorators/
 - Die Instanz ist zugleich **Decorator** (`__call__` hängt den Namen an die Funktion) und **Detektor** (`detect` liest den AST).
 - `load()` erzeugt die Instanzen erst, wenn es aufgerufen wird. Beim `import` passiert nichts.
 
+## Convention over Configuration
+
+\footnotesize
+
+```python
+def load_one(name: str) -> Concern:
+    """Import ``<name>/<ClassName>.py`` and create its one instance."""
+    cls = class_name(name)
+    sub = getattr(importlib.import_module(f"{__package__}.{name}.{cls}"), cls, None)
+    if not (isinstance(sub, type) and issubclass(sub, Concern)):
+        raise ValueError(f"{name}/{cls}.py must define class {cls}(Concern)")
+    c = sub(name)
+    if not getattr(c, "assertion", ""):
+        raise ValueError(f"concern {name!r} sets no assertion")
+    return c
+```
+
+\normalsize
+
+- Keine Konfigurationsdatei, keine Liste der Concerns: Der **Ordnername** legt alles fest.
+- `stochastic/` → `Stochastic.py` → `class Stochastic(Concern)` → `@stochastic`
+- Wer sich an die Konvention hält, registriert nichts. Wer abweicht, bekommt beim Laden einen klaren Fehler.
+
 ## Verdict im Code
 
 \footnotesize
@@ -517,3 +540,23 @@ review(project)                         # pro (Funktion, Concern) ein Verdict
 | Als Decorator nutzbar | ja (`__call__`) | nein (Annotation + Record) |
 
 \normalsize
+
+# Mitmachen
+
+## Das Repository
+
+:::: {.columns}
+::: {.column width="38%"}
+![](qr-rse-annotations.png){width=85%}
+
+\footnotesize
+[github.com/juliandehne/rse_code_annotations](https://github.com/juliandehne/rse_code_annotations)
+:::
+::: {.column width="58%"}
+**Plan für den Kurs**
+
+- Jede Gruppe **forkt** das Repository und arbeitet in ihrem Fork.
+- Neue Concerns und Verbesserungen kommen per **Pull Request** zurück ins Repository.
+- Probleme mit dem Basiscode: ein **Issue** im Repository.
+:::
+::::
