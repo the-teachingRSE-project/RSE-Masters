@@ -267,8 +267,7 @@ CONCERN = Stochastic("stochastic")
 
 \normalsize
 
-- Jeder Concern-Ordner hat eine `concern.py` mit genau einer solchen Unterklasse und der Instanz `CONCERN`.
-- `registry.py` lädt alle `concern.py` und baut daraus die Tabelle `CONCERNS`.
+- Wie in Java heißt die Datei wie die Klasse: `stochastic/Stochastic.py`. `registry.py` lädt sie aus jedem Concern-Ordner in die Tabelle `CONCERNS`.
 - `--inspect` fragt zu jeder markierten Funktion: *Does the assertion "..." hold?*
 
 ## Was passiert, wenn `detect` fehlt?
