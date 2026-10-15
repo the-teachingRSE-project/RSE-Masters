@@ -1,6 +1,6 @@
 ---
 # Neue Fassung von Sitzung 2 (die alte liegt in session2_deprecated.qmd).
-# Grundlagen für den schlanken Prototyp rse_annotations (Branch gen_code_prototype).
+# Grundlagen für den schlanken Prototyp rse_annotations (Branch main; die längere Fassung liegt auf gen_code_prototype).
 # Nie eine feste Anzahl von Decorators nennen -- die Menge wächst.
 title: "Sitzung 2: rse_annotations -- Forschungscode markieren und prüfen"
 subtitle: "Grundlagen: Immutabilität und Dataclasses"
