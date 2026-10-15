@@ -398,25 +398,6 @@ Stochastic("stochastic")            # geerbtes __init__
 
 # Das Modell im Prototyp
 
-## Concern im Code
-
-\footnotesize
-
-```
-decorators/
-  _base.py                    class Concern(ABC)       # name, assertion, detect, __call__
-  registry.py                 load() -> {name: Concern}
-  calculations/Calculations.py   class Calculations(Concern)
-  model_call/ModelCall.py        class ModelCall(Concern)
-  ...
-```
-
-\normalsize
-
-- Ein Concern: ein Ordner, eine Klasse, **eine** Instanz.
-- Die Instanz ist zugleich **Decorator** (`__call__` hängt den Namen an die Funktion) und **Detektor** (`detect` liest den AST).
-- `load()` erzeugt die Instanzen erst, wenn es aufgerufen wird. Beim `import` passiert nichts.
-
 ## Convention over Configuration
 
 \footnotesize
@@ -524,22 +505,6 @@ review(project)                         # pro (Funktion, Concern) ein Verdict
 
 - `python -m rse_annotations PATH` macht genau das: `--analyze` bis `scan`, `--inspect` bis `review`.
 - **Concern** ist unveränderlich und für alle Projekte gleich, **Project** ist unveränderlich und beschreibt einen Prüflauf, **Verdict** ist das einzige Objekt, das sich im Lauf ändert.
-
-## Python und Java im Überblick
-
-\footnotesize
-
-| | Python | Java |
-|---|---|---|
-| Wertklasse | `@dataclass(frozen=True)` | `record` |
-| Beim Erzeugen anpassen | `__post_init__` | compact constructor |
-| Unveränderliche Sammlung | `tuple`, `frozenset` | `List.copyOf`, `Set.copyOf` |
-| Fabrikmethode | `@classmethod of(...)` | `static of(...)` |
-| Kopie mit Änderung | `dataclasses.replace` | Wither, `toBuilder()` |
-| Abstrakte Methode | `@abstractmethod` | `abstract` |
-| Als Decorator nutzbar | ja (`__call__`) | nein (Annotation + Record) |
-
-\normalsize
 
 # Mitmachen
 
