@@ -190,24 +190,24 @@ class Record:
 
 ```python
 @dataclass(frozen=True)
-class Concern:
+class Concern(ABC):
     name: str
     help: str
-    detect: Callable[[FunctionView], Optional[Evidence]] = field(repr=False)
 
+    @abstractmethod
+    def detect(self, v: FunctionView) -> Optional[Evidence]: ...
     def __call__(self, fn=None, **meta):     # die Instanz *ist* der Decorator
         ...
 
-stochastic = Concern("stochastic", "Ist der Zufall geseedet?", detect)
-
+stochastic = Stochastic("stochastic", "Ist der Zufall geseedet?")
 @stochastic
 def sample(papers): ...
 ```
 
 \normalsize
 
-- Drei Felder: Name, die Frage an die Prüferin, der Detektor.
-- `frozen`: kein Detektor und kein Plugin kann einen Concern zur Laufzeit umbauen.
+- Zwei Felder: Name und Frage an die Prüferin. `detect` schreibt jede Unterklasse.
+- `frozen`: Kein Plugin kann einen Concern zur Laufzeit umbauen.
 
 ## Beispiel: `FunctionView` und eine Fabrikmethode
 
@@ -246,6 +246,132 @@ c2 = replace(c, help="Ist der Seed dokumentiert?")
 - `dataclasses.replace` erzeugt eine Kopie mit geänderten Feldern.
 - Java: *Wither*-Methoden (`withHelp(...)`) oder Lombok `@Value`/`@Builder` mit `toBuilder()`.
 
+# Abstrakte Klassen
+
+## Eine Methode ohne Rumpf
+
+\footnotesize
+
+```python
+from abc import ABC, abstractmethod
+
+class Concern(ABC):
+    @abstractmethod
+    def detect(self, v):
+        """Liefert (Grund, Konfidenz) oder None."""
+```
+
+\normalsize
+
+- `ABC` macht die Klasse **abstrakt**; `@abstractmethod` markiert die Methode, die jede Unterklasse schreiben **muss**.
+- Der Rumpf ist leer, nur ein Docstring oder `...`: Er beschreibt den Vertrag, nicht die Umsetzung.
+- Die Basisklasse legt fest, *was* ein Concern ist (Name, Frage, Decorator). *Wie* er erkannt wird, entscheidet die Unterklasse.
+
+## Unterklasse implementiert `detect`
+
+\footnotesize
+
+```python
+class Stochastic(Concern):
+    def detect(self, v):
+        hits = sorted(v.called & RNG_CALLS)
+        if not hits:
+            return None
+        if _seed(v):
+            return f"nutzt {hits[0]}, Seed als Parameter", "high"
+        return f"nutzt {hits[0]} ohne Seed-Parameter", "high"
+
+CONCERN = Stochastic("stochastic", "Ist der Zufall geseedet?")
+```
+
+\normalsize
+
+- Jeder Concern-Ordner hat eine `concern.py` mit genau einer solchen Unterklasse und der Instanz `CONCERN`.
+- `registry.py` lädt alle `concern.py` und baut daraus die Tabelle `CONCERNS`.
+
+## Was passiert, wenn `detect` fehlt?
+
+\footnotesize
+
+```python
+class Vergessen(Concern):
+    pass
+
+Vergessen("vergessen", "?")
+# TypeError: Can't instantiate abstract class Vergessen
+#            without an implementation for abstract method 'detect'
+```
+
+\normalsize
+
+- Der Fehler kommt beim **Erzeugen**, nicht erst beim ersten Aufruf von `detect`.
+- Mit `raise NotImplementedError` statt `@abstractmethod` würde das Plugin geladen und erst mitten im Scan scheitern.
+- Python prüft das zur Laufzeit beim Laden der Registry, Java schon beim Kompilieren.
+
+## Vergleich: Java
+
+\footnotesize
+
+:::: {.columns}
+::: {.column width="52%"}
+**Abstrakte Klasse**
+
+```java
+public abstract class Concern {
+    final String name, help;
+
+    Concern(String name, String help) {
+        this.name = name;
+        this.help = help;
+    }
+
+    // kein Rumpf
+    abstract Optional<Evidence>
+        detect(FunctionView v);
+}
+```
+:::
+::: {.column width="44%"}
+**Interface**
+
+```java
+interface Detector {
+    Optional<Evidence>
+        detect(FunctionView v);
+}
+```
+
+- Python kennt kein `interface`; eine `ABC` nur aus abstrakten Methoden spielt dieselbe Rolle.
+- Python erlaubt Mehrfachvererbung, also auch mehrere ABCs.
+:::
+::::
+
+\normalsize
+
+## Dataclass und ABC zusammen
+
+\footnotesize
+
+```python
+@dataclass(frozen=True)
+class Concern(ABC):
+    name: str
+    help: str
+
+    @abstractmethod
+    def detect(self, v): ...
+
+class Stochastic(Concern):          # kein eigenes @dataclass nötig
+    def detect(self, v): ...
+
+Stochastic("stochastic", "Ist der Zufall geseedet?")   # geerbtes __init__
+```
+
+\normalsize
+
+- Die Unterklasse **erbt** das generierte `__init__`, `__repr__`, `__eq__` und `frozen`.
+- Ein Java-`record` kann weder abstrakt sein noch erben. In Python lassen sich Wertklasse und abstrakte Basisklasse verbinden.
+
 ## Python und Java im Überblick
 
 \footnotesize
@@ -257,6 +383,7 @@ c2 = replace(c, help="Ist der Seed dokumentiert?")
 | Unveränderliche Sammlung | `tuple`, `frozenset` | `List.copyOf`, `Set.copyOf` |
 | Fabrikmethode | `@classmethod of(...)` | `static of(...)` |
 | Kopie mit Änderung | `dataclasses.replace` | Wither, `toBuilder()` |
+| Abstrakte Methode | `@abstractmethod` | `abstract` |
 | Als Decorator nutzbar | ja (`__call__`) | nein (Annotation + Record) |
 
 \normalsize
