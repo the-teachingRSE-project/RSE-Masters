@@ -19,6 +19,49 @@ format:
         section-titles: true
 ---
 
+# Die Bausteine
+
+## Drei Begriffe
+
+- **Concern**: eine Art von Schritt, von der abhängt, ob man einem Ergebnis trauen kann: ein Zufallszug, ein Modellaufruf, eine Rechnung, eine menschliche Entscheidung. Jeder Concern hat eine **Behauptung** (assertion), die für jede damit markierte Funktion gelten soll.
+- **Verdict**: das Urteil eines Menschen, ob die Behauptung für **eine** markierte Funktion gilt: `accepted`, `declined` oder `pending`.
+- **Project**: der geprüfte Code: ein Verzeichnis, die Concerns, nach denen gesucht wird, und die Verdicts, die dazu gesammelt wurden.
+
+\vfill
+
+\footnotesize
+
+| | Wer | Wo |
+|---|---|---|
+| Markieren | Autor:in des Forschungscodes | `@calculations` über der Funktion |
+| Entdecken | das Werkzeug | `detect` im statischen Scan |
+| Prüfen | Reviewer:in | `--inspect`: *Does the assertion "..." hold?* |
+
+\normalsize
+
+## Concern: der Begriff
+
+- Ein Concern benennt ein **Risiko**, keinen Fehler. `@model_call` heißt „hier wird ein Sprachmodell aufgerufen", nicht „hier ist etwas falsch".
+- Die Behauptung macht das Risiko prüfbar:
+
+\footnotesize
+
+| Concern | Behauptung (assertion) |
+|---|---|
+| `calculations` | This is a pure function whose formula matches the method described in the paper. |
+| `model_call` | Model, version, prompt and parameters of this language-model call are recorded. |
+
+\normalsize
+
+- Die Menge der Concerns ist offen: Ein neuer Concern ist ein neuer Ordner.
+
+## Verdict: der Begriff
+
+- Der Scan liefert nur **Vermutungen**. Ob eine Behauptung stimmt, entscheidet ein Mensch.
+- Ein Verdict gehört zu genau einem Paar (Funktion, Concern). Eine Funktion mit zwei Markierungen bekommt zwei Verdicts.
+- `accepted`: Behauptung gilt. `declined`: Behauptung gilt nicht. `pending`: noch offen (übersprungen).
+- Die Verdicts liegen in `inspection.yaml` neben dem Code. Ein zweiter Durchlauf schlägt die alten Urteile als Vorgabe vor; so kann das Review über mehrere Sitzungen laufen.
+
 # Immutabilität
 
 ## Was heißt unveränderlich?
@@ -352,6 +395,112 @@ Stochastic("stochastic")            # geerbtes __init__
 
 - Die Unterklasse **erbt** das generierte `__init__`, `__repr__`, `__eq__` und `frozen`.
 - Ein Java-`record` kann weder abstrakt sein noch erben. In Python lassen sich Wertklasse und abstrakte Basisklasse verbinden.
+
+# Das Modell im Prototyp
+
+## Concern im Code
+
+\footnotesize
+
+```
+decorators/
+  _base.py                    class Concern(ABC)       # name, assertion, detect, __call__
+  registry.py                 load() -> {name: Concern}
+  calculations/Calculations.py   class Calculations(Concern)
+  model_call/ModelCall.py        class ModelCall(Concern)
+  ...
+```
+
+\normalsize
+
+- Ein Concern: ein Ordner, eine Klasse, **eine** Instanz.
+- Die Instanz ist zugleich **Decorator** (`__call__` hängt den Namen an die Funktion) und **Detektor** (`detect` liest den AST).
+- `load()` erzeugt die Instanzen erst, wenn es aufgerufen wird. Beim `import` passiert nichts.
+
+## Verdict im Code
+
+\footnotesize
+
+:::: {.columns}
+::: {.column width="50%"}
+```python
+@dataclass
+class Verdict:
+    function: str
+    location: str       # datei.py:zeile
+    concern: str
+    formula: str = ""   # nur @calculations
+    verdict: str = "pending"
+    note: str = ""
+
+    @property
+    def key(self):
+        return (self.function,
+                self.location,
+                self.concern)
+```
+:::
+::: {.column width="46%"}
+```yaml
+# inspection.yaml
+inspections:
+  - function: "normalize"
+    location: "sample_pipeline.py:22"
+    concern: "calculations"
+    formula: "normalize(...) =
+              (value - lo) / (hi - lo)"
+    verdict: "accepted"
+    note: ""
+```
+:::
+::::
+
+\normalsize
+
+- `key` findet das alte Urteil beim nächsten Durchlauf wieder.
+- **Nicht** `frozen`: Das Review setzt `verdict`, nachdem die Antwort da ist.
+
+## Project: eine Klasse für den geprüften Code
+
+\footnotesize
+
+```python
+@dataclass(frozen=True)
+class Project:
+    root: Path
+    concerns: Dict[str, Concern]
+
+    def __post_init__(self):
+        object.__setattr__(self, "root", Path(self.root).resolve())
+
+    def files(self): ...            # alle *.py ohne Tests
+    def scan(self): ...             # -> (records, errors)
+    def verdicts(self): ...         # inspection.yaml lesen
+    def save(self, verdicts): ...   # inspection.yaml schreiben
+```
+
+\normalsize
+
+- Vorher: `scan(root, concerns)` und `review(root, concerns)`, und jede Funktion rechnete selbst aus, wo `inspection.yaml` liegt.
+- Jetzt bündelt **ein** Objekt Pfad, Concerns und Ablage: Daten und die Operationen darauf gehören zusammen.
+
+## Wie die drei zusammenspielen
+
+\footnotesize
+
+```python
+concerns = load()                       # {name: Concern}
+project  = Project("examples", concerns)
+
+records, errors = project.scan()        # Concern.detect für jede Funktion
+review(project)                         # pro (Funktion, Concern) ein Verdict
+                                        # -> project.save(...) nach jeder Antwort
+```
+
+\normalsize
+
+- `python -m rse_annotations PATH` macht genau das: `--analyze` bis `scan`, `--inspect` bis `review`.
+- **Concern** ist unveränderlich und für alle Projekte gleich, **Project** ist unveränderlich und beschreibt einen Prüflauf, **Verdict** ist das einzige Objekt, das sich im Lauf ändert.
 
 ## Python und Java im Überblick
 
