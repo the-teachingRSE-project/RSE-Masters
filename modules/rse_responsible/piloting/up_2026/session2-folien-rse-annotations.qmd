@@ -1,9 +1,9 @@
 ---
-# Projektfolien zu rse_code_annotations (publications/rse_code_annotations).
-# Aus slides-backlog.md gebaut; Beamer-Setup wie session1-folien-responsible-rse.qmd.
+# Neue Fassung von Sitzung 2 (die alte liegt in session2_deprecated.qmd).
+# Grundlagen für den schlanken Prototyp rse_annotations (Branch gen_code_prototype).
 # Nie eine feste Anzahl von Decorators nennen -- die Menge wächst.
 title: "Sitzung 2: rse_annotations -- Forschungscode markieren und prüfen"
-subtitle: "Ein Werkzeug für Responsible RSE"
+subtitle: "Grundlagen: Immutabilität und Dataclasses"
 format:
     beamer:
         keep-tex: true
@@ -19,356 +19,244 @@ format:
         section-titles: true
 ---
 
-# Idee
+# Immutabilität
 
-## Worum es geht
+## Was heißt unveränderlich?
 
-- Forschungscode wird zunehmend generiert. Niemand liest tausende Zeilen plausibel aussehenden Codes vollständig.
-- **Idee:** Wer den Code schreibt, *markiert* die Stellen, an denen das wissenschaftliche Ergebnis falsch werden kann.
-- Die Markierung ist ein **Filter**: Sie verkleinert die Menge an Code, die ein Mensch lesen muss -- für die Autorin (eigene Inspektion) wie für die Gutachterin (externes Review).
-- Werkzeuge (**Plugins**) führen den Menschen gezielt zu den markierten Stellen.
+- Ein **unveränderliches** (immutable) Objekt wird nach seiner Erzeugung nicht mehr geändert.
+- Eine „Änderung" erzeugt ein **neues** Objekt; das alte bleibt, wie es war.
 
 \vfill
 
-**Die Maschine schlägt vor, der Mensch entscheidet.**
-
-## Der Prozess
-
-```{mermaid}
-%%| fig-width: 5.8
-%%{init: {'themeVariables': {'fontSize': '24px'}}}%%
-flowchart LR
-    A["Annotieren<br/>Autor:in setzt Decorators"] --> B["Abdeckung analysieren<br/>Was ist markiert, was fehlt?"]
-    B --> C["Inspektion<br/>Mensch prüft, Urteil wird notiert"]
-    B --> D["Tests generieren"]
-    B --> E["Hazards analysieren"]
-    B --> F["Externes Review<br/>Gutachter:in liest nur das Markierte"]
-    F --> G["Reproduzierbarkeit<br/>prüfen"]
-```
-
-## Zwei Unterscheidungen, vier Felder
-
 \footnotesize
 
-**Woher kommt ein Hazard?** (Zeilen) -- **Muss der Code dafür laufen?** (Spalten)
-
-```{=latex}
-{\renewcommand{\arraystretch}{1.4}
-\begin{tabular}{>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}p{0.35\textwidth}|>{\raggedright\arraybackslash}p{0.35\textwidth}}
- & \textbf{ohne Ausführung} (statisch) & \textbf{zur Laufzeit} \\ \hline
-\textbf{erkannt}\newline das Werkzeug findet ihn
- & Hazard-Scan im Quelltext (AST): \texttt{stochastic}, \texttt{model\_call}, \texttt{config}; Abdeckung und Kandidaten
- & Checks mit Fixtures: Ist \texttt{@functional} wirklich rein? Liest \texttt{@data\_input} wirklich? \\ \hline
-\textbf{deklariert}\newline die Autorin setzt ihn
- & externes Review der markierten Stellen, z.B. \texttt{hardware\_dependency}
- & Inspektion mit abgeleiteter Formel, generierte Tests \\
-\end{tabular}}
-```
-
-\vfill
-
-- *Statisch* liest nur, importiert nichts: läuft überall -- auch ohne TensorFlow, ohne GPU.
-- *Zur Laufzeit* importiert den Code und ruft ihn auf: braucht die Abhängigkeiten und die Hardware.
-
-\normalsize
-
-## Aufbau
-
-\footnotesize
-
-| Ordner | Aufgabe |
-|---|---|
-| `decorators/` | die Markierungen selbst |
-| `scan/` | statische Analyse, importiert nichts |
-| `inspection/` | menschliche Prüfung, Urteile |
-| `core/` | Plugin-Vertrag, Zielprojekt, Befunde |
-| `plugins/hazards/` | ein Ordner pro Responsible-RSE-Frage |
-
-\normalsize
-
-# Decorators
-
-## Was ist ein Decorator?
-
-```python
-@functional
-def normalize(v, lo, hi):
-    return (v - lo) / (hi - lo)
-```
-
-- Bedeutet: `normalize = functional(normalize)`.
-- Läuft **einmal, beim Import** -- nicht bei jedem Aufruf.
-- Beim Import: Eintrag ins Register. Beim Aufruf: nichts Zusätzliches.
-
-## Definitionszeit vs. Aufrufzeit
-
-- In Python führt ein Import Code aus (anders als in Java).
-- **Java-Annotationen** sind reine Metadaten, geprüft vom Compiler.
-- **Python-Decorators** sind ausführbare Funktionen.
-
-\vfill
-
-Ein neuer Decorator = **eine Funktion**, markiert mit `@_concern`. Der Hilfetext ist der Docstring.
-
-## Review Concerns
-
-Jeder Decorator markiert eine Stelle, an der das Ergebnis falsch werden kann, und sagt, worauf man prüfen soll:
-
-- `@functional`: Mathematik
-- `@mapping`: Umformung von Daten
-- `@data_input` / `@data_output`: Datenein- und -ausgang
-- `@hardware_dependency`: Ergebnis hängt von der Hardware ab (z.B. GPU) -- Reproduzierbarkeit
-- ... die Menge ist offen und wächst.
-
-## Einordnung: Decorator-Muster (GoF) und Aspekte (AOP)
-
-\footnotesize
-
-| | **Decorator-Muster** (GoF) | **Aspekt** (AOP) |
+| | unveränderlich | veränderlich |
 |---|---|---|
-| Quelle | Gamma et al. 1994 | Kiczales et al. 1997 |
-| Idee | ein Objekt umhüllt ein anderes, gleiche Schnittstelle | ein Querschnittsbelang, einmal formuliert, an vielen Stellen eingewoben |
-| Wo? | wo man das Objekt einpackt | an *Join Points*, gewählt per *Pointcut* |
-| Was? | Verhalten vor/nach dem Aufruf | der *Advice* läuft an jedem Join Point |
+| Python | `int`, `str`, `tuple`, `frozenset` | `list`, `dict`, `set` |
+| Java | `String`, `record`, `List.of(...)` | `ArrayList`, `HashMap` |
 
 \normalsize
 
-**Bei uns:** `@functional` & Co. umhüllen nichts -- sie **markieren** nur und geben die Funktion unverändert zurück.
-
-- *Concern* = was zu prüfen ist; *Join Point* = die markierte Funktion.
-- *Aspekt* = das Plugin; sein *Advice* ist die Prüfung -- sie läuft **im Werkzeug**, nicht beim Aufruf des Forschungscodes.
-
-# Inspection
-
-## Mensch im Loop
-
-- Quelltext und abgeleitete **Formel** zeigen $\rightarrow$ ja / nein / später.
-- Eine Zeile Mathematik gegen die eigene Absicht prüfen. Gerendert, nicht bewiesen.
-- `inspection.yaml` hält nur **menschliche Urteile**: "jemand hat das geprüft" wird nachvollziehbar.
-- **Kein LLM prüft LLM-Code.** Bewusste Grenze des Werkzeugs.
-
-## Maschinelle Prüfung $\neq$ menschliches Urteil
-
-- Automatische Checks liefern **Befunde**: Ist `@functional` wirklich rein? Liest `@data_input` wirklich?
-- Nur das Urteil eines Menschen wird als **Verdict** festgehalten.
-- Beides getrennt halten -- auch im Code.
-
-# Plugins
-
-## Ein Plugin = eine Frage
-
-- Lizenz, Dual Use, Footprint, ... -- jede Responsible-RSE-Frage ist ein Plugin.
-- Dieselben Modi für alle: **Inspektion, Analyse, Testgenerierung, externes Review**.
-- Neue Frage = neues Plugin, kein Umbau des Frameworks.
-- Ein **Stub** ist ein Plugin ohne Implementierung; sein Docstring ist die Aufgabe für Studierende.
-
-# Scan
-
-## Wie der Scan arbeitet
-
-\small
-
-1. Alle `*.py`-Dateien finden (Tests, Caches, Vendored überspringen).
-2. Jede Datei mit `ast.parse` in einen Baum verwandeln -- nichts wird importiert oder ausgeführt.
-3. Import-Aliase auflösen (`@f` aus `import functional as f` zählt als `@functional`).
-4. Jede Funktion besuchen: Zählt sie mit? Welcher Decorator? Falls keiner: Vorschlag. Welche Hazards?
-5. Hazards den Aufrufgraph hinauf vererben (wer eine LLM-Funktion aufruft, erbt `model_call`).
-6. Ergebnis: `CoverageReport` -- Abdeckung + Kandidatenliste.
-
-\normalsize
-
-# Einen Hazard von Hand bauen
-
-## Ausgangslage: Code, der eine GPU voraussetzt
-
-`examples/gpu_tensors.py`
+\vfill
 
 ```python
-import tensorflow as tf
-
-def add_on_gpu():
-    # kein stilles Ausweichen auf die CPU
-    tf.config.set_soft_device_placement(False)
-    with tf.device("/GPU:0"):
-        a = tf.constant([1.0, 2.0])
-        b = tf.constant([3.0, 4.0])
-        return tf.add(a, b)
+s = "abc"
+t = s.upper()      # neues Objekt; s ist weiterhin "abc"
 ```
 
-- Ohne GPU scheitert der Aufruf -- **laut**, statt still auf die CPU auszuweichen.
-- Dem AST sieht man die Abhängigkeit nicht zuverlässig an $\rightarrow$ ein **deklarierter** Hazard.
-- Wer das Ergebnis reproduzieren will, muss genau diese Stelle lesen -- die Markierung führt dorthin.
+## Warum im Werkzeug?
 
-## Schritt 1: Den Decorator definieren
+- `rse_annotations` hält jeden Concern in einer globalen Tabelle `CONCERNS`. Dasselbe Objekt ist zugleich **Decorator** und **Detektor** und wird überall geteilt.
+- Jeder Detektor bekommt dieselbe `FunctionView` einer Funktion. Ein Detektor darf nicht verändern, was der nächste sieht.
+- Unveränderliche Objekte sind **hashbar**: Sie können Schlüssel in `dict` oder Elemente in `set` sein.
 
-`rse_annotations/decorators/markers.py`
+\vfill
 
-\small
+**Was nach der Erzeugung nicht mehr geändert werden kann, muss man beim Lesen nicht verfolgen.**
+
+## `frozen=True` in Python
 
 ```python
-@_concern
-def hardware_dependency(fn=None, *, fields=None):
-    """Marks code whose result depends on the hardware it runs on
-    (e.g. a GPU).
+from dataclasses import dataclass
 
-    Review for reproducibility: does the result survive other
-    hardware, or does a different device or a CPU fallback change it
-    (precision, non-deterministic kernels)?"""
-    return _mark(hardware_dependency, fn, fields)
+@dataclass(frozen=True)
+class Concern:
+    name: str
+    help: str
+
+c = Concern("stochastic", "Ist der Zufall geseedet?")
+c.name = "random"
+# dataclasses.FrozenInstanceError: cannot assign to field 'name'
 ```
 
-\normalsize
+- Jede Zuweisung an ein Feld wirft `FrozenInstanceError`.
+- `frozen=True` erzeugt zusätzlich `__hash__` aus den Feldern.
 
-Der Docstring ist keine Hardware-Dokumentation, sondern der **Prüfauftrag** an die Gutachterin. Alles Weitere (Enum, Export, Scanner) ergibt sich aus `@_concern`.
-
-## Schritt 2: Den Forschungscode markieren
-
-`examples/gpu_tensors.py`
+## Grenze: nur flach (shallow)
 
 ```python
-import tensorflow as tf
+@dataclass(frozen=True)
+class FunctionView:
+    reads: list[str]
 
-from rse_annotations.decorators.markers import hardware_dependency
-
-
-@hardware_dependency
-def add_on_gpu():
-    tf.config.set_soft_device_placement(False)
-    with tf.device("/GPU:0"):
-        ...
+v = FunctionView(["open"])
+v.reads = []            # FrozenInstanceError
+v.reads.append("load")  # erlaubt: die Liste ist veränderlich
 ```
 
-Zwei Zeilen: ein Import, ein Decorator. Der Rumpf bleibt unverändert.
+- `frozen` schützt die **Felder**, nicht die Objekte, auf die sie zeigen.
+- Echte Unveränderlichkeit: `tuple` statt `list`, `frozenset` statt `set`.
+- Im Prototyp hält `FunctionView` noch Listen -- geschützt nur durch die Konvention „Detektoren lesen nur".
 
-## Schritt 3: Prüfen, ob die Markierung ankommt
-
-```bash
-python -m rse_annotations examples --coverage
-```
+## Werte im Konstruktor anpassen
 
 \footnotesize
 
-```
-By review concern
-concern               decorated  candidates
-@functional           3          0
-@mapping              2          1
-@data_input           1          0
-@data_output          1          1
-@hardware_dependency  1          0
+```python
+@dataclass(frozen=True)
+class FunctionView:
+    reads: tuple[str, ...]
 
-By file
-file                funcs  decorated  coverage  candidates
-gpu_tensors.py      1      1          100%      0
-sample_pipeline.py  7      7          100%      0
+    def __post_init__(self):
+        # self.reads = ... wäre ein FrozenInstanceError
+        object.__setattr__(self, "reads", tuple(sorted(self.reads)))
 ```
 
 \normalsize
 
-Vorher stand `gpu_tensors.py` bei 0%. TensorFlow muss dafür **nicht** installiert sein.
+- `__post_init__` läuft nach dem generierten `__init__`.
+- Innerhalb der Klasse geht Zuweisen nur über `object.__setattr__`. Das ist eine bewusste Hintertür, nur für die Konstruktion.
 
-## Schritt 4: Das Werkzeug starten, Option 4 wählen
+## Vergleich: Java
 
-```bash
-python -m rse_annotations examples
-```
+\footnotesize
 
-\scriptsize
-
-```
-Found 8 decorated function(s): 3 @functional, 2 @mapping, 1 @data_input,
-1 @data_output, 1 @hardware_dependency
-
-Choose a mode:
-  1) Human inspection  -- a person reviews flagged code; verdicts are recorded
-  2) Hazard analysis   -- every plugin examines the code and reports findings
-  3) Test generation   -- write test scaffolds
-  4) External review   -- an outside reviewer inspects the marked code; writes a protocol
-> 4
-
-External review of examples
-  8 marked snippet(s); nothing is imported or run.
-Reviewer (name or role) > JOSS-Gutachterin
+```java
+public record FunctionView(String name, List<String> reads) {
+    public FunctionView {                 // compact constructor
+        reads = List.copyOf(reads);       // unveränderliche Kopie
+    }
+}
 ```
 
 \normalsize
 
-Ohne Menü: `python -m rse_annotations examples --review`
+- Ein `record` hat nur `final`-Felder und generiert Konstruktor, Getter, `equals`, `hashCode`, `toString`.
+- Auch hier flach: Ohne `List.copyOf` könnte der Aufrufer die Liste später ändern.
+- Python `__post_init__` mit `object.__setattr__` entspricht dem *compact constructor*.
 
-## Schritt 5: Als Gutachterin jede markierte Stelle beurteilen
+# Dataclasses
 
-\scriptsize
+## Was `@dataclass` generiert
 
+\footnotesize
+
+:::: {.columns}
+::: {.column width="48%"}
+**Von Hand**
+
+```python
+class Concern:
+    def __init__(self, name, help):
+        self.name = name
+        self.help = help
+
+    def __repr__(self):
+        return f"Concern({self.name!r})"
+
+    def __eq__(self, other):
+        return (self.name, self.help) == \
+               (other.name, other.help)
 ```
-== @hardware_dependency -- Review for reproducibility: does the result survive other
-hardware, or does a different device or a CPU fallback change it (precision,
-non-deterministic kernels)?
+:::
+::: {.column width="48%"}
+**Mit Dataclass**
 
-[8/8] add_on_gpu   (gpu_tensors.py:7)
---- source ---
-    @hardware_dependency
-    def add_on_gpu():
-        tf.config.set_soft_device_placement(False)   # no silent fallback to the CPU
-        with tf.device("/GPU:0"):
-            a = tf.constant([1.0, 2.0])
-            b = tf.constant([3.0, 4.0])
-            return tf.add(a, b)
-Does this snippet hold up for @hardware_dependency? [y]es / [n]o / [s]kip > n
-Note for the protocol (Enter for none) > nur mit GPU reproduzierbar; kein CPU-Fallback
+```python
+from dataclasses import dataclass
+
+@dataclass
+class Concern:
+    name: str
+    help: str
+```
+
+- `__init__`, `__repr__`, `__eq__` aus den annotierten Feldern
+- mit `frozen=True` zusätzlich `__hash__`
+:::
+::::
+
+\normalsize
+
+## Felder steuern mit `field()`
+
+```python
+from dataclasses import dataclass, field
+
+@dataclass
+class Record:
+    qualname: str
+    marked: list[str] = field(default_factory=list)
+    source: str = field(default="", repr=False)
+```
+
+- **Defaults**: Felder mit Default müssen nach denen ohne stehen.
+- `default_factory=list`: jede Instanz bekommt eine eigene Liste (nie `= []`).
+- `repr=False`: das Feld erscheint nicht in der Ausgabe, z.B. langer Quelltext oder eine Funktion.
+
+## Beispiel: `Concern` im Prototyp
+
+\footnotesize
+
+```python
+@dataclass(frozen=True)
+class Concern:
+    name: str
+    help: str
+    detect: Callable[[FunctionView], Optional[Evidence]] = field(repr=False)
+
+    def __call__(self, fn=None, **meta):     # die Instanz *ist* der Decorator
+        ...
+
+stochastic = Concern("stochastic", "Ist der Zufall geseedet?", detect)
+
+@stochastic
+def sample(papers): ...
 ```
 
 \normalsize
 
-Die Gutachterin liest **8 markierte Stellen** statt des ganzen Repositorys -- und erfährt je Stelle, worauf es für die Reproduzierbarkeit ankommt.
+- Drei Felder: Name, die Frage an die Prüferin, der Detektor.
+- `frozen`: kein Detektor und kein Plugin kann einen Concern zur Laufzeit umbauen.
 
-## Schritt 6: Das Protokoll lesen
+## Beispiel: `FunctionView` und eine Fabrikmethode
 
-\scriptsize
+\footnotesize
 
-```
-Recorded 8 finding(s): 5 accepted, 2 declined, 1 pending.
-Scope: 8 of 10 eligible function(s) marked (80%); unmarked code was not reviewed.
-Protocol written to examples/review_protocol.yaml
-```
+```python
+@dataclass(frozen=True)
+class FunctionView:
+    name: str
+    params: List[str]
+    reads: List[str]
+    writes: List[str]
+    called: Set[str]
+    ...
 
-```yaml
-target: "examples"
-reviewer: "JOSS-Gutachterin"
-date: "2026-10-01"
-scope: "8 of 10 eligible function(s) marked (80%); unmarked code was not reviewed"
-findings:
-  - function: "add_on_gpu"
-    location: "gpu_tensors.py:7"
-    concern: "hardware_dependency"
-    verdict: "declined"
-    note: "nur mit GPU reproduzierbar; kein CPU-Fallback"
+    @classmethod
+    def of(cls, node: ast.AST) -> "FunctionView":
+        ...                    # AST einmal durchlaufen
+        return cls(name=..., params=..., reads=..., ...)
 ```
 
 \normalsize
 
-`scope` nennt die Grenze des Filters: Was nicht markiert ist, wurde nicht begutachtet. Eigene Datei, getrennt von `inspection.yaml` der Autor:innen.
+- `of` ist eine **Fabrikmethode**: Die Arbeit (AST lesen) steht dort, der generierte `__init__` speichert nur.
+- Java: statische Methode `FunctionView.of(node)` vor dem Konstruktor des Records.
 
-## Schritt 7: Die Tests laufen lassen
+## Kopie statt Änderung
 
-```bash
-python -m pytest tests/test_external_review.py -v
+```python
+from dataclasses import replace
+
+c2 = replace(c, help="Ist der Seed dokumentiert?")
+# c bleibt unverändert, c2 ist ein neues Objekt
 ```
 
-\scriptsize
+- `dataclasses.replace` erzeugt eine Kopie mit geänderten Feldern.
+- Java: *Wither*-Methoden (`withHelp(...)`) oder Lombok `@Value`/`@Builder` mit `toBuilder()`.
 
-```
-test_items_cover_every_concern_in_listing_order PASSED
-test_reviewer_is_asked_the_question_of_each_concern PASSED
-test_review_writes_a_protocol PASSED
-test_rerun_prefills_the_previous_answers PASSED
-test_review_shows_the_authors_verdict PASSED
-test_cli_review_runs_without_importing PASSED
-test_cli_menu_offers_the_review_as_fourth_mode PASSED
+## Python und Java im Überblick
 
-7 passed in 0.16s
-```
+\footnotesize
+
+| | Python | Java |
+|---|---|---|
+| Wertklasse | `@dataclass(frozen=True)` | `record` |
+| Beim Erzeugen anpassen | `__post_init__` | compact constructor |
+| Unveränderliche Sammlung | `tuple`, `frozenset` | `List.copyOf`, `Set.copyOf` |
+| Fabrikmethode | `@classmethod of(...)` | `static of(...)` |
+| Kopie mit Änderung | `dataclasses.replace` | Wither, `toBuilder()` |
+| Als Decorator nutzbar | ja (`__call__`) | nein (Annotation + Record) |
 
 \normalsize
-
-- Der vorletzte Test ist der wichtige: Das Zielmodul importiert ein Paket, das nicht installiert ist -- das Review läuft trotzdem.
-- Ganze Suite: `python -m pytest`
