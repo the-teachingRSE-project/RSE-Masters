@@ -189,7 +189,7 @@ class Concern(ABC):
     def __call__(self, fn=None, **meta):     # die Instanz *ist* der Decorator
         ...
 
-stochastic = Stochastic("stochastic")
+stochastic = Stochastic("stochastic")   # erzeugt registry.py
 @stochastic
 def sample(papers): ...
 ```
@@ -261,13 +261,11 @@ class Stochastic(Concern):
         if _seed(v):
             return f"nutzt {hits[0]}, Seed als Parameter", "high"
         return f"nutzt {hits[0]} ohne Seed-Parameter", "high"
-
-CONCERN = Stochastic("stochastic")
 ```
 
 \normalsize
 
-- Wie in Java heißt die Datei wie die Klasse: `stochastic/Stochastic.py`. `registry.py` lädt sie aus jedem Concern-Ordner in die Tabelle `CONCERNS`.
+- Wie in Java heißt die Datei wie die Klasse: `stochastic/Stochastic.py`. `registry.py` lädt sie aus jedem Concern-Ordner und erzeugt die eine Instanz: `Stochastic("stochastic")`.
 - `--inspect` fragt zu jeder markierten Funktion: *Does the assertion "..." hold?*
 
 ## Was passiert, wenn `detect` fehlt?
