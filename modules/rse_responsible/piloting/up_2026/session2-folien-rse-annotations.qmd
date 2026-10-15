@@ -44,16 +44,6 @@ s = "abc"
 t = s.upper()      # neues Objekt; s ist weiterhin "abc"
 ```
 
-## Warum im Werkzeug?
-
-- `rse_annotations` hält jeden Concern in einer globalen Tabelle `CONCERNS`. Dasselbe Objekt ist zugleich **Decorator** und **Detektor** und wird überall geteilt.
-- Jeder Detektor bekommt dieselbe `FunctionView` einer Funktion. Ein Detektor darf nicht verändern, was der nächste sieht.
-- Unveränderliche Objekte sind **hashbar**: Sie können Schlüssel in `dict` oder Elemente in `set` sein.
-
-\vfill
-
-**Was nach der Erzeugung nicht mehr geändert werden kann, muss man beim Lesen nicht verfolgen.**
-
 ## `frozen=True` in Python
 
 ```python
@@ -233,18 +223,6 @@ class FunctionView:
 
 - `of` ist eine **Fabrikmethode**: Die Arbeit (AST lesen) steht dort, der generierte `__init__` speichert nur.
 - Java: statische Methode `FunctionView.of(node)` vor dem Konstruktor des Records.
-
-## Kopie statt Änderung
-
-```python
-from dataclasses import replace
-
-c2 = replace(c, help="Ist der Seed dokumentiert?")
-# c bleibt unverändert, c2 ist ein neues Objekt
-```
-
-- `dataclasses.replace` erzeugt eine Kopie mit geänderten Feldern.
-- Java: *Wither*-Methoden (`withHelp(...)`) oder Lombok `@Value`/`@Builder` mit `toBuilder()`.
 
 # Abstrakte Klassen
 
