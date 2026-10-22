@@ -6,7 +6,7 @@
 
 **Focus area:** none of the three; general RSE (education and training)
 
-**Authors:** Julian Dehne (lead), Fabian Lochner, Helene S. Holst, Magnus Hagdorn
+**Authors:** Julian Dehne (lead), Fabian Lochner, Helene S. Holst, Nicholas Del Grosso, Magnus Hagdorn
 
 ## Abstract
 
