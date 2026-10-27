@@ -35,6 +35,13 @@ Students
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Theory of Distributed Systems (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Verteilte Systeme (Universität Potsdam)
+ - Distributed Systems I (Universität Stuttgart)
+ - Distributed Systems II (Universität Stuttgart)
+
 #### Courses
 
 - [Verteilte Systeme](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)

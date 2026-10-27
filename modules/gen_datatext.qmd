@@ -28,6 +28,10 @@ project report (X pages) and presentation (15 minutes)
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Information Retrieval und Korpusbildung für Text- und Sprachdaten (Georg-August-Universität Göttingen)
+
 #### Curricula
 
 - [Empfehlungen Masterstudiengänge Data Science](https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf)

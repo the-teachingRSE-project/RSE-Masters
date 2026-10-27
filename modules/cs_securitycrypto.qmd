@@ -37,6 +37,17 @@ Students are able to
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Theoretische Grundlagen der angewandten Kryptographie (Bergische Universität Wuppertal)
+ - IT Security (Karlsruher Institut für Technologie)
+ - Informationssicherheit (Karlsruher Institut für Technologie)
+ - IT-Sicherheit 1 - Kryptographische Grundlagen und Netzwerksicherheit (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - IT-Sicherheit (Pflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Einführung in die IT-Sicherheit (Technische Universität Braunschweig)
+ - Grundlagen der Informationssicherheit (Universität Stuttgart)
+ - 78900 Einführung in die moderne Kryptographie (Universität Stuttgart)
+
 #### Courses
 
 - [Sicherheit, Information und Komplexität](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)

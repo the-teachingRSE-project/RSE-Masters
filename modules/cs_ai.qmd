@@ -21,6 +21,19 @@ Students
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Seminar Human in the Age of Artificial Intelligence (Georg-August-Universität Göttingen)
+ - Advanced Artificial Intelligence (Karlsruher Institut für Technologie)
+ - Grundlagen der Künstlichen Intelligenz (Karlsruher Institut für Technologie)
+ - Einführung in die Künstliche Intelligenz Introduction to Artificial Intelligence (Otto-Friedrich-Universität Bamberg)
+ - Einführung in die Künstliche Intelligenz 2 (Technische Universität Chemnitz)
+ - Advanced Applied Artificial Intelligence (Technische Universität Dresden)
+ - Applications of Applied Artificial Intelligence (Technische Universität Dresden)
+ - Künstliche Intelligenz (Universität Potsdam)
+ - Laboratory Course Artificial Intelligence (Universität Stuttgart)
+ - Proseminar Künstliche Intelligenz (Universität Ulm)
+
 #### Courses
 
 - [Aktuelle Themen der Künstlichen Intelligenz](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)
