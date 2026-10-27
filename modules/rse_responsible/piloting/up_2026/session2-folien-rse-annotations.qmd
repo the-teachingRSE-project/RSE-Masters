@@ -3,7 +3,7 @@
 # Grundlagen für den schlanken Prototyp rse_annotations (Branch main; die längere Fassung liegt auf gen_code_prototype).
 # Nie eine feste Anzahl von Decorators nennen -- die Menge wächst.
 title: "Sitzung 2: rse_annotations -- Forschungscode markieren und prüfen"
-subtitle: "Grundlagen: Immutabilität und Dataclasses"
+subtitle: "Grundlagen: Decorators, Immutabilität und Dataclasses"
 format:
     beamer:
         keep-tex: true
@@ -19,9 +19,168 @@ format:
         section-titles: true
 ---
 
-# Die Bausteine
+# Wiederholung: Decorators
 
-## Drei Begriffe
+## Was ist ein Decorator?
+
+\footnotesize
+
+:::: {.columns}
+::: {.column width="48%"}
+**Mit Decorator**
+
+```python
+@calculations
+def normalize(x, lo, hi):
+    return (x - lo) / (hi - lo)
+```
+:::
+::: {.column width="48%"}
+**Ohne: dasselbe von Hand**
+
+```python
+def normalize(x, lo, hi):
+    return (x - lo) / (hi - lo)
+
+normalize = calculations(normalize)
+```
+:::
+::::
+
+\normalsize
+
+- `@calculations` über `def` ist nur Kurzschrift für den Aufruf rechts.
+- Ein Decorator ist ein **aufrufbares Objekt**: Es bekommt eine Funktion und gibt eine Funktion zurück.
+- Was zurückkommt, steht danach unter dem alten Namen.
+
+## Definitionszeit vs. Aufrufzeit
+
+\footnotesize
+
+```python
+def laut(f):
+    print(f"dekoriere {f.__name__}")
+    return f
+
+@laut                # sofort beim Import: "dekoriere normalize"
+def normalize(x): ...
+
+normalize(1)         # keine weitere Ausgabe
+normalize(2)         # keine weitere Ausgabe
+```
+
+\normalsize
+
+- Der Decorator läuft **einmal**, wenn `def` ausgeführt wird, also beim Import des Moduls, nicht bei jedem Aufruf.
+- Import führt in Python das Modul Zeile für Zeile aus. Java lädt beim Import nur Namen, Anweisungen auf oberster Ebene gibt es nicht.
+- `import rse_annotations` berechnet nichts. Erst `from rse_annotations import calculations` lädt genau diesen Concern.
+
+## Zwei Arten von Decorators
+
+\footnotesize
+
+:::: {.columns}
+::: {.column width="44%"}
+**Markierend** (so in `rse_annotations`)
+
+```python
+def markiere(f):
+    f.__geprueft__ = True
+    return f   # dieselbe Funktion
+```
+
+- hängt nur Metadaten an
+- kein Laufzeit-Overhead, darf im Produktivcode bleiben
+:::
+::: {.column width="52%"}
+**Umhüllend**
+
+```python
+def zeitmessung(f):
+    @functools.wraps(f)
+    def wrapper(*args, **kw):
+        t = time.perf_counter()
+        ergebnis = f(*args, **kw)
+        print(time.perf_counter() - t)
+        return ergebnis
+    return wrapper  # eine neue Funktion
+```
+
+- tut bei **jedem** Aufruf etwas: Logging, Zeitmessung, Caching (`functools.lru_cache`)
+- `functools.wraps` übernimmt Name und Docstring
+:::
+::::
+
+\normalsize
+
+## Mit und ohne Argumente
+
+\footnotesize
+
+```python
+@data_input
+def read_rows(path): ...
+
+@data_input(fields={"path": "CSV file to read", "rows": "parsed records"})
+def read_rows(path): ...
+```
+
+\normalsize
+
+- **Ohne Klammern:** `data_input(read_rows)` bekommt die Funktion und markiert sie.
+- **Mit Klammern:** `data_input(fields=...)` bekommt **keine** Funktion. Es muss einen Decorator zurückgeben, der dann auf die Funktion angewendet wird.
+- Zwei Schritte: `read_rows = data_input(fields=...)(read_rows)`
+- Die Argumente (hier `fields`) werden als Metadaten mit der Markierung gespeichert.
+
+## Im Prototyp: Die Instanz ist der Decorator
+
+\footnotesize
+
+```python
+class Concern:
+    def __call__(self, fn=None, **meta):
+        def mark(f):
+            marks = getattr(f, "__rse_concerns__", ())
+            f.__rse_concerns__ = marks + ((self.name, meta),)
+            return f                          # unverändert
+        return mark(fn) if callable(fn) else mark
+```
+
+\normalsize
+
+- `__call__` macht ein Objekt aufrufbar: `@calculations` ruft `calculations.__call__(normalize)`.
+- `callable(fn)` trennt die Fälle: Funktion da → markieren, sonst `mark` zurückgeben.
+- Mehrere Markierungen sammeln sich im Tupel `__rse_concerns__`.
+- Ein neuer Concern erbt `__call__` und schreibt keinen eigenen Decorator.
+
+## Java-Annotation vs. Python-Decorator
+
+\footnotesize
+
+| | Java: `@Override`, `@Test` | Python: `@calculations` |
+|---|---|---|
+| Was ist es? | Metadaten, deklariert mit `@interface` | ein aufrufbares Objekt, beliebiger Code |
+| Wann wirkt es? | Compiler, Annotation Processor, Reflexion | beim Ausführen von `def` (Import) |
+| Ändert es Verhalten? | nur über ein Framework (JUnit, Spring) | ja, wenn es umhüllt |
+
+\normalsize
+
+- `rse_annotations` nutzt Decorators **wie** Java-Annotationen: nur markieren, nichts ändern.
+- Der Scan liest die Markierung aus dem Quelltext (`ast`), ohne den Code zu importieren oder auszuführen.
+- `__rse_concerns__` dient der Reflexion zur Laufzeit, etwa in Tests.
+
+## Einordnung: GoF und AOP
+
+- **GoF-Decorator** (Gamma et al. 1994): Ein Objekt umhüllt ein anderes mit derselben Schnittstelle und ergänzt Verhalten. Python-Decorators sind verwandt, aber allgemeiner: Sie dürfen auch nur markieren.
+- **AOP** (Sitzung 1, *Querschnittsbelange*):
+  - **Join Point:** die markierte Funktion. Die Autorin setzt ihn selbst, statt ihn per Pointcut auszuwählen.
+  - **Advice:** die Prüfung durch Scan und Review. Sie läuft statisch, nicht zur Laufzeit.
+  - **Concern:** das Risiko, das geprüft wird, z. B. ein ungeseedeter Zufallszug.
+- Dasselbe Idiom kennen Sie aus `@pytest.fixture` oder `@app.route` in Flask.
+
+# Technische Modellierung
+
+## Concern, Verdict, Project
 
 - **Concern**: eine Art von Schritt, von der abhängt, ob man einem Ergebnis trauen kann: ein Zufallszug, ein Modellaufruf, eine Rechnung, eine menschliche Entscheidung. Jeder Concern hat eine **Behauptung** (assertion), die für jede damit markierte Funktion gelten soll.
 - **Verdict**: das Urteil eines Menschen, ob die Behauptung für **eine** markierte Funktion gilt: `accepted`, `declined` oder `pending`.
