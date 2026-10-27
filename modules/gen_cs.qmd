@@ -13,6 +13,13 @@ This module covers the basics of computer science and introduces the students fr
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Grundlagen der Informatik und Programmierung (Georg-August-Universität Göttingen)
+ - Einführung in die Informatik Introduction to Computer Science (Otto-Friedrich-Universität Bamberg)
+ - Foundations of Computer Science (Universität Potsdam)
+ - Grundlagen der Programmierung (Universität Potsdam)
+
 #### Curricula
 
 - [Computing Curricula 2020](https://dl.acm.org/doi/book/10.1145/3467967)

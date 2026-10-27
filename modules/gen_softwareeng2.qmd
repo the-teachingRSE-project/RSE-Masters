@@ -13,6 +13,19 @@ Students
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Software Engineering I (Hochschule München)
+ - Foundations of Software Engineering (Otto-Friedrich-Universität Bamberg)
+ - Softwaretechnik (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Advanced Software Engineering (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Software Engineering – Einführung (Universität Hamburg)
+ - Software Engineering (Universität Leipzig)
+ - Software Engineering II (Universität Potsdam)
+ - Software Engineering I (Universität Potsdam)
+ - Formale Methoden im Software Engineering (Universität Potsdam)
+ - Advanced Software Engineering (Universität Stuttgart)
+
 #### Courses
 
 - [Software Engineering II](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-873-879.pdf)

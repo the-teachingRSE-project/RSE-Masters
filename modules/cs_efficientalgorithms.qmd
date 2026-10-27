@@ -23,6 +23,18 @@ Students will be able to analyse simple approximation methods in terms of their 
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Effiziente Algorithmen (FernUniversität in Hagen)
+ - Algorithm Engineering Lab (Friedrich-Schiller-Universität Jena)
+ - Algorithms II (Karlsruher Institut für Technologie)
+ - Algorithmen I (Karlsruher Institut für Technologie)
+ - Analyse von Algorithmen (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Effiziente Algorithmen (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Algorithm Engineering (Ruprecht-Karls-Universität Heidelberg)
+ - Entwurf effizienter Algorithmen (Universität Potsdam)
+ - Efficient Algorithms (Universität zu Köln)
+
 #### Courses
 
 - [Entwurf effizienter Algorithmen](https://www.uni-potsdam.de/fileadmin/projects/ambek/Amtliche_Bekanntmachungen/2024/Ausgabe_20/ambek-2024-20-885-891.pdf)
