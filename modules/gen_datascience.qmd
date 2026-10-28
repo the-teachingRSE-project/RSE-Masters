@@ -16,6 +16,19 @@ exam (120-180 minutes) or oral exam (30 minutes)
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Statistische Lerntheorie (Lab) (Friedrich-Schiller-Universität Jena)
+ - Statistical methods in data analysis (Georg-August-Universität Göttingen)
+ - Statistische Datenanalyse (Karlsruher Institut für Technologie)
+ - Querschnittsdatenanalyse (Ludwig-Maximilians-Universität München)
+ - Grundlagen der statistischen Datenauswertung (Ludwig-Maximilians-Universität München)
+ - Applied Data Analysis (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Statistical Data Analysis (Universität Potsdam)
+ - Advanced Statistical Data Analysis A (Universität Potsdam)
+ - Advanced Statistical Data Analysis B (Universität Potsdam)
+ - Advanced Methods: Multivariate Statistics (Universität Potsdam)
+
 #### Curricula
 
 - [Empfehlungen Masterstudiengänge Data Science](https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf)

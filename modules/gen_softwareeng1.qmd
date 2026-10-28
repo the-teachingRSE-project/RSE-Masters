@@ -22,6 +22,19 @@ This module tries to lay the foundations for the advanced RSE software engineeri
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Software Engineering I (Hochschule München)
+ - Softwareentwicklung (Johannes Gutenberg-Universität Mainz)
+ - Foundations of Software Engineering (Otto-Friedrich-Universität Bamberg)
+ - Softwaretechnik (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Advanced Software Engineering (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Scientific Software Engineering and Programming Lab (CSE) (Technische Universität Braunschweig)
+ - Software Engineering – Einführung (Universität Hamburg)
+ - Softwareentwurf (Universität Hamburg)
+ - Software Engineering (Universität Leipzig)
+ - Software Engineering I (Universität Potsdam)
+
 #### Curricula
 
 - [Computing Curricula 2020](https://dl.acm.org/doi/book/10.1145/3467967)

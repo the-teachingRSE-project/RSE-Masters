@@ -56,6 +56,19 @@ By the end of this module, students will be well-equipped to design, develop, do
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Softwaretechnik (Georg-August-Universität Göttingen)
+ - Softwareentwicklung (Johannes Gutenberg-Universität Mainz)
+ - Software-Technik (Johannes Gutenberg-Universität Mainz)
+ - Softwaretechnik (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Software-Projektpraktikum (Pflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Advanced Software Engineering (Wahlpflichtfach) (Rheinisch-Westfälische Technische Hochschule Aachen)
+ - Softwaretechnik und Programmierparadigmen (Technische Universität Berlin)
+ - Softwareentwurf (Universität Hamburg)
+ - Software Engineering – Einführung (Universität Hamburg)
+ - Programmentwicklung I (Universität Stuttgart)
+
 #### Courses
 
 - [MIT Missing Semester](https://missing.csail.mit.edu)

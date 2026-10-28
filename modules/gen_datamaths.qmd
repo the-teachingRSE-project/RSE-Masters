@@ -12,6 +12,19 @@ written exam (120 minutes) or oral exam (30 minutes)
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Introduction to Data Science (Bergische Universität Wuppertal)
+ - Mathematische Grundlagen von Data Science (FernUniversität in Hagen)
+ - Spezielle Themen der Data Science II (Georg-August-Universität Göttingen)
+ - Data Science (Ostbayerische Technische Hochschule Regensburg)
+ - Einführung in Data Science (Technische Universität Chemnitz)
+ - Mathematical Foundations of Data Science A (Universität Potsdam)
+ - Mathematical Foundations of Data Science B (Universität Potsdam)
+ - Computational Foundations of Data Science (Universität Potsdam)
+ - Applied Data Science (Universität Potsdam)
+ - Einführung in Data Science (Universität Würzburg)
+
 #### Curricula
 
 - [Empfehlungen Masterstudiengänge Data Science](https://gi.de/fileadmin/GI/Hauptseite/Service/Publikationen/Empfehlungen/Empfehlungen_Masterstdiengaenge_DataScience_2021.pdf)

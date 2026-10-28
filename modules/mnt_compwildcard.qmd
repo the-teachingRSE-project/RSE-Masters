@@ -6,6 +6,10 @@ The goal is to apply the general competences acquired in the general programming
 
 ### Sources & Implementations:
 
+#### Similar Modules
+
+ - Computational Sciences (Freie Universität Berlin)
+
 #### Courses
 
 - [Computational Chemistry](https://online.rwth-aachen.de/RWTHonline/pl/ui/$ctx;design=pl;header=max;lang=de/wbModhbReport.downloadPublicMHBVersion?pOrgNr=14194&pStpStpNr=1970&pDocNr=14085952)

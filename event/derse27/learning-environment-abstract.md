@@ -6,7 +6,7 @@
 
 **Focus area:** none of the three; general RSE (education and training)
 
-**Authors:** Julian Dehne (lead), Fabian Lochner, Helene S. Holst, Magnus Hagdorn
+**Authors:** Julian Dehne (lead), Fabian Lochner, Helene S. Holst, Nicholas Del Grosso, Magnus Hagdorn
 
 ## Abstract
 
@@ -16,4 +16,4 @@ Educational technology has thirty years of models and standards for exactly this
 
 The model was the brief for the RSE Hackathon at the University of Glasgow in November 2026, co-organised by de-RSE and the GI, which brought active RSEs, educational technology researchers and lecturers into one room. The talk presents the model, reports which modules the hackathon teams prototyped and what they decided about extending Gutenberg instead of building anew, and names the open questions on compute, identity and integration with existing LMS and forges. Participants take away a decomposition they can reuse for their own teaching infrastructure, and an invitation to join the consortium that carries the work forward.
 
-This talk is one of three related submissions from the teachingRSE group, and we suggest scheduling them in one session. "Piloting the RSE Master Curriculum: Experiences, Consequences and new RSE Research ideas" reports on the courses such an environment has to serve. "RSE Learning Modules and the iBOTS teaching Environment" presents an existing environment and its modules from which the model learns.
+This talk is one of three related submissions from the teachingRSE group, and we suggest scheduling them in one session. "Piloting the RSE Master's Curriculum: Experiences, Consequences and New RSE Research Ideas" reports on the courses such an environment has to serve. "RSE Learning Modules and the iBOTS teaching Environment" presents an existing environment and its modules from which the model learns.
