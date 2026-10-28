@@ -6,7 +6,7 @@
 
 **Focus area:** 2 — RSE Research: Software Engineering Research on Research Software (Engineering)
 
-**Authors:** Marc Schmidt (lead), Julian Dehne, Birte Heinemann, Jan Philipp Thiele, Fredo Erxleben, Guido Juckeland
+**Authors:** Marc Schmidt (lead), Julian Dehne, Birte Heinemann, Jan Philipp Thiele, Fredo Erxleben, Guido Juckeland, Anna-Lena Lamprecht
 
 ## Abstract
 
