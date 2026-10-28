@@ -5,7 +5,6 @@
 # (https://doi.org/10.5281/zenodo.22657359, CC BY 4.0). Die Keynote besteht überwiegend
 # aus Bildern; übernommen ist der Text der Folien, keine Abbildungen.
 title: "Sitzung 5: Green Coding"
-subtitle: "Basierend auf der Keynote von Kirsty Pringle auf der RSECon26"
 format:
     beamer:
         keep-tex: true
@@ -25,6 +24,25 @@ bibliography:
 ---
 
 # Einordnung
+
+## Nachhaltigkeitsprinzipien im Überblick
+
+\footnotesize
+
+Herkunft: @chitchyan-2025 verankern Nachhaltigkeit im SE-Curriculum mit dem *Sustainability Awareness Framework* [@duboc-2020]. Dessen Grundlage sind die neun Prinzipien des *Karlskrona Manifesto for Sustainability Design* [@becker-2015]:
+
+1. Nachhaltigkeit ist systemisch.
+2. Nachhaltigkeit hat mehrere Dimensionen: individuell, sozial, ökonomisch, ökologisch, technisch.
+3. Nachhaltigkeit überschreitet die Grenzen einzelner Disziplinen.
+4. Nachhaltigkeit ist ein Anliegen unabhängig vom Zweck des Systems.
+5. Nachhaltigkeit betrifft das System und seine weiteren Kontexte.
+6. Nachhaltigkeit erfordert Handeln auf mehreren Ebenen.
+7. Sichtbarkeit des Systems ist Voraussetzung und Wegbereiter für nachhaltiges Design.
+8. Nachhaltigkeit erfordert langfristiges Denken.
+9. Die Bedürfnisse künftiger Generationen lassen sich erfüllen, ohne den Wohlstand der heutigen zu opfern.
+
+
+\normalsize
 
 ## Quelle dieser Folien
 
@@ -114,17 +132,9 @@ Lizenz der Keynote: CC BY 4.0. Aufbau und Aussagen sind übernommen und ins Deut
 
 Führungsrollen: *Developing a Community of Leaders in Digital Research* -- <https://discourse-network.github.io/>
 
-# Reflexion
+## Literatur {.allowframebreaks}
 
-## Diskussion
-
-> "No one is too small to make a difference." -- Greta Thunberg
-
-\vfill
-
-- [TODO] Diskussionsfrage für die Gruppe
-
-## Literatur
+\footnotesize
 
 ::: {#refs}
 :::

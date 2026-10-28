@@ -220,7 +220,8 @@ In dieser Informatik-Veranstaltung werden diese Aspekte nicht nur diskutiert, so
 
 ## Themenwahl: Ihr Hazard-Plugin
 
-- Testen von RSE
+- Test der Forschungssoftware
+- Testen von generierter Forschungssoftware
 - Generierte Forschungssoftware
 - Green Coding
 - Open-Science-Qualitätsmerkmale
