@@ -1,0 +1,292 @@
+---
+# Sitzung 3 des Moduls "Responsible RSE" (rse_responsible).
+# Beamer-Setup wie session1-folien-responsible-rse.qmd.
+# Erster Entwurf; offene Stellen sind mit [TODO] markiert.
+# Kandidaten für weitere Belege: literature-links.md, Abschnitt 1 (noch nicht geprüft).
+title: "Sitzung 3: Generierte Forschungssoftware"
+format:
+    beamer:
+        keep-tex: true
+        colortheme: crane
+        fonttheme: structureitalicserif
+        aspectratio: 169
+        navigation: horizontal
+        pdf-engine: xelatex
+        include-in-header:
+            - ../../../rse_researchmethods/piloting/rwth_2026/beamer-header.tex
+            - beamer-header-local.tex
+        latex-auto-install: false
+        section-titles: true
+
+bibliography:
+    - references.bib
+---
+
+# Einordnung
+
+## Lernziele
+
+Nach dieser Einheit können Sie ...
+
+- einordnen, wofür Sprachmodelle im Software Engineering bisher untersucht werden,
+- begründen, warum generierter Code in der Forschung andere Fragen aufwirft als in der Produktentwicklung,
+- Risiken generierter Forschungssoftware benennen und einer Qualitätsdimension zuordnen,
+- einschätzen, welche dieser Risiken sich im Code selbst kenntlich machen und prüfen lassen.
+
+## Ablauf
+
+- RSE und generierter Code: Begriffe und Abgrenzung
+- Stand der Forschung: Überblick, Halluzinationen, generierte Tests, Vibe Coding, Lizenzen, Leitlinien
+- Weitere Befunde: Sicherheit, Abhängigkeiten, Produktivität, Reproduzierbarkeit, Code und Analysen in der Wissenschaft
+- Diskussion
+
+# RSE und generierter Code
+
+## Was heißt "generierte Forschungssoftware"?
+
+- **Generierter Code:** Quellcode, den ein Sprachmodell ganz oder teilweise erzeugt hat, von der Zeilenvervollständigung bis zum agentisch erstellten Projekt.
+- **Forschungssoftware:** Software, die im Forschungsprozess oder für einen Forschungszweck entstanden ist [@gruenpeter-2021].
+- **Generierte Forschungssoftware:** Beides zugleich. Der Code trägt ein Forschungsergebnis, und ein Teil davon stammt nicht von der Person, die das Ergebnis verantwortet.
+
+## Stufen der Generierung
+
+- Vervollständigung einzelner Zeilen im Editor
+- Erzeugung ganzer Funktionen oder Skripte aus einer Beschreibung
+- Überarbeitung bestehenden Codes (Refactoring, Übersetzung, Fehlersuche)
+- Agenten, die selbstständig planen, ausführen und testen
+
+Je höher die Stufe, desto weniger vom Code hat ein Mensch gelesen.
+
+# Stand der Forschung
+
+## Sprachmodelle im Software Engineering
+
+Systematische Literaturübersicht von @hou-2024:
+
+- 395 Studien aus den Jahren 2017 bis Anfang 2024
+- Vier Fragen: Welche Modelle werden eingesetzt? Mit welchen Daten? Wie werden sie angepasst und bewertet? Für welche Aufgaben?
+- Guter Einstieg in das Feld, weil die Übersicht die Aufgaben nach den Phasen des Software Engineering ordnet
+
+## Wofür Sprachmodelle untersucht werden
+
+![Verteilung der untersuchten Einsätze nach SE-Aktivität (a) und nach Problemtyp (b) [@hou-2024].](img/hou-2024-llm4se-verteilung.png){width=82%}
+
+## Die häufigsten Aufgaben je SE-Aktivität
+
+\footnotesize
+
+| SE-Aktivität | Studien | Häufigste Aufgaben (Anzahl Studien) |
+|:-----------------|----:|:------------------------------------------------------------|
+| Requirements engineering | 17 | Anaphoric ambiguity treatment (4), Requirements classification (4), Requirement analysis and evaluation (2), Specification generation (2) |
+| Software design | 4 | GUI retrieval, Rapid prototyping, Software specification synthesis, System design (je 1) |
+| Software development | 247 | Code generation (118), Code completion (22), Code summarization (21), Code search und Code translation (je 12) |
+| Software quality assurance | 66 | Vulnerability detection (18), Test generation (17), Bug localization (5), Verification (5) |
+| Software maintenance | 99 | Program repair (35), Code clone detection (8), Code review (7), Debugging (4) |
+| Software management | 3 | Effort estimation (2), Software tool configuration (1) |
+
+Zuordnungen nach @hou-2024; eine Studie kann mehrere Aufgaben behandeln, daher 436 Zuordnungen bei 395 Studien.
+
+## Was die Verteilung zeigt
+
+- Über die Hälfte der Studien betrifft die Softwareentwicklung (56,65 %), danach Wartung (22,71 %) und Qualitätssicherung (15,14 %).
+- Anforderungen (3,90 %), Entwurf (0,92 %) und Management (0,69 %) kommen kaum vor.
+- Rund 71 % der Aufgaben sind Generierungsaufgaben.
+
+Die Forschung konzentriert sich auf das Erzeugen von Code. Die Phasen, in denen entschieden wird, *was* gebaut wird und *warum*, sind wenig untersucht.
+
+## Halluzinationen in generiertem Code
+
+:::: {.columns}
+::: {.column width="50%"}
+![Beispiel aus [@liu-2026].](img/liu-2024-code-halluzination.png){height=70%}
+:::
+::: {.column width="50%"}
+\small
+
+@liu-2026: Was geht über funktionale Korrektheit hinaus schief?
+
+- **Halluzination:** Die Ausgabe weicht von der Absicht ab, widerspricht sich selbst oder dem Weltwissen.
+- Taxonomie aus generiertem Code: 3 Hauptkategorien, 12 Unterkategorien
+- Verteilung über Modelle und Benchmarks, Ursachen und Folgen
+- Gegenmaßnahmen allein über den Prompt
+
+Im Beispiel verletzt der Code die Vorgabe `tri(1) = 3` und läuft trotzdem.
+:::
+::::
+
+## Taxonomie der Code-Halluzinationen
+
+![Kategorien von Code-Halluzinationen [@liu-2026].](img/liu-2024-halluzination-taxonomie.png){width=88%}
+
+## Generierte Unit-Tests: TestPilot
+
+\small
+
+@schaefer-2023: Schreiben Sprachmodelle brauchbare Unit-Tests, ohne zusätzliches Training?
+
+- **Werkzeug:** TestPilot erzeugt Tests für alle API-Funktionen eines npm-Pakets (JavaScript).
+- **Prompt:** Signatur und Implementierung der Funktion, dazu Anwendungsbeispiele aus der Dokumentation. Scheitert ein Test, wird das Modell mit dem Test und der Fehlermeldung erneut gefragt.
+- **Umfang:** 25 npm-Pakete mit 1.684 API-Funktionen, Hauptmodell gpt-3.5-turbo
+- **Abdeckung (Median):** 70,2 % der Anweisungen und 52,8 % der Zweige. Die feedback-gesteuerte Testgenerierung Nessie erreicht 51,3 % und 25,6 %.
+- **Kein Auswendiglernen:** 92,8 % der Tests sind höchstens zu 50 % ähnlich zu vorhandenen Tests, keiner ist eine exakte Kopie.
+- **Andere Modelle:** code-cushman-002 erreicht 68,2 %, StarCoder 54,0 % Anweisungsabdeckung.
+
+## Vibe Coding: Praxis, Erleben und Folgen
+
+![Vibe Coding: Praxis, Erleben und Folgen [@pimenova-2026].](img/pimenova-2025-vibe-coding.png){width=92%}
+
+## Vibe Coding: Befunde
+
+\small
+
+@pimenova-2026: Wie erleben Entwickler:innen das Programmieren im Gespräch mit der KI?
+
+- **Daten:** über 190.000 Wörter aus halbstrukturierten Interviews, Reddit-Threads und LinkedIn-Posts, qualitativ ausgewertet
+- **Theorie:** Vibe Coding verbindet die Interaktion mit der KI im Gespräch, Ko-Kreation sowie Flow und Freude beim Entwickeln.
+- **Vertrauen als Regler:** Vertrauen in die KI bestimmt, wo man sich auf dem Kontinuum zwischen Delegation und Ko-Kreation bewegt, und hält den Flow aufrecht.
+- **Schmerzpunkte:** Spezifikation, Zuverlässigkeit, Debugging, Latenz, Aufwand für Code-Reviews und Zusammenarbeit
+- Die Studie sammelt auch Praktiken, mit denen Entwickler:innen diesen Problemen begegnen.
+
+## Generierter Code und Open-Source-Lizenzen
+
+\small
+
+@xu-2025 (LiCoEval, ICSE 2025): Hält generierter Code die Lizenzen seiner Vorlagen ein?
+
+- **Herkunft:** Die Modelle sind mit lizenziertem Open-Source-Code trainiert und geben Teile davon samt Kommentaren fast wörtlich wieder.
+- **Die Lizenz geht verloren:** Wiederverwendung ist erlaubt, aber an Bedingungen geknüpft, auch bei permissiven Lizenzen (z. B. Namensnennung und Änderungsvermerk bei Apache-2.0). Der generierte Code kommt ohne diese Angaben.
+- **Befund:** 14 Modelle, 4.187 Python-Funktionen. Bei den drei stärksten Modellen sind 0,88 bis 2,01 % der Ausgaben einer Vorlage „auffallend ähnlich“ (*striking similarity*).
+- **Nachfrage hilft kaum:** Die meisten Modelle nennen die Lizenz nicht korrekt. Bei Copyleft-Code liegt die Trefferquote bei allen Modellen bis auf eines bei null.
+- **Nicht prüfbar:** Die Trainingsdaten sind meist nicht offengelegt.
+- **Folge:** Das rechtliche Risiko liegt bei denen, die den Code verwenden.
+
+Grenzen der Studie: nur Python, nur einzelne Funktionen, bewusst strenger Schwellenwert.
+
+## Zwölf Tipps für KI-gestütztes Programmieren in der Wissenschaft
+
+\scriptsize
+
+@bridgeford-2026: *Twelve quick tips for AI-assisted coding in science*
+
+:::: {.columns}
+::: {.column width="50%"}
+1. Gather background knowledge before implementation
+2. Define your problem and distinguish problem framing from coding
+3. Choose appropriate AI interaction models
+4. Think through and divide an implementation plan
+5. Manage context strategically
+6. Meticulously verify AI assistance for testing
+:::
+::: {.column width="50%"}
+7. Use tests to specify and constrain AI-generated code
+8. Leverage AI to audit and expand test coverage
+9. Monitor progress and know when to restart
+10. Critically review generated code
+11. Refine code incrementally with focused objectives
+12. Document your code for reuse and publication
+:::
+::::
+
+Vorabversion: *Ten Simple Rules*. Die Autor:innen geben an, beim Zusammenführen der Tipps Claude genutzt zu haben.
+
+# Weitere Befunde
+
+## Sicherheit und erfundene Pakete
+
+\small
+
+- **Unsicherer Code, sicheres Gefühl** [@perry-2023]: In einer Nutzerstudie schrieben Teilnehmende mit KI-Assistent bei vier von fünf Aufgaben häufiger unsicheren Code als ohne. Sie hielten ihren Code zugleich häufiger für sicher. Wer der KI weniger vertraute und die Prompts überarbeitete, hatte weniger Schwachstellen.
+- **Erfundene Pakete** [@spracklen-2025]: 16 Modelle, 576.000 Codebeispiele in Python und JavaScript. Im Mittel sind mindestens 5,2 % (kommerzielle Modelle) bzw. 21,7 % (offene Modelle) der empfohlenen Pakete erfunden, insgesamt 205.474 verschiedene Namen.
+- Wer einen erfundenen Namen registriert, kann darüber Schadcode verteilen. Das macht die Halluzination zum Angriff auf die Lieferkette.
+
+## Produktivität und Reproduzierbarkeit
+
+\small
+
+- **Gefühlt schneller, gemessen langsamer** [@becker-2025]: Randomisierte Studie mit 16 erfahrenen Entwickler:innen und 246 Aufgaben in ihren eigenen, ausgereiften Open-Source-Projekten. Mit KI-Werkzeugen dauerten die Aufgaben 19 % länger. Erwartet hatten sie 24 % Zeitersparnis, nachher schätzten sie 20 %. Eine Momentaufnahme mit Werkzeugen von Anfang 2025.
+- **Nicht ohne Nacharbeit lauffähig** [@vangala-2025]: 300 von Coding-Agenten (Claude Code, Codex, Gemini) erzeugte Projekte. Nur 68,3 % laufen ohne Nacharbeit (Python 89,2 %, Java 44,0 %). Zur Laufzeit werden im Mittel 13,5-mal so viele Abhängigkeiten gebraucht wie angegeben.
+
+## Befunde aus der Wissenschaft: Code
+
+\small
+
+- **Forschungscode ist schwerer** [@tian-2024]: SciCode, 80 Probleme (338 Teilprobleme) aus 16 naturwissenschaftlichen Teilgebieten, von Forschenden erstellt und mit fachlichen Tests geprüft. Das beste Modell (Claude 3.5 Sonnet) löste im realistischen Szenario nur 4,6 % der Probleme.
+- **Wie Forschende Sprachmodelle nutzen** [@obrien-2025]: Interviews und Interaktionsprotokolle von Wissenschaftler:innen. Sie nutzen die Modelle oft, um sich in unbekannten Sprachen und Bibliotheken zurechtzufinden, also genau dort, wo sie die Ausgabe am wenigsten prüfen können.
+- **Der "AI Scientist" im Test** [@beel-2025]: 42 % der Experimente scheiterten an Programmierfehlern.
+
+## Befunde aus der Wissenschaft: Analysen
+
+\small
+
+- **Viele KI-Analyst:innen, ein Datensatz** [@bertran-2026]: KI-Agenten analysieren denselben Datensatz und kommen zu deutlich unterschiedlichen Effektstärken, p-Werten und Schlussfolgerungen. Schon der Wechsel des Modells oder der Persona verschiebt die Ergebnisse, auch unter methodisch gültigen Läufen.
+- **Der Garten der Pfadgabelungen, agentisch** [@miao-2026]: Agenten mit entgegengesetzten Vorannahmen ziehen aus denselben Daten entgegengesetzte Schlüsse. Sie reproduzieren 72 % der ideologischen Lücke aus einer Many-Analysts-Studie mit 42 Teams. 86 % dieser Analysen bestanden eine KI-Begutachtung, 78 % die Mehrheit der menschlichen Gutachter:innen.
+
+# Diskussion
+
+## Wer prüft den generierten Code?
+
+- Wenn ein Modell den Code *und* die Tests schreibt [@schaefer-2023]: Woran erkennen Sie dann, dass das Ergebnis fachlich stimmt?
+- Halluzinierter Code läuft oft fehlerfrei [@liu-2026]. Welche Prüfungen über "es läuft" hinaus braucht Ihre Analyse?
+- @bridgeford-2026 nutzen Tests einmal als Spezifikation (Tipp 7) und einmal als Aufgabe für die KI (Tipp 8). Wo ziehen Sie die Grenze?
+
+## Vertrauen und Selbsteinschätzung
+
+- Gefühlt schneller, gemessen langsamer [@becker-2025]; gefühlt sicher, tatsächlich unsicherer [@perry-2023]. Wie überprüfen Sie Ihr eigenes Urteil?
+- Vertrauen hält den Flow aufrecht [@pimenova-2026]. Wann wird Flow in der Forschung zum Risiko?
+- Würden Sie generierten Code so reviewen wie den Code einer Kollegin? Was hält Sie davon ab?
+
+## Reproduzierbarkeit und Herkunft
+
+- Erfundene Pakete, fehlende Abhängigkeiten [@spracklen-2025; @vangala-2025]: Was muss zu generiertem Code dazugehören, damit Dritte ihn ausführen können?
+- Die Lizenz der Vorlage geht verloren [@xu-2025]: Wer trägt das Risiko, wenn Ihre Publikation fremden Code ohne Lizenzangabe enthält?
+- Analysen mit Agenten streuen je nach Modell und Vorannahme [@bertran-2026; @miao-2026]. Was müssen Sie offenlegen: Code, Prompts, Agentenverlauf, verworfene Analysen?
+- Das Modell von heute ist morgen nicht mehr verfügbar. Genügt es, den Code zu archivieren, oder gehören Prompts und Modellversion dazu?
+
+## Verantwortung und Offenlegung
+
+- @bridgeford-2026 legen ihre KI-Nutzung offen. Wie sollte eine Publikation den Anteil generierten Codes kenntlich machen?
+- Wer verantwortet die Fehler generierter Forschungssoftware: wer promptet, wer publiziert, wer das Modell anbietet?
+- Die Forschung untersucht vor allem das Erzeugen von Code [@hou-2024]. Welche Fragen bleiben für Forschungssoftware offen?
+- Bezug zu `rse_annotations`: Welche dieser Risiken ließen sich als Concern im Code markieren und prüfen?
+
+<!--
+AUSKOMMENTIERT am 2026-10-06: Entwurf ohne Quellen, vom Dozenten als nicht belegt verworfen.
+Nicht wieder einblenden, ohne die Inhalte zu klären.
+
+# Folgen für Forschungssoftware
+
+## Was in der Forschung anders ist
+
+- **Kein Orakel:** Oft ist das richtige Ergebnis unbekannt; genau deshalb wird gerechnet. Ein plausibler, aber falscher Code fällt nicht auf.
+- **Nachvollziehbarkeit:** Ein Ergebnis soll sich später erneut erzeugen lassen, auch wenn das Modell nicht mehr verfügbar ist.
+- **Verantwortung:** Wer publiziert, verantwortet den Code, auch den nicht selbst geschriebenen.
+- **Fachwissen im Code:** Annahmen, Einheiten und Gültigkeitsbereiche stehen selten in der Aufgabenbeschreibung.
+
+## Risiken nach Qualitätsdimension
+
+- **Korrektheit:** [TODO] Beleg aus literature-links.md, Abschnitt 1.1
+- **Sicherheit:** [TODO] Beleg
+- **Reproduzierbarkeit:** [TODO] Beleg aus Abschnitt 1.2
+- **Lizenz und Herkunft:** [TODO] Beleg
+- **Offenlegung:** [TODO] Vorgaben von Zeitschriften und Förderern
+
+# Reflexion
+
+## Diskussion
+
+- Wo haben Sie selbst schon generierten Code in einer Analyse verwendet? Wie haben Sie ihn geprüft?
+- Welche Angaben müsste eine Publikation enthalten, damit Dritte den Anteil generierten Codes einschätzen können?
+- Die Literatur untersucht vor allem die Generierung. Welche Fragen bleiben dadurch für Forschungssoftware offen?
+
+## Bezug zur Projektaufgabe
+
+- Welche der genannten Risiken lassen sich direkt am Code kenntlich machen?
+- [TODO] Verweis auf das passende Plugin in `rse_annotations`
+-->
+
+## Literatur {.allowframebreaks}
+
+\footnotesize
+
+::: {#refs}
+:::
