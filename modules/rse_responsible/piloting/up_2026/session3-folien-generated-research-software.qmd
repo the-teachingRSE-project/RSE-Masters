@@ -122,7 +122,7 @@ Im Beispiel verletzt der Code die Vorgabe `tri(1) = 3` und läuft trotzdem.
 
 \small
 
-@schaefer-2023: Schreiben Sprachmodelle brauchbare Unit-Tests, ohne zusätzliches Training?
+@schaefer-2024: Schreiben Sprachmodelle brauchbare Unit-Tests, ohne zusätzliches Training?
 
 - **Werkzeug:** TestPilot erzeugt Tests für alle API-Funktionen eines npm-Pakets (JavaScript).
 - **Prompt:** Signatur und Implementierung der Funktion, dazu Anwendungsbeispiele aus der Dokumentation. Scheitert ein Test, wird das Modell mit dem Test und der Fehlermeldung erneut gefragt.
@@ -204,7 +204,7 @@ Vorabversion: *Ten Simple Rules*. Die Autor:innen geben an, beim Zusammenführen
 \small
 
 - **Gefühlt schneller, gemessen langsamer** [@becker-2025]: Randomisierte Studie mit 16 erfahrenen Entwickler:innen und 246 Aufgaben in ihren eigenen, ausgereiften Open-Source-Projekten. Mit KI-Werkzeugen dauerten die Aufgaben 19 % länger. Erwartet hatten sie 24 % Zeitersparnis, nachher schätzten sie 20 %. Eine Momentaufnahme mit Werkzeugen von Anfang 2025.
-- **Nicht ohne Nacharbeit lauffähig** [@vangala-2025]: 300 von Coding-Agenten (Claude Code, Codex, Gemini) erzeugte Projekte. Nur 68,3 % laufen ohne Nacharbeit (Python 89,2 %, Java 44,0 %). Zur Laufzeit werden im Mittel 13,5-mal so viele Abhängigkeiten gebraucht wie angegeben.
+- **Nicht ohne Nacharbeit lauffähig** [@vangala-2026]: 300 von Coding-Agenten (Claude Code, Codex, Gemini) erzeugte Projekte. Nur 68,3 % laufen ohne Nacharbeit (Python 89,2 %, Java 44,0 %). Zur Laufzeit werden im Mittel 13,5-mal so viele Abhängigkeiten gebraucht wie angegeben.
 
 ## Befunde aus der Wissenschaft: Code
 
@@ -225,7 +225,7 @@ Vorabversion: *Ten Simple Rules*. Die Autor:innen geben an, beim Zusammenführen
 
 ## Wer prüft den generierten Code?
 
-- Wenn ein Modell den Code *und* die Tests schreibt [@schaefer-2023]: Woran erkennen Sie dann, dass das Ergebnis fachlich stimmt?
+- Wenn ein Modell den Code *und* die Tests schreibt [@schaefer-2024]: Woran erkennen Sie dann, dass das Ergebnis fachlich stimmt?
 - Halluzinierter Code läuft oft fehlerfrei [@liu-2026]. Welche Prüfungen über "es läuft" hinaus braucht Ihre Analyse?
 - @bridgeford-2026 nutzen Tests einmal als Spezifikation (Tipp 7) und einmal als Aufgabe für die KI (Tipp 8). Wo ziehen Sie die Grenze?
 
@@ -237,7 +237,7 @@ Vorabversion: *Ten Simple Rules*. Die Autor:innen geben an, beim Zusammenführen
 
 ## Reproduzierbarkeit und Herkunft
 
-- Erfundene Pakete, fehlende Abhängigkeiten [@spracklen-2025; @vangala-2025]: Was muss zu generiertem Code dazugehören, damit Dritte ihn ausführen können?
+- Erfundene Pakete, fehlende Abhängigkeiten [@spracklen-2025; @vangala-2026]: Was muss zu generiertem Code dazugehören, damit Dritte ihn ausführen können?
 - Die Lizenz der Vorlage geht verloren [@xu-2025]: Wer trägt das Risiko, wenn Ihre Publikation fremden Code ohne Lizenzangabe enthält?
 - Analysen mit Agenten streuen je nach Modell und Vorannahme [@bertran-2026; @miao-2026]. Was müssen Sie offenlegen: Code, Prompts, Agentenverlauf, verworfene Analysen?
 - Das Modell von heute ist morgen nicht mehr verfügbar. Genügt es, den Code zu archivieren, oder gehören Prompts und Modellversion dazu?
