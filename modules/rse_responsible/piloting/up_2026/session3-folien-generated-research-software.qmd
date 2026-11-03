@@ -171,11 +171,14 @@ Vorabversion: *Ten Simple Rules*. Die Autor:innen geben an, beim Zusammenführen
 
 # Gleiche Daten, verschiedene Schlüsse
 
-## Vor der KI: viele Teams, ein Datensatz
+## Vor der KI: Pfadgabelungen und viele Teams
+
+\small
+
+- **Garten der Pfadgabelungen:** Ein Ergebnis hängt an einer Kette vertretbarer Entscheidungen (Ausschlüsse, Variablen, Modell, Berichterstattung). Jedes berichtete Modell steht für viele nicht gerechnete Alternativen [@bertran-2026].
+- **Multiplizität messen:** Many-Analysts-Studien halten Daten und Frage fest und lassen Teams variieren; Multiverse-Analysen rechnen die Varianten in einem Workflow durch. Offen bleibt, was als "vertretbar" gilt [@bertran-2026].
 
 \scriptsize
-
-Many-Analysts-Studien: Unabhängige Teams beantworten dieselbe Frage mit denselben Daten.
 
 | Studie | Frage | Teams | Ergebnis |
 |:---------------|:--------------------------|---:|:------------------------------------|
@@ -183,9 +186,6 @@ Many-Analysts-Studien: Unabhängige Teams beantworten dieselbe Frage mit denselb
 | @botvinik-nezer-2020 | Neun Hypothesen zu einem fMRT-Datensatz | 70 | Keine zwei Teams mit gleichem Workflow; deutlich verschiedene Ergebnisse |
 | @breznau-2022 | Senkt Zuwanderung die Unterstützung für Sozialpolitik? | 73 | Stark abweichende Ergebnisse; über 95 % der Varianz bleiben trotz Erfassung aller Entscheidungen unerklärt |
 | @gould-2025 | Zwei Fragen aus Ökologie und Evolutionsbiologie | 174 | Erhebliche Heterogenität der Effektstärken |
-
-\small
-Verschiedene Forschende kommen zu verschiedenen Schlüssen, weil sie verschiedene vertretbare Entscheidungen treffen: Messung, Ausschlüsse, Kovariaten, Modelle, Berichterstattung [@miao-2026].
 
 ## Der agentische Garten der Pfadgabelungen
 
@@ -203,9 +203,10 @@ Verschiedene Forschende kommen zu verschiedenen Schlüssen, weil sie verschieden
 \small
 
 - **Altes Problem, neuer Maßstab:** Selektive Analysen werden mit Agenten viel leichter durchzuführen und viel schwerer zu entdecken [@miao-2026].
-- **Im Bericht unsichtbar:** Aus dem fertigen Bericht allein lässt sich die Auswahl kaum erkennen. Die Begutachtung sieht den gewählten Pfad, nicht die verworfenen.
-- **Auch ohne Vorannahme:** KI-Agenten kommen bei demselben Datensatz zu deutlich unterschiedlichen Effektstärken und Schlüssen; schon der Wechsel des Modells verschiebt die Ergebnisse [@bertran-2026].
-- **Gegenvorschlag:** Werden Agenten protokolliert, machen sie die Suche auch leichter prüfbar. Der *m-value* gibt an, wie extrem ein Ergebnis unter vielen vertretbaren Analysen liegt; der *Agentic Bootstrap* schätzt ihn. 13,5 % der menschlichen Analysen in der Zuwanderungsstudie lagen in den extremsten 5 % [@miao-2026].
+- **Im Bericht unsichtbar:** Die Begutachtung sieht den gewählten Pfad, nicht die verworfenen.
+- **Agentische Datenanalyse:** Agenten planen, führen Code aus, prüfen Zwischenergebnisse und überarbeiten. Wiederholter Zugriff auf dieselben Daten kann zu Überanpassung führen, auch wenn kein Einzelschritt fehlerhaft ist [@bertran-2026].
+- **Many Analysts mit Agenten:** @bertran-2026 nutzen Agenten mit Personas als skalierbares Gegenstück zu verschiedenen Analyst:innen: rund 5.000 protokollierte Läufe (3 Datensätze, 4 Modelle, 5 Personas). Effektstärken und Schlüsse streuen mit Modell und Persona, auch bei methodisch gültigen Läufen.
+- **Gegenvorschlag:** Protokollierte Agenten machen die Suche auch prüfbar. Der *m-value* gibt an, wie extrem ein Ergebnis unter vielen vertretbaren Analysen liegt; der *Agentic Bootstrap* schätzt ihn [@miao-2026].
 
 <!--
 AUSKOMMENTIERT am 2026-10-06: Entwurf ohne Quellen, vom Dozenten als nicht belegt verworfen.
