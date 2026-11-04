@@ -159,6 +159,15 @@ Die Forschung konzentriert sich auf das Erzeugen von Code. Die Phasen, in denen 
 - **Many Analysts mit Agenten:** @bertran-2026 nutzen Agenten mit Personas als skalierbares Gegenstück zu verschiedenen Analyst:innen: rund 5.000 protokollierte Läufe (3 Datensätze, 4 Modelle, 5 Personas). Effektstärken und Schlüsse streuen mit Modell und Persona, auch bei methodisch gültigen Läufen.
 - **Gegenvorschlag:** Protokollierte Agenten machen die Suche auch prüfbar. Der *m-value* gibt an, wie extrem ein Ergebnis unter vielen vertretbaren Analysen liegt; der *Agentic Bootstrap* schätzt ihn [@miao-2026].
 
+# Vorstellung der recherchierten Paper
+
+## Vorstellung der recherchierten Paper
+
+Die Studierenden stellen das Paper vor, das sie recherchiert haben:
+
+- Hauptpunkte
+- Diskussionsthemen
+
 <!--
 AUSKOMMENTIERT am 2026-10-06: Entwurf ohne Quellen, vom Dozenten als nicht belegt verworfen.
 Nicht wieder einblenden, ohne die Inhalte zu klären.
