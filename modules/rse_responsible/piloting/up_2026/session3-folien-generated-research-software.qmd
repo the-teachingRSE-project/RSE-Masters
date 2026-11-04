@@ -31,15 +31,13 @@ Die Studierenden stellen das Paper vor, das sie recherchiert haben:
 - Hauptpunkte
 - Diskussionsthemen
 
-# RSE und generierter Code
+# RSE und generierter Code: Stand der Forschung
 
 ## Was heißt "generierte Forschungssoftware"?
 
 - **Generierter Code:** Quellcode, den ein Sprachmodell ganz oder teilweise erzeugt hat, von der Zeilenvervollständigung bis zum agentisch erstellten Projekt.
 - **Forschungssoftware:** Software, die im Forschungsprozess oder für einen Forschungszweck entstanden ist [@gruenpeter-2021].
 - **Generierte Forschungssoftware:** Beides zugleich. Der Code trägt ein Forschungsergebnis, und ein Teil davon stammt nicht von der Person, die das Ergebnis verantwortet.
-
-# Stand der Forschung
 
 ## Sprachmodelle im Software Engineering
 
