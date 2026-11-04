@@ -22,6 +22,15 @@ bibliography:
 
 \tableofcontents[hideallsubsections]
 
+# Vorstellung der recherchierten Paper
+
+## Vorstellung der recherchierten Paper
+
+Die Studierenden stellen das Paper vor, das sie recherchiert haben:
+
+- Hauptpunkte
+- Diskussionsthemen
+
 # RSE und generierter Code
 
 ## Was heißt "generierte Forschungssoftware"?
@@ -101,25 +110,6 @@ Die Forschung konzentriert sich auf das Erzeugen von Code. Die Phasen, in denen 
 ::::
 
 
-# Weitere Befunde
-
-## Sicherheit, Produktivität, Reproduzierbarkeit
-
-\small
-
-- **Unsicherer Code, sicheres Gefühl** [@perry-2023]: Teilnehmende mit KI-Assistent schrieben bei vier von fünf Aufgaben häufiger unsicheren Code und hielten ihn zugleich häufiger für sicher.
-- **Erfundene Pakete** [@spracklen-2025]: 16 Modelle, 576.000 Codebeispiele. Mindestens 5,2 % (kommerzielle) bzw. 21,7 % (offene Modelle) der empfohlenen Pakete sind erfunden. Wer einen solchen Namen registriert, kann darüber Schadcode verteilen.
-- **Gefühlt schneller, gemessen langsamer** [@becker-2025]: 16 erfahrene Entwickler:innen, 246 Aufgaben. Mit KI-Werkzeugen dauerten die Aufgaben 19 % länger; erwartet hatten sie 24 % Zeitersparnis.
-- **Nicht ohne Nacharbeit lauffähig** [@vangala-2026]: Von 300 durch Coding-Agenten erzeugten Projekten laufen nur 68,3 % ohne Nacharbeit.
-
-## Befunde aus der Wissenschaft: Code
-
-\small
-
-- **Forschungscode ist schwerer** [@tian-2024]: SciCode, 80 Probleme aus 16 naturwissenschaftlichen Teilgebieten, von Forschenden erstellt. Das beste Modell (Claude 3.5 Sonnet) löste nur 4,6 % der Probleme.
-- **Wie Forschende Sprachmodelle nutzen** [@obrien-2025]: oft, um sich in unbekannten Sprachen und Bibliotheken zurechtzufinden, also genau dort, wo sie die Ausgabe am wenigsten prüfen können.
-- **Der "AI Scientist" im Test** [@beel-2025]: 42 % der Experimente scheiterten an Programmierfehlern.
-
 # Methodische Aspekte generierter Forschungssoftware
 
 ## Vor der KI: Pfadgabelungen und viele Teams
@@ -158,15 +148,6 @@ Die Forschung konzentriert sich auf das Erzeugen von Code. Die Phasen, in denen 
 - **Agentische Datenanalyse:** Agenten planen, führen Code aus, prüfen Zwischenergebnisse und überarbeiten. Wiederholter Zugriff auf dieselben Daten kann zu Überanpassung führen, auch wenn kein Einzelschritt fehlerhaft ist [@bertran-2026].
 - **Many Analysts mit Agenten:** @bertran-2026 nutzen Agenten mit Personas als skalierbares Gegenstück zu verschiedenen Analyst:innen: rund 5.000 protokollierte Läufe (3 Datensätze, 4 Modelle, 5 Personas). Effektstärken und Schlüsse streuen mit Modell und Persona, auch bei methodisch gültigen Läufen.
 - **Gegenvorschlag:** Protokollierte Agenten machen die Suche auch prüfbar. Der *m-value* gibt an, wie extrem ein Ergebnis unter vielen vertretbaren Analysen liegt; der *Agentic Bootstrap* schätzt ihn [@miao-2026].
-
-# Vorstellung der recherchierten Paper
-
-## Vorstellung der recherchierten Paper
-
-Die Studierenden stellen das Paper vor, das sie recherchiert haben:
-
-- Hauptpunkte
-- Diskussionsthemen
 
 <!--
 AUSKOMMENTIERT am 2026-10-06: Entwurf ohne Quellen, vom Dozenten als nicht belegt verworfen.
