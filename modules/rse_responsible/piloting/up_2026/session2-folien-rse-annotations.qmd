@@ -2,7 +2,7 @@
 # Neue Fassung von Sitzung 2 (die alte liegt in session2_deprecated.qmd).
 # Grundlagen für den schlanken Prototyp rse_annotations (Branch main; die längere Fassung liegt auf gen_code_prototype).
 # Nie eine feste Anzahl von Decorators nennen -- die Menge wächst.
-title: "Sitzung 2: rse_annotations -- Forschungscode markieren und prüfen"
+title: "Sitzung 2: rse_annotations -- Einführung in das Softwareprojekt"
 subtitle: "Grundlagen: Decorators, Immutabilität und Dataclasses"
 format:
     beamer:
@@ -18,6 +18,45 @@ format:
         latex-auto-install: false
         section-titles: true
 ---
+
+# Einführung
+
+## Responsible RSE
+
+- Forschungssoftware hat nicht-funktionale **Aspekte** von Verantwortung
+- Wissenschaftler:innen müssen in Forschungssoftware problematische Teile offenlegen (Reproduzierbarkeit, wissenschaftliche Methode)
+- Aktuell fehlt es an Frameworks, die W. dabei unterstützten
+- Generierter Code verschärft das Problem und ist ein wichtiger Aspekt von Verantwortung
+
+## Seminarkonstrukt: Wissenschaftliche Produktentwicklung
+
+- Literaturarbeit zu Themen (Nachhaltigkeit, Openness ...) und/oder Implementierung von Aspekten
+- während der Präsenzzeit
+  - Weiterbildung zu höherer Pythonprogrammierung
+  - Diskussion zu der Literatur
+  - Vorträge zu Themen
+  - Coding Dojo: praktische Probleme bei der Programmierung/Recherche
+- zu Hause:
+  - lesen!
+  - Softwareentwicklung
+  - Sozio-technische Kompetenzentwicklung (Open Source Project Management, ...)
+
+## Heutige Sitzung
+
+- Wissensstand Open Source Entwicklung
+- Wissensstand Python
+- Diskussion über Themen bzw. Ausrichtung der (eher technischer, eher Literatur)
+- Einführung in benötigte Python Idiome/Patterns
+- Vorstellung des Softwareprojektes
+
+## Selbsteinschätzung
+
+- Git ?
+- Python ?
+- Literaturrecherche ?
+- Software Engineering ?
+- Wissenschaftliches Arbeiten / Seminararbeit schreiben?
+
 
 # Wiederholung: Decorators
 
@@ -72,6 +111,72 @@ def read_rows(path): ...
 - **Mit Klammern:** `data_input(fields=...)` bekommt **keine** Funktion. Es muss einen Decorator zurückgeben, der dann auf die Funktion angewendet wird.
 - Zwei Schritte: `read_rows = data_input(fields=...)(read_rows)`
 - Die Argumente (hier `fields`) werden als Metadaten mit der Markierung gespeichert.
+
+## Dunder-Namen: `__name__`
+
+\footnotesize
+
+:::: {.columns}
+::: {.column width="48%"}
+**Methoden: Python ruft sie für Syntax auf**
+
+```python
+Concern()     # __init__
+obj(x)        # obj.__call__(x)
+a == b        # a.__eq__(b)
+repr(a)       # a.__repr__()
+len(a)        # a.__len__()
+for x in a:   # a.__iter__()
+```
+:::
+::: {.column width="48%"}
+**Attribute: Metadaten am Objekt**
+
+```python
+f.__name__      # 'normalize'
+f.__doc__       # Docstring
+f.__module__    # Modulname
+f.__closure__   # gemerkte Variablen
+f.__rse_concerns__  # unsere Marke
+```
+:::
+::::
+
+\normalsize
+
+- "Dunder" = **d**ouble **under**score. Eine Klasse wird aufrufbar, vergleichbar, iterierbar, indem sie die passende Methode definiert (Protokoll statt Interface).
+- `@dataclass` erzeugt `__init__`, `__repr__`, `__eq__` automatisch.
+- PEP 8: eigene Dunder-Namen sind Python vorbehalten. `__rse_concerns__` ist Framework-Konvention; sicherer wäre `_rse_concerns`.
+
+## Closure (Beispiel: Wikipedia)
+
+\scriptsize
+
+```python
+from collections.abc import Callable
+
+def f(x: int) -> Callable[[int], int]:
+    def g(y: int) -> int:
+        return x + y
+    return g  # Return a closure.
+
+def h(x: int) -> Callable[[int], int]:
+    return lambda y: x + y  # Return a closure.
+
+# Assigning specific closures to variables.
+a: Callable[[int], int] = f(1)
+b: Callable[[int], int] = h(1)
+
+# Using the closures stored in variables.
+assert a(5) == 6
+assert b(5) == 6
+
+# Using closures without binding them to variables first.
+assert f(1)(5) == 6  # f(1) is the closure.
+assert h(1)(5) == 6  # h(1) is the closure.
+```
+
+\normalsize
 
 ## Im Prototyp: Die Instanz ist der Decorator
 
@@ -625,3 +730,28 @@ review(project)                         # pro (Funktion, Concern) ein Verdict
 - Probleme mit dem Basiscode: ein **Issue** im Repository.
 :::
 ::::
+
+## Der Beitragsprozess bei Open Source
+
+```{mermaid}
+%%| fig-width: 5.8
+flowchart LR
+    U[("rse_code_annotations")] -->|fork| F["Eigener Fork"]
+    F --> A["Aspekt implementieren<br/>decorators/name/Name.py<br/>assertion + detect"]
+    I["Issue: Problem<br/>im Basiscode"] -.->|Diskussion| C
+    F --> C["Core ändern<br/>_base, scan, report"]
+    A --> T["Tests<br/>must-fire, must-not-fire"]
+    C --> T
+    T --> P["Pull Request"]
+    P --> R{"Review"}
+    R -->|Änderungswünsche| T
+    R -->|ok| M["Merge"]
+    M --> U
+```
+
+\footnotesize
+
+- **Neuer Aspekt:** ein Ordner, eine Klasse, keine Registrierung (Anleitung: `HOW_TO_CONTRIBUTE.md`).
+- **Core:** erst ein Issue, dann die Änderung. Core-Änderungen betreffen alle Concerns.
+
+\normalsize

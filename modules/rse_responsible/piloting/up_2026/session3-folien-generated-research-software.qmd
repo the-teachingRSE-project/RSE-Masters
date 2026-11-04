@@ -22,24 +22,6 @@ bibliography:
     - references.bib
 ---
 
-# Einordnung
-
-## Lernziele
-
-Nach dieser Einheit können Sie ...
-
-- einordnen, wofür Sprachmodelle im Software Engineering bisher untersucht werden,
-- begründen, warum generierter Code in der Forschung andere Fragen aufwirft als in der Produktentwicklung,
-- Risiken generierter Forschungssoftware benennen und einer Qualitätsdimension zuordnen,
-- erklären, warum dieselben Daten zu verschiedenen Schlüssen führen und was KI-Agenten daran ändern.
-
-## Ablauf
-
-- RSE und generierter Code: Begriffe und Abgrenzung
-- Stand der Forschung: Überblick, Halluzinationen, generierte Tests, Vibe Coding, Lizenzen, Leitlinien
-- Weitere Befunde: Sicherheit, Abhängigkeiten, Produktivität, Reproduzierbarkeit, Code in der Wissenschaft
-- Gleiche Daten, verschiedene Schlüsse: vor und mit KI-Agenten
-
 # RSE und generierter Code
 
 ## Was heißt "generierte Forschungssoftware"?
@@ -47,15 +29,6 @@ Nach dieser Einheit können Sie ...
 - **Generierter Code:** Quellcode, den ein Sprachmodell ganz oder teilweise erzeugt hat, von der Zeilenvervollständigung bis zum agentisch erstellten Projekt.
 - **Forschungssoftware:** Software, die im Forschungsprozess oder für einen Forschungszweck entstanden ist [@gruenpeter-2021].
 - **Generierte Forschungssoftware:** Beides zugleich. Der Code trägt ein Forschungsergebnis, und ein Teil davon stammt nicht von der Person, die das Ergebnis verantwortet.
-
-## Stufen der Generierung
-
-- Vervollständigung einzelner Zeilen im Editor
-- Erzeugung ganzer Funktionen oder Skripte aus einer Beschreibung
-- Überarbeitung bestehenden Codes (Refactoring, Übersetzung, Fehlersuche)
-- Agenten, die selbstständig planen, ausführen und testen
-
-Je höher die Stufe, desto weniger vom Code hat ein Mensch gelesen.
 
 # Stand der Forschung
 
@@ -87,30 +60,9 @@ Die Forschung konzentriert sich auf das Erzeugen von Code. Die Phasen, in denen 
 - **Halluzination:** Die Ausgabe weicht von der Absicht ab, widerspricht sich selbst oder dem Weltwissen.
 - Taxonomie aus generiertem Code: 3 Hauptkategorien, 12 Unterkategorien
 
-Im Beispiel verletzt der Code die Vorgabe `tri(1) = 3` und läuft trotzdem.
 :::
 ::::
 
-## Generierte Unit-Tests: TestPilot
-
-\small
-
-@schaefer-2024: Schreiben Sprachmodelle brauchbare Unit-Tests, ohne zusätzliches Training?
-
-- **Werkzeug:** TestPilot erzeugt Tests für alle API-Funktionen eines npm-Pakets. Scheitert ein Test, wird das Modell mit dem Test und der Fehlermeldung erneut gefragt.
-- **Umfang:** 25 npm-Pakete mit 1.684 API-Funktionen, Hauptmodell gpt-3.5-turbo
-- **Abdeckung (Median):** 70,2 % der Anweisungen und 52,8 % der Zweige. Die feedback-gesteuerte Testgenerierung Nessie erreicht 51,3 % und 25,6 %.
-- **Kein Auswendiglernen:** 92,8 % der Tests sind höchstens zu 50 % ähnlich zu vorhandenen Tests.
-
-## Vibe Coding
-
-\small
-
-@pimenova-2026: Wie erleben Entwickler:innen das Programmieren im Gespräch mit der KI?
-
-- **Daten:** über 190.000 Wörter aus halbstrukturierten Interviews, Reddit-Threads und LinkedIn-Posts, qualitativ ausgewertet
-- **Vertrauen als Regler:** Vertrauen in die KI bestimmt, wo man sich auf dem Kontinuum zwischen Delegation und Ko-Kreation bewegt, und hält den Flow aufrecht.
-- **Schmerzpunkte:** Spezifikation, Zuverlässigkeit, Debugging, Latenz, Aufwand für Code-Reviews und Zusammenarbeit
 
 ## Generierter Code und Open-Source-Lizenzen
 
@@ -148,7 +100,6 @@ Im Beispiel verletzt der Code die Vorgabe `tri(1) = 3` und läuft trotzdem.
 :::
 ::::
 
-Vorabversion: *Ten Simple Rules*. Die Autor:innen geben an, beim Zusammenführen der Tipps Claude genutzt zu haben.
 
 # Weitere Befunde
 
@@ -169,7 +120,7 @@ Vorabversion: *Ten Simple Rules*. Die Autor:innen geben an, beim Zusammenführen
 - **Wie Forschende Sprachmodelle nutzen** [@obrien-2025]: oft, um sich in unbekannten Sprachen und Bibliotheken zurechtzufinden, also genau dort, wo sie die Ausgabe am wenigsten prüfen können.
 - **Der "AI Scientist" im Test** [@beel-2025]: 42 % der Experimente scheiterten an Programmierfehlern.
 
-# Gleiche Daten, verschiedene Schlüsse
+# Methodische Aspekte generierter Forschungssoftware
 
 ## Vor der KI: Pfadgabelungen und viele Teams
 
@@ -221,13 +172,6 @@ Nicht wieder einblenden, ohne die Inhalte zu klären.
 - **Verantwortung:** Wer publiziert, verantwortet den Code, auch den nicht selbst geschriebenen.
 - **Fachwissen im Code:** Annahmen, Einheiten und Gültigkeitsbereiche stehen selten in der Aufgabenbeschreibung.
 
-## Risiken nach Qualitätsdimension
-
-- **Korrektheit:** [TODO] Beleg aus literature-links.md, Abschnitt 1.1
-- **Sicherheit:** [TODO] Beleg
-- **Reproduzierbarkeit:** [TODO] Beleg aus Abschnitt 1.2
-- **Lizenz und Herkunft:** [TODO] Beleg
-- **Offenlegung:** [TODO] Vorgaben von Zeitschriften und Förderern
 
 # Reflexion
 
