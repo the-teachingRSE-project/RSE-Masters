@@ -1,0 +1,16 @@
+## deRSE27 poster abstract
+
+**Title:** Research Software Engineering Education in German Universities
+
+**Type:** Poster
+
+**Focus area:** 2 — RSE Research: Software Engineering Research on Research Software (Engineering)
+
+**Authors:** Nils König (lead), Julian Dehne
+
+## Abstract
+Adoption of research software engineering (RSE) roles and practices in Germany is growing, but education is still lagging behind. RSE practitioners often have a background in either a scientific discipline or software engineering and have to refer to various dispersed training materials to fill the respective skill gap. The teachingRSE group at the intersection of deRSE and GI is working toward creating an RSE-Masters  model curriculum. If implemented at universities, a dedicated RSE study program would provide students a clear pathway to becoming an RSE, establishing both common skills and a shared identitiy for absolvents. Until then, the group maintains a list of existing study programs that already pursue similar goals. This thesis performed an empirical analysis of the existing programs and the model curriculum.
+
+To broaden the analysis, the list of existing RSE-like study programs was first extended through a systematic search. Using the BERTopic framework, topic modeling was then performed on the existing programs' module descriptions to develop a thematic framework of current RSE education in German universities. The topic model spans 57 topics and was trained on more than 4,000 module descriptions that were extracted from module handbooks of 73 study programs using large language models. The distribution of topics across study programs reveals a clear split between common computer science and specialized domain science topics. The topic model was then compared to the RSE-Masters model curriculum. The comparison results are consistent with the goal of the model curriculum to provide a uniform and domain-independent pathway for students. Of 26 well-defined modules in the model curriculum, almost 85% map to computer science and research topics commonly found in existing programs. Specialized domain science topics in existing programs instead correspond to generic wildcard modules in the model curriculum, which are designed to increase flexibility for students. The comparison also reveals a gap: The model curriculum is missing dedicated foundational mathematics modules, although mathematics topics are present in almost 75% of existing programs. In contrast, specific RSE modules or variants designed as identity-building blocks of the model curriculum are rarely found in existing study programs. In addition, the thesis provides a method to evaluate the extent to which existing programs already correspond to the model curriculum, both topically and based on individual modules.
+
+The results of this thesis inform further development of the RSE-Masters model curriculum. On the one hand, the thesis establishes a framework of current RSE education in universities and indicates potential gaps of the model curriculum. On the other hand, comparison to existing programs can highlight universities that already offer similar modules and can therefore facilitate adoption of dedicated RSE programs.
