@@ -1,0 +1,156 @@
+Deliberationsschritte zum Mastercurriculum Research Software Engineering (teachingRSE)
+=====================================================================================
+
+Stand: Oktober 2026
+
+Seit April 2025 entwickeln die Gesellschaft für Informatik (GI), ihre Fachgruppe
+Research Software Engineering (FG-RSE) und der deRSE e.V. gemeinsam curriculare
+Empfehlungen für einen Master in Research Software Engineering (RSE). Das Projekt
+wird von der Klaus Tschira Stiftung gefördert (Ausschreibung "Naturwissenschaftliche
+Software", 2024). Das Curriculum entstand nicht im kleinen Kreis. Es wurde in
+mehreren aufeinander aufbauenden Schritten mit der Fach-Community, den
+Informatik-Fakultäten, der Softwaretechnik-Professorenschaft und Lehrenden erarbeitet
+und abgestimmt.
+
+Vorgeschichte
+   - Februar 2023: Workshop "Teaching RSE" auf der deRSE23 in Paderborn (co-located
+     mit der SE23). Danach bildet sich ein deRSE-Arbeitskreis Teaching RSE.
+   - Juni 2023: Gründung der Fachgruppe RSE in der GI.
+   - November 2023: Preprint "Foundational Competencies and Responsibilities of a
+     Research Software Engineer" (Goth et al.) mit der Idee eines RSE-Masters.
+   - 2024: deRSE und FG-RSE werben gemeinsam das Projekt bei der Klaus Tschira
+     Stiftung ein. Projektstart: April 2025.
+
+
+1. Öffentlicher Aufruf zur Mitarbeit über GI und deRSE (ab Frühjahr 2025)
+
+   Zu den Community-Workshops wurde öffentlich über die Verteiler der GI und des
+   deRSE e.V. eingeladen. Später wurde über die Kommunikationskanäle der GI
+   (Leitartikel, NewsInf) erneut für das Curriculum und die Pilotkurse geworben.
+
+2. Thematische Community-Workshops (Sommer 2025)
+
+   12 Online-Workshops von je 2-3 Stunden dienten der Sammlung von Anforderungen.
+   Sie waren offen für die RSE-Community sowie für interessierte Forschende und
+   Lehrende. Themenfelder waren unter anderem:
+     - RSE Management and Communication
+     - The Missing Semester / RSE Tooling
+     - RSE Efficient Computing and Hardware
+     - Programming and Software Engineering for Research
+     - RSE Theory
+     - RSE for Natural Sciences
+     - Institutional Constraints of the RSE Master
+   Methodisch wurde mit didaktischem Design Thinking und der Critical-Incident-Methode
+   gearbeitet. Die Diskussionen wurden in Etherpads festgehalten und in das offene
+   GitHub-Projekt übertragen. Bis August 2025 waren die Workshops abgeschlossen.
+
+3. Öffentliche Inhaltsentwicklung auf GitHub (seit 2025, fortlaufend)
+
+   Parallel zur Schreibgruppe wird das Curriculum offen nach den Prinzipien der
+   Open-Source- und Open-Content-Entwicklung entwickelt. Dort entstehen Ideen für
+   neue Module, Kursreihen und Kompetenzmatrizen:
+   https://github.com/the-teachingRSE-project/RSE-Masters
+   Jede Person kann Texte, Module oder hochschulspezifische Profile beitragen. Der
+   aktuelle Stand erscheint automatisch als Website:
+   https://the-teachingrse-project.github.io/RSE-Masters/
+   Begleitend gibt es eine offene Mailingliste:
+   https://www.listserv.dfn.de/sympa/info/rse-master
+
+4. Bildung einer gemeinsamen Schreibgruppe (ab September 2025)
+
+   Aus dem Workshop-Prozess ging eine Kerngruppe hervor, die die offiziellen
+   GI-Empfehlungen schreibt. Sie ist paritätisch mit Softwaretechnik-Professorinnen
+   und -Professoren und deRSE-Mitgliedern besetzt:
+     Prof. Anna-Lena Lamprecht (Uni Potsdam), Prof. Bernhard Rumpe (RWTH Aachen),
+     Prof. Katharina Best (HS Hamm-Lippstadt), Prof. Wilhelm Hasselbring (Uni Kiel),
+     Dr. Jan Philipp Thiele (TU Braunschweig), Dr. Harald von Waldow (Thünen-
+     Institut), Dr. Florian Goth (Uni Würzburg), Dr. Jan Linxweiler (TU Braunschweig).
+   Koordiniert wird die Gruppe von der Projektkoordination (Julian Dehne, GI). Die
+   erste Sitzung fand am 03.09.2025 statt, die vierte und letzte Schreibsitzung
+   Anfang Dezember 2025. Der offene Community-Prozess lief parallel weiter.
+
+5. Workshop beim Jahrestreffen der FG-RSE (15.09.2025)
+
+   Im Vorfeld der INFORMATIK 2025 wurden die Zwischenergebnisse der Fachgruppe in
+   einem World-Café-Workshop vorgestellt und diskutiert. Dort wurden die tragenden
+   Designentscheidungen eingebracht:
+     - zwei Tracks (Informatik-Bachelor bzw. Bachelor aus MNT und weiteren Fächern),
+     - 80-90 % bestehende Kurse, ergänzt um neue RSE-Module.
+
+6. Wöchentliche Sitzungen des AK TeachRSE der FG-RSE (fortlaufend)
+
+   Im Arbeitskreis TeachRSE der Fachgruppe RSE wird der Fortschritt wöchentlich
+   besprochen: Modulentwürfe, Pilotierungen und die Abstimmung mit dem deRSE e.V.
+
+7. Dissemination beim Fakultätentag Informatik
+
+   Die Vertreterinnen und Vertreter der Informatik-Fakultäten wurden zu einer
+   90-minütigen Informationsveranstaltung eingeladen. Dort wurden die bisherigen
+   Ideen, Gestaltungswünsche und Kritik offen diskutiert. Ein Schwerpunkt war die
+   Frage, ob RSE ein eigenständiger Studiengang oder eine Modulsammlung innerhalb
+   bestehender Studiengänge sein soll.
+
+8. Einreichung beim GI-Präsidium (Januar 2026)
+
+   Im Januar 2026 wurde der Curriculumsentwurf dem Präsidium der GI vorgelegt.
+
+9. Vorstellung im SE-Professorium (16.02.2026)
+
+   Der Entwurf wurde den Professorinnen und Professoren der Softwaretechnik im
+   SE-Professorium vorgestellt. Vorgestellt wurden die Vorgeschichte, die Kerngruppe,
+   die Workshop-Methodik, die Designentscheidungen (zwei Tracks), die neuen Module und
+   die vierteilige RSE-Modulreihe. Ziel war die fachliche Anbindung an die
+   Software-Engineering-Community der GI.
+
+10. Vorstellungen in Dresden (18.12.2025) und Bern (24.02.2026)
+
+   Der Curriculumsentwurf wurde außerdem in Dresden (18.12.2025) und in Bern
+   (24.02.2026) vorgestellt und diskutiert. Die Präsentationen behandelten die
+   Vorgeschichte, die Kerngruppe, die Abgrenzung von RSE zu Data Science, die
+   Karrierewege und die zwei Tracks. Die Tracks wurden dabei in die GI-Typologie für
+   Informatikstudiengänge eingeordnet.
+
+11. Vorstellung auf der deRSE26
+
+   Auf der deRSE26 wurde der Stand der deutschen RSE-Community mit einem Poster
+   ("Teaching RSE", Dehne/Lamprecht, deRSE & GI) und einer Vorstellung des Curriculums
+   präsentiert und diskutiert. Das Poster zeigte den Zeitplan, die zwei Tracks, die
+   neuen Kurse und die geplanten Pilotierungen.
+
+12. Pilotierung der neuen Kurse (ab Sommersemester 2026)
+
+   Einzelne neu entworfene Module werden als reguläre Lehrveranstaltungen erprobt:
+     - Forschungsmethodik für RSE (Dehne/Heinemann, RWTH Aachen, SS 2026; erste
+       Sitzung am 16.04.2026)
+     - Management und Kommunikation für RSE (Dehne/Schmidt, RWTH Aachen, SS 2026)
+     - Werkzeuge der Forschungssoftwareentwicklung (Juckeland, TU Dresden)
+     - Wissenschaftliches Rechnen (Thiele, TU Braunschweig)
+     - Fortgeschrittenes (R)SE / Responsible RSE (Lamprecht/Dehne, Uni Potsdam,
+       WS 2026/27)
+     - Geplant: RSE und Management (Wiederholung) sowie RSE und genAI (HU Berlin,
+       SS 2027)
+   Eine Mixed-Methods-Studie begleitet die Pilotierung vor, während und nach den
+   Kursen: einheitlicher Fragebogen zu Kursbeginn, danach leitfadengestützte
+   Interviews mit Studierenden. Die Erfahrungen fließen in die Empfehlungen zurück und
+   werden auf der deRSE27 berichtet.
+
+13. Begleitforschung: Analyse bestehender Curricula
+
+   Neben der Pilotierung wird das Curriculum durch eine Analyse bestehender
+   Studiengänge empirisch abgesichert:
+     - Curriculum Mining: In einer Masterarbeit (Nils König) werden bestehende Curricula
+       automatisiert ausgewertet und auf die RSE-Kompetenzen und Module des
+       Entwurfs abgebildet.
+     - Systematische Codierung: Innerhalb der Projektgruppe bei der GI werden die
+       bestehenden Curricula systematisch codiert. So wird sichtbar, welche Inhalte
+       an Hochschulen bereits angeboten werden und wo neue RSE-Module nötig sind.
+   Beide Analysen prüfen die Annahme des Entwurfs, dass 80-90 % der Kurse aus
+   bestehenden Angeboten stammen können. Ihre Ergebnisse fließen in die
+   Weiterentwicklung der Empfehlungen ein.
+
+14. Beschluss auf dem Fachgruppentreffen in Berlin (13.10.2026)
+
+   Auf dem Treffen der FG-RSE in Berlin wurde der Entwurf "Curriculare Empfehlungen:
+   Master in Research Software Engineering" vorgestellt. Er umfasst zwei Tracks mit je
+   120 ECTS: einen für Informatik-Bachelor und einen für Bachelor aus MNT, Sozial- und
+   Geisteswissenschaften. Anschließend wurde der Entwurf beschlossen.
