@@ -16,12 +16,45 @@ format:
         include-in-header:
             - ../../../rse_researchmethods/piloting/rwth_2026/beamer-header.tex
             - beamer-header-local.tex
+            - text: |
+                \usepackage{tikz}
+                \usetikzlibrary{calc}
         latex-auto-install: false
         section-titles: true
 
 bibliography:
     - references.bib
 ---
+
+# Wiederholung
+
+## Zwei Unterscheidungen, vier Felder
+
+<!-- Wiederholung aus Sitzung 2 (session2_deprecated.qmd), unverändert übernommen. -->
+
+\footnotesize
+
+**Woher kommt ein Hazard?** (Zeilen) -- **Muss der Code dafür laufen?** (Spalten)
+
+```{=latex}
+{\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}p{0.35\textwidth}|>{\raggedright\arraybackslash}p{0.35\textwidth}}
+ & \textbf{ohne Ausführung} (statisch) & \textbf{zur Laufzeit} \\ \hline
+\textbf{erkannt}\newline das Werkzeug findet ihn
+ & Hazard-Scan im Quelltext (AST): \texttt{stochastic}, \texttt{model\_call}, \texttt{config}; Abdeckung und Kandidaten
+ & Checks mit Fixtures: Ist \texttt{@functional} wirklich rein? Liest \texttt{@data\_input} wirklich? \\ \hline
+\textbf{deklariert}\newline die Autorin setzt ihn
+ & externes Review der markierten Stellen, z.B. \texttt{hardware\_dependency}
+ & Inspektion mit abgeleiteter Formel, generierte Tests \\
+\end{tabular}}
+```
+
+\vfill
+
+- *Statisch* liest nur, importiert nichts: läuft überall -- auch ohne TensorFlow, ohne GPU.
+- *Zur Laufzeit* importiert den Code und ruft ihn auf: braucht die Abhängigkeiten und die Hardware.
+
+\normalsize
 
 # Einordnung
 
@@ -42,6 +75,15 @@ Herkunft: @chitchyan-2025 verankern Nachhaltigkeit im SE-Curriculum mit dem *Sus
 9. Die Bedürfnisse künftiger Generationen lassen sich erfüllen, ohne den Wohlstand der heutigen zu opfern.
 
 
+\normalsize
+
+## Das GREENSOFT-Modell
+
+\centering
+\adjustbox{max width=\textwidth, max height=0.8\textheight}{\input{img/greensoft-model.tex}}
+
+\footnotesize
+Neu gezeichnet nach [@naumann-2011, Fig. 1]
 \normalsize
 
 ## Quelle dieser Folien
@@ -66,6 +108,22 @@ Lizenz der Keynote: CC BY 4.0. Aufbau und Aussagen sind übernommen und ins Deut
 
 # Umweltwirkung digitaler Forschung
 
+## Wer emittiert? Die drei Scopes
+
+\footnotesize
+
+| Scope | Bedeutung | Beispiel in der Forschungs-IT |
+|------------|------------------|------------------|
+| **1** -- direkt | Emissionen aus Quellen, die man selbst besitzt oder kontrolliert | eigenes Notstromaggregat, eigene Gasheizung im Serverraum |
+| **2** -- eingekaufter Strom | Emissionen bei der Erzeugung des zugekauften Stroms | Strom für die eigenen Server und Arbeitsplatzrechner |
+| **3** -- übrige indirekte | alle anderen Emissionen, die die eigene Tätigkeit verursacht, aus fremden Quellen | Herstellung und Entsorgung der Hardware, gemietete Cloud- und HPC-Rechenzeit |
+
+\normalsize
+
+\vfill
+
+Nach dem *GHG Protocol Corporate Standard* [@ghgprotocol-2004]
+
 ## Drei Phasen, drei Arten von Emissionen
 
 \footnotesize
@@ -75,6 +133,38 @@ Lizenz der Keynote: CC BY 4.0. Aufbau und Aussagen sind übernommen und ins Deut
 | **Herstellung** -- wenn die Technik gebaut wird | graue Emissionen (*embodied*) | 3 |
 | **Nutzung** -- wenn die Technik betrieben und gewartet wird | Emissionen der Nutzungsphase | 1 und 2 |
 | **Entsorgung** -- wenn die Technik ausgemustert wird | Emissionen am Lebensende | 3 |
+
+\normalsize
+
+## Nicht nur CO~2~: der Wasserverbrauch
+
+\footnotesize
+
+Lange stand der Energieverbrauch im Mittelpunkt; erst in jüngerer Zeit rückt der Wasserverbrauch von KI "als bedeutender Umweltfaktor verstärkt in den Fokus".
+
+| Wasserpfad | Phase | Befund |
+|---------------|---------|------------------------------|
+| **Kühlung** im Rechenzentrum (direkt) | Nutzung | hängt von Standort, Kühltechnik, Energiequelle sowie Tages- und Jahreszeit ab |
+| **Stromerzeugung** für den Betrieb (indirekt) | Nutzung | größter Anteil am Wasserfußabdruck eines Rechenzentrums |
+| **Chipfertigung**, v. a. Reinstwasser zur Waferreinigung | Herstellung | weltweit 751 Mio. m³ (2021); fast die Hälfte der Fertigung in Regionen mit überdurchschnittlicher Wasserknappheit |
+
+- Auch Teile Deutschlands, "insbesondere Brandenburg", werden voraussichtlich unter mittlerem bis hohem Wasserstress leiden.
+
+\normalsize
+
+\vfill
+
+Nach der GI-Studie zum Wasserverbrauch von KI [@gi-2025-wasser, Abb. 7]
+
+## Wasser: Befunde für die Praxis
+
+\footnotesize
+
+- **Software zählt doppelt.** "Modellgröße, Programmiersprache und Algorithmeneffizienz" prägen den Fußabdruck; Green Coding soll den "Gesamtverbrauch an Energie und Wasser senken" [@gi-2025-wasser].
+- **Mehrere Ziele zugleich.** Pareto-Analysen bewerten Modelle nach Genauigkeit *und* Energie- und Wassereffizienz.
+- **Nutzung schlägt Training.** Die kontinuierliche Nutzung (Inferenz) ist der "wesentlich größere und langfristigere Faktor"; Training ist ortsunabhängig und könnte in wasserreichen Regionen laufen.
+- **Zielkonflikte.** "So kann eine erhöhte Energieeffizienz zu einem höheren Wasserverbrauch führen, während wassersparende Kühltechnologien oft mehr Strom benötigen".
+- **Kaum messbar.** PUE bildet den Wasserverbrauch nicht ab, WUE ist wenig verbreitet und unvollständig^[Power Usage Effectiveness: $\mathrm{PUE} = \frac{\text{gesamter Energieverbrauch des Rechenzentrums}}{\text{Energieverbrauch der IT-Geräte}}$, ideal 1,0, in der Praxis meist 1,1--2,5. Water Usage Effectiveness: $\mathrm{WUE} = \frac{\text{gesamter Wasserverbrauch des Rechenzentrums in Litern}}{\text{Energieaufnahme der IT-Geräte in Kilowattstunden}}$; erfasst nur den direkten Wasserverbrauch, nicht den der Stromerzeugung oder Hardwareherstellung [@gi-2025-wasser].]; viele Unternehmen veröffentlichen keine detaillierten Daten.
 
 \normalsize
 
@@ -99,6 +189,68 @@ Lizenz der Keynote: CC BY 4.0. Aufbau und Aussagen sind übernommen und ins Deut
 | **Herstellung** | Bedarf an neuer Hardware senken; vorhandene Hardware auslasten; nachhaltig beschaffen; Rechenbedarf sauber planen |
 | **Nutzung** | Energieverbrauch senken; Algorithmen und Code optimieren; unnötige Berechnungen (auch Daten) vermeiden; profilen; nach CO~2~-Intensität planen (*carbon scheduling*); passend dimensionierte Ressourcen wählen |
 | **Entsorgung** | Lebensdauer und Wiederverwendung der Geräte berichten -- als Grundlage für die nächste Beschaffung |
+
+\normalsize
+
+## Performance und Energieeffizienz
+
+<!-- Jede Aussage ist im Volltext der zitierten Quelle geprüft (siehe course_literature.md). -->
+
+\footnotesize
+
+- **Energie = Leistung × Zeit.** Bei fester Zahl aktiver Kerne bestimmt die Laufzeit den Verbrauch; mehr Kerne erhöhen die Leistungsaufnahme bis etwa aufs Doppelte [@vankempen-2025].
+- **Sprachvergleich** (27 Sprachen, Computer Language Benchmarks Game, gemessen mit RAPL): normierte Energie C = 1,00, Python = 75,88 -- und doch: "a faster language is not always the most energy efficient" [@pereira-2017].
+- **Nachprüfung mit korrigierter Messmethode:** die Sprachimplementierung hat "no significant impact on energy consumption beyond execution time" -- wer Energie sparen will, optimiert Performance [@vankempen-2025].
+- **Daten bewegen kostet:** ein DRAM-Zugriff (1--2 nJ) ist um Größenordnungen teurer als ein Cache-Zugriff oder eine Rechenoperation (ca. 10 pJ) [@horowitz-2014]. Im Benchmark-Gesamtverbrauch bleibt der Speicher dennoch klein: 2--8 % der CPU-Energie [@vankempen-2025].
+- **Langsamer heißt nicht sparsamer:** $P = C f V^2 + P_{static}$. Auf der neuesten untersuchten Plattform *erhöhte* Heruntertakten (DVFS) den Energieverbrauch, selbst bei speichergebundener Last [@lesueur-2010].
+
+\normalsize
+
+## Wohin fließt die Energie?
+
+<!-- Geprüft: Barroso, Green-Grid-WP49, Uptime-2026-PDF, Lei et al. (arXiv-HTML) im Volltext; NVIDIA-, Intel-, NVML- und Green500-Seiten im Wortlaut (17.11.2026). -->
+
+\footnotesize
+
+- **CPU und Speicher:** Bei kompilierten Sprachen entfallen rund 89 % der RAPL-Energie auf die CPU, der Rest auf DRAM [@pereira-2017] (zum Speicher s. vorige Folie).
+- **Der Rest des Servers:** Netzteil, Lüfter, Platten, Netzwerk misst RAPL nicht mit [@pyrapl]. Selbst ein energieeffizienter Server braucht "about half its full power when doing virtually no work" [@barroso-2007].
+- **Das Rechenzentrum:** PUE = Gesamtenergie der Anlage / Energie der IT-Geräte [@greengrid-2012]; Branchenmittel 2026: 1,52 [@uptime-2026] -- auf 1 kWh Rechnen kommt rund 0,5 kWh Infrastruktur.
+- **GPUs:** NVIDIA H100 (SXM) bis 700 W TDP, ein Intel Xeon Platinum 8480+ 350 W [@nvidia-h100; @intel-8480]. Trotzdem nutzen alle zehn effizientesten Systeme der Green500 (Nov. 2026) GPU-Beschleuniger, Spitze 73,28 GFlops/W [@green500-2026] -- gemessen wird Rechenleistung pro Watt, nicht Leistung allein.
+- **Leerlauf auf der GPU:** Ein reservierter, aber nicht rechnender Job hält eine NVIDIA L40S bei rund 110 W statt 35 W im tiefen Leerlauf; in einem Hochschul-Cluster sind das 10,7 % der Energie (Preprint) [@lei-2026].
+- **Messen:** RAPL erfasst nur CPU-Package und DRAM; für NVIDIA-GPUs liefert NVML die Leistung in mW und ab Volta einen Energiezähler in mJ [@nvml].
+
+\normalsize
+
+## Energie messen in Python: pyRAPL
+
+<!-- Angaben geprüft in README, Doku (Quickstart, API) und PyPI-Seite von pyRAPL bzw. pyJoules. -->
+
+\footnotesize
+
+```python
+import pyRAPL
+pyRAPL.setup()                    # alle Sockets, Domänen PKG (CPU) und DRAM
+with pyRAPL.Measurement('bar'):   # misst den Block und gibt das Ergebnis aus
+    foo()
+```
+
+- Ergebnis (`meter.result`): Energie je Socket in µJ, Dauer in µs. Dekorator: `@pyRAPL.measureit` (Doku) bzw. `@pyRAPL.measure` (PyPI-Beschreibung) [@pyrapl].
+- **Voraussetzung:** Intel-CPU ab Sandy Bridge -- RAPL ist eine Schätzung der Hardware, keine externe Messung [@pyrapl].
+- **Grenze:** RAPL misst das ganze Package -- andere Prozesse auf demselben Socket zählen mit; Zähler können überlaufen [@vankempen-2025].
+- **Pflegestand:** letzte Version 0.2.3.1 vom 19.12.2019. Alternative aus derselben PowerAPI-Initiative: pyJoules (`@measure_energy`, zusätzlich NVIDIA-GPUs ab Volta), nur GNU/Linux, letzte Version 0.5.1 vom 16.11.2020 [@pyjoules].
+
+\normalsize
+
+## Und im HPC?
+
+<!-- Barroso und SchedMD SUG13 im Volltext geprüft, LRZ- und Slurm-Seiten im Wortlaut. -->
+
+\footnotesize
+
+- **Leerlauf kostet:** Server laufen meist bei 10--50 % Auslastung, brauchen aber schon fast ohne Last rund die Hälfte ihrer Spitzenleistung [@barroso-2007]. Reservierte, aber ungenutzte Knoten und GPUs verbrauchen also mit.
+- **Mehr Knoten sind nicht gratis:** Energie $\approx$ Knoten $\times$ Leistung $\times$ Laufzeit. Sinkt die parallele Effizienz, steigt die Energie, obwohl der Job früher fertig ist (Folgerung aus [@vankempen-2025]).
+- **Takt je Anwendung wählen:** SuperMUC (LRZ, 2013) rechnete standardmäßig mit 2,3 GHz; höheren Takt gab es nur, wenn die Laufzeit genug sank, z.B. 2,5 GHz bei > 5 % [@lrz-2013]. Auf SuperMUC-NG leitet *Energy Aware Runtime* die Frequenz je Job aus dessen Laufzeitverhalten ab [@lrz-ear]. Ob Heruntertakten spart, hängt also von der Anwendung ab (vgl. [@lesueur-2010]).
+- **Messen mit Slurm:** `sacct -o ConsumedEnergy` (Joule, z.B. über `acct_gather_energy/rapl`) -- real nur bei exklusiver Allokation; `--cpu-freq` ist eine Anfrage, keine Garantie [@slurm-docs; @schedmd-2013].
 
 \normalsize
 
