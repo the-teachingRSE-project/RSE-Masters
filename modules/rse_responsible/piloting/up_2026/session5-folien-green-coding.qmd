@@ -156,27 +156,25 @@ Lange stand der Energieverbrauch im Mittelpunkt; erst in jüngerer Zeit rückt d
 
 Nach der GI-Studie zum Wasserverbrauch von KI [@gi-2025-wasser, Abb. 7]
 
-## Wasser: Befunde für die Praxis
+## Wasser: Befunde für die Praxis (1/2)
 
 \footnotesize
 
 - **Software zählt doppelt.** "Modellgröße, Programmiersprache und Algorithmeneffizienz" prägen den Fußabdruck; Green Coding soll den "Gesamtverbrauch an Energie und Wasser senken" [@gi-2025-wasser].
 - **Mehrere Ziele zugleich.** Pareto-Analysen bewerten Modelle nach Genauigkeit *und* Energie- und Wassereffizienz.
 - **Nutzung schlägt Training.** Die kontinuierliche Nutzung (Inferenz) ist der "wesentlich größere und langfristigere Faktor"; Training ist ortsunabhängig und könnte in wasserreichen Regionen laufen.
-- **Zielkonflikte.** "So kann eine erhöhte Energieeffizienz zu einem höheren Wasserverbrauch führen, während wassersparende Kühltechnologien oft mehr Strom benötigen".
-- **Kaum messbar.** PUE bildet den Wasserverbrauch nicht ab, WUE ist wenig verbreitet und unvollständig^[Power Usage Effectiveness: $\mathrm{PUE} = \frac{\text{gesamter Energieverbrauch des Rechenzentrums}}{\text{Energieverbrauch der IT-Geräte}}$, ideal 1,0, in der Praxis meist 1,1--2,5. Water Usage Effectiveness: $\mathrm{WUE} = \frac{\text{gesamter Wasserverbrauch des Rechenzentrums in Litern}}{\text{Energieaufnahme der IT-Geräte in Kilowattstunden}}$; erfasst nur den direkten Wasserverbrauch, nicht den der Stromerzeugung oder Hardwareherstellung [@gi-2025-wasser].]; viele Unternehmen veröffentlichen keine detaillierten Daten.
 
 \normalsize
 
-## Ein Umfeld im Wandel
+## Wasser: Befunde für die Praxis (2/2)
 
-> "embedding environmental sustainability across all aspects of research and innovation."
-> -- UKRI Environmental Sustainability Strategy 2025 to 2030
+\footnotesize
 
-\vfill
+- **Zielkonflikte.** "So kann eine erhöhte Energieeffizienz zu einem höheren Wasserverbrauch führen, während wassersparende Kühltechnologien oft mehr Strom benötigen".
+- **Kaum messbar.** PUE bildet den Wasserverbrauch nicht ab, WUE ist wenig verbreitet und unvollständig^[Power Usage Effectiveness: $\mathrm{PUE} = \dfrac{\text{gesamter Energieverbrauch des Rechenzentrums}}{\text{Energieverbrauch der IT-Geräte}}$, ideal 1,0, in der Praxis meist 1,1--2,5.
+\newline Water Usage Effectiveness: $\mathrm{WUE} = \dfrac{\text{gesamter Wasserverbrauch des Rechenzentrums in Litern}}{\text{Energieaufnahme der IT-Geräte in Kilowattstunden}}$; erfasst nur den direkten Wasserverbrauch, nicht den der Stromerzeugung oder Hardwareherstellung [@gi-2025-wasser].]; viele Unternehmen veröffentlichen keine detaillierten Daten.
 
-- **NetDRIVE** (<https://uknetdrive.org/>): bringt die britische Community der digitalen Forschungsinfrastruktur zusammen, um praktische Wege zu nachhaltigerem Forschungsrechnen zu entwickeln.
-- Instrumente: Champions, Förderaufrufe, Arbeitsgruppen.
+\normalsize
 
 # Was können RSEs tun?
 
@@ -268,21 +266,6 @@ with pyRAPL.Measurement('bar'):   # misst den Block und gibt das Ergebnis aus
 \footnotesize
 *Greening Digital Research*, Weronika Filinger (EPCC). Material zu Advocacy: <https://github.com/KirstyPringle/advocacy-for-sustainable-research>
 \normalsize
-
-# Do one thing
-
-## Klein, mittel, groß
-
-- **Klein:** das Training *Sustainable Digital Research Activities* machen -- <https://sdratraining.sparkhub.eu/>
-- **Mittel:** mitreden -- <https://forum.escs-community.org/>
-- **Groß:** eine Forschungsgruppe durch **Green DiSC** begleiten:
-    - freies, offen zugängliches Zertifizierungsverfahren
-    - gibt einen Fahrplan zur Emissionsminderung vor
-    - legitimiert die Arbeit an diesem Thema
-
-\vfill
-
-Führungsrollen: *Developing a Community of Leaders in Digital Research* -- <https://discourse-network.github.io/>
 
 ## Literatur {.allowframebreaks}
 
